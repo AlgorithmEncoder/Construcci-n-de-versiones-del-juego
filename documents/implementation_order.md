@@ -65,3 +65,6 @@ Dispararlos.
 *game.py*
 
 Conectar todo
+
+## Fase 10
+*input_manager.py*

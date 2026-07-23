@@ -32,7 +32,8 @@ EXPECTED_STRUCTURE = {
         "core": {
             "game.py": None,
             "clock.py": None,
-            "memory_loader.py": None
+            "memory_loader.py": None,
+            "render_state.py": None,
         },
         "entities": {
             "npc.py": None
@@ -44,6 +45,11 @@ EXPECTED_STRUCTURE = {
             "ui.py": None,
             "computer.py": None,
             "document.py": None,
+            "assets.py": None,
+            "dialogue.py": None,
+            "overlay.py": None,
+            "renderer.py": None,
+            "fonts.py": None
         },
         "world": {
             "objects": {
