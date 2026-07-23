@@ -42,9 +42,15 @@ EXPECTED_STRUCTURE = {
         },
         "ui":{
             "ui.py": None,
-            "computer.py": None
+            "computer.py": None,
+            "document.py": None,
         },
         "world": {
+            "objects": {
+                "computer.py": None,
+                "document.py": None,
+                "door.py": None
+            },
             "room.py": None,
             "object.py": None
         },

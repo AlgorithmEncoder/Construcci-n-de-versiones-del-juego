@@ -33,6 +33,11 @@ src/
 
     world/
     │
+    ├── objects/
+        │
+        ├── computer.py
+        ├── document.py
+        └── door.py
     ├── room.py
     └── object.py
 
