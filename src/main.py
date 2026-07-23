@@ -11,7 +11,7 @@ from constants import (
     FPS
 )
 
-from game import Game
+from core.game import Game
 
 
 def main():
