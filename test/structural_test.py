@@ -21,6 +21,7 @@ EXPECTED_STRUCTURE = {
                 "npcs.json": None,
                 "events.json": None,
                 "story.json": None,
+                "metadata.json": None
             }
         }
     },

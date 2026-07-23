@@ -9,12 +9,13 @@ assets/
 data/
 │
 └── memories/
-    └── memory_01/
+    └── <<memory>>/
         ├── rooms.json
         ├── computers.json
         ├── npcs.json
         ├── events.json
-        └── story.json
+        ├── story.json
+        └── metadata.json
 
 src/
 
