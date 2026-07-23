@@ -25,26 +25,38 @@ EXPECTED_STRUCTURE = {
         }
     },
     "src": {
+        "core": {
+            "game.py": None,
+            "clock.py": None,
+            "memory_loader.py": None
+        },
+        "entities": {
+            "npc.py": None
+        },
+        "managers": {
+            "event_manager.py": None
+        },
+        "ui":{
+            "ui.py": None,
+            "computer.py": None
+        },
+        "world": {
+            "room.py": None,
+            "object.py": None
+        },
         "main.py": None,
-        "game.py": None,
-        "room.py": None,
-        "clock.py": None,
-        "npc.py": None,
-        "object.py": None,
-        "computer.py": None,
-        "event_manager.py": None,
-        "ui.py": None,
-        "memory_loader.py": None,
         "constants.py": None,
     },
     "documents": {},
     "test": {},
+    ".git": {}
 }
 
 # Carpetas cuyo contenido NO se revisa
 IGNORED_CONTENT = {
     "documents",
     "test",
+    ".git"
 }
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent

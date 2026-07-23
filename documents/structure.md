@@ -17,18 +17,33 @@ data/
         └── story.json
 
 src/
-│
-├── main.py
-├── game.py
-├── room.py
-├── clock.py
-├── npc.py
-├── object.py
-├── computer.py
-├── event_manager.py
-├── ui.py
-├── memory_loader.py
-└── constants.py
+
+    main.py
+    constants.py
+
+    core/
+    │
+    ├── game.py
+    ├── clock.py
+    └── memory_loader.py
+
+    world/
+    │
+    ├── room.py
+    └── object.py
+
+    entities/
+    │
+    └── npc.py
+
+    managers/
+    │
+    └── event_manager.py
+
+    ui/
+    │
+    ├── ui.py
+    └── computer.py
 
 documents/
 
