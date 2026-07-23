@@ -33,7 +33,15 @@ class MemoryLoader:
 
             "computers": self._load_computers(),
 
-            "events": self._load_events()
+            "events": self._load_events(),
+
+            "metadata": self._load_metadata(),
+
+            "diaglogues": self._load_diaglogues(),
+
+            "documents": self._load_documents(),
+
+            "objects": self._load_objects()
         }
 
     # --------------------------------------------------

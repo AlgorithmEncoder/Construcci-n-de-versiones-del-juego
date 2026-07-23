@@ -10,12 +10,15 @@ data/
 │
 └── memories/
     └── <<memory>>/
-        ├── rooms.json
-        ├── computers.json
-        ├── npcs.json
-        ├── events.json
+        ├── metadata.json
         ├── story.json
-        └── metadata.json
+        ├── rooms.json
+        ├── objects.json
+        ├── computers.json
+        ├── documents.json
+        ├── npcs.json
+        ├── dialogues.json
+        └── events.json
 
 src/
 
