@@ -39,6 +39,7 @@ src/
         ├── document.py
         └── door.py
     ├── room.py
+    ├── object_factory.py
     └── object.py
 
     entities/

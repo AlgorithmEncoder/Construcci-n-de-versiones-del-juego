@@ -33,11 +33,9 @@ Nada más.
 Mostrar una sala.
 
 ## Fase 5
-*object.py*
+*object.py* + carpeta objects + *object_factory.py*
 
 Objetos clicables.
-
-## Fase 6
 
 Puertas.
 
@@ -45,30 +43,25 @@ Cambiar de sala.
 
 Ya tienes exploración.
 
+## Fase 6
+*UI/*
+
+
 ## Fase 7
-*computer.py*
-
-Abrir ordenador.
-
-Cerrar ordenador.
-
-Leer contenido.
-
-## Fase 8
 *npc.py*
 
 Mostrar NPC.
 
 Actualizar horario.
 
-## Fase 9
+## Fase 8
 *event_manager.py*
 
 Leer eventos.
 
 Dispararlos.
 
-## Fase 10
+## Fase 9
 *game.py*
 
 Conectar todo

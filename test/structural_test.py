@@ -52,7 +52,8 @@ EXPECTED_STRUCTURE = {
                 "door.py": None
             },
             "room.py": None,
-            "object.py": None
+            "object.py": None,
+            "object_factory.py": None
         },
         "main.py": None,
         "constants.py": None,
