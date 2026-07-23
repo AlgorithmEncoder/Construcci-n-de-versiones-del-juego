@@ -15,7 +15,7 @@ EXPECTED_STRUCTURE = {
     },
     "data": {
         "memories": {
-            "memory_01": {
+            "<memory>": {
                 "rooms.json": None,
                 "computers.json": None,
                 "npcs.json": None,
@@ -64,8 +64,27 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 def check_missing(base_path: Path, structure: dict, errors: list):
     """Comprueba que no falte ningún archivo o carpeta."""
+    
+    if "<memory>" in structure:
 
+        template = structure["<memory>"]
+
+        memories = [
+            d for d in base_path.iterdir()
+            if d.is_dir() and d.name.startswith("memory_")
+        ]
+
+        if not memories:
+            errors.append(f"No existe ninguna carpeta memory_* en {base_path.relative_to(PROJECT_ROOT)}")
+
+        for memory in memories:
+            check_missing(memory, template, errors)
+
+    # El resto de elementos normales
     for name, content in structure.items():
+        if name == "<memory>":
+            continue
+
         path = base_path / name
 
         if content is None:
@@ -83,9 +102,19 @@ def check_missing(base_path: Path, structure: dict, errors: list):
 def check_extra(base_path: Path, structure: dict, warnings: list):
     """Busca archivos y carpetas que no estén definidos."""
 
-    expected = set(structure.keys())
+    template = structure.get("<memory>")
+    expected = {k for k in structure if k != "<memory>"}
 
     for item in base_path.iterdir():
+
+        # Carpetas memory_*
+        if (
+            template is not None
+            and item.is_dir()
+            and item.name.startswith("memory_")
+        ):
+            check_extra(item, template, warnings)
+            continue
 
         # Elemento inesperado
         if item.name not in expected:
@@ -96,11 +125,9 @@ def check_extra(base_path: Path, structure: dict, warnings: list):
 
         expected_content = structure[item.name]
 
-        # Es un archivo
         if expected_content is None:
             continue
 
-        # No revisar contenido de estas carpetas
         if item.name in IGNORED_CONTENT:
             continue
 
