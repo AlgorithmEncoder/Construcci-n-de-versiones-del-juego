@@ -140,6 +140,21 @@ Objetivo
 
 Así no tienes esos datos repartidos.
 
+metadata.json
+
+No para esta versión, sino pensando en el futuro.
+
+Ahí guardaríamos cosas como:
+
+{
+    "id": "memory_01",
+    "name": "The First Memory",
+    "author": "Alex",
+    "version": "1.0"
+}
+
+No afecta al juego, pero permite identificar memorias, versionarlas o incluso mostrar información en un menú sin mezclarla con la historia (story.json).
+
 src/
 
 Aquí está el motor.
