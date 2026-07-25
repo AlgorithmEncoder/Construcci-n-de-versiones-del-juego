@@ -1,0 +1,35 @@
+{
+    "title": "The Interview",
+
+    "time_limit": 600,
+
+    "initial_room": "waiting_room",
+
+    "objective": "Discover what is happening and who is behind it.",
+
+    "intro": [
+        "SUBJECT: Clara.",
+        "",
+        "The conscious mind cannot access the information we need.",
+        "Fragments remain buried in the subconscious.",
+        "",
+        "Enter the dream.",
+        "Observe.",
+        "Connect the pieces.",
+        "",
+        "When the dream becomes unstable, it will restart.",
+        "Your memory will not."
+    ],
+
+    "ending": [
+        "Dream complete.",
+        "",
+        "Analysis summary:",
+        "",
+        "Most dream entities show fragmented memories and uncertainty.",
+        "One individual behaves consistently and appears to retain coherent information.",
+        "",
+        "Recommended next subject:",
+        "Miguel Ruiz."
+    ]
+}

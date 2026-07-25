@@ -1,0 +1,134 @@
+{
+    "clara": {
+        "name": "Clara",
+        "sprite": "clara",
+        "room": "reception",
+        "dialogue": "clara_default",
+        "positions": {
+            "reception": [629, 303],
+            "archive": [755, 230]
+        },
+        "schedule": [
+            {
+                "time": "08:00",
+                "room": "reception"
+            },
+            {
+                "time": "08:02",
+                "room": "archive"
+            },
+            {
+                "time": "08:04",
+                "room": "reception"
+            },
+            {
+                "time": "08:07",
+                "room": "archive"
+            },
+            {
+                "time": "08:08",
+                "room": "reception"
+            }
+        ]
+    },
+
+    "miguel": {
+        "name": "Miguel Ruiz",
+        "sprite": "miguel",
+        "room": "office",
+        "dialogue": "miguel_default",
+        "positions": {
+            "office": [1046, 244],
+            "meeting_room": [184, 360]
+        },
+        "schedule": [
+            {
+                "time": "08:00",
+                "room": "office"
+            },
+            {
+                "time": "08:04",
+                "room": "meeting_room"
+            },
+            {
+                "time": "08:06",
+                "room": "office"
+            }
+        ]
+    },
+
+    "marta": {
+        "name": "Marta Romero",
+        "sprite": "marta",
+        "room": "hall",
+        "dialogue": "marta_default",
+        "positions": {
+            "hall": [1071, 313],
+            "meeting_room": [1146, 360]
+        },
+        "schedule": [
+            {
+                "time": "08:00",
+                "room": "hall"
+            },
+            {
+                "time": "08:03",
+                "room": "meeting_room"
+            },
+            {
+                "time": "08:06",
+                "room": "hall"
+            }
+        ]
+    },
+
+    "laura": {
+        "name": "Laura Pérez",
+        "sprite": "laura",
+        "room": "reception",
+        "dialogue": "laura_default",
+        "positions": {
+            "reception": [943, 303],
+            "hall": [703, 312]
+        },
+        "schedule": [
+            {
+                "time": "08:00",
+                "room": "reception"
+            },
+            {
+                "time": "08:05",
+                "room": "hall"
+            },
+            {
+                "time": "08:08",
+                "room": "reception"
+            }
+        ]
+    },
+
+    "carlos": {
+        "name": "Carlos Vega",
+        "sprite": "carlos",
+        "room": "meeting_room",
+        "dialogue": "carlos_default",
+        "positions": {
+            "meeting_room": [846, 360],
+            "hall": [521, 300]
+        },
+        "schedule": [
+            {
+                "time": "08:00",
+                "room": "meeting_room"
+            },
+            {
+                "time": "08:05",
+                "room": "hall"
+            },
+            {
+                "time": "08:07",
+                "room": "meeting_room"
+            }
+        ]
+    }
+}

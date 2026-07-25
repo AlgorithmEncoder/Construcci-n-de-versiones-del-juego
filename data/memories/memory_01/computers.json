@@ -1,0 +1,146 @@
+{
+    "reception_pc": {
+        "emails": [
+            {
+                "from": "IT",
+                "subject": "Printer maintenance",
+                "body": "The printer on the first floor will be unavailable between 11:00 and 11:30."
+            },
+            {
+                "from": "Facilities",
+                "subject": "Coffee machine",
+                "body": "The coffee machine has been repaired. Please report any further issues."
+            },
+            {
+                "from": "Reception",
+                "subject": "Interview today",
+                "body": "The candidate is expected at 08:30. Please prepare the meeting room."
+            },
+            {
+                "from": "Marta Romero",
+                "subject": "Employee list",
+                "body": "I've updated the employee registry. Please replace the old printed copy."
+            },
+            {
+                "from": "Miguel Ruiz",
+                "subject": "Visitors",
+                "body": "No visitors are allowed beyond Reception without my approval."
+            },
+            {
+                "from": "Unknown",
+                "subject": "Question",
+                "body": "Do you remember who used Desk 4?"
+            }
+        ],
+
+        "chats": [
+            {
+                "with": "Laura",
+                "messages": [
+                    "Morning!",
+                    "Morning :)",
+                    "Busy day?"
+                ]
+            },
+            {
+                "with": "Carlos",
+                "messages": [
+                    "Have you booked the meeting room?",
+                    "Yes."
+                ]
+            },
+            {
+                "with": "Marta",
+                "messages": [
+                    "Can you print the employee list?",
+                    "Already done."
+                ]
+            },
+            {
+                "with": "Ana",
+                "messages": [
+                    "Do you remember who sat at Desk 4?",
+                    "...",
+                    "That's a strange question."
+                ]
+            },
+            {
+                "with": "Miguel Ruiz",
+                "messages": [
+                    "Please send today's visitor upstairs when I call.",
+                    "Understood."
+                ]
+            }
+        ],
+
+        "files": [
+            "Reception Manual.pdf",
+            "Emergency Contacts.xlsx",
+            "Visitor Template.docx",
+            "Office Map.png"
+        ]
+    },
+
+    "director_pc": {
+        "emails": [
+            {
+                "from": "Finance",
+                "subject": "Budget approved",
+                "body": "The revised budget has been approved."
+            },
+            {
+                "from": "Marta Romero",
+                "subject": "Staff questions",
+                "body": "Several employees have asked the same question again. I don't know what to answer anymore."
+            },
+            {
+                "from": "Miguel Ruiz",
+                "subject": "Reminder",
+                "body": "Do not discuss unfinished matters outside this office."
+            },
+            {
+                "from": "Unknown",
+                "subject": "Meeting",
+                "body": "We need to talk before anyone else starts asking."
+            }
+        ],
+
+        "chats": [
+            {
+                "with": "Marta",
+                "messages": [
+                    "They're asking again.",
+                    "Keep everyone focused on today's work.",
+                    "How long will this last?",
+                    "As long as necessary."
+                ]
+            },
+            {
+                "with": "Carlos",
+                "messages": [
+                    "The reports are ready.",
+                    "Leave them on my desk."
+                ]
+            }
+        ],
+
+        "files": [
+            "Quarterly Report.pdf",
+            "Payroll.xlsx",
+            "Meeting Minutes.docx",
+            "Confidential"
+        ]
+    },
+
+    "meeting_laptop": {
+        "emails": [],
+
+        "chats": [],
+
+        "files": [
+            "Weekly Meeting.pptx",
+            "Project Planning.xlsx",
+            "Meeting Notes.docx"
+        ]
+    }
+}

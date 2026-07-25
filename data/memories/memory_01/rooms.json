@@ -1,0 +1,92 @@
+{
+    "waiting_room": {
+        "name": "Waiting Room",
+        "background": "waiting_room",
+        "connections": [
+            "reception"
+        ],
+        "objects": [
+            "door_reception",
+            "magazine",
+            "notepad_waiting"
+        ]
+    },
+
+    "reception": {
+        "name": "Reception",
+        "background": "reception",
+        "connections": [
+            "waiting_room",
+            "hall",
+            "archive"
+        ],
+        "objects": [
+            "door_waiting",
+            "door_archive",
+            "door_hall",
+            "pc_reception",
+            "agenda",
+            "calendar"
+        ]
+    },
+
+    "archive": {
+        "name": "Archive",
+        "background": "archive",
+        "connections": [
+            "reception"
+        ],
+        "objects": [
+            "door_reception_archive",
+            "employee_archive",
+            "contracts_archive",
+            "photo_archive",
+            "paper_bin"
+        ]
+    },
+
+    "hall": {
+        "name": "Hall",
+        "background": "hall",
+        "connections": [
+            "reception",
+            "office",
+            "meeting_room"
+        ],
+        "objects": [
+            "door_reception_hall",
+            "door_office",
+            "door_meeting",
+            "company_board"
+        ]
+    },
+
+    "office": {
+        "name": "Director Office",
+        "background": "office",
+        "connections": [
+            "hall"
+        ],
+        "objects": [
+            "door_hall_office",
+            "pc_director",
+            "director_desk",
+            "director_diploma",
+            "director_photo"
+        ]
+    },
+
+    "meeting_room": {
+        "name": "Meeting Room",
+        "background": "meeting_room",
+        "connections": [
+            "hall"
+        ],
+        "objects": [
+            "door_hall_meeting",
+            "meeting_laptop",
+            "meeting_whiteboard",
+            "meeting_schedule"
+        ]
+    }
+}

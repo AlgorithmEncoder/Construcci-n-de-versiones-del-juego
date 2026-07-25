@@ -1,0 +1,112 @@
+{
+    "clara_default": [
+        {
+            "text": "Buenos días. Tome asiento, por favor."
+        },
+        {
+            "text": "El director le recibirá en cuanto termine una reunión."
+        },
+        {
+            "text": "Puede esperar aquí mientras tanto."
+        }
+    ],
+
+    "clara_question_employee": [
+        {
+            "text": "¿Un empleado? Aquí trabaja bastante gente..."
+        },
+        {
+            "text": "Perdone, hoy llevo una mañana un poco rara."
+        }
+    ],
+
+    "clara_question_director": [
+        {
+            "text": "El director está muy ocupado esta mañana."
+        },
+        {
+            "text": "Cuando termine la reunión le avisará."
+        }
+    ],
+
+    "clara_question_daniel": [
+        {
+            "text": "...¿Daniel?"
+        },
+        {
+            "text": "Ese nombre me resulta familiar..."
+        },
+        {
+            "text": "Lo siento... creo que lo estoy confundiendo con otra persona."
+        }
+    ],
+
+    "miguel_default": [
+        {
+            "text": "Ahora mismo no puedo atenderle."
+        },
+        {
+            "text": "Espere en recepción."
+        }
+    ],
+
+    "miguel_after_meeting": [
+        {
+            "text": "Todavía no."
+        },
+        {
+            "text": "Hay asuntos más importantes que resolver."
+        }
+    ],
+
+    "marta_default": [
+        {
+            "text": "Buenos días."
+        },
+        {
+            "text": "Siempre llego demasiado pronto."
+        }
+    ],
+
+    "marta_question_employee": [
+        {
+            "text": "¿Quién?"
+        },
+        {
+            "text": "Perdón... últimamente me cuesta recordar algunos nombres."
+        }
+    ],
+
+    "laura_default": [
+        {
+            "text": "¿Ha venido por la entrevista?"
+        },
+        {
+            "text": "Seguro que no tarda mucho."
+        }
+    ],
+
+    "laura_question_director": [
+        {
+            "text": "El director suele encerrarse en su despacho antes de las reuniones."
+        }
+    ],
+
+    "carlos_default": [
+        {
+            "text": "Tengo que terminar unos informes."
+        },
+        {
+            "text": "Hoy todo el mundo parece distraído."
+        }
+    ],
+
+    "carlos_question_employee": [
+        {
+            "text": "Juraría que antes había una mesa ocupada allí..."
+        },
+        {
+            "text": "Aunque quizá me esté equivocando."
+        }
+    ]
+}

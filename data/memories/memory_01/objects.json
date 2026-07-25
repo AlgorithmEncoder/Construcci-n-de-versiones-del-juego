@@ -1,0 +1,986 @@
+{
+    "door_reception": {
+        "type": "door",
+        "destination": "reception",
+        "position": [
+            1095,
+            155
+        ],
+        "polygon": [
+            [
+                312,
+                -1
+            ],
+            [
+                313,
+                481
+            ],
+            [
+                59,
+                479
+            ],
+            [
+                58,
+                412
+            ],
+            [
+                35,
+                399
+            ],
+            [
+                38,
+                386
+            ],
+            [
+                110,
+                273
+            ],
+            [
+                67,
+                232
+            ],
+            [
+                18,
+                228
+            ],
+            [
+                0,
+                219
+            ],
+            [
+                0,
+                -2
+            ]
+        ]
+    },
+
+    "door_waiting": {
+        "type": "door",
+        "destination": "waiting_room",
+        "position": [
+            1365,
+            216
+        ],
+        "polygon": [
+            [
+                0,
+                0
+            ],
+            [
+                43,
+                -11
+            ],
+            [
+                43,
+                178
+            ],
+            [
+                0,
+                185
+            ],
+            [
+                35,
+                200
+            ],
+            [
+                15,
+                233
+            ],
+            [
+                38,
+                212
+            ],
+            [
+                38,
+                231
+            ],
+            [
+                10,
+                258
+            ],
+            [
+                39,
+                243
+            ],
+            [
+                42,
+                297
+            ],
+            [
+                3,
+                293
+            ]
+        ]
+    },
+
+    "door_archive": {
+        "type": "door",
+        "destination": "archive",
+        "position": [
+            128,
+            152
+        ],
+        "polygon": [
+            [
+                0,
+                0
+            ],
+            [
+                38,
+                14
+            ],
+            [
+                38,
+                273
+            ],
+            [
+                0,
+                207
+            ]
+        ]
+    },
+
+    "door_reception_archive": {
+        "type": "door",
+        "destination": "reception",
+        "position": [
+            1408,
+            583
+        ],
+        "polygon": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                221
+            ],
+            [
+                -42,
+                174
+            ],
+            [
+                -166,
+                171
+            ]
+        ]
+    },
+
+    "door_hall": {
+        "type": "door",
+        "destination": "hall",
+        "position": [
+            1061,
+            228
+        ],
+        "polygon": [
+            [
+                172,
+                0
+            ],
+            [
+                171,
+                266
+            ],
+            [
+                133,
+                271
+            ],
+            [
+                89,
+                241
+            ],
+            [
+                2,
+                240
+            ],
+            [
+                -2,
+                -3
+            ]
+        ]
+    },
+
+    "door_reception_hall": {
+        "type": "door",
+        "destination": "reception",
+        "position": [
+            1179,
+            256
+        ],
+        "polygon": [
+            [
+                0,
+                0
+            ],
+            [
+                99,
+                -36
+            ],
+            [
+                103,
+                286
+            ],
+            [
+                3,
+                296
+            ]
+        ]
+    },
+
+    "door_office": {
+        "type": "door",
+        "destination": "office",
+        "position": [
+            128,
+            213
+        ],
+        "polygon": [
+            [
+                0,
+                2
+            ],
+            [
+                84,
+                22
+            ],
+            [
+                88,
+                450
+            ],
+            [
+                0,
+                480
+            ]
+        ]
+    },
+
+    "door_hall_office": {
+        "type": "door",
+        "destination": "hall",
+        "position": [
+            1408,
+            152
+        ],
+        "polygon": [
+            [
+                0,
+                0
+            ],
+            [
+                -85,
+                0
+            ],
+            [
+                -82,
+                422
+            ],
+            [
+                -41,
+                445
+            ],
+            [
+                -37,
+                462
+            ],
+            [
+                -58,
+                461
+            ],
+            [
+                -60,
+                570
+            ],
+            [
+                -49,
+                548
+            ],
+            [
+                -1,
+                534
+            ]
+        ]
+    },
+
+    "door_meeting": {
+        "type": "door",
+        "destination": "meeting_room",
+        "position": [
+            273,
+            240
+        ],
+        "polygon": [
+            [
+                0,
+                0
+            ],
+            [
+                76,
+                29
+            ],
+            [
+                76,
+                369
+            ],
+            [
+                -1,
+                401
+            ]
+        ]
+    },
+
+    "door_hall_meeting": {
+        "type": "door",
+        "destination": "hall",
+        "position": [
+            1407,
+            152
+        ],
+        "polygon": [
+            [
+                0,
+                0
+            ],
+            [
+                -110,
+                0
+            ],
+            [
+                -102,
+                414
+            ],
+            [
+                -50,
+                440
+            ],
+            [
+                -81,
+                625
+            ],
+            [
+                -15,
+                675
+            ],
+            [
+                -11,
+                716
+            ],
+            [
+                1,
+                711
+            ]
+        ]
+    },
+
+    "pc_reception": {
+        "type": "computer",
+        "computer_id": "reception_pc",
+        "position": [
+            277,
+            377
+        ],
+        "polygon": [
+            [
+                0,
+                0
+            ],
+            [
+                197,
+                5
+            ],
+            [
+                206,
+                138
+            ],
+            [
+                119,
+                137
+            ],
+            [
+                125,
+                159
+            ],
+            [
+                158,
+                169
+            ],
+            [
+                133,
+                177
+            ],
+            [
+                48,
+                173
+            ],
+            [
+                76,
+                160
+            ],
+            [
+                83,
+                136
+            ],
+            [
+                10,
+                129
+            ]
+        ]
+    },
+
+    "pc_director": {
+        "type": "computer",
+        "computer_id": "director_pc",
+        "position": [
+            373,
+            394
+        ],
+        "polygon": [
+            [
+                1,
+                -3
+            ],
+            [
+                178,
+                5
+            ],
+            [
+                188,
+                137
+            ],
+            [
+                105,
+                137
+            ],
+            [
+                97,
+                156
+            ],
+            [
+                145,
+                162
+            ],
+            [
+                112,
+                179
+            ],
+            [
+                18,
+                170
+            ],
+            [
+                57,
+                144
+            ],
+            [
+                60,
+                132
+            ],
+            [
+                1,
+                126
+            ],
+            [
+                -10,
+                3
+            ]
+        ]
+    },
+
+    "meeting_laptop": {
+        "type": "computer",
+        "computer_id": "meeting_laptop",
+        "position": [
+            445,
+            607
+        ],
+        "polygon": [
+            [
+                0,
+                0
+            ],
+            [
+                138,
+                20
+            ],
+            [
+                112,
+                133
+            ],
+            [
+                22,
+                164
+            ],
+            [
+                -121,
+                121
+            ],
+            [
+                -26,
+                98
+            ]
+        ]
+    },
+
+    "magazine": {
+        "type": "document",
+        "document_id": "magazine",
+        "position": [
+            374,
+            672
+        ],
+        "polygon": [
+            [
+                94,
+                -11
+            ],
+            [
+                138,
+                41
+            ],
+            [
+                33,
+                53
+            ],
+            [
+                -1,
+                -1
+            ]
+        ]
+    },
+
+    "notepad_waiting": {
+        "type": "document",
+        "document_id": "waiting_notepad",
+        "position": [
+            715,
+            714
+        ],
+        "polygon": [
+            [
+                68,
+                -44
+            ],
+            [
+                139,
+                -25
+            ],
+            [
+                147,
+                -6
+            ],
+            [
+                75,
+                26
+            ],
+            [
+                0,
+                -2
+            ]
+        ]
+    },
+
+    "agenda": {
+        "type": "document",
+        "document_id": "reception_agenda",
+        "position": [
+            663,
+            535
+        ],
+        "polygon": [
+            [
+                2,
+                -1
+            ],
+            [
+                74,
+                -9
+            ],
+            [
+                92,
+                -6
+            ],
+            [
+                174,
+                6
+            ],
+            [
+                166,
+                40
+            ],
+            [
+                -22,
+                31
+            ]
+        ]
+    },
+
+    "calendar": {
+        "type": "document",
+        "document_id": "wall_calendar",
+        "position": [
+            1064,
+            531
+        ],
+        "polygon": [
+            [
+                -1,
+                -4
+            ],
+            [
+                89,
+                -4
+            ],
+            [
+                107,
+                1
+            ],
+            [
+                109,
+                16
+            ],
+            [
+                9,
+                17
+            ]
+        ]
+    },
+
+    "employee_archive": {
+        "type": "document",
+        "document_id": "employee_registry",
+        "position": [
+            128,
+            805
+        ],
+        "polygon": [
+            [
+                0,
+                -1
+            ],
+            [
+                92,
+                18
+            ],
+            [
+                218,
+                -15
+            ],
+            [
+                220,
+                0
+            ],
+            [
+                99,
+                31
+            ],
+            [
+                0,
+                13
+            ]
+        ]
+    },
+
+    "contracts_archive": {
+        "type": "document",
+        "document_id": "contracts_folder",
+        "position": [
+            695,
+            581
+        ],
+        "polygon": [
+            [
+                0,
+                0
+            ],
+            [
+                11,
+                -17
+            ],
+            [
+                64,
+                -18
+            ],
+            [
+                62,
+                -2
+            ],
+            [
+                65,
+                47
+            ],
+            [
+                1,
+                49
+            ]
+        ]
+    },
+
+    "photo_archive": {
+        "type": "document",
+        "document_id": "team_photo",
+        "position": [
+            1021,
+            721
+        ],
+        "polygon": [
+            [
+                0,
+                0
+            ],
+            [
+                71,
+                -36
+            ],
+            [
+                183,
+                -17
+            ],
+            [
+                131,
+                26
+            ]
+        ]
+    },
+
+    "paper_bin": {
+        "type": "document",
+        "document_id": "shredded_document",
+        "position": [
+            501,
+            516
+        ],
+        "polygon": [
+            [
+                0,
+                0
+            ],
+            [
+                113,
+                4
+            ],
+            [
+                126,
+                33
+            ],
+            [
+                123,
+                164
+            ],
+            [
+                109,
+                171
+            ],
+            [
+                -16,
+                166
+            ],
+            [
+                -18,
+                17
+            ]
+        ]
+    },
+
+    "company_board": {
+        "type": "document",
+        "document_id": "company_board",
+        "position": [
+            496,
+            327
+        ],
+        "polygon": [
+            [
+                0,
+                0
+            ],
+            [
+                91,
+                -2
+            ],
+            [
+                92,
+                63
+            ],
+            [
+                -3,
+                66
+            ]
+        ]
+    },
+
+    "director_desk": {
+        "type": "document",
+        "document_id": "desk_notes",
+        "position": [
+            792,
+            537
+        ],
+        "polygon": [
+            [
+                -2,
+                -1
+            ],
+            [
+                -6,
+                78
+            ],
+            [
+                573,
+                58
+            ],
+            [
+                454,
+                -7
+            ],
+            [
+                366,
+                -7
+            ],
+            [
+                303,
+                -23
+            ],
+            [
+                300,
+                -48
+            ],
+            [
+                238,
+                -50
+            ],
+            [
+                151,
+                -38
+            ],
+            [
+                147,
+                -3
+            ]
+        ]
+    },
+
+    "director_diploma": {
+        "type": "document",
+        "document_id": "director_diploma",
+        "position": [
+            349,
+            168
+        ],
+        "polygon": [
+            [
+                0,
+                0
+            ],
+            [
+                114,
+                -1
+            ],
+            [
+                115,
+                95
+            ],
+            [
+                1,
+                99
+            ]
+        ]
+    },
+
+    "director_photo": {
+        "type": "document",
+        "document_id": "office_photo",
+        "position": [
+            1292,
+            434
+        ],
+        "polygon": [
+            [
+                0,
+                0
+            ],
+            [
+                56,
+                2
+            ],
+            [
+                56,
+                49
+            ],
+            [
+                5,
+                55
+            ]
+        ]
+    },
+
+    "meeting_whiteboard": {
+        "type": "document",
+        "document_id": "whiteboard_notes",
+        "position": [
+            509,
+            205
+        ],
+        "polygon": [
+            [
+                0,
+                0
+            ],
+            [
+                514,
+                -2
+            ],
+            [
+                515,
+                272
+            ],
+            [
+                343,
+                272
+            ],
+            [
+                334,
+                251
+            ],
+            [
+                180,
+                252
+            ],
+            [
+                173,
+                275
+            ],
+            [
+                -2,
+                270
+            ]
+        ]
+    },
+
+    "meeting_schedule": {
+        "type": "document",
+        "document_id": "meeting_schedule",
+        "position": [
+            224,
+            302
+        ],
+        "polygon": [
+            [
+                0,
+                0
+            ],
+            [
+                244,
+                11
+            ],
+            [
+                253,
+                187
+            ],
+            [
+                9,
+                207
+            ]
+        ]
+    }
+}

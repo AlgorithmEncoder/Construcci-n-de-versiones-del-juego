@@ -1,0 +1,10 @@
+{
+    "id": "memory_01",
+    "name": "The Interview",
+    "author": "Alex",
+    "version": "1.0.0",
+    "resolution": {
+        "width": 1536,
+        "height": 1024
+    }
+}

@@ -1,0 +1,152 @@
+{
+    "magazine": {
+        "title": "Tech Monthly",
+        "pages": [
+            "The future of cloud computing.",
+            "Top startups of the year.",
+            "Interview with a cybersecurity expert."
+        ]
+    },
+
+    "waiting_notepad": {
+        "title": "Notepad",
+        "pages": [
+            "☐ Buy coffee",
+            "☑ Print interview documents",
+            "☑ Call printer service",
+            "☐ Ask M. about the meeting room projector"
+        ]
+    },
+
+    "reception_agenda": {
+        "title": "Reception Agenda",
+        "pages": [
+            "08:30 - Candidate interview",
+            "09:00 - Weekly meeting",
+            "09:30 - M. Ruiz",
+            "10:15 - Marta Romero",
+            "11:00 - IT Maintenance"
+        ]
+    },
+
+    "wall_calendar": {
+        "title": "Wall Calendar",
+        "pages": [
+            "Monday",
+            "",
+            "Birthdays:",
+            "- Laura (18)",
+            "- Sergio (25)",
+            "",
+            "Fire drill next Friday."
+        ]
+    },
+
+    "employee_registry": {
+        "title": "Employee Registry",
+        "pages": [
+            "Laura Pérez - Reception",
+            "Miguel Ruiz - Director",
+            "Marta Romero - Human Resources",
+            "Carlos Vega - Finance",
+            "Ana López - Administration"
+        ]
+    },
+
+    "contracts_folder": {
+        "title": "Employee Contracts",
+        "pages": [
+            "Contract - Laura Pérez",
+            "Contract - Marta Romero",
+            "Contract - Carlos Vega",
+            "",
+            "[One document has clearly been removed.]"
+        ]
+    },
+
+    "team_photo": {
+        "title": "Company Photo",
+        "pages": [
+            "Five employees posing together.",
+            "",
+            "One face has been scratched out with black ink.",
+            "",
+            "The caption below has been torn away."
+        ]
+    },
+
+    "shredded_document": {
+        "title": "Shredded Paper",
+        "pages": [
+            "...ect Or...",
+            "...meeting approved...",
+            "...Director signature..."
+        ]
+    },
+
+    "company_board": {
+        "title": "Company Information",
+        "pages": [
+            "CEO",
+            "Human Resources",
+            "Finance",
+            "Reception",
+            "Meeting Room →"
+        ]
+    },
+
+    "desk_notes": {
+        "title": "Desk Notes",
+        "pages": [
+            "Call supplier.",
+            "Review quarterly report.",
+            "",
+            "Don't forget M.R."
+        ]
+    },
+
+    "director_diploma": {
+        "title": "University Diploma",
+        "pages": [
+            "Awarded to",
+            "",
+            "Miguel Ruiz",
+            "",
+            "Master in Business Administration"
+        ]
+    },
+
+    "office_photo": {
+        "title": "Framed Photograph",
+        "pages": [
+            "A picture of Miguel Ruiz shaking hands with an unknown executive.",
+            "",
+            "The date has faded."
+        ]
+    },
+
+    "whiteboard_notes": {
+        "title": "Whiteboard",
+        "pages": [
+            "Project Review",
+            "",
+            "- Budget",
+            "- Hiring",
+            "- Server migration",
+            "- Coffee machine"
+        ]
+    },
+
+    "meeting_schedule": {
+        "title": "Meeting Schedule",
+        "pages": [
+            "09:00 - Weekly Meeting",
+            "",
+            "Attendees:",
+            "- M. Ruiz",
+            "- M. Romero",
+            "- Laura Pérez",
+            "- Carlos Vega"
+        ]
+    }
+}

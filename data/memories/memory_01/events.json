@@ -1,0 +1,88 @@
+[
+    {
+        "time": "08:00",
+        "action": "start_loop"
+    },
+
+    {
+        "time": "08:02",
+        "action": "npc_move",
+        "npc": "clara",
+        "room": "archive"
+    },
+
+    {
+        "time": "08:03",
+        "action": "npc_move",
+        "npc": "marta",
+        "room": "meeting_room"
+    },
+
+    {
+        "time": "08:04",
+        "action": "npc_move",
+        "npc": "clara",
+        "room": "reception"
+    },
+
+    {
+        "time": "08:04",
+        "action": "npc_move",
+        "npc": "miguel",
+        "room": "meeting_room"
+    },
+
+    {
+        "time": "08:05",
+        "action": "npc_move",
+        "npc": "laura",
+        "room": "hall"
+    },
+
+    {
+        "time": "08:05",
+        "action": "npc_move",
+        "npc": "carlos",
+        "room": "hall"
+    },
+
+    {
+        "time": "08:06",
+        "action": "npc_move",
+        "npc": "miguel",
+        "room": "office"
+    },
+
+    {
+        "time": "08:06",
+        "action": "npc_move",
+        "npc": "marta",
+        "room": "hall"
+    },
+
+    {
+        "time": "08:07",
+        "action": "npc_move",
+        "npc": "clara",
+        "room": "archive"
+    },
+
+    {
+        "time": "08:07",
+        "action": "npc_move",
+        "npc": "carlos",
+        "room": "meeting_room"
+    },
+
+    {
+        "time": "08:08",
+        "action": "npc_move",
+        "npc": "clara",
+        "room": "reception"
+    },
+
+    {
+        "time": "08:10",
+        "action": "end_loop"
+    }
+]
