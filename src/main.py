@@ -12,11 +12,13 @@ from constants import (
 )
 
 from core.game import Game
+from ui.fonts import Fonts
 
 
 def main():
 
     pygame.init()
+    Fonts.initialize()
 
     screen = pygame.display.set_mode(
         (SCREEN_WIDTH, SCREEN_HEIGHT)
@@ -34,7 +36,12 @@ def main():
 
         dt = clock.tick(FPS) / 1000
 
-        running = game.handle_events()
+        for event in pygame.event.get():
+
+            if event.type == pygame.QUIT:
+                running = False
+
+            game.handle_event(event)
 
         game.update(dt)
 

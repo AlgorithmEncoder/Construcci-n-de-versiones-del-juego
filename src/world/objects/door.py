@@ -1,6 +1,8 @@
 """
-Door object.
+Door world object.
 """
+
+from core.interaction import GameAction
 
 from world.object import WorldObject
 
@@ -11,21 +13,26 @@ class DoorObject(WorldObject):
         self,
         object_id,
         position,
+        polygon,
+        icon,
         destination
     ):
 
         super().__init__(
-            object_id,
-            "door",
-            position
+            object_id=object_id,
+            object_type="door",
+            position=position,
+            polygon=polygon,
+            icon=icon
         )
 
         self.destination = destination
 
+    # --------------------------------------------------
+
     def activate(self):
 
-        return {
-
-            "type": "door",
-            "destination": self.destination
-        }
+        return GameAction(
+            action="change_room",
+            target=self.destination
+        )

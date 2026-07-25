@@ -17,32 +17,39 @@ class MemoryLoader:
     def __init__(self, memory_name: str):
 
         self.memory_path = MEMORIES_DIR / memory_name
-        self.story = self._load_story()
+
+        self.metadata = {}
+        self.story = {}
+
+        self.rooms = {}
+        self.objects = {}
+
+        self.documents = {}
+        self.computers = {}
+
+        self.npcs = {}
+        self.dialogues = {}
+
+        self.events = []
 
     # --------------------------------------------------
 
     def load(self):
 
-        return {
+        self.metadata = self._load_metadata()
 
-            "story": self._load_story(),
+        self.story = self._load_story()
 
-            "rooms": self._load_rooms(),
+        self.rooms = self._load_rooms()
+        self.objects = self._load_objects()
 
-            "npcs": self._load_npcs(),
+        self.documents = self._load_documents()
+        self.computers = self._load_computers()
 
-            "computers": self._load_computers(),
+        self.npcs = self._load_npcs()
+        self.dialogues = self._load_dialogues()
 
-            "events": self._load_events(),
-
-            "metadata": self._load_metadata(),
-
-            "diaglogues": self._load_diaglogues(),
-
-            "documents": self._load_documents(),
-
-            "objects": self._load_objects()
-        }
+        self.events = self._load_events()
 
     # --------------------------------------------------
 
@@ -65,6 +72,22 @@ class MemoryLoader:
     def _load_events(self):
 
         return self._load_json("events.json")
+    
+    def _load_metadata(self):
+    
+        return self._load_json("metadata.json")
+    
+    def _load_dialogues(self):
+
+        return self._load_json("dialogues.json")
+    
+    def _load_documents(self):
+
+        return self._load_json("documents.json")
+    
+    def _load_objects(self):
+
+        return self._load_json("objects.json")
 
     # --------------------------------------------------
 

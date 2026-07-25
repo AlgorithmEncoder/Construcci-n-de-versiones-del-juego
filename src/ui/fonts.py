@@ -37,3 +37,5 @@ class Fonts:
             DEFAULT_FONT,
             SMALL_FONT_SIZE
         )
+        
+        cls.clock = pygame.font.Font(None, 44)

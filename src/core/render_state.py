@@ -7,6 +7,10 @@ Contains everything required to draw a frame.
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from ui.overlay import Overlay
 
 
 @dataclass(slots=True)
@@ -18,7 +22,7 @@ class RenderState:
 
     npcs: tuple = field(default_factory=tuple)
 
-    overlay = None
+    overlay: Overlay | None = None
 
     clock: str = ""
 

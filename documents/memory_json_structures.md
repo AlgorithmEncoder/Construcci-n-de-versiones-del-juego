@@ -21,7 +21,11 @@ Identifica la memoria. No afecta al gameplay.
   "id": "memory_01",
   "name": "The Interview",
   "author": "Alex",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "resolution": {
+        "width": 1536,
+        "height": 1024
+    }
 }
 ```
 
@@ -34,6 +38,7 @@ Información narrativa global.
   "title": "The Interview",
   "objective": "Discover what happened to Daniel.",
   "time_limit": 600,
+  "initial_room": "waiting_room",
   "intro": "...",
   "ending": "..."
 }
@@ -64,24 +69,67 @@ Define únicamente el mapa.
 ## objects.json
 
 Define los objetos interactivos.
+El type puede ser document, computer o door, relacionados con document_id, computer_id o destination.
 
 ``` json
 {
-  "pc_reception": {
-    "type": "computer",
-    "position": [520,180],
-    "computer_id": "reception_pc"
-  },
-  "agenda": {
-    "type": "document",
-    "position": [300,420],
-    "document_id": "agenda_01"
-  },
-  "door_archive": {
-    "type": "door",
-    "position": [780,220],
-    "destination": "archive"
-  }
+  "magazine": {
+        "type": "document",
+        "document_id": "magazine",
+        "position": [
+            374,
+            672
+        ],
+        "polygon": [
+            [
+                94,
+                -11
+            ],
+            [
+                138,
+                41
+            ],
+            [
+                33,
+                53
+            ],
+            [
+                -1,
+                -1
+            ]
+        ]
+    },
+
+    "notepad_waiting": {
+        "type": "document",
+        "document_id": "waiting_notepad",
+        "position": [
+            715,
+            714
+        ],
+        "polygon": [
+            [
+                68,
+                -44
+            ],
+            [
+                139,
+                -25
+            ],
+            [
+                147,
+                -6
+            ],
+            [
+                75,
+                26
+            ],
+            [
+                0,
+                -2
+            ]
+        ]
+    }
 }
 ```
 
@@ -102,6 +150,7 @@ Contenido de cada ordenador.
 ## documents.json
 
 Contenido de documentos físicos.
+Puede tener pages con strings o text directo.
 
 ``` json
 {
@@ -138,7 +187,8 @@ Define personajes y horarios.
         "room": "archive"
       }
     ],
-    "dialogue": "anna_default"
+    "dialogue": "anna_default",
+    "room": "reception"
   }
 }
 ```
@@ -159,6 +209,7 @@ Todo el texto de los diálogos.
 ## events.json
 
 Eventos automáticos del nivel.
+Parámetros varían según la acción.
 
 ``` json
 [

@@ -28,10 +28,15 @@ NPC_ASSETS_DIR = ASSETS_DIR / "npcs"
 
 WINDOW_TITLE = "Mind Investigation"
 
-SCREEN_WIDTH = 1280
-SCREEN_HEIGHT = 720
+SCREEN_WIDTH = 1536
+SCREEN_HEIGHT = 1024
+
+HUD_TOP_MARGIN = 170
+CLOCK_ALPHA = 170
 
 FPS = 60
+
+NPC_SCALE = 0.40
 
 # ==========================================================
 # COLORS

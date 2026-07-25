@@ -9,6 +9,7 @@ from __future__ import annotations
 import pygame
 
 from constants import (
+    NPC_SCALE,
     ROOMS_ASSETS_DIR,
     NPC_ASSETS_DIR,
     UI_ASSETS_DIR
@@ -19,6 +20,7 @@ class Assets:
 
     _backgrounds = {}
     _sprites = {}
+    _masks = {}
     _icons = {}
 
     # ==================================================
@@ -56,7 +58,20 @@ class Assets:
 
             filepath = NPC_ASSETS_DIR / f"{name}.png"
 
-            cls._sprites[name] = cls._load_image(filepath)
+            sprite = cls._load_image(filepath)
+
+            if NPC_SCALE != 1.0:
+
+                width = max(1, int(sprite.get_width() * NPC_SCALE))
+                height = max(1, int(sprite.get_height() * NPC_SCALE))
+    
+                sprite = pygame.transform.smoothscale(
+                    sprite,
+                    (width, height)
+                )
+
+            cls._sprites[name] = sprite
+            cls._masks[name] = pygame.mask.from_surface(sprite)
 
         return cls._sprites[name]
 
@@ -83,3 +98,14 @@ class Assets:
         cls._backgrounds.clear()
         cls._sprites.clear()
         cls._icons.clear()
+    
+    # ==================================================
+    
+    @classmethod
+    def get_mask(cls, name):
+
+        if name not in cls._masks:
+
+            cls.get_sprite(name)
+
+        return cls._masks[name]

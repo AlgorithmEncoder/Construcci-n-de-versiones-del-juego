@@ -1,6 +1,8 @@
 """
-Computer object.
+Computer world object.
 """
+
+from core.interaction import GameAction
 
 from world.object import WorldObject
 
@@ -11,21 +13,26 @@ class ComputerObject(WorldObject):
         self,
         object_id,
         position,
+        polygon,
+        icon,
         computer_id
     ):
 
         super().__init__(
-            object_id,
-            "computer",
-            position
+            object_id=object_id,
+            object_type="computer",
+            position=position,
+            polygon=polygon,
+            icon=icon
         )
 
         self.computer_id = computer_id
 
+    # --------------------------------------------------
+
     def activate(self):
 
-        return {
-
-            "type": "computer",
-            "computer_id": self.computer_id
-        }
+        return GameAction(
+            action="open_computer",
+            target=self.computer_id
+        )

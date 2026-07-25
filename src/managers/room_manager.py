@@ -10,10 +10,11 @@ from __future__ import annotations
 
 class RoomManager:
 
-    def __init__(self, rooms_data: dict, initial_room: str):
+    def __init__(self, rooms_data: dict, initial_room: str, object_manager):
 
         self._rooms = rooms_data
         self._current_room = initial_room
+        self._object_manager = object_manager
 
     # ==================================================
     # Internal
@@ -53,10 +54,20 @@ class RoomManager:
         return self._get("background")
 
     @property
-    def objects(self) -> tuple:
+    def objects_ids(self) -> tuple:
         """Returns the object IDs contained in this room."""
 
         return tuple(self._get("objects", []))
+    
+    @property
+    def objects(self) -> tuple:
+
+        ids = self._get("objects", [])
+
+        return tuple(
+            self._object_manager.get(obj_id)
+            for obj_id in ids
+        )
 
     @property
     def connections(self) -> tuple:
@@ -95,3 +106,16 @@ class RoomManager:
             raise ValueError(f"Room '{initial_room}' does not exist.")
 
         self._current_room = initial_room
+    
+    # ==================================================
+    # Interaction
+    # ==================================================
+
+    def find_object_at(self, mouse_position: tuple[int, int]):
+
+        for obj in reversed(self.objects):
+
+            if obj.contains(mouse_position):
+                return obj
+
+        return None
