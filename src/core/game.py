@@ -9,7 +9,7 @@ the game loop. It contains no gameplay logic.
 
 from __future__ import annotations
 
-import pygame
+import pygame, time
 
 from core.clock import GameClock
 from core.render_state import RenderState
@@ -35,6 +35,7 @@ from constants import (
     DOCUMENT_OPEN_TIME,
     COMPUTER_BOOT_TIME,
     RESET_TIME,
+    OBJECTIVE_DURATION
 )
 
 
@@ -56,6 +57,7 @@ class Game:
         self._screen = screen
 
         self._memory_name = memory
+        self._iterations = 0
 
         self._loader = None
 
@@ -89,6 +91,8 @@ class Game:
         self._load_memory()
 
         self._create_managers()
+        
+        self._show_objective()
 
     # ==================================================
     # Initialization
@@ -251,6 +255,10 @@ class Game:
     # ==================================================
 
     @property
+    def iterations(self):
+        return self._iterations
+    
+    @property
     def clock(self):
 
         return self._clock
@@ -311,6 +319,10 @@ class Game:
     def player(self):
 
         return self._player
+    
+    @property
+    def renderer(self):
+        return self._renderer
     
     # ==================================================
     # Actions
@@ -510,7 +522,61 @@ class Game:
 
         return self._room_manager.find_object_at(position)
     
+    def _show_objective(self):
+
+        from ui.transition import TransitionUI
+        
+        callback=self._open_intro if self._iterations == 0 else None
+
+        self._ui.open(
+            TransitionUI(
+                text=self._loader.story["objective"],
+                duration=OBJECTIVE_DURATION,
+                world_width=self._native_width,
+                world_height=self._native_height,
+                callback=callback
+            )
+        )
+    
+    def _open_intro(self):
+
+        from ui.dialogue import DialogueUI
+
+        dialogue = [
+            {"text": line}
+            for line in self._loader.story["intro"]
+        ]
+
+        self._ui.open(
+            DialogueUI(
+                speaker="",
+                dialogue=dialogue,
+                world_width=self._native_width,
+                world_height=self._native_height
+            )
+        )
+    
+    def _open_ending(self):
+
+        from ui.dialogue import DialogueUI
+
+        dialogue = [
+            {"text": line}
+            for line in self._loader.story["ending"]
+        ]
+
+        self._ui.open(
+            DialogueUI(
+                speaker="",
+                dialogue=dialogue,
+                world_width=self._native_width,
+                world_height=self._native_height
+            )
+        )
+    
     def reset(self):
+        
+        self._iterations += 1
 
         # Reiniciar reloj
 
@@ -543,3 +609,9 @@ class Game:
         # Cerrar interfaces
 
         self._ui.close()
+        
+        self._show_objective()
+    
+    def exit_dream(self):
+
+        print("Salir del sueño")

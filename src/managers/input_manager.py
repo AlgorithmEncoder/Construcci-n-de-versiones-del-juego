@@ -77,6 +77,12 @@ class InputManager:
                 self._game.ui.close()
 
             return
+        
+        if self._game.renderer.exit_button_at(position):
+
+            self._game.exit_dream()
+
+            return
 
         entity = self._game.find_click_target(position)
 

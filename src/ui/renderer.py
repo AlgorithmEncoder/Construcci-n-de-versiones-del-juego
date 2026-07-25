@@ -16,7 +16,7 @@ from core.render_state import RenderState
 from ui.assets import Assets
 from ui.fonts import Fonts
 
-from constants import BLACK, WHITE, HUD_TOP_MARGIN
+from constants import BLACK, WHITE, HUD_TOP_MARGIN, HUD_LEFT_MARGIN
 
 
 class Renderer:
@@ -37,6 +37,8 @@ class Renderer:
         self._world = pygame.Surface(
             (world_width, world_height)
         )
+        
+        self._exit_rect = pygame.Rect(0, 0, 170, 40)
 
     # ==================================================
     # Public
@@ -137,23 +139,10 @@ class Renderer:
         if not state.clock:
             return
 
-        text = Fonts.clock.render(
-            state.clock,
-            True,
-            (240, 240, 240)
-        )
+        # ===========================
+        # Clock
+        # ===========================
 
-        text.set_alpha(170)
-
-        rect = text.get_rect(
-            midtop=(
-                self._world_width // 2,
-                HUD_TOP_MARGIN
-            )
-        )
-
-        self._world.blit(text, rect)
-        
         shadow = Fonts.clock.render(
             state.clock,
             True,
@@ -171,6 +160,70 @@ class Renderer:
 
         self._world.blit(shadow, shadow_rect)
 
+        text = Fonts.clock.render(
+            state.clock,
+            True,
+            (240, 240, 240)
+        )
+
+        text.set_alpha(170)
+
+        rect = text.get_rect(
+            midtop=(
+                self._world_width // 2,
+                HUD_TOP_MARGIN
+            )
+        )
+
+        self._world.blit(text, rect)
+
+        # ===========================
+        # Exit button
+        # ===========================
+
+        text_button = Fonts.default.render(
+            "Abandonar sueño",
+            True,
+            WHITE
+        )
+
+        padding_x = 16
+        padding_y = 8
+
+        self._exit_rect.size = (
+            text_button.get_width() + padding_x * 2,
+            text_button.get_height() + padding_y * 2
+        )
+
+        self._exit_rect.topright = (
+            self._world_width // 3,
+            HUD_TOP_MARGIN
+        )
+
+        pygame.draw.rect(
+            self._world,
+            (40, 40, 40),
+            self._exit_rect,
+            border_radius=8
+        )
+
+        pygame.draw.rect(
+            self._world,
+            WHITE,
+            self._exit_rect,
+            width=2,
+            border_radius=8
+        )
+
+        text_rect = text_button.get_rect(
+            center=self._exit_rect.center
+        )
+
+        self._world.blit(
+            text_button,
+            text_rect
+        )
+
     # --------------------------------------------------
 
     def _draw_overlay(
@@ -184,3 +237,7 @@ class Renderer:
         state.overlay.draw(
             self._world
         )
+    
+    def exit_button_at(self, position):
+
+        return self._exit_rect.collidepoint(position)
