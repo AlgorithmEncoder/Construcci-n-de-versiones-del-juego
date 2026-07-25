@@ -79,6 +79,9 @@ class NPC:
 
         if not self.schedule:
             return
+        
+        if self.current_room is "__hidden__":
+            return
 
         index = bisect_right(
             self.schedule,

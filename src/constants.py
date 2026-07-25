@@ -79,3 +79,17 @@ DEBUG_MODE = True
 SHOW_FPS = False
 
 SHOW_CLICK_AREAS = False
+
+# ==========================================================
+# TIME - seconds
+# ==========================================================
+
+ROOM_CHANGE_TIME = 1.0
+
+DOCUMENT_OPEN_TIME = 0.5
+
+COMPUTER_BOOT_TIME = 2.0
+
+RESET_TIME = 3.0
+
+DEFAULT_ACTION_TIME = 0.75

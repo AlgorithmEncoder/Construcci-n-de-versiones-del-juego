@@ -66,8 +66,15 @@ class UIManager:
     
     def update(self, delta_time):
 
-        if self.is_open:
-            self._current_overlay.update(delta_time)
+        overlay = self._current_overlay
+
+        if overlay is None:
+            return
+
+        overlay.update(delta_time)
+
+        if self._current_overlay is overlay and not overlay.visible:
+            self._current_overlay = None
 
     # ==================================================
     # Properties

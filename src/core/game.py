@@ -28,6 +28,15 @@ from managers.event_manager import EventManager
 from managers.detection_manager import DetectionManager
 from managers.player_manager import PlayerManager
 
+from ui.transition import TransitionUI
+
+from constants import (
+    ROOM_CHANGE_TIME,
+    DOCUMENT_OPEN_TIME,
+    COMPUTER_BOOT_TIME,
+    RESET_TIME,
+)
+
 
 class Game:
     """
@@ -167,6 +176,10 @@ class Game:
         self._event_manager.update(self._clock)
         
         self._detection.update()
+        
+        if self._ui.is_open:
+
+            self._ui.update(delta_time)
 
         self._build_render_state()
 
@@ -302,34 +315,87 @@ class Game:
     # ==================================================
     # Actions
     # ==================================================
-    def _change_room(self, room_id: str):
+    def _change_room(self, room_id):
+
+        self._start_transition(
+
+            duration=ROOM_CHANGE_TIME,
+
+            text="Cambiando de habitación",
+
+            callback=lambda: self._finish_change_room(room_id)
+        )
+
+    def _finish_change_room(self, room_id):
+
         self._room_manager.change_room(room_id)
-        self._player.current_room = room_id
+
+        self._player.change_room(room_id)
     
-    def _open_document(self, document_id: str):
+    def _open_document(self, document_id):
+
+        self._start_transition(
+
+            duration=DOCUMENT_OPEN_TIME,
+
+            text="Leyendo documento",
+
+            callback=lambda: self._finish_open_document(document_id)
+
+        )
+
+
+    def _finish_open_document(self, document_id):
+
         document = self._loader.documents[document_id]
 
         from ui.document import DocumentUI
 
         self._ui.open(
+
             DocumentUI(
+
                 document,
+
                 self._native_width,
+
                 self._native_height
+
             )
+
         )
     
-    def _open_computer(self, computer_id: str):
+    def _open_computer(self, computer_id):
+
+        self._start_transition(
+
+            duration=COMPUTER_BOOT_TIME,
+
+            text="Encendiendo ordenador",
+
+            callback=lambda: self._finish_open_computer(computer_id)
+
+        )
+
+
+    def _finish_open_computer(self, computer_id):
+
         computer = self._loader.computers[computer_id]
 
         from ui.computer import ComputerUI
 
         self._ui.open(
+
             ComputerUI(
+
                 computer,
+
                 self._native_width,
+
                 self._native_height
+
             )
+
         )
     
     def _open_dialogue(self, dialogue_id: str):
@@ -371,10 +437,43 @@ class Game:
             handler(action.target)
     
     def _on_detected(self, npc, reason):
+        
+        npc.current_room = "__hidden__"
 
-        print(npc.name, reason)
+        self._start_transition(
 
-        self.reset()
+            duration=RESET_TIME,
+
+            text="REINICIANDO MEMORIA",
+
+            callback=self.reset
+
+        )
+    
+    def _start_transition(
+        self,
+        duration: float,
+        callback,
+        text: str | None = None
+    ):
+
+        self._ui.open(
+
+            TransitionUI(
+
+                world_width=self._native_width,
+
+                world_height=self._native_height,
+
+                duration=duration,
+
+                callback=callback,
+
+                text=text
+
+            )
+
+        )
     
     def _end_loop(self, data):
 
@@ -382,7 +481,15 @@ class Game:
 
         # De momento solo reiniciamos.
 
-        self.reset()
+        self._start_transition(
+
+            duration=RESET_TIME,
+
+            text="REINICIANDO MEMORIA",
+
+            callback=self.reset
+
+        )
 
     def _play_sound(self, data):
 
