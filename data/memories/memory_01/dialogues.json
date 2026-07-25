@@ -1,112 +1,175 @@
 {
-    "clara_default": [
-        {
-            "text": "Buenos días. Tome asiento, por favor."
-        },
-        {
-            "text": "El director le recibirá en cuanto termine una reunión."
-        },
-        {
-            "text": "Puede esperar aquí mientras tanto."
-        }
-    ],
+  "clara": [
+    {
+      "from": 0,
+      "to": 90,
+      "lines": [
+        "Buenos días. Tome asiento, por favor.",
+        "El director terminará una reunión dentro de unos minutos.",
+        "Si necesita algo mientras espera, estaré aquí."
+      ]
+    },
 
-    "clara_question_employee": [
-        {
-            "text": "¿Un empleado? Aquí trabaja bastante gente..."
-        },
-        {
-            "text": "Perdone, hoy llevo una mañana un poco rara."
-        }
-    ],
+    {
+      "from": 90,
+      "to": 210,
+      "lines": [
+        "Qué mañana tan movida...",
+        "No dejan de pedirme documentos antiguos.",
+        "Pensaba que casi nadie consultaba el Archivo."
+      ]
+    },
 
-    "clara_question_director": [
-        {
-            "text": "El director está muy ocupado esta mañana."
-        },
-        {
-            "text": "Cuando termine la reunión le avisará."
-        }
-    ],
+    {
+      "from": 210,
+      "to": 360,
+      "lines": [
+        "Es curioso...",
+        "Juraría que antes conocía mejor dónde estaba cada cosa.",
+        "Últimamente tengo que preguntar mucho más."
+      ]
+    },
 
-    "clara_question_daniel": [
-        {
-            "text": "...¿Daniel?"
-        },
-        {
-            "text": "Ese nombre me resulta familiar..."
-        },
-        {
-            "text": "Lo siento... creo que lo estoy confundiendo con otra persona."
-        }
-    ],
+    {
+      "from": 360,
+      "to": 510,
+      "lines": [
+        "Menos mal que Miguel siempre sabe dónde está todo.",
+        "Si alguien necesita un documento antiguo, acaba preguntándole a él."
+      ]
+    },
 
-    "miguel_default": [
-        {
-            "text": "Ahora mismo no puedo atenderle."
-        },
-        {
-            "text": "Espere en recepción."
-        }
-    ],
+    {
+      "from": 510,
+      "to": 600,
+      "lines": [
+        "Ya casi es la hora de la reunión.",
+        "En cuanto termine, todo volverá a la normalidad."
+      ]
+    }
+  ],
 
-    "miguel_after_meeting": [
-        {
-            "text": "Todavía no."
-        },
-        {
-            "text": "Hay asuntos más importantes que resolver."
-        }
-    ],
+  "miguel": [
 
-    "marta_default": [
-        {
-            "text": "Buenos días."
-        },
-        {
-            "text": "Siempre llego demasiado pronto."
-        }
-    ],
+    {
+      "from": 0,
+      "to": 180,
+      "lines": [
+        "Disculpe, ahora mismo estoy ocupado.",
+        "Si necesita algo, Recepción podrá ayudarle."
+      ]
+    },
 
-    "marta_question_employee": [
-        {
-            "text": "¿Quién?"
-        },
-        {
-            "text": "Perdón... últimamente me cuesta recordar algunos nombres."
-        }
-    ],
+    {
+      "from": 180,
+      "to": 420,
+      "lines": [
+        "Estoy revisando documentación.",
+        "Cuando termine la reunión podremos hablar."
+      ]
+    },
 
-    "laura_default": [
-        {
-            "text": "¿Ha venido por la entrevista?"
-        },
-        {
-            "text": "Seguro que no tarda mucho."
-        }
-    ],
+    {
+      "from": 420,
+      "to": 600,
+      "lines": [
+        "Todavía no.",
+        "Antes debo resolver unos asuntos pendientes."
+      ]
+    }
 
-    "laura_question_director": [
-        {
-            "text": "El director suele encerrarse en su despacho antes de las reuniones."
-        }
-    ],
+  ],
 
-    "carlos_default": [
-        {
-            "text": "Tengo que terminar unos informes."
-        },
-        {
-            "text": "Hoy todo el mundo parece distraído."
-        }
-    ],
+  "marta": [
 
-    "carlos_question_employee": [
-        {
-            "text": "Juraría que antes había una mesa ocupada allí..."
-        },
-        {
-            "text": "Aunque quizá me esté equivocando."
-        }
-    ]
+    {
+      "from": 0,
+      "to": 180,
+      "lines": [
+        "Buenos días.",
+        "Siempre intento llegar un poco antes."
+      ]
+    },
+
+    {
+      "from": 180,
+      "to": 360,
+      "lines": [
+        "Estoy revisando unos listados.",
+        "No sé por qué... pero juraría que antes eran distintos."
+      ]
+    },
+
+    {
+      "from": 360,
+      "to": 600,
+      "lines": [
+        "Supongo que simplemente lo recuerdo mal.",
+        "A veces damos demasiadas vueltas a las cosas."
+      ]
+    }
+
+  ],
+
+  "laura": [
+
+    {
+      "from": 0,
+      "to": 150,
+      "lines": [
+        "¿Ha venido por la entrevista?",
+        "Hoy tenemos bastante movimiento."
+      ]
+    },
+
+    {
+      "from": 150,
+      "to": 360,
+      "lines": [
+        "He estado organizando unas fotografías antiguas.",
+        "Es increíble la cantidad de cosas que acabamos guardando."
+      ]
+    },
+
+    {
+      "from": 360,
+      "to": 600,
+      "lines": [
+        "Si busca documentación antigua, pregunte en Dirección.",
+        "Ellos saben mejor que nadie cómo está organizado todo."
+      ]
+    }
+
+  ],
+
+  "carlos": [
+
+    {
+      "from": 0,
+      "to": 180,
+      "lines": [
+        "Tengo que terminar unos informes.",
+        "Siempre hay algo pendiente."
+      ]
+    },
+
+    {
+      "from": 180,
+      "to": 360,
+      "lines": [
+        "Había algo que quería comprobar...",
+        "Ahora mismo no recuerdo qué era."
+      ]
+    },
+
+    {
+      "from": 360,
+      "to": 600,
+      "lines": [
+        "Da igual.",
+        "Seguro que Miguel lo recuerda."
+      ]
+    }
+
+  ]
 }

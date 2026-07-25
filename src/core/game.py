@@ -29,6 +29,7 @@ from managers.detection_manager import DetectionManager
 from managers.player_manager import PlayerManager
 
 from ui.transition import TransitionUI
+from ui.dialogue import DialogueUI
 
 from constants import (
     ROOM_CHANGE_TIME,
@@ -394,7 +395,7 @@ class Game:
 
         computer = self._loader.computers[computer_id]
 
-        from ui.computer import ComputerUI
+        from ui.computer.computer import ComputerUI
 
         self._ui.open(
 
@@ -410,29 +411,22 @@ class Game:
 
         )
     
-    def _open_dialogue(self, dialogue_id: str):
+    def _open_dialogue(self, npc_id: str):
 
-        dialogue = self._loader.dialogues[dialogue_id]
-
-        npc = next(
-            (
-                npc
-                for npc in self._npc_manager.visible_npcs(
-                    self._room_manager.current_room
-                )
-                if npc.dialogue == dialogue_id
-            ),
-            None
+        npc = self._npc_manager.get(
+            npc_id
         )
-
-        speaker = npc.name if npc else ""
-
-        from ui.dialogue import DialogueUI
+        
+        dialogue = self._npc_manager.get_dialogue(
+            npc_id,
+            self._clock.elapsed_seconds,
+            self._loader.dialogues
+        )
 
         self._ui.open(
             DialogueUI(
-                speaker=speaker,
-                dialogue=dialogue,
+                speaker=npc.name,
+                dialogue=[dialogue],
                 world_width=self._native_width,
                 world_height=self._native_height
             )
@@ -540,8 +534,6 @@ class Game:
     
     def _open_intro(self):
 
-        from ui.dialogue import DialogueUI
-
         dialogue = [
             {"text": line}
             for line in self._loader.story["intro"]
@@ -557,8 +549,6 @@ class Game:
         )
     
     def _open_ending(self):
-
-        from ui.dialogue import DialogueUI
 
         dialogue = [
             {"text": line}

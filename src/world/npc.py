@@ -36,7 +36,7 @@ class NPC:
 
         self.sprite = sprite
 
-        self.dialogue = dialogue
+        self.dialogue_id = dialogue
 
         # Sorted list of (time, room)
         self.schedule = sorted(schedule)
@@ -122,5 +122,5 @@ class NPC:
 
         return GameAction(
             action="open_dialogue",
-            target=self.dialogue
+            target=self.id
         )

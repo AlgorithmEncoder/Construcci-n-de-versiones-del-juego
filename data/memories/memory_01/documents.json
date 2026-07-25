@@ -1,152 +1,129 @@
 {
-    "magazine": {
-        "title": "Tech Monthly",
-        "pages": [
-            "The future of cloud computing.",
-            "Top startups of the year.",
-            "Interview with a cybersecurity expert."
-        ]
-    },
+  "magazine": {
+    "title": "Tech Monthly - April Edition",
+    "pages": [
+      "Editorial\n\nArtificial intelligence continues to transform every industry. Companies that invested early are already restructuring departments, automating repetitive tasks and redefining traditional office roles. While many celebrate these advances, experts warn that documentation and knowledge management are becoming increasingly important as organisations grow more complex.",
+      "Feature Article\n\nCloud infrastructure has become the backbone of modern businesses. Instead of maintaining physical servers, organisations are migrating their systems to scalable cloud platforms. Analysts estimate that over 80% of medium-sized companies will complete this transition within the next five years.",
+      "Interview\n\nCybersecurity consultant Elena Navarro explains that human error remains the leading cause of data breaches. 'Technology improves every year,' she says, 'but forgotten documents, outdated procedures and poor record keeping still create unnecessary risks.'",
+      "Start-up Focus\n\nSeveral European technology companies have attracted record investment this quarter. Most share one common characteristic: strong internal organisation and careful management of historical company data."
+    ]
+  },
 
-    "waiting_notepad": {
-        "title": "Notepad",
-        "pages": [
-            "☐ Buy coffee",
-            "☑ Print interview documents",
-            "☑ Call printer service",
-            "☐ Ask M. about the meeting room projector"
-        ]
-    },
+  "waiting_notepad": {
+    "title": "Reception Notepad",
+    "pages": [
+      "Tasks for this morning\n\n☑ Print interview documents\n☑ Test visitor badge printer\n☑ Call printer maintenance\n☐ Buy coffee capsules\n☐ Water reception plants",
+      "Reminders\n\n• Ask M. about archive access.\n• Return meeting room key.\n• Confirm tomorrow's delivery.\n• Order new toner cartridges.\n• Replace damaged visitor badge.",
+      "Personal Notes\n\nThe archive has been busier than usual this week. Marta mentioned she still hasn't finished reorganising the old folders. Miguel asked not to remove anything until further notice."
+    ]
+  },
 
-    "reception_agenda": {
-        "title": "Reception Agenda",
-        "pages": [
-            "08:30 - Candidate interview",
-            "09:00 - Weekly meeting",
-            "09:30 - M. Ruiz",
-            "10:15 - Marta Romero",
-            "11:00 - IT Maintenance"
-        ]
-    },
+  "reception_agenda": {
+    "title": "Reception Agenda",
+    "pages": [
+      "08:00 Office opens\n08:15 Deliveries\n08:30 Candidate interview\n08:45 Courier collection\n09:00 Weekly management meeting\n09:20 Archive inventory",
+      "09:45 Coffee supplier\n10:00 Miguel Ruiz\n10:15 Marta Romero\n11:00 IT maintenance\n11:30 Cleaning company\n12:00 External visitors",
+      "Notes\n\nMeeting room reserved until 10:30.\nPrepare visitor badges before 08:45.\nArchive access requested by Administration."
+    ]
+  },
 
-    "wall_calendar": {
-        "title": "Wall Calendar",
-        "pages": [
-            "Monday",
-            "",
-            "Birthdays:",
-            "- Laura (18)",
-            "- Sergio (25)",
-            "",
-            "Fire drill next Friday."
-        ]
-    },
+  "wall_calendar": {
+    "title": "Office Calendar",
+    "pages": [
+      "Monday\n\n18 - Laura's birthday\n25 - Sergio's birthday\n\nFriday: Fire drill at 11:00.",
+      "Upcoming\n\nQuarterly review next week.\nOffice maintenance on Thursday evening.\nMeeting room unavailable Tuesday afternoon.",
+      "Sticky Note\n\nRemember to update the emergency contact sheet before the end of the month."
+    ]
+  },
 
-    "employee_registry": {
-        "title": "Employee Registry",
-        "pages": [
-            "Laura Pérez - Reception",
-            "Miguel Ruiz - Director",
-            "Marta Romero - Human Resources",
-            "Carlos Vega - Finance",
-            "Ana López - Administration"
-        ]
-    },
+  "employee_registry": {
+    "title": "Employee Registry",
+    "pages": [
+      "Laura Pérez\nReception\nExtension: 101\nJoined: 2019\n\nResponsible for visitors, deliveries and meeting room bookings.",
+      "Miguel Ruiz\nDirector\nExtension: 201\nJoined: 2009\n\nResponsible for company management and final approval of internal documentation.",
+      "Marta Romero\nHuman Resources\nExtension: 203\nJoined: 2016\n\nRecruitment, contracts and personnel records.",
+      "Carlos Vega\nFinance\nExtension: 205\nJoined: 2018\n\nBudgets, suppliers and quarterly reports.",
+      "Ana López\nAdministration\nExtension: 107\nJoined: 2021\n\nArchive maintenance, inventory and document organisation."
+    ]
+  },
 
-    "contracts_folder": {
-        "title": "Employee Contracts",
-        "pages": [
-            "Contract - Laura Pérez",
-            "Contract - Marta Romero",
-            "Contract - Carlos Vega",
-            "",
-            "[One document has clearly been removed.]"
-        ]
-    },
+  "contracts_folder": {
+    "title": "Employee Contracts",
+    "pages": [
+      "Contents\n\nLaura Pérez\nMarta Romero\nCarlos Vega\nAna López\n\nEach contract contains hiring conditions, salary information and confidentiality clauses.",
+      "Index\n\nPage 1 - Laura Pérez\nPage 2 - Marta Romero\nPage 3 - Carlos Vega\nPage 4 - Ana López\nPage 5 - Reserved",
+      "The final divider is empty.\n\nA label reads:\n'Additional employee documentation.'\n\nNo documents remain behind it."
+    ]
+  },
 
-    "team_photo": {
-        "title": "Company Photo",
-        "pages": [
-            "Five employees posing together.",
-            "",
-            "One face has been scratched out with black ink.",
-            "",
-            "The caption below has been torn away."
-        ]
-    },
+  "team_photo": {
+    "title": "Company Photo",
+    "pages": [
+      "A framed group photograph shows five employees standing in front of the company entrance. Everyone is smiling. The image has faded slightly with age.",
+      "The lower-right corner has been folded several times. The caption underneath is badly damaged and only a few letters remain visible.",
+      "On the back of the photograph someone has written:\n\n'Annual company meeting.'\n\nThe date is almost impossible to read."
+    ]
+  },
 
-    "shredded_document": {
-        "title": "Shredded Paper",
-        "pages": [
-            "...ect Or...",
-            "...meeting approved...",
-            "...Director signature..."
-        ]
-    },
+  "shredded_document": {
+    "title": "Shredded Document",
+    "pages": [
+      "Small strips of paper are scattered across the desk.\n\nMost sentences are impossible to reconstruct.",
+      "Visible fragments:\n\n'...approved...'\n'...previous version...'\n'...retain...'\n'...Director...'",
+      "The fragments appear to belong to an official internal document, but too much of the page is missing to understand its original meaning."
+    ]
+  },
 
-    "company_board": {
-        "title": "Company Information",
-        "pages": [
-            "CEO",
-            "Human Resources",
-            "Finance",
-            "Reception",
-            "Meeting Room →"
-        ]
-    },
+  "company_board": {
+    "title": "Company Information",
+    "pages": [
+      "Organisation\n\nDirector\nHuman Resources\nFinance\nAdministration\nReception",
+      "Building Directory\n\nReception ←\nArchive\nMeeting Room\nDirector's Office\nStorage",
+      "Emergency Contacts\n\nReception: 101\nDirector: 201\nIT Support: 301\nSecurity: 399"
+    ]
+  },
 
-    "desk_notes": {
-        "title": "Desk Notes",
-        "pages": [
-            "Call supplier.",
-            "Review quarterly report.",
-            "",
-            "Don't forget M.R."
-        ]
-    },
+  "desk_notes": {
+    "title": "Desk Notes",
+    "pages": [
+      "Morning\n\nCall supplier.\nReview quarterly report.\nPrepare meeting room.\nReply to HR.",
+      "Afternoon\n\nReview archive request.\nOrder stationery.\nConfirm next week's interview schedule.",
+      "Corner Note\n\nDon't forget M.R.\nCheck old contract list before the meeting."
+    ]
+  },
 
-    "director_diploma": {
-        "title": "University Diploma",
-        "pages": [
-            "Awarded to",
-            "",
-            "Miguel Ruiz",
-            "",
-            "Master in Business Administration"
-        ]
-    },
+  "director_diploma": {
+    "title": "University Diploma",
+    "pages": [
+      "Universidad Autónoma\n\nThis certifies that\n\nMiguel Ruiz\n\nhas successfully completed the Master in Business Administration programme.",
+      "Graduation Year: 2008\n\nAwarded with distinction.\n\nOfficial university seal."
+    ]
+  },
 
-    "office_photo": {
-        "title": "Framed Photograph",
-        "pages": [
-            "A picture of Miguel Ruiz shaking hands with an unknown executive.",
-            "",
-            "The date has faded."
-        ]
-    },
+  "office_photo": {
+    "title": "Framed Photograph",
+    "pages": [
+      "A framed photograph shows Miguel Ruiz shaking hands with another executive during a business conference. Both are wearing conference badges.",
+      "The frame has gathered a thin layer of dust. A small plaque underneath reads:\n\n'Annual Business Conference'.",
+      "The printed date has faded almost completely and can no longer be read."
+    ]
+  },
 
-    "whiteboard_notes": {
-        "title": "Whiteboard",
-        "pages": [
-            "Project Review",
-            "",
-            "- Budget",
-            "- Hiring",
-            "- Server migration",
-            "- Coffee machine"
-        ]
-    },
+  "whiteboard_notes": {
+    "title": "Meeting Whiteboard",
+    "pages": [
+      "Today's Topics\n\n• Budget review\n• Recruitment\n• Server migration\n• Archive organisation\n• Coffee machine replacement",
+      "Action Items\n\nCarlos - Financial report\nLaura - Visitor logistics\nAna - Archive inventory\nMarta - Recruitment updates",
+      "Bottom Corner\n\n'Bring previous documentation if needed.'"
+    ]
+  },
 
-    "meeting_schedule": {
-        "title": "Meeting Schedule",
-        "pages": [
-            "09:00 - Weekly Meeting",
-            "",
-            "Attendees:",
-            "- M. Ruiz",
-            "- M. Romero",
-            "- Laura Pérez",
-            "- Carlos Vega"
-        ]
-    }
+  "meeting_schedule": {
+    "title": "Weekly Meeting",
+    "pages": [
+      "09:00 Weekly Management Meeting\n\nExpected duration: 60 minutes.\nLocation: Meeting Room A.",
+      "Attendees\n\nMiguel Ruiz\nMarta Romero\nLaura Pérez\nCarlos Vega\nAna López",
+      "Agenda\n\n1. Budget review\n2. Recruitment\n3. Archive organisation\n4. Pending documentation\n5. Open discussion"
+    ]
+  }
 }

@@ -8,6 +8,7 @@ from __future__ import annotations
 
 from ui.assets import Assets
 from world.npc import NPC
+import random
 
 
 class NPCManager:
@@ -126,6 +127,37 @@ class NPCManager:
                 return npc
 
         return None
+    
+    def get_dialogue(
+        self,
+        npc_id: str,
+        current_time: int,
+        dialogues: dict
+    ):
+
+        npc = self.get(npc_id)
+
+        entries = dialogues.get(
+            npc.dialogue_id,
+            []
+        )
+
+        for entry in entries:
+
+            if (
+                entry["from"] <= current_time
+                <
+                entry["to"]
+            ):
+
+                lines = entry["lines"]
+
+                if not lines:
+                    return ""
+
+                return {"text": random.choice(lines)}
+
+        return ""
 
     # ==================================================
     # Reset

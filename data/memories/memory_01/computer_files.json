@@ -1,0 +1,158 @@
+{
+    "meeting_notes": {
+        "file": "meeting_room/Meeting Notes.txt"
+    },
+    "meeting_tasks": {
+        "file": "meeting_room/Meeting Tasks.docx"
+    },
+    "meeting_attendees": {
+        "file": "meeting_room/Meeting Attendees.xlsx"
+    },
+    "budget_draft": {
+        "file": "finance/Budget Draft.xlsx"
+    },
+
+    "presentation_old": {
+        "file": "presentations/Presentation OLD.pptx"
+    },
+    "presentation_q3_final": {
+        "file": "presentations/Presentation Q3 FINAL.pptx"
+    },
+    "presentation_q3_final_v2": {
+        "file": "presentations/Presentation Q3 FINAL v2.pptx"
+    },
+    "presentation_q3_final_v3": {
+        "file": "presentations/Presentation Q3 FINAL USE THIS.pptx"
+    },
+
+    "meeting_minutes_previous": {
+        "file": "meeting_room/Meeting Minutes Previous.pdf"
+    },
+    "meeting_agenda": {
+        "file": "meeting_room/Meeting Agenda.pdf"
+    },
+
+    "budget_q3": {
+        "file": "finance/Budget Q3.xlsx"
+    },
+
+    "meeting_template": {
+        "file": "templates/Meeting Template.docx"
+    },
+    "decision_template": {
+        "file": "templates/Decision Template.docx"
+    },
+    "internal_report_template": {
+        "file": "templates/Internal Report Template.docx"
+    },
+
+    "company_logo": {
+        "file": "misc/Company Logo.png"
+    },
+    "new_folder_zip": {
+        "file": "misc/New Folder.zip"
+    },
+
+    "employee_registry_v1": {
+        "file": "hr/Employee Registry v1.xlsx"
+    },
+    "employee_registry_v2": {
+        "file": "hr/Employee Registry v2.xlsx"
+    },
+    "employee_list_draft": {
+        "file": "hr/Employee List Draft.xlsx"
+    },
+    "employee_history": {
+        "file": "hr/Employee History.pdf"
+    },
+
+    "organisation_chart_old": {
+        "file": "director/Organisation Chart Old.pdf"
+    },
+    "organisation_chart_current": {
+        "file": "director/Organisation Chart Current.pdf"
+    },
+    "organisation_backup": {
+        "file": "director/Organisation Backup.pdf"
+    },
+    "old_organisation_notes": {
+        "file": "director/Old Organisation Notes.docx"
+    },
+
+    "contracts_registry": {
+        "file": "archive/Contracts Registry.xlsx"
+    },
+    "archive_index": {
+        "file": "archive/Archive Index.pdf"
+    },
+    "historical_records": {
+        "file": "archive/Historical Records.pdf"
+    },
+    "historical_archive_guide": {
+        "file": "archive/Historical Archive Guide.pdf"
+    },
+    "archive_room_map": {
+        "file": "archive/Archive Room Map.pdf"
+    },
+    "document_access_log": {
+        "file": "archive/Document Access Log.xlsx"
+    },
+    "archive_cleanup_proposal": {
+        "file": "archive/Archive Cleanup Proposal.pdf"
+    },
+    "rejected_proposal": {
+        "file": "archive/Rejected Proposal.pdf"
+    },
+
+    "meeting_01": {
+        "file": "meeting_room/Meeting 01.pdf"
+    },
+    "meeting_02": {
+        "file": "meeting_room/Meeting 02.pdf"
+    },
+    "meeting_03": {
+        "file": "meeting_room/Meeting 03.pdf"
+    },
+    "meeting_04": {
+        "file": "meeting_room/Meeting 04.pdf"
+    },
+    "meeting_05": {
+        "file": "meeting_room/Meeting 05.pdf"
+    },
+    "meeting_06": {
+        "file": "meeting_room/Meeting 06.pdf"
+    },
+    "meeting_07": {
+        "file": "meeting_room/Meeting 07.pdf"
+    },
+    "meeting_08": {
+        "file": "meeting_room/Meeting 08.pdf"
+    },
+
+    "printer_manual": {
+        "file": "manuals/Printer Manual.pdf"
+    },
+    "coffee_machine_manual": {
+        "file": "manuals/Coffee Machine Manual.pdf"
+    },
+    "emergency_plan": {
+        "file": "manuals/Emergency Plan.pdf"
+    },
+
+    "team_photo": {
+        "file": "photos/Team Photo.jpg"
+    },
+    "office_photo_2018": {
+        "file": "photos/Office Photo 2018.jpg"
+    },
+
+    "pending_tasks": {
+        "file": "misc/Pending Tasks.txt"
+    },
+    "meeting_ideas": {
+        "file": "misc/Meeting Ideas.txt"
+    },
+    "meeting_recording_notes": {
+        "file": "meeting_room/Meeting Recording Notes.docx"
+    }
+}

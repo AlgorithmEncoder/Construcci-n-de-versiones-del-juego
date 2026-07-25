@@ -1,88 +1,511 @@
 {
-    "reception_pc": {
-        "emails": [
-            {
-                "from": "IT",
-                "subject": "Printer maintenance",
-                "body": "The printer on the first floor will be unavailable between 11:00 and 11:30."
-            },
-            {
-                "from": "Facilities",
-                "subject": "Coffee machine",
-                "body": "The coffee machine has been repaired. Please report any further issues."
-            },
-            {
-                "from": "Reception",
-                "subject": "Interview today",
-                "body": "The candidate is expected at 08:30. Please prepare the meeting room."
-            },
-            {
-                "from": "Marta Romero",
-                "subject": "Employee list",
-                "body": "I've updated the employee registry. Please replace the old printed copy."
-            },
-            {
-                "from": "Miguel Ruiz",
-                "subject": "Visitors",
-                "body": "No visitors are allowed beyond Reception without my approval."
-            },
-            {
-                "from": "Unknown",
-                "subject": "Question",
-                "body": "Do you remember who used Desk 4?"
-            }
-        ],
-
-        "chats": [
-            {
-                "with": "Laura",
-                "messages": [
-                    "Morning!",
-                    "Morning :)",
-                    "Busy day?"
-                ]
-            },
-            {
-                "with": "Carlos",
-                "messages": [
-                    "Have you booked the meeting room?",
-                    "Yes."
-                ]
-            },
-            {
-                "with": "Marta",
-                "messages": [
-                    "Can you print the employee list?",
-                    "Already done."
-                ]
-            },
-            {
-                "with": "Ana",
-                "messages": [
-                    "Do you remember who sat at Desk 4?",
-                    "...",
-                    "That's a strange question."
-                ]
-            },
-            {
-                "with": "Miguel Ruiz",
-                "messages": [
-                    "Please send today's visitor upstairs when I call.",
-                    "Understood."
-                ]
-            }
-        ],
-
-        "files": [
-            "Reception Manual.pdf",
-            "Emergency Contacts.xlsx",
-            "Visitor Template.docx",
-            "Office Map.png"
-        ]
-    },
-
     "director_pc": {
         "emails": [
+            {
+                "id": "mail_001",
+                "from": "Marta Romero",
+                "to": "Miguel Ruiz",
+                "date": "07:38",
+                "subject": "Agenda de hoy",
+                "body": [
+                    "Buenos días.",
+                    "",
+                    "Te adjunto la agenda prevista para esta mañana.",
+                    "",
+                    "He dejado libre el hueco entre las 08:30 y las 09:00 por si necesitas preparar la reunión."
+                ]
+            },
+            {
+                "id": "mail_002",
+                "from": "Miguel Ruiz",
+                "to": "Marta Romero",
+                "date": "07:39",
+                "subject": "RE: Agenda de hoy",
+                "body": [
+                    "Perfecto.",
+                    "",
+                    "Gracias."
+                ]
+            },
+            {
+                "id": "mail_003",
+                "from": "Carlos Vega",
+                "to": "Miguel Ruiz",
+                "date": "07:42",
+                "subject": "Presupuesto Q3",
+                "body": [
+                    "Buenos días.",
+                    "",
+                    "Adjunto la última revisión del presupuesto.",
+                    "",
+                    "Quedo pendiente de tu visto bueno."
+                ]
+            },
+            {
+                "id": "mail_004",
+                "from": "Miguel Ruiz",
+                "to": "Carlos Vega",
+                "date": "07:44",
+                "subject": "RE: Presupuesto Q3",
+                "body": [
+                    "Revisado.",
+                    "",
+                    "Puedes continuar."
+                ]
+            },
+            {
+                "id": "mail_005",
+                "from": "Laura Pérez",
+                "to": "Miguel Ruiz",
+                "date": "07:47",
+                "subject": "Fotografía del equipo",
+                "body": [
+                    "He encontrado una fotografía antigua mientras ordenaba un archivador.",
+                    "",
+                    "Está un poco deteriorada.",
+                    "",
+                    "¿La conservamos?"
+                ]
+            },
+            {
+                "id": "mail_006",
+                "from": "Miguel Ruiz",
+                "to": "Laura Pérez",
+                "date": "07:48",
+                "subject": "RE: Fotografía del equipo",
+                "body": [
+                    "Sí.",
+                    "",
+                    "Archívala.",
+                    "",
+                    "No hace falta restaurarla."
+                ]
+            },
+            {
+                "id": "mail_007",
+                "from": "Marta Romero",
+                "to": "Miguel Ruiz",
+                "date": "07:50",
+                "subject": "Organigrama",
+                "body": [
+                    "Estoy revisando el organigrama actualizado.",
+                    "",
+                    "Hay pequeñas diferencias respecto a la copia antigua.",
+                    "",
+                    "Imagino que son cambios de formato."
+                ]
+            },
+            {
+                "id": "mail_008",
+                "from": "Miguel Ruiz",
+                "to": "Marta Romero",
+                "date": "07:51",
+                "subject": "RE: Organigrama",
+                "body": [
+                    "Correcto.",
+                    "",
+                    "Conserva ambas versiones."
+                ]
+            },
+            {
+                "id": "mail_009",
+                "from": "Ana López",
+                "to": "Miguel Ruiz",
+                "date": "07:54",
+                "subject": "Documentación antigua",
+                "body": [
+                    "Mientras ordenaba Archivo han aparecido varias carpetas antiguas.",
+                    "",
+                    "¿Quieres que elimine las duplicadas?"
+                ]
+            },
+            {
+                "id": "mail_010",
+                "from": "Miguel Ruiz",
+                "to": "Ana López",
+                "date": "07:55",
+                "subject": "RE: Documentación antigua",
+                "body": [
+                    "No.",
+                    "",
+                    "Conserva todo.",
+                    "",
+                    "Incluso los documentos obsoletos."
+                ]
+            },
+            {
+                "id": "mail_011",
+                "from": "Marta Romero",
+                "to": "Miguel Ruiz",
+                "date": "08:01",
+                "subject": "Consulta RRHH",
+                "body": [
+                    "Buenos días.",
+                    "",
+                    "Un empleado ha preguntado por la reorganización del año pasado.",
+                    "",
+                    "No he sabido muy bien qué responder."
+                ]
+            },
+            {
+                "id": "mail_012",
+                "from": "Miguel Ruiz",
+                "to": "Marta Romero",
+                "date": "08:02",
+                "subject": "RE: Consulta RRHH",
+                "body": [
+                    "Responded únicamente con la documentación vigente.",
+                    "",
+                    "Si necesita consultar versiones anteriores, que me lo comunique."
+                ]
+            },
+            {
+                "id": "mail_013",
+                "from": "Carlos Vega",
+                "to": "Miguel Ruiz",
+                "date": "08:04",
+                "subject": "Contratos archivados",
+                "body": [
+                    "He encontrado varias versiones del mismo contrato.",
+                    "",
+                    "No parecen contener la misma información."
+                ]
+            },
+            {
+                "id": "mail_014",
+                "from": "Miguel Ruiz",
+                "to": "Carlos Vega",
+                "date": "08:05",
+                "subject": "RE: Contratos archivados",
+                "body": [
+                    "No modifiques ninguno.",
+                    "",
+                    "Archívalos juntos."
+                ]
+            },
+            {
+                "id": "mail_015",
+                "from": "Ana López",
+                "to": "Miguel Ruiz",
+                "date": "08:08",
+                "subject": "Fotografía antigua",
+                "body": [
+                    "He vuelto a mirar la fotografía.",
+                    "",
+                    "Juraría que recordaba otra distribución del equipo.",
+                    "",
+                    "Imagino que me estoy confundiendo."
+                ]
+            },
+            {
+                "id": "mail_016",
+                "from": "Miguel Ruiz",
+                "to": "Ana López",
+                "date": "08:09",
+                "subject": "RE: Fotografía antigua",
+                "body": [
+                    "No te preocupes.",
+                    "",
+                    "Es una fotografía muy antigua."
+                ]
+            },
+            {
+                "id": "mail_017",
+                "from": "Laura Pérez",
+                "to": "Miguel Ruiz",
+                "date": "08:12",
+                "subject": "Organización Archivo",
+                "body": [
+                    "Quedan muy pocas estanterías libres.",
+                    "",
+                    "Conservar toda la documentación empieza a ser complicado."
+                ]
+            },
+            {
+                "id": "mail_018",
+                "from": "Miguel Ruiz",
+                "to": "Laura Pérez",
+                "date": "08:13",
+                "subject": "RE: Organización Archivo",
+                "body": [
+                    "Lo revisaremos.",
+                    "",
+                    "Mientras tanto no retiréis documentación."
+                ]
+            },
+            {
+                "id": "mail_019",
+                "from": "M. Romero",
+                "to": "Miguel Ruiz",
+                "date": "08:16",
+                "subject": "Listado antiguo",
+                "body": [
+                    "He localizado una copia del listado anterior.",
+                    "",
+                    "No coincide exactamente con el actual."
+                ]
+            },
+            {
+                "id": "mail_020",
+                "from": "Miguel Ruiz",
+                "to": "M. Romero",
+                "date": "08:17",
+                "subject": "RE: Listado antiguo",
+                "body": [
+                    "Déjalo donde estaba.",
+                    "",
+                    "Ya hablaremos de ello."
+                ]
+            },
+            {
+                "id": "mail_021",
+                "from": "Marta Romero",
+                "to": "Miguel Ruiz",
+                "date": "08:19",
+                "subject": "RE: Organigrama",
+                "body": [
+                    "He comparado ambas versiones otra vez.",
+                    "",
+                    "Siguen pareciéndome distintas.",
+                    "",
+                    "No sabría explicar exactamente por qué."
+                ]
+            },
+            {
+                "id": "mail_022",
+                "from": "Miguel Ruiz",
+                "to": "Marta Romero",
+                "date": "08:20",
+                "subject": "RE: Organigrama",
+                "body": [
+                    "No le des más vueltas.",
+                    "",
+                    "Trabaja siempre con la versión actual."
+                ]
+            },
+            {
+                "id": "mail_023",
+                "from": "Laura Pérez",
+                "to": "Miguel Ruiz",
+                "date": "08:22",
+                "subject": "Consulta visitante",
+                "body": [
+                    "El visitante ha preguntado quién dirige actualmente la empresa.",
+                    "",
+                    "Le he indicado que eras tú."
+                ]
+            },
+            {
+                "id": "mail_024",
+                "from": "Miguel Ruiz",
+                "to": "Laura Pérez",
+                "date": "08:23",
+                "subject": "RE: Consulta visitante",
+                "body": [
+                    "Perfecto.",
+                    "",
+                    "Hazle pasar cuando llegue el momento."
+                ]
+            },
+            {
+                "id": "mail_025",
+                "from": "Carlos Vega",
+                "to": "Miguel Ruiz",
+                "date": "08:25",
+                "subject": "Firma pendiente",
+                "body": [
+                    "Adjunto el informe para firma.",
+                    "",
+                    "Sin tu aprobación no puedo archivarlo."
+                ]
+            },
+            {
+                "id": "mail_026",
+                "from": "Miguel Ruiz",
+                "to": "Carlos Vega",
+                "date": "08:26",
+                "subject": "RE: Firma pendiente",
+                "body": [
+                    "Lo revisaré antes de la reunión."
+                ]
+            },
+            {
+                "id": "mail_027",
+                "from": "Ana López",
+                "to": "Miguel Ruiz",
+                "date": "08:27",
+                "subject": "Empleado antiguo",
+                "body": [
+                    "Hay una firma en unos documentos que no consigo identificar.",
+                    "",
+                    "Pensaba que quizá tú la recordarías."
+                ]
+            },
+            {
+                "id": "mail_028",
+                "from": "Miguel Ruiz",
+                "to": "Ana López",
+                "date": "08:28",
+                "subject": "RE: Empleado antiguo",
+                "body": [
+                    "Déjalos en mi mesa.",
+                    "",
+                    "Los revisaré."
+                ]
+            },
+            {
+                "id": "mail_029",
+                "from": "Marta Romero",
+                "to": "Miguel Ruiz",
+                "date": "08:29",
+                "subject": "Duda",
+                "body": [
+                    "Perdona la pregunta.",
+                    "",
+                    "¿Tú recuerdas perfectamente la reorganización?",
+                    "",
+                    "Empiezo a pensar que soy yo quien la recuerda mal."
+                ]
+            },
+            {
+                "id": "mail_030",
+                "from": "Miguel Ruiz",
+                "to": "Marta Romero",
+                "date": "08:30",
+                "subject": "RE: Duda",
+                "body": [
+                    "No te preocupes.",
+                    "",
+                    "Es normal que los detalles cambien con el tiempo."
+                ]
+            },
+            {
+                "id": "mail_031",
+                "from": "Laura Pérez",
+                "to": "Miguel Ruiz",
+                "date": "08:32",
+                "subject": "Documentación para la reunión",
+                "body": [
+                    "Buenos días.",
+                    "",
+                    "Ya está preparada toda la documentación.",
+                    "",
+                    "La he dejado sobre tu mesa."
+                ]
+            },
+            {
+                "id": "mail_032",
+                "from": "Miguel Ruiz",
+                "to": "Laura Pérez",
+                "date": "08:33",
+                "subject": "RE: Documentación para la reunión",
+                "body": [
+                    "Perfecto.",
+                    "",
+                    "Gracias."
+                ]
+            },
+            {
+                "id": "mail_033",
+                "from": "Secretaría",
+                "to": "Miguel Ruiz",
+                "date": "08:34",
+                "subject": "Firma pendiente",
+                "body": [
+                    "Adjunto el acta de la última reunión del comité.",
+                    "",
+                    "Queda pendiente únicamente tu firma.",
+                    "",
+                    "Miguel Ruiz",
+                    "Director General"
+                ]
+            },
+            {
+                "id": "mail_034",
+                "from": "Miguel Ruiz",
+                "to": "Secretaría",
+                "date": "08:35",
+                "subject": "RE: Firma pendiente",
+                "body": [
+                    "La firmaré antes de las 09:00."
+                ]
+            },
+            {
+                "id": "mail_035",
+                "from": "Marta Romero",
+                "to": "Miguel Ruiz",
+                "date": "08:36",
+                "subject": "Consulta rápida",
+                "body": [
+                    "Carlos y yo hemos intentado reconstruir unos registros antiguos.",
+                    "",
+                    "No conseguimos llegar a la misma conclusión.",
+                    "",
+                    "Cuando tengas un momento, ¿podrías revisarlos?"
+                ]
+            },
+            {
+                "id": "mail_036",
+                "from": "Miguel Ruiz",
+                "to": "Marta Romero",
+                "date": "08:37",
+                "subject": "RE: Consulta rápida",
+                "body": [
+                    "Sí.",
+                    "",
+                    "Dejadlos en mi despacho."
+                ]
+            },
+            {
+                "id": "mail_037",
+                "from": "Carlos Vega",
+                "to": "Miguel Ruiz",
+                "date": "08:38",
+                "subject": "Inventario Archivo",
+                "body": [
+                    "He terminado el inventario.",
+                    "",
+                    "Hay documentos que nadie consulta desde hace años.",
+                    "",
+                    "¿Quieres que los pase a almacenamiento externo?"
+                ]
+            },
+            {
+                "id": "mail_038",
+                "from": "Miguel Ruiz",
+                "to": "Carlos Vega",
+                "date": "08:39",
+                "subject": "RE: Inventario Archivo",
+                "body": [
+                    "No.",
+                    "",
+                    "Todo debe permanecer accesible."
+                ]
+            },
+            {
+                "id": "mail_039",
+                "from": "Ana López",
+                "to": "Miguel Ruiz",
+                "date": "08:41",
+                "subject": "Gracias",
+                "body": [
+                    "Ya encontré la documentación.",
+                    "",
+                    "Al final era exactamente donde me dijiste.",
+                    "",
+                    "Gracias."
+                ]
+            },
+            {
+                "id": "mail_040",
+                "from": "Miguel Ruiz",
+                "to": "Ana López",
+                "date": "08:42",
+                "subject": "RE: Gracias",
+                "body": [
+                    "De nada."
+                ]
+            },
             {
                 "from": "Finance",
                 "subject": "Budget approved",
@@ -104,8 +527,303 @@
                 "body": "We need to talk before anyone else starts asking."
             }
         ],
-
         "chats": [
+            {
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "Buenos días."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Buenos días."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "¿Revisamos el informe después de la reunión?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Sí."
+                    }
+                ]
+            },
+            {
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "He terminado el presupuesto."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Perfecto."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Lo tienes en el correo."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Gracias."
+                    }
+                ]
+            },
+            {
+                "with": "Laura Pérez",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "La recepción ya está preparada."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Perfecto."
+                    }
+                ]
+            },
+            {
+                "with": "Ana López",
+                "messages": [
+                    {
+                        "sender": "Ana",
+                        "text": "He encontrado otra carpeta antigua."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Guárdala."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "¿Aunque esté repetida?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Sí."
+                    }
+                ]
+            },
+            {
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "He vuelto a revisar el organigrama."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Algún problema?"
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "No exactamente."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Solo me resulta extraño."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Déjalo como está."
+                    }
+                ]
+            },
+            {
+                "with": "Ana López",
+                "messages": [
+                    {
+                        "sender": "Ana",
+                        "text": "Cada vez que entro en Archivo me pasa lo mismo."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Qué ocurre?"
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Tengo la sensación de haber olvidado algo."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No te preocupes."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Continúa con tu trabajo."
+                    }
+                ]
+            },
+            {
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "¿Seguro que guardamos todas las versiones?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Sí."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Cada año ocupan más espacio."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Lo sé."
+                    }
+                ]
+            },
+            {
+                "with": "Laura Pérez",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "La gente pregunta mucho por documentos antiguos."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Es normal."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Los dejamos pasar?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No sin avisarme."
+                    }
+                ]
+            },
+            {
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "A veces creo que recuerdas esta empresa mejor que nadie."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Llevo muchos años aquí."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Se nota."
+                    }
+                ]
+            },
+            {
+                "with": "Ana López",
+                "messages": [
+                    {
+                        "sender": "Ana",
+                        "text": "No consigo identificar una firma."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Déjala en mi despacho."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Sabía que tú lo sabrías."
+                    }
+                ]
+            },
+            {
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "¿Quién aprobó la reorganización?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Está documentado."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Luego lo buscaré."
+                    }
+                ]
+            },
+            {
+                "with": "Laura Pérez",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "Todo el mundo me pregunta cosas que solo sabes tú."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Forma parte del trabajo."
+                    }
+                ]
+            },
+            {
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "A veces pienso que conoces cada documento del Archivo."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Solo llevo muchos años trabajando con ellos."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Pues tienes una memoria increíble."
+                    }
+                ]
+            },
+            {
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "He dejado los informes donde siempre."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Perfecto."
+                    }
+                ]
+            },
+            {
+                "with": "Ana López",
+                "messages": [
+                    {
+                        "sender": "Ana",
+                        "text": "Ya está todo organizado."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Gracias."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Menos mal que recuerdas dónde está todo."
+                    }
+                ]
+            },
+            {
+                "with": "Laura Pérez",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "El visitante ya ha llegado."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Hazle esperar unos minutos."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "De acuerdo."
+                    }
+                ]
+            },
             {
                 "with": "Marta",
                 "messages": [
@@ -123,24 +841,1481 @@
                 ]
             }
         ],
-
         "files": [
+            {
+                "name": "Meeting_Agenda.pdf",
+                "document_id": "meeting_agenda"
+            },
+            {
+                "name": "Organisation_Chart.pdf",
+                "document_id": "organisation_chart_current"
+            },
+            {
+                "name": "Budget_Q3.xlsx",
+                "document_id": "budget_q3"
+            },
+            {
+                "name": "Employee_Evaluations.pdf",
+                "document_id": "employee_evaluations"
+            },
+            {
+                "name": "Interview_Report.pdf",
+                "document_id": "interview_report"
+            },
+            {
+                "name": "Company_Policies.pdf",
+                "document_id": "company_policies"
+            },
+            {
+                "name": "Employee_Registry_Current.xlsx",
+                "document_id": "employee_registry_current"
+            },
+            {
+                "name": "Employee_Registry_Previous.xlsx",
+                "document_id": "employee_registry_previous"
+            },
+            {
+                "name": "Archive_Index.xlsx",
+                "document_id": "archive_index"
+            },
+            {
+                "name": "Internal_Reorganisation.pdf",
+                "document_id": "internal_reorganisation"
+            },
+            {
+                "name": "Management_Meeting_Minutes.pdf",
+                "document_id": "management_meeting_minutes"
+            },
+            {
+                "name": "Historical_Records.pdf",
+                "document_id": "historical_records"
+            },
+            {
+                "name": "Director_Agenda.pdf",
+                "document_id": "director_agenda"
+            },
+            {
+                "name": "Executive_Approvals.pdf",
+                "document_id": "executive_approvals"
+            },
+            {
+                "name": "Company_Organisation.pdf",
+                "document_id": "company_organisation"
+            },
+            {
+                "name": "Signed_Reports.pdf",
+                "document_id": "signed_reports"
+            },
+            {
+                "name": "Management_Directory.pdf",
+                "document_id": "management_directory"
+            },
+            {
+                "name": "Board_Minutes.pdf",
+                "document_id": "board_minutes"
+            },
+            {
+                "name": "Committee_Minutes.pdf",
+                "document_id": "committee_minutes"
+            },
+            {
+                "name": "Director_Signatures.pdf",
+                "document_id": "director_signatures"
+            },
+            {
+                "name": "Archive_Guidelines.pdf",
+                "document_id": "archive_guidelines"
+            },
+            {
+                "name": "Historical_Index.xlsx",
+                "document_id": "historical_index"
+            },
+            {
+                "name": "Executive_Approvals_2024.pdf",
+                "document_id": "executive_approvals_2024"
+            },
+            {
+                "name": "Director_Notes.txt",
+                "document_id": "director_notes"
+            },
             "Quarterly Report.pdf",
             "Payroll.xlsx",
             "Meeting Minutes.docx",
             "Confidential"
         ]
     },
-
     "meeting_laptop": {
-        "emails": [],
-
+        "emails": [
+            {
+                "id": "mail_001",
+                "from": "Marta Romero",
+                "to": "Sala de reuniones",
+                "date": "07:30",
+                "subject": "Presentación",
+                "body": [
+                    "He dejado preparada la presentación para esta mañana.",
+                    "",
+                    "Está en el Escritorio."
+                ]
+            },
+            {
+                "id": "mail_002",
+                "from": "Carlos Vega",
+                "to": "Sala de reuniones",
+                "date": "07:34",
+                "subject": "RE: Presentación",
+                "body": [
+                    "Perfecto.",
+                    "",
+                    "He actualizado las cifras del último trimestre."
+                ]
+            },
+            {
+                "id": "mail_003",
+                "from": "Miguel Ruiz",
+                "to": "Sala de reuniones",
+                "date": "07:40",
+                "subject": "Orden del día",
+                "body": [
+                    "La reunión seguirá el orden previsto.",
+                    "",
+                    "No será necesario añadir más puntos."
+                ]
+            },
+            {
+                "id": "mail_004",
+                "from": "Laura Pérez",
+                "to": "Sala de reuniones",
+                "date": "07:45",
+                "subject": "Proyector",
+                "body": [
+                    "El proyector ya está preparado."
+                ]
+            },
+            {
+                "id": "mail_005",
+                "from": "IT",
+                "to": "Sala de reuniones",
+                "date": "07:52",
+                "subject": "Actualización",
+                "body": [
+                    "El portátil compartido se actualizará esta noche.",
+                    "",
+                    "Guardad los documentos importantes."
+                ]
+            }
+        ],
         "chats": [],
-
         "files": [
+            {
+                "name": "Presentacion_Q3_FINAL.pptx",
+                "document_id": "presentation_q3_final"
+            },
+            {
+                "name": "Presentacion_Q3_FINAL_BUENA.pptx",
+                "document_id": "presentation_q3_final_v2"
+            },
+            {
+                "name": "Presentacion_Q3_USAR_ESTA.pptx",
+                "document_id": "presentation_q3_final_v3"
+            },
+            {
+                "name": "Acta_Reunion_Anterior.pdf",
+                "document_id": "meeting_minutes_previous"
+            },
+            {
+                "name": "Orden_del_dia.pdf",
+                "document_id": "meeting_agenda"
+            },
+            {
+                "name": "Presupuesto_Q3.xlsx",
+                "document_id": "budget_q3"
+            },
+            {
+                "name": "Plantilla_Actas.docx",
+                "document_id": "meeting_template"
+            },
+            {
+                "name": "Logo_empresa.png",
+                "document_id": "company_logo"
+            },
+            {
+                "name": "Nueva carpeta.zip",
+                "document_id": "new_folder_zip"
+            },
+            {
+                "folder": "Desktop",
+                "name": "Notas.txt",
+                "document_id": "meeting_notes"
+            },
+            {
+                "folder": "Desktop",
+                "name": "Tareas.docx",
+                "document_id": "meeting_tasks"
+            },
+            {
+                "folder": "Desktop",
+                "name": "Lista_asistentes.xlsx",
+                "document_id": "meeting_attendees"
+            },
+            {
+                "folder": "Desktop",
+                "name": "Borrador_presupuesto.xlsx",
+                "document_id": "budget_draft"
+            },
+            {
+                "folder": "Desktop",
+                "name": "NO_USAR.pptx",
+                "document_id": "presentation_old"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Employee_List_v1.xlsx",
+                "document_id": "employee_registry_v1"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Employee_List_v2.xlsx",
+                "document_id": "employee_registry_v2"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Organisation_Chart_old.pdf",
+                "document_id": "organisation_chart_old"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Organisation_Chart_current.pdf",
+                "document_id": "organisation_chart_current"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Team_Photo.jpg",
+                "document_id": "team_photo"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Printer_Manual.pdf",
+                "document_id": "printer_manual"
+            },
+            {
+                "folder": "Downloads",
+                "name": "CoffeeMachine.pdf",
+                "document_id": "coffee_machine_manual"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Emergency_Plan.pdf",
+                "document_id": "emergency_plan"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_01.pdf",
+                "document_id": "meeting_01"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_02.pdf",
+                "document_id": "meeting_02"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_03.pdf",
+                "document_id": "meeting_03"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_04.pdf",
+                "document_id": "meeting_04"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_05.pdf",
+                "document_id": "meeting_05"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_06.pdf",
+                "document_id": "meeting_06"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_07.pdf",
+                "document_id": "meeting_07"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_08.pdf",
+                "document_id": "meeting_08"
+            },
+            {
+                "folder": "Archive",
+                "name": "Archive_Index.pdf",
+                "document_id": "archive_index"
+            },
+            {
+                "folder": "Archive",
+                "name": "Historical_Records.pdf",
+                "document_id": "historical_records"
+            },
+            {
+                "folder": "Archive",
+                "name": "Contracts_Registry.xlsx",
+                "document_id": "contracts_registry"
+            },
+            {
+                "folder": "Archive",
+                "name": "Employee_History.pdf",
+                "document_id": "employee_history"
+            },
+            {
+                "folder": "Archive",
+                "name": "Old_Organisation_Notes.docx",
+                "document_id": "old_organisation_notes"
+            },
+            {
+                "folder": "Templates",
+                "name": "Meeting_Template.docx",
+                "document_id": "meeting_template"
+            },
+            {
+                "folder": "Templates",
+                "name": "Decision_Template.docx",
+                "document_id": "decision_template"
+            },
+            {
+                "folder": "Templates",
+                "name": "Internal_Report_Template.docx",
+                "document_id": "internal_report_template"
+            },
+            {
+                "folder": "Old",
+                "name": "Presentation_2022.pptx",
+                "document_id": "presentation_2022"
+            },
+            {
+                "folder": "Old",
+                "name": "Presentation_2023.pptx",
+                "document_id": "presentation_2023"
+            },
+            {
+                "folder": "Old",
+                "name": "Organisation_Backup.pdf",
+                "document_id": "organisation_backup"
+            },
+            {
+                "folder": "Archive",
+                "name": "Document_Access_Log.xlsx",
+                "document_id": "document_access_log"
+            },
+            {
+                "folder": "Archive",
+                "name": "Historical_Archive_Guide.pdf",
+                "document_id": "historical_archive_guide"
+            },
+            {
+                "folder": "Archive",
+                "name": "Archive_Room_Map.pdf",
+                "document_id": "archive_room_map"
+            },
+            {
+                "folder": "Desktop",
+                "name": "Pendientes.txt",
+                "document_id": "pending_tasks"
+            },
+            {
+                "folder": "Desktop",
+                "name": "Ideas reunión.txt",
+                "document_id": "meeting_ideas"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Photo_Office_2018.jpg",
+                "document_id": "office_photo_2018"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Meeting_Recording_Notes.docx",
+                "document_id": "meeting_recording_notes"
+            },
+            {
+                "folder": "Old",
+                "name": "Archive_Cleanup_Proposal.pdf",
+                "document_id": "archive_cleanup_proposal"
+            },
+            {
+                "folder": "Old",
+                "name": "Rejected_Proposal.pdf",
+                "document_id": "rejected_proposal"
+            },
+            {
+                "folder": "Old",
+                "name": "Employee_List_Draft.xlsx",
+                "document_id": "employee_list_draft"
+            },
             "Weekly Meeting.pptx",
             "Project Planning.xlsx",
             "Meeting Notes.docx"
+        ]
+    },
+    "reception_pc": {
+        "emails": [
+            {
+                "id": "mail_001",
+                "from": "Miguel Ruiz",
+                "to": "Reception",
+                "date": "07:42",
+                "subject": "Today's visitor",
+                "body": [
+                    "Buenos días.",
+                    "",
+                    "Hoy recibiremos a un visitante.",
+                    "Esperad mi llamada antes de enviarlo al despacho.",
+                    "",
+                    "No hagáis ninguna excepción.",
+                    "",
+                    "Miguel"
+                ]
+            },
+            {
+                "id": "mail_002",
+                "from": "Marta Romero",
+                "to": "Reception",
+                "date": "07:46",
+                "subject": "Nueva lista de empleados",
+                "body": [
+                    "Buenos días.",
+                    "",
+                    "Adjunto la versión actualizada de la lista de empleados.",
+                    "",
+                    "Destruid la copia anterior cuando podáis.",
+                    "",
+                    "Gracias."
+                ]
+            },
+            {
+                "id": "mail_003",
+                "from": "Laura Pérez",
+                "to": "Reception",
+                "date": "07:48",
+                "subject": "Tarta",
+                "body": [
+                    "¿Al final hacemos lo del cumpleaños esta tarde?",
+                    "",
+                    "He encargado una tarta de chocolate.",
+                    "",
+                    "No se lo digáis a Carlos."
+                ]
+            },
+            {
+                "id": "mail_004",
+                "from": "Mantenimiento",
+                "to": "Toda la empresa",
+                "date": "07:51",
+                "subject": "Ascensor",
+                "body": [
+                    "El ascensor quedará fuera de servicio mañana entre las 09:00 y las 11:00.",
+                    "",
+                    "Disculpen las molestias."
+                ]
+            },
+            {
+                "id": "mail_005",
+                "from": "IT",
+                "to": "Toda la empresa",
+                "date": "07:53",
+                "subject": "Cambio obligatorio de contraseña",
+                "body": [
+                    "Recordamos que todas las contraseñas deberán cambiarse antes del viernes.",
+                    "",
+                    "No reutilicéis contraseñas antiguas."
+                ]
+            },
+            {
+                "id": "mail_006",
+                "from": "Carlos Vega",
+                "to": "Reception",
+                "date": "07:55",
+                "subject": "Sala de reuniones",
+                "body": [
+                    "¿Está libre la sala de reuniones a las 09:00?",
+                    "",
+                    "Necesito preparar unos documentos."
+                ]
+            },
+            {
+                "id": "mail_007",
+                "from": "Proveedor OfficeLine",
+                "to": "Reception",
+                "date": "07:56",
+                "subject": "Entrega de material",
+                "body": [
+                    "El pedido llegará mañana.",
+                    "",
+                    "Incluye archivadores, papel y tóner."
+                ]
+            },
+            {
+                "id": "mail_008",
+                "from": "Miguel Ruiz",
+                "to": "Reception",
+                "date": "07:57",
+                "subject": "Visitas",
+                "body": [
+                    "Recordatorio.",
+                    "",
+                    "Nadie debe acceder a Archivo sin autorización.",
+                    "",
+                    "Miguel"
+                ]
+            },
+            {
+                "id": "mail_009",
+                "from": "Ana López",
+                "to": "Reception",
+                "date": "07:58",
+                "subject": "¿Te acuerdas?",
+                "body": [
+                    "Una pregunta un poco rara.",
+                    "",
+                    "¿Recuerdas quién ocupaba la mesa 4 hace unos meses?",
+                    "",
+                    "No consigo acordarme."
+                ]
+            },
+            {
+                "id": "mail_010",
+                "from": "Reception",
+                "to": "Ana López",
+                "date": "08:00",
+                "subject": "Re: ¿Te acuerdas?",
+                "body": [
+                    "Pues ahora que lo dices...",
+                    "",
+                    "Yo tampoco."
+                ]
+            },
+            {
+                "id": "mail_011",
+                "from": "Marta Romero",
+                "to": "Miguel Ruiz",
+                "cc": "Reception",
+                "date": "08:01",
+                "subject": "Actualización del organigrama",
+                "body": [
+                    "Buenos días.",
+                    "",
+                    "He preparado una nueva versión del organigrama.",
+                    "La anterior sigue en Archivo por si fuera necesaria.",
+                    "",
+                    "¿La sustituimos hoy?",
+                    "",
+                    "Marta"
+                ]
+            },
+            {
+                "id": "mail_012",
+                "from": "Miguel Ruiz",
+                "to": "Marta Romero",
+                "cc": "Reception",
+                "date": "08:02",
+                "subject": "Re: Actualización del organigrama",
+                "body": [
+                    "Sí.",
+                    "",
+                    "Retirad la versión antigua de circulación.",
+                    "",
+                    "No es necesario destruirla.",
+                    "",
+                    "Miguel"
+                ]
+            },
+            {
+                "id": "mail_013",
+                "from": "Carlos Vega",
+                "to": "Reception",
+                "date": "08:03",
+                "subject": "¿Quién se lleva las sillas?",
+                "body": [
+                    "Otra vez falta una silla de la sala de reuniones.",
+                    "",
+                    "Si alguien la ha cogido para otra sala, por favor que la devuelva."
+                ]
+            },
+            {
+                "id": "mail_014",
+                "from": "Laura Pérez",
+                "to": "Reception",
+                "date": "08:04",
+                "subject": "Foto del equipo",
+                "body": [
+                    "He encontrado una fotografía antigua del equipo.",
+                    "",
+                    "Está un poco doblada.",
+                    "",
+                    "Creo que la dejaré en Archivo para que no se pierda."
+                ]
+            },
+            {
+                "id": "mail_015",
+                "from": "Ana López",
+                "to": "Reception",
+                "date": "08:05",
+                "subject": "Pregunta rara",
+                "body": [
+                    "No sé si te parecerá una tontería...",
+                    "",
+                    "¿Recuerdas que antes hubiera una planta junto a la ventana?",
+                    "",
+                    "No consigo visualizar esa zona."
+                ]
+            },
+            {
+                "id": "mail_016",
+                "from": "Reception",
+                "to": "Ana López",
+                "date": "08:06",
+                "subject": "Re: Pregunta rara",
+                "body": [
+                    "La verdad es que tampoco.",
+                    "",
+                    "Pero juraría que siempre ha estado igual."
+                ]
+            },
+            {
+                "id": "mail_017",
+                "from": "IT",
+                "to": "Toda la empresa",
+                "date": "08:07",
+                "subject": "Inventario de equipos",
+                "body": [
+                    "Durante esta semana revisaremos todos los ordenadores.",
+                    "",
+                    "No desconectéis ningún equipo."
+                ]
+            },
+            {
+                "id": "mail_018",
+                "from": "Proveedor OfficeLine",
+                "to": "Reception",
+                "date": "08:08",
+                "subject": "Archivadores",
+                "body": [
+                    "El pedido incluirá cuatro archivadores adicionales.",
+                    "",
+                    "Esperamos entrega mañana."
+                ]
+            },
+            {
+                "id": "mail_019",
+                "from": "Miguel Ruiz",
+                "to": "Toda la empresa",
+                "date": "08:09",
+                "subject": "Reunión",
+                "body": [
+                    "La reunión prevista para esta mañana se mantiene.",
+                    "",
+                    "Puntualidad, por favor."
+                ]
+            },
+            {
+                "id": "mail_020",
+                "from": "M. Romero",
+                "to": "Reception",
+                "date": "08:10",
+                "subject": "Lista impresa",
+                "body": [
+                    "¿Habéis sustituido ya la copia antigua?",
+                    "",
+                    "No encuentro la versión anterior."
+                ]
+            },
+            {
+                "id": "mail_021",
+                "from": "M. Romero",
+                "to": "Reception",
+                "date": "08:11",
+                "subject": "Archivo físico",
+                "body": [
+                    "Buenos días.",
+                    "",
+                    "Cuando tengáis un momento, llevad las carpetas marcadas en azul al Archivo.",
+                    "",
+                    "Las rojas pueden quedarse en recepción."
+                ]
+            },
+            {
+                "id": "mail_022",
+                "from": "Reception",
+                "to": "M. Romero",
+                "date": "08:12",
+                "subject": "Re: Archivo físico",
+                "body": [
+                    "¿También las carpetas antiguas?",
+                    "",
+                    "Hay algunas bastante deterioradas."
+                ]
+            },
+            {
+                "id": "mail_023",
+                "from": "M. Romero",
+                "to": "Reception",
+                "date": "08:13",
+                "subject": "Re: Archivo físico",
+                "body": [
+                    "Sí.",
+                    "",
+                    "No tiréis nada."
+                ]
+            },
+            {
+                "id": "mail_024",
+                "from": "Laura Pérez",
+                "to": "Reception",
+                "date": "08:15",
+                "subject": "Sala de espera",
+                "body": [
+                    "Hay una lámpara parpadeando.",
+                    "",
+                    "A ver si mantenimiento puede pasar hoy."
+                ]
+            },
+            {
+                "id": "mail_025",
+                "from": "IT",
+                "to": "Toda la empresa",
+                "date": "08:16",
+                "subject": "Limpieza de discos",
+                "body": [
+                    "Durante el fin de semana eliminaremos archivos temporales.",
+                    "",
+                    "Los documentos importantes no se verán afectados."
+                ]
+            },
+            {
+                "id": "mail_026",
+                "from": "Carlos Vega",
+                "to": "Reception",
+                "date": "08:17",
+                "subject": "Caja azul",
+                "body": [
+                    "¿Sigue en recepción una caja azul con facturas?",
+                    "",
+                    "No la encuentro."
+                ]
+            },
+            {
+                "id": "mail_027",
+                "from": "Reception",
+                "to": "Carlos Vega",
+                "date": "08:18",
+                "subject": "Re: Caja azul",
+                "body": [
+                    "Sí.",
+                    "",
+                    "Está detrás del mostrador."
+                ]
+            },
+            {
+                "id": "mail_028",
+                "from": "Miguel Ruiz",
+                "to": "Reception",
+                "date": "08:20",
+                "subject": "Acceso al despacho",
+                "body": [
+                    "Si alguien pregunta por mí mientras estoy reunido,",
+                    "decid que no estoy disponible.",
+                    "",
+                    "Gracias."
+                ]
+            },
+            {
+                "id": "mail_029",
+                "from": "Mantenimiento",
+                "to": "Toda la empresa",
+                "date": "08:22",
+                "subject": "Puerta del Archivo",
+                "body": [
+                    "La cerradura ha vuelto a atascarse.",
+                    "",
+                    "Quedará revisada esta tarde."
+                ]
+            },
+            {
+                "id": "mail_030",
+                "from": "Ana López",
+                "to": "Reception",
+                "date": "08:24",
+                "subject": "Una duda",
+                "body": [
+                    "¿Tú recuerdas haber cambiado alguna vez la distribución de Finanzas?",
+                    "",
+                    "No sé por qué me da la impresión de que antes era distinta."
+                ]
+            },
+            {
+                "id": "mail_031",
+                "from": "Laura Pérez",
+                "to": "Reception",
+                "date": "08:26",
+                "subject": "Llaves",
+                "body": [
+                    "¿Sabes dónde están las llaves del archivador gris?",
+                    "",
+                    "No aparecen por ninguna parte."
+                ]
+            },
+            {
+                "id": "mail_032",
+                "from": "Reception",
+                "to": "Laura Pérez",
+                "date": "08:27",
+                "subject": "Re: Llaves",
+                "body": [
+                    "Mira en el segundo cajón.",
+                    "",
+                    "Siempre acaban ahí."
+                ]
+            },
+            {
+                "id": "mail_033",
+                "from": "M. Ruiz",
+                "to": "Reception",
+                "date": "08:28",
+                "subject": "Agenda",
+                "body": [
+                    "Por favor, no programéis más reuniones esta mañana.",
+                    "",
+                    "Necesitaré el despacho libre."
+                ]
+            },
+            {
+                "id": "mail_034",
+                "from": "Ana López",
+                "to": "Reception",
+                "date": "08:29",
+                "subject": "Fotografía",
+                "body": [
+                    "He vuelto a mirar la fotografía.",
+                    "",
+                    "Creo que me estaba confundiendo.",
+                    "",
+                    "Supongo que siempre hemos sido los mismos."
+                ]
+            },
+            {
+                "id": "mail_035",
+                "from": "IT",
+                "to": "Toda la empresa",
+                "date": "08:30",
+                "subject": "Copias de seguridad",
+                "body": [
+                    "Las copias automáticas se han completado correctamente.",
+                    "",
+                    "No es necesaria ninguna acción."
+                ]
+            },
+            {
+                "id": "mail_036",
+                "from": "Carlos Vega",
+                "to": "Reception",
+                "date": "08:31",
+                "subject": "Archivadores",
+                "body": [
+                    "He encontrado una carpeta con contratos antiguos.",
+                    "",
+                    "La dejaré en Archivo."
+                ]
+            },
+            {
+                "id": "mail_037",
+                "from": "Miguel Ruiz",
+                "to": "Reception",
+                "date": "08:33",
+                "subject": "Documentación",
+                "body": [
+                    "Si alguien solicita consultar documentación antigua,",
+                    "debe pedírmelo personalmente."
+                ]
+            },
+            {
+                "id": "mail_038",
+                "from": "Marta Romero",
+                "to": "Reception",
+                "date": "08:34",
+                "subject": "Empleado antiguo",
+                "body": [
+                    "Estoy revisando unos contratos.",
+                    "",
+                    "Hay una firma que no consigo identificar.",
+                    "",
+                    "Luego lo miraré con calma."
+                ]
+            },
+            {
+                "id": "mail_039",
+                "from": "Reception",
+                "to": "Marta Romero",
+                "date": "08:35",
+                "subject": "Re: Empleado antiguo",
+                "body": [
+                    "Si necesitas ayuda avísame.",
+                    "",
+                    "A lo mejor Carlos recuerda algo."
+                ]
+            },
+            {
+                "id": "mail_040",
+                "from": "Miguel Ruiz",
+                "to": "Toda la empresa",
+                "date": "08:37",
+                "subject": "Buenos días",
+                "body": [
+                    "Gracias por el trabajo de estas últimas semanas.",
+                    "",
+                    "Nos vemos en la reunión."
+                ]
+            }
+        ],
+        "chats": [
+            {
+                "with": "Laura",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "Buenos días ☕"
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "Buenos días."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Mucho trabajo?"
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "El de siempre."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Entonces perfecto 😄"
+                    }
+                ]
+            },
+            {
+                "with": "Carlos",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "¿Has visto mi grapadora?"
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "No 😂"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Desaparecen cosas constantemente."
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "Seguro que vuelve a aparecer."
+                    }
+                ]
+            },
+            {
+                "with": "Marta",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "¿Has sustituido ya la lista de empleados?"
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "Todavía no."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Hazlo cuando puedas."
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "Vale."
+                    }
+                ]
+            },
+            {
+                "with": "Ana",
+                "messages": [
+                    {
+                        "sender": "Ana",
+                        "text": "Oye..."
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "¿Sí?"
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "¿Te suena que antes hubiese otra mesa junto a Finanzas?"
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "Creo que siempre ha estado igual."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Sí..."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Supongo."
+                    }
+                ]
+            },
+            {
+                "with": "Miguel Ruiz",
+                "messages": [
+                    {
+                        "sender": "Miguel",
+                        "text": "Cuando llegue el visitante avísame."
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "De acuerdo."
+                    }
+                ]
+            },
+            {
+                "with": "Carlos",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "He encontrado otra caja llena de archivadores."
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "¿Más?"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Sí. Parece que compramos uno cada mes."
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "😂"
+                    }
+                ]
+            },
+            {
+                "with": "Laura",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "¿Has visto la foto antigua?"
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Creo que salíamos cinco."
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "¿Cinco?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Bueno..."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Ahora ya no estoy segura."
+                    }
+                ]
+            },
+            {
+                "with": "Marta",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "¿La lista nueva está puesta?"
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "Sí."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Perfecto."
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "¿Qué hago con la antigua?"
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Déjala donde estaba."
+                    }
+                ]
+            },
+            {
+                "with": "Ana",
+                "messages": [
+                    {
+                        "sender": "Ana",
+                        "text": "He pasado por Finanzas."
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "¿Y?"
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "He tenido la sensación de que faltaba algo."
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "¿Qué?"
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Ni idea..."
+                    }
+                ]
+            },
+            {
+                "with": "Miguel Ruiz",
+                "messages": [
+                    {
+                        "sender": "Miguel",
+                        "text": "El visitante llegará en unos minutos."
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "Todo preparado."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Perfecto."
+                    }
+                ]
+            },
+            {
+                "with": "Laura",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "He encontrado una foto antigua."
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "¿De la empresa?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Sí."
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "¿Qué tal salimos?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Raros 😂"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Creo que alguien la dobló hace años."
+                    }
+                ]
+            },
+            {
+                "with": "Carlos",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "He abierto un archivador viejo."
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "¿Y?"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Todo eran contratos antiguos."
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "Qué emoción 😂"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Ya ves."
+                    }
+                ]
+            },
+            {
+                "with": "Ana",
+                "messages": [
+                    {
+                        "sender": "Ana",
+                        "text": "¿Nunca te pasa que recuerdas algo y desaparece?"
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "¿Cómo?"
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Como cuando intentas recordar un nombre."
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "Sí..."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Da igual."
+                    }
+                ]
+            },
+            {
+                "with": "Marta",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "He vuelto a revisar el organigrama."
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "¿Todo correcto?"
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Creo que sí."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Aunque..."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "No importa."
+                    }
+                ]
+            },
+            {
+                "with": "Miguel",
+                "messages": [
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Ha llegado el visitante?"
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "Todavía no."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Avisadme en cuanto llegue."
+                    }
+                ]
+            },
+            {
+                "with": "Laura",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "Al final encontré las llaves 😂"
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "Sabía que aparecerían."
+                    }
+                ]
+            },
+            {
+                "with": "Carlos",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "Cada vez hay más cajas en Archivo."
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "Habrá que ordenar aquello."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Buena suerte 😅"
+                    }
+                ]
+            },
+            {
+                "with": "Ana",
+                "messages": [
+                    {
+                        "sender": "Ana",
+                        "text": "Ya me acuerdo."
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "¿De qué?"
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "..."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Nada."
+                    }
+                ]
+            },
+            {
+                "with": "Marta",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "Miguel quiere revisar unos documentos."
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "¿Los llevo?"
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "No, ya me encargo yo."
+                    }
+                ]
+            },
+            {
+                "with": "Miguel",
+                "messages": [
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Ha llegado ya?"
+                    },
+                    {
+                        "sender": "Reception",
+                        "text": "Aún no."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Perfecto."
+                    }
+                ]
+            }
+        ],
+        "files": [
+            {
+                "name": "Employee_List.xlsx",
+                "document_id": "employee_registry_v2"
+            },
+            {
+                "name": "Employee_List_OLD.xlsx",
+                "document_id": "employee_registry_v1"
+            },
+            {
+                "name": "Reception_Manual.pdf",
+                "document_id": "reception_manual"
+            },
+            {
+                "name": "Visitor_Protocol.pdf",
+                "document_id": "visitor_protocol"
+            },
+            {
+                "name": "Meeting_Room_Bookings.xlsx",
+                "document_id": "meeting_bookings"
+            },
+            {
+                "name": "Emergency_Contacts.xlsx",
+                "document_id": "emergency_contacts"
+            },
+            {
+                "name": "Suppliers.xlsx",
+                "document_id": "suppliers"
+            },
+            {
+                "name": "Office_Map.png",
+                "document_id": "office_map"
+            },
+            {
+                "name": "Office_Layout_v1.pdf",
+                "document_id": "office_layout_old"
+            },
+            {
+                "name": "Office_Layout_v2.pdf",
+                "document_id": "office_layout_new"
+            },
+            {
+                "name": "Organisation_Chart_v1.pdf",
+                "document_id": "organisation_chart_old"
+            },
+            {
+                "name": "Organisation_Chart_v2.pdf",
+                "document_id": "organisation_chart_new"
+            },
+            {
+                "name": "Reception_Checklist.docx",
+                "document_id": "reception_checklist"
+            },
+            {
+                "name": "Morning_Tasks.docx",
+                "document_id": "morning_tasks"
+            },
+            {
+                "name": "Employee_Photos.zip",
+                "document_id": "employee_photos"
+            },
+            {
+                "name": "Office_Photos.zip",
+                "document_id": "office_photos"
+            },
+            {
+                "name": "Employee_Seating.pdf",
+                "document_id": "employee_seating"
+            },
+            {
+                "name": "Building_Evacuation.pdf",
+                "document_id": "evacuation_plan"
+            },
+            {
+                "name": "Reception_Log_2024.xlsx",
+                "document_id": "reception_log"
+            },
+            {
+                "name": "Maintenance_History.pdf",
+                "document_id": "maintenance_history"
+            },
+            {
+                "name": "Reception_Checklist_v2.docx",
+                "document_id": "reception_checklist_v2"
+            },
+            {
+                "name": "Employee_List_PRINT.pdf",
+                "document_id": "employee_list_print"
+            },
+            {
+                "name": "Building_Map.pdf",
+                "document_id": "building_map"
+            },
+            {
+                "name": "Meeting_Room_Reservations.xlsx",
+                "document_id": "meeting_room_reservations"
+            },
+            {
+                "name": "Reception_Log_Old.xlsx",
+                "document_id": "reception_log_old"
+            },
+            {
+                "name": "Reception_Log_Current.xlsx",
+                "document_id": "reception_log_current"
+            }
         ]
     }
 }
