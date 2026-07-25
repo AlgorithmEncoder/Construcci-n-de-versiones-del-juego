@@ -74,6 +74,14 @@ class RoomManager:
         """Returns the connected room IDs."""
 
         return tuple(self._get("connections", []))
+    
+    @property
+    def restricted(self):
+
+        return self._get(
+            "restricted",
+            False
+        )
 
     # ==================================================
     # Public API

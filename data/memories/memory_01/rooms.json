@@ -9,7 +9,8 @@
             "door_reception",
             "magazine",
             "notepad_waiting"
-        ]
+        ],
+        "restricted": false
     },
 
     "reception": {
@@ -27,7 +28,8 @@
             "pc_reception",
             "agenda",
             "calendar"
-        ]
+        ],
+        "restricted": false
     },
 
     "archive": {
@@ -42,7 +44,8 @@
             "contracts_archive",
             "photo_archive",
             "paper_bin"
-        ]
+        ],
+        "restricted": true
     },
 
     "hall": {
@@ -58,7 +61,8 @@
             "door_office",
             "door_meeting",
             "company_board"
-        ]
+        ],
+        "restricted": false
     },
 
     "office": {
@@ -73,7 +77,8 @@
             "director_desk",
             "director_diploma",
             "director_photo"
-        ]
+        ],
+        "restricted": true
     },
 
     "meeting_room": {
@@ -87,6 +92,7 @@
             "meeting_laptop",
             "meeting_whiteboard",
             "meeting_schedule"
-        ]
+        ],
+        "restricted": false
     }
 }

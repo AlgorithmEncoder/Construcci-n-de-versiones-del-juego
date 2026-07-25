@@ -38,7 +38,7 @@ def validate_story(d,rooms,e):
 def validate_rooms(rooms,objects,e):
     if rooms is None:return
     for rid,r in rooms.items():
-        req(r,["name","background","connections","objects"],f"rooms:{rid}",e)
+        req(r,["name","background","connections","objects", "restricted"],f"rooms:{rid}",e)
         for c in r.get("connections",[]):
             if c not in rooms:
                 e.append(f"rooms:{rid}: connection '{c}' not found")

@@ -25,6 +25,8 @@ from managers.ui_manager import UIManager
 from managers.input_manager import InputManager
 from managers.npc_manager import NPCManager
 from managers.event_manager import EventManager
+from managers.detection_manager import DetectionManager
+from managers.player_manager import PlayerManager
 
 
 class Game:
@@ -121,6 +123,17 @@ class Game:
         self._npc_manager = NPCManager(
             self._loader.npcs
         )
+        
+        self._player = PlayerManager(
+            self._loader.story["initial_room"]
+        )
+
+        self._detection = DetectionManager(
+            self._room_manager,
+            self._npc_manager,
+            self._player,
+            self._on_detected
+        )
 
         self._event_manager = EventManager(
             self._loader.events
@@ -152,6 +165,8 @@ class Game:
         self._npc_manager.update(self._clock)
 
         self._event_manager.update(self._clock)
+        
+        self._detection.update()
 
         self._build_render_state()
 
@@ -279,11 +294,17 @@ class Game:
     def event_manager(self):
         return self._event_manager
     
+    @property
+    def player(self):
+
+        return self._player
+    
     # ==================================================
     # Actions
     # ==================================================
     def _change_room(self, room_id: str):
         self._room_manager.change_room(room_id)
+        self._player.current_room = room_id
     
     def _open_document(self, document_id: str):
         document = self._loader.documents[document_id]
@@ -349,6 +370,12 @@ class Game:
         if handler:
             handler(action.target)
     
+    def _on_detected(self, npc, reason):
+
+        print(npc.name, reason)
+
+        self.reset()
+    
     def _end_loop(self, data):
 
         print("Loop finished")
@@ -401,6 +428,10 @@ class Game:
         # Reiniciar eventos
 
         self._event_manager.reset()
+        
+        # Reiniciar player
+        
+        self._player.reset()
 
         # Cerrar interfaces
 

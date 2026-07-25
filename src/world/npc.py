@@ -26,7 +26,8 @@ class NPC:
         sprite: str,
         dialogue: str,
         schedule: list[tuple[int, str]],
-        positions: dict[str, tuple[int, int]]
+        positions: dict[str, tuple[int, int]],
+        alert=False
     ):
 
         self.id = npc_id
@@ -50,6 +51,8 @@ class NPC:
             if self.schedule
             else None
         )
+        
+        self.alert = alert
     
     @property
     def position(self) -> tuple[int, int]:
