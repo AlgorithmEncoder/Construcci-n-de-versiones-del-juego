@@ -13,14 +13,11 @@ from pathlib import Path
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 
-ASSETS_DIR = ROOT_DIR / "assets"
 DATA_DIR = ROOT_DIR / "data"
 
 MEMORIES_DIR = DATA_DIR / "memories"
 
-ROOMS_ASSETS_DIR = ASSETS_DIR / "rooms"
-UI_ASSETS_DIR = ASSETS_DIR / "ui"
-NPC_ASSETS_DIR = ASSETS_DIR / "npcs"
+ASSETS_DIR = ROOT_DIR / "assets"
 
 # ==========================================================
 # WINDOW

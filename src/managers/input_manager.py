@@ -22,6 +22,11 @@ class InputManager:
     # ==================================================
 
     def handle_event(self, event):
+        
+        if self._game.ui.is_open:
+
+            if self._game.ui.handle_event(event):
+                return
 
         if event.type == pygame.MOUSEBUTTONDOWN:
 

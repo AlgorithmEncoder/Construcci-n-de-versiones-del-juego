@@ -937,11 +937,7 @@
             {
                 "name": "Director_Notes.txt",
                 "document_id": "director_notes"
-            },
-            "Quarterly Report.pdf",
-            "Payroll.xlsx",
-            "Meeting Minutes.docx",
-            "Confidential"
+            }
         ]
     },
     "meeting_laptop": {
@@ -1252,10 +1248,7 @@
                 "folder": "Old",
                 "name": "Employee_List_Draft.xlsx",
                 "document_id": "employee_list_draft"
-            },
-            "Weekly Meeting.pptx",
-            "Project Planning.xlsx",
-            "Meeting Notes.docx"
+            }
         ]
     },
     "reception_pc": {

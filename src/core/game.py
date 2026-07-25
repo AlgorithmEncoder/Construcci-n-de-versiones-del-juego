@@ -27,6 +27,7 @@ from managers.npc_manager import NPCManager
 from managers.event_manager import EventManager
 from managers.detection_manager import DetectionManager
 from managers.player_manager import PlayerManager
+from managers.path_manager import PathManager
 
 from ui.transition import TransitionUI
 from ui.dialogue import DialogueUI
@@ -90,6 +91,8 @@ class Game:
         self._render_state = RenderState()
 
         self._load_memory()
+        
+        PathManager.set_memory(self._memory_name)
 
         self._create_managers()
         
@@ -395,7 +398,9 @@ class Game:
 
         computer = self._loader.computers[computer_id]
 
-        from ui.computer.computer import ComputerUI
+        from ui.computer import ComputerUI
+        print(computer["files"])
+        print(type(computer["files"]))
 
         self._ui.open(
 

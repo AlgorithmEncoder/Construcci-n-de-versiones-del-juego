@@ -9,11 +9,9 @@ from __future__ import annotations
 import pygame
 
 from constants import (
-    NPC_SCALE,
-    ROOMS_ASSETS_DIR,
-    NPC_ASSETS_DIR,
-    UI_ASSETS_DIR
+    NPC_SCALE
 )
+from managers.path_manager import PathManager
 
 
 class Assets:
@@ -41,7 +39,7 @@ class Assets:
 
         if name not in cls._backgrounds:
 
-            filepath = ROOMS_ASSETS_DIR / f"{name}.png"
+            filepath = PathManager.rooms() / f"{name}.png"
 
             cls._backgrounds[name] = cls._load_image(filepath)
 
@@ -56,7 +54,7 @@ class Assets:
 
         if name not in cls._sprites:
 
-            filepath = NPC_ASSETS_DIR / f"{name}.png"
+            filepath = PathManager.npcs() / f"{name}.png"
 
             sprite = cls._load_image(filepath)
 
@@ -84,7 +82,7 @@ class Assets:
 
         if name not in cls._icons:
 
-            filepath = UI_ASSETS_DIR / f"{name}.png"
+            filepath = PathManager.ui() / f"{name}.png"
 
             cls._icons[name] = cls._load_image(filepath)
 
