@@ -62,11 +62,17 @@ class Header:
 
             x += 130
 
-    def click(self, pos):
+    def handle_event(self, event):
+
+        if event.type != pygame.MOUSEBUTTONDOWN:
+            return None
+
+        if event.button != 1:
+            return None
 
         for rect, key in self.buttons:
 
-            if rect.collidepoint(pos):
+            if rect.collidepoint(event.pos):
 
                 return key
 

@@ -7,7 +7,7 @@ from launcher import styles
 
 class EmptyView:
 
-    def draw(self, screen, area, text):
+    def draw(self, screen, area, text="Not implemented"):
 
         label = Fonts.default.render(
             text,
@@ -18,3 +18,8 @@ class EmptyView:
         rect = label.get_rect(center=area.center)
 
         screen.blit(label, rect)
+    
+    def handle_event(self, event):
+        pass
+    def update (self, current):
+        pass

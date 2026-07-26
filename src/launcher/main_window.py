@@ -14,11 +14,16 @@ from launcher.footer import Footer
 from launcher.navigation import Navigation
 from launcher.dream_manager import DreamManager
 
+from launcher.widgets.empty_view import EmptyView
+
 from launcher.views.incursions.incursions_view import (
     IncursionsView
 )
 from launcher.views.incursions.incursion_detail import IncursionDetail
 from launcher import styles
+
+from launcher.notes.notes_manager import NotesManager
+from launcher.views.notes.notes_view import NotesView
 
 
 class MainWindow:
@@ -39,6 +44,8 @@ class MainWindow:
 
         self._dreams = DreamManager()
         self._dreams.load()
+        self._notes = NotesManager()
+        self._notes_view = NotesView(self)
         
         self._workspace.set_view(
 
@@ -82,7 +89,10 @@ class MainWindow:
     # --------------------------------------------------
 
     def update(self, dt):
-        self._workspace.update(dt)
+        
+        if self._workspace.current:
+
+            self._workspace.current.update(dt)
 
     # --------------------------------------------------
 
@@ -114,18 +124,40 @@ class MainWindow:
     # --------------------------------------------------
 
     def handle_event(self, event):
+        
+        # HEADER ------------
+        module = self._header.handle_event(event)
+
+        if module:
+
+            self._module = module
+
+            self._sidebar.set_module(module)
+
+            self._change_module(module)
+
+            return True
+        
+        # SIDEBAR ----------------
+        section = self._sidebar.handle_event(event)
+
+        if section:
+
+            self._change_section(section)
+
+            return True
+        
+        # CONTENT -------------
 
         handled = self._workspace.handle_event(event)
 
         view = self._workspace.current
 
         if isinstance(view, IncursionDetail) or isinstance(view, IncursionsView):
-            
-            print(self._workspace.current)
 
             result = self._workspace.handle_event(event)
 
-            if result is None:
+            if result is None or result is False:
                 return False
 
             if result == True:
@@ -150,7 +182,6 @@ class MainWindow:
                 return True
             
             if action == "open":
-                print(data)
 
                 self._navigation.push(
                     view
@@ -159,8 +190,32 @@ class MainWindow:
                 self._workspace.set_view(
                     IncursionDetail(data)
                 )
+        
+        elif isinstance(view, NotesView):
+
+            result = view.handle_event(event)
+
+            if result is None:
+                return False
+
+            action, data = result
+            print(action, data)
 
         return handled
+    
+    def _change_section(self, section):
+
+        self._section = section
+
+        views = {
+            "incursions": IncursionsView(self),
+            "notes": self._notes_view,
+            "inventory": EmptyView(),
+        }
+
+        self._workspace.set_view(
+            views[section]
+        )
 
     # ==================================================
 
@@ -175,6 +230,11 @@ class MainWindow:
     @property
     def dreams(self):
         return self._dreams
+    
+    @property
+    def notes(self):
+
+        return self._notes
 
     @property
     def navigation(self):
