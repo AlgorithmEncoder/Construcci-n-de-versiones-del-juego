@@ -1,0 +1,3 @@
+class HomeModule:
+
+    title = "Principal"

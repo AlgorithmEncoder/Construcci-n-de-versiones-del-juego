@@ -1,0 +1,3 @@
+class SettingsModule:
+
+    title = "Ajustes"

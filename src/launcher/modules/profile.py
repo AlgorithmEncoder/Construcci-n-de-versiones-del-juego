@@ -1,0 +1,3 @@
+class ProfileModule:
+
+    title = "Perfil"
