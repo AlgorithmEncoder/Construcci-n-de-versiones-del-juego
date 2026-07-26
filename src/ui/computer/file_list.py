@@ -106,10 +106,6 @@ class FileList:
                 border_radius=6
 
             )
-            
-            print(type(files))
-            print(type(files[0]) if isinstance(files, list) and files else None)
-            print(files)
 
             name = file["name"]
 

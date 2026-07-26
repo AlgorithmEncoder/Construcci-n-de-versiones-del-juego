@@ -399,8 +399,6 @@ class Game:
         computer = self._loader.computers[computer_id]
 
         from ui.computer import ComputerUI
-        print(computer["files"])
-        print(type(computer["files"]))
 
         self._ui.open(
 
