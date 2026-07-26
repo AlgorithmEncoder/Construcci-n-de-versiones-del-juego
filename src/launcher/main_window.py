@@ -18,6 +18,7 @@ from launcher.views.incursions.incursions_view import (
     IncursionsView
 )
 from launcher.views.incursions.incursion_detail import IncursionDetail
+from launcher import styles
 
 
 class MainWindow:
@@ -49,6 +50,34 @@ class MainWindow:
         self._section = "incursions"
 
         self._start_requested = None
+        
+        self._header_rect = pygame.Rect(
+            0,
+            0,
+            self._screen.get_width(),
+            styles.HEADER_HEIGHT
+        )
+
+        self._footer_rect = pygame.Rect(
+            0,
+            self._screen.get_height() - styles.FOOTER_HEIGHT,
+            self._screen.get_width(),
+            styles.FOOTER_HEIGHT
+        )
+
+        self._sidebar_rect = pygame.Rect(
+            0,
+            styles.HEADER_HEIGHT,
+            styles.SIDEBAR_WIDTH,
+            self._screen.get_height() - styles.HEADER_HEIGHT - styles.FOOTER_HEIGHT
+        )
+
+        self._workspace_rect = pygame.Rect(
+            styles.SIDEBAR_WIDTH,
+            styles.HEADER_HEIGHT,
+            self._screen.get_width() - styles.SIDEBAR_WIDTH,
+            self._screen.get_height() - styles.HEADER_HEIGHT - styles.FOOTER_HEIGHT
+        )
 
     # --------------------------------------------------
 
@@ -61,57 +90,75 @@ class MainWindow:
 
         self._header.draw(
             self._screen,
+            self._header_rect,
             self._module
         )
 
         self._sidebar.draw(
             self._screen,
+            self._sidebar_rect,
             self._module,
             self._section
         )
 
         self._workspace.draw(
-            self._screen
+            self._screen,
+            self._workspace_rect
         )
 
         self._footer.draw(
-            self._screen
+            self._screen,
+            self._footer_rect
         )
 
     # --------------------------------------------------
 
     def handle_event(self, event):
 
-        if self._workspace.handle_event(event):
-            return True
-
         handled = self._workspace.handle_event(event)
 
         view = self._workspace.current
 
-        if isinstance(view, IncursionDetail):
+        if isinstance(view, IncursionDetail) or isinstance(view, IncursionsView):
+            
+            print(self._workspace.current)
 
-            result = view.handle_event(event)
+            result = self._workspace.handle_event(event)
 
-            if result:
+            if result is None:
+                return False
 
-                action, data = result
+            if result == True:
+                return True
 
-                if action == "back":
+            action, data = result
 
-                    previous = self._navigation.back()
+            if action == "back":
 
-                    if previous:
+                previous = self._navigation.back()
 
-                        self._workspace.set_view(previous)
+                if previous:
 
-                    return True
+                    self._workspace.set_view(previous)
 
-                if action == "start":
+                return True
 
-                    self._start_requested = data
+            if action == "start":
 
-                    return True
+                self._start_requested = data
+
+                return True
+            
+            if action == "open":
+                print(data)
+
+                self._navigation.push(
+                    view
+                )
+
+                self._workspace.set_view(
+                    IncursionDetail(data)
+                )
 
         return handled
 

@@ -20,7 +20,7 @@ class IncursionsView:
         self,
         launcher
     ):
-        self.launcher = launcher
+        self._launcher = launcher
 
         self._dreams = launcher.dreams.dreams
 
@@ -103,14 +103,9 @@ class IncursionsView:
 
             if card.rect.collidepoint(event.pos):
 
-                self._launcher.navigation.push(self)
-
-                self._launcher.workspace.set_view(
-
-                    IncursionDetail(dream)
-
+                return (
+                    "open",
+                    dream
                 )
-
-                return True
 
         return False

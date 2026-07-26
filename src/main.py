@@ -20,11 +20,13 @@ def main():
     pygame.init()
 
     Fonts.initialize()
+    
+    info = pygame.display.Info()
 
     screen = pygame.display.set_mode(
         (
-            SCREEN_WIDTH,
-            SCREEN_HEIGHT,
+            info.current_w,
+            info.current_h
         )
     )
 

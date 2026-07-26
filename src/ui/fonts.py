@@ -39,3 +39,5 @@ class Fonts:
         )
         
         cls.clock = pygame.font.Font(None, 44)
+        
+        cls.subtitle = pygame.font.Font(None, 22)

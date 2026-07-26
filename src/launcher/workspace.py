@@ -33,19 +33,7 @@ class Workspace:
 
     # --------------------------------------------------
 
-    def draw(self, screen):
-
-        rect = pygame.Rect(
-
-            SIDEBAR_WIDTH,
-
-            HEADER_HEIGHT,
-
-            screen.get_width() - SIDEBAR_WIDTH,
-
-            screen.get_height() - HEADER_HEIGHT - FOOTER_HEIGHT
-
-        )
+    def draw(self, screen, rect):
 
         pygame.draw.rect(
 
@@ -71,11 +59,10 @@ class Workspace:
 
     def handle_event(self, event):
 
-        if self._view:
+        if self._view is None:
+            return None
 
-            return self._view.handle_event(event)
-
-        return False
+        return self._view.handle_event(event)
 
     # --------------------------------------------------
 
