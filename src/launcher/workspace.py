@@ -1,34 +1,85 @@
+"""
+Workspace.
+
+Displays the current view.
+"""
+
 from __future__ import annotations
 
 import pygame
 
-from ui.fonts import Fonts
-
-from . import styles
+from launcher.styles import *
 
 
 class Workspace:
 
-    def draw(self, screen, rect, title):
+    def __init__(self):
+
+        self._view = None
+
+    # --------------------------------------------------
+
+    def set_view(self, view):
+
+        self._view = view
+
+    # --------------------------------------------------
+
+    def update(self, dt):
+
+        if self._view:
+
+            self._view.update(dt)
+
+    # --------------------------------------------------
+
+    def draw(self, screen):
+
+        rect = pygame.Rect(
+
+            SIDEBAR_WIDTH,
+
+            HEADER_HEIGHT,
+
+            screen.get_width() - SIDEBAR_WIDTH,
+
+            screen.get_height() - HEADER_HEIGHT - FOOTER_HEIGHT
+
+        )
 
         pygame.draw.rect(
+
             screen,
-            styles.WORKSPACE,
+
+            WORKSPACE,
+
             rect
+
         )
 
-        pygame.draw.line(
-            screen,
-            styles.BORDER,
-            (rect.x, rect.y + 55),
-            (rect.right, rect.y + 55)
-        )
+        if self._view:
 
-        screen.blit(
-            Fonts.title.render(
-                title,
-                True,
-                styles.TEXT
-            ),
-            (rect.x + 20, rect.y + 16)
-        )
+            self._view.draw(
+
+                screen,
+
+                rect
+
+            )
+
+    # --------------------------------------------------
+
+    def handle_event(self, event):
+
+        if self._view:
+
+            return self._view.handle_event(event)
+
+        return False
+
+    # --------------------------------------------------
+
+    @property
+    def current(self):
+
+        return self._view

@@ -5,30 +5,34 @@ Application entry point.
 import pygame
 
 from constants import (
-    WINDOW_TITLE,
     SCREEN_WIDTH,
     SCREEN_HEIGHT,
-    FPS
+    WINDOW_TITLE,
+    FPS,
 )
 
-from core.game import Game
 from ui.fonts import Fonts
+from application import Application
 
 
 def main():
 
     pygame.init()
+
     Fonts.initialize()
 
     screen = pygame.display.set_mode(
-        (SCREEN_WIDTH, SCREEN_HEIGHT)
+        (
+            SCREEN_WIDTH,
+            SCREEN_HEIGHT,
+        )
     )
 
     pygame.display.set_caption(WINDOW_TITLE)
 
     clock = pygame.time.Clock()
 
-    game = Game(screen)
+    app = Application(screen)
 
     running = True
 
@@ -39,13 +43,16 @@ def main():
         for event in pygame.event.get():
 
             if event.type == pygame.QUIT:
+
                 running = False
 
-            game.handle_event(event)
+            else:
 
-        game.update(dt)
+                app.handle_event(event)
 
-        game.draw()
+        app.update(dt)
+
+        app.draw()
 
         pygame.display.flip()
 

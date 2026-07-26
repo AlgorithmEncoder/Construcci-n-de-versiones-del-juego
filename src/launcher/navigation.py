@@ -1,22 +1,38 @@
+"""
+Workspace navigation history.
+"""
+
+
 class Navigation:
 
     def __init__(self):
 
         self._history = []
 
-    def push(self, state):
+    # --------------------------------------------------
 
-        self._history.append(state)
+    def push(self, view):
 
-    def pop(self):
+        self._history.append(view)
 
-        if self._history:
+    # --------------------------------------------------
 
-            return self._history.pop()
+    def back(self):
 
-        return None
+        if not self._history:
+            return None
+
+        return self._history.pop()
+
+    # --------------------------------------------------
 
     @property
     def can_go_back(self):
 
-        return len(self._history) > 0
+        return bool(self._history)
+
+    # --------------------------------------------------
+
+    def clear(self):
+
+        self._history.clear()

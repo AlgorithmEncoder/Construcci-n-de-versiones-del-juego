@@ -60,6 +60,7 @@ class Game:
 
         self._memory_name = memory
         self._iterations = 0
+        self._finished = False
 
         self._loader = None
 
@@ -261,6 +262,10 @@ class Game:
     @property
     def iterations(self):
         return self._iterations
+    
+    @property
+    def finished(self):
+        return self._finished
     
     @property
     def clock(self):
@@ -607,4 +612,4 @@ class Game:
     
     def exit_dream(self):
 
-        print("Salir del sueño")
+        self._finished = True
