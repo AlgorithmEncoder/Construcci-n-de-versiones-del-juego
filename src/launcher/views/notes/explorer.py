@@ -1,150 +1,163 @@
 """
-Displays folders and notes.
+Notes explorer.
 """
 
 from __future__ import annotations
 
 import pygame
 
-from ui.fonts import Fonts
 from launcher import styles
+from ui.fonts import Fonts
 
 
 class Explorer:
 
-    ROW_HEIGHT = 42
+    ROW_HEIGHT = 36
+
+    DOUBLE_CLICK_TIME = 350
+
+    ICON_FOLDER = "📁"
+
+    ICON_NOTE = "📄"
 
     def __init__(self):
 
         self._rows = []
+
         self._last_item = None
+
         self._last_click = 0
 
-    # --------------------------------------------------
+    # -----------------------------------------------------
 
     def draw(
-            self,
+        self,
+        screen,
+        area,
+        folder,
+        selected=None
+    ):
+
+        self._rows.clear()
+
+        pygame.draw.rect(
             screen,
+            (250,250,250),
             area,
-            folder,
-            selected=None,
-        ):
+            border_radius=8
+        )
 
-            self._rows.clear()
+        pygame.draw.rect(
+            screen,
+            styles.BORDER,
+            area,
+            1,
+            border_radius=8
+        )
 
-            y = area.y + 10
+        y = area.y + 8
 
-            # ---------------- Folders ----------------
+        # ---------------- FOLDERS ----------------
 
-            for child in folder.folders:
+        for child in folder.folders:
 
-                rect = pygame.Rect(
-                    area.x + 10,
-                    y,
-                    area.width - 20,
-                    self.ROW_HEIGHT
-                )
+            rect = pygame.Rect(
+                area.x + 8,
+                y,
+                area.width - 16,
+                self.ROW_HEIGHT
+            )
 
-                selected_item = child is selected
+            if child is selected:
 
-                background = (
-                    styles.PRIMARY
-                    if selected_item
-                    else (245, 245, 245)
-                )
+                color = (210,225,255)
 
-                text_color = (
-                    styles.TEXT_LIGHT
-                    if selected_item
-                    else styles.TEXT
-                )
+            else:
 
-                pygame.draw.rect(
-                    screen,
-                    background,
-                    rect,
-                    border_radius=6
-                )
+                color = (245,245,245)
 
-                pygame.draw.rect(
-                    screen,
-                    styles.BORDER,
-                    rect,
-                    1,
-                    border_radius=6
-                )
+            pygame.draw.rect(
+                screen,
+                color,
+                rect,
+                border_radius=5
+            )
 
-                screen.blit(
-                    Fonts.default.render(
-                        f"📁 {child.name}",
-                        True,
-                        text_color
-                    ),
-                    (rect.x + 10, rect.y + 10)
-                )
+            screen.blit(
 
-                self._rows.append(
-                    ("folder", child, rect)
-                )
+                Fonts.default.render(
 
-                y += self.ROW_HEIGHT + 6
+                    f"{self.ICON_FOLDER}  {child.name}",
 
-            # ---------------- Notes ----------------
+                    True,
 
-            for note in folder.notes:
+                    styles.TEXT
 
-                rect = pygame.Rect(
-                    area.x + 10,
-                    y,
-                    area.width - 20,
-                    self.ROW_HEIGHT
-                )
+                ),
 
-                selected_item = note is selected
+                (rect.x + 10, rect.y + 8)
 
-                background = (
-                    styles.PRIMARY
-                    if selected_item
-                    else (252, 252, 252)
-                )
+            )
 
-                text_color = (
-                    styles.TEXT_LIGHT
-                    if selected_item
-                    else styles.TEXT
-                )
+            self._rows.append(
 
-                pygame.draw.rect(
-                    screen,
-                    background,
-                    rect,
-                    border_radius=6
-                )
+                ("folder", child, rect)
 
-                pygame.draw.rect(
-                    screen,
-                    styles.BORDER,
-                    rect,
-                    1,
-                    border_radius=6
-                )
+            )
 
-                screen.blit(
-                    Fonts.default.render(
-                        f"📄 {note.name}",
-                        True,
-                        text_color
-                    ),
-                    (rect.x + 10, rect.y + 10)
-                )
+            y += self.ROW_HEIGHT + 4
 
-                self._rows.append(
-                    ("note", note, rect)
-                )
+        # ---------------- NOTES ----------------
 
-                y += self.ROW_HEIGHT + 6
+        for note in folder.notes:
 
-    # --------------------------------------------------
+            rect = pygame.Rect(
+                area.x + 8,
+                y,
+                area.width - 16,
+                self.ROW_HEIGHT
+            )
+
+            if note is selected:
+
+                color = (210,225,255)
+
+            else:
+
+                color = (252,252,252)
+
+            pygame.draw.rect(
+                screen,
+                color,
+                rect,
+                border_radius=5
+            )
+
+            screen.blit(
+
+                Fonts.default.render(
+
+                    f"{self.ICON_NOTE}  {note.name}",
+
+                    True,
+
+                    styles.TEXT
+
+                ),
+
+                (rect.x + 10, rect.y + 8)
+
+            )
+
+            self._rows.append(
+
+                ("note", note, rect)
+
+            )
+
+            y += self.ROW_HEIGHT + 4
+
+    # -----------------------------------------------------
 
     def handle_event(self, event):
 
@@ -162,18 +175,31 @@ class Explorer:
                 continue
 
             if (
+
                 obj is self._last_item
+
                 and
-                now - self._last_click < 400
+
+                now - self._last_click < self.DOUBLE_CLICK_TIME
+
             ):
 
                 self._last_item = None
 
-                return ("open", kind, obj)
+                return (
+                    "open",
+                    kind,
+                    obj
+                )
 
             self._last_item = obj
+
             self._last_click = now
 
-            return ("select", kind, obj)
+            return (
+                "select",
+                kind,
+                obj
+            )
 
         return None

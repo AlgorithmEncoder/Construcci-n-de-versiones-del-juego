@@ -1,11 +1,10 @@
 """
-In-memory file system.
+Navigation over the notes tree.
 """
 
 from __future__ import annotations
 
 from launcher.notes.folder import Folder
-from launcher.notes.note import Note
 
 
 class FileSystem:
@@ -18,42 +17,26 @@ class FileSystem:
 
         self._history = []
 
-    # ==================================================
-    # Navigation
-    # ==================================================
-
-    @property
-    def current(self):
-
-        return self._current
-
-    # --------------------------------------------------
+    # -------------------------------------------------
 
     @property
     def root(self):
-
         return self._root
-    
-    # --------------------------------------------------
-    
+
+    @property
+    def current(self):
+        return self._current
+
     @property
     def breadcrumb(self):
 
-        names = []
+        return " / ".join(
 
-        node = self.current
+            self.current.path
 
-        while node.parent:
+        )
 
-            names.append(node.name)
-
-            node = node.parent
-
-        names.append(node.name)
-
-        return " / ".join(reversed(names))
-
-    # --------------------------------------------------
+    # -------------------------------------------------
 
     def enter(self, folder):
 
@@ -61,103 +44,63 @@ class FileSystem:
 
         self._current = folder
 
-    # --------------------------------------------------
+    # -------------------------------------------------
 
     def back(self):
 
         if not self._history:
-            return
+            return False
 
         self._current = self._history.pop()
-    
-    # --------------------------------------------------
-    
+
+        return True
+
+    # -------------------------------------------------
+
     def up(self):
-    
-            if self.current.parent:
-    
-                self.current = self.current.parent
 
-    # ==================================================
-    # Creation
-    # ==================================================
-
-    def create_folder(self, name: str, parent: Folder | None = None):
-        
-        name = name.strip()
-                
-        if not name:
+        if self._current.parent is None:
             return False
 
-        parent = parent or self.current
+        self._current = self._current.parent
 
-        folder = Folder(name)
-
-        parent.add_folder(folder)
-
-        return folder
-
-    # --------------------------------------------------
-
-    def create_note(self, name: str, parent: Folder | None = None):
-        
-        name = name.strip()
-        
-        if not name:
-            return False
-
-        parent = parent or self.current
-
-        note = Note(name=name)
-
-        parent.add_note(note)
-
-        return note
-
-    # ==================================================
-    # Delete
-    # ==================================================
-
+        return True
+    
     def delete(self, item):
 
         parent = item.parent
 
         if parent is None:
-            return
+            return False
 
         if isinstance(item, Folder):
 
-            parent.folders.remove(item)
+            parent.remove_folder(item)
 
         else:
 
-            parent.notes.remove(item)
+            parent.remove_note(item)
 
-    # ==================================================
-    # Rename
-    # ==================================================
-
-    @staticmethod
-    def rename_folder(item, new_name):
-
-        new_name = new_name.strip()
-
-        if not new_name:
-            return False
-        
-        item.name = new_name
-        
         return True
-
-    # ==================================================
-    # Move
-    # ==================================================
     
-    def move(self, item, destination: Folder):
+    def move(self, item, destination):
 
-        self.delete(item)
+        if item.parent is None:
+            return False
 
-        item.parent = destination
+        if destination is item:
+            return False
+
+        current = destination
+
+        while current is not None:
+
+            if current is item:
+                return False
+
+            current = current.parent
+
+        item.parent.remove_folder(item) if isinstance(item, Folder) else item.parent.remove_note(item)
 
         if isinstance(item, Folder):
 
@@ -166,59 +109,13 @@ class FileSystem:
         else:
 
             destination.add_note(item)
-    
-    # ==================================================
-    # Utils
-    # ==================================================
-    
-    def get_path(self, item):
 
-        parts = []
-
-        current = item
-
-        while current is not None:
-
-            parts.append(current.name)
-
-            current = current.parent
-
-        return list(reversed(parts))
-    
-    # --------------------------------------------------
-    
-    def find_folder(self, path: list[str]):
-
-        folder = self.root
-
-        for name in path:
-
-            folder = next(
-
-                child
-
-                for child in folder.folders
-
-                if child.name == name
-
-            )
-
-        return folder
-    
-    # --------------------------------------------------
+        return True
     
     def all_folders(self):
 
-        folders = []
+        return list(self.root.walk())
+    
+    def get_path(self, folder):
 
-        def walk(folder):
-
-            folders.append(folder)
-
-            for child in folder.folders:
-
-                walk(child)
-
-        walk(self.root)
-
-        return folders
+        return folder.path

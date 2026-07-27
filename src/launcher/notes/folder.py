@@ -14,54 +14,73 @@ class Folder:
 
     name: str
 
+    parent: "Folder | None" = None
+
     folders: list["Folder"] = field(default_factory=list)
 
     notes: list[Note] = field(default_factory=list)
 
-    # --------------------------------------------------
+    # -------------------------------------------------
 
-    def folder(self, name):
+    @property
+    def path(self):
 
-        for folder in self.folders:
+        node = self
 
-            if folder.name == name:
+        names = []
 
-                return folder
+        while node is not None:
 
-        return None
+            names.append(node.name)
 
-    # --------------------------------------------------
+            node = node.parent
 
-    def note(self, name):
+        return list(reversed(names))
 
-        for note in self.notes:
-
-            if note.name == name:
-
-                return note
-
-        return None
-
-    # --------------------------------------------------
+    # -------------------------------------------------
 
     def add_folder(self, folder):
 
+        folder.parent = self
+
         self.folders.append(folder)
 
-    # --------------------------------------------------
+    # -------------------------------------------------
 
     def add_note(self, note):
 
+        note.parent = self
+
         self.notes.append(note)
 
-    # --------------------------------------------------
+    # -------------------------------------------------
 
     def remove_folder(self, folder):
 
         self.folders.remove(folder)
 
-    # --------------------------------------------------
+    # -------------------------------------------------
 
     def remove_note(self, note):
 
         self.notes.remove(note)
+
+    # -------------------------------------------------
+
+    def walk(self):
+
+        yield self
+
+        for child in self.folders:
+
+            yield from child.walk()
+
+    # -------------------------------------------------
+
+    def descendants(self):
+
+        for child in self.folders:
+
+            yield child
+
+            yield from child.descendants()

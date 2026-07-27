@@ -155,7 +155,7 @@ class MainWindow:
 
         if isinstance(view, IncursionDetail) or isinstance(view, IncursionsView):
 
-            result = self._workspace.handle_event(event)
+            result = handled
 
             if result is None or result is False:
                 return False
@@ -193,13 +193,10 @@ class MainWindow:
         
         elif isinstance(view, NotesView):
 
-            result = view.handle_event(event)
+            result = handled
 
             if result is None:
                 return False
-
-            action, data = result
-            print(action, data)
 
         return handled
     

@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import pygame
 
+from ui.quick_notes import QuickNotes
 
 class InputManager:
 
@@ -22,11 +23,6 @@ class InputManager:
     # ==================================================
 
     def handle_event(self, event):
-        
-        if self._game.ui.is_open:
-
-            if self._game.ui.handle_event(event):
-                return
 
         if event.type == pygame.MOUSEBUTTONDOWN:
 
@@ -37,6 +33,14 @@ class InputManager:
                 memory_position = (
                     (event.pos[0] - self._game.offset_x) / scale,
                     (event.pos[1] - self._game.offset_y) / scale
+                )
+                
+                world_event = pygame.event.Event(
+                    event.type,
+                    {
+                        **event.dict,
+                        "pos": memory_position
+                    }
                 )
                 
                 mx, my = event.pos
@@ -59,9 +63,14 @@ class InputManager:
                 ):
                     return
 
-                self._handle_left_click(memory_position, event)
+                self._handle_left_click(memory_position, world_event)
 
         elif event.type == pygame.KEYDOWN:
+            
+            if self._game.ui.is_open:
+
+                if self._game.ui.handle_event(event):
+                    return
 
             self._handle_key(event)
 
@@ -69,14 +78,14 @@ class InputManager:
     # Mouse
     # ==================================================
 
-    def _handle_left_click(self, position, event):
+    def _handle_left_click(self, position, world_event):
 
         # Si hay una ventana abierta,
         # por ahora cualquier clic la cierra.
 
         if self._game.ui.is_open:
 
-            handled = self._game.ui.handle_event(event)
+            handled = self._game.ui.handle_event(world_event)
 
             if not handled:
                 self._game.ui.close()
@@ -86,6 +95,19 @@ class InputManager:
         if self._game.renderer.exit_button_at(position):
 
             self._game.exit_dream()
+
+            return
+        
+        if self._game.renderer.quick_note_button_at(position):
+
+            self._game.ui.open(
+
+                QuickNotes(
+                    self._game.native_width,
+                    self._game.native_height
+                )
+
+            )
 
             return
 

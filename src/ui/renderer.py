@@ -38,7 +38,8 @@ class Renderer:
             (world_width, world_height)
         )
         
-        self._exit_rect = pygame.Rect(0, 0, 170, 40)
+        self._exit_rect = pygame.Rect(0, 0, 0, 0)
+        self._quick_note_rect = pygame.Rect(0, 0, 0, 0)
 
     # ==================================================
     # Public
@@ -178,50 +179,33 @@ class Renderer:
         self._world.blit(text, rect)
 
         # ===========================
-        # Exit button
+        # Exit
         # ===========================
-
-        text_button = Fonts.default.render(
-            "Abandonar sueño",
-            True,
-            WHITE
-        )
-
-        padding_x = 16
-        padding_y = 8
-
-        self._exit_rect.size = (
-            text_button.get_width() + padding_x * 2,
-            text_button.get_height() + padding_y * 2
-        )
 
         self._exit_rect.topright = (
             self._world_width // 3,
             HUD_TOP_MARGIN
         )
 
-        pygame.draw.rect(
+        self._draw_button(
             self._world,
-            (40, 40, 40),
             self._exit_rect,
-            border_radius=8
+            "Abandonar sueño"
         )
 
-        pygame.draw.rect(
+        # ===========================
+        # Quick note
+        # ===========================
+
+        self._quick_note_rect.topright = (
+            self._world_width - HUD_LEFT_MARGIN,
+            HUD_TOP_MARGIN
+        )
+
+        self._draw_button(
             self._world,
-            WHITE,
-            self._exit_rect,
-            width=2,
-            border_radius=8
-        )
-
-        text_rect = text_button.get_rect(
-            center=self._exit_rect.center
-        )
-
-        self._world.blit(
-            text_button,
-            text_rect
+            self._quick_note_rect,
+            "📝 Nota"
         )
 
     # --------------------------------------------------
@@ -238,6 +222,55 @@ class Renderer:
             self._world
         )
     
+    # --------------------------------------------------
+    
+    def _draw_button(
+        self,
+        surface: pygame.Surface,
+        rect: pygame.Rect,
+        text: str,
+    ):
+
+        image = Fonts.default.render(
+            text,
+            True,
+            WHITE
+        )
+
+        padding_x = 16
+        padding_y = 8
+
+        rect.size = (
+            image.get_width() + padding_x * 2,
+            image.get_height() + padding_y * 2
+        )
+
+        pygame.draw.rect(
+            surface,
+            (40, 40, 40),
+            rect,
+            border_radius=8
+        )
+
+        pygame.draw.rect(
+            surface,
+            WHITE,
+            rect,
+            width=2,
+            border_radius=8
+        )
+
+        surface.blit(
+            image,
+            image.get_rect(center=rect.center)
+        )
+    
+    # --------------------------------------------------
+    
     def exit_button_at(self, position):
 
         return self._exit_rect.collidepoint(position)
+    
+    def quick_note_button_at(self, position):
+
+        return self._quick_note_rect.collidepoint(position)

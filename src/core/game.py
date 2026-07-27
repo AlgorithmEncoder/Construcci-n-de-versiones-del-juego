@@ -89,13 +89,13 @@ class Game:
             "open_dialogue": self._open_dialogue
         }
 
-        self._render_state = RenderState()
-
         self._load_memory()
         
         PathManager.set_memory(self._memory_name)
 
         self._create_managers()
+        
+        self._render_state = RenderState()
         
         self._show_objective()
 
@@ -248,7 +248,7 @@ class Game:
         )
 
         self._render_state.overlay = (
-            self._ui.current_overlay
+            self.ui.current_overlay
         )
 
         self._render_state.clock = (

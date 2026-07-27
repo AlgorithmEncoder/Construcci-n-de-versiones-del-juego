@@ -4,8 +4,6 @@ Note editor.
 
 from __future__ import annotations
 
-import pygame
-
 from launcher.widgets.text_editor import TextEditor
 
 
@@ -14,11 +12,9 @@ class NoteEditor:
     def __init__(self, manager, note):
 
         self._manager = manager
-
         self._note = note
 
         self._editor = TextEditor()
-
         self._editor.text = note.text
 
     # --------------------------------------------------
@@ -36,10 +32,13 @@ class NoteEditor:
 
         changed = self._editor.handle_event(event)
 
-        if changed:
+        if not changed:
+            return False
 
-            self._note.text = self._editor.text
+        self._note.text = self._editor.text
 
-            self._manager.flush()
+        self._manager.update_note(
+            self._note
+        )
 
-        return changed
+        return True

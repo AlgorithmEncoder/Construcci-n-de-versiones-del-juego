@@ -1,8 +1,6 @@
-"""
-Breadcrumb navigation.
-"""
-
 from __future__ import annotations
+
+import pygame
 
 from ui.fonts import Fonts
 from launcher import styles
@@ -10,29 +8,18 @@ from launcher import styles
 
 class Breadcrumb:
 
-    def draw(self, screen, area, filesystem):
+    def draw(self, screen, rect, notes):
 
-        names = ["Proyecto"]
-
-        names.extend(
-            folder.name
-            for folder in filesystem._history
+        text = Fonts.small.render(
+            notes.breadcrumb,
+            True,
+            styles.TEXT_SECONDARY
         )
 
-        if filesystem.current != filesystem.root:
-
-            names.append(filesystem.current.name)
-
-        text = " > ".join(names)
-
         screen.blit(
-            Fonts.small.render(
-                text,
-                True,
-                styles.TEXT_SECONDARY
-            ),
+            text,
             (
-                area.x,
-                area.y
+                rect.x,
+                rect.y
             )
         )
