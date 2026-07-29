@@ -10,18 +10,14 @@ from ui.fonts import Fonts
 
 from . import styles
 from ui.computer.scroll_view import ScrollView
+from .icons import draw_back
 
 
 class ChatView:
 
     def __init__(self):
 
-        self._back = pygame.Rect(
-            0,
-            0,
-            90,
-            34
-        )
+        self._back = pygame.Rect(0, 0, 105, 34)
         self._scroll = None
 
     # --------------------------------------------------
@@ -66,14 +62,29 @@ class ChatView:
             border_radius=6
         )
 
+        icon_rect = pygame.Rect(
+            self._back.x + 10,
+            self._back.y + 9,
+            14,
+            14,
+        )
+
+        draw_back(
+            screen,
+            icon_rect,
+            styles.TEXT
+        )
+
+        text = small.render(
+            "Volver",
+            True,
+            styles.TEXT
+        )
+
         screen.blit(
-            small.render(
-                "← Volver",
-                True,
-                styles.TEXT
-            ),
+            text,
             (
-                self._back.x + 10,
+                self._back.x + 30,
                 self._back.y + 8
             )
         )

@@ -10,13 +10,14 @@ from ui.fonts import Fonts
 
 from . import styles
 from ui.computer.scroll_view import ScrollView
+from .icons import draw_back
 
 
 class FileView:
 
     def __init__(self):
 
-        self._back = pygame.Rect(0,0,90,34)
+        self._back = pygame.Rect(0, 0, 105, 34)
 
         self._open = pygame.Rect(0,0,120,40)
         
@@ -81,11 +82,24 @@ class FileView:
 
         )
 
+        icon_rect = pygame.Rect(
+            self._back.x + 10,
+            self._back.y + 8,
+            16,
+            16,
+        )
+
+        draw_back(
+            screen,
+            icon_rect,
+            styles.TEXT,
+        )
+        
         screen.blit(
 
             small.render(
 
-                "← Volver",
+                "Volver",
 
                 True,
 
@@ -94,11 +108,8 @@ class FileView:
             ),
 
             (
-
-                self._back.x + 10,
-
+                self._back.x + 32,
                 self._back.y + 8
-
             )
 
         )

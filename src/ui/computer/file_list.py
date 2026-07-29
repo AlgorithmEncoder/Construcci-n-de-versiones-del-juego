@@ -11,25 +11,17 @@ from ui.fonts import Fonts
 from . import styles
 from ui.computer.scroll_view import ScrollView
 
+from pathlib import Path
+
+from .icons import (
+    get_file_icon,
+    draw_folder,
+)
+
 
 class FileList:
 
     ROW_HEIGHT = 56
-
-    ICONS = {
-
-        ".pdf": "📕",
-
-        ".txt": "📄",
-
-        ".docx": "📝",
-
-        ".xlsx": "📊",
-
-        ".jpg": "🖼",
-
-        ".png": "🖼",
-    }
 
     def __init__(self):
 
@@ -109,15 +101,32 @@ class FileList:
 
             name = file["name"]
 
-            extension = "." + name.split(".")[-1].lower()
+            extension = Path(name).suffix.lower()
 
-            icon = self.ICONS.get(extension, "📁")
+            icon = (
+                get_file_icon(extension)
+                if extension
+                else draw_folder
+            )
 
+            icon_rect = pygame.Rect(
+                rect.x + 14,
+                rect.y + 16,
+                20,
+                20,
+            )
+
+            icon(
+                screen,
+                icon_rect,
+                styles.TEXT,
+            )
+            
             screen.blit(
 
                 title.render(
 
-                    f"{icon}  {name}",
+                    name,
 
                     True,
 
@@ -125,7 +134,10 @@ class FileList:
 
                 ),
 
-                (rect.x + 14, rect.y + 9)
+                (
+                    rect.x + 44,
+                    rect.y + 9
+                )
 
             )
 

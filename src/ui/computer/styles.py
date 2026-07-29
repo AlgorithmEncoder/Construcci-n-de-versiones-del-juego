@@ -2,25 +2,64 @@
 Shared styles for the in-game computer.
 """
 
-SIDEBAR_WIDTH = 220
-HEADER_HEIGHT = 50
+# ==================================================
+# Layout
+# ==================================================
 
-PADDING = 20
-CARD_MARGIN = 12
-CARD_RADIUS = 8
+SIDEBAR_WIDTH = 230
 
-BACKGROUND = (235, 238, 242)
-SIDEBAR = (48, 52, 58)
+TOPBAR_HEIGHT = 42
+HEADER_HEIGHT = 58
 
-PANEL = (255, 255, 255)
+PADDING = 24
 
-TEXT = (40, 40, 40)
-TEXT_LIGHT = (235, 235, 235)
-TEXT_SECONDARY = (130, 130, 130)
+CARD_MARGIN = 14
+CARD_RADIUS = 10
 
-ACCENT = (70, 120, 220)
+# ==================================================
+# Colours
+# ==================================================
 
-BUTTON = (230, 230, 230)
-BUTTON_HOVER = (215, 215, 215)
+# Window
 
-BORDER = (200, 200, 200)
+WINDOW = (224, 228, 234)
+
+# Panels
+
+SIDEBAR = (42, 46, 54)
+
+TOPBAR = (245, 246, 248)
+
+CONTENT = (250, 250, 251)
+
+PANEL = CONTENT
+
+# Text
+
+TEXT = (42, 45, 50)
+
+TEXT_SECONDARY = (120, 126, 136)
+
+TEXT_LIGHT = (245, 245, 245)
+
+# Accent
+
+ACCENT = (63, 124, 255)
+
+ACCENT_LIGHT = (232, 240, 255)
+
+# Buttons
+
+BUTTON = (240, 242, 245)
+
+BUTTON_HOVER = (228, 232, 238)
+
+BUTTON_SELECTED = ACCENT
+
+# Borders
+
+BORDER = (214, 218, 224)
+
+DIVIDER = (228, 231, 236)
+
+SHADOW = (205, 209, 215)

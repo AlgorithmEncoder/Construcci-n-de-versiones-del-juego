@@ -8,6 +8,7 @@ import pygame
 
 from ui.fonts import Fonts
 from launcher import styles
+from ui.computer.icons import draw_back
 
 
 class IncursionDetail:
@@ -44,21 +45,21 @@ class IncursionDetail:
 
         screen.blit(title, (x, y))
 
-        back = Fonts.default.render(
-            "← Volver",
-            True,
-            styles.ACCENT
+        icon_size = 28
+
+        self._back_rect = pygame.Rect(
+            area.right - 40 - icon_size,
+            y,
+            icon_size,
+            icon_size
         )
 
-        self._back_rect = back.get_rect(
-            topright=(
-                area.right - 40,
-                y
-            )
+        draw_back(
+            screen,
+            self._back_rect,
+            colour=styles.ACCENT
         )
-
-        screen.blit(back, self._back_rect)
-
+        
         y += 70
 
         # ---------- Information ----------
