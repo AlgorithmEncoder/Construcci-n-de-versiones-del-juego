@@ -23,8 +23,15 @@ class InputManager:
     # ==================================================
 
     def handle_event(self, event):
+        
+        if event.type == pygame.MOUSEWHEEL:
 
-        if event.type == pygame.MOUSEBUTTONDOWN:
+            if self._game.ui.is_open:
+
+                if self._game.ui.handle_event(event):
+                    return
+
+        elif event.type == pygame.MOUSEBUTTONDOWN:
 
             if event.button == 1:
 
@@ -73,6 +80,7 @@ class InputManager:
                     return
 
             self._handle_key(event)
+        
 
     # ==================================================
     # Mouse

@@ -68,14 +68,26 @@ class ComputerUI(Overlay):
         
         if event.type == pygame.MOUSEWHEEL:
 
-            if self._section == "emails" and self._selected_email is None:
-                return self._email_list.handle_event(event)
+            if self._section == "emails":
 
-            if self._section == "chats" and self._selected_chat is None:
-                return self._chat_list.handle_event(event)
+                if self._selected_email is None:
+                    return self._email_list.handle_event(event)
 
-            if self._section == "files" and self._selected_file is None:
-                return self._file_list.handle_event(event)
+                return self._email_view.handle_event(event)
+
+            elif self._section == "chats":
+
+                if self._selected_chat is None:
+                    return self._chat_list.handle_event(event)
+
+                return self._chat_view.handle_event(event)
+
+            elif self._section == "files":
+
+                if self._selected_file is None:
+                    return self._file_list.handle_event(event)
+
+                return self._file_view.handle_event(event)
 
             return False
 

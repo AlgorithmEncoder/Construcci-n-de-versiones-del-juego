@@ -5,6 +5,7 @@ Reusable scrollable viewport.
 from __future__ import annotations
 
 import pygame
+from ui.computer import styles
 
 class ScrollView:
 
@@ -56,7 +57,7 @@ class ScrollView:
 
     # --------------------------------------------------
 
-    def handle_event(self, event) -> bool:
+    def handle_event(self, event):
 
         if event.type != pygame.MOUSEWHEEL:
             return False
@@ -66,9 +67,7 @@ class ScrollView:
         if not self.viewport.collidepoint(mouse):
             return False
 
-        self.target -= (
-            event.y * self.WHEEL_STEP
-        )
+        self.target -= event.y * self.WHEEL_STEP
 
         self._clamp()
 
@@ -111,3 +110,9 @@ class ScrollView:
                 maximum
             )
         )
+    
+    def set_viewport(self, viewport: pygame.Rect):
+
+        self.viewport = viewport
+
+        self._clamp()

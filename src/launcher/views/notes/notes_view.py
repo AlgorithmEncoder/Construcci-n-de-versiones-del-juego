@@ -132,7 +132,6 @@ class NotesView:
     # -------------------------------------------------
 
     def back(self):
-        print("back")
 
         if self._editor is not None:
 

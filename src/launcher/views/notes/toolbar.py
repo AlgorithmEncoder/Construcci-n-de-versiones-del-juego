@@ -77,10 +77,8 @@ class Toolbar:
             return None
 
         for rect, action in self._buttons:
-            if action =="back":print(rect, event.pos)
 
             if rect.collidepoint(event.pos):
-                if action =="back":print("in")
 
                 return action
 

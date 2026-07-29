@@ -507,24 +507,50 @@
                 ]
             },
             {
+                "id": "mail_041",
                 "from": "Finance",
-                "subject": "Budget approved",
-                "body": "The revised budget has been approved."
+                "to": "Miguel Ruiz",
+                "date": "08:45",
+                "subject": "Presupuesto aprobado",
+                "body": [
+                    "El presupuesto revisado ha sido aprobado.",
+                    "",
+                    "Ya puedes continuar con la planificación."
+                ]
             },
             {
+                "id": "mail_042",
                 "from": "Marta Romero",
-                "subject": "Staff questions",
-                "body": "Several employees have asked the same question again. I don't know what to answer anymore."
+                "to": "Miguel Ruiz",
+                "date": "08:48",
+                "subject": "Dudas del personal",
+                "body": [
+                    "Varios empleados han vuelto a hacer la misma pregunta.",
+                    "",
+                    "Ya no sé qué responderles."
+                ]
             },
             {
+                "id": "mail_043",
                 "from": "Miguel Ruiz",
-                "subject": "Reminder",
-                "body": "Do not discuss unfinished matters outside this office."
+                "to": "Todo el personal",
+                "date": "08:50",
+                "subject": "Recordatorio",
+                "body": [
+                    "No se deben comentar asuntos pendientes",
+                    "fuera de esta oficina."
+                ]
             },
             {
-                "from": "Unknown",
-                "subject": "Meeting",
-                "body": "We need to talk before anyone else starts asking."
+                "id": "mail_044",
+                "from": "Desconocido",
+                "to": "Miguel Ruiz",
+                "date": "08:53",
+                "subject": "Reunión",
+                "body": [
+                    "Tenemos que hablar",
+                    "antes de que los demás empiecen a hacer preguntas."
+                ]
             }
         ],
         "chats": [

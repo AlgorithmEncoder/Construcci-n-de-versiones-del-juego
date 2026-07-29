@@ -29,12 +29,17 @@ class EmailList:
         area,
         emails,
     ):
-        if (
-            self._scroll is None
-            or
-            self._scroll.viewport != area
-        ):
-            self._scroll = ScrollView(area)
+        viewport = pygame.Rect(
+            area.x,
+            area.y,
+            area.width,
+            area.height,
+        )
+
+        if self._scroll is None:
+            self._scroll = ScrollView(viewport)
+        else:
+            self._scroll.set_viewport(viewport)
 
         self._scroll.update()
 
