@@ -555,23 +555,76 @@
         ],
         "chats": [
             {
-                "with": "Marta Romero",
+                "with": "Carlos Vega",
                 "messages": [
                     {
-                        "sender": "Marta",
-                        "text": "Buenos días."
-                    },
-                    {
-                        "sender": "Miguel",
-                        "text": "Buenos días."
-                    },
-                    {
-                        "sender": "Marta",
-                        "text": "¿Revisamos el informe después de la reunión?"
+                        "sender": "Carlos",
+                        "text": "¿Tienes un minuto?"
                     },
                     {
                         "sender": "Miguel",
                         "text": "Sí."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "La impresora de Finanzas vuelve a sacar una hoja en blanco entre cada página."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Llama a IT."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Ya lo hice."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Dicen que reinicie la impresora."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Entonces reiníciala."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Eso haré."
+                    }
+                ]
+            },
+            {
+                "with": "Ana López",
+                "messages": [
+                    {
+                        "sender": "Ana",
+                        "text": "¿Tú también tienes la sensación de que el Archivo es más grande de lo que parece?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Es fácil perderse."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Hoy he tardado diez minutos en encontrar la salida."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "La próxima vez sigue los pasillos principales."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Eso intento."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Pero juraría que algunos archivadores cambian de sitio."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No cambian."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Supongo que será cosa mía."
                     }
                 ]
             },
@@ -580,53 +633,43 @@
                 "messages": [
                     {
                         "sender": "Carlos",
-                        "text": "He terminado el presupuesto."
+                        "text": "Necesito tu opinión profesional."
                     },
                     {
                         "sender": "Miguel",
-                        "text": "Perfecto."
+                        "text": "Adelante."
                     },
                     {
                         "sender": "Carlos",
-                        "text": "Lo tienes en el correo."
+                        "text": "¿Es aceptable comer delante del ordenador?"
                     },
                     {
                         "sender": "Miguel",
-                        "text": "Gracias."
-                    }
-                ]
-            },
-            {
-                "with": "Laura Pérez",
-                "messages": [
+                        "text": "No."
+                    },
                     {
-                        "sender": "Laura",
-                        "text": "La recepción ya está preparada."
+                        "sender": "Carlos",
+                        "text": "¿Y si es solo un sándwich?"
                     },
                     {
                         "sender": "Miguel",
-                        "text": "Perfecto."
-                    }
-                ]
-            },
-            {
-                "with": "Ana López",
-                "messages": [
+                        "text": "Tampoco."
+                    },
                     {
-                        "sender": "Ana",
-                        "text": "He encontrado otra carpeta antigua."
+                        "sender": "Carlos",
+                        "text": "¿Y unas galletas?"
                     },
                     {
                         "sender": "Miguel",
-                        "text": "Guárdala."
+                        "text": "Carlos."
                     },
                     {
-                        "sender": "Ana",
-                        "text": "¿Aunque esté repetida?"
+                        "sender": "Carlos",
+                        "text": "Entendido..."
                     },
                     {
-                        "sender": "Miguel",
-                        "text": "Sí."
+                        "sender": "Carlos",
+                        "text": "Me iré a la cocina."
                     }
                 ]
             },
@@ -635,23 +678,72 @@
                 "messages": [
                     {
                         "sender": "Marta",
-                        "text": "He vuelto a revisar el organigrama."
+                        "text": "Estoy preparando el correo para felicitar los cumpleaños del mes."
                     },
                     {
                         "sender": "Miguel",
-                        "text": "¿Algún problema?"
+                        "text": "Perfecto."
                     },
                     {
                         "sender": "Marta",
-                        "text": "No exactamente."
-                    },
-                    {
-                        "sender": "Marta",
-                        "text": "Solo me resulta extraño."
+                        "text": "Siempre me da miedo olvidarme de alguien."
                     },
                     {
                         "sender": "Miguel",
-                        "text": "Déjalo como está."
+                        "text": "Revísalo una vez más."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Lo he revisado tres veces."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Entonces estará bien."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "¿Tú nunca dudas?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Más de lo que parece."
+                    }
+                ]
+            },
+            {
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "He encontrado un informe firmado hace años."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Y?"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "La firma me resulta familiar."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Será de algún antiguo responsable."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Puede ser."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Aunque juraría que sigue trabajando aquí."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No le des más vueltas."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Vale."
                     }
                 ]
             },
@@ -660,23 +752,326 @@
                 "messages": [
                     {
                         "sender": "Ana",
-                        "text": "Cada vez que entro en Archivo me pasa lo mismo."
+                        "text": "Hoy me he encontrado una llave dentro de una carpeta."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Tiene alguna etiqueta?"
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Guárdala en objetos perdidos."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Pensaba dejarla en recepción."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Mejor no."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "De acuerdo."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "A este paso un día encontraré un coche en una caja."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Avísame si ocurre."
+                    }
+                ]
+            },
+            {
+                "with": "Laura Pérez",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "Te voy a contar un secreto."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Te escucho."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Carlos dice que no mira las redes sociales en horario laboral."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Ajá."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Pero cada vez que paso por su mesa está leyendo reseñas de cafeterías."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Quizá esté buscando inspiración."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Inspiración para el café de las once."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Es una causa noble."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "No esperaba que lo defendieras."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Yo tampoco."
+                    }
+                ]
+            },
+            {
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "¿Has visto a Carlos esta mañana?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Todavía no."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Ha llegado diez minutos antes."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Eso sí que es noticia."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Dice que quería aparcar cerca."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Lo ha conseguido?"
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "No. Ha aparcado donde siempre."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Entonces ha madrugado para nada."
+                    }
+                ]
+            },
+            {
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "Tengo una duda existencial."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Temía este momento."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "¿Cuántas carpetas llamadas 'Final' son demasiadas?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Más de una."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Entonces tengo un problema."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Lo imaginaba."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "He llegado a 'Final Definitivo 4'."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Podría ser peor."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "¿Cómo?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Podría existir un 'Final Definitivo 4 Bueno'."
+                    }
+                ]
+            },
+            {
+                "with": "Ana López",
+                "messages": [
+                    {
+                        "sender": "Ana",
+                        "text": "Hoy he vuelto a perder el archivador azul."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Has mirado donde lo dejaste ayer?"
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Sí."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Y precisamente ahí no estaba."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Habrá alguien utilizándolo."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Puede ser."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Aunque luego ha aparecido exactamente donde recordaba."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "A veces pasa."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Cada vez me pasa más."
+                    }
+                ]
+            },
+            {
+                "with": "Laura Pérez",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "El repartidor me ha preguntado si trabajábamos aquí de verdad."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Por qué?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Dice que nunca ve a nadie salir a comer."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Qué observador."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Le he dicho que tenemos horarios distintos."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Buena respuesta."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Aunque ahora que lo pienso..."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Yo tampoco recuerdo la última vez que salí a comer."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Seguro que fue hace poco."
+                    }
+                ]
+            },
+            {
+                "with": "Laura Pérez",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "Ha venido otra vez el mensajero sin avisar."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Ha dejado los paquetes?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Sí."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Pero dice que mañana vuelve con más cajas."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Que las deje en recepción."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Esta vez no cabrán."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Buscaremos sitio."
+                    }
+                ]
+            },
+            {
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "Estoy revisando expedientes antiguos."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Todo correcto?"
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Sí."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Bueno..."
                     },
                     {
                         "sender": "Miguel",
                         "text": "¿Qué ocurre?"
                     },
                     {
-                        "sender": "Ana",
-                        "text": "Tengo la sensación de haber olvidado algo."
+                        "sender": "Marta",
+                        "text": "Hay nombres que me resultan familiares."
                     },
                     {
                         "sender": "Miguel",
-                        "text": "No te preocupes."
+                        "text": "Es normal."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Lo raro es que no sé por qué."
                     },
                     {
                         "sender": "Miguel",
-                        "text": "Continúa con tu trabajo."
+                        "text": "No te preocupes por eso."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Supongo que simplemente llevo demasiado tiempo aquí."
                     }
                 ]
             },
@@ -685,19 +1080,27 @@
                 "messages": [
                     {
                         "sender": "Carlos",
-                        "text": "¿Seguro que guardamos todas las versiones?"
+                        "text": "He conseguido dejar la bandeja de entrada en cero."
                     },
                     {
                         "sender": "Miguel",
-                        "text": "Sí."
+                        "text": "Enhorabuena."
                     },
                     {
                         "sender": "Carlos",
-                        "text": "Cada año ocupan más espacio."
+                        "text": "Ha durado exactamente cuarenta segundos."
                     },
                     {
                         "sender": "Miguel",
-                        "text": "Lo sé."
+                        "text": "Nuevo récord."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Acaban de entrar quince correos."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "La paz nunca dura."
                     }
                 ]
             },
@@ -706,36 +1109,31 @@
                 "messages": [
                     {
                         "sender": "Laura",
-                        "text": "La gente pregunta mucho por documentos antiguos."
+                        "text": "La planta de recepción se está muriendo."
                     },
                     {
                         "sender": "Miguel",
-                        "text": "Es normal."
+                        "text": "Riégala."
                     },
                     {
                         "sender": "Laura",
-                        "text": "¿Los dejamos pasar?"
+                        "text": "Eso llevo haciendo dos semanas."
                     },
                     {
                         "sender": "Miguel",
-                        "text": "No sin avisarme."
-                    }
-                ]
-            },
-            {
-                "with": "Marta Romero",
-                "messages": [
+                        "text": "Entonces deja de regarla."
+                    },
                     {
-                        "sender": "Marta",
-                        "text": "A veces creo que recuerdas esta empresa mejor que nadie."
+                        "sender": "Laura",
+                        "text": "No esperaba un consejo de jardinería."
                     },
                     {
                         "sender": "Miguel",
-                        "text": "Llevo muchos años aquí."
+                        "text": "Yo tampoco."
                     },
                     {
-                        "sender": "Marta",
-                        "text": "Se nota."
+                        "sender": "Laura",
+                        "text": "Haré la prueba."
                     }
                 ]
             },
@@ -744,45 +1142,35 @@
                 "messages": [
                     {
                         "sender": "Ana",
-                        "text": "No consigo identificar una firma."
+                        "text": "¿Guardamos los archivadores vacíos?"
                     },
                     {
                         "sender": "Miguel",
-                        "text": "Déjala en mi despacho."
+                        "text": "Sí."
                     },
                     {
                         "sender": "Ana",
-                        "text": "Sabía que tú lo sabrías."
-                    }
-                ]
-            },
-            {
-                "with": "Carlos Vega",
-                "messages": [
-                    {
-                        "sender": "Carlos",
-                        "text": "¿Quién aprobó la reorganización?"
+                        "text": "¿Incluso si no tienen etiqueta?"
                     },
                     {
                         "sender": "Miguel",
-                        "text": "Está documentado."
+                        "text": "Sí."
                     },
                     {
-                        "sender": "Carlos",
-                        "text": "Luego lo buscaré."
-                    }
-                ]
-            },
-            {
-                "with": "Laura Pérez",
-                "messages": [
-                    {
-                        "sender": "Laura",
-                        "text": "Todo el mundo me pregunta cosas que solo sabes tú."
+                        "sender": "Ana",
+                        "text": "¿Y si están rotos?"
                     },
                     {
                         "sender": "Miguel",
-                        "text": "Forma parte del trabajo."
+                        "text": "También."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Empiezo a pensar que aquí no se tira absolutamente nada."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Es una buena costumbre."
                     }
                 ]
             },
@@ -791,15 +1179,35 @@
                 "messages": [
                     {
                         "sender": "Marta",
-                        "text": "A veces pienso que conoces cada documento del Archivo."
+                        "text": "He recibido tres solicitudes de vacaciones para la misma semana."
                     },
                     {
                         "sender": "Miguel",
-                        "text": "Solo llevo muchos años trabajando con ellos."
+                        "text": "Habrá que reorganizar."
                     },
                     {
                         "sender": "Marta",
-                        "text": "Pues tienes una memoria increíble."
+                        "text": "Carlos dice que eligió esas fechas porque son las más baratas."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Muy propio de él."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Laura quiere coincidir con una amiga."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Intentemos cuadrarlo."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Ana dice que le da igual cuándo."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Entonces empezamos por ella."
                     }
                 ]
             },
@@ -808,7 +1216,232 @@
                 "messages": [
                     {
                         "sender": "Carlos",
-                        "text": "He dejado los informes donde siempre."
+                        "text": "¿Te acuerdas de la reunión del martes pasado?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Sí."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Yo no."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Estuviste allí."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Eso dicen."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Tomaste notas."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Las he leído."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Siguen sin ayudarme a recordarla."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Debías de estar cansado."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Supongo."
+                    }
+                ]
+            },
+            {
+                "with": "Laura Pérez",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "He cambiado el cartel de recepción."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Qué ponía el anterior?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "\"Llame al timbre\"."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Y ahora?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "\"Llame al timbre una sola vez\"."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Ha habido incidentes?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Ayer un repartidor lo pulsó durante casi un minuto."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Entiendo el cambio."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Todavía me pitan los oídos."
+                    }
+                ]
+            },
+            {
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "He encontrado un Excel llamado 'Nuevo'."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Y?"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Dentro había otro llamado 'Nuevo 2'."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Prometedor."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Y dentro de ese otro llamado 'Nuevo Bueno'."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Cuál era el correcto?"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "No lo sé."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Entonces conserva los tres."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Empiezo a sospechar que esa es tu respuesta para todo."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No siempre."
+                    }
+                ]
+            },
+            {
+                "with": "Ana López",
+                "messages": [
+                    {
+                        "sender": "Ana",
+                        "text": "He terminado de ordenar la estantería C."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Perfecto."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Mañana seguiré con la D."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Muy bien."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Aunque..."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Sí?"
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Juraría que la semana pasada también terminé la C."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Seguramente la recuerdas mal."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Sí... debe de ser eso."
+                    }
+                ]
+            },
+            {
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "Estoy pensando en reorganizar el archivo de Recursos Humanos."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Por qué?"
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Cada vez me cuesta más encontrar algunas cosas."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "El sistema funciona."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Lo sé."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Pero a veces tengo la sensación de buscar donde no toca."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No cambies nada por ahora."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "De acuerdo."
+                    }
+                ]
+            },
+            {
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "¿Quién reserva siempre la sala de reuniones y luego no aparece?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Buena pregunta."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Ya es la tercera vez este mes."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Cancela la reserva si pasan diez minutos."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Lo apuntaré en el procedimiento."
                     },
                     {
                         "sender": "Miguel",
@@ -817,19 +1450,76 @@
                 ]
             },
             {
+                "with": "Laura Pérez",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "¿Te puedo hacer una pregunta un poco rara?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Claro."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Nunca tienes la sensación de haber vivido el mismo día dos veces?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Yo hoy he saludado a un visitante y durante un segundo habría jurado que ya lo había hecho."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Nos pasa cuando seguimos la misma rutina."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Sí..."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Supongo que tienes razón."
+                    }
+                ]
+            },
+            {
                 "with": "Ana López",
                 "messages": [
                     {
                         "sender": "Ana",
-                        "text": "Ya está todo organizado."
+                        "text": "He encontrado una carpeta con tres copias del mismo informe."
                     },
                     {
                         "sender": "Miguel",
-                        "text": "Gracias."
+                        "text": "¿Son exactamente iguales?"
                     },
                     {
                         "sender": "Ana",
-                        "text": "Menos mal que recuerdas dónde está todo."
+                        "text": "Dos sí."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "La tercera tiene una firma distinta."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Conserva las tres."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Pensé que querrías ahorrar espacio."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Prefiero conservarlas."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Entendido."
                     }
                 ]
             },
@@ -838,32 +1528,204 @@
                 "messages": [
                     {
                         "sender": "Laura",
-                        "text": "El visitante ya ha llegado."
+                        "text": "¿Sabes qué ha pasado con la cafetera nueva?"
                     },
                     {
                         "sender": "Miguel",
-                        "text": "Hazle esperar unos minutos."
+                        "text": "No."
                     },
                     {
                         "sender": "Laura",
-                        "text": "De acuerdo."
+                        "text": "Carlos ha intentado programarla."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Y?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Ahora sirve café a las 03:00 de la madrugada."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Muy útil."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Dice que era para probar el temporizador."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Que no vuelva a tocarla."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Se lo diré."
                     }
                 ]
             },
             {
-                "with": "Marta",
+                "with": "Carlos Vega",
                 "messages": [
-                    "They're asking again.",
-                    "Keep everyone focused on today's work.",
-                    "How long will this last?",
-                    "As long as necessary."
+                    {
+                        "sender": "Carlos",
+                        "text": "Estoy revisando el presupuesto del año pasado."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Algún problema?"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "No entiendo por qué tenemos tres versiones casi iguales."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Quédate con la última."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Las tres dicen ser la última."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Compáralas."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Solo cambia una cifra."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Entonces conserva las tres."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Algún día tendré que preguntarte por qué nunca tiramos nada."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Algún día."
+                    }
                 ]
             },
             {
-                "with": "Carlos",
+                "with": "Laura Pérez",
                 "messages": [
-                    "The reports are ready.",
-                    "Leave them on my desk."
+                    {
+                        "sender": "Laura",
+                        "text": "Hoy ha vuelto el comercial de la fotocopiadora."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Otra vez?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Dice que nuestro contrato termina pronto."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Todavía queda."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Le he dicho lo mismo."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Aun así me ha dejado tres catálogos."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Guárdalos."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Los leerá alguien?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Probablemente no."
+                    }
+                ]
+            },
+            {
+                "with": "Laura Pérez",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "¿Sabes quién ha vuelto a dejar el microondas sin limpiar?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Pues alguien ha explotado un táper de pasta."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Vaya."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "He puesto un cartel."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Funcionará?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Pero al menos me he desahogado."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Eso ya es algo."
+                    }
+                ]
+            },
+            {
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "He actualizado el listado de cumpleaños."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Perfecto."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Siempre se me olvida alguien."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Este año no."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "¿Cómo puedes estar tan seguro?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Lo he revisado."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "No sé cómo encuentras tiempo para todo."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Hay que organizarse."
+                    }
                 ]
             }
         ],
@@ -1798,332 +2660,39 @@
         ],
         "chats": [
             {
-                "with": "Laura",
-                "messages": [
-                    {
-                        "sender": "Laura",
-                        "text": "Buenos días ☕"
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "Buenos días."
-                    },
-                    {
-                        "sender": "Laura",
-                        "text": "¿Mucho trabajo?"
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "El de siempre."
-                    },
-                    {
-                        "sender": "Laura",
-                        "text": "Entonces perfecto 😄"
-                    }
-                ]
-            },
-            {
-                "with": "Carlos",
-                "messages": [
-                    {
-                        "sender": "Carlos",
-                        "text": "¿Has visto mi grapadora?"
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "No 😂"
-                    },
-                    {
-                        "sender": "Carlos",
-                        "text": "Desaparecen cosas constantemente."
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "Seguro que vuelve a aparecer."
-                    }
-                ]
-            },
-            {
-                "with": "Marta",
+                "with": "Marta Romero",
                 "messages": [
                     {
                         "sender": "Marta",
-                        "text": "¿Has sustituido ya la lista de empleados?"
+                        "text": "Buenos días, Laura."
                     },
                     {
-                        "sender": "Reception",
+                        "sender": "Laura",
+                        "text": "¡Buenos días!"
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "¿Ha llegado ya el mensajero?"
+                    },
+                    {
+                        "sender": "Laura",
                         "text": "Todavía no."
                     },
                     {
                         "sender": "Marta",
-                        "text": "Hazlo cuando puedas."
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "Vale."
-                    }
-                ]
-            },
-            {
-                "with": "Ana",
-                "messages": [
-                    {
-                        "sender": "Ana",
-                        "text": "Oye..."
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "¿Sí?"
-                    },
-                    {
-                        "sender": "Ana",
-                        "text": "¿Te suena que antes hubiese otra mesa junto a Finanzas?"
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "Creo que siempre ha estado igual."
-                    },
-                    {
-                        "sender": "Ana",
-                        "text": "Sí..."
-                    },
-                    {
-                        "sender": "Ana",
-                        "text": "Supongo."
-                    }
-                ]
-            },
-            {
-                "with": "Miguel Ruiz",
-                "messages": [
-                    {
-                        "sender": "Miguel",
-                        "text": "Cuando llegue el visitante avísame."
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "De acuerdo."
-                    }
-                ]
-            },
-            {
-                "with": "Carlos",
-                "messages": [
-                    {
-                        "sender": "Carlos",
-                        "text": "He encontrado otra caja llena de archivadores."
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "¿Más?"
-                    },
-                    {
-                        "sender": "Carlos",
-                        "text": "Sí. Parece que compramos uno cada mes."
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "😂"
-                    }
-                ]
-            },
-            {
-                "with": "Laura",
-                "messages": [
-                    {
-                        "sender": "Laura",
-                        "text": "¿Has visto la foto antigua?"
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "No."
+                        "text": "Trae unos contratos."
                     },
                     {
                         "sender": "Laura",
-                        "text": "Creo que salíamos cinco."
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "¿Cinco?"
-                    },
-                    {
-                        "sender": "Laura",
-                        "text": "Bueno..."
-                    },
-                    {
-                        "sender": "Laura",
-                        "text": "Ahora ya no estoy segura."
-                    }
-                ]
-            },
-            {
-                "with": "Marta",
-                "messages": [
-                    {
-                        "sender": "Marta",
-                        "text": "¿La lista nueva está puesta?"
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "Sí."
+                        "text": "En cuanto llegue te aviso."
                     },
                     {
                         "sender": "Marta",
-                        "text": "Perfecto."
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "¿Qué hago con la antigua?"
-                    },
-                    {
-                        "sender": "Marta",
-                        "text": "Déjala donde estaba."
-                    }
-                ]
-            },
-            {
-                "with": "Ana",
-                "messages": [
-                    {
-                        "sender": "Ana",
-                        "text": "He pasado por Finanzas."
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "¿Y?"
-                    },
-                    {
-                        "sender": "Ana",
-                        "text": "He tenido la sensación de que faltaba algo."
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "¿Qué?"
-                    },
-                    {
-                        "sender": "Ana",
-                        "text": "Ni idea..."
-                    }
-                ]
-            },
-            {
-                "with": "Miguel Ruiz",
-                "messages": [
-                    {
-                        "sender": "Miguel",
-                        "text": "El visitante llegará en unos minutos."
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "Todo preparado."
-                    },
-                    {
-                        "sender": "Miguel",
-                        "text": "Perfecto."
-                    }
-                ]
-            },
-            {
-                "with": "Laura",
-                "messages": [
-                    {
-                        "sender": "Laura",
-                        "text": "He encontrado una foto antigua."
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "¿De la empresa?"
+                        "text": "Gracias."
                     },
                     {
                         "sender": "Laura",
-                        "text": "Sí."
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "¿Qué tal salimos?"
-                    },
-                    {
-                        "sender": "Laura",
-                        "text": "Raros 😂"
-                    },
-                    {
-                        "sender": "Laura",
-                        "text": "Creo que alguien la dobló hace años."
-                    }
-                ]
-            },
-            {
-                "with": "Carlos",
-                "messages": [
-                    {
-                        "sender": "Carlos",
-                        "text": "He abierto un archivador viejo."
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "¿Y?"
-                    },
-                    {
-                        "sender": "Carlos",
-                        "text": "Todo eran contratos antiguos."
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "Qué emoción 😂"
-                    },
-                    {
-                        "sender": "Carlos",
-                        "text": "Ya ves."
-                    }
-                ]
-            },
-            {
-                "with": "Ana",
-                "messages": [
-                    {
-                        "sender": "Ana",
-                        "text": "¿Nunca te pasa que recuerdas algo y desaparece?"
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "¿Cómo?"
-                    },
-                    {
-                        "sender": "Ana",
-                        "text": "Como cuando intentas recordar un nombre."
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "Sí..."
-                    },
-                    {
-                        "sender": "Ana",
-                        "text": "Da igual."
-                    }
-                ]
-            },
-            {
-                "with": "Marta",
-                "messages": [
-                    {
-                        "sender": "Marta",
-                        "text": "He vuelto a revisar el organigrama."
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "¿Todo correcto?"
-                    },
-                    {
-                        "sender": "Marta",
-                        "text": "Creo que sí."
-                    },
-                    {
-                        "sender": "Marta",
-                        "text": "Aunque..."
-                    },
-                    {
-                        "sender": "Marta",
-                        "text": "No importa."
+                        "text": "Para eso estoy :)"
                     }
                 ]
             },
@@ -2131,59 +2700,1072 @@
                 "with": "Miguel",
                 "messages": [
                     {
-                        "sender": "Miguel",
-                        "text": "¿Ha llegado el visitante?"
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "Todavía no."
+                        "sender": "Laura",
+                        "text": "Hay varias personas preguntando por documentos antiguos."
                     },
                     {
                         "sender": "Miguel",
-                        "text": "Avisadme en cuanto llegue."
+                        "text": "¿Quiénes?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Dos clientes y un proveedor."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Que soliciten una copia."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Uno insiste en consultar el original."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Ni acompañado?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Ni acompañado."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "De acuerdo."
                     }
                 ]
             },
             {
-                "with": "Laura",
+                "with": "Mensajería Express",
+                "messages": [
+                    {
+                        "sender": "Mensajería",
+                        "text": "Buenos días. Tenemos un envío certificado para Ruiz."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Perfecto. Puede dejarlo en recepción."
+                    },
+                    {
+                        "sender": "Mensajería",
+                        "text": "Necesitamos su firma."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Ahora mismo está reunido."
+                    },
+                    {
+                        "sender": "Mensajería",
+                        "text": "¿Esperamos?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Sí, normalmente termina rápido."
+                    },
+                    {
+                        "sender": "Mensajería",
+                        "text": "De acuerdo."
+                    }
+                ]
+            },
+            {
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "Necesito un favor."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Depende."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Si llaman preguntando por mí..."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Qué digo?"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Que estoy en una reunión."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Y dónde estás realmente?"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Intentando arreglar la cafetera."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Eso también cuenta como una reunión."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Sabía que podía contar contigo."
+                    }
+                ]
+            },
+            {
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "¿Has visto a Ana?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Ha bajado al Archivo."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Otra vez."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Sí."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Pasa más tiempo allí que en su mesa."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Dice que siempre encuentra algo pendiente."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "No sé cómo puede orientarse ahí dentro."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Yo me perdería en cinco minutos."
+                    }
+                ]
+            },
+            {
+                "with": "Servicio Técnico",
+                "messages": [
+                    {
+                        "sender": "Servicio Técnico",
+                        "text": "¿Sigue dando problemas el proyector?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Hoy funciona."
+                    },
+                    {
+                        "sender": "Servicio Técnico",
+                        "text": "¿Seguro?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "De momento sí."
+                    },
+                    {
+                        "sender": "Servicio Técnico",
+                        "text": "Entonces mejor no lo toquéis."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Ese era exactamente mi plan."
+                    },
+                    {
+                        "sender": "Servicio Técnico",
+                        "text": "Sabia decisión."
+                    }
+                ]
+            },
+            {
+                "with": "Miguel",
                 "messages": [
                     {
                         "sender": "Laura",
-                        "text": "Al final encontré las llaves 😂"
+                        "text": "Una curiosidad."
                     },
                     {
-                        "sender": "Reception",
-                        "text": "Sabía que aparecerían."
+                        "sender": "Miguel",
+                        "text": "Dime."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Cómo haces para acordarte del nombre de todo el mundo?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Forma parte del trabajo."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Yo sigo confundiendo a los proveedores."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Con el tiempo dejarás de hacerlo."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Llevo cuatro años aquí."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Entonces solo necesitas un poco más."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "jajajj"
                     }
                 ]
             },
             {
-                "with": "Carlos",
-                "messages": [
-                    {
-                        "sender": "Carlos",
-                        "text": "Cada vez hay más cajas en Archivo."
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "Habrá que ordenar aquello."
-                    },
-                    {
-                        "sender": "Carlos",
-                        "text": "Buena suerte 😅"
-                    }
-                ]
-            },
-            {
-                "with": "Ana",
+                "with": "Ana López",
                 "messages": [
                     {
                         "sender": "Ana",
-                        "text": "Ya me acuerdo."
+                        "text": "¿Ha venido alguien preguntando por mí?"
                     },
                     {
-                        "sender": "Reception",
-                        "text": "¿De qué?"
+                        "sender": "Laura",
+                        "text": "Solo el repartidor."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Menos mal."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Esperabas a alguien?"
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "No... bueno... quizá."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Eso no ha sonado muy convincente."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Déjalo, luego te cuento."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Queda apuntado :)"
+                    }
+                ]
+            },
+            {
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "¿Sabes quién ha cogido mi calculadora?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿La gris?"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Sí."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Has mirado debajo del monitor?"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "..."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Estaba debajo del monitor."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Es la tercera vez este mes."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "No hace falta llevar la cuenta."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Demasiado tarde jajaj"
+                    }
+                ]
+            },
+            {
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "Hoy hay muy buen ambiente en la oficina."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Sí, hacía tiempo que no veía a todos tan tranquilos."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Aprovecha mientras dure."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Tan pesimista eres?"
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Simplemente conozco los lunes."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Eso sí que es experiencia."
+                    }
+                ]
+            },
+            {
+                "with": "Proveedor - Café Sierra",
+                "messages": [
+                    {
+                        "sender": "Proveedor",
+                        "text": "Buenos días. Confirmamos el pedido habitual."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Perfecto."
+                    },
+                    {
+                        "sender": "Proveedor",
+                        "text": "¿Seguís con el mismo número de personas?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Que yo sepa sí."
+                    },
+                    {
+                        "sender": "Proveedor",
+                        "text": "Lo preguntaba porque algunas semanas consumís bastante más café."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Dependerá de las reuniones."
+                    },
+                    {
+                        "sender": "Proveedor",
+                        "text": "Tiene sentido. Le dejo pues."
+                    }
+                ]
+            },
+            {
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "Laura..."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Dime."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "¿Ha llegado ya el café?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "¿Entonces queda esperanza?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Esperanza de qué?"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "De sobrevivir a la reunión."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "😂"
+                    }
+                ]
+            },
+            {
+                "with": "Ruiz",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "Hay una cosa que siempre me ha hecho gracia."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "¿Cuál?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Cuando alguien no sabe dónde está un documento..."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Siempre termina preguntándote a ti."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Es parte de mi trabajo."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Pero ni siquiera preguntan antes en Archivo."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "A veces es más rápido así."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Si algún día desaparece un edificio entero, también te preguntarán."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Espero que no ocurra."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Esperemos jajaja"
+                    }
+                ]
+            },
+            {
+                "with": "Ana López",
+                "messages": [
+                    {
+                        "sender": "Ana",
+                        "text": "¿Ha salido ya Miguel del despacho?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Todavía no."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Necesito que firme un documento."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Déjamelo aquí si quieres."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Prefiero dárselo en mano."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Como quieras."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Aunque luego siempre dice que no hacía falta esperar."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Ya..."
+                    }
+                ]
+            },
+            {
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "¿Quién ha puesto música en la sala de reuniones?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Creo que Marta."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Llevo media hora escuchando jazz."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Peor fue cuando puso música clásica."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "¿Eso pasó?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Duró un día."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "QUE?!"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Lo que hay."
+                    }
+                ]
+            },
+            {
+                "with": "Marta",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "¿Ha venido ya el candidato?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Sí."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "¿Qué impresión te ha dado?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Muy nervioso."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Es normal."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "No ha dejado de mirar el reloj."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Supongo que quiere causar buena impresión."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Seguro."
+                    }
+                ]
+            },
+            {
+                "with": "Mantenimiento",
+                "messages": [
+                    {
+                        "sender": "Mantenimiento",
+                        "text": "Buenos días. ¿Seguís teniendo problemas con la puerta del Archivo?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Qué puerta?"
+                    },
+                    {
+                        "sender": "Mantenimiento",
+                        "text": "La interior."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "No sabía que hubiese ninguna avería."
+                    },
+                    {
+                        "sender": "Mantenimiento",
+                        "text": "Entonces ya estará solucionada."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Supongo..."
+                    }
+                ]
+            },
+            {
+                "with": "Miguel Ruiz",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "¿Te puedo preguntar una tontería?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Claro."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Por qué nunca dejas que nadie coloque los documentos del Archivo?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Porque es más rápido hacerlo yo."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Ana dice que se ofrece siempre."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Lo sé."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Debe de llevarte mucho tiempo."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Merece la pena."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Nunca entenderé cómo recuerdas dónde va cada cosa."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Simepre que voy a buscar algo me cuesta horrores."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "La costumbre."
+                    }
+                ]
+            },
+            {
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "¿Puedes hacerme un favor?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Depende del favor."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Si alguien pregunta, llevo cinco minutos buscando un informe."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Y qué llevas haciendo realmente?"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Llevo cinco minutos buscando las llaves del coche."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Has mirado en el bolsillo?"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "..."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "No quiero hablar del tema."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Siempre igual. Jajjaja"
+                    }
+                ]
+            },
+            {
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "¿Has terminado ya el informe de Recursos Humanos?"
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Sí."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Pensaba que te llevaría todo el día."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "He reutilizado el del año pasado."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Eso suena poco profesional."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Solo he reutilizado la plantilla."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Ahora sí suena profesional."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Muchísimo mejor. ;)"
+                    }
+                ]
+            },
+            {
+                "with": "Ana López",
+                "messages": [
+                    {
+                        "sender": "Ana",
+                        "text": "¿Has visto el archivador verde?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Empiezo a pensar que desaparecen solos."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Otra vez?"
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Siempre terminan apareciendo."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Entonces no te preocupes."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Eso es precisamente lo raro."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Qué cosa?"
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Que ya ni me sorprende."
+                    }
+                ]
+            },
+            {
+                "with": "Empresa de Seguridad",
+                "messages": [
+                    {
+                        "sender": "Seguridad",
+                        "text": "Buenos días. Confirmamos la revisión anual del sistema de control de accesos."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Perfecto."
+                    },
+                    {
+                        "sender": "Seguridad",
+                        "text": "¿Ha habido incidencias desde la última visita?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Ninguna que yo sepa."
+                    },
+                    {
+                        "sender": "Seguridad",
+                        "text": "Especialmente en las zonas restringidas."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Todo tranquilo."
+                    },
+                    {
+                        "sender": "Seguridad",
+                        "text": "Entonces será una revisión rápida."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Estupendo."
+                    }
+                ]
+            },
+            {
+                "with": "Ana López",
+                "messages": [
+                    {
+                        "sender": "Ana",
+                        "text": "¿Está libre la sala de reuniones?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Hasta las nueve sí."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Perfecto."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Necesitas que prepare algo?"
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Solo el proyector."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Cruza los dedos."
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "¿Otra vez falla?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Hoy todavía no, pero nunca se sabe."
+                    }
+                ]
+            },
+            {
+                "with": "Miguel Ruiz",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "A veces me da la sensación de que conoces esta empresa mejor que tu propia casa."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Paso muchas horas aquí."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "No me refiero a eso."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Es como si supieras dónde está cada carpeta antes de buscarla."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Después de tantos años acabas aprendiendo."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Nunca te equivocas?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Claro que sí."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Pues yo todavía no te he visto hacerlo."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Algún día ocurrirá."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Ese día lo celebraré con café."
+                    }
+                ]
+            },
+            {
+                "with": "Proveedor - OfficeSupplies",
+                "messages": [
+                    {
+                        "sender": "OfficeSupplies",
+                        "text": "Buenos días. Mañana realizaremos la entrega habitual."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Perfecto."
+                    },
+                    {
+                        "sender": "OfficeSupplies",
+                        "text": "¿Necesitan ampliar el pedido de papel?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Creo que vamos bien."
+                    },
+                    {
+                        "sender": "OfficeSupplies",
+                        "text": "La última vez pidieron bastante más de lo normal."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Lo consultaré y os digo algo."
+                    },
+                    {
+                        "sender": "OfficeSupplies",
+                        "text": "Estupendo. Gracias."
+                    }
+                ]
+            },
+            {
+                "with": "Miguel Ruiz",
+                "messages": [
+                    {
+                        "sender": "Miguel",
+                        "text": "Cuando llegue el visitante, hazle esperar unos minutos."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "De acuerdo."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Le ofrezco café?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Sí."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Y si pregunta cuánto vas a tardar?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Dile que estoy terminando una reunión."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Como siempre :)"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Como siempre."
+                    }
+                ]
+            },
+            {
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "¿Ha llegado ya el técnico de la fotocopiadora?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Lleva dos semanas diciendo que viene."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "La semana pasada dijo que había estado aquí."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Pues yo no lo vi."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Ni yo."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Igual vino cuando estábamos reunidos."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Supongo."
+                    }
+                ]
+            },
+            {
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "He cambiado la decoración de recepción."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "¿Qué has cambiado?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "He movido la planta y el cuadro."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Juraría que siempre han estado ahí."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Pues no."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Esta mañana los he cambiado."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Qué raro..."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Los recordaba exactamente igual."
+                    }
+                ]
+            },
+            {
+                "with": "Empresa de Limpieza",
+                "messages": [
+                    {
+                        "sender": "Limpieza",
+                        "text": "Buenos días. ¿Podemos acceder esta tarde a las oficinas?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Sí, a partir de las 18:30."
+                    },
+                    {
+                        "sender": "Limpieza",
+                        "text": "¿También al Archivo?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Eso tendría que autorizarlo el director."
+                    },
+                    {
+                        "sender": "Limpieza",
+                        "text": "Como siempre."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Sí, las normas son bastante estrictas."
+                    }
+                ]
+            },
+            {
+                "with": "Ana López",
+                "messages": [
+                    {
+                        "sender": "Ana",
+                        "text": "¿Has visto mis gafas?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "¿Las negras?"
+                    },
+                    {
+                        "sender": "Ana",
+                        "text": "Sí."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Las llevas puestas."
                     },
                     {
                         "sender": "Ana",
@@ -2191,41 +3773,11 @@
                     },
                     {
                         "sender": "Ana",
-                        "text": "Nada."
-                    }
-                ]
-            },
-            {
-                "with": "Marta",
-                "messages": [
-                    {
-                        "sender": "Marta",
-                        "text": "Miguel quiere revisar unos documentos."
+                        "text": "Voy a fingir que esto no ha pasado."
                     },
                     {
-                        "sender": "Reception",
-                        "text": "¿Los llevo?"
-                    },
-                    {
-                        "sender": "Marta",
-                        "text": "No, ya me encargo yo."
-                    }
-                ]
-            },
-            {
-                "with": "Miguel",
-                "messages": [
-                    {
-                        "sender": "Miguel",
-                        "text": "¿Ha llegado ya?"
-                    },
-                    {
-                        "sender": "Reception",
-                        "text": "Aún no."
-                    },
-                    {
-                        "sender": "Miguel",
-                        "text": "Perfecto."
+                        "sender": "Laura",
+                        "text": "Trato hecho jajaj"
                     }
                 ]
             }

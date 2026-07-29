@@ -6,170 +6,185 @@
       "lines": [
         "Buenos días. Tome asiento, por favor.",
         "El director terminará una reunión dentro de unos minutos.",
-        "Si necesita algo mientras espera, estaré aquí."
+        "Si necesita algo mientras espera, estaré aquí.",
+        "Si tiene alguna duda sobre el edificio, puedo orientarle."
       ]
     },
-
     {
       "from": 90,
       "to": 210,
       "lines": [
         "Qué mañana tan movida...",
         "No dejan de pedirme documentos antiguos.",
-        "Pensaba que casi nadie consultaba el Archivo."
+        "Pensaba que casi nadie consultaba el Archivo.",
+        "Últimamente todo el mundo parece buscar cosas de hace años.",
+        "Aunque supongo que serán coincidencias."
       ]
     },
-
     {
       "from": 210,
       "to": 360,
       "lines": [
         "Es curioso...",
         "Juraría que antes conocía mejor dónde estaba cada cosa.",
-        "Últimamente tengo que preguntar mucho más."
+        "Últimamente tengo que preguntar mucho más.",
+        "Quizá llevo demasiadas horas aquí y empiezo a mezclarlo todo.",
+        "A veces los pasillos parecen más largos de lo que recuerdo."
       ]
     },
-
     {
       "from": 360,
       "to": 510,
       "lines": [
         "Menos mal que Miguel siempre sabe dónde está todo.",
-        "Si alguien necesita un documento antiguo, acaba preguntándole a él."
+        "Si alguien necesita un documento antiguo, acaba preguntándole a él.",
+        "Tiene una memoria increíble para estas cosas.",
+        "No sé cómo consigue acordarse de tantos detalles.",
+        "Supongo que es cuestión de experiencia."
       ]
     },
-
     {
       "from": 510,
       "to": 600,
       "lines": [
         "Ya casi es la hora de la reunión.",
-        "En cuanto termine, todo volverá a la normalidad."
+        "En cuanto termine, todo volverá a la normalidad.",
+        "Aunque esta mañana ha sido bastante extraña...",
+        "Bueno, será mejor no darle más vueltas."
       ]
     }
   ],
 
   "miguel": [
-
     {
       "from": 0,
       "to": 180,
       "lines": [
         "Disculpe, ahora mismo estoy ocupado.",
-        "Si necesita algo, Recepción podrá ayudarle."
+        "Si necesita algo, Recepción podrá ayudarle.",
+        "En cuanto termine la reunión atenderé sus preguntas.",
+        "Gracias por su paciencia."
       ]
     },
-
     {
       "from": 180,
       "to": 420,
       "lines": [
         "Estoy revisando documentación.",
-        "Cuando termine la reunión podremos hablar."
+        "Cuando termine la reunión podremos hablar.",
+        "Hay varios asuntos que requieren mi atención.",
+        "Prefiero revisar todo antes de dar una respuesta."
       ]
     },
-
     {
       "from": 420,
       "to": 600,
       "lines": [
         "Todavía no.",
-        "Antes debo resolver unos asuntos pendientes."
+        "Antes debo resolver unos asuntos pendientes.",
+        "Le aseguro que todo está bajo control.",
+        "Cuando sea el momento adecuado podremos hablar."
       ]
     }
-
   ],
 
   "marta": [
-
     {
       "from": 0,
       "to": 180,
       "lines": [
         "Buenos días.",
-        "Siempre intento llegar un poco antes."
+        "Siempre intento llegar un poco antes.",
+        "Me gusta revisar las cosas con calma antes de empezar.",
+        "Así evito cometer errores."
       ]
     },
-
     {
       "from": 180,
       "to": 360,
       "lines": [
         "Estoy revisando unos listados.",
-        "No sé por qué... pero juraría que antes eran distintos."
+        "No sé por qué... pero juraría que antes eran distintos.",
+        "Quizá alguien los actualizó y no me di cuenta.",
+        "A veces trabajamos tanto con los mismos documentos que dejamos de ver los cambios."
       ]
     },
-
     {
       "from": 360,
       "to": 600,
       "lines": [
         "Supongo que simplemente lo recuerdo mal.",
-        "A veces damos demasiadas vueltas a las cosas."
+        "A veces damos demasiadas vueltas a las cosas.",
+        "Nuestra memoria tampoco es perfecta.",
+        "Seguro que hay una explicación sencilla."
       ]
     }
-
   ],
 
   "laura": [
-
     {
       "from": 0,
       "to": 150,
       "lines": [
         "¿Ha venido por la entrevista?",
-        "Hoy tenemos bastante movimiento."
+        "Hoy tenemos bastante movimiento.",
+        "Parece que todo el mundo necesita algo de Dirección.",
+        "Será una de esas mañanas complicadas."
       ]
     },
-
     {
       "from": 150,
       "to": 360,
       "lines": [
         "He estado organizando unas fotografías antiguas.",
-        "Es increíble la cantidad de cosas que acabamos guardando."
+        "Es increíble la cantidad de cosas que acabamos guardando.",
+        "Hay imágenes que ni siquiera recordaba haber visto.",
+        "Supongo que con tantos años acumulamos demasiados recuerdos."
       ]
     },
-
     {
       "from": 360,
       "to": 600,
       "lines": [
         "Si busca documentación antigua, pregunte en Dirección.",
-        "Ellos saben mejor que nadie cómo está organizado todo."
+        "Ellos saben mejor que nadie cómo está organizado todo.",
+        "Miguel suele encargarse de esos temas.",
+        "Siempre parece encontrar lo que los demás no vemos."
       ]
     }
-
   ],
 
   "carlos": [
-
     {
       "from": 0,
       "to": 180,
       "lines": [
         "Tengo que terminar unos informes.",
-        "Siempre hay algo pendiente."
+        "Siempre hay algo pendiente.",
+        "Últimamente no paro ni un momento.",
+        "Pero bueno, es parte del trabajo."
       ]
     },
-
     {
       "from": 180,
       "to": 360,
       "lines": [
         "Había algo que quería comprobar...",
-        "Ahora mismo no recuerdo qué era."
+        "Ahora mismo no recuerdo qué era.",
+        "Qué curioso, lo tenía completamente claro hace un momento.",
+        "Será que tengo demasiadas cosas en la cabeza."
       ]
     },
-
     {
       "from": 360,
       "to": 600,
       "lines": [
         "Da igual.",
-        "Seguro que Miguel lo recuerda."
+        "Seguro que Miguel lo recuerda.",
+        "Siempre acaba sabiendo esas cosas.",
+        "Aunque pensándolo bien... quizá solo tiene más experiencia que nosotros.",
+        "Sí, debe ser eso."
       ]
     }
-
   ]
 }
