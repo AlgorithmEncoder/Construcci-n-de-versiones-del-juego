@@ -30,3 +30,12 @@ launcher/
     ├── list_item.py
     ├── section_title.py
     └── empty_view.py
+
+
+launcher/
+└── notes/
+    ├── __init__.py
+    ├── note.py
+    ├── folder.py
+    ├── filesystem.py
+    └── notes_manager.py

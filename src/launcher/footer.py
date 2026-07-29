@@ -22,13 +22,13 @@ class Footer:
         )
 
         version = Fonts.small.render(
-            "v0.1.0",
+            "v0.4.0",
             True,
             styles.TEXT_LIGHT
         )
 
         author = Fonts.small.render(
-            "© Alberto",
+            "© Ferran Clausell",
             True,
             styles.TEXT_LIGHT
         )
