@@ -45,19 +45,40 @@ class IncursionDetail:
 
         screen.blit(title, (x, y))
 
-        icon_size = 28
-
-        self._back_rect = pygame.Rect(
-            area.right - 40 - icon_size,
-            y,
-            icon_size,
-            icon_size
+        # Icono
+        icon_rect = pygame.Rect(
+            area.right - 110,
+            y + 2,
+            16,
+            16
         )
 
         draw_back(
             screen,
-            self._back_rect,
-            colour=styles.ACCENT
+            icon_rect,
+            styles.ACCENT
+        )
+
+        # Texto
+        back = Fonts.default.render(
+            "Volver",
+            True,
+            styles.ACCENT
+        )
+
+        text_pos = (
+            icon_rect.right + 8,
+            y
+        )
+
+        screen.blit(back, text_pos)
+
+        # Área clicable (icono + texto)
+        self._back_rect = pygame.Rect(
+            icon_rect.left,
+            y,
+            back.get_width() + icon_rect.width + 8,
+            max(back.get_height(), icon_rect.height)
         )
         
         y += 70

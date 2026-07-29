@@ -9,16 +9,17 @@ import pygame
 from launcher import styles
 from ui.fonts import Fonts
 
+from ui.computer.icons import (
+    draw_folder,
+    draw_note,
+)
+
 
 class Explorer:
 
     ROW_HEIGHT = 36
 
     DOUBLE_CLICK_TIME = 350
-
-    ICON_FOLDER = "📁"
-
-    ICON_NOTE = "📄"
 
     def __init__(self):
 
@@ -83,20 +84,26 @@ class Explorer:
                 border_radius=5
             )
 
+            icon_rect = pygame.Rect(
+                rect.x + 10,
+                rect.y + 8,
+                18,
+                18,
+            )
+
+            draw_folder(
+                screen,
+                icon_rect,
+                styles.TEXT
+            )
+
             screen.blit(
-
                 Fonts.default.render(
-
-                    f"{self.ICON_FOLDER}  {child.name}",
-
+                    child.name,
                     True,
-
                     styles.TEXT
-
                 ),
-
-                (rect.x + 10, rect.y + 8)
-
+                (rect.x + 38, rect.y + 8)
             )
 
             self._rows.append(
@@ -133,20 +140,26 @@ class Explorer:
                 border_radius=5
             )
 
+            icon_rect = pygame.Rect(
+                rect.x + 10,
+                rect.y + 8,
+                18,
+                18,
+            )
+
+            draw_note(
+                screen,
+                icon_rect,
+                styles.TEXT
+            )
+
             screen.blit(
-
                 Fonts.default.render(
-
-                    f"{self.ICON_NOTE}  {note.name}",
-
+                    note.name,
                     True,
-
                     styles.TEXT
-
                 ),
-
-                (rect.x + 10, rect.y + 8)
-
+                (rect.x + 38, rect.y + 8)
             )
 
             self._rows.append(

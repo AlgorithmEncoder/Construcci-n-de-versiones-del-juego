@@ -423,3 +423,151 @@ def get_file_icon(extension: str):
         extension.lower(),
         draw_document,
     )
+
+
+def draw_note(
+    surface: pygame.Surface,
+    rect: pygame.Rect,
+    colour,
+):
+
+    inner = _draw_file_outline(
+        surface,
+        rect,
+        colour,
+    )
+
+    for i in range(3):
+
+        y = inner.top + 4 + i * 5
+
+        pygame.draw.line(
+            surface,
+            colour,
+            (inner.left + 2, y),
+            (inner.right - 4, y),
+            1,
+        )
+
+
+# ==================================================
+# Gameplay
+# ==================================================
+
+def draw_inventory(
+    surface: pygame.Surface,
+    rect: pygame.Rect,
+    colour,
+):
+
+    body = pygame.Rect(
+        rect.x + 2,
+        rect.y + 5,
+        rect.width - 4,
+        rect.height - 6,
+    )
+
+    pygame.draw.rect(
+        surface,
+        colour,
+        body,
+        LINE_WIDTH,
+        border_radius=3,
+    )
+
+    pygame.draw.arc(
+        surface,
+        colour,
+        (
+            rect.x + 4,
+            rect.y,
+            rect.width - 8,
+            8,
+        ),
+        3.14,
+        0,
+        LINE_WIDTH,
+    )
+
+    pygame.draw.line(
+        surface,
+        colour,
+        (rect.centerx, body.top),
+        (rect.centerx, body.top + 5),
+        LINE_WIDTH,
+    )
+
+
+def draw_incursion(
+    surface: pygame.Surface,
+    rect: pygame.Rect,
+    colour,
+):
+
+    radius = min(rect.width, rect.height) // 2 - 2
+
+    pygame.draw.circle(
+        surface,
+        colour,
+        rect.center,
+        radius,
+        LINE_WIDTH,
+    )
+
+    # Remolino interior
+    pygame.draw.arc(
+        surface,
+        colour,
+        (
+            rect.centerx - radius + 4,
+            rect.centery - radius + 4,
+            (radius - 2) * 2,
+            (radius - 2) * 2,
+        ),
+        0.5,
+        4.7,
+        LINE_WIDTH,
+    )
+
+    pygame.draw.line(
+        surface,
+        colour,
+        (
+            rect.centerx + 2,
+            rect.centery - 2,
+        ),
+        (
+            rect.centerx + radius - 2,
+            rect.centery,
+        ),
+        LINE_WIDTH,
+    )
+
+def draw_placeholder(
+    surface: pygame.Surface,
+    rect: pygame.Rect,
+    colour,
+):
+
+    pygame.draw.circle(
+        surface,
+        colour,
+        rect.center,
+        min(rect.width, rect.height) // 2 - 2,
+        LINE_WIDTH,
+    )
+
+    pygame.draw.line(
+        surface,
+        colour,
+        (rect.centerx, rect.top + 4),
+        (rect.centerx, rect.bottom - 5),
+        LINE_WIDTH,
+    )
+
+    pygame.draw.circle(
+        surface,
+        colour,
+        (rect.centerx, rect.top + 3),
+        1,
+    )
