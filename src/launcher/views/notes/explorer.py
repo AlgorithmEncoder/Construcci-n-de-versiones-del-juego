@@ -9,7 +9,7 @@ import pygame
 from launcher import styles
 from ui.fonts import Fonts
 
-from ui.computer.icons import (
+from icons import (
     draw_folder,
     draw_note,
 )

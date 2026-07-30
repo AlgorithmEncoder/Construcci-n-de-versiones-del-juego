@@ -8,7 +8,7 @@ import pygame
 
 from ui.fonts import Fonts
 from launcher import styles
-from ui.computer.icons import draw_back
+from icons import draw_back
 
 
 class IncursionDetail:

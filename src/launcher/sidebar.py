@@ -6,7 +6,7 @@ from ui.fonts import Fonts
 
 from . import styles
 
-from ui.computer.icons import (
+from icons import (
     draw_incursion,
     draw_note,
     draw_inventory,

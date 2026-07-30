@@ -7,7 +7,7 @@ from ui.fonts import Fonts
 from . import styles
 from .widgets import draw_button
 
-from .icons import (
+from icons import (
     draw_email,
     draw_chat,
     draw_folder,
