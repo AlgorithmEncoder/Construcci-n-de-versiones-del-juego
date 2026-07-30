@@ -29,6 +29,7 @@ class DialogueUI(Overlay):
         dialogue: list[dict],
         world_width: int,
         world_height: int,
+        callback = None
     ):
 
         super().__init__(
@@ -60,6 +61,8 @@ class DialogueUI(Overlay):
         # Cursor
         self._cursor_visible = True
         self._cursor_timer = 0.0
+        
+        self.callback = callback
 
     # ==================================================
     # Update
@@ -145,6 +148,8 @@ class DialogueUI(Overlay):
         if self._line >= len(self._dialogue):
 
             self.close()
+            
+            if self.callback: self.callback()
 
             return
 

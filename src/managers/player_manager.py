@@ -20,6 +20,7 @@ class PlayerManager:
 
         self._initial_room = initial_room
         self._current_room = initial_room
+        self.computer_warnings = 0
 
     # ==================================================
     # Properties
@@ -41,8 +42,18 @@ class PlayerManager:
         self._current_room = room_id
 
     # --------------------------------------------------
+    
+    def add_computer_warning(self):
+        self.computer_warnings += 1
+        return self.computer_warnings
+    
+    def reset_warnings(self):
+        self.computer_warnings = 0
+    
+    # --------------------------------------------------
 
     def reset(self):
         """Restores the initial player state."""
 
         self._current_room = self._initial_room
+        self.reset_warnings()

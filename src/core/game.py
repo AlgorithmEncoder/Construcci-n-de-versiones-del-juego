@@ -37,7 +37,8 @@ from constants import (
     DOCUMENT_OPEN_TIME,
     COMPUTER_BOOT_TIME,
     RESET_TIME,
-    OBJECTIVE_DURATION
+    OBJECTIVE_DURATION,
+    COMPUTER_WARNINGS
 )
 
 
@@ -150,6 +151,7 @@ class Game:
             self._room_manager,
             self._npc_manager,
             self._player,
+            self._ui,
             self._on_detected
         )
 
@@ -452,17 +454,23 @@ class Game:
     
     def _on_detected(self, npc, reason):
         
-        npc.current_room = "__hidden__"
+        if reason == "restricted_room":
+            npc.current_room = "__hidden__"
 
-        self._start_transition(
+            self._start_transition(
 
-            duration=RESET_TIME,
+                duration=RESET_TIME,
 
-            text="REINICIANDO MEMORIA",
+                text="REINICIANDO MEMORIA",
 
-            callback=self.reset
+                callback=self.reset
 
-        )
+            )
+        
+        elif reason == "computer_block":
+            self._computer_warning(npc)
+            
+            
     
     def _start_transition(
         self,
@@ -484,6 +492,40 @@ class Game:
                 callback=callback,
 
                 text=text
+
+            )
+
+        )
+    
+    def _computer_warning(self, npc):
+
+        self._ui.close()
+
+        warnings = self._player.add_computer_warning()
+
+        index = min(warnings - 1, len(COMPUTER_WARNINGS) - 1)
+
+        text = COMPUTER_WARNINGS[index]
+
+        callback = self.reset if warnings >= 4 else None
+
+        self._ui.open(
+
+            DialogueUI(
+
+                speaker=npc.name,
+
+                dialogue=[
+                    {
+                        "text": text
+                    }
+                ],
+
+                world_width=self._native_width,
+
+                world_height=self._native_height,
+
+                callback=callback
 
             )
 
