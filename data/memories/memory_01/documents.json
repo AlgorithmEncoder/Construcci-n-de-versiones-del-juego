@@ -125,5 +125,731 @@
       "Attendees\n\nMiguel Ruiz\nMarta Romero\nLaura Pérez\nCarlos Vega\nAna López",
       "Agenda\n\n1. Budget review\n2. Recruitment\n3. Archive organisation\n4. Pending documentation\n5. Open discussion"
     ]
-  }
+  },
+  "coat_bag_contents": {
+    "title": "Bolso",
+    "pages": [
+        "El bolso cuelga del perchero junto a un abrigo.\n\nDentro hay una cartera, un paquete de pañuelos, un cargador de móvil, un pequeño neceser y una bolsa reutilizable cuidadosamente doblada.\n\nNo parece contener nada fuera de lo normal.",
+        "En un bolsillo lateral encuentras una lista escrita a mano.\n\n• Comprar comida para Nala.\n• Recoger el paquete.\n• Llamar a la veterinaria.\n• Comprar pilas AA.\n\nNo hay ningún nombre que identifique a la dueña del bolso.",
+        "Cierras el bolso con cuidado.\n\nSeguir rebuscando entre las pertenencias personales de otra persona no parece una buena idea."
+    ]
+},
+
+"plant_shopping_list": {
+    "title": "Lista de la compra arrugada",
+    "pages": [
+        "El papel estaba medio escondido entre la maceta y la pared.\n\n• Tomates\n• Leche\n• Pan\n• Pasta\n• Yogures\n• Papel de cocina",
+        "En la parte inferior alguien añadió un último recordatorio:\n\n\"Llamar a la abuela.\"\n\nLa letra cambia ligeramente, como si se hubiera escrito con prisa."
+    ]
+},
+
+"magazine_business": {
+    "title": "Empresa & Gestión - Junio",
+    "pages": [
+        "Editorial\n\nLas pequeñas y medianas empresas continúan apostando por la digitalización. Cada vez más departamentos sustituyen procesos en papel por herramientas informáticas, aunque muchos expertos recuerdan que una buena organización sigue siendo más importante que cualquier software.",
+        "Dirección\n\nLos estudios sobre productividad coinciden en que los mejores equipos no son necesariamente los más grandes, sino aquellos que documentan correctamente sus procesos y comparten el conocimiento entre departamentos.",
+        "Entrevista\n\nLa consultora Isabel Romero explica que muchas empresas pierden tiempo buscando información que ya existe.\n\n\"El verdadero problema no es la falta de documentos, sino no saber dónde encontrarlos.\"",
+        "Mercado\n\nDurante este trimestre varias consultoras nacionales han anunciado procesos de reorganización interna para adaptarse al crecimiento de plantilla."
+    ]
+},
+
+"magazine_travel": {
+    "title": "Viajar Hoy",
+    "pages": [
+        "Escapadas\n\nCinco pueblos costeros donde todavía es posible pasar un fin de semana tranquilo lejos del turismo masificado.",
+        "Europa\n\nUna guía con recorridos de dos días por distintas capitales europeas utilizando únicamente transporte público.",
+        "Fotografía\n\nLas mejores imágenes enviadas por los lectores muestran amaneceres en los Pirineos, los Alpes y la costa portuguesa.",
+        "Consejos\n\nAntes de viajar conviene llevar siempre una batería externa, copias de la documentación y descargar mapas sin conexión."
+    ]
+},
+
+"magazine_gardening": {
+    "title": "Jardines & Hogar",
+    "pages": [
+        "Plantas de interior\n\nDiversos estudios indican que incorporar plantas en oficinas reduce la sensación de estrés y mejora la percepción del espacio por parte de empleados y visitantes.",
+        "Cuidados\n\nEl exceso de agua sigue siendo la causa más habitual de que las plantas de interior se deterioren. Es preferible regarlas menos que demasiado.",
+        "Decoración\n\nLas macetas grandes ayudan a separar espacios abiertos sin necesidad de instalar mamparas o divisiones permanentes."
+    ]
+},
+
+"small_plant_nothing": {
+    "title": "Maceta",
+    "pages": [
+        "Observas la tierra con atención.\n\nSolo hay algunas hojas secas y un poco de humedad. No parece haber nada interesante escondido aquí."
+    ]
+},
+
+"water_notice": {
+    "title": "Aviso del dispensador",
+    "pages": [
+        "Por favor, utilice vasos reutilizables siempre que sea posible.\n\nLos vasos desechables están reservados para visitantes.",
+        "Si el dispensador se queda sin agua, avise en recepción.\n\nNo intente sustituir la garrafa por su cuenta."
+    ]
+},
+
+"sofa_nothing": {
+    "title": "Entre los cojines",
+    "pages": [
+        "Apartas ligeramente los cojines del sofá.\n\nSolo encuentras algo de polvo y una vieja miga de pan. Nada que llame la atención."
+    ]
+},
+
+"hidden_receipt_sofa": {
+    "title": "Ticket de cafetería",
+    "pages": [
+        "CAFETERÍA CENTRAL\n\n08:14\n\n2 cafés\n1 tostada\n\nTOTAL: 7,20 €",
+        "En la parte trasera alguien escribió con bolígrafo:\n\n\"No olvidar la entrevista de las 08:30.\""
+    ]
+},
+
+"safety_leaflet": {
+    "title": "Folleto de prevención",
+    "pages": [
+        "Normas básicas de seguridad\n\n• Mantenga libres las salidas de emergencia.\n• Comunique cualquier avería.\n• No bloquee los extintores.\n• Lleve visible su acreditación durante la jornada.",
+        "La seguridad es responsabilidad de todos.\n\nAnte cualquier incidencia, contacte con recepción o con el responsable de mantenimiento."
+    ]
+},
+
+"business_card_found": {
+    "title": "Tarjeta de visita",
+    "pages": [
+        "Daniel Ortega\n\nConsultor Comercial\nNova Systems",
+        "Teléfono\n+34 91 XXX XX XX\n\nCorreo\ncontacto@novasystems.example",
+        "La tarjeta está ligeramente doblada.\n\nProbablemente se le cayó a algún visitante hace tiempo."
+    ]
+},
+
+"incoming_documents": {
+    "title": "Bandeja de entrada",
+    "pages": [
+        "La bandeja contiene varios documentos pendientes de revisar.\n\n• Factura pendiente de validar.\n• Solicitud de vacaciones.\n• Presupuesto de material de oficina.\n• Confirmación de una entrevista.",
+        "Uno de los documentos tiene una nota adhesiva.\n\n\"Cuando llegue Marta, recordarle que firme la autorización de formación.\"",
+        "Nada parece especialmente importante. Son los típicos papeles que se acumulan en cualquier recepción."
+    ]
+},
+
+"phone_note": {
+    "title": "Extensiones internas",
+    "pages": [
+        "Junto al teléfono hay una hoja plastificada.\n\nRecepción ........ 100\nDirección ........ 101\nAdministración ... 102\nArchivo .......... 103\nSala reuniones ... 104",
+        "En la esquina inferior alguien escribió a mano:\n\n\"Si nadie encuentra un expediente antiguo, llamar primero a Dirección.\""
+    ]
+},
+
+"plant_nothing": {
+    "title": "Maceta",
+    "pages": [
+        "La planta parece bien cuidada.\n\nSolo hay tierra húmeda y algunas hojas secas. No encuentras nada más."
+    ]
+},
+
+"archive_request_forms": {
+    "title": "Solicitudes de localización",
+    "pages": [
+        "Formulario interno\n\nSolicitud de localización de documentación histórica.\n\nDepartamento solicitante:\n______________\n\nExpediente:\n______________",
+        "Procedimiento\n\n1. Buscar en Archivo.\n2. Revisar la numeración histórica.\n3. Si no aparece, consultar con Dirección antes de crear una nueva copia.",
+        "Observaciones frecuentes\n\n• Expediente sin localizar.\n• Numeración antigua.\n• Caja archivada incorrectamente.\n• Documentación trasladada.",
+        "En varias hojas distintas alguien ha escrito siempre la misma anotación:\n\n\"Preguntar al director.\"\n\nLa frase aparece repetida con bolígrafos diferentes."
+    ]
+},
+
+"pending_requests": {
+    "title": "Solicitudes pendientes",
+    "pages": [
+        "Listado de peticiones pendientes.\n\n• Copia contrato 2019.\n• Expediente fiscal.\n• Historial de proveedores.\n• Organigrama anterior.",
+        "Todas las solicitudes tienen una casilla llamada:\n\n□ Revisado\n□ Localizado\n□ Entregado",
+        "En varias aparece una observación:\n\n\"Pendiente de confirmación por Dirección.\""
+    ]
+},
+
+"large_plant_nothing": {
+    "title": "Maceta grande",
+    "pages": [
+        "La maceta ocupa casi toda la esquina.\n\nCompruebas alrededor por si hubiera caído algún papel, pero no encuentras nada."
+    ]
+},
+
+"coffee_cleaning_log": {
+    "title": "Registro de la cafetera",
+    "pages": [
+        "Limpieza semanal\n\n☑ Lunes\n☑ Martes\n☑ Miércoles\n☑ Jueves\n☑ Viernes",
+        "Consumo aproximado\n\n• Cápsulas normales: 34\n• Descafeinados: 12\n• Té: 5",
+        "Alguien escribió debajo:\n\n\"Quien termine las cápsulas que avise antes de que vuelva a faltar café.\""
+    ]
+},
+
+"supplier_folders": {
+    "title": "Carpetas de proveedores",
+    "pages": [
+        "Las carpetas están ordenadas alfabéticamente.\n\nA-C\nD-F\nG-L\nM-R\nS-Z",
+        "La mayoría contienen presupuestos, contratos de mantenimiento y albaranes ya archivados."
+    ]
+},
+
+"training_records": {
+    "title": "Formación interna",
+    "pages": [
+        "Cursos realizados durante el último año.\n\n• Prevención de riesgos.\n• Protección de datos.\n• Ciberseguridad.\n• Atención al cliente.",
+        "Todas las hojas están correctamente archivadas y firmadas."
+    ]
+},
+
+"maintenance_archive": {
+    "title": "Mantenimiento",
+    "pages": [
+        "Historial de incidencias.\n\n• Sustitución iluminación.\n• Reparación aire acondicionado.\n• Cambio de cerraduras.\n• Revisión extintores.",
+        "La última revisión figura como completada hace dos semanas."
+    ]
+},
+
+"office_inventory": {
+    "title": "Inventario",
+    "pages": [
+        "Material disponible\n\n14 teclados\n12 ratones\n8 monitores\n5 impresoras\n42 archivadores",
+        "Al pie de la hoja alguien añadió:\n\n\"Pedir más bolígrafos azules.\""
+    ]
+},
+
+"management_books": {
+    "title": "Libros de gestión",
+    "pages": [
+        "Los títulos incluyen:\n\n• Gestión del tiempo.\n• Dirección de equipos.\n• Liderazgo práctico.\n• Organización documental.",
+        "Muchos parecen prácticamente nuevos. Algunos todavía conservan el precio."
+    ]
+},
+
+"box_labels": {
+    "title": "Etiquetas de cajas",
+    "pages": [
+        "Las cajas están identificadas con etiquetas impresas.\n\n• Material oficina.\n• Cables.\n• Decoración Navidad.\n• Folletos antiguos.",
+        "Una caja carece de etiqueta, pero está completamente cerrada."
+    ]
+},
+
+"visitor_forms": {
+    "title": "Formularios de visitantes",
+    "pages": [
+        "Registro de acceso.\n\nNombre\nEmpresa\nHora entrada\nHora salida\nFirma",
+        "La mayoría pertenecen a proveedores, empresas de mantenimiento y candidatos a entrevistas."
+    ]
+},
+
+"printed_drafts": {
+    "title": "Borradores impresos",
+    "pages": [
+        "Varias hojas impresas con correcciones a bolígrafo.\n\nCambios de formato.\nErrores tipográficos.\nComentarios al margen.",
+        "La primera página tiene escrito:\n\n\"Imprimir versión definitiva cuando Miguel dé el visto bueno.\""
+    ]
+},
+
+"forgotten_print": {
+    "title": "Documento olvidado",
+    "pages": [
+        "Una hoja permanece olvidada sobre la impresora.\n\nEs un borrador del calendario de reuniones del próximo trimestre.",
+        "En la esquina superior puede leerse:\n\n\"BORRADOR - NO DISTRIBUIR\""
+    ]
+},
+
+"camera_notice": {
+    "title": "Aviso de videovigilancia",
+    "pages": [
+        "Zona videovigilada.\n\nLas cámaras tienen como única finalidad garantizar la seguridad de las instalaciones y de los trabajadores.",
+        "Para más información consulte la política de protección de datos de la empresa."
+    ]
+},
+
+"desk_note": {
+    "title": "Nota junto al material de oficina",
+    "pages": [
+        "\"Quien coja el último bolígrafo que avise.\n\nY, por favor, dejad de llevaros las tijeras a otras mesas.\"\n\n— Laura",
+        "Debajo alguien respondió con otro bolígrafo:\n\n\"Yo sigo buscando la grapadora desde marzo.\""
+    ]
+},
+
+"personnel_files": {
+    "title": "Archivadores - Personal",
+    "pages": [
+        "Los archivadores contienen expedientes de empleados actuales y antiguos. Están ordenados alfabéticamente y casi todos incluyen contratos, modificaciones salariales y evaluaciones de desempeño.",
+        "Muchos expedientes tienen décadas de antigüedad. Algunos nombres aparecen repetidos en distintos años, aunque probablemente se trate de personas diferentes.",
+        "Una nota impresa recuerda:\n\n\"No retirar expedientes originales sin autorización de Dirección.\""
+    ]
+},
+
+"financial_archive": {
+    "title": "Archivadores - Contabilidad",
+    "pages": [
+        "Facturas, balances, impuestos y auditorías internas perfectamente archivados.",
+        "La documentación parece impecable. Cada carpeta está numerada y fechada.",
+        "No encuentras nada especialmente llamativo."
+    ]
+},
+
+"historical_projects": {
+    "title": "Proyectos Finalizados",
+    "pages": [
+        "Carpetas correspondientes a proyectos completados durante los últimos quince años.",
+        "Algunos proyectos cambiaron de nombre durante su desarrollo. Una anotación indica:\n\n\"Consultar la nomenclatura antigua antes de duplicar documentación.\"",
+        "Es evidente que alguien ha dedicado mucho tiempo a mantener este archivo organizado."
+    ]
+},
+
+"box_index": {
+    "title": "Índice de cajas",
+    "pages": [
+        "Caja 12 - Material promocional.\nCaja 13 - Mobiliario.\nCaja 14 - Archivo fiscal.\nCaja 15 - Equipos retirados.",
+        "Todas las cajas parecen correctamente identificadas."
+    ]
+},
+
+"sealed_boxes": {
+    "title": "Cajas selladas",
+    "pages": [
+        "Las cajas permanecen cerradas con cinta de embalaje.",
+        "Una etiqueta indica:\n\n\"Pendiente de revisión documental.\"",
+        "No puedes averiguar qué contienen."
+    ]
+},
+
+"warehouse_labels": {
+    "title": "Etiquetas antiguas",
+    "pages": [
+        "Varias etiquetas adhesivas despegadas.\n\n\"Archivo Norte\"\n\"Almacén B\"\n\"Documentación histórica\"",
+        "Parece que en algún momento reorganizaron completamente el almacén."
+    ]
+},
+
+"archive_manifest": {
+    "title": "Inventario del almacén",
+    "pages": [
+        "Listado de cajas almacenadas durante la última reorganización.",
+        "Muchas referencias aparecen marcadas como \"Reubicadas\".",
+        "Una nota manuscrita dice:\n\n\"Miguel conoce la ubicación anterior. No modificar hasta confirmar.\""
+    ]
+},
+
+"discarded_pages": {
+    "title": "Papeles desechados",
+    "pages": [
+        "Son fotocopias incompletas y hojas con errores de impresión.",
+        "La mayoría están tachadas con un bolígrafo rojo.",
+        "Nada parece conservar información útil."
+    ]
+},
+
+"sorting_notes": {
+    "title": "Notas de clasificación",
+    "pages": [
+        "Pendiente revisar cajas 41-48.\n\nMover expedientes duplicados.\nEliminar copias innecesarias.",
+        "Abajo alguien añadió:\n\n\"No tocar los archivadores antiguos hasta que Dirección lo revise.\""
+    ]
+},
+
+"old_equipment_boxes": {
+    "title": "Equipamiento antiguo",
+    "pages": [
+        "Ratones PS/2.\nTeclados antiguos.\nCables VGA.\nDisquetes sin etiquetar.",
+        "Todo parece material tecnológico obsoleto."
+    ]
+},
+
+"cleaning_supplies": {
+    "title": "Productos de limpieza",
+    "pages": [
+        "Inventario del personal de limpieza.\n\nDesinfectante.\nGuantes.\nBolsas.\nBayetas.\nAmbientador.",
+        "Nada fuera de lo habitual."
+    ]
+},
+
+"drawer_labels": {
+    "title": "Etiquetas de cajones",
+    "pages": [
+        "Cada cajón está identificado con pequeñas etiquetas:\n\nA-E\nF-K\nL-P\nQ-Z\nVarios",
+        "El sistema facilita encontrar cualquier expediente rápidamente."
+    ]
+},
+
+"forgotten_folder": {
+    "title": "Carpeta olvidada",
+    "pages": [
+        "La carpeta quedó olvidada dentro de un cajón abierto.",
+        "Contiene únicamente formularios en blanco y hojas para registrar préstamos de documentación.",
+        "En la última página alguien escribió:\n\n\"Devolver siempre el original.\""
+    ]
+},
+
+"archive_notebook": {
+    "title": "Cuaderno del archivo",
+    "pages": [
+        "Día 4\n\nHoy he vuelto a cambiar varias cajas de sitio. Cada vez cuesta más encontrar espacio.",
+        "Día 11\n\nMiguel dice que es mejor mantener la clasificación antigua aunque resulte poco intuitiva.",
+        "Día 17\n\nA veces me pregunto cómo consigue recordar dónde está absolutamente todo.",
+        "Última página\n\n\"Preguntar siempre antes de mover documentación histórica.\""
+    ]
+},
+
+"crumpled_note_a": {
+    "title": "Papel arrugado",
+    "pages": [
+        "Solo puede leerse:\n\n\"...otra vez cambiaron la numeración...\""
+    ]
+},
+
+"crumpled_note_b": {
+    "title": "Papel arrugado",
+    "pages": [
+        "\"Comprar etiquetas nuevas.\nLas antiguas ya no coinciden con casi nada.\""
+    ]
+},
+
+"archive_work": {
+    "title": "Trabajo pendiente",
+    "pages": [
+        "Varias carpetas abiertas esperan ser archivadas.",
+        "Una hoja enumera tareas:\n\n• Revisar expedientes antiguos.\n• Actualizar inventario.\n• Clasificar nuevas entradas.",
+        "En el margen alguien escribió:\n\n\"No generar nuevas copias hasta comprobar si ya existe un original.\""
+    ]
+},
+
+"first_aid_checklist": {
+    "title": "Botiquín",
+    "pages": [
+        "Lista de revisión mensual.\n\n☑ Vendas\n☑ Gasas\n☑ Antiséptico\n☑ Guantes\n☑ Analgésicos",
+        "Todo parece completo y dentro de la fecha de caducidad."
+    ]
+},
+
+"drawer_contents": {
+    "title": "La cajonera del hall",
+    "pages": [
+        "Sobre la cajonera hay material de oficina perfectamente ordenado: bolígrafos, rotuladores, grapas, clips y varias libretas todavía sin estrenar.",
+        "En el primer cajón hay formularios en blanco para solicitar salas de reuniones, material informático y tarjetas de acceso temporales.",
+        "El segundo cajón guarda manuales de uso de varios equipos antiguos. Nada parece especialmente relevante."
+    ]
+},
+
+"emergency_exit_notice": {
+    "title": "Puerta de emergencia",
+    "pages": [
+        "SALIDA DE EMERGENCIA\n\nEsta puerta solo podrá utilizarse en caso de evacuación o emergencia real.",
+        "Su apertura fuera de una situación de emergencia activará una alarma y quedará registrada por el sistema de seguridad del edificio."
+    ]
+},
+
+"vending_service_sheet": {
+    "title": "Hoja de mantenimiento",
+    "pages": [
+        "Máquina expendedora\n\nEmpresa responsable: Vending Solutions S.L.\nÚltima reposición: hace tres días.",
+        "Productos más vendidos:\n• Café con leche\n• Agua mineral\n• Barritas de cereales\n• Refrescos sin azúcar",
+        "Anotación del técnico:\n\n\"El mecanismo de devolución de monedas vuelve a atascarse ocasionalmente.\""
+    ]
+},
+
+"plant_care_record": {
+    "title": "Registro de mantenimiento",
+    "pages": [
+        "Planta ornamental del pasillo.\n\nRiego: dos veces por semana.\nAbono: mensual.\nÚltima poda: realizada correctamente.",
+        "Al pie de la hoja alguien escribió con humor:\n\n\"Es probablemente la empleada más constante de toda la oficina.\""
+    ]
+},
+
+"company_foundation_photo": {
+    "title": "Fotografía enmarcada",
+    "pages": [
+        "La fotografía muestra la inauguración de la empresa hace muchos años. Varias personas posan sonriendo delante del edificio original.",
+        "El marco conserva una pequeña placa metálica:\n\n\"Primeras oficinas corporativas\"",
+        "El pie de foto está muy desgastado. Solo pueden distinguirse algunos nombres; el resto resulta ilegible."
+    ]
+},
+
+"lost_scarf": {
+    "title": "Pañuelo olvidado",
+    "pages": [
+        "Hay un pequeño pañuelo azul cuidadosamente doblado sobre el banco.",
+        "Debajo hay una nota escrita a mano:\n\n\"Si alguien encuentra este pañuelo, por favor dejadlo en recepción.\n\nGracias.\n— Marta\""
+    ]
+},
+
+"fire_equipment_tag": {
+    "title": "Etiqueta del extintor",
+    "pages": [
+        "Empresa mantenedora:\nSEGURFIRE Protección Contra Incendios",
+        "Última revisión: hace cuatro meses.\nPróxima revisión: dentro de ocho meses.",
+        "El sello indica que el equipo se encuentra en perfecto estado."
+    ]
+},
+
+"camera_maintenance_log": {
+    "title": "Registro de la cámara",
+    "pages": [
+        "Cámara IP - Pasillo principal\n\nÚltima revisión técnica completada correctamente.",
+        "El registro indica que las grabaciones se conservan durante treinta días salvo incidencia o requerimiento interno.",
+        "No aparecen observaciones adicionales."
+    ]
+},
+
+"restroom_repair_notice": {
+    "title": "Aviso de mantenimiento",
+    "pages": [
+        "ASEOS TEMPORALMENTE FUERA DE SERVICIO\n\nDisculpen las molestias.",
+        "Motivo:\nSustitución de tuberías y reparación del sistema de ventilación.",
+        "Duración estimada de los trabajos:\nDos días laborables."
+    ]
+},
+
+"landscape_painting": {
+    "title": "Cuadro del despacho",
+    "pages": [
+        "Un paisaje montañoso preside la pared principal del despacho. La placa indica que fue un regalo del consejo de administración por el décimo aniversario de Miguel Ruiz como director.",
+        "En la esquina inferior aparece una pequeña dedicatoria:\n\n\"Por todos estos años de liderazgo y compromiso.\""
+    ]
+},
+
+"desk_drawers": {
+    "title": "Cajones del escritorio",
+    "pages": [
+        "El primer cajón contiene bolígrafos de calidad, una agenda sin estrenar, varias memorias USB y tarjetas de visita perfectamente ordenadas.",
+        "El segundo guarda carpetas con proyectos recientes. Todo está etiquetado con fechas y códigos internos.",
+        "En el último cajón hay un sobre cerrado sin destinatario, varias llaves antiguas sin identificar y un pequeño bloc con números de teléfono escritos a mano."
+    ]
+},
+
+"filing_cabinet": {
+    "title": "Cajonera auxiliar",
+    "pages": [
+        "Cada cajón está dedicado a una categoría distinta: Finanzas, Recursos Humanos y Correspondencia.",
+        "Las carpetas están ordenadas alfabéticamente. Miguel parece extremadamente meticuloso con la organización.",
+        "No encuentras nada fuera de lo habitual, aunque sorprende el cuidado con el que todo ha sido archivado."
+    ]
+},
+
+"office_plant_note": {
+    "title": "Maceta",
+    "pages": [
+        "La planta luce sorprendentemente sana.",
+        "Hay una pequeña etiqueta clavada en la tierra:\n\n\"Regar únicamente los lunes y jueves.\""
+    ]
+},
+
+"executive_recognition": {
+    "title": "Reconocimiento empresarial",
+    "pages": [
+        "Diploma otorgado por **Orbis Consulting Group** en reconocimiento a la excelencia en dirección empresarial.",
+        "Fecha: hace doce años.",
+        "No recuerdas haber oído hablar nunca de esa empresa."
+    ]
+},
+
+"draft_reports": {
+    "title": "Borradores",
+    "pages": [
+        "Son varias versiones impresas del mismo informe, llenas de anotaciones a mano, párrafos tachados y comentarios en los márgenes.",
+        "Una nota dice:\n\n\"Reducir esta sección. Demasiados detalles innecesarios.\"",
+        "Otra anotación, escrita con otra caligrafía, simplemente dice:\n\n\"Conservar la versión anterior por si acaso.\""
+    ]
+},
+
+"signed_reports": {
+    "title": "Informes firmados",
+    "pages": [
+        "Los documentos están perfectamente ordenados y firmados.",
+        "La mayoría corresponden a presupuestos, autorizaciones de compra y renovaciones de contratos.",
+        "Todo parece estar en regla."
+    ]
+},
+
+"bookshelf_selection": {
+    "title": "Libros sobre la mesa",
+    "pages": [
+        "\"Dirección Estratégica\".\nNumerosos pasajes aparecen subrayados con lápiz.",
+        "\"La memoria de las organizaciones\".\nUn marcapáginas permanece colocado aproximadamente por la mitad del libro."
+    ]
+},
+
+"discarded_note": {
+    "title": "Papel arrugado",
+    "pages": [
+        "Desdoblas cuidadosamente la hoja.",
+        "Solo contiene una frase tachada varias veces:\n\n\"Hablar con Marta antes del viernes.\"",
+        "El resto del papel está completamente en blanco."
+    ]
+},
+
+"photo_collection": {
+    "title": "Fotografías enmarcadas",
+    "pages": [
+        "Hay varias fotografías familiares junto a otras tomadas durante eventos corporativos.",
+        "En una aparece Miguel recibiendo un premio. En otra posa junto a un grupo de empleados durante una comida de empresa.",
+        "También hay una fotografía bastante antigua delante de un edificio distinto al actual. No reconoces el lugar."
+    ]
+},
+
+"bookshelf_history": {
+    "title": "Estantería A",
+    "pages": [
+        "Libros sobre historia empresarial, economía europea y evolución del sector tecnológico.",
+        "Muchos parecen bastante antiguos pero bien conservados."
+    ]
+},
+
+"bookshelf_management": {
+    "title": "Estantería B",
+    "pages": [
+        "La mayoría son manuales de liderazgo, negociación y dirección de equipos.",
+        "Varios contienen pequeñas notas adhesivas sobresaliendo entre las páginas."
+    ]
+},
+
+"bookshelf_finance": {
+    "title": "Estantería C",
+    "pages": [
+        "Manual de contabilidad avanzada, auditoría interna y planificación financiera.",
+        "Nada llama especialmente la atención."
+    ]
+},
+
+"bookshelf_technology": {
+    "title": "Estantería D",
+    "pages": [
+        "Publicaciones sobre digitalización documental, almacenamiento en la nube y seguridad informática.",
+        "Algunos ejemplares son relativamente recientes."
+    ]
+},
+
+"bookshelf_legal": {
+    "title": "Estantería E",
+    "pages": [
+        "Compendios de legislación laboral, protección de datos y normativa mercantil.",
+        "Uno de los libros tiene decenas de páginas marcadas con separadores de colores."
+    ]
+},
+
+"bookshelf_archives": {
+    "title": "Estantería F",
+    "pages": [
+        "Libros especializados en conservación documental y gestión de archivos históricos.",
+        "En uno de ellos hay una frase subrayada:\n\n\"Destruir un documento es sencillo; reconstruir su contexto puede ser imposible.\""
+    ]
+},
+
+"bookshelf_personal": {
+    "title": "Estantería G",
+    "pages": [
+        "Aquí los libros son más personales: novelas históricas, biografías y varios atlas antiguos.",
+        "Parece la única balda del despacho elegida por afición y no por trabajo."
+    ]
+},
+
+"bookshelf_misc": {
+    "title": "Estantería H",
+    "pages": [
+        "Hay diccionarios, enciclopedias y varios archivadores sin etiquetar.",
+        "Nada parece especialmente interesante."
+    ]
+},
+
+"business_card": {
+    "title": "Tarjeta de visita",
+    "pages": [
+        "Una tarjeta ha quedado olvidada entre los cojines de la butaca.",
+        "Pertenece a un antiguo proveedor que dejó de trabajar con la empresa hace años.",
+        "En el reverso alguien escribió:\n\n\"Llamar cuando termine la auditoría.\""
+    ]
+},
+
+"storage_inventory": {
+    "title": "Inventario de armarios",
+    "pages": [
+        "Los armarios contienen material de oficina de reserva: papel, carpetas, archivadores vacíos y cajas de almacenamiento.",
+        "Todo está inventariado mediante pequeñas etiquetas numeradas.",
+        "No parece faltar nada."
+    ]
+},
+
+"meeting_notebook": {
+    "title": "Cuaderno de reuniones",
+    "pages": [
+        "Varias páginas contienen apuntes de reuniones semanales.\n\n• Revisar presupuesto.\n• Migración del servidor.\n• Entrevistas pendientes.\n• Actualizar inventario.",
+        "En otra página aparecen varios nombres rodeados con círculos y flechas. No parece seguir ningún orden concreto.",
+        "La última hoja tiene varios garabatos hechos mientras alguien escuchaba una presentación. Entre ellos puede leerse:\n\n\"No olvidar reservar la sala para el jueves.\""
+    ]
+},
+
+"team_photos": {
+    "title": "Fotografías del equipo",
+    "pages": [
+        "Hay varias fotografías tomadas durante comidas de empresa, celebraciones y actividades de equipo.",
+        "En casi todas aparece el mismo grupo de empleados sonriendo frente a la cámara.",
+        "Una fotografía parece más antigua que las demás. La calidad es peor y algunas personas resultan difíciles de reconocer."
+    ]
+},
+
+"sofa_cushion": {
+    "title": "Sofá",
+    "pages": [
+        "Revisas entre los cojines del sofá.",
+        "Solo encuentras algunas migas, un clip metálico y bastante polvo acumulado.",
+        "Nada parece tener importancia."
+    ]
+},
+
+"coin_under_sofa": {
+    "title": "Debajo del sofá",
+    "pages": [
+        "Al agacharte encuentras una moneda de un euro bastante desgastada.",
+        "También hay un viejo envoltorio de un caramelo de menta.",
+        "No hay nada más interesante."
+    ]
+},
+
+"chair_nameplate": {
+    "title": "Silla de reuniones",
+    "pages": [
+        "Sobre el respaldo alguien ha colocado una pequeña etiqueta adhesiva:\n\n\"Carlos\"",
+        "Parece que durante algunas reuniones cada participante ocupa siempre el mismo asiento."
+    ]
+},
+
+"meeting_scribbles": {
+    "title": "Notas sobre la mesa",
+    "pages": [
+        "Son varias hojas con anotaciones rápidas realizadas durante una reunión.",
+        "Entre números y flechas puede leerse:\n\n\"Confirmar presupuesto con Finanzas.\"\n\"Preparar documentación para RR. HH.\"",
+        "En una esquina alguien escribió distraídamente:\n\n\"¿Quién se lleva siempre los rotuladores?\""
+    ]
+},
+
+"projector_service_label": {
+    "title": "Etiqueta del proyector",
+    "pages": [
+        "Proyector multimedia.\n\nÚltimo mantenimiento realizado correctamente hace dos meses.",
+        "La lámpara tiene todavía muchas horas de vida útil según el registro del servicio técnico."
+    ]
+},
+
+"window_view": {
+    "title": "A través de las persianas",
+    "pages": [
+        "Entre las lamas de la persiana apenas puede verse el edificio situado enfrente.",
+        "Algunas personas entran y salen del aparcamiento mientras los coches pasan por la calle.",
+        "Nada llama especialmente tu atención."
+    ]
+},
+
+"rear_window_view": {
+    "title": "Ventana lateral",
+    "pages": [
+        "Desde este lado solo alcanzas a ver parte del patio interior del edificio.",
+        "Hay varios contenedores de reciclaje y una pequeña zona destinada a carga y descarga.",
+        "No observas nada fuera de lo normal."
+    ]
+},
+
+"forgotten_usb_box": {
+    "title": "Debajo de la silla",
+    "pages": [
+        "Encuentras una pequeña caja de plástico para guardar memorias USB.",
+        "Está completamente vacía.",
+        "En la tapa alguien escribió con rotulador permanente:\n\n\"Presentación clientes\""
+    ]
+}
 }

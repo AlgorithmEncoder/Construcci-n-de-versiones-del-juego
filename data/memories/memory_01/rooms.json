@@ -7,8 +7,25 @@
         ],
         "objects": [
             "door_reception",
+
             "magazine",
-            "notepad_waiting"
+            "notepad_waiting",
+
+            "coat_bag",
+            "large_plant",
+
+            "waiting_magazine_02",
+            "waiting_magazine_03",
+            "waiting_hidden_magazine",
+
+            "small_plant",
+            "water_dispenser",
+
+            "sofa_cushion_left",
+            "sofa_cushion_right",
+
+            "under_cabinet",
+            "under_sofa"
         ],
         "restricted": false
     },
@@ -25,9 +42,36 @@
             "door_waiting",
             "door_archive",
             "door_hall",
+
             "pc_reception",
+
             "agenda",
-            "calendar"
+            "calendar",
+
+            "desk_tray",
+            "desk_phone",
+
+            "small_plant_reception",
+            "restricted_documents",
+            "old_requests",
+
+            "large_plant_reception",
+            "coffee_machine",
+
+            "shelf_files_a",
+            "shelf_files_b",
+            "shelf_files_c",
+            "shelf_files_d",
+
+            "office_books",
+            "storage_boxes",
+
+            "shelf_documents",
+            "paper_stack",
+
+            "printer_output",
+            "security_camera",
+            "desk_supplies"
         ],
         "restricted": false
     },
@@ -40,10 +84,37 @@
         ],
         "objects": [
             "door_reception_archive",
+
             "employee_archive",
             "contracts_archive",
             "photo_archive",
-            "paper_bin"
+            "paper_bin",
+
+            "archive_shelf_a",
+            "archive_shelf_b",
+            "archive_shelf_c",
+
+            "top_boxes",
+            "right_boxes",
+            "storage_boxes_left",
+            "large_box_stack",
+
+            "paper_pile_floor",
+            "desk_papers_archive",
+
+            "upper_boxes",
+            "shelf_containers",
+
+            "warehouse_drawers",
+            "open_drawer",
+
+            "archive_notebook",
+            "crumpled_paper_a",
+            "crumpled_paper_b",
+
+            "desk_documents_archive",
+
+            "first_aid_box"
         ],
         "restricted": true
     },
@@ -60,7 +131,18 @@
             "door_reception_hall",
             "door_office",
             "door_meeting",
-            "company_board"
+
+            "company_board",
+
+            "hall_drawer_unit",
+            "emergency_exit_sign",
+            "vending_machine",
+            "hall_planter",
+            "hall_painting",
+            "hall_bench",
+            "fire_extinguisher",
+            "hall_security_camera",
+            "closed_restroom_door"
         ],
         "restricted": false
     },
@@ -76,7 +158,28 @@
             "pc_director",
             "director_desk",
             "director_diploma",
-            "director_photo"
+            "director_photo",
+
+            "director_wall_painting",
+            "director_desk_drawers",
+            "office_filing_drawers",
+            "office_plant",
+            "executive_certificate",
+            "scattered_documents",
+            "ordered_documents",
+            "management_books",
+            "crumpled_note_office",
+            "family_photographs",
+            "bookshelf_section_a",
+            "bookshelf_section_b",
+            "bookshelf_section_c",
+            "bookshelf_section_d",
+            "bookshelf_section_e",
+            "bookshelf_section_f",
+            "bookshelf_section_g",
+            "bookshelf_section_h",
+            "visitor_armchair",
+            "office_cabinets"
         ],
         "restricted": true
     },
@@ -91,7 +194,18 @@
             "door_hall_meeting",
             "meeting_laptop",
             "meeting_whiteboard",
-            "meeting_schedule"
+            "meeting_schedule",
+
+            "meeting_notebook",
+            "team_photos",
+            "meeting_sofa",
+            "under_meeting_sofa",
+            "carlos_chair",
+            "meeting_table_notes",
+            "ceiling_projector",
+            "window_blinds",
+            "rear_blinds",
+            "under_chair"
         ],
         "restricted": false
     }
