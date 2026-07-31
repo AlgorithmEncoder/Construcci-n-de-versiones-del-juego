@@ -36,3 +36,8 @@ class PathManager:
     def documents(cls):
 
         return cls.assets() / "documents"
+    
+    @classmethod
+    def json_folder(cls):
+        
+        return MEMORIES_DIR / cls._memory

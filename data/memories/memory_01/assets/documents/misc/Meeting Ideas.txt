@@ -1,0 +1,27 @@
+MEETING IDEAS
+=============
+
+FUTURE MEETING TOPICS
+=====================
+
+This document contains informal suggestions collected before future management meetings.
+
+• Review archive improvements.
+• Discuss documentation standards.
+• Improve version control.
+• Clarify department responsibilities.
+
+DISCUSSION NOTES
+================
+
+A recurring suggestion was creating a single source of truth for organisational documents while still preserving historical versions.
+
+Several participants highlighted that previous decisions were difficult to understand when older documentation was unavailable.
+
+FUTURE CONSIDERATIONS
+=====================
+
+• Improve archive search.
+• Document approval decisions.
+• Maintain revision history.
+

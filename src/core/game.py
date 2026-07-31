@@ -28,6 +28,7 @@ from managers.event_manager import EventManager
 from managers.detection_manager import DetectionManager
 from managers.player_manager import PlayerManager
 from managers.path_manager import PathManager
+from managers.computer_files_manager import ComputerFilesManager
 
 from ui.transition import TransitionUI
 from ui.dialogue import DialogueUI
@@ -173,6 +174,8 @@ class Game:
             "npc_move",
             self._npc_move
         )
+        
+        self._files_manager = ComputerFilesManager()
 
     # ==================================================
     # Public API
@@ -412,6 +415,8 @@ class Game:
             ComputerUI(
 
                 computer,
+                
+                self._files_manager,
 
                 self._native_width,
 

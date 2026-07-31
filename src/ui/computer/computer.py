@@ -23,13 +23,14 @@ from .chat_view import ChatView
 
 from .file_list import FileList
 from .file_view import FileView
-
+from .document_viewer import DocumentViewer
 
 class ComputerUI(Overlay):
 
     def __init__(
         self,
         computer: dict,
+        files_manager,
         world_width: int,
         world_height: int
     ):
@@ -59,12 +60,25 @@ class ComputerUI(Overlay):
 
         self._file_list = FileList()
         self._file_view = FileView()
+        
+        self._files = files_manager
+        self._document = None
 
     # ==================================================
     # Events
     # ==================================================
 
     def handle_event(self, event):
+        
+        if self._document is not None:
+
+            handled = self._document.handle_event(event)
+
+            if not self._document.visible:
+
+                self._document = None
+
+            return handled
         
         if event.type == pygame.MOUSEWHEEL:
 
@@ -181,7 +195,7 @@ class ComputerUI(Overlay):
             )
 
             if self._selected_file is None:
-                
+
                 if self._file_list.handle_event(event):
                     return True
 
@@ -195,9 +209,26 @@ class ComputerUI(Overlay):
 
             else:
 
-                if self._file_view.click(event.pos):
+                action = self._file_view.click(event.pos)
+
+                if action == "back":
 
                     self._selected_file = None
+
+                    return True
+
+                elif action == "open":
+
+                    file = files[self._selected_file]
+
+                    path = self._files.path(
+                        file["document_id"]
+                    )
+
+                    if path is not None:
+
+                        self._document = DocumentViewer.create(path)
+
 
                     return True
 
@@ -318,8 +349,22 @@ class ComputerUI(Overlay):
 
             else:
 
-                self._file_view.draw(
-                    screen,
-                    content,
-                    files[self._selected_file]
-                )
+                if self._document is not None:
+
+                    self._document.draw_document(
+                        screen,
+                        pygame.Rect(
+                            content.x,
+                            content.y,
+                            content.width,
+                            content.height
+                        )
+                    )
+
+                else:
+
+                    self._file_view.draw(
+                        screen,
+                        content,
+                        files[self._selected_file]
+                    )

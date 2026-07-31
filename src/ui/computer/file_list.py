@@ -13,7 +13,7 @@ from ui.computer.scroll_view import ScrollView
 
 from pathlib import Path
 
-from .icons import (
+from icons import (
     get_file_icon,
     draw_folder,
 )

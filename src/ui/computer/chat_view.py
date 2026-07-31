@@ -10,7 +10,7 @@ from ui.fonts import Fonts
 
 from . import styles
 from ui.computer.scroll_view import ScrollView
-from .icons import draw_back
+from icons import draw_back
 
 
 class ChatView:

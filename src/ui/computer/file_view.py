@@ -5,12 +5,15 @@ Selected file.
 from __future__ import annotations
 
 import pygame
+from pathlib import Path
 
 from ui.fonts import Fonts
 
 from . import styles
 from ui.computer.scroll_view import ScrollView
-from .icons import draw_back
+from icons import draw_back
+
+from managers.computer_files_manager import ComputerFilesManager
 
 
 class FileView:
@@ -45,6 +48,12 @@ class FileView:
         default = Fonts.default
 
         small = Fonts.small
+        files = ComputerFilesManager()
+        info = files.info(
+            file["document_id"]
+        )
+
+        self._file_exists = info["exists"]
         
         self._scroll.begin(screen)
 
@@ -212,6 +221,7 @@ class FileView:
             )
 
         )
+        print()
 
         screen.blit(
 
@@ -248,11 +258,21 @@ class FileView:
 
     # --------------------------------------------------
 
-    def click(self,pos):
-        
+    def click(self, pos):
+
         pos = self._scroll.translate(pos)
 
-        return self._back.collidepoint(pos)
+        if self._back.collidepoint(pos):
+            return "back"
+
+        if (
+            self._file_exists
+            and
+            self._open.collidepoint(pos)
+        ):
+            return "open"
+
+        return None
     
     def handle_event(self, event):
 

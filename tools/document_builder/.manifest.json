@@ -1,0 +1,166 @@
+{
+    "meeting_agenda": {
+        "hash": "8c5e15cda8701703e7a2bbf82b7ef240f415e5a6e88c9e738af174fe093c6638",
+        "file": "meeting_room/Meeting Agenda.pdf"
+    },
+    "meeting_attendees": {
+        "hash": "8d1b0c01f08b1554166cc9b1e0d4628b65db83bde28514cd30fac562367756fd",
+        "file": "meeting_room/Meeting Attendees.xlsx"
+    },
+    "meeting_minutes_previous": {
+        "hash": "6fc3b3931c555ec242abca0bd48f243853e1e76ca3fa06897fefc8a3f048e9a8",
+        "file": "meeting_room/Meeting Minutes Previous.pdf"
+    },
+    "meeting_notes": {
+        "hash": "5e51ffca0c4bcbe86d960a6fc7a21e3005ad4cbd64e6d04236d49609a948a07f",
+        "file": "meeting_room/Meeting Notes.txt"
+    },
+    "meeting_tasks": {
+        "hash": "d9c5bc3005f2a4d7c1f14dda175d78db488c10cda0364a6d369ffaa05a3470c3",
+        "file": "meeting_room/Meeting Tasks.docx"
+    },
+    "budget_draft": {
+        "hash": "f57b427f11ce029d6c620143eb2b8098892cdc52b2293e6db73c737663f7c2d7",
+        "file": "finance/Budget Draft.xlsx"
+    },
+    "meeting_01": {
+        "hash": "e56cd321446a831f7dc6cbcbfab99892c1bd32abf9ea6637a927b908b9186587",
+        "file": "meeting_room/Meeting 01.pdf"
+    },
+    "meeting_02": {
+        "hash": "0fe302cf22e9bfaf2f89b067c05d5f00597b5e5d4c1eaceb22d16eb143177a19",
+        "file": "meeting_room/Meeting 02.pdf"
+    },
+    "meeting_03": {
+        "hash": "632803e75f9ffd1565ee6f3ce72dd7f38ab1b397867277be60764a0a5c6e9a51",
+        "file": "meeting_room/Meeting 03.pdf"
+    },
+    "meeting_04": {
+        "hash": "d63e1ab5f7eeb40097690f976f19b6cd0147053ed157878b4d2845ab96eccb0d",
+        "file": "meeting_room/Meeting 04.pdf"
+    },
+    "meeting_05": {
+        "hash": "0e7ca10f91002956f43bc4a11762e7dfc4defa30e9c07a879caeda99a38df2ea",
+        "file": "meeting_room/Meeting 05.pdf"
+    },
+    "meeting_06": {
+        "hash": "f42b0f4e39de425256e322eb5b393fb2fc249b78dbd1339889f4477143cd0a91",
+        "file": "meeting_room/Meeting 06.pdf"
+    },
+    "meeting_07": {
+        "hash": "8d96e073074ffb2ab75fc8c267083f24f9e3b001f6fa9d5a4a649c9d5db84261",
+        "file": "meeting_room/Meeting 07.pdf"
+    },
+    "meeting_08": {
+        "hash": "64d37a8a9f42d27226658fa5edfe66bfcd8c8aae399b275d005e112552e919df",
+        "file": "meeting_room/Meeting 08.pdf"
+    },
+    "meeting_recording_notes": {
+        "hash": "eea0d6077ce3a68721c8f5c7d469041463d1d0168bfa1f590997f93ce0181b9d",
+        "file": "meeting_room/Meeting Recording Notes.docx"
+    },
+    "budget_q3": {
+        "hash": "f79398265bf2c3cb6ce719fb2c9b106c92567dd3f452fa41b4c5c3d6fa114a3c",
+        "file": "finance/Budget Q3.xlsx"
+    },
+    "decision_template": {
+        "hash": "1a85e1f90f1982421f5a26c6bbf0df890b904054dc9163ab0c6c0a617da14021",
+        "file": "templates/Decision Template.docx"
+    },
+    "internal_report_template": {
+        "hash": "6b541a84f632a776c6f699b33bd11c07873e9a7c5888d62ff28b1bb135feff80",
+        "file": "templates/Internal Report Template.docx"
+    },
+    "meeting_template": {
+        "hash": "4259c95ceff7960b04cb658d1b5cad213a1d2211adf553774ca87683f3c8b95c",
+        "file": "templates/Meeting Template.docx"
+    },
+    "pending_tasks": {
+        "hash": "9394f0b5b013e6c358449d865839f5aa78c1b402a06a4d68e96d07fc709ee9d5",
+        "file": "misc/Pending Tasks.txt"
+    },
+    "archive_index": {
+        "hash": "a81294efbfaa67a1150b1c3efd4a19ec63608aa12d17f29b9b5cb1574b9f8417",
+        "file": "archive/Archive Index.pdf"
+    },
+    "archive_room_map": {
+        "hash": "096231d056aa72c2f4b153c5938d7e47a603fcaac21b77aa2a8bb71445e667d4",
+        "file": "archive/Archive Room Map.pdf"
+    },
+    "coffee_machine_manual": {
+        "hash": "ba94f4fb05624f1859921656fca2bfd18525bebfc95788e60e819b5fb3714933",
+        "file": "manuals/Coffee Machine Manual.pdf"
+    },
+    "contracts_registry": {
+        "hash": "00206d49ff3c895ebcf5879c42969cfb75ac7d947c5a54bd035f19c61e9d7f54",
+        "file": "archive/Contracts Registry.xlsx"
+    },
+    "emergency_plan": {
+        "hash": "5a00b438750aa43f37ea20fb43c368e4cac2dff9ed9ca7c9dc27be3dd70e9b81",
+        "file": "manuals/Emergency Plan.pdf"
+    },
+    "employee_history": {
+        "hash": "269eab833f8c5f78b6ebdf775b75bafeeefa3a4821065cd7f64234050f2921f6",
+        "file": "hr/Employee History.pdf"
+    },
+    "employee_list_draft": {
+        "hash": "537251f8511aa0ce6e4c62419db0dc7e108b75ba7fca94a2b75688164e88a161",
+        "file": "hr/Employee List Draft.xlsx"
+    },
+    "employee_registry_v1": {
+        "hash": "33d09bdfcde0408d675826d06210d06eae0441abd3df5a87d4d35bfb6ecc8968",
+        "file": "hr/Employee Registry v1.xlsx"
+    },
+    "employee_registry_v2": {
+        "hash": "238114022252704fdfeaed0e0a1fb5ec85d0d3370689ea2b71f610d8b5f8e55a",
+        "file": "hr/Employee Registry v2.xlsx"
+    },
+    "historical_archive_guide": {
+        "hash": "8ae8e4998af9ddc7d8a071aa29d7e881ec524462eea7fceb0f39b5a342bad1e1",
+        "file": "archive/Historical Archive Guide.pdf"
+    },
+    "historical_records": {
+        "hash": "ece1c868dae830b19e0ede259396fea3d25ec153ad05a2b87f07c39849ad32c2",
+        "file": "archive/Historical Records.pdf"
+    },
+    "meeting_ideas": {
+        "hash": "d8e760fd7ae2e9473653e7d6f76c911ea633e392f2b00157a234bca7c365b18c",
+        "file": "misc/Meeting Ideas.txt"
+    },
+    "old_organisation_notes": {
+        "hash": "922cd8630db12b406bc4bf7c9ac9cd6eb948b11be86eae852986c0f89102b742",
+        "file": "director/Old Organisation Notes.docx"
+    },
+    "organisation_backup": {
+        "hash": "684d1753d53147464509920c404283896d8dc92dd34070962fed2775b7f8d240",
+        "file": "director/Organisation Backup.pdf"
+    },
+    "organisation_chart_current": {
+        "hash": "035d772a601726848520c6e36109ed4277fddb3f397d590d83d15dd6250f941e",
+        "file": "director/Organisation Chart Current.pdf"
+    },
+    "organisation_chart_old": {
+        "hash": "daf6fe6e4b249dc738cd781e3a3747cd6bb783fd61bec3e4c1276d11f7c4fc50",
+        "file": "director/Organisation Chart Old.pdf"
+    },
+    "presentation_old": {
+        "hash": "4045213520990150d4cf67fd6b8cb5820eb600a57befae62ec0de2186c4724ac",
+        "file": "presentations/Presentation OLD.pptx"
+    },
+    "presentation_q3_final": {
+        "hash": "0d267ec65499bdd921fb011d939116f6e78dabc3eabc352ac0e18bb9a17ba82c",
+        "file": "presentations/Presentation Q3 FINAL.pptx"
+    },
+    "presentation_q3_final_v2": {
+        "hash": "b919bce5ea387ebe474ba8f90ddcd0f5d20f0d6dbcdacbddd9f8b92dfdf49186",
+        "file": "presentations/Presentation Q3 FINAL v2.pptx"
+    },
+    "presentation_q3_final_v3": {
+        "hash": "b405f1cb0a88938c73349cca306e68f47031d829cdfd67174721be2cd0071ef6",
+        "file": "presentations/Presentation Q3 FINAL USE THIS.pptx"
+    },
+    "printer_manual": {
+        "hash": "f6cfa1ab33101527ed743c5c5264a3f0ef88ffecbde85cceeff20cd2d66d3aad",
+        "file": "manuals/Printer Manual.pdf"
+    }
+}
