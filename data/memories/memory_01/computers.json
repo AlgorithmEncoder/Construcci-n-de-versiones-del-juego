@@ -2,7 +2,7 @@
     "director_pc": {
         "emails": [
             {
-                "id": "mail_001",
+                "id": "d_mail_001",
                 "from": "Marta Romero",
                 "to": "Miguel Ruiz",
                 "date": "07:38",
@@ -16,7 +16,7 @@
                 ]
             },
             {
-                "id": "mail_002",
+                "id": "d_mail_002",
                 "from": "Miguel Ruiz",
                 "to": "Marta Romero",
                 "date": "07:39",
@@ -28,7 +28,7 @@
                 ]
             },
             {
-                "id": "mail_003",
+                "id": "d_mail_003",
                 "from": "Carlos Vega",
                 "to": "Miguel Ruiz",
                 "date": "07:42",
@@ -42,7 +42,7 @@
                 ]
             },
             {
-                "id": "mail_004",
+                "id": "d_mail_004",
                 "from": "Miguel Ruiz",
                 "to": "Carlos Vega",
                 "date": "07:44",
@@ -54,7 +54,7 @@
                 ]
             },
             {
-                "id": "mail_005",
+                "id": "d_mail_005",
                 "from": "Laura Pérez",
                 "to": "Miguel Ruiz",
                 "date": "07:47",
@@ -68,7 +68,7 @@
                 ]
             },
             {
-                "id": "mail_006",
+                "id": "d_mail_006",
                 "from": "Miguel Ruiz",
                 "to": "Laura Pérez",
                 "date": "07:48",
@@ -82,7 +82,7 @@
                 ]
             },
             {
-                "id": "mail_007",
+                "id": "d_mail_007",
                 "from": "Marta Romero",
                 "to": "Miguel Ruiz",
                 "date": "07:50",
@@ -96,7 +96,7 @@
                 ]
             },
             {
-                "id": "mail_008",
+                "id": "d_mail_008",
                 "from": "Miguel Ruiz",
                 "to": "Marta Romero",
                 "date": "07:51",
@@ -108,7 +108,7 @@
                 ]
             },
             {
-                "id": "mail_009",
+                "id": "d_mail_009",
                 "from": "Ana López",
                 "to": "Miguel Ruiz",
                 "date": "07:54",
@@ -120,7 +120,7 @@
                 ]
             },
             {
-                "id": "mail_010",
+                "id": "d_mail_010",
                 "from": "Miguel Ruiz",
                 "to": "Ana López",
                 "date": "07:55",
@@ -134,7 +134,7 @@
                 ]
             },
             {
-                "id": "mail_011",
+                "id": "d_mail_011",
                 "from": "Marta Romero",
                 "to": "Miguel Ruiz",
                 "date": "08:01",
@@ -148,7 +148,7 @@
                 ]
             },
             {
-                "id": "mail_012",
+                "id": "d_mail_012",
                 "from": "Miguel Ruiz",
                 "to": "Marta Romero",
                 "date": "08:02",
@@ -160,7 +160,7 @@
                 ]
             },
             {
-                "id": "mail_013",
+                "id": "d_mail_013",
                 "from": "Carlos Vega",
                 "to": "Miguel Ruiz",
                 "date": "08:04",
@@ -172,7 +172,7 @@
                 ]
             },
             {
-                "id": "mail_014",
+                "id": "d_mail_014",
                 "from": "Miguel Ruiz",
                 "to": "Carlos Vega",
                 "date": "08:05",
@@ -184,7 +184,7 @@
                 ]
             },
             {
-                "id": "mail_015",
+                "id": "d_mail_015",
                 "from": "Ana López",
                 "to": "Miguel Ruiz",
                 "date": "08:08",
@@ -198,7 +198,7 @@
                 ]
             },
             {
-                "id": "mail_016",
+                "id": "d_mail_016",
                 "from": "Miguel Ruiz",
                 "to": "Ana López",
                 "date": "08:09",
@@ -210,7 +210,7 @@
                 ]
             },
             {
-                "id": "mail_017",
+                "id": "d_mail_017",
                 "from": "Laura Pérez",
                 "to": "Miguel Ruiz",
                 "date": "08:12",
@@ -222,7 +222,7 @@
                 ]
             },
             {
-                "id": "mail_018",
+                "id": "d_mail_018",
                 "from": "Miguel Ruiz",
                 "to": "Laura Pérez",
                 "date": "08:13",
@@ -234,7 +234,7 @@
                 ]
             },
             {
-                "id": "mail_019",
+                "id": "d_mail_019",
                 "from": "M. Romero",
                 "to": "Miguel Ruiz",
                 "date": "08:16",
@@ -246,7 +246,7 @@
                 ]
             },
             {
-                "id": "mail_020",
+                "id": "d_mail_020",
                 "from": "Miguel Ruiz",
                 "to": "M. Romero",
                 "date": "08:17",
@@ -258,7 +258,7 @@
                 ]
             },
             {
-                "id": "mail_021",
+                "id": "d_mail_021",
                 "from": "Marta Romero",
                 "to": "Miguel Ruiz",
                 "date": "08:19",
@@ -272,7 +272,7 @@
                 ]
             },
             {
-                "id": "mail_022",
+                "id": "d_mail_022",
                 "from": "Miguel Ruiz",
                 "to": "Marta Romero",
                 "date": "08:20",
@@ -284,7 +284,7 @@
                 ]
             },
             {
-                "id": "mail_023",
+                "id": "d_mail_023",
                 "from": "Laura Pérez",
                 "to": "Miguel Ruiz",
                 "date": "08:22",
@@ -296,7 +296,7 @@
                 ]
             },
             {
-                "id": "mail_024",
+                "id": "d_mail_024",
                 "from": "Miguel Ruiz",
                 "to": "Laura Pérez",
                 "date": "08:23",
@@ -308,7 +308,7 @@
                 ]
             },
             {
-                "id": "mail_025",
+                "id": "d_mail_025",
                 "from": "Carlos Vega",
                 "to": "Miguel Ruiz",
                 "date": "08:25",
@@ -320,7 +320,7 @@
                 ]
             },
             {
-                "id": "mail_026",
+                "id": "d_mail_026",
                 "from": "Miguel Ruiz",
                 "to": "Carlos Vega",
                 "date": "08:26",
@@ -330,7 +330,7 @@
                 ]
             },
             {
-                "id": "mail_027",
+                "id": "d_mail_027",
                 "from": "Ana López",
                 "to": "Miguel Ruiz",
                 "date": "08:27",
@@ -342,7 +342,7 @@
                 ]
             },
             {
-                "id": "mail_028",
+                "id": "d_mail_028",
                 "from": "Miguel Ruiz",
                 "to": "Ana López",
                 "date": "08:28",
@@ -354,7 +354,7 @@
                 ]
             },
             {
-                "id": "mail_029",
+                "id": "d_mail_029",
                 "from": "Marta Romero",
                 "to": "Miguel Ruiz",
                 "date": "08:29",
@@ -368,7 +368,7 @@
                 ]
             },
             {
-                "id": "mail_030",
+                "id": "d_mail_030",
                 "from": "Miguel Ruiz",
                 "to": "Marta Romero",
                 "date": "08:30",
@@ -380,7 +380,7 @@
                 ]
             },
             {
-                "id": "mail_031",
+                "id": "d_mail_031",
                 "from": "Laura Pérez",
                 "to": "Miguel Ruiz",
                 "date": "08:32",
@@ -394,7 +394,7 @@
                 ]
             },
             {
-                "id": "mail_032",
+                "id": "d_mail_032",
                 "from": "Miguel Ruiz",
                 "to": "Laura Pérez",
                 "date": "08:33",
@@ -406,7 +406,7 @@
                 ]
             },
             {
-                "id": "mail_033",
+                "id": "d_mail_033",
                 "from": "Secretaría",
                 "to": "Miguel Ruiz",
                 "date": "08:34",
@@ -421,7 +421,7 @@
                 ]
             },
             {
-                "id": "mail_034",
+                "id": "d_mail_034",
                 "from": "Miguel Ruiz",
                 "to": "Secretaría",
                 "date": "08:35",
@@ -431,7 +431,7 @@
                 ]
             },
             {
-                "id": "mail_035",
+                "id": "d_mail_035",
                 "from": "Marta Romero",
                 "to": "Miguel Ruiz",
                 "date": "08:36",
@@ -445,7 +445,7 @@
                 ]
             },
             {
-                "id": "mail_036",
+                "id": "d_mail_036",
                 "from": "Miguel Ruiz",
                 "to": "Marta Romero",
                 "date": "08:37",
@@ -457,7 +457,7 @@
                 ]
             },
             {
-                "id": "mail_037",
+                "id": "d_mail_037",
                 "from": "Carlos Vega",
                 "to": "Miguel Ruiz",
                 "date": "08:38",
@@ -471,7 +471,7 @@
                 ]
             },
             {
-                "id": "mail_038",
+                "id": "d_mail_038",
                 "from": "Miguel Ruiz",
                 "to": "Carlos Vega",
                 "date": "08:39",
@@ -483,7 +483,7 @@
                 ]
             },
             {
-                "id": "mail_039",
+                "id": "d_mail_039",
                 "from": "Ana López",
                 "to": "Miguel Ruiz",
                 "date": "08:41",
@@ -497,7 +497,7 @@
                 ]
             },
             {
-                "id": "mail_040",
+                "id": "d_mail_040",
                 "from": "Miguel Ruiz",
                 "to": "Ana López",
                 "date": "08:42",
@@ -507,7 +507,7 @@
                 ]
             },
             {
-                "id": "mail_041",
+                "id": "d_mail_041",
                 "from": "Finance",
                 "to": "Miguel Ruiz",
                 "date": "08:45",
@@ -519,7 +519,7 @@
                 ]
             },
             {
-                "id": "mail_042",
+                "id": "d_mail_042",
                 "from": "Marta Romero",
                 "to": "Miguel Ruiz",
                 "date": "08:48",
@@ -531,7 +531,7 @@
                 ]
             },
             {
-                "id": "mail_043",
+                "id": "d_mail_043",
                 "from": "Miguel Ruiz",
                 "to": "Todo el personal",
                 "date": "08:50",
@@ -542,7 +542,7 @@
                 ]
             },
             {
-                "id": "mail_044",
+                "id": "d_mail_044",
                 "from": "Desconocido",
                 "to": "Miguel Ruiz",
                 "date": "08:53",
@@ -1831,7 +1831,7 @@
     "meeting_laptop": {
         "emails": [
             {
-                "id": "mail_001",
+                "id": "m_mail_001",
                 "from": "Marta Romero",
                 "to": "Sala de reuniones",
                 "date": "07:30",
@@ -1843,7 +1843,7 @@
                 ]
             },
             {
-                "id": "mail_002",
+                "id": "m_mail_002",
                 "from": "Carlos Vega",
                 "to": "Sala de reuniones",
                 "date": "07:34",
@@ -1855,7 +1855,7 @@
                 ]
             },
             {
-                "id": "mail_003",
+                "id": "m_mail_003",
                 "from": "Miguel Ruiz",
                 "to": "Sala de reuniones",
                 "date": "07:40",
@@ -1867,7 +1867,7 @@
                 ]
             },
             {
-                "id": "mail_004",
+                "id": "m_mail_004",
                 "from": "Laura Pérez",
                 "to": "Sala de reuniones",
                 "date": "07:45",
@@ -1877,7 +1877,7 @@
                 ]
             },
             {
-                "id": "mail_005",
+                "id": "m_mail_005",
                 "from": "IT",
                 "to": "Sala de reuniones",
                 "date": "07:52",
@@ -2142,7 +2142,7 @@
     "reception_pc": {
         "emails": [
             {
-                "id": "mail_001",
+                "id": "r_mail_001",
                 "from": "Miguel Ruiz",
                 "to": "Reception",
                 "date": "07:42",
@@ -2159,7 +2159,7 @@
                 ]
             },
             {
-                "id": "mail_002",
+                "id": "r_mail_002",
                 "from": "Marta Romero",
                 "to": "Reception",
                 "date": "07:46",
@@ -2175,7 +2175,7 @@
                 ]
             },
             {
-                "id": "mail_003",
+                "id": "r_mail_003",
                 "from": "Laura Pérez",
                 "to": "Reception",
                 "date": "07:48",
@@ -2189,7 +2189,7 @@
                 ]
             },
             {
-                "id": "mail_004",
+                "id": "r_mail_004",
                 "from": "Mantenimiento",
                 "to": "Toda la empresa",
                 "date": "07:51",
@@ -2201,7 +2201,7 @@
                 ]
             },
             {
-                "id": "mail_005",
+                "id": "r_mail_005",
                 "from": "IT",
                 "to": "Toda la empresa",
                 "date": "07:53",
@@ -2213,7 +2213,7 @@
                 ]
             },
             {
-                "id": "mail_006",
+                "id": "r_mail_006",
                 "from": "Carlos Vega",
                 "to": "Reception",
                 "date": "07:55",
@@ -2225,7 +2225,7 @@
                 ]
             },
             {
-                "id": "mail_007",
+                "id": "r_mail_007",
                 "from": "Proveedor OfficeLine",
                 "to": "Reception",
                 "date": "07:56",
@@ -2237,7 +2237,7 @@
                 ]
             },
             {
-                "id": "mail_008",
+                "id": "r_mail_008",
                 "from": "Miguel Ruiz",
                 "to": "Reception",
                 "date": "07:57",
@@ -2251,7 +2251,7 @@
                 ]
             },
             {
-                "id": "mail_009",
+                "id": "r_mail_009",
                 "from": "Ana López",
                 "to": "Reception",
                 "date": "07:58",
@@ -2265,7 +2265,7 @@
                 ]
             },
             {
-                "id": "mail_010",
+                "id": "r_mail_010",
                 "from": "Reception",
                 "to": "Ana López",
                 "date": "08:00",
@@ -2277,7 +2277,7 @@
                 ]
             },
             {
-                "id": "mail_011",
+                "id": "r_mail_011",
                 "from": "Marta Romero",
                 "to": "Miguel Ruiz",
                 "cc": "Reception",
@@ -2295,7 +2295,7 @@
                 ]
             },
             {
-                "id": "mail_012",
+                "id": "r_mail_012",
                 "from": "Miguel Ruiz",
                 "to": "Marta Romero",
                 "cc": "Reception",
@@ -2312,7 +2312,7 @@
                 ]
             },
             {
-                "id": "mail_013",
+                "id": "r_mail_013",
                 "from": "Carlos Vega",
                 "to": "Reception",
                 "date": "08:03",
@@ -2324,7 +2324,7 @@
                 ]
             },
             {
-                "id": "mail_014",
+                "id": "r_mail_014",
                 "from": "Laura Pérez",
                 "to": "Reception",
                 "date": "08:04",
@@ -2338,7 +2338,7 @@
                 ]
             },
             {
-                "id": "mail_015",
+                "id": "r_mail_015",
                 "from": "Ana López",
                 "to": "Reception",
                 "date": "08:05",
@@ -2352,7 +2352,7 @@
                 ]
             },
             {
-                "id": "mail_016",
+                "id": "r_mail_016",
                 "from": "Reception",
                 "to": "Ana López",
                 "date": "08:06",
@@ -2364,7 +2364,7 @@
                 ]
             },
             {
-                "id": "mail_017",
+                "id": "r_mail_017",
                 "from": "IT",
                 "to": "Toda la empresa",
                 "date": "08:07",
@@ -2376,7 +2376,7 @@
                 ]
             },
             {
-                "id": "mail_018",
+                "id": "r_mail_018",
                 "from": "Proveedor OfficeLine",
                 "to": "Reception",
                 "date": "08:08",
@@ -2388,7 +2388,7 @@
                 ]
             },
             {
-                "id": "mail_019",
+                "id": "r_mail_019",
                 "from": "Miguel Ruiz",
                 "to": "Toda la empresa",
                 "date": "08:09",
@@ -2400,7 +2400,7 @@
                 ]
             },
             {
-                "id": "mail_020",
+                "id": "r_mail_020",
                 "from": "M. Romero",
                 "to": "Reception",
                 "date": "08:10",
@@ -2412,7 +2412,7 @@
                 ]
             },
             {
-                "id": "mail_021",
+                "id": "r_mail_021",
                 "from": "M. Romero",
                 "to": "Reception",
                 "date": "08:11",
@@ -2426,7 +2426,7 @@
                 ]
             },
             {
-                "id": "mail_022",
+                "id": "r_mail_022",
                 "from": "Reception",
                 "to": "M. Romero",
                 "date": "08:12",
@@ -2438,7 +2438,7 @@
                 ]
             },
             {
-                "id": "mail_023",
+                "id": "r_mail_023",
                 "from": "M. Romero",
                 "to": "Reception",
                 "date": "08:13",
@@ -2450,7 +2450,7 @@
                 ]
             },
             {
-                "id": "mail_024",
+                "id": "r_mail_024",
                 "from": "Laura Pérez",
                 "to": "Reception",
                 "date": "08:15",
@@ -2462,7 +2462,7 @@
                 ]
             },
             {
-                "id": "mail_025",
+                "id": "r_mail_025",
                 "from": "IT",
                 "to": "Toda la empresa",
                 "date": "08:16",
@@ -2474,7 +2474,7 @@
                 ]
             },
             {
-                "id": "mail_026",
+                "id": "r_mail_026",
                 "from": "Carlos Vega",
                 "to": "Reception",
                 "date": "08:17",
@@ -2486,7 +2486,7 @@
                 ]
             },
             {
-                "id": "mail_027",
+                "id": "r_mail_027",
                 "from": "Reception",
                 "to": "Carlos Vega",
                 "date": "08:18",
@@ -2498,7 +2498,7 @@
                 ]
             },
             {
-                "id": "mail_028",
+                "id": "r_mail_028",
                 "from": "Miguel Ruiz",
                 "to": "Reception",
                 "date": "08:20",
@@ -2511,7 +2511,7 @@
                 ]
             },
             {
-                "id": "mail_029",
+                "id": "r_mail_029",
                 "from": "Mantenimiento",
                 "to": "Toda la empresa",
                 "date": "08:22",
@@ -2523,7 +2523,7 @@
                 ]
             },
             {
-                "id": "mail_030",
+                "id": "r_mail_030",
                 "from": "Ana López",
                 "to": "Reception",
                 "date": "08:24",
@@ -2535,7 +2535,7 @@
                 ]
             },
             {
-                "id": "mail_031",
+                "id": "r_mail_031",
                 "from": "Laura Pérez",
                 "to": "Reception",
                 "date": "08:26",
@@ -2547,7 +2547,7 @@
                 ]
             },
             {
-                "id": "mail_032",
+                "id": "r_mail_032",
                 "from": "Reception",
                 "to": "Laura Pérez",
                 "date": "08:27",
@@ -2559,7 +2559,7 @@
                 ]
             },
             {
-                "id": "mail_033",
+                "id": "r_mail_033",
                 "from": "M. Ruiz",
                 "to": "Reception",
                 "date": "08:28",
@@ -2571,7 +2571,7 @@
                 ]
             },
             {
-                "id": "mail_034",
+                "id": "r_mail_034",
                 "from": "Ana López",
                 "to": "Reception",
                 "date": "08:29",
@@ -2585,7 +2585,7 @@
                 ]
             },
             {
-                "id": "mail_035",
+                "id": "r_mail_035",
                 "from": "IT",
                 "to": "Toda la empresa",
                 "date": "08:30",
@@ -2597,7 +2597,7 @@
                 ]
             },
             {
-                "id": "mail_036",
+                "id": "r_mail_036",
                 "from": "Carlos Vega",
                 "to": "Reception",
                 "date": "08:31",
@@ -2609,7 +2609,7 @@
                 ]
             },
             {
-                "id": "mail_037",
+                "id": "r_mail_037",
                 "from": "Miguel Ruiz",
                 "to": "Reception",
                 "date": "08:33",
@@ -2620,7 +2620,7 @@
                 ]
             },
             {
-                "id": "mail_038",
+                "id": "r_mail_038",
                 "from": "Marta Romero",
                 "to": "Reception",
                 "date": "08:34",
@@ -2634,7 +2634,7 @@
                 ]
             },
             {
-                "id": "mail_039",
+                "id": "r_mail_039",
                 "from": "Reception",
                 "to": "Marta Romero",
                 "date": "08:35",
@@ -2646,7 +2646,7 @@
                 ]
             },
             {
-                "id": "mail_040",
+                "id": "r_mail_040",
                 "from": "Miguel Ruiz",
                 "to": "Toda la empresa",
                 "date": "08:37",

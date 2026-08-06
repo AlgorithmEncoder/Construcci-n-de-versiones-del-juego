@@ -25,6 +25,10 @@ class RenderState:
     overlay: Overlay | None = None
 
     clock: str = ""
+    
+    iterations: int = 1
+    
+    progress: int = 0
 
     @property
     def has_overlay(self):

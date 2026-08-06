@@ -1,12 +1,8 @@
 {
     "title": "The Interview",
-
     "time_limit": 600,
-
     "initial_room": "waiting_room",
-
     "objective": "Discover what is happening and who is behind it.",
-
     "intro": [
         "SUBJECT: Clara.",
         "",
@@ -19,7 +15,6 @@
         "",
         "When the dream becomes unstable, it will restart."
     ],
-
     "ending": [
         "Dream complete.",
         "",
@@ -30,5 +25,16 @@
         "",
         "Recommended next subject:",
         "Miguel Ruiz."
-    ]
+    ],
+    "iterations": 26,
+    "progress": {
+        "magazine": true,
+        "waiting_magazine_02": false,
+        "executive_approvals": false,
+        "d_mail_005": true,
+        "doc_terminal": false,
+        "d_mail_001": true
+    },
+    "locked": false,
+    "progress_percent": 33
 }

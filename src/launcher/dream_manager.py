@@ -18,6 +18,10 @@ class DreamManager:
     def __init__(self):
 
         self._dreams = []
+        
+        # Current dream
+        self._story_path = None
+        self._story = None
 
     # ==================================================
     # Public API
@@ -36,6 +40,7 @@ class DreamManager:
                 continue
 
             story_path = memory_dir / "story.json"
+            self._story_path = story_path
 
             if not story_path.exists():
                 continue
@@ -46,6 +51,17 @@ class DreamManager:
             ) as file:
 
                 story = json.load(file)
+                self._story = story
+            
+            progress = story["progress"]
+
+            total = len(progress)
+
+            seen = sum(progress.values())
+
+            story["progress_percent"] = round(
+                seen / total * 100
+            ) if total else 0
 
             self._dreams.append({
 
@@ -74,9 +90,12 @@ class DreamManager:
                 # De momento
                 "locked": False,
 
-                "progress": 0,
+                "progress": story["progress_percent"],
 
-                "iterations": 0,
+                "iterations": story.get(
+                    "iterations",
+                    0
+                ),
             })
 
     # ==================================================
@@ -98,3 +117,31 @@ class DreamManager:
                 return dream
 
         raise KeyError(dream_id)
+    
+    # --------------------------------------------------
+    
+    def save_progress(self, data: dict):
+
+        dream = self._story
+
+        dream["iterations"] += data["iterations"]
+        dream["progress"] = data["progress"]
+
+        self._save_story()
+    
+    # --------------------------------------------------
+    
+    def _save_story(self):
+
+        with open(
+            self._story_path,
+            "w",
+            encoding="utf-8"
+        ) as file:
+
+            json.dump(
+                self._story,
+                file,
+                indent=4,
+                ensure_ascii=False,
+            )

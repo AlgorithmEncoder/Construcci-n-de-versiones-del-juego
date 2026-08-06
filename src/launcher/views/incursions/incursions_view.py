@@ -9,7 +9,6 @@ import pygame
 from launcher.views.incursions.incursion_card import (
     IncursionCard
 )
-from launcher.views.incursions.incursion_detail import IncursionDetail
 
 
 class IncursionsView:
@@ -109,3 +108,7 @@ class IncursionsView:
                 )
 
         return False
+    
+    
+    def refresh(self):
+        self._dreams = self._launcher.dreams.dreams

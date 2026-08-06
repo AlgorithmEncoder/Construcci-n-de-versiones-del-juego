@@ -61,9 +61,7 @@ class MainWindow:
         }
         
         self._workspace.set_view(
-
-            IncursionsView(self)
-
+            self._sections["incursions"]
         )
 
         self._module = "home"
@@ -197,7 +195,10 @@ class MainWindow:
                 )
 
                 self._workspace.set_view(
-                    IncursionDetail(data)
+                    IncursionDetail(
+                        self._dreams,
+                        data["id"]
+                    )
                 )
         
         elif isinstance(view, NotesView):
@@ -282,3 +283,18 @@ class MainWindow:
     def clear_requests(self):
 
         self._start_requested = None
+    
+    def refresh(self):
+        
+        self._dreams.load()
+        
+        # Refresh views
+        for view in self._sections.values():
+            
+            if hasattr(view, "refresh"):
+
+                view.refresh()
+        
+        current_view = self._workspace.current
+        if hasattr(current_view, "refresh"):
+            current_view.refresh()

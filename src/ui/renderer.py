@@ -16,6 +16,8 @@ from core.render_state import RenderState
 from ui.assets import Assets
 from ui.fonts import Fonts
 
+from icons import draw_note, draw_iterations
+
 from constants import BLACK, WHITE, HUD_TOP_MARGIN, HUD_LEFT_MARGIN
 
 
@@ -177,6 +179,76 @@ class Renderer:
         )
 
         self._world.blit(text, rect)
+        
+        # ===========================
+        # Iterations
+        # ===========================
+
+        iterations_rect = pygame.Rect(
+            0,
+            0,
+            95,
+            self._exit_rect.height
+        )
+
+        iterations_rect.topright = (
+            self._exit_rect.left - 12,
+            HUD_TOP_MARGIN
+        )
+        
+        badge = pygame.Surface(
+            iterations_rect.size,
+            pygame.SRCALPHA
+        )
+
+        pygame.draw.rect(
+            badge,
+            (20, 20, 20, 135),
+            badge.get_rect(),
+            border_radius=8
+        )
+
+        pygame.draw.rect(
+            badge,
+            (255, 255, 255, 55),
+            badge.get_rect(),
+            width=1,
+            border_radius=8
+        )
+
+        self._world.blit(
+            badge,
+            iterations_rect
+        )
+        
+        icon_rect = pygame.Rect(
+            iterations_rect.x + 8,
+            iterations_rect.y + 8,
+            18,
+            18,
+        )
+
+        draw_iterations(
+            self._world,
+            icon_rect,
+            (235, 235, 235),
+        )
+        
+        count = Fonts.default.render(
+            f"x {state.iterations}",
+            True,
+            (240, 240, 240)
+        )
+
+        count.set_alpha(210)
+
+        self._world.blit(
+            count,
+            (
+                iterations_rect.x + 34,
+                iterations_rect.y + 8,
+            )
+        )
 
         # ===========================
         # Exit
@@ -205,7 +277,8 @@ class Renderer:
         self._draw_button(
             self._world,
             self._quick_note_rect,
-            "📝 Nota"
+            "Nota",
+            icon=draw_note
         )
 
     # --------------------------------------------------
@@ -229,6 +302,7 @@ class Renderer:
         surface: pygame.Surface,
         rect: pygame.Rect,
         text: str,
+        icon=None,
     ):
 
         image = Fonts.default.render(
@@ -237,12 +311,24 @@ class Renderer:
             WHITE
         )
 
+        icon_size = 18
+        icon_gap = 8
+
+        icon_width = (
+            icon_size + icon_gap
+            if icon is not None
+            else 0
+        )
+
         padding_x = 16
         padding_y = 8
 
         rect.size = (
-            image.get_width() + padding_x * 2,
-            image.get_height() + padding_y * 2
+            image.get_width()
+            + icon_width
+            + padding_x * 2,
+            image.get_height()
+            + padding_y * 2
         )
 
         pygame.draw.rect(
@@ -260,9 +346,39 @@ class Renderer:
             border_radius=8
         )
 
+        # ---------- Icono ----------
+
+        start_x = rect.x + padding_x
+
+        if icon is not None:
+
+            icon_rect = pygame.Rect(
+                start_x,
+                rect.centery - icon_size // 2,
+                icon_size,
+                icon_size
+            )
+
+            icon(
+                surface,
+                icon_rect,
+                WHITE
+            )
+
+            start_x += icon_width
+
+        # ---------- Texto ----------
+
+        text_rect = image.get_rect(
+            midleft=(
+                start_x,
+                rect.centery
+            )
+        )
+
         surface.blit(
             image,
-            image.get_rect(center=rect.center)
+            text_rect
         )
     
     # --------------------------------------------------

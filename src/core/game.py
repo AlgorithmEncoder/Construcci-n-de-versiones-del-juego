@@ -9,7 +9,8 @@ the game loop. It contains no gameplay logic.
 
 from __future__ import annotations
 
-import pygame, time
+import pygame
+from copy import deepcopy
 
 from core.clock import GameClock
 from core.render_state import RenderState
@@ -61,7 +62,7 @@ class Game:
         self._screen = screen
 
         self._memory_name = memory
-        self._iterations = 0
+        self._iterations = 1
         self._finished = False
 
         self._loader = None
@@ -92,6 +93,10 @@ class Game:
         }
 
         self._load_memory()
+        
+        self._progress = deepcopy(
+            self._loader.story["progress"]
+        )
         
         PathManager.set_memory(self._memory_name)
 
@@ -259,6 +264,10 @@ class Game:
         self._render_state.clock = (
             self._clock.time_string
         )
+        
+        self._render_state.iterations = self._iterations
+        
+        self._render_state.progress = self._progress
 
     # ==================================================
     # Properties
@@ -267,6 +276,10 @@ class Game:
     @property
     def iterations(self):
         return self._iterations
+    
+    @property
+    def progress(self):
+        return self._progress
     
     @property
     def finished(self):
@@ -338,6 +351,14 @@ class Game:
     def renderer(self):
         return self._renderer
     
+    @property
+    def save_data(self):
+
+        return {
+            "iterations": self._iterations,
+            "progress": self._progress,
+        }
+    
     # ==================================================
     # Actions
     # ==================================================
@@ -358,7 +379,10 @@ class Game:
 
         self._player.change_room(room_id)
     
+    
     def _open_document(self, document_id):
+        
+        self.mark_progress(document_id)
 
         self._start_transition(
 
@@ -420,7 +444,9 @@ class Game:
 
                 self._native_width,
 
-                self._native_height
+                self._native_height,
+                
+                self.mark_progress
 
             )
 
@@ -571,11 +597,18 @@ class Game:
 
         return self._room_manager.find_object_at(position)
     
+    def mark_progress(self, element_id):
+
+        if element_id not in self._progress:
+            return
+
+        self._progress[element_id] = True
+    
     def _show_objective(self):
 
         from ui.transition import TransitionUI
         
-        callback=self._open_intro if self._iterations == 0 else None
+        callback=self._open_intro if self._iterations == 1 else None
 
         self._ui.open(
             TransitionUI(

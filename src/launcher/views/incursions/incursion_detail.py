@@ -16,9 +16,10 @@ class IncursionDetail:
     BUTTON_WIDTH = 260
     BUTTON_HEIGHT = 54
 
-    def __init__(self, dream):
+    def __init__(self, dreams, dream_id):
 
-        self._dream = dream
+        self._dreams = dreams
+        self._dream_id = dream_id
 
         self._start_rect = pygame.Rect(0, 0, 0, 0)
         self._back_rect = pygame.Rect(0, 0, 0, 0)
@@ -31,6 +32,8 @@ class IncursionDetail:
     # --------------------------------------------------
 
     def draw(self, screen, area):
+        
+        dream = self._dreams.get(self._dream_id)
 
         x = area.x + 40
         y = area.y + 35
@@ -38,7 +41,7 @@ class IncursionDetail:
         # ---------- Header ----------
 
         title = Fonts.title.render(
-            self._dream["title"],
+            dream["title"],
             True,
             styles.TEXT
         )
@@ -88,16 +91,16 @@ class IncursionDetail:
         info = [
 
             ("Estado",
-             "Bloqueado" if self._dream["locked"] else "Disponible"),
+             "Bloqueado" if dream["locked"] else "Disponible"),
 
             ("Duración",
-             f"{self._dream['duration']//60} minutos"),
+             f"{dream['duration']//60} minutos"),
 
             ("Incursiones",
-             str(self._dream["iterations"])),
+             str(dream["iterations"])),
 
             ("Progreso",
-             f"{self._dream['progress']}%")
+             f"{dream['progress']}%")
         ]
 
         for name, value in info:
@@ -137,7 +140,7 @@ class IncursionDetail:
 
         y += 40
 
-        for line in self._dream["objective"].split("\n"):
+        for line in dream["objective"].split("\n"):
 
             txt = Fonts.default.render(
                 line,
@@ -190,6 +193,6 @@ class IncursionDetail:
             return ("back", None)
 
         if self._start_rect.collidepoint(event.pos):
-            return ("start", self._dream["id"])
+            return ("start", self._dreams.get(self._dream_id)["id"])
 
         return None

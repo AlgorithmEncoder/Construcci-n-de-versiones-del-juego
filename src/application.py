@@ -44,8 +44,12 @@ class Application:
             self._game.update(dt)
 
             if self._game.finished:
+                
+                self._save_data()
 
                 self._game = None
+                
+                self._launcher.refresh()
 
     # --------------------------------------------------
 
@@ -70,3 +74,14 @@ class Application:
         else:
 
             self._game.handle_event(event)
+    
+    # --------------------------------------------------
+    
+    def _save_data(self):
+
+        if self._game is None:
+            return
+
+        self._launcher.dreams.save_progress(
+            self._game.save_data
+        )

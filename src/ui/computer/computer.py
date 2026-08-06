@@ -32,14 +32,15 @@ class ComputerUI(Overlay):
         computer: dict,
         files_manager,
         world_width: int,
-        world_height: int
+        world_height: int,
+        progress_callback=None
     ):
 
         super().__init__(
             world_width=world_width,
             world_height=world_height,
             width=1000,
-            height=650
+            height=650,
         )
 
         self._computer = computer
@@ -63,6 +64,8 @@ class ComputerUI(Overlay):
         
         self._files = files_manager
         self._document = None
+        
+        self._progress_callback = progress_callback
 
     # ==================================================
     # Events
@@ -73,10 +76,6 @@ class ComputerUI(Overlay):
         if self._document is not None:
 
             handled = self._document.handle_event(event)
-
-            if not self._document.visible:
-
-                self._document = None
 
             return handled
         
@@ -144,6 +143,12 @@ class ComputerUI(Overlay):
                 if index is not None:
 
                     self._selected_email = index
+                    
+                    if self._progress_callback:
+
+                        self._progress_callback(
+                            emails[index]["id"]
+                        )
 
                     return True
 
@@ -174,6 +179,12 @@ class ComputerUI(Overlay):
                 if index is not None:
 
                     self._selected_chat = index
+                    
+                    if self._progress_callback:
+
+                        self._progress_callback(
+                            files[index]["id"]
+                        )
 
                     return True
 

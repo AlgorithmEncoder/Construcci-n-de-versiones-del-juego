@@ -813,3 +813,34 @@ def draw_language(
         (rect.right - 2, rect.centery),
         1,
     )
+
+
+
+
+def draw_iterations(
+    surface: pygame.Surface,
+    rect: pygame.Rect,
+    colour,
+):
+    """
+    Circular arrow used to represent dream iterations.
+    """
+
+    pygame.draw.arc(
+        surface,
+        colour,
+        rect,
+        0.6,
+        5.5,
+        LINE_WIDTH,
+    )
+
+    pygame.draw.polygon(
+        surface,
+        colour,
+        [
+            (rect.right - 3, rect.centery - 2),
+            (rect.right - 8, rect.centery - 5),
+            (rect.right - 7, rect.centery + 1),
+        ],
+    )
