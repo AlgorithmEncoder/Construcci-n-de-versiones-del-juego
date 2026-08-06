@@ -571,3 +571,245 @@ def draw_placeholder(
         (rect.centerx, rect.top + 3),
         1,
     )
+
+
+# ==================================================
+# Profile
+# ==================================================
+
+def draw_stats(
+    surface: pygame.Surface,
+    rect: pygame.Rect,
+    colour,
+):
+
+    pygame.draw.circle(
+        surface,
+        colour,
+        (rect.centerx, rect.top + 5),
+        3,
+        LINE_WIDTH,
+    )
+
+    pygame.draw.arc(
+        surface,
+        colour,
+        (
+            rect.left + 3,
+            rect.top + 8,
+            rect.width - 6,
+            rect.height - 8,
+        ),
+        3.14,
+        0,
+        LINE_WIDTH,
+    )
+
+def draw_achievement(
+    surface: pygame.Surface,
+    rect: pygame.Rect,
+    colour,
+):
+
+    cup = pygame.Rect(
+        rect.x + 4,
+        rect.y + 2,
+        rect.width - 8,
+        rect.height - 10,
+    )
+
+    pygame.draw.rect(
+        surface,
+        colour,
+        cup,
+        LINE_WIDTH,
+        border_radius=2,
+    )
+
+    pygame.draw.line(
+        surface,
+        colour,
+        (rect.centerx, cup.bottom),
+        (rect.centerx, rect.bottom - 3),
+        LINE_WIDTH,
+    )
+
+    pygame.draw.line(
+        surface,
+        colour,
+        (rect.centerx - 4, rect.bottom - 3),
+        (rect.centerx + 4, rect.bottom - 3),
+        LINE_WIDTH,
+    )
+
+def draw_activity(
+    surface: pygame.Surface,
+    rect: pygame.Rect,
+    colour,
+):
+
+    points = [
+
+        (rect.left + 2, rect.bottom - 3),
+        (rect.left + 6, rect.centery),
+        (rect.left + 10, rect.bottom - 6),
+        (rect.right - 2, rect.top + 3),
+
+    ]
+
+    pygame.draw.lines(
+        surface,
+        colour,
+        False,
+        points,
+        LINE_WIDTH,
+    )
+
+
+# ==================================================
+# Settings
+# ==================================================
+
+def draw_settings(
+    surface: pygame.Surface,
+    rect: pygame.Rect,
+    colour,
+):
+
+    pygame.draw.circle(
+        surface,
+        colour,
+        rect.center,
+        6,
+        LINE_WIDTH,
+    )
+
+    pygame.draw.circle(
+        surface,
+        colour,
+        rect.center,
+        2,
+    )
+
+    for dx, dy in (
+        (0,-8),(0,8),(-8,0),(8,0)
+    ):
+
+        pygame.draw.line(
+            surface,
+            colour,
+            rect.center,
+            (
+                rect.centerx + dx,
+                rect.centery + dy,
+            ),
+            1,
+        )
+
+def draw_audio(
+    surface: pygame.Surface,
+    rect: pygame.Rect,
+    colour,
+):
+
+    pygame.draw.polygon(
+        surface,
+        colour,
+        [
+
+            (rect.left + 3, rect.centery),
+
+            (rect.left + 7, rect.top + 4),
+
+            (rect.left + 7, rect.bottom - 4),
+
+        ],
+        LINE_WIDTH,
+    )
+
+    pygame.draw.arc(
+        surface,
+        colour,
+        (
+            rect.left + 6,
+            rect.top + 2,
+            10,
+            rect.height - 4,
+        ),
+        -0.7,
+        0.7,
+        LINE_WIDTH,
+    )
+
+def draw_display(
+    surface: pygame.Surface,
+    rect: pygame.Rect,
+    colour,
+):
+
+    monitor = pygame.Rect(
+        rect.x + 2,
+        rect.y + 2,
+        rect.width - 4,
+        rect.height - 7,
+    )
+
+    pygame.draw.rect(
+        surface,
+        colour,
+        monitor,
+        LINE_WIDTH,
+        border_radius=2,
+    )
+
+    pygame.draw.line(
+        surface,
+        colour,
+        (rect.centerx, monitor.bottom),
+        (rect.centerx, rect.bottom - 2),
+        LINE_WIDTH,
+    )
+
+    pygame.draw.line(
+        surface,
+        colour,
+        (rect.centerx - 5, rect.bottom - 2),
+        (rect.centerx + 5, rect.bottom - 2),
+        LINE_WIDTH,
+    )
+
+def draw_language(
+    surface: pygame.Surface,
+    rect: pygame.Rect,
+    colour,
+):
+
+    pygame.draw.circle(
+        surface,
+        colour,
+        rect.center,
+        7,
+        LINE_WIDTH,
+    )
+
+    pygame.draw.arc(
+        surface,
+        colour,
+        (
+            rect.centerx - 4,
+            rect.y + 2,
+            8,
+            rect.height - 4,
+        ),
+        0,
+        6.28,
+        1,
+    )
+
+    pygame.draw.line(
+        surface,
+        colour,
+        (rect.left + 2, rect.centery),
+        (rect.right - 2, rect.centery),
+        1,
+    )

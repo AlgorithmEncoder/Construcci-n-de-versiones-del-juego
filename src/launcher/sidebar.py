@@ -10,6 +10,13 @@ from icons import (
     draw_incursion,
     draw_note,
     draw_inventory,
+    draw_stats,
+    draw_achievement,
+    draw_activity,
+    draw_settings,
+    draw_audio,
+    draw_display,
+    draw_language,
     draw_placeholder
 )
 
@@ -39,6 +46,8 @@ class Sidebar:
     }
 
     def __init__(self):
+        
+        self.module = "home"
 
         self.buttons = []
         
@@ -49,14 +58,14 @@ class Sidebar:
             "inventory": draw_inventory,
 
             # Pendientes
-            "stats": draw_placeholder,
-            "achievements": draw_placeholder,
-            "activity": draw_placeholder,
+            "stats": draw_stats,
+            "achievements": draw_achievement,
+            "activity": draw_activity,
 
-            "general": draw_placeholder,
-            "audio": draw_placeholder,
-            "display": draw_placeholder,
-            "language": draw_placeholder,
+            "general": draw_settings,
+            "audio": draw_audio,
+            "display": draw_display,
+            "language": draw_language,
         }
 
     def draw(self, screen, rect, module, current):
@@ -138,3 +147,44 @@ class Sidebar:
                 return key
 
         return None
+    
+    def set_module(self, module):
+        """
+        Cambia el módulo mostrado en la barra lateral.
+
+        Parameters
+        ----------
+        module : str
+            Nombre del módulo ("home", "profile", "settings"...).
+
+        Returns
+        -------
+        bool
+            True si el cambio se realizó, False si el módulo no existe.
+        """
+
+        if module not in self.MODULES:
+            return False
+
+        self.module = module
+
+        return True
+    
+    def update(self, rect):
+
+        self.buttons.clear()
+
+        y = rect.y + 25
+
+        for key, _ in self.MODULES[self.module]:
+
+            button = pygame.Rect(
+                rect.x + 10,
+                y,
+                rect.width - 20,
+                40,
+            )
+
+            self.buttons.append((button, key))
+
+            y += 50

@@ -47,6 +47,19 @@ class MainWindow:
         self._notes = NotesManager()
         self._notes_view = NotesView(self)
         
+        self._sections = {
+            "incursions": IncursionsView(self),
+            "notes": self._notes_view,
+            "inventory": EmptyView(),
+            "stats": EmptyView(),
+            "achievements": EmptyView(),
+            "activity": EmptyView(),
+            "general": EmptyView(),
+            "audio": EmptyView(),
+            "display": EmptyView(),
+            "language": EmptyView(),
+        }
+        
         self._workspace.set_view(
 
             IncursionsView(self)
@@ -130,10 +143,6 @@ class MainWindow:
 
         if module:
 
-            self._module = module
-
-            self._sidebar.set_module(module)
-
             self._change_module(module)
 
             return True
@@ -202,17 +211,36 @@ class MainWindow:
     
     def _change_section(self, section):
 
-        self._section = section
-
-        views = {
-            "incursions": IncursionsView(self),
-            "notes": self._notes_view,
-            "inventory": EmptyView(),
+        valid_sections = {
+            key
+            for key, _ in self._sidebar.MODULES[self._module]
         }
 
-        self._workspace.set_view(
-            views[section]
-        )
+        if section not in valid_sections:
+            return False
+
+        view = self._sections.get(section)
+
+        if view is None:
+            return False
+
+        self._section = section
+        self._workspace.set_view(view)
+
+        return True
+    
+    def _change_module(self, module):
+
+        if not self._sidebar.set_module(module):
+            return False
+
+        self._module = module
+        self._sidebar.update(self._sidebar_rect)
+
+        first_section = self._sidebar.MODULES[module][0][0]
+        self._change_section(first_section)
+        
+        return True
 
     # ==================================================
 
