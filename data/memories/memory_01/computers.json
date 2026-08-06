@@ -55,7 +55,7 @@
             },
             {
                 "id": "d_mail_005",
-                "from": "Laura Pérez",
+                "from": "Clara Pérez",
                 "to": "Miguel Ruiz",
                 "date": "07:47",
                 "subject": "Fotografía del equipo",
@@ -70,7 +70,7 @@
             {
                 "id": "d_mail_006",
                 "from": "Miguel Ruiz",
-                "to": "Laura Pérez",
+                "to": "Clara Pérez",
                 "date": "07:48",
                 "subject": "RE: Fotografía del equipo",
                 "body": [
@@ -109,7 +109,7 @@
             },
             {
                 "id": "d_mail_009",
-                "from": "Ana López",
+                "from": "Laura López",
                 "to": "Miguel Ruiz",
                 "date": "07:54",
                 "subject": "Documentación antigua",
@@ -122,7 +122,7 @@
             {
                 "id": "d_mail_010",
                 "from": "Miguel Ruiz",
-                "to": "Ana López",
+                "to": "Laura López",
                 "date": "07:55",
                 "subject": "RE: Documentación antigua",
                 "body": [
@@ -185,7 +185,7 @@
             },
             {
                 "id": "d_mail_015",
-                "from": "Ana López",
+                "from": "Laura López",
                 "to": "Miguel Ruiz",
                 "date": "08:08",
                 "subject": "Fotografía antigua",
@@ -200,7 +200,7 @@
             {
                 "id": "d_mail_016",
                 "from": "Miguel Ruiz",
-                "to": "Ana López",
+                "to": "Laura López",
                 "date": "08:09",
                 "subject": "RE: Fotografía antigua",
                 "body": [
@@ -211,7 +211,7 @@
             },
             {
                 "id": "d_mail_017",
-                "from": "Laura Pérez",
+                "from": "Clara Pérez",
                 "to": "Miguel Ruiz",
                 "date": "08:12",
                 "subject": "Organización Archivo",
@@ -224,7 +224,7 @@
             {
                 "id": "d_mail_018",
                 "from": "Miguel Ruiz",
-                "to": "Laura Pérez",
+                "to": "Clara Pérez",
                 "date": "08:13",
                 "subject": "RE: Organización Archivo",
                 "body": [
@@ -285,7 +285,7 @@
             },
             {
                 "id": "d_mail_023",
-                "from": "Laura Pérez",
+                "from": "Clara Pérez",
                 "to": "Miguel Ruiz",
                 "date": "08:22",
                 "subject": "Consulta visitante",
@@ -298,7 +298,7 @@
             {
                 "id": "d_mail_024",
                 "from": "Miguel Ruiz",
-                "to": "Laura Pérez",
+                "to": "Clara Pérez",
                 "date": "08:23",
                 "subject": "RE: Consulta visitante",
                 "body": [
@@ -331,7 +331,7 @@
             },
             {
                 "id": "d_mail_027",
-                "from": "Ana López",
+                "from": "Laura López",
                 "to": "Miguel Ruiz",
                 "date": "08:27",
                 "subject": "Empleado antiguo",
@@ -344,7 +344,7 @@
             {
                 "id": "d_mail_028",
                 "from": "Miguel Ruiz",
-                "to": "Ana López",
+                "to": "Laura López",
                 "date": "08:28",
                 "subject": "RE: Empleado antiguo",
                 "body": [
@@ -381,7 +381,7 @@
             },
             {
                 "id": "d_mail_031",
-                "from": "Laura Pérez",
+                "from": "Clara Pérez",
                 "to": "Miguel Ruiz",
                 "date": "08:32",
                 "subject": "Documentación para la reunión",
@@ -396,7 +396,7 @@
             {
                 "id": "d_mail_032",
                 "from": "Miguel Ruiz",
-                "to": "Laura Pérez",
+                "to": "Clara Pérez",
                 "date": "08:33",
                 "subject": "RE: Documentación para la reunión",
                 "body": [
@@ -484,7 +484,7 @@
             },
             {
                 "id": "d_mail_039",
-                "from": "Ana López",
+                "from": "Laura López",
                 "to": "Miguel Ruiz",
                 "date": "08:41",
                 "subject": "Gracias",
@@ -499,7 +499,7 @@
             {
                 "id": "d_mail_040",
                 "from": "Miguel Ruiz",
-                "to": "Ana López",
+                "to": "Laura López",
                 "date": "08:42",
                 "subject": "RE: Gracias",
                 "body": [
@@ -555,6 +555,7 @@
         ],
         "chats": [
             {
+                "id": "director_impresora_finanzas",
                 "with": "Carlos Vega",
                 "messages": [
                     {
@@ -592,7 +593,8 @@
                 ]
             },
             {
-                "with": "Ana López",
+                "id": "director_archivo_laberinto",
+                "with": "Laura López",
                 "messages": [
                     {
                         "sender": "Ana",
@@ -629,6 +631,7 @@
                 ]
             },
             {
+                "id": "director_comer_en_escritorio",
                 "with": "Carlos Vega",
                 "messages": [
                     {
@@ -674,6 +677,7 @@
                 ]
             },
             {
+                "id": "director_cumpleanos_del_mes",
                 "with": "Marta Romero",
                 "messages": [
                     {
@@ -711,6 +715,7 @@
                 ]
             },
             {
+                "id": "director_firma_familiar",
                 "with": "Carlos Vega",
                 "messages": [
                     {
@@ -748,7 +753,8 @@
                 ]
             },
             {
-                "with": "Ana López",
+                "id": "director_llave_sin_etiqueta",
+                "with": "Laura López",
                 "messages": [
                     {
                         "sender": "Ana",
@@ -789,7 +795,8 @@
                 ]
             },
             {
-                "with": "Laura Pérez",
+                "id": "director_cafeterias_carlos",
+                "with": "Clara Pérez",
                 "messages": [
                     {
                         "sender": "Laura",
@@ -834,6 +841,7 @@
                 ]
             },
             {
+                "id": "director_carlos_madrugador",
                 "with": "Marta Romero",
                 "messages": [
                     {
@@ -871,6 +879,7 @@
                 ]
             },
             {
+                "id": "director_final_definitivo_4",
                 "with": "Carlos Vega",
                 "messages": [
                     {
@@ -916,7 +925,8 @@
                 ]
             },
             {
-                "with": "Ana López",
+                "id": "director_archivador_azul",
+                "with": "Laura López",
                 "messages": [
                     {
                         "sender": "Ana",
@@ -957,7 +967,8 @@
                 ]
             },
             {
-                "with": "Laura Pérez",
+                "id": "director_repartidor_horarios",
+                "with": "Clara Pérez",
                 "messages": [
                     {
                         "sender": "Laura",
@@ -998,7 +1009,8 @@
                 ]
             },
             {
-                "with": "Laura Pérez",
+                "id": "director_paquetes_recepcion",
+                "with": "Clara Pérez",
                 "messages": [
                     {
                         "sender": "Laura",
@@ -1031,6 +1043,7 @@
                 ]
             },
             {
+                "id": "director_expedientes_familiares",
                 "with": "Marta Romero",
                 "messages": [
                     {
@@ -1076,6 +1089,7 @@
                 ]
             },
             {
+                "id": "director_bandeja_entrada_cero",
                 "with": "Carlos Vega",
                 "messages": [
                     {
@@ -1105,7 +1119,8 @@
                 ]
             },
             {
-                "with": "Laura Pérez",
+                "id": "director_planta_recepcion",
+                "with": "Clara Pérez",
                 "messages": [
                     {
                         "sender": "Laura",
@@ -1138,7 +1153,8 @@
                 ]
             },
             {
-                "with": "Ana López",
+                "id": "director_archivadores_vacios",
+                "with": "Laura López",
                 "messages": [
                     {
                         "sender": "Ana",
@@ -1175,6 +1191,7 @@
                 ]
             },
             {
+                "id": "director_vacaciones_personal",
                 "with": "Marta Romero",
                 "messages": [
                     {
@@ -1195,7 +1212,7 @@
                     },
                     {
                         "sender": "Marta",
-                        "text": "Laura quiere coincidir con una amiga."
+                        "text": "Clara quiere coincidir con una amiga."
                     },
                     {
                         "sender": "Miguel",
@@ -1203,7 +1220,7 @@
                     },
                     {
                         "sender": "Marta",
-                        "text": "Ana dice que le da igual cuándo."
+                        "text": "Laura dice que le da igual cuándo."
                     },
                     {
                         "sender": "Miguel",
@@ -1212,6 +1229,7 @@
                 ]
             },
             {
+                "id": "director_reunion_olvidada",
                 "with": "Carlos Vega",
                 "messages": [
                     {
@@ -1257,7 +1275,8 @@
                 ]
             },
             {
-                "with": "Laura Pérez",
+                "id": "director_cartel_timbre",
+                "with": "Clara Pérez",
                 "messages": [
                     {
                         "sender": "Laura",
@@ -1298,6 +1317,7 @@
                 ]
             },
             {
+                "id": "director_excel_nuevo_bueno",
                 "with": "Carlos Vega",
                 "messages": [
                     {
@@ -1343,7 +1363,8 @@
                 ]
             },
             {
-                "with": "Ana López",
+                "id": "director_estanteria_c_repetida",
+                "with": "Laura López",
                 "messages": [
                     {
                         "sender": "Ana",
@@ -1384,6 +1405,7 @@
                 ]
             },
             {
+                "id": "director_reorganizar_rrhh",
                 "with": "Marta Romero",
                 "messages": [
                     {
@@ -1421,6 +1443,7 @@
                 ]
             },
             {
+                "id": "director_reserva_sala_vacia",
                 "with": "Marta Romero",
                 "messages": [
                     {
@@ -1450,7 +1473,8 @@
                 ]
             },
             {
-                "with": "Laura Pérez",
+                "id": "director_mismo_dia_dos_veces",
+                "with": "Clara Pérez",
                 "messages": [
                     {
                         "sender": "Laura",
@@ -1487,7 +1511,8 @@
                 ]
             },
             {
-                "with": "Ana López",
+                "id": "director_tres_copias_informe",
+                "with": "Laura López",
                 "messages": [
                     {
                         "sender": "Ana",
@@ -1524,7 +1549,8 @@
                 ]
             },
             {
-                "with": "Laura Pérez",
+                "id": "director_cafetera_temporizador",
+                "with": "Clara Pérez",
                 "messages": [
                     {
                         "sender": "Laura",
@@ -1565,6 +1591,7 @@
                 ]
             },
             {
+                "id": "director_presupuesto_tres_versiones",
                 "with": "Carlos Vega",
                 "messages": [
                     {
@@ -1610,7 +1637,8 @@
                 ]
             },
             {
-                "with": "Laura Pérez",
+                "id": "director_comercial_fotocopiadora",
+                "with": "Clara Pérez",
                 "messages": [
                     {
                         "sender": "Laura",
@@ -1651,7 +1679,8 @@
                 ]
             },
             {
-                "with": "Laura Pérez",
+                "id": "director_microondas_sucio",
+                "with": "Clara Pérez",
                 "messages": [
                     {
                         "sender": "Laura",
@@ -1692,6 +1721,7 @@
                 ]
             },
             {
+                "id": "director_listado_cumpleanos",
                 "with": "Marta Romero",
                 "messages": [
                     {
@@ -1867,8 +1897,8 @@
                 ]
             },
             {
-                "id": "m_mail_004",
-                "from": "Laura Pérez",
+                "id": "mail_004",
+                "from": "Clara Pérez",
                 "to": "Sala de reuniones",
                 "date": "07:45",
                 "subject": "Proyector",
@@ -1877,7 +1907,7 @@
                 ]
             },
             {
-                "id": "m_mail_005",
+                "id": "mail_005",
                 "from": "IT",
                 "to": "Sala de reuniones",
                 "date": "07:52",
@@ -2142,7 +2172,7 @@
     "reception_pc": {
         "emails": [
             {
-                "id": "r_mail_001",
+                "id": "mail_001",
                 "from": "Miguel Ruiz",
                 "to": "Reception",
                 "date": "07:42",
@@ -2159,7 +2189,7 @@
                 ]
             },
             {
-                "id": "r_mail_002",
+                "id": "mail_002",
                 "from": "Marta Romero",
                 "to": "Reception",
                 "date": "07:46",
@@ -2175,8 +2205,8 @@
                 ]
             },
             {
-                "id": "r_mail_003",
-                "from": "Laura Pérez",
+                "id": "mail_003",
+                "from": "Clara Pérez",
                 "to": "Reception",
                 "date": "07:48",
                 "subject": "Tarta",
@@ -2189,7 +2219,7 @@
                 ]
             },
             {
-                "id": "r_mail_004",
+                "id": "mail_004",
                 "from": "Mantenimiento",
                 "to": "Toda la empresa",
                 "date": "07:51",
@@ -2201,7 +2231,7 @@
                 ]
             },
             {
-                "id": "r_mail_005",
+                "id": "mail_005",
                 "from": "IT",
                 "to": "Toda la empresa",
                 "date": "07:53",
@@ -2213,7 +2243,7 @@
                 ]
             },
             {
-                "id": "r_mail_006",
+                "id": "mail_006",
                 "from": "Carlos Vega",
                 "to": "Reception",
                 "date": "07:55",
@@ -2225,7 +2255,7 @@
                 ]
             },
             {
-                "id": "r_mail_007",
+                "id": "mail_007",
                 "from": "Proveedor OfficeLine",
                 "to": "Reception",
                 "date": "07:56",
@@ -2237,7 +2267,7 @@
                 ]
             },
             {
-                "id": "r_mail_008",
+                "id": "mail_008",
                 "from": "Miguel Ruiz",
                 "to": "Reception",
                 "date": "07:57",
@@ -2251,8 +2281,8 @@
                 ]
             },
             {
-                "id": "r_mail_009",
-                "from": "Ana López",
+                "id": "mail_009",
+                "from": "Laura López",
                 "to": "Reception",
                 "date": "07:58",
                 "subject": "¿Te acuerdas?",
@@ -2265,9 +2295,9 @@
                 ]
             },
             {
-                "id": "r_mail_010",
+                "id": "mail_010",
                 "from": "Reception",
-                "to": "Ana López",
+                "to": "Laura López",
                 "date": "08:00",
                 "subject": "Re: ¿Te acuerdas?",
                 "body": [
@@ -2277,7 +2307,7 @@
                 ]
             },
             {
-                "id": "r_mail_011",
+                "id": "mail_011",
                 "from": "Marta Romero",
                 "to": "Miguel Ruiz",
                 "cc": "Reception",
@@ -2295,7 +2325,7 @@
                 ]
             },
             {
-                "id": "r_mail_012",
+                "id": "mail_012",
                 "from": "Miguel Ruiz",
                 "to": "Marta Romero",
                 "cc": "Reception",
@@ -2312,7 +2342,7 @@
                 ]
             },
             {
-                "id": "r_mail_013",
+                "id": "mail_013",
                 "from": "Carlos Vega",
                 "to": "Reception",
                 "date": "08:03",
@@ -2324,8 +2354,8 @@
                 ]
             },
             {
-                "id": "r_mail_014",
-                "from": "Laura Pérez",
+                "id": "mail_014",
+                "from": "Clara Pérez",
                 "to": "Reception",
                 "date": "08:04",
                 "subject": "Foto del equipo",
@@ -2338,8 +2368,8 @@
                 ]
             },
             {
-                "id": "r_mail_015",
-                "from": "Ana López",
+                "id": "mail_015",
+                "from": "Laura López",
                 "to": "Reception",
                 "date": "08:05",
                 "subject": "Pregunta rara",
@@ -2352,9 +2382,9 @@
                 ]
             },
             {
-                "id": "r_mail_016",
+                "id": "mail_016",
                 "from": "Reception",
-                "to": "Ana López",
+                "to": "Laura López",
                 "date": "08:06",
                 "subject": "Re: Pregunta rara",
                 "body": [
@@ -2364,7 +2394,7 @@
                 ]
             },
             {
-                "id": "r_mail_017",
+                "id": "mail_017",
                 "from": "IT",
                 "to": "Toda la empresa",
                 "date": "08:07",
@@ -2376,7 +2406,7 @@
                 ]
             },
             {
-                "id": "r_mail_018",
+                "id": "mail_018",
                 "from": "Proveedor OfficeLine",
                 "to": "Reception",
                 "date": "08:08",
@@ -2388,7 +2418,7 @@
                 ]
             },
             {
-                "id": "r_mail_019",
+                "id": "mail_019",
                 "from": "Miguel Ruiz",
                 "to": "Toda la empresa",
                 "date": "08:09",
@@ -2400,7 +2430,7 @@
                 ]
             },
             {
-                "id": "r_mail_020",
+                "id": "mail_020",
                 "from": "M. Romero",
                 "to": "Reception",
                 "date": "08:10",
@@ -2412,7 +2442,7 @@
                 ]
             },
             {
-                "id": "r_mail_021",
+                "id": "mail_021",
                 "from": "M. Romero",
                 "to": "Reception",
                 "date": "08:11",
@@ -2426,7 +2456,7 @@
                 ]
             },
             {
-                "id": "r_mail_022",
+                "id": "mail_022",
                 "from": "Reception",
                 "to": "M. Romero",
                 "date": "08:12",
@@ -2438,7 +2468,7 @@
                 ]
             },
             {
-                "id": "r_mail_023",
+                "id": "mail_023",
                 "from": "M. Romero",
                 "to": "Reception",
                 "date": "08:13",
@@ -2450,8 +2480,8 @@
                 ]
             },
             {
-                "id": "r_mail_024",
-                "from": "Laura Pérez",
+                "id": "mail_024",
+                "from": "Clara Pérez",
                 "to": "Reception",
                 "date": "08:15",
                 "subject": "Sala de espera",
@@ -2462,7 +2492,7 @@
                 ]
             },
             {
-                "id": "r_mail_025",
+                "id": "mail_025",
                 "from": "IT",
                 "to": "Toda la empresa",
                 "date": "08:16",
@@ -2474,7 +2504,7 @@
                 ]
             },
             {
-                "id": "r_mail_026",
+                "id": "mail_026",
                 "from": "Carlos Vega",
                 "to": "Reception",
                 "date": "08:17",
@@ -2486,7 +2516,7 @@
                 ]
             },
             {
-                "id": "r_mail_027",
+                "id": "mail_027",
                 "from": "Reception",
                 "to": "Carlos Vega",
                 "date": "08:18",
@@ -2498,7 +2528,7 @@
                 ]
             },
             {
-                "id": "r_mail_028",
+                "id": "mail_028",
                 "from": "Miguel Ruiz",
                 "to": "Reception",
                 "date": "08:20",
@@ -2511,7 +2541,7 @@
                 ]
             },
             {
-                "id": "r_mail_029",
+                "id": "mail_029",
                 "from": "Mantenimiento",
                 "to": "Toda la empresa",
                 "date": "08:22",
@@ -2523,8 +2553,8 @@
                 ]
             },
             {
-                "id": "r_mail_030",
-                "from": "Ana López",
+                "id": "mail_030",
+                "from": "Laura López",
                 "to": "Reception",
                 "date": "08:24",
                 "subject": "Una duda",
@@ -2535,8 +2565,8 @@
                 ]
             },
             {
-                "id": "r_mail_031",
-                "from": "Laura Pérez",
+                "id": "mail_031",
+                "from": "Clara Pérez",
                 "to": "Reception",
                 "date": "08:26",
                 "subject": "Llaves",
@@ -2547,9 +2577,9 @@
                 ]
             },
             {
-                "id": "r_mail_032",
+                "id": "mail_032",
                 "from": "Reception",
-                "to": "Laura Pérez",
+                "to": "Clara Pérez",
                 "date": "08:27",
                 "subject": "Re: Llaves",
                 "body": [
@@ -2559,7 +2589,7 @@
                 ]
             },
             {
-                "id": "r_mail_033",
+                "id": "mail_033",
                 "from": "M. Ruiz",
                 "to": "Reception",
                 "date": "08:28",
@@ -2571,8 +2601,8 @@
                 ]
             },
             {
-                "id": "r_mail_034",
-                "from": "Ana López",
+                "id": "mail_034",
+                "from": "Laura López",
                 "to": "Reception",
                 "date": "08:29",
                 "subject": "Fotografía",
@@ -2585,7 +2615,7 @@
                 ]
             },
             {
-                "id": "r_mail_035",
+                "id": "mail_035",
                 "from": "IT",
                 "to": "Toda la empresa",
                 "date": "08:30",
@@ -2597,7 +2627,7 @@
                 ]
             },
             {
-                "id": "r_mail_036",
+                "id": "mail_036",
                 "from": "Carlos Vega",
                 "to": "Reception",
                 "date": "08:31",
@@ -2609,7 +2639,7 @@
                 ]
             },
             {
-                "id": "r_mail_037",
+                "id": "mail_037",
                 "from": "Miguel Ruiz",
                 "to": "Reception",
                 "date": "08:33",
@@ -2620,7 +2650,7 @@
                 ]
             },
             {
-                "id": "r_mail_038",
+                "id": "mail_038",
                 "from": "Marta Romero",
                 "to": "Reception",
                 "date": "08:34",
@@ -2634,7 +2664,7 @@
                 ]
             },
             {
-                "id": "r_mail_039",
+                "id": "mail_039",
                 "from": "Reception",
                 "to": "Marta Romero",
                 "date": "08:35",
@@ -2646,7 +2676,7 @@
                 ]
             },
             {
-                "id": "r_mail_040",
+                "id": "mail_040",
                 "from": "Miguel Ruiz",
                 "to": "Toda la empresa",
                 "date": "08:37",
@@ -2660,6 +2690,7 @@
         ],
         "chats": [
             {
+                "id": "recepcion_contratos_mensajero",
                 "with": "Marta Romero",
                 "messages": [
                     {
@@ -2697,6 +2728,7 @@
                 ]
             },
             {
+                "id": "recepcion_documentos_originales",
                 "with": "Miguel",
                 "messages": [
                     {
@@ -2738,6 +2770,7 @@
                 ]
             },
             {
+                "id": "recepcion_envio_certificado_ruiz",
                 "with": "Mensajería Express",
                 "messages": [
                     {
@@ -2771,6 +2804,7 @@
                 ]
             },
             {
+                "id": "recepcion_carlos_coartada_cafetera",
                 "with": "Carlos Vega",
                 "messages": [
                     {
@@ -2812,6 +2846,7 @@
                 ]
             },
             {
+                "id": "recepcion_ana_archivo",
                 "with": "Marta Romero",
                 "messages": [
                     {
@@ -2849,6 +2884,7 @@
                 ]
             },
             {
+                "id": "recepcion_proyector_servicio_tecnico",
                 "with": "Servicio Técnico",
                 "messages": [
                     {
@@ -2882,6 +2918,7 @@
                 ]
             },
             {
+                "id": "recepcion_miguel_nombres",
                 "with": "Miguel",
                 "messages": [
                     {
@@ -2923,7 +2960,8 @@
                 ]
             },
             {
-                "with": "Ana López",
+                "id": "recepcion_ana_esperando_alguien",
+                "with": "Laura López",
                 "messages": [
                     {
                         "sender": "Ana",
@@ -2960,6 +2998,7 @@
                 ]
             },
             {
+                "id": "recepcion_carlos_calculadora",
                 "with": "Carlos Vega",
                 "messages": [
                     {
@@ -3001,6 +3040,7 @@
                 ]
             },
             {
+                "id": "recepcion_buen_ambiente_lunes",
                 "with": "Marta Romero",
                 "messages": [
                     {
@@ -3034,6 +3074,7 @@
                 ]
             },
             {
+                "id": "recepcion_pedido_cafe",
                 "with": "Proveedor - Café Sierra",
                 "messages": [
                     {
@@ -3067,6 +3108,7 @@
                 ]
             },
             {
+                "id": "recepcion_carlos_esperando_cafe",
                 "with": "Carlos Vega",
                 "messages": [
                     {
@@ -3104,7 +3146,8 @@
                 ]
             },
             {
-                "with": "Ruiz",
+                "id": "recepcion_miguel_documentos_archivo",
+                "with": "Miguel",
                 "messages": [
                     {
                         "sender": "Laura",
@@ -3149,7 +3192,8 @@
                 ]
             },
             {
-                "with": "Ana López",
+                "id": "recepcion_ana_firma_documento",
+                "with": "Laura López",
                 "messages": [
                     {
                         "sender": "Ana",
@@ -3186,6 +3230,7 @@
                 ]
             },
             {
+                "id": "recepcion_carlos_jazz_reuniones",
                 "with": "Carlos Vega",
                 "messages": [
                     {
@@ -3223,6 +3268,7 @@
                 ]
             },
             {
+                "id": "recepcion_candidato_entrevista",
                 "with": "Marta",
                 "messages": [
                     {
@@ -3260,6 +3306,7 @@
                 ]
             },
             {
+                "id": "recepcion_puerta_archivo_mantenimiento",
                 "with": "Mantenimiento",
                 "messages": [
                     {
@@ -3289,6 +3336,7 @@
                 ]
             },
             {
+                "id": "recepcion_miguel_organiza_archivo",
                 "with": "Miguel Ruiz",
                 "messages": [
                     {
@@ -3309,7 +3357,7 @@
                     },
                     {
                         "sender": "Laura",
-                        "text": "Ana dice que se ofrece siempre."
+                        "text": "Laura dice que se ofrece siempre."
                     },
                     {
                         "sender": "Miguel",
@@ -3338,6 +3386,7 @@
                 ]
             },
             {
+                "id": "recepcion_carlos_llaves_coche",
                 "with": "Carlos Vega",
                 "messages": [
                     {
@@ -3379,6 +3428,7 @@
                 ]
             },
             {
+                "id": "recepcion_informe_rrhh_plantilla",
                 "with": "Marta Romero",
                 "messages": [
                     {
@@ -3416,7 +3466,8 @@
                 ]
             },
             {
-                "with": "Ana López",
+                "id": "recepcion_ana_archivador_verde",
+                "with": "Laura López",
                 "messages": [
                     {
                         "sender": "Ana",
@@ -3457,6 +3508,7 @@
                 ]
             },
             {
+                "id": "recepcion_revision_control_accesos",
                 "with": "Empresa de Seguridad",
                 "messages": [
                     {
@@ -3494,7 +3546,8 @@
                 ]
             },
             {
-                "with": "Ana López",
+                "id": "recepcion_ana_reserva_sala",
+                "with": "Laura López",
                 "messages": [
                     {
                         "sender": "Ana",
@@ -3531,7 +3584,8 @@
                 ]
             },
             {
-                "with": "Miguel Ruiz",
+                "id": "recepcion_miguel_memoria_archivo",
+                "with": "Miguel",
                 "messages": [
                     {
                         "sender": "Laura",
@@ -3576,6 +3630,7 @@
                 ]
             },
             {
+                "id": "recepcion_pedido_papel",
                 "with": "Proveedor - OfficeSupplies",
                 "messages": [
                     {
@@ -3609,7 +3664,8 @@
                 ]
             },
             {
-                "with": "Miguel Ruiz",
+                "id": "recepcion_visitante_espera",
+                "with": "Miguel",
                 "messages": [
                     {
                         "sender": "Miguel",
@@ -3646,7 +3702,8 @@
                 ]
             },
             {
-                "with": "Carlos Vega",
+                "id": "recepcion_tecnico_fotocopiadora",
+                "with": "Carlos",
                 "messages": [
                     {
                         "sender": "Carlos",
@@ -3683,6 +3740,7 @@
                 ]
             },
             {
+                "id": "recepcion_decoracion_cambiada",
                 "with": "Marta Romero",
                 "messages": [
                     {
@@ -3720,6 +3778,7 @@
                 ]
             },
             {
+                "id": "recepcion_limpieza_acceso_archivo",
                 "with": "Empresa de Limpieza",
                 "messages": [
                     {
@@ -3749,7 +3808,8 @@
                 ]
             },
             {
-                "with": "Ana López",
+                "id": "recepcion_ana_gafas",
+                "with": "Laura López",
                 "messages": [
                     {
                         "sender": "Ana",

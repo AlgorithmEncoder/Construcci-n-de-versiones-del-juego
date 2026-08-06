@@ -39,24 +39,24 @@
   "employee_registry": {
     "title": "Employee Registry",
     "pages": [
-      "Laura Pérez\nReception\nExtension: 101\nJoined: 2019\n\nResponsible for visitors, deliveries and meeting room bookings.",
+      "Clara Pérez\nReception\nExtension: 101\nJoined: 2019\n\nResponsible for visitors, deliveries and meeting room bookings.",
       "Miguel Ruiz\nDirector\nExtension: 201\nJoined: 2009\n\nResponsible for company management and final approval of internal documentation.",
       "Marta Romero\nHuman Resources\nExtension: 203\nJoined: 2016\n\nRecruitment, contracts and personnel records.",
       "Carlos Vega\nFinance\nExtension: 205\nJoined: 2018\n\nBudgets, suppliers and quarterly reports.",
-      "Ana López\nAdministration\nExtension: 107\nJoined: 2021\n\nArchive maintenance, inventory and document organisation."
+      "Laura López\nAdministration\nExtension: 107\nJoined: 2021\n\nArchive maintenance, inventory and document organisation."
     ]
   },
 
   "contracts_folder": {
     "title": "Employee Contracts",
     "pages": [
-      "Contents\n\nLaura Pérez\nMarta Romero\nCarlos Vega\nAna López\n\nEach contract contains hiring conditions, salary information and confidentiality clauses.",
-      "Index\n\nPage 1 - Laura Pérez\nPage 2 - Marta Romero\nPage 3 - Carlos Vega\nPage 4 - Ana López\nPage 5 - Reserved",
+      "Contents\n\nClara Pérez\nMarta Romero\nCarlos Vega\nLaura López\n\nEach contract contains hiring conditions, salary information and confidentiality clauses.",
+      "Index\n\nPage 1 - Clara Pérez\nPage 2 - Marta Romero\nPage 3 - Carlos Vega\nPage 4 - Laura López\nPage 5 - Reserved",
       "The final divider is empty.\n\nA label reads:\n'Additional employee documentation.'\n\nNo documents remain behind it."
     ]
   },
 
-  "team_photo": {
+  "team_photo_doc": {
     "title": "Company Photo",
     "pages": [
       "A framed group photograph shows five employees standing in front of the company entrance. Everyone is smiling. The image has faded slightly with age.",
@@ -113,7 +113,7 @@
     "title": "Meeting Whiteboard",
     "pages": [
       "Today's Topics\n\n• Budget review\n• Recruitment\n• Server migration\n• Archive organisation\n• Coffee machine replacement",
-      "Action Items\n\nCarlos - Financial report\nLaura - Visitor logistics\nAna - Archive inventory\nMarta - Recruitment updates",
+      "Action Items\n\nCarlos - Financial report\nClara - Visitor logistics\nLaura - Archive inventory\nMarta - Recruitment updates",
       "Bottom Corner\n\n'Bring previous documentation if needed.'"
     ]
   },
@@ -122,7 +122,7 @@
     "title": "Weekly Meeting",
     "pages": [
       "09:00 Weekly Management Meeting\n\nExpected duration: 60 minutes.\nLocation: Meeting Room A.",
-      "Attendees\n\nMiguel Ruiz\nMarta Romero\nLaura Pérez\nCarlos Vega\nAna López",
+      "Attendees\n\nMiguel Ruiz\nMarta Romero\nClara Pérez\nCarlos Vega\nLaura López",
       "Agenda\n\n1. Budget review\n2. Recruitment\n3. Archive organisation\n4. Pending documentation\n5. Open discussion"
     ]
   },

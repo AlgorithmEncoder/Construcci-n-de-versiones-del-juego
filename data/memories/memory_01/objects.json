@@ -758,7 +758,7 @@
 
     "photo_archive": {
         "type": "document",
-        "document_id": "team_photo",
+        "document_id": "team_photo_doc",
         "position": [
             1021,
             721

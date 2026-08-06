@@ -126,6 +126,7 @@ class DreamManager:
 
         dream["iterations"] += data["iterations"]
         dream["progress"] = data["progress"]
+        dream["finished"] = data["finished"]
 
         self._save_story()
     

@@ -97,6 +97,7 @@ class Game:
         self._progress = deepcopy(
             self._loader.story["progress"]
         )
+        self._completed = self._loader.story["finished"]
         
         PathManager.set_memory(self._memory_name)
 
@@ -201,6 +202,10 @@ class Game:
             self._ui.update(delta_time)
 
         self._build_render_state()
+        
+        if self._is_progress_done() and not self.ui.current_overlay and not self._completed:
+            self._completed = True
+            self._open_ending()
 
     # --------------------------------------------------
 
@@ -357,6 +362,7 @@ class Game:
         return {
             "iterations": self._iterations,
             "progress": self._progress,
+            "finished": self._completed,
         }
     
     # ==================================================
@@ -616,6 +622,13 @@ class Game:
 
         self._progress[element_id] = True
     
+    def _is_progress_done(self):
+        
+        for value in self._progress.values():
+            if not value: return False
+        
+        return True
+    
     def _show_objective(self):
 
         from ui.transition import TransitionUI
@@ -660,7 +673,8 @@ class Game:
                 speaker="",
                 dialogue=dialogue,
                 world_width=self._native_width,
-                world_height=self._native_height
+                world_height=self._native_height,
+                callback=self._end_loop
             )
         )
     

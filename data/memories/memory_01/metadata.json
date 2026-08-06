@@ -1,8 +1,8 @@
 {
     "id": "memory_01",
-    "name": "The Interview",
+    "name": "Fragments",
     "author": "Ferran",
-    "version": "1.3.2",
+    "version": "2.1.2",
     "resolution": {
         "width": 1536,
         "height": 1024

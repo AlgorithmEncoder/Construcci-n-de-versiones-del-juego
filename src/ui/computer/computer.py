@@ -183,7 +183,7 @@ class ComputerUI(Overlay):
                     if self._progress_callback:
 
                         self._progress_callback(
-                            files[index]["id"]
+                            chats[index]["id"]
                         )
 
                     return True
@@ -215,6 +215,10 @@ class ComputerUI(Overlay):
                 if index is not None:
 
                     self._selected_file = index
+                    
+                    self._progress_callback(
+                        files[index]["id"]
+                    )
 
                     return True
 

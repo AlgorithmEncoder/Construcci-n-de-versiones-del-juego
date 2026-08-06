@@ -1,6 +1,6 @@
 {
     "clara": {
-        "name": "Clara",
+        "name": "Clara Pérez",
         "sprite": "clara",
         "room": "reception",
         "dialogue": "clara",
@@ -78,12 +78,20 @@
             {
                 "time": "08:06",
                 "room": "hall"
+            },
+            {
+                "time": "08:07",
+                "room": "meeting_room"
+            },
+            {
+                "time": "08:08",
+                "room": "hall"
             }
         ]
     },
 
     "laura": {
-        "name": "Laura Pérez",
+        "name": "Laura López",
         "sprite": "laura",
         "room": "reception",
         "dialogue": "laura",
@@ -99,6 +107,14 @@
             {
                 "time": "08:05",
                 "room": "hall"
+            },
+            {
+                "time": "08:06",
+                "room": "reception"
+            },
+            {
+                "time": "08:07",
+                "room": "archive"
             },
             {
                 "time": "08:08",

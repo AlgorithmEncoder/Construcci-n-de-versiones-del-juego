@@ -24,7 +24,6 @@
         "npc": "clara",
         "room": "reception"
     },
-
     {
         "time": "08:04",
         "action": "npc_move",
@@ -38,7 +37,6 @@
         "npc": "laura",
         "room": "hall"
     },
-
     {
         "time": "08:05",
         "action": "npc_move",
@@ -52,12 +50,17 @@
         "npc": "miguel",
         "room": "office"
     },
-
     {
         "time": "08:06",
         "action": "npc_move",
         "npc": "marta",
         "room": "hall"
+    },
+    {
+        "time": "08:06",
+        "action": "npc_move",
+        "npc": "laura",
+        "room": "reception"
     },
 
     {
@@ -66,7 +69,18 @@
         "npc": "clara",
         "room": "archive"
     },
-
+    {
+        "time": "08:07",
+        "action": "npc_move",
+        "npc": "marta",
+        "room": "meeting_room"
+    },
+    {
+        "time": "08:07",
+        "action": "npc_move",
+        "npc": "laura",
+        "room": "archive"
+    },
     {
         "time": "08:07",
         "action": "npc_move",
@@ -78,6 +92,18 @@
         "time": "08:08",
         "action": "npc_move",
         "npc": "clara",
+        "room": "reception"
+    },
+    {
+        "time": "08:08",
+        "action": "npc_move",
+        "npc": "marta",
+        "room": "hall"
+    },
+    {
+        "time": "08:08",
+        "action": "npc_move",
+        "npc": "laura",
         "room": "reception"
     },
 
