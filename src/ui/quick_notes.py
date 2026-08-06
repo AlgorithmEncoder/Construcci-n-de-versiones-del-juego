@@ -267,8 +267,8 @@ class QuickNotes(Overlay):
         if self._save.collidepoint(event.pos):
 
             create_quick_note(
-                self._title.text,
-                self._text.text
+                title=self._title.text,
+                text=self._text.text
             )
 
             self.close()

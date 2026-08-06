@@ -287,6 +287,7 @@ class MainWindow:
     def refresh(self):
         
         self._dreams.load()
+        self._notes.load()
         
         # Refresh views
         for view in self._sections.values():

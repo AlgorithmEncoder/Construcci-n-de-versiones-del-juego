@@ -5,28 +5,22 @@
     "objective": "Discover what is happening and who is behind it.",
     "intro": [
         "SUBJECT: Clara.",
-        "",
         "The conscious mind cannot access the information we need.",
         "Fragments remain buried in the subconscious.",
-        "",
         "Enter the dream.",
         "Observe.",
         "Connect the pieces.",
-        "",
         "When the dream becomes unstable, it will restart."
     ],
     "ending": [
         "Dream complete.",
-        "",
         "Analysis summary:",
-        "",
         "Most dream entities show fragmented memories and uncertainty.",
         "One individual behaves consistently and appears to retain coherent information.",
-        "",
         "Recommended next subject:",
         "Miguel Ruiz."
     ],
-    "iterations": 26,
+    "iterations": 28,
     "progress": {
         "magazine": true,
         "waiting_magazine_02": false,
@@ -36,5 +30,5 @@
         "d_mail_001": true
     },
     "locked": false,
-    "progress_percent": 33
+    "progress_percent": 50
 }

@@ -40,7 +40,7 @@ class DetectionManager:
 
                 self._callback(
                     npc,
-                    "restricted"
+                    "restricted_room"
                 )
                 
                 return

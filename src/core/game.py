@@ -488,15 +488,27 @@ class Game:
         if reason == "restricted_room":
             npc.current_room = "__hidden__"
 
-            self._start_transition(
-
-                duration=RESET_TIME,
-
-                text="REINICIANDO MEMORIA",
-
-                callback=self.reset
-
-            )
+            self._ui.open(
+            
+                    DialogueUI(
+        
+                        speaker=npc.name,
+        
+                        dialogue=[
+                            {
+                                "text":"NO TE ESTÁ PERMITIDA LA ENTRADA EN ESTA HABITACIÓN"
+                            }
+                        ],
+        
+                        world_width=self._native_width,
+        
+                        world_height=self._native_height,
+        
+                        callback=self._end_loop
+        
+                    )
+        
+                )
         
         elif reason == "computer_block":
             self._computer_warning(npc)
@@ -562,7 +574,7 @@ class Game:
 
         )
     
-    def _end_loop(self, data):
+    def _end_loop(self):
 
         print("Loop finished")
 
