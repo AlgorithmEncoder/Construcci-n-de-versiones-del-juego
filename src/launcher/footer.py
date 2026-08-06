@@ -6,6 +6,8 @@ from ui.fonts import Fonts
 
 from . import styles
 
+from constants import GAME_VERSION
+
 
 class Footer:
 
@@ -22,7 +24,7 @@ class Footer:
         )
 
         version = Fonts.small.render(
-            "v0.4.0",
+            GAME_VERSION,
             True,
             styles.TEXT_LIGHT
         )

@@ -334,15 +334,13 @@ class DocumentAnalyzer:
 
         for path in OUTPUT_FOLDER.rglob("*"):
 
-            if path.is_file():
+            relative = path.relative_to(
+                OUTPUT_FOLDER
+            )
 
-                relative = path.relative_to(
-                    OUTPUT_FOLDER
-                )
-
-                files.append(
-                    str(relative)
-                )
+            files.append(
+                str(relative)
+            )
 
 
         return files
@@ -806,7 +804,7 @@ class DocumentAnalyzer:
 
             if source:
 
-                path = ROOT / source
+                path = OUTPUT_FOLDER / source
 
 
                 if not path.exists():

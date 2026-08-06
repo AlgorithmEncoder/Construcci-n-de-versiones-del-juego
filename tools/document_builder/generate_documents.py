@@ -1356,13 +1356,53 @@ class DocumentBuilder:
 
             self.created_file(output)
     
-        # =====================================================
+    # =====================================================
     # PPTX HELPERS
     # =====================================================
 
+    def generate_business_presentation(
+        self,
+        presentation,
+        document
+    ):
+
+        layout = presentation.slide_layouts[1]  # Title + Content
+
+        for slide_data in document.get("content", []):
+
+            if slide_data.get("type") != "slide":
+                continue
+
+            slide = presentation.slides.add_slide(layout)
+
+            slide.shapes.title.text = slide_data.get(
+                "title",
+                ""
+            )
+
+            body = slide.placeholders[1].text_frame
+            body.clear()
+
+            first = True
+
+            for line in slide_data.get("body", []):
+
+                if first:
+
+                    p = body.paragraphs[0]
+                    first = False
+
+                else:
+
+                    p = body.add_paragraph()
+
+                p.text = line
+                p.level = 0
+                p.font.size = PPTPt(22)
+
     def ppt_new_slide(self, presentation, title=""):
 
-        layout = presentation.slide_layouts[5]
+        layout = presentation.slide_layouts[1]
 
         slide = presentation.slides.add_slide(layout)
 
@@ -1482,14 +1522,13 @@ class DocumentBuilder:
         output
     ):
 
-        document = self.document_data(
-            document_id
-        )
+        document = self.document_data(document_id)
 
         existed = output.exists()
 
         presentation = Presentation()
 
+        # Eliminar diapositiva inicial
         while len(presentation.slides):
 
             rId = presentation.slides._sldIdLst[0].rId
@@ -1498,77 +1537,73 @@ class DocumentBuilder:
 
             del presentation.slides._sldIdLst[0]
 
-        slide = self.ppt_new_slide(
+        # ============================================
+        # PRESENTACIONES
+        # ============================================
 
-            presentation,
+        if document.get("template") == "presentation":
 
-            document.get("title", "")
+            self.generate_business_presentation(
+                presentation,
+                document
+            )
 
-        )
+        # ============================================
+        # DOCUMENTOS NORMALES
+        # ============================================
 
-        for block in self.blocks(document_id):
+        else:
 
-            block_type = block["type"]
+            slide = self.ppt_new_slide(
+                presentation,
+                document.get("title", "")
+            )
 
-            if block_type == "heading":
+            for block in self.blocks(document_id):
 
-                slide = self.ppt_new_slide(
+                block_type = block["type"]
 
-                    presentation,
+                if block_type == "heading":
 
-                    block["text"]
+                    slide = self.ppt_new_slide(
+                        presentation,
+                        block["text"]
+                    )
 
-                )
+                elif block_type == "paragraph":
 
-            elif block_type == "paragraph":
+                    self.ppt_add_text(
+                        slide,
+                        block["text"]
+                    )
 
-                self.ppt_add_text(
+                elif block_type == "bullet_list":
 
-                    slide,
+                    self.ppt_add_list(
+                        slide,
+                        block["items"]
+                    )
 
-                    block["text"]
+                elif block_type == "table":
 
-                )
+                    self.ppt_add_table(
+                        slide,
+                        block["headers"],
+                        block["rows"]
+                    )
 
-            elif block_type == "bullet_list":
+                elif block_type == "page_break":
 
-                self.ppt_add_list(
+                    slide = self.ppt_new_slide(
+                        presentation
+                    )
 
-                    slide,
+                else:
 
-                    block["items"]
-
-                )
-
-            elif block_type == "table":
-
-                self.ppt_add_table(
-
-                    slide,
-
-                    block["headers"],
-
-                    block["rows"]
-
-                )
-
-            elif block_type == "page_break":
-
-                slide = self.ppt_new_slide(
-
-                    presentation
-
-                )
-
-            else:
-
-                self.ppt_add_text(
-
-                    slide,
-
-                    f"[Unsupported block: {block_type}]"
-
-                )
+                    self.ppt_add_text(
+                        slide,
+                        f"[Unsupported block: {block_type}]"
+                    )
 
         presentation.save(output)
 
@@ -1580,7 +1615,7 @@ class DocumentBuilder:
 
             self.created_file(output)
     
-        # =====================================================
+    # =====================================================
     # BINARY FILES
     # =====================================================
 
@@ -1594,7 +1629,7 @@ class DocumentBuilder:
             document_id
         )
 
-        source = ROOT / document["source"]
+        source = OUTPUT_FOLDER / document["source"]
 
         if not source.exists():
 

@@ -2856,5 +2856,69 @@
         ]
       }
     ]
+  },
+
+  "company_logo": {
+    "template": "image",
+    "title": "Company Logo",
+    "author": "Corporate Communications",
+    "source": "misc/Company Logo.png",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "description",
+        "text": "Official company logo used for internal documents, presentations and corporate materials."
+      }
+    ]
+  },
+
+  "new_folder_zip": {
+    "template": "archive",
+    "title": "New Folder Archive",
+    "author": "Unknown",
+    "source": "misc/New Folder.zip",
+    "revision": "1.0",
+    "classification": "Unclassified",
+    "content": [
+      {
+        "type": "description",
+        "text": "Compressed archive containing previously grouped documents. Contents require verification before classification."
+      },
+      {
+        "type": "paragraph",
+        "text": "The archive was found without complete metadata and should be reviewed during document classification."
+      }
+    ]
+  },
+
+  "office_photo_2018": {
+    "template": "image",
+    "title": "Office Photo 2018",
+    "author": "Administration",
+    "source": "photos/Office Photo 2018.jpg",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "description",
+        "text": "Photograph showing office facilities during 2018. Useful for historical comparison of workspace organisation."
+      }
+    ]
+  },
+
+  "team_photo": {
+    "template": "image",
+    "title": "Team Photo",
+    "author": "Human Resources",
+    "source": "photos/Team Photo.jpg",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "description",
+        "text": "Internal team photograph maintained as part of company historical records."
+      }
+    ]
   }
 }

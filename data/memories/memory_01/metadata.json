@@ -2,7 +2,7 @@
     "id": "memory_01",
     "name": "The Interview",
     "author": "Ferran",
-    "version": "3.0.0",
+    "version": "1.3.2",
     "resolution": {
         "width": 1536,
         "height": 1024
