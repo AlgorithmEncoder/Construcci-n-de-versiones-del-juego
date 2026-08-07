@@ -44,7 +44,6 @@
       }
     ]
   },
-
   "meeting_notes": {
     "template": "meeting",
     "title": "Meeting Notes",
@@ -83,7 +82,6 @@
       }
     ]
   },
-
   "meeting_attendees": {
     "template": "spreadsheet",
     "title": "Meeting Attendees",
@@ -132,7 +130,6 @@
       }
     ]
   },
-
   "meeting_minutes_previous": {
     "template": "meeting",
     "title": "Previous Meeting Minutes",
@@ -171,7 +168,6 @@
       }
     ]
   },
-
   "meeting_recording_notes": {
     "template": "meeting",
     "title": "Meeting Recording Notes",
@@ -215,7 +211,6 @@
       }
     ]
   },
-
   "meeting_01": {
     "template": "meeting",
     "title": "Management Meeting 01",
@@ -254,7 +249,6 @@
       }
     ]
   },
-
   "meeting_02": {
     "template": "meeting",
     "title": "Management Meeting 02",
@@ -285,15 +279,26 @@
           "Status"
         ],
         "rows": [
-          ["Finance", "Completed"],
-          ["HR", "Pending"],
-          ["Facilities", "In Progress"],
-          ["IT", "Completed"]
+          [
+            "Finance",
+            "Completed"
+          ],
+          [
+            "HR",
+            "Pending"
+          ],
+          [
+            "Facilities",
+            "In Progress"
+          ],
+          [
+            "IT",
+            "Completed"
+          ]
         ]
       }
     ]
   },
-
   "meeting_03": {
     "template": "meeting",
     "title": "Management Meeting 03",
@@ -327,7 +332,6 @@
       }
     ]
   },
-
   "meeting_04": {
     "template": "meeting",
     "title": "Management Meeting 04",
@@ -366,7 +370,6 @@
       }
     ]
   },
-
   "meeting_05": {
     "template": "meeting",
     "title": "Management Meeting 05",
@@ -405,7 +408,6 @@
       }
     ]
   },
-
   "meeting_06": {
     "template": "meeting",
     "title": "Management Meeting 06",
@@ -456,7 +458,6 @@
       }
     ]
   },
-
   "meeting_07": {
     "template": "meeting",
     "title": "Management Meeting 07",
@@ -491,7 +492,6 @@
       }
     ]
   },
-
   "meeting_08": {
     "template": "meeting",
     "title": "Management Meeting 08",
@@ -526,7 +526,6 @@
       }
     ]
   },
-
   "budget_draft": {
     "template": "spreadsheet",
     "title": "Budget Draft",
@@ -587,7 +586,6 @@
       }
     ]
   },
-
   "budget_q3": {
     "template": "spreadsheet",
     "title": "Q3 Budget Report",
@@ -681,7 +679,6 @@
       }
     ]
   },
-
   "meeting_template": {
     "template": "template",
     "title": "Meeting Template",
@@ -770,7 +767,6 @@
       }
     ]
   },
-
   "decision_template": {
     "template": "template",
     "title": "Decision Template",
@@ -838,7 +834,6 @@
       }
     ]
   },
-
   "internal_report_template": {
     "template": "report",
     "title": "Internal Report Template",
@@ -903,7 +898,6 @@
       }
     ]
   },
-
   "pending_tasks": {
     "template": "tasks",
     "title": "Pending Tasks",
@@ -964,7 +958,6 @@
       }
     ]
   },
-
   "employee_list_draft": {
     "template": "spreadsheet",
     "title": "Employee List Draft",
@@ -1094,7 +1087,6 @@
       }
     ]
   },
-
   "employee_registry_v1": {
     "template": "spreadsheet",
     "title": "Employee Registry Version 1",
@@ -1203,7 +1195,6 @@
       }
     ]
   },
-
   "employee_registry_v2": {
     "template": "spreadsheet",
     "title": "Employee Registry Version 2",
@@ -1333,7 +1324,6 @@
       }
     ]
   },
-
   "employee_history": {
     "template": "report",
     "title": "Employee History Archive",
@@ -1554,7 +1544,6 @@
       }
     ]
   },
-
   "organisation_chart_old": {
     "template": "report",
     "title": "Organisation Chart Old",
@@ -1659,7 +1648,6 @@
       }
     ]
   },
-
   "organisation_chart_current": {
     "template": "report",
     "title": "Organisation Chart Current",
@@ -1750,7 +1738,6 @@
       }
     ]
   },
-
   "organisation_backup": {
     "template": "report",
     "title": "Organisation Backup",
@@ -1826,7 +1813,6 @@
       }
     ]
   },
-
   "old_organisation_notes": {
     "template": "report",
     "title": "Old Organisation Notes",
@@ -1877,7 +1863,6 @@
       }
     ]
   },
-
   "contracts_registry": {
     "template": "spreadsheet",
     "title": "Contracts Registry",
@@ -1971,7 +1956,6 @@
       }
     ]
   },
-
   "archive_index": {
     "template": "report",
     "title": "Archive Index",
@@ -2053,7 +2037,6 @@
       }
     ]
   },
-
   "historical_records": {
     "template": "report",
     "title": "Historical Records Report",
@@ -2127,7 +2110,6 @@
       }
     ]
   },
-
   "historical_archive_guide": {
     "template": "manual",
     "title": "Historical Archive Guide",
@@ -2174,7 +2156,6 @@
       }
     ]
   },
-
   "archive_room_map": {
     "template": "report",
     "title": "Archive Room Map",
@@ -2239,7 +2220,6 @@
       }
     ]
   },
-
   "presentation_old": {
     "template": "presentation",
     "title": "Quarterly Review Presentation OLD",
@@ -2307,7 +2287,6 @@
       }
     ]
   },
-
   "presentation_q3_final": {
     "template": "presentation",
     "title": "Q3 Final Presentation",
@@ -2361,7 +2340,6 @@
       }
     ]
   },
-
   "presentation_q3_final_v2": {
     "template": "presentation",
     "title": "Q3 Final Presentation Version 2",
@@ -2414,7 +2392,6 @@
       }
     ]
   },
-
   "presentation_q3_final_v3": {
     "template": "presentation",
     "title": "Q3 Final Presentation USE THIS",
@@ -2476,7 +2453,6 @@
       }
     ]
   },
-
   "printer_manual": {
     "template": "manual",
     "title": "Printer Manual",
@@ -2569,7 +2545,6 @@
       }
     ]
   },
-
   "coffee_machine_manual": {
     "template": "manual",
     "title": "Coffee Machine Manual",
@@ -2653,7 +2628,6 @@
       }
     ]
   },
-
   "emergency_plan": {
     "template": "manual",
     "title": "Emergency Plan",
@@ -2733,7 +2707,6 @@
       }
     ]
   },
-
   "meeting_tasks": {
     "template": "tasks",
     "title": "Meeting Tasks Register",
@@ -2806,7 +2779,6 @@
       }
     ]
   },
-
   "meeting_ideas": {
     "template": "notes",
     "title": "Meeting Ideas",
@@ -2857,7 +2829,6 @@
       }
     ]
   },
-
   "company_logo": {
     "template": "image",
     "title": "Company Logo",
@@ -2872,7 +2843,6 @@
       }
     ]
   },
-
   "new_folder_zip": {
     "template": "archive",
     "title": "New Folder Archive",
@@ -2891,7 +2861,6 @@
       }
     ]
   },
-
   "office_photo_2018": {
     "template": "image",
     "title": "Office Photo 2018",
@@ -2906,7 +2875,6 @@
       }
     ]
   },
-
   "team_photo": {
     "template": "image",
     "title": "Team Photo",
@@ -2918,6 +2886,1471 @@
       {
         "type": "description",
         "text": "Internal team photograph maintained as part of company historical records."
+      }
+    ]
+  },
+  "document_access_log": {
+    "template": "spreadsheet",
+    "title": "Document Access Log",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Recent Access Records"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Date",
+          "Document",
+          "User",
+          "Action"
+        ],
+        "rows": [
+          [
+            "12 September",
+            "Historical Records",
+            "Miguel Ruiz",
+            "Viewed"
+          ],
+          [
+            "13 September",
+            "Organisation Chart Old",
+            "Laura López",
+            "Copied"
+          ],
+          [
+            "14 September",
+            "Employee Registry Previous",
+            "Miguel Ruiz",
+            "Viewed"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Historical documents are subject to restricted access. Original records must not be removed without authorisation."
+      }
+    ]
+  },
+  "archive_cleanup_proposal": {
+    "template": "report",
+    "title": "Archive Cleanup Proposal",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Purpose"
+      },
+      {
+        "type": "paragraph",
+        "text": "Proposal to reduce duplicate material while preserving historical documentation required for audits and internal review."
+      },
+      {
+        "type": "heading",
+        "text": "Recommendation"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Identify duplicate copies.",
+          "Do not destroy originals.",
+          "Obtain Management approval before disposal.",
+          "Record every document removed from active storage."
+        ]
+      }
+    ]
+  },
+  "rejected_proposal": {
+    "template": "report",
+    "title": "Rejected Proposal",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Status"
+      },
+      {
+        "type": "paragraph",
+        "text": "Proposal rejected after management review."
+      },
+      {
+        "type": "heading",
+        "text": "Reason"
+      },
+      {
+        "type": "paragraph",
+        "text": "The proposal would remove historical documentation whose context and previous versions may still be required."
+      },
+      {
+        "type": "paragraph",
+        "text": "Instruction: retain the original material until the archive review is formally closed."
+      }
+    ]
+  },
+  "employee_evaluations": {
+    "template": "report",
+    "title": "Employee Evaluations",
+    "author": "Human Resources",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Personnel Review"
+      },
+      {
+        "type": "paragraph",
+        "text": "Internal employee evaluations and historical performance records."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Employee",
+          "Department",
+          "Review Status"
+        ],
+        "rows": [
+          [
+            "Marta Romero",
+            "Human Resources",
+            "Complete"
+          ],
+          [
+            "Laura López",
+            "Administration",
+            "Complete"
+          ],
+          [
+            "Carlos Vega",
+            "Finance",
+            "Complete"
+          ],
+          [
+            "Clara Pérez",
+            "Reception",
+            "Complete"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Original evaluations must remain in the personnel archive and may only be removed with Management authorisation."
+      }
+    ]
+  },
+  "interview_report": {
+    "template": "report",
+    "title": "Interview Report",
+    "author": "Human Resources",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Interview Summary"
+      },
+      {
+        "type": "paragraph",
+        "text": "Internal interview report prepared for Management review."
+      },
+      {
+        "type": "heading",
+        "text": "Observation"
+      },
+      {
+        "type": "paragraph",
+        "text": "The report contains references to previous organisational arrangements and supporting documentation."
+      },
+      {
+        "type": "paragraph",
+        "text": "Final approval remains with Miguel Ruiz."
+      }
+    ]
+  },
+  "company_policies": {
+    "template": "report",
+    "title": "Company Policies",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Document Retention"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Historical records must remain accessible.",
+          "Original documents must not be discarded without authorisation.",
+          "Previous versions should be retained when changes affect responsibilities or approvals."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Document Control"
+      },
+      {
+        "type": "paragraph",
+        "text": "Management is responsible for final approval of internal documentation."
+      }
+    ]
+  },
+  "employee_registry_current": {
+    "template": "spreadsheet",
+    "title": "Employee Registry Current",
+    "author": "Human Resources",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Current Employee Registry"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Name",
+          "Department",
+          "Position"
+        ],
+        "rows": [
+          [
+            "Clara Pérez",
+            "Reception",
+            "Reception"
+          ],
+          [
+            "Miguel Ruiz",
+            "Management",
+            "Director"
+          ],
+          [
+            "Marta Romero",
+            "Human Resources",
+            "HR"
+          ],
+          [
+            "Carlos Vega",
+            "Finance",
+            "Finance"
+          ],
+          [
+            "Laura López",
+            "Administration",
+            "Administration"
+          ]
+        ]
+      }
+    ]
+  },
+  "employee_registry_previous": {
+    "template": "spreadsheet",
+    "title": "Employee Registry Previous",
+    "author": "Human Resources",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Previous Employee Registry"
+      },
+      {
+        "type": "paragraph",
+        "text": "Archived version retained for comparison with the current registry."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Name",
+          "Department",
+          "Position"
+        ],
+        "rows": [
+          [
+            "Clara Pérez",
+            "Reception",
+            "Reception"
+          ],
+          [
+            "Miguel Ruiz",
+            "Management",
+            "Director"
+          ],
+          [
+            "Marta Romero",
+            "Human Resources",
+            "HR"
+          ],
+          [
+            "Carlos Vega",
+            "Finance",
+            "Finance"
+          ],
+          [
+            "Laura López",
+            "Administration",
+            "Administration"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Keep this version available when investigating historical organisational changes."
+      }
+    ]
+  },
+  "internal_reorganisation": {
+    "template": "report",
+    "title": "Internal Reorganisation",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Reorganisation Review"
+      },
+      {
+        "type": "paragraph",
+        "text": "Internal changes affected reporting lines and departmental responsibilities."
+      },
+      {
+        "type": "heading",
+        "text": "Documentation"
+      },
+      {
+        "type": "paragraph",
+        "text": "Both the previous and current organisation structures should be retained because they describe different points in the company's history."
+      },
+      {
+        "type": "paragraph",
+        "text": "Final confirmation was issued by Management."
+      }
+    ]
+  },
+  "management_meeting_minutes": {
+    "template": "meeting",
+    "title": "Management Meeting Minutes",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Summary"
+      },
+      {
+        "type": "paragraph",
+        "text": "Management reviewed archive organisation, employee documentation and the updated organisation chart."
+      },
+      {
+        "type": "heading",
+        "text": "Decisions"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Retain historical documentation.",
+          "Compare current and previous registries.",
+          "Review archive access records.",
+          "Approve updated organisational documentation."
+        ]
+      }
+    ]
+  },
+  "director_agenda": {
+    "template": "meeting",
+    "title": "Director Agenda",
+    "author": "Miguel Ruiz",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Morning Agenda"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Review pending documentation.",
+          "Sign committee minutes.",
+          "Review archive requests.",
+          "Meet with management team at 09:00."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Several historical documents require the Director's review before further action."
+      }
+    ]
+  },
+  "executive_approvals": {
+    "template": "report",
+    "title": "Executive Approvals",
+    "author": "Miguel Ruiz",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Approved Items"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Q3 budget review.",
+          "Archive documentation policy.",
+          "Updated management documentation."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Final approval for internal documentation remains with the Director."
+      }
+    ]
+  },
+  "company_organisation": {
+    "template": "report",
+    "title": "Company Organisation",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Current Structure"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Department",
+          "Responsible"
+        ],
+        "rows": [
+          [
+            "Management",
+            "Miguel Ruiz"
+          ],
+          [
+            "Human Resources",
+            "Marta Romero"
+          ],
+          [
+            "Finance",
+            "Carlos Vega"
+          ],
+          [
+            "Administration",
+            "Laura López"
+          ],
+          [
+            "Reception",
+            "Clara Pérez"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Historical versions of the organisation should be retained for reference."
+      }
+    ]
+  },
+  "signed_reports": {
+    "template": "report",
+    "title": "Signed Reports",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Signed Documents"
+      },
+      {
+        "type": "paragraph",
+        "text": "Collection of approved internal reports, authorisations and contract renewals."
+      },
+      {
+        "type": "paragraph",
+        "text": "Documents are signed and archived. Previous versions remain subject to the retention policy."
+      }
+    ]
+  },
+  "management_directory": {
+    "template": "spreadsheet",
+    "title": "Management Directory",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Internal Directory"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Name",
+          "Role",
+          "Extension"
+        ],
+        "rows": [
+          [
+            "Miguel Ruiz",
+            "Director",
+            "201"
+          ],
+          [
+            "Marta Romero",
+            "Human Resources",
+            "203"
+          ],
+          [
+            "Carlos Vega",
+            "Finance",
+            "205"
+          ],
+          [
+            "Laura López",
+            "Administration",
+            "107"
+          ],
+          [
+            "Clara Pérez",
+            "Reception",
+            "101"
+          ]
+        ]
+      }
+    ]
+  },
+  "board_minutes": {
+    "template": "meeting",
+    "title": "Board Minutes",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Meeting Summary"
+      },
+      {
+        "type": "paragraph",
+        "text": "The board reviewed company organisation, document retention and management responsibilities."
+      },
+      {
+        "type": "paragraph",
+        "text": "The board requested that historical documentation remain accessible for future review."
+      }
+    ]
+  },
+  "committee_minutes": {
+    "template": "meeting",
+    "title": "Committee Minutes",
+    "author": "Secretariat",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Committee Meeting"
+      },
+      {
+        "type": "paragraph",
+        "text": "The committee reviewed pending approvals and documentation requiring the Director's signature."
+      },
+      {
+        "type": "paragraph",
+        "text": "One item remained pending until Miguel Ruiz completed the final approval."
+      }
+    ]
+  },
+  "director_signatures": {
+    "template": "report",
+    "title": "Director Signatures",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Signature Reference"
+      },
+      {
+        "type": "paragraph",
+        "text": "Reference examples of authorised signatures used to validate internal documents."
+      },
+      {
+        "type": "paragraph",
+        "text": "Use this record only for document verification. Original signed documents remain in the archive."
+      }
+    ]
+  },
+  "archive_guidelines": {
+    "template": "report",
+    "title": "Archive Guidelines",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Archive Procedure"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Keep historical originals.",
+          "Do not create duplicate originals.",
+          "Check historical numbering before creating a new record.",
+          "Ask Management before moving restricted documents."
+        ]
+      }
+    ]
+  },
+  "historical_index": {
+    "template": "spreadsheet",
+    "title": "Historical Index",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Historical Document Index"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Category",
+          "Location",
+          "Status"
+        ],
+        "rows": [
+          [
+            "Employee records",
+            "Archive",
+            "Retained"
+          ],
+          [
+            "Contracts",
+            "Archive",
+            "Retained"
+          ],
+          [
+            "Organisation",
+            "Archive",
+            "Multiple versions"
+          ],
+          [
+            "Management records",
+            "Director's Office",
+            "Restricted"
+          ]
+        ]
+      }
+    ]
+  },
+  "executive_approvals_2024": {
+    "template": "report",
+    "title": "Executive Approvals 2024",
+    "author": "Miguel Ruiz",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Approvals"
+      },
+      {
+        "type": "paragraph",
+        "text": "Collection of executive approvals issued during 2024."
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Archive review approved.",
+          "Historical documentation retention confirmed.",
+          "Updated organisational documentation approved."
+        ]
+      }
+    ]
+  },
+  "director_notes": {
+    "template": "text",
+    "title": "Director Notes",
+    "author": "Miguel Ruiz",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Notes"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Review archive request.",
+          "Check previous organisation chart.",
+          "Ask Laura about historical records.",
+          "Keep original documentation accessible."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Some older records may contain information that is no longer reflected in current documentation."
+      }
+    ]
+  },
+  "presentation_2022": {
+    "template": "presentation",
+    "title": "Presentation 2022",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Company Overview"
+      },
+      {
+        "type": "paragraph",
+        "text": "Earlier company structure and operational priorities."
+      },
+      {
+        "type": "heading",
+        "text": "Organisation"
+      },
+      {
+        "type": "paragraph",
+        "text": "Historical presentation showing the organisation before later internal changes."
+      }
+    ]
+  },
+  "presentation_2023": {
+    "template": "presentation",
+    "title": "Presentation 2023",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Annual Review"
+      },
+      {
+        "type": "paragraph",
+        "text": "Company performance, staffing and organisational changes during the year."
+      },
+      {
+        "type": "paragraph",
+        "text": "This presentation predates the current organisation chart."
+      }
+    ]
+  },
+  "reception_manual": {
+    "template": "report",
+    "title": "Reception Manual",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Reception Procedures"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Register visitors.",
+          "Prepare meeting rooms.",
+          "Manage deliveries.",
+          "Contact the appropriate department when a historical file cannot be located."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "For unresolved historical-document requests, contact Administration or the Director."
+      }
+    ]
+  },
+  "visitor_protocol": {
+    "template": "report",
+    "title": "Visitor Protocol",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Visitor Procedure"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Record visitor details.",
+          "Prepare the visitor badge.",
+          "Confirm the host.",
+          "Notify Reception when the visitor arrives."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Visitors requesting restricted company documentation must be referred to Management."
+      }
+    ]
+  },
+  "meeting_bookings": {
+    "template": "spreadsheet",
+    "title": "Meeting Room Bookings",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Bookings"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Time",
+          "Room",
+          "Purpose",
+          "Host"
+        ],
+        "rows": [
+          [
+            "08:30",
+            "Meeting Room A",
+            "Preparation",
+            "Miguel Ruiz"
+          ],
+          [
+            "09:00",
+            "Meeting Room A",
+            "Weekly Management Meeting",
+            "Miguel Ruiz"
+          ],
+          [
+            "10:15",
+            "Meeting Room A",
+            "Internal Meeting",
+            "Marta Romero"
+          ]
+        ]
+      }
+    ]
+  },
+  "emergency_contacts": {
+    "template": "spreadsheet",
+    "title": "Emergency Contacts",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Internal Contacts"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Service",
+          "Extension"
+        ],
+        "rows": [
+          [
+            "Reception",
+            "101"
+          ],
+          [
+            "Director",
+            "201"
+          ],
+          [
+            "IT Support",
+            "301"
+          ],
+          [
+            "Security",
+            "399"
+          ]
+        ]
+      }
+    ]
+  },
+  "suppliers": {
+    "template": "spreadsheet",
+    "title": "Suppliers",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Regular Suppliers"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Supplier",
+          "Service"
+        ],
+        "rows": [
+          [
+            "Vending Solutions S.L.",
+            "Vending"
+          ],
+          [
+            "Printer Maintenance",
+            "Printers"
+          ],
+          [
+            "Cleaning Company",
+            "Cleaning"
+          ]
+        ]
+      }
+    ]
+  },
+  "office_map": {
+    "template": "image",
+    "title": "Office Map",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Building Areas"
+      },
+      {
+        "type": "paragraph",
+        "text": "Reception, Archive, Meeting Room and Director's Office are connected through the main office corridor."
+      }
+    ]
+  },
+  "office_layout_old": {
+    "template": "report",
+    "title": "Office Layout v1",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Previous Layout"
+      },
+      {
+        "type": "paragraph",
+        "text": "Historical office layout showing the previous arrangement of reception, archive and meeting spaces."
+      },
+      {
+        "type": "paragraph",
+        "text": "Retained for comparison with the current layout."
+      }
+    ]
+  },
+  "office_layout_new": {
+    "template": "report",
+    "title": "Office Layout v2",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Current Layout"
+      },
+      {
+        "type": "paragraph",
+        "text": "Current office layout showing reception, archive, meeting room and Director's Office."
+      },
+      {
+        "type": "paragraph",
+        "text": "This version supersedes the previous layout for daily operations."
+      }
+    ]
+  },
+  "organisation_chart_new": {
+    "template": "report",
+    "title": "Organisation Chart v2",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Updated Organisation"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Area",
+          "Responsible"
+        ],
+        "rows": [
+          [
+            "Management",
+            "Miguel Ruiz"
+          ],
+          [
+            "Human Resources",
+            "Marta Romero"
+          ],
+          [
+            "Finance",
+            "Carlos Vega"
+          ],
+          [
+            "Administration",
+            "Laura López"
+          ],
+          [
+            "Reception",
+            "Clara Pérez"
+          ]
+        ]
+      }
+    ]
+  },
+  "reception_checklist": {
+    "template": "tasks",
+    "title": "Reception Checklist",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Morning Checklist"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Open reception.",
+          "Check deliveries.",
+          "Prepare visitor badges.",
+          "Confirm meeting room booking.",
+          "Check pending archive requests."
+        ]
+      }
+    ]
+  },
+  "morning_tasks": {
+    "template": "tasks",
+    "title": "Morning Tasks",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Tasks"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Print interview documents.",
+          "Test visitor badge printer.",
+          "Call printer maintenance.",
+          "Confirm meeting room preparation.",
+          "Review archive requests."
+        ]
+      }
+    ]
+  },
+  "employee_photos": {
+    "template": "archive",
+    "title": "Employee Photos",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Photo Archive"
+      },
+      {
+        "type": "paragraph",
+        "text": "Collection of employee photographs retained for internal identification and historical records."
+      },
+      {
+        "type": "paragraph",
+        "text": "Some photographs are older and may show previous team arrangements."
+      }
+    ]
+  },
+  "office_photos": {
+    "template": "archive",
+    "title": "Office Photos",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Office Photo Archive"
+      },
+      {
+        "type": "paragraph",
+        "text": "Photographs documenting office spaces and previous layouts."
+      },
+      {
+        "type": "paragraph",
+        "text": "Older images should be retained when comparing historical office organisation."
+      }
+    ]
+  },
+  "employee_seating": {
+    "template": "spreadsheet",
+    "title": "Employee Seating",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Meeting Seating"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Seat",
+          "Employee"
+        ],
+        "rows": [
+          [
+            "1",
+            "Miguel Ruiz"
+          ],
+          [
+            "2",
+            "Marta Romero"
+          ],
+          [
+            "3",
+            "Carlos Vega"
+          ],
+          [
+            "4",
+            "Laura López"
+          ],
+          [
+            "5",
+            "Clara Pérez"
+          ]
+        ]
+      }
+    ]
+  },
+  "evacuation_plan": {
+    "template": "report",
+    "title": "Building Evacuation Plan",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Emergency Procedure"
+      },
+      {
+        "type": "paragraph",
+        "text": "Follow marked evacuation routes and report to the designated assembly area."
+      },
+      {
+        "type": "paragraph",
+        "text": "Emergency exits are monitored and their use is recorded by the building security system."
+      }
+    ]
+  },
+  "reception_log": {
+    "template": "spreadsheet",
+    "title": "Reception Log 2024",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Daily Log"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Time",
+          "Event",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "08:15",
+            "Delivery",
+            "Routine"
+          ],
+          [
+            "08:30",
+            "Candidate interview",
+            "Meeting Room A"
+          ],
+          [
+            "08:45",
+            "Courier",
+            "Collection"
+          ],
+          [
+            "09:00",
+            "Management meeting",
+            "Meeting Room A"
+          ]
+        ]
+      }
+    ]
+  },
+  "maintenance_history": {
+    "template": "report",
+    "title": "Maintenance History",
+    "author": "Facilities",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Recent Maintenance"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Lighting replacement completed.",
+          "Air conditioning repaired.",
+          "Locks inspected.",
+          "Fire extinguishers reviewed."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "No unresolved maintenance issue is currently recorded."
+      }
+    ]
+  },
+  "reception_checklist_v2": {
+    "template": "tasks",
+    "title": "Reception Checklist v2",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Updated Checklist"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Open reception.",
+          "Verify visitor forms.",
+          "Prepare badges.",
+          "Check meeting room reservations.",
+          "Review pending documentation requests."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "This version replaces the previous reception checklist."
+      }
+    ]
+  },
+  "employee_list_print": {
+    "template": "report",
+    "title": "Employee List PRINT",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Employee Directory"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Name",
+          "Department",
+          "Extension"
+        ],
+        "rows": [
+          [
+            "Clara Pérez",
+            "Reception",
+            "101"
+          ],
+          [
+            "Miguel Ruiz",
+            "Director",
+            "201"
+          ],
+          [
+            "Marta Romero",
+            "Human Resources",
+            "203"
+          ],
+          [
+            "Carlos Vega",
+            "Finance",
+            "205"
+          ],
+          [
+            "Laura López",
+            "Administration",
+            "107"
+          ]
+        ]
+      }
+    ]
+  },
+  "building_map": {
+    "template": "image",
+    "title": "Building Map",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Main Areas"
+      },
+      {
+        "type": "paragraph",
+        "text": "The building directory identifies Reception, Archive, Meeting Room, Director's Office and Storage."
+      }
+    ]
+  },
+  "meeting_room_reservations": {
+    "template": "spreadsheet",
+    "title": "Meeting Room Reservations",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Reservations"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Time",
+          "Room",
+          "Reservation"
+        ],
+        "rows": [
+          [
+            "08:30-09:00",
+            "Meeting Room A",
+            "Preparation"
+          ],
+          [
+            "09:00-10:00",
+            "Meeting Room A",
+            "Weekly Management Meeting"
+          ],
+          [
+            "10:15-10:30",
+            "Meeting Room A",
+            "Internal meeting"
+          ]
+        ]
+      }
+    ]
+  },
+  "reception_log_old": {
+    "template": "spreadsheet",
+    "title": "Reception Log Old",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Historical Reception Log"
+      },
+      {
+        "type": "paragraph",
+        "text": "Archived reception log retained for comparison with current records."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Time",
+          "Event"
+        ],
+        "rows": [
+          [
+            "08:30",
+            "Interview"
+          ],
+          [
+            "09:00",
+            "Management meeting"
+          ],
+          [
+            "09:20",
+            "Archive inventory"
+          ]
+        ]
+      }
+    ]
+  },
+  "reception_log_current": {
+    "template": "spreadsheet",
+    "title": "Reception Log Current",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Current Reception Log"
+      },
+      {
+        "type": "paragraph",
+        "text": "Current daily reception activity log."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Time",
+          "Event"
+        ],
+        "rows": [
+          [
+            "08:15",
+            "Delivery"
+          ],
+          [
+            "08:30",
+            "Candidate interview"
+          ],
+          [
+            "09:00",
+            "Management meeting"
+          ],
+          [
+            "09:20",
+            "Archive inventory"
+          ]
+        ]
       }
     ]
   }

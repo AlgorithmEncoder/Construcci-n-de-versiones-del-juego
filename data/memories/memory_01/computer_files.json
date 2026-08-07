@@ -11,7 +11,6 @@
     "budget_draft": {
         "file": "finance/Budget Draft.xlsx"
     },
-
     "presentation_old": {
         "file": "presentations/Presentation OLD.pptx"
     },
@@ -24,18 +23,15 @@
     "presentation_q3_final_v3": {
         "file": "presentations/Presentation Q3 FINAL USE THIS.pptx"
     },
-
     "meeting_minutes_previous": {
         "file": "meeting_room/Meeting Minutes Previous.pdf"
     },
     "meeting_agenda": {
         "file": "meeting_room/Meeting Agenda.pdf"
     },
-
     "budget_q3": {
         "file": "finance/Budget Q3.xlsx"
     },
-
     "meeting_template": {
         "file": "templates/Meeting Template.docx"
     },
@@ -45,14 +41,12 @@
     "internal_report_template": {
         "file": "templates/Internal Report Template.docx"
     },
-
     "company_logo": {
         "file": "misc/Company Logo.png"
     },
     "new_folder_zip": {
         "file": "misc/New Folder.zip"
     },
-
     "employee_registry_v1": {
         "file": "hr/Employee Registry v1.xlsx"
     },
@@ -65,7 +59,6 @@
     "employee_history": {
         "file": "hr/Employee History.pdf"
     },
-
     "organisation_chart_old": {
         "file": "director/Organisation Chart Old.pdf"
     },
@@ -78,7 +71,6 @@
     "old_organisation_notes": {
         "file": "director/Old Organisation Notes.docx"
     },
-
     "contracts_registry": {
         "file": "archive/Contracts Registry.xlsx"
     },
@@ -103,7 +95,6 @@
     "rejected_proposal": {
         "file": "archive/Rejected Proposal.pdf"
     },
-
     "meeting_01": {
         "file": "meeting_room/Meeting 01.pdf"
     },
@@ -128,7 +119,6 @@
     "meeting_08": {
         "file": "meeting_room/Meeting 08.pdf"
     },
-
     "printer_manual": {
         "file": "manuals/Printer Manual.pdf"
     },
@@ -138,14 +128,12 @@
     "emergency_plan": {
         "file": "manuals/Emergency Plan.pdf"
     },
-
     "team_photo": {
         "file": "photos/Team Photo.jpg"
     },
     "office_photo_2018": {
         "file": "photos/Office Photo 2018.jpg"
     },
-
     "pending_tasks": {
         "file": "misc/Pending Tasks.txt"
     },
@@ -154,5 +142,137 @@
     },
     "meeting_recording_notes": {
         "file": "meeting_room/Meeting Recording Notes.docx"
+    },
+    "employee_evaluations": {
+        "file": "director/Employee_Evaluations.pdf"
+    },
+    "interview_report": {
+        "file": "director/Interview_Report.pdf"
+    },
+    "company_policies": {
+        "file": "director/Company_Policies.pdf"
+    },
+    "employee_registry_current": {
+        "file": "director/Employee_Registry_Current.xlsx"
+    },
+    "employee_registry_previous": {
+        "file": "director/Employee_Registry_Previous.xlsx"
+    },
+    "internal_reorganisation": {
+        "file": "director/Internal_Reorganisation.pdf"
+    },
+    "management_meeting_minutes": {
+        "file": "director/Management_Meeting_Minutes.pdf"
+    },
+    "director_agenda": {
+        "file": "director/Director_Agenda.pdf"
+    },
+    "executive_approvals": {
+        "file": "director/Executive_Approvals.pdf"
+    },
+    "company_organisation": {
+        "file": "director/Company_Organisation.pdf"
+    },
+    "signed_reports": {
+        "file": "director/Signed_Reports.pdf"
+    },
+    "management_directory": {
+        "file": "director/Management_Directory.pdf"
+    },
+    "board_minutes": {
+        "file": "director/Board_Minutes.pdf"
+    },
+    "committee_minutes": {
+        "file": "director/Committee_Minutes.pdf"
+    },
+    "director_signatures": {
+        "file": "director/Director_Signatures.pdf"
+    },
+    "archive_guidelines": {
+        "file": "director/Archive_Guidelines.pdf"
+    },
+    "historical_index": {
+        "file": "director/Historical_Index.xlsx"
+    },
+    "executive_approvals_2024": {
+        "file": "director/Executive_Approvals_2024.pdf"
+    },
+    "director_notes": {
+        "file": "director/Director_Notes.txt"
+    },
+    "presentation_2022": {
+        "file": "Old/Presentation_2022.pptx"
+    },
+    "presentation_2023": {
+        "file": "Old/Presentation_2023.pptx"
+    },
+    "reception_manual": {
+        "file": "reception/Reception_Manual.pdf"
+    },
+    "visitor_protocol": {
+        "file": "reception/Visitor_Protocol.pdf"
+    },
+    "meeting_bookings": {
+        "file": "reception/Meeting_Room_Bookings.xlsx"
+    },
+    "emergency_contacts": {
+        "file": "reception/Emergency_Contacts.xlsx"
+    },
+    "suppliers": {
+        "file": "reception/Suppliers.xlsx"
+    },
+    "office_map": {
+        "file": "reception/Office_Map.png"
+    },
+    "office_layout_old": {
+        "file": "reception/Office_Layout_v1.pdf"
+    },
+    "office_layout_new": {
+        "file": "reception/Office_Layout_v2.pdf"
+    },
+    "organisation_chart_new": {
+        "file": "reception/Organisation_Chart_v2.pdf"
+    },
+    "reception_checklist": {
+        "file": "reception/Reception_Checklist.docx"
+    },
+    "morning_tasks": {
+        "file": "reception/Morning_Tasks.docx"
+    },
+    "employee_photos": {
+        "file": "reception/Employee_Photos.zip"
+    },
+    "office_photos": {
+        "file": "reception/Office_Photos.zip"
+    },
+    "employee_seating": {
+        "file": "reception/Employee_Seating.pdf"
+    },
+    "evacuation_plan": {
+        "file": "reception/Building_Evacuation.pdf"
+    },
+    "reception_log": {
+        "file": "reception/Reception_Log_2024.xlsx"
+    },
+    "maintenance_history": {
+        "file": "reception/Maintenance_History.pdf"
+    },
+    "reception_checklist_v2": {
+        "file": "reception/Reception_Checklist_v2.docx"
+    },
+    "employee_list_print": {
+        "file": "reception/Employee_List_PRINT.pdf"
+    },
+    "building_map": {
+        "file": "reception/Building_Map.pdf"
+    },
+    "meeting_room_reservations": {
+        "file": "reception/Meeting_Room_Reservations.xlsx"
+    },
+    "reception_log_old": {
+        "file": "reception/Reception_Log_Old.xlsx"
+    },
+    "reception_log_current": {
+        "file": "reception/Reception_Log_Current.xlsx"
     }
 }

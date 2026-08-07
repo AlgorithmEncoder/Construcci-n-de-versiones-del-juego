@@ -132,7 +132,7 @@ class ChatView:
 
             height = bubble.get_height() + padding * 2
 
-            if sender == chat["with"]:
+            if chat["with"] in sender or sender in chat["with"]:
 
                 rect = pygame.Rect(
                     area.x + 20,

@@ -28,8 +28,9 @@ class ChatList:
         self,
         screen,
         area,
-        chats
+        chats,
     ):
+
         if (
             self._scroll is None
             or
@@ -40,41 +41,71 @@ class ChatList:
         self._scroll.update()
 
         self._rects.clear()
+
         self._scroll.begin(screen)
 
         title_font = Fonts.default
         small_font = Fonts.small
 
+        # ==================================================
+        # Posición lógica
+        # ==================================================
+
         y = (
             area.y
             + styles.HEADER_HEIGHT
             + 20
-            + self._scroll.y
         )
 
         for index, chat in enumerate(chats):
 
-            rect = pygame.Rect(
+            # ----------------------------------------------
+            # Rect lógico
+            # ----------------------------------------------
+
+            logical_rect = pygame.Rect(
+
                 area.x + 20,
+
                 y,
+
                 area.width - 40,
+
                 self.CARD_HEIGHT
+
             )
+
+            # ----------------------------------------------
+            # Rect visual
+            # ----------------------------------------------
+
+            draw_rect = logical_rect.move(
+                0,
+                self._scroll.y
+            )
+
+            # ----------------------------------------------
+            # Fondo
+            # ----------------------------------------------
 
             pygame.draw.rect(
                 screen,
-                (248,248,248),
-                rect,
+                (248, 248, 248),
+                draw_rect,
                 border_radius=8
             )
 
             pygame.draw.rect(
                 screen,
                 styles.BORDER,
-                rect,
+                draw_rect,
                 1,
                 border_radius=8
             )
+
+            # ----------------------------------------------
+            # Nombre
+            # ----------------------------------------------
 
             screen.blit(
                 title_font.render(
@@ -82,15 +113,24 @@ class ChatList:
                     True,
                     styles.TEXT
                 ),
-                (rect.x + 14, rect.y + 10)
+                (
+                    draw_rect.x + 14,
+                    draw_rect.y + 10
+                )
             )
+
+            # ----------------------------------------------
+            # Preview
+            # ----------------------------------------------
 
             preview = ""
 
             if chat["messages"]:
+
                 preview = chat["messages"][-1]["text"]
 
             if len(preview) > 45:
+
                 preview = preview[:45] + "..."
 
             screen.blit(
@@ -99,17 +139,28 @@ class ChatList:
                     True,
                     styles.TEXT_SECONDARY
                 ),
-                (rect.x + 14, rect.y + 38)
+                (
+                    draw_rect.x + 14,
+                    draw_rect.y + 38
+                )
             )
 
+            # ----------------------------------------------
+            # Guardamos coordenadas lógicas
+            # ----------------------------------------------
+
             self._rects.append(
-                (rect, index)
+                (logical_rect, index)
             )
 
             y += self.CARD_HEIGHT + 12
+
+        # ==================================================
+        # Content height
+        # ==================================================
+
         content_height = (
             y
-            - self._scroll.y
             - area.y
         )
 

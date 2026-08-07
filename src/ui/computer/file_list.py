@@ -36,6 +36,7 @@ class FileList:
         area,
         files,
     ):
+
         if (
             self._scroll is None
             or
@@ -46,22 +47,29 @@ class FileList:
         self._scroll.update()
 
         self._rows.clear()
-        
+
         self._scroll.begin(screen)
 
         title = Fonts.default
         small = Fonts.small
 
+        # ==================================================
+        # Posición lógica
+        # ==================================================
+
         y = (
             area.y
             + styles.HEADER_HEIGHT
             + 20
-            + self._scroll.y
         )
 
         for index, file in enumerate(files):
 
-            rect = pygame.Rect(
+            # ----------------------------------------------
+            # Rect lógico
+            # ----------------------------------------------
+
+            logical_rect = pygame.Rect(
 
                 area.x + 20,
 
@@ -73,13 +81,26 @@ class FileList:
 
             )
 
+            # ----------------------------------------------
+            # Rect visual
+            # ----------------------------------------------
+
+            draw_rect = logical_rect.move(
+                0,
+                self._scroll.y
+            )
+
+            # ----------------------------------------------
+            # Fondo
+            # ----------------------------------------------
+
             pygame.draw.rect(
 
                 screen,
 
-                (248,248,248),
+                (248, 248, 248),
 
-                rect,
+                draw_rect,
 
                 border_radius=6
 
@@ -91,13 +112,17 @@ class FileList:
 
                 styles.BORDER,
 
-                rect,
+                draw_rect,
 
                 1,
 
                 border_radius=6
 
             )
+
+            # ----------------------------------------------
+            # Información
+            # ----------------------------------------------
 
             name = file["name"]
 
@@ -109,19 +134,36 @@ class FileList:
                 else draw_folder
             )
 
+            # ----------------------------------------------
+            # Icono
+            # ----------------------------------------------
+
             icon_rect = pygame.Rect(
-                rect.x + 14,
-                rect.y + 16,
+
+                draw_rect.x + 14,
+
+                draw_rect.y + 16,
+
                 20,
-                20,
+
+                20
+
             )
 
             icon(
+
                 screen,
+
                 icon_rect,
+
                 styles.TEXT,
+
             )
-            
+
+            # ----------------------------------------------
+            # Nombre
+            # ----------------------------------------------
+
             screen.blit(
 
                 title.render(
@@ -135,11 +177,18 @@ class FileList:
                 ),
 
                 (
-                    rect.x + 44,
-                    rect.y + 9
+
+                    draw_rect.x + 44,
+
+                    draw_rect.y + 9
+
                 )
 
             )
+
+            # ----------------------------------------------
+            # Extensión
+            # ----------------------------------------------
 
             screen.blit(
 
@@ -153,20 +202,38 @@ class FileList:
 
                 ),
 
-                (rect.right - 80, rect.y + 18)
+                (
+
+                    draw_rect.right - 80,
+
+                    draw_rect.y + 18
+
+                )
 
             )
+
+            # ----------------------------------------------
+            # Guardamos posición LÓGICA
+            # ----------------------------------------------
 
             self._rows.append(
 
-                (rect,index)
+                (logical_rect, index)
 
             )
 
+            # ----------------------------------------------
+            # Siguiente elemento
+            # ----------------------------------------------
+
             y += self.ROW_HEIGHT + 10
+
+        # ==================================================
+        # Content height
+        # ==================================================
+
         content_height = (
             y
-            - self._scroll.y
             - area.y
         )
 

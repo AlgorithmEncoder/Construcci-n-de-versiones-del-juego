@@ -29,6 +29,7 @@ class EmailList:
         area,
         emails,
     ):
+
         viewport = pygame.Rect(
             area.x,
             area.y,
@@ -37,49 +38,85 @@ class EmailList:
         )
 
         if self._scroll is None:
-            self._scroll = ScrollView(viewport)
+
+            self._scroll = ScrollView(
+                viewport
+            )
+
         else:
-            self._scroll.set_viewport(viewport)
+
+            self._scroll.set_viewport(
+                viewport
+            )
 
         self._scroll.update()
 
         self._rects.clear()
-        
+
         self._scroll.begin(screen)
 
         font_title = Fonts.default
         font_small = Fonts.small
 
+        # ==================================================
+        # Posición lógica
+        # ==================================================
+
         y = (
             area.y
             + styles.HEADER_HEIGHT
             + 20
-            + self._scroll.y
         )
 
         for index, mail in enumerate(emails):
 
-            rect = pygame.Rect(
+            # ----------------------------------------------
+            # Rect lógico
+            # ----------------------------------------------
+
+            logical_rect = pygame.Rect(
+
                 area.x + 20,
+
                 y,
+
                 area.width - 40,
+
                 self.CARD_HEIGHT
+
             )
+
+            # ----------------------------------------------
+            # Rect visual
+            # ----------------------------------------------
+
+            draw_rect = logical_rect.move(
+                0,
+                self._scroll.y
+            )
+
+            # ----------------------------------------------
+            # Fondo
+            # ----------------------------------------------
 
             pygame.draw.rect(
                 screen,
-                (248,248,248),
-                rect,
+                (248, 248, 248),
+                draw_rect,
                 border_radius=8
             )
 
             pygame.draw.rect(
                 screen,
                 styles.BORDER,
-                rect,
+                draw_rect,
                 1,
                 border_radius=8
             )
+
+            # ----------------------------------------------
+            # Asunto
+            # ----------------------------------------------
 
             screen.blit(
                 font_title.render(
@@ -87,8 +124,15 @@ class EmailList:
                     True,
                     styles.TEXT
                 ),
-                (rect.x+12, rect.y+8)
+                (
+                    draw_rect.x + 12,
+                    draw_rect.y + 8
+                )
             )
+
+            # ----------------------------------------------
+            # Remitente
+            # ----------------------------------------------
 
             screen.blit(
                 font_small.render(
@@ -96,8 +140,15 @@ class EmailList:
                     True,
                     styles.TEXT_SECONDARY
                 ),
-                (rect.x+12, rect.y+34)
+                (
+                    draw_rect.x + 12,
+                    draw_rect.y + 34
+                )
             )
+
+            # ----------------------------------------------
+            # Fecha
+            # ----------------------------------------------
 
             date = font_small.render(
                 mail["date"],
@@ -108,19 +159,27 @@ class EmailList:
             screen.blit(
                 date,
                 (
-                    rect.right-date.get_width()-12,
-                    rect.y+10
+                    draw_rect.right - date.get_width() - 12,
+                    draw_rect.y + 10
                 )
             )
 
+            # ----------------------------------------------
+            # Guardamos coordenadas lógicas
+            # ----------------------------------------------
+
             self._rects.append(
-                (rect,index)
+                (logical_rect, index)
             )
 
             y += self.CARD_HEIGHT + 12
+
+        # ==================================================
+        # Content height
+        # ==================================================
+
         content_height = (
             y
-            - self._scroll.y
             - area.y
         )
 

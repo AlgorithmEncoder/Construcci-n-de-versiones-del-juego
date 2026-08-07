@@ -77,6 +77,10 @@ class ComputerUI(Overlay):
 
             handled = self._document.handle_event(event)
 
+            if not self._document.visible:
+
+                self._document = None
+
             return handled
         
         if event.type == pygame.MOUSEWHEEL:
@@ -217,7 +221,7 @@ class ComputerUI(Overlay):
                     self._selected_file = index
                     
                     self._progress_callback(
-                        files[index]["id"]
+                        files[index]["document_id"]
                     )
 
                     return True
@@ -366,14 +370,9 @@ class ComputerUI(Overlay):
 
                 if self._document is not None:
 
-                    self._document.draw_document(
+                    self._document.draw(
                         screen,
-                        pygame.Rect(
-                            content.x,
-                            content.y,
-                            content.width,
-                            content.height
-                        )
+                        content
                     )
 
                 else:

@@ -44,6 +44,7 @@ class ComputerFilesManager:
             return None
 
         path = PathManager.documents() / info["file"]
+        print(path)
 
         if not path.exists():
             return None

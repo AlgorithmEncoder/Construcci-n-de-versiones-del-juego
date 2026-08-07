@@ -166,24 +166,16 @@ class FileView:
 
         y += 60
 
-        pygame.draw.rect(
-
-            screen,
-
-            (210,210,210),
-
-            self._open,
-
-            border_radius=8
-
+        self._open.topleft = (
+            area.x + 30,
+            y
         )
 
-        self._open.topleft = (
-
-            area.x + 30,
-
-            y
-
+        pygame.draw.rect(
+            screen,
+            (210, 210, 210),
+            self._open,
+            border_radius=8
         )
 
         pygame.draw.rect(
@@ -221,29 +213,7 @@ class FileView:
             )
 
         )
-        print()
-
-        screen.blit(
-
-            small.render(
-
-                "(Disponible próximamente)",
-
-                True,
-
-                styles.TEXT_SECONDARY
-
-            ),
-
-            (
-
-                area.x + 180,
-
-                y + 12
-
-            )
-
-        )
+        
         content_height = (
             y
             - self._scroll.y
@@ -264,6 +234,8 @@ class FileView:
 
         if self._back.collidepoint(pos):
             return "back"
+
+        print(self._file_exists)
 
         if (
             self._file_exists
