@@ -6,6 +6,7 @@ No game logic should be implemented here.
 """
 
 from pathlib import Path
+import sys
 
 GAME_VERSION = "v.1.3.8"
 
@@ -13,7 +14,10 @@ GAME_VERSION = "v.1.3.8"
 # PROJECT PATHS
 # ==========================================================
 
-ROOT_DIR = Path(__file__).resolve().parent.parent
+if getattr(sys, "frozen", False):
+    ROOT_DIR = Path(sys.executable).parent / "_internal"
+else:
+    ROOT_DIR = Path(__file__).resolve().parent.parent
 
 DATA_DIR = ROOT_DIR / "data"
 

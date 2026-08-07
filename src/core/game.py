@@ -580,11 +580,7 @@ class Game:
 
         )
     
-    def _end_loop(self):
-
-        print("Loop finished")
-
-        # De momento solo reiniciamos.
+    def _end_loop(self, data=None):
 
         self._start_transition(
 
