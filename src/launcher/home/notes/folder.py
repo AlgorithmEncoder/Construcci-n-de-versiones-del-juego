@@ -6,7 +6,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 
-from launcher.notes.note import Note
+from launcher.home.notes.note import Note
 
 
 @dataclass

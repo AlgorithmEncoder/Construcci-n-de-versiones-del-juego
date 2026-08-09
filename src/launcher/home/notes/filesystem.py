@@ -4,7 +4,7 @@ Navigation over the notes tree.
 
 from __future__ import annotations
 
-from launcher.notes.folder import Folder
+from launcher.home.notes.folder import Folder
 
 
 class FileSystem:

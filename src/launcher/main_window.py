@@ -16,21 +16,23 @@ from launcher.dream_manager import DreamManager
 
 from launcher.widgets.empty_view import EmptyView
 
-from launcher.views.incursions.incursions_view import (
+from launcher.home.views.incursions.incursions_view import (
     IncursionsView
 )
-from launcher.views.incursions.incursion_detail import IncursionDetail
+from launcher.home.views.incursions.incursion_detail import IncursionDetail
 from launcher import styles
 
-from launcher.notes.notes_manager import NotesManager
-from launcher.views.notes.notes_view import NotesView
+from launcher.home.notes.notes_manager import NotesManager
+from launcher.home.views.notes.notes_view import NotesView
+from launcher.profile.views.activity_view import ActivityView
 
 
 class MainWindow:
 
-    def __init__(self, screen: pygame.Surface):
+    def __init__(self, screen: pygame.Surface, logger):
 
         self._screen = screen
+        self._logger = logger
         
         self._start_requested = None
         self._running = True
@@ -53,7 +55,7 @@ class MainWindow:
             "inventory": EmptyView(),
             "stats": EmptyView(),
             "achievements": EmptyView(),
-            "activity": EmptyView(),
+            "activity": ActivityView(self._logger),
             "general": EmptyView(),
             "audio": EmptyView(),
             "display": EmptyView(),

@@ -25,6 +25,8 @@ MEMORIES_DIR = DATA_DIR / "memories"
 
 ASSETS_DIR = ROOT_DIR / "assets"
 
+GLOBAL_DIR = DATA_DIR / "global"
+
 # ==========================================================
 # WINDOW
 # ==========================================================

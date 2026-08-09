@@ -106,7 +106,7 @@ Ejemplos:
 
 08:02
 
-Ana entra en Archivo
+Laura entra en Archivo
 
 08:05
 

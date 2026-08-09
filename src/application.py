@@ -12,11 +12,11 @@ from core.game import Game
 
 class Application:
 
-    def __init__(self, screen):
+    def __init__(self, screen, logger):
 
         self._screen = screen
 
-        self._launcher = MainWindow(screen)
+        self._launcher = MainWindow(screen, logger)
 
         self._game = None
 

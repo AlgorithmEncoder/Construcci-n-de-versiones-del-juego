@@ -6,10 +6,10 @@ from __future__ import annotations
 
 import pygame
 
-from launcher.views.notes.toolbar import Toolbar
-from launcher.views.notes.breadcrumb import Breadcrumb
-from launcher.views.notes.explorer import Explorer
-from launcher.views.notes.editor import NoteEditor
+from launcher.home.views.notes.toolbar import Toolbar
+from launcher.home.views.notes.breadcrumb import Breadcrumb
+from launcher.home.views.notes.explorer import Explorer
+from launcher.home.views.notes.editor import NoteEditor
 
 from launcher.widgets.input_dialog import InputDialog
 from launcher.widgets.move_dialog import MoveDialog

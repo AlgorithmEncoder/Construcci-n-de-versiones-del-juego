@@ -6,7 +6,7 @@ from __future__ import annotations
 
 import pygame
 
-from launcher.views.incursions.incursion_card import (
+from launcher.home.views.incursions.incursion_card import (
     IncursionCard
 )
 

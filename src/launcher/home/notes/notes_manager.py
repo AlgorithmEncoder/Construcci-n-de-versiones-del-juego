@@ -10,9 +10,9 @@ from pathlib import Path
 
 from constants import ROOT_DIR
 
-from launcher.notes.filesystem import FileSystem
-from launcher.notes.folder import Folder
-from launcher.notes.note import Note
+from launcher.home.notes.filesystem import FileSystem
+from launcher.home.notes.folder import Folder
+from launcher.home.notes.note import Note
 
 
 NOTES_DIR = ROOT_DIR / "assets" / "notes"
