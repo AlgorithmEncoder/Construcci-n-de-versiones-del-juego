@@ -138,7 +138,8 @@
 "plant_shopping_list": {
     "title": "Lista de la compra arrugada",
     "pages": [
-        "El papel estaba medio escondido entre la maceta y la pared.\n\n• Tomates\n• Leche\n• Pan\n• Pasta\n• Yogures\n• Papel de cocina",
+        "Miras en la maceta, pero no ves nada.\nSin embargo, te percatas de un papel escondido entre la maceta y la pared.\nLo coges.",
+        "Lees lo que pone:\n\n• Tomates\n• Leche\n• Pan\n• Pasta\n• Yogures\n• Papel de cocina",
         "En la parte inferior alguien añadió un último recordatorio:\n\n\"Llamar a la abuela.\"\n\nLa letra cambia ligeramente, como si se hubiera escrito con prisa."
     ]
 },

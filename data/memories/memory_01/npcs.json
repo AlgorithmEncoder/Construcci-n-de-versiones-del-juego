@@ -127,7 +127,7 @@
         "name": "Carlos Vega",
         "sprite": "carlos",
         "room": "meeting_room",
-        "dialogue": "carlos_default",
+        "dialogue": "carlos",
         "positions": {
             "meeting_room": [846, 360],
             "hall": [521, 300]

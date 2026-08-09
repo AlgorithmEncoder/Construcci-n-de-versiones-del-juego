@@ -235,8 +235,6 @@ class FileView:
         if self._back.collidepoint(pos):
             return "back"
 
-        print(self._file_exists)
-
         if (
             self._file_exists
             and
