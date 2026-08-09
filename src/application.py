@@ -15,6 +15,8 @@ class Application:
     def __init__(self, screen, logger):
 
         self._screen = screen
+        
+        self._logger = logger
 
         self._launcher = MainWindow(screen, logger)
 
@@ -34,7 +36,8 @@ class Application:
 
                 self._game = Game(
                     self._screen,
-                    self._launcher.start_requested
+                    self._launcher.start_requested,
+                    self._logger
                 )
 
                 self._launcher.clear_requests()
@@ -81,6 +84,8 @@ class Application:
 
         if self._game is None:
             return
+        
+        self._logger.save()
 
         self._launcher.dreams.save_progress(
             self._game.save_data

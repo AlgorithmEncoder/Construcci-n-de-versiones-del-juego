@@ -20,7 +20,9 @@ NOTES_DIR = ROOT_DIR / "assets" / "notes"
 
 class NotesManager:
 
-    def __init__(self):
+    def __init__(self, activity_callback=None):
+        
+        self._activity_callback = activity_callback
 
         self._filesystem = FileSystem()
 
@@ -142,6 +144,10 @@ class NotesManager:
             parents=True,
             exist_ok=True
         )
+        
+        self._register_activity(
+            f"Carpeta de notas creada: {name}"
+        )
 
         return folder
 
@@ -161,6 +167,10 @@ class NotesManager:
         self._path_of(note).write_text(
             "",
             encoding="utf-8"
+        )
+        
+        self._register_activity(
+            f"Nota creada: {name}"
         )
 
         return note
@@ -185,9 +195,15 @@ class NotesManager:
 
             new_path = old_path.parent / f"{new_name}.txt"
 
+        old_name = item.name
+        
         old_path.rename(new_path)
-
+        
         item.name = new_name
+
+        self._register_activity(
+            f"Elemento renombrado: {old_name} → {new_name}"
+        )
 
         return True
 
@@ -206,8 +222,14 @@ class NotesManager:
             else:
 
                 path.unlink()
+        
+        name = item.name
 
         self._filesystem.delete(item)
+        
+        self._register_activity(
+            f"Elemento eliminado: {name}"
+        )
 
     # --------------------------------------------------
 
@@ -232,6 +254,10 @@ class NotesManager:
         self._filesystem.move(
             item,
             destination
+        )
+        
+        self._register_activity(
+            f"Elemento movido: {item.name} → {destination.name}"
         )
 
         return True
@@ -284,6 +310,22 @@ class NotesManager:
             note.text,
             encoding="utf-8"
         )
+        
+        self._register_activity(
+            f"Nota modificada: {note.name}"
+        )
+    
+    def _register_activity(
+        self,
+        message: str
+    ):
+
+        if self._activity_callback:
+
+            self._activity_callback(
+                message,
+                category="notes"
+            )
 
 def onerror(func, path, exc_info):
 

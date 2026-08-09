@@ -107,6 +107,11 @@ class InputManager:
             return
         
         if self._game.renderer.quick_note_button_at(position):
+            
+            self._game.logger.register(
+                "Apertura del creador de nota rápida.",
+                category="notes"
+            )
 
             self._game.ui.open(
 

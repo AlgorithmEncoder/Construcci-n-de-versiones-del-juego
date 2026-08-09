@@ -56,10 +56,12 @@ class Game:
     def __init__(
         self,
         screen: pygame.Surface,
-        memory: str = "memory_01"
+        memory: str,
+        logger
     ):
 
         self._screen = screen
+        self._logger = logger
 
         self._memory_name = memory
         self._iterations = 1
@@ -93,6 +95,11 @@ class Game:
         }
 
         self._load_memory()
+        
+        self._logger.register(
+            f"Inicio de la incursión: {self._memory_name}",
+            category="incursion"
+        )
         
         self._progress = deepcopy(
             self._loader.story["progress"]
@@ -205,6 +212,12 @@ class Game:
         
         if self._is_progress_done() and not self.ui.current_overlay and not self._completed:
             self._completed = True
+            
+            self._logger.register(
+                f"Incursión completada: {self._memory_name}",
+                category="incursion"
+            )
+            
             self._open_ending()
 
     # --------------------------------------------------
@@ -289,6 +302,10 @@ class Game:
     @property
     def finished(self):
         return self._finished
+    
+    @property
+    def logger(self):
+        return self._logger
     
     @property
     def clock(self):
@@ -384,6 +401,11 @@ class Game:
         self._room_manager.change_room(room_id)
 
         self._player.change_room(room_id)
+        
+        self._logger.register(
+            f"Entrada en la habitación: {room_id}",
+            category="exploration"
+        )
     
     
     def _open_document(self, document_id):
@@ -404,6 +426,11 @@ class Game:
     def _finish_open_document(self, document_id):
 
         document = self._loader.documents[document_id]
+        
+        self._logger.register(
+            f"Documento consultado: {document_id}",
+            category="discovery"
+        )
 
         from ui.document import DocumentUI
 
@@ -437,6 +464,11 @@ class Game:
     def _finish_open_computer(self, computer_id):
 
         computer = self._loader.computers[computer_id]
+        
+        self._logger.register(
+            f"Ordenador consultado: {computer_id}",
+            category="interaction"
+        )
 
         from ui.computer import ComputerUI
 
@@ -452,7 +484,9 @@ class Game:
 
                 self._native_height,
                 
-                self.mark_progress
+                self.mark_progress,
+                
+                self._register_activity
 
             )
 
@@ -462,6 +496,11 @@ class Game:
 
         npc = self._npc_manager.get(
             npc_id
+        )
+        
+        self._logger.register(
+            f"Conversación con {npc.name}",
+            category="character"
         )
         
         dialogue = self._npc_manager.get_dialogue(
@@ -490,6 +529,11 @@ class Game:
             handler(action.target)
     
     def _on_detected(self, npc, reason):
+        
+        self._logger.register(
+            f"Detectado por {npc.name}: {reason}",
+            category="detection"
+        )
         
         if reason == "restricted_room":
             npc.current_room = "__hidden__"
@@ -551,6 +595,11 @@ class Game:
         self._ui.close()
 
         warnings = self._player.add_computer_warning()
+        
+        self._logger.register(
+            f"Advertencia del ordenador por {npc.name} ({warnings})",
+            category="detection"
+        )
 
         index = min(warnings - 1, len(COMPUTER_WARNINGS) - 1)
 
@@ -616,7 +665,27 @@ class Game:
         if element_id not in self._progress:
             return
 
+        if self._progress[element_id]:
+            return
+
         self._progress[element_id] = True
+
+        self._logger.register(
+            f"Elemento descubierto: {element_id}",
+            category="discovery"
+        )
+    
+    def _register_activity(
+        self,
+        message: str,
+        *,
+        category: str = "general"
+    ):
+
+        self._logger.register(
+            message,
+            category=category
+        )
     
     def _is_progress_done(self):
         
@@ -677,6 +746,11 @@ class Game:
     def reset(self):
         
         self._iterations += 1
+        
+        self._logger.register(
+            f"La memoria se ha reiniciado. Iteración {self._iterations}.",
+            category="incursion"
+        )
 
         # Reiniciar reloj
 
@@ -713,5 +787,11 @@ class Game:
         self._show_objective()
     
     def exit_dream(self):
+
+        self._logger.register(
+            f"Abandono de la incursión '{self._memory_name}' "
+            f"en la iteración {self._iterations}.",
+            category="incursion"
+        )
 
         self._finished = True

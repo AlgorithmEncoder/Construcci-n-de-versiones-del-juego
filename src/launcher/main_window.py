@@ -46,7 +46,7 @@ class MainWindow:
 
         self._dreams = DreamManager()
         self._dreams.load()
-        self._notes = NotesManager()
+        self._notes = NotesManager(self._logger)
         self._notes_view = NotesView(self)
         
         self._sections = {

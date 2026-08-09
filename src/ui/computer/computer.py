@@ -33,7 +33,8 @@ class ComputerUI(Overlay):
         files_manager,
         world_width: int,
         world_height: int,
-        progress_callback=None
+        progress_callback=None,
+        activity_callback=None
     ):
 
         super().__init__(
@@ -66,6 +67,7 @@ class ComputerUI(Overlay):
         self._document = None
         
         self._progress_callback = progress_callback
+        self._activity_callback = activity_callback
 
     # ==================================================
     # Events
@@ -153,6 +155,13 @@ class ComputerUI(Overlay):
                         self._progress_callback(
                             emails[index]["id"]
                         )
+                    
+                    if self._activity_callback:
+
+                        self._activity_callback(
+                            f"Email consultado: {emails[index]['id']}",
+                            category="discovery"
+                        )
 
                     return True
 
@@ -188,6 +197,13 @@ class ComputerUI(Overlay):
 
                         self._progress_callback(
                             chats[index]["id"]
+                        )
+                    
+                    if self._activity_callback:
+
+                        self._activity_callback(
+                            f"Chat consultado: {chats[index]['id']}",
+                            category="discovery"
                         )
 
                     return True
@@ -247,6 +263,13 @@ class ComputerUI(Overlay):
                     if path is not None:
 
                         self._document = DocumentViewer.create(path)
+                        
+                        if self._activity_callback:
+
+                            self._activity_callback(
+                                f"Archivo consultado: {file['document_id']}",
+                                category="discovery"
+                            )
 
 
                     return True
