@@ -52,6 +52,7 @@ def main():
                 if event.type == pygame.QUIT:
                     
                     logger.save()
+                    app._save_data()
 
                     running = False
 
@@ -68,6 +69,7 @@ def main():
     except Exception:
 
         logger.save()
+        app._save_data()
 
         raise
 

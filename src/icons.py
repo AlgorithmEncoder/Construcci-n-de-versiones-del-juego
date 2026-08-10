@@ -844,3 +844,37 @@ def draw_iterations(
             (rect.right - 7, rect.centery + 1),
         ],
     )
+
+def draw_chevron_down(
+    surface: pygame.Surface,
+    rect: pygame.Rect,
+    colour,
+):
+
+    pygame.draw.line(
+        surface,
+        colour,
+        (
+            rect.left + 3,
+            rect.centery - 2
+        ),
+        (
+            rect.centerx,
+            rect.centery + 3
+        ),
+        LINE_WIDTH,
+    )
+
+    pygame.draw.line(
+        surface,
+        colour,
+        (
+            rect.centerx,
+            rect.centery + 3
+        ),
+        (
+            rect.right - 3,
+            rect.centery - 2
+        ),
+        LINE_WIDTH,
+    )

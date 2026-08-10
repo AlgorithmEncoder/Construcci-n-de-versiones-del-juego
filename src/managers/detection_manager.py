@@ -8,7 +8,8 @@ class DetectionManager:
         npc_manager,
         player,
         ui,
-        on_detected
+        on_detected,
+        stats
     ):
 
         self._rooms = room_manager
@@ -16,6 +17,7 @@ class DetectionManager:
         self._player = player
         self._ui = ui
         self._callback = on_detected
+        self._stats = stats
     
     def update(self):
 
@@ -27,6 +29,8 @@ class DetectionManager:
 
             # Guardia
             if npc.alert:
+                
+                self._stats.add_detection("alert")
 
                 self._callback(
                     npc,
@@ -37,6 +41,8 @@ class DetectionManager:
 
             # Zona restringida
             if self._rooms.restricted:
+                
+                self._stats.add_detection("restricted_room")
 
                 self._callback(
                     npc,
@@ -47,6 +53,8 @@ class DetectionManager:
             
             # Ordenador bloqueado
             if isinstance(self._ui.current_overlay, ComputerUI):
+                
+                self._stats.add_detection("computer_block")
                 
                 self._callback(
                     npc,

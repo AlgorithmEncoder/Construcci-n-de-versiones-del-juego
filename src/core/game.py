@@ -30,6 +30,7 @@ from managers.detection_manager import DetectionManager
 from managers.player_manager import PlayerManager
 from managers.path_manager import PathManager
 from managers.computer_files_manager import ComputerFilesManager
+from managers.stats_manager import StatsManager
 
 from ui.transition import TransitionUI
 from ui.dialogue import DialogueUI
@@ -75,6 +76,7 @@ class Game:
         self._renderer = None
         self._object_manager = None
         self._input = None
+        self._stats = None
         
         self._scale = (1.0, 1.0)
         
@@ -107,10 +109,17 @@ class Game:
         self._completed = self._loader.story["finished"]
         
         PathManager.set_memory(self._memory_name)
+        PathManager.set_language("es")
 
         self._create_managers()
         
         self._render_state = RenderState()
+        
+        self._stats.ensure_discoveries(
+            self._loader.documents,
+            self._loader.computers
+        )
+        self._stats.register_incursion()
         
         self._show_objective()
 
@@ -127,6 +136,10 @@ class Game:
     # --------------------------------------------------
 
     def _create_managers(self):
+        
+        self._stats = StatsManager(
+            self._memory_name
+        )
 
         self._clock = GameClock(
             start_hour = 8,
@@ -166,7 +179,8 @@ class Game:
             self._npc_manager,
             self._player,
             self._ui,
-            self._on_detected
+            self._on_detected,
+            self._stats
         )
 
         self._event_manager = EventManager(
@@ -374,6 +388,10 @@ class Game:
         return self._renderer
     
     @property
+    def stats(self):
+        return self._stats
+    
+    @property
     def save_data(self):
 
         return {
@@ -402,6 +420,8 @@ class Game:
 
         self._player.change_room(room_id)
         
+        self._stats.register_room_visit()
+        
         self._logger.register(
             f"Entrada en la habitación: {room_id}",
             category="exploration"
@@ -426,6 +446,9 @@ class Game:
     def _finish_open_document(self, document_id):
 
         document = self._loader.documents[document_id]
+        
+        self._stats.register_document_opened()
+        self._stats.register_discovery(document_id)
         
         self._logger.register(
             f"Documento consultado: {document_id}",
@@ -465,6 +488,9 @@ class Game:
 
         computer = self._loader.computers[computer_id]
         
+        self._stats.register_computer_opened()
+        self._stats.register_discovery(computer_id)
+        
         self._logger.register(
             f"Ordenador consultado: {computer_id}",
             category="interaction"
@@ -484,6 +510,8 @@ class Game:
 
                 self._native_height,
                 
+                self._stats,
+                
                 self.mark_progress,
                 
                 self._register_activity
@@ -497,6 +525,8 @@ class Game:
         npc = self._npc_manager.get(
             npc_id
         )
+        
+        self._stats.register_npc_talked_to()
         
         self._logger.register(
             f"Conversación con {npc.name}",

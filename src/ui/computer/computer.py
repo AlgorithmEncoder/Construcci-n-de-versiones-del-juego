@@ -33,6 +33,7 @@ class ComputerUI(Overlay):
         files_manager,
         world_width: int,
         world_height: int,
+        stats,
         progress_callback=None,
         activity_callback=None
     ):
@@ -66,6 +67,7 @@ class ComputerUI(Overlay):
         self._files = files_manager
         self._document = None
         
+        self._stats = stats
         self._progress_callback = progress_callback
         self._activity_callback = activity_callback
 
@@ -149,17 +151,21 @@ class ComputerUI(Overlay):
                 if index is not None:
 
                     self._selected_email = index
+                    email_id = emails[index]["id"]
+                    
+                    self._stats.register_email_read()
+                    self._stats.register_discovery(email_id)
                     
                     if self._progress_callback:
 
                         self._progress_callback(
-                            emails[index]["id"]
+                            email_id
                         )
                     
                     if self._activity_callback:
 
                         self._activity_callback(
-                            f"Email consultado: {emails[index]['id']}",
+                            f"Email consultado: {email_id}",
                             category="discovery"
                         )
 
@@ -192,17 +198,21 @@ class ComputerUI(Overlay):
                 if index is not None:
 
                     self._selected_chat = index
+                    chat_id = chats[index]["id"]
+                    
+                    self._stats.register_chat_read()
+                    self._stats.register_discovery(chat_id)
                     
                     if self._progress_callback:
 
                         self._progress_callback(
-                            chats[index]["id"]
+                            chat_id
                         )
                     
                     if self._activity_callback:
 
                         self._activity_callback(
-                            f"Chat consultado: {chats[index]['id']}",
+                            f"Chat consultado: {chat_id}",
                             category="discovery"
                         )
 
@@ -255,19 +265,23 @@ class ComputerUI(Overlay):
                 elif action == "open":
 
                     file = files[self._selected_file]
+                    file_id = file["document_id"]
 
                     path = self._files.path(
-                        file["document_id"]
+                        file_id
                     )
 
                     if path is not None:
 
                         self._document = DocumentViewer.create(path)
                         
+                        self._stats.register_file_opened()
+                        self._stats.register_discovery(file_id)
+                        
                         if self._activity_callback:
 
                             self._activity_callback(
-                                f"Archivo consultado: {file['document_id']}",
+                                f"Archivo consultado: {file_id}",
                                 category="discovery"
                             )
 

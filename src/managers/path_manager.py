@@ -6,6 +6,11 @@ from constants import MEMORIES_DIR
 class PathManager:
 
     _memory = None
+    _lang = None
+
+    # ==================================================
+    # Context
+    # ==================================================
 
     @classmethod
     def set_memory(cls, memory: str):
@@ -13,31 +18,71 @@ class PathManager:
         cls._memory = memory
 
     @classmethod
-    def assets(cls) -> Path:
+    def set_language(cls, language: str):
 
-        return MEMORIES_DIR / cls._memory / "assets"
+        cls._lang = language
+
+    # ==================================================
+    # Shared assets
+    # ==================================================
 
     @classmethod
-    def rooms(cls):
+    def assets(cls) -> Path:
+
+        return (
+            MEMORIES_DIR
+            / cls._memory
+            / "assets"
+        )
+
+    @classmethod
+    def rooms(cls) -> Path:
 
         return cls.assets() / "rooms"
 
     @classmethod
-    def npcs(cls):
+    def npcs(cls) -> Path:
 
         return cls.assets() / "npcs"
 
     @classmethod
-    def ui(cls):
+    def ui(cls) -> Path:
 
         return cls.assets() / "ui"
 
-    @classmethod
-    def documents(cls):
+    # ==================================================
+    # Language-dependent assets
+    # ==================================================
 
-        return cls.assets() / "documents"
-    
     @classmethod
-    def json_folder(cls):
-        
-        return MEMORIES_DIR / cls._memory
+    def documents(cls) -> Path:
+
+        return (
+            MEMORIES_DIR
+            / cls._memory
+            / "locales"
+            / cls._lang
+            / "documents"
+        )
+
+    # ==================================================
+    # JSON
+    # ==================================================
+
+    @classmethod
+    def json_folder(cls) -> Path:
+
+        return (
+            MEMORIES_DIR
+            / cls._memory
+        )
+
+    @classmethod
+    def local_json_folder(cls) -> Path:
+
+        return (
+            MEMORIES_DIR
+            / cls._memory
+            / "locales"
+            / cls._lang
+        )

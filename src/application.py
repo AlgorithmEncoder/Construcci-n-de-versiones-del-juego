@@ -86,7 +86,12 @@ class Application:
             return
         
         self._logger.save()
+        
+        story_data = self._game.save_data
 
         self._launcher.dreams.save_progress(
-            self._game.save_data
+            story_data
         )
+        
+        self._game.stats.save_stats(story_data)
+        

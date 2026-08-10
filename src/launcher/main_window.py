@@ -25,6 +25,9 @@ from launcher import styles
 from launcher.home.notes.notes_manager import NotesManager
 from launcher.home.views.notes.notes_view import NotesView
 from launcher.profile.views.activity_view import ActivityView
+from launcher.profile.views.stats_view import StatsView
+
+from launcher.profile.stats.stats_manager import StatsManager
 
 
 class MainWindow:
@@ -53,7 +56,7 @@ class MainWindow:
             "incursions": IncursionsView(self),
             "notes": self._notes_view,
             "inventory": EmptyView(),
-            "stats": EmptyView(),
+            "stats": StatsView(StatsManager()),
             "achievements": EmptyView(),
             "activity": ActivityView(self._logger),
             "general": EmptyView(),
