@@ -95,3 +95,8 @@ class Application:
         
         self._game.stats.save_stats(story_data)
         
+        self._launcher._achievements.check_memory(
+            self._game.stats._stats
+        )
+
+        self._launcher._achievements.check()

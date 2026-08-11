@@ -26,8 +26,10 @@ from launcher.home.notes.notes_manager import NotesManager
 from launcher.home.views.notes.notes_view import NotesView
 from launcher.profile.views.activity_view import ActivityView
 from launcher.profile.views.stats_view import StatsView
+from launcher.profile.views.achievements_view import AchievementsView
 
 from launcher.profile.stats.stats_manager import StatsManager
+from launcher.profile.achievements.achievement import AchievementsManager
 
 
 class MainWindow:
@@ -52,12 +54,15 @@ class MainWindow:
         self._notes = NotesManager(self._logger)
         self._notes_view = NotesView(self)
         
+        self._stats = StatsManager()
+        self._achievements = AchievementsManager( self._stats )
+        
         self._sections = {
             "incursions": IncursionsView(self),
             "notes": self._notes_view,
             "inventory": EmptyView(),
-            "stats": StatsView(StatsManager()),
-            "achievements": EmptyView(),
+            "stats": StatsView(self._stats),
+            "achievements": AchievementsView(self._achievements),
             "activity": ActivityView(self._logger),
             "general": EmptyView(),
             "audio": EmptyView(),
@@ -293,6 +298,7 @@ class MainWindow:
         
         self._dreams.load()
         self._notes.load()
+        self._achievements.load()
         
         # Refresh views
         for view in self._sections.values():

@@ -58,3 +58,36 @@ src/
 documents/
 
 test/
+
+
+## Nueva estructura de memoria:
+memory_X/
+│
+├── assets/                    ← COMPARTIDO
+│   ├── rooms/
+│   ├── npcs/
+│   ├── ui/
+│   └── ...
+│
+├── metadata.json              ← COMPARTIDO
+├── rooms.json                 ← COMPARTIDO
+├── objects.json               ← COMPARTIDO
+├── npcs.json                  ← COMPARTIDO
+├── events.json                ← COMPARTIDO
+│
+└── locales/
+    ├── es/
+    │   ├── story.json
+    │   ├── dialogues.json
+    │   ├── computers.json
+    │   ├── documents.json
+    │   ├── files.json
+    │   └── documents/
+    │
+    └── en/
+        ├── story.json
+        ├── dialogues.json
+        ├── computers.json
+        ├── documents.json
+        ├── files.json
+        └── documents/

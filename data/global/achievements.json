@@ -1,0 +1,254 @@
+{
+    "first_incursion": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "first_discovery": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "first_document": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "first_computer": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "first_email": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "first_chat": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "first_file": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "first_dialogue": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "first_detection": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "first_memory_completed": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "explorer_10": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "explorer_25": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "explorer_50": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "explorer_100": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "explorer_250": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "document_collector_10": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "document_collector_25": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "document_collector_50": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "document_collector_100": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "document_collector_250": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "computer_user_10": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "computer_user_25": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "computer_user_50": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "computer_user_100": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "computer_user_250": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "email_reader_10": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "email_reader_25": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "email_reader_50": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "email_reader_100": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "email_reader_250": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "chat_reader_10": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "chat_reader_25": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "chat_reader_50": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "chat_reader_100": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "chat_reader_250": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "file_reader_10": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "file_reader_25": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "file_reader_50": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "file_reader_100": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "file_reader_250": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "detected_1": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "detected_5": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "detected_10": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "detected_25": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "detected_50": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "detected_100": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "iterations_10": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "iterations_25": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "iterations_50": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "iterations_100": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "iterations_250": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "iterations_500": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "incursions_5": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "incursions_10": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "incursions_25": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "incursions_50": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "incursions_100": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "social_10": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "memories_completed_1": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "memories_completed_2": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "memories_completed_5": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "memories_completed_10": {
+        "unlocked": false,
+        "unlocked_at": null
+    },
+    "all_memories_completed": {
+        "unlocked": false,
+        "unlocked_at": null
+    }
+}
