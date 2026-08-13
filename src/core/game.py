@@ -58,11 +58,13 @@ class Game:
         self,
         screen: pygame.Surface,
         memory: str,
-        logger
+        logger,
+        settings_manager
     ):
 
         self._screen = screen
         self._logger = logger
+        self._settings = settings_manager
 
         self._memory_name = memory
         self._iterations = 1
@@ -818,6 +820,24 @@ class Game:
     
     def exit_dream(self):
 
+        if self._confirm_exit():
+
+            # Mostrar confirmación
+            from ui.confirm import ConfirmUI
+            self._ui.open(
+                ConfirmUI(
+                    title="Abandonar incursión",
+                    message="¿Seguro que quieres abandonar la incursión?",
+                    on_confirm=self._finish_exit_dream,
+                    world_width=self.native_width,
+                    world_height=self.native_height
+                )
+            )
+            return
+        self._finish_exit_dream()
+    
+    def _finish_exit_dream(self):
+
         self._logger.register(
             f"Abandono de la incursión '{self._memory_name}' "
             f"en la iteración {self._iterations}.",
@@ -825,3 +845,14 @@ class Game:
         )
 
         self._finished = True
+    
+    def _confirm_exit(self):
+        """
+        Returns whether the player has confirmed leaving
+        the current dream.
+        """
+
+        return self._settings.get("general").get(
+            "confirm_exit",
+            True
+        )

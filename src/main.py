@@ -12,6 +12,7 @@ from constants import (
 )
 
 from ui.fonts import Fonts
+from launcher.fonts import Fonts as launcher_fonts
 from application import Application
 from logger import Logger
 
@@ -21,6 +22,7 @@ def main():
     pygame.init()
 
     Fonts.initialize()
+    launcher_fonts.initialize()
     
     info = pygame.display.Info()
 

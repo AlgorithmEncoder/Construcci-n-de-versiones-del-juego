@@ -27,9 +27,11 @@ from launcher.home.views.notes.notes_view import NotesView
 from launcher.profile.views.activity_view import ActivityView
 from launcher.profile.views.stats_view import StatsView
 from launcher.profile.views.achievements_view import AchievementsView
+from launcher.settings.views.general import GeneralView
 
 from launcher.profile.stats.stats_manager import StatsManager
 from launcher.profile.achievements.achievement import AchievementsManager
+from launcher.settings.settings_manager import SettingsManager
 
 
 class MainWindow:
@@ -56,6 +58,7 @@ class MainWindow:
         
         self._stats = StatsManager()
         self._achievements = AchievementsManager( self._stats )
+        self._settings = SettingsManager()
         
         self._sections = {
             "incursions": IncursionsView(self),
@@ -64,7 +67,7 @@ class MainWindow:
             "stats": StatsView(self._stats),
             "achievements": AchievementsView(self._achievements),
             "activity": ActivityView(self._logger),
-            "general": EmptyView(),
+            "general": GeneralView(self._settings),
             "audio": EmptyView(),
             "display": EmptyView(),
             "language": EmptyView(),
@@ -221,6 +224,10 @@ class MainWindow:
         return handled
     
     def _change_section(self, section):
+        
+        current_view = self._workspace.current
+        if hasattr(current_view, "save"):
+            current_view.save()
 
         valid_sections = {
             key

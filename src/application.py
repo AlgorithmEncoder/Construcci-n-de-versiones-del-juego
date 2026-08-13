@@ -37,7 +37,8 @@ class Application:
                 self._game = Game(
                     self._screen,
                     self._launcher.start_requested,
-                    self._logger
+                    self._logger,
+                    self._launcher._settings
                 )
 
                 self._launcher.clear_requests()
@@ -81,6 +82,11 @@ class Application:
     # --------------------------------------------------
     
     def _save_data(self):
+        
+        current_view = self._launcher._workspace.current
+        if hasattr(current_view, "save"):
+            current_view.save()
+        self._launcher._settings.save()
 
         if self._game is None:
             return
