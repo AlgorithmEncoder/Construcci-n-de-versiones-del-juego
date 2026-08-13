@@ -1,0 +1,42 @@
+{
+    "general": {
+        "confirm_exit": false
+    },
+    "display": {
+        "resolution": [
+            1536,
+            1024
+        ],
+        "fullscreen": false,
+        "vsync": true,
+        "scale_ui": 1.0,
+        "launcher_theme": "default",
+        "game_theme": "default",
+        "computer_theme": "default"
+    },
+    "audio": {
+        "master_volume": 1.0,
+        "music_volume": 1.0,
+        "effects_volume": 1.0,
+        "dialogue_volume": 1.0,
+        "music_enabled": true,
+        "effects_enabled": true,
+        "dialogue_enabled": true
+    },
+    "language": {
+        "launcher_interface": "es",
+        "game_interface": "es",
+        "documents": "es",
+        "story": "es",
+        "dialogues": "es",
+        "computer_messages": "es",
+        "computer_files": "es"
+    },
+    "accessibility": {
+        "text_size": 1.0,
+        "high_contrast": false,
+        "reduce_motion": false,
+        "dialogue_typing": true,
+        "dialogue_typing_speed": 40
+    }
+}

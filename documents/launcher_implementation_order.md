@@ -51,5 +51,39 @@
     └── vista
 
 ## Fase 5 (Ajustes)
+CONFIGURACIÓN
 
-## Fase 6 (Inventario)
+├── 5.1 General
+│   ├── Confirmaciones
+│   ├── Avisos
+│   └── Comportamiento del launcher
+│
+├── 5.2 Display
+│   ├── Resolución
+│   ├── Pantalla completa
+│   ├── Modo ventana
+│   └── Ajustar a pantalla
+│
+├── 5.3 Audio
+│   ├── Volumen general
+│   ├── Música
+│   ├── Efectos
+│   └── Diálogos
+│
+├── 5.4 Idioma
+│   └── Idioma
+│
+├── 5.5 Accesibilidad
+│   ├── Tamaño de texto
+│   ├── Animación de escritura
+│   └── Velocidad del texto
+│
+└── 5.6 Apariencia
+    ├── Tema del launcher
+    ├── Tema del juego
+    └── Contraste
+Orden: json, manager, integration, sections
+
+## Fase 6 (Sonido)
+
+## Fase 7 (Inventario)
