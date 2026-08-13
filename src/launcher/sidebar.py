@@ -39,8 +39,8 @@ class Sidebar:
 
         "settings": [
             ("general", "General"),
-            ("audio", "Audio"),
             ("display", "Pantalla"),
+            ("audio", "Audio"),
             ("language", "Idioma"),
         ],
     }
@@ -63,8 +63,8 @@ class Sidebar:
             "activity": draw_activity,
 
             "general": draw_settings,
-            "audio": draw_audio,
             "display": draw_display,
+            "audio": draw_audio,
             "language": draw_language,
         }
 

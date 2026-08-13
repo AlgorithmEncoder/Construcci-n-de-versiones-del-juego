@@ -21,12 +21,21 @@ class Application:
         self._launcher = MainWindow(screen, logger)
 
         self._game = None
+        
+        self._applied_resolution = (
+            self._screen.get_width(),
+            self._screen.get_height()
+        )
+        
+        self._display_state = None
 
     # ==================================================
     # Public API
     # ==================================================
 
     def update(self, dt):
+        
+        self._apply_display_settings()
 
         if self._game is None:
 
@@ -78,6 +87,96 @@ class Application:
         else:
 
             self._game.handle_event(event)
+    
+    # --------------------------------------------------
+    
+    def _apply_display_settings(self):
+
+        settings = self._launcher.display_settings
+
+        resolution = settings.get(
+            "resolution",
+            [1536, 1024]
+        )
+
+        fullscreen = bool(
+            settings.get(
+                "fullscreen",
+                False
+            )
+        )
+
+        vsync = bool(
+            settings.get(
+                "vsync",
+                True
+            )
+        )
+
+        # --------------------------------------------------
+        # Effective resolution
+        # --------------------------------------------------
+
+        if fullscreen:
+
+            info = pygame.display.Info()
+
+            width = info.current_w
+            height = info.current_h
+
+        else:
+
+            width = int(resolution[0])
+            height = int(resolution[1])
+
+        # --------------------------------------------------
+        # Check whether anything changed
+        # --------------------------------------------------
+
+        state = (
+            width,
+            height,
+            fullscreen,
+            vsync
+        )
+
+        if state == self._display_state:
+            return
+
+        # --------------------------------------------------
+        # Window flags
+        # --------------------------------------------------
+
+        flags = pygame.RESIZABLE
+
+        if fullscreen:
+            flags |= pygame.FULLSCREEN
+
+        # --------------------------------------------------
+        # Recreate display
+        # --------------------------------------------------
+
+        self._screen = pygame.display.set_mode(
+            (width, height),
+            flags,
+            vsync=1 if vsync else 0
+        )
+
+        # --------------------------------------------------
+        # Propagate new Surface
+        # --------------------------------------------------
+
+        self._launcher.set_screen(
+            self._screen
+        )
+
+        if self._game is not None:
+
+            self._game.set_screen(
+                self._screen
+            )
+
+        self._display_state = state
     
     # --------------------------------------------------
     

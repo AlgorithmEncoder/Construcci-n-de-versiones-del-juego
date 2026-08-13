@@ -28,6 +28,7 @@ from launcher.profile.views.activity_view import ActivityView
 from launcher.profile.views.stats_view import StatsView
 from launcher.profile.views.achievements_view import AchievementsView
 from launcher.settings.views.general import GeneralView
+from launcher.settings.views.display import DisplayView
 
 from launcher.profile.stats.stats_manager import StatsManager
 from launcher.profile.achievements.achievement import AchievementsManager
@@ -68,8 +69,8 @@ class MainWindow:
             "achievements": AchievementsView(self._achievements),
             "activity": ActivityView(self._logger),
             "general": GeneralView(self._settings),
+            "display": DisplayView(self._settings),
             "audio": EmptyView(),
-            "display": EmptyView(),
             "language": EmptyView(),
         }
         
@@ -82,32 +83,63 @@ class MainWindow:
 
         self._start_requested = None
         
+        self._calculate_layout()
+    
+    # --------------------------------------------------
+
+    def _calculate_layout(self):
+
+        width = self._screen.get_width()
+        height = self._screen.get_height()
+
+        # ==================================================
+        # Header
+        # ==================================================
+
         self._header_rect = pygame.Rect(
             0,
             0,
-            self._screen.get_width(),
+            width,
             styles.HEADER_HEIGHT
         )
 
+        # ==================================================
+        # Footer
+        # ==================================================
+
         self._footer_rect = pygame.Rect(
             0,
-            self._screen.get_height() - styles.FOOTER_HEIGHT,
-            self._screen.get_width(),
+            height - styles.FOOTER_HEIGHT,
+            width,
             styles.FOOTER_HEIGHT
+        )
+
+        # ==================================================
+        # Sidebar
+        # ==================================================
+
+        content_height = (
+            height
+            - styles.HEADER_HEIGHT
+            - styles.FOOTER_HEIGHT
         )
 
         self._sidebar_rect = pygame.Rect(
             0,
             styles.HEADER_HEIGHT,
             styles.SIDEBAR_WIDTH,
-            self._screen.get_height() - styles.HEADER_HEIGHT - styles.FOOTER_HEIGHT
+            content_height
         )
+
+        # ==================================================
+        # Workspace
+        # ==================================================
 
         self._workspace_rect = pygame.Rect(
             styles.SIDEBAR_WIDTH,
             styles.HEADER_HEIGHT,
-            self._screen.get_width() - styles.SIDEBAR_WIDTH,
-            self._screen.get_height() - styles.HEADER_HEIGHT - styles.FOOTER_HEIGHT
+            width - styles.SIDEBAR_WIDTH,
+            content_height
         )
 
     # --------------------------------------------------
@@ -290,6 +322,10 @@ class MainWindow:
     @property
     def start_requested(self):
         return self._start_requested
+    
+    @property
+    def display_settings(self):
+        return self._sections["display"].settings
 
     # --------------------------------------------------
 
@@ -317,3 +353,17 @@ class MainWindow:
         current_view = self._workspace.current
         if hasattr(current_view, "refresh"):
             current_view.refresh()
+    
+    def set_screen(self, screen):
+
+        self._screen = screen
+        self._calculate_layout()
+
+        current_view = self._workspace.current
+
+        if hasattr(current_view, "on_resize"):
+            current_view.on_resize(
+                self._workspace_rect
+            )
+        
+        self._sidebar.update(self._sidebar_rect)

@@ -35,6 +35,9 @@ class BaseView:
     TITLE_FONT_OFFSET = 48
 
     PANEL_RADIUS = 8
+    
+    # Scroll
+    SCROLL_SPEED = 45
 
     # ==================================================
     # Construction
@@ -70,6 +73,13 @@ class BaseView:
             0,
             0
         )
+        
+        # --------------------------------------------------
+        # Scroll state
+        # --------------------------------------------------
+
+        self._scroll_y = 0
+        self._content_height = 0
 
     # ==================================================
     # Public API
@@ -92,15 +102,25 @@ class BaseView:
         event
     ):
         """
-        Handles an input event.
-
-        Individual views should override this method.
+        Handles common view events.
 
         Returns
         -------
         bool
             True if the event was handled.
         """
+
+        if event.type == pygame.MOUSEWHEEL:
+
+            mouse_pos = pygame.mouse.get_pos()
+
+            if self._content_rect.collidepoint(mouse_pos):
+
+                self._scroll(
+                    -event.y * self.SCROLL_SPEED
+                )
+
+                return True
 
         return False
 
@@ -129,8 +149,6 @@ class BaseView:
 
             rect = screen.get_rect()
 
-        self._content_rect = rect
-
         self._draw_background(
             screen,
             rect
@@ -141,9 +159,30 @@ class BaseView:
             rect
         )
 
-        self._draw_content(
+        content_rect = self._set_content_rect(
             screen,
             rect
+        )
+
+        # --------------------------------------------------
+        # Determine content height
+        # --------------------------------------------------
+
+        self._content_height = (
+            self._get_content_height(
+                content_rect
+            )
+        )
+
+        self._clamp_scroll()
+
+        # --------------------------------------------------
+        # Draw content
+        # --------------------------------------------------
+
+        self._draw_content_clipped(
+            screen,
+            content_rect
         )
 
     # --------------------------------------------------
@@ -175,6 +214,138 @@ class BaseView:
                 self._section
             )
         )
+        
+        self._scroll_y = 0
+        self._content_height = 0
+    
+    # ==================================================
+    # Scrolling
+    # ==================================================
+
+    def _scroll(
+        self,
+        amount: int
+    ):
+        """
+        Moves the content vertically.
+        """
+
+        self._scroll_y += amount
+
+        self._clamp_scroll()
+
+    # --------------------------------------------------
+
+    def _clamp_scroll(self):
+        """
+        Keeps the scroll position inside the available
+        content range.
+        """
+
+        visible_height = self._content_rect.height
+
+        maximum = max(
+            0,
+            self._content_height -
+            visible_height
+        )
+
+        self._scroll_y = max(
+            0,
+            min(
+                self._scroll_y,
+                maximum
+            )
+        )
+
+    # --------------------------------------------------
+
+    def _get_content_height(
+        self,
+        rect
+    ):
+        """
+        Returns the total height required by the section.
+
+        Individual views can override this when their
+        content is larger than the visible area.
+        """
+
+        return rect.height
+
+    # --------------------------------------------------
+
+    def _draw_content_clipped(
+        self,
+        screen,
+        rect
+    ):
+        """
+        Draws section content inside the visible viewport.
+
+        The content is rendered onto an intermediate surface,
+        allowing it to be clipped cleanly by the viewport.
+        """
+
+        surface = pygame.Surface(
+            (
+                rect.width,
+                max(
+                    rect.height,
+                    self._content_height
+                )
+            ),
+            pygame.SRCALPHA
+        )
+
+        surface.fill(
+            (0, 0, 0, 0)
+        )
+
+        content_rect = pygame.Rect(
+            0,
+            0,
+            rect.width,
+            max(
+                rect.height,
+                self._content_height
+            )
+        )
+
+        self._draw_content(
+            surface,
+            content_rect
+        )
+
+        # Visible portion of the content.
+        source_rect = pygame.Rect(
+            0,
+            self._scroll_y,
+            rect.width,
+            rect.height
+        )
+
+        screen.blit(
+            surface,
+            rect.topleft,
+            source_rect
+        )
+
+    # --------------------------------------------------
+
+    def _content_y(
+        self,
+        y: int
+    ) -> int:
+        """
+        Converts a content-space Y coordinate into the
+        visible screen-space coordinate.
+
+        Useful for views that need to register interactive
+        rectangles manually.
+        """
+
+        return y - self._scroll_y
 
     # ==================================================
     # Drawing
@@ -496,3 +667,17 @@ class BaseView:
         """
 
         return self._content_rect
+    
+    # --------------------------------------------------
+
+    @property
+    def scroll_y(self) -> int:
+        """
+        Returns the current vertical scroll position.
+        """
+
+        return self._scroll_y
+    
+    def on_resize(self, rect):
+
+        self._content_rect = rect

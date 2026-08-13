@@ -856,3 +856,9 @@ class Game:
             "confirm_exit",
             True
         )
+    
+    def set_screen(self, screen):
+
+        self._screen = screen
+
+        self._calculate_viewport()

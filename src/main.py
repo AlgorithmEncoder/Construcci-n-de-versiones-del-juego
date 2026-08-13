@@ -5,8 +5,6 @@ Application entry point.
 import pygame
 
 from constants import (
-    SCREEN_WIDTH,
-    SCREEN_HEIGHT,
     WINDOW_TITLE,
     FPS,
 )

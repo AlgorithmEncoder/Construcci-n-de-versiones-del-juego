@@ -111,7 +111,7 @@ class GeneralView(BaseView):
 
         self._rows.clear()
 
-        y = rect.y + 90
+        y = rect.y + 10
 
         # ==================================================
         # Settings
