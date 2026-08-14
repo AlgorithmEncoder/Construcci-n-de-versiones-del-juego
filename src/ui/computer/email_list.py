@@ -101,7 +101,7 @@ class EmailList:
 
             pygame.draw.rect(
                 screen,
-                (248, 248, 248),
+                styles.PANEL,
                 draw_rect,
                 border_radius=8
             )

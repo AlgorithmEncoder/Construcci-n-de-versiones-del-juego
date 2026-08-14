@@ -141,7 +141,7 @@ class ChatView:
                     height
                 )
 
-                colour = (235,235,235)
+                colour = styles.PANEL
 
             else:
 
@@ -152,7 +152,7 @@ class ChatView:
                     height
                 )
 
-                colour = (205,225,255)
+                colour = styles.PANEL
 
             pygame.draw.rect(
                 screen,

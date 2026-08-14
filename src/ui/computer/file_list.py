@@ -98,7 +98,7 @@ class FileList:
 
                 screen,
 
-                (248, 248, 248),
+                styles.PANEL,
 
                 draw_rect,
 

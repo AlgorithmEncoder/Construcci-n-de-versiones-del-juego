@@ -64,7 +64,7 @@ class Sidebar:
         title = Fonts.small.render(
             "WORKSTATION",
             True,
-            (185, 190, 198)
+            styles.TEXT_SECONDARY
         )
 
         screen.blit(
@@ -78,7 +78,7 @@ class Sidebar:
         # Línea decorativa
         pygame.draw.line(
             screen,
-            (82, 87, 96),
+            styles.DIVIDER,
             (sidebar.x + 20, sidebar.y + 48),
             (sidebar.right - 20, sidebar.y + 48),
             1
@@ -103,7 +103,7 @@ class Sidebar:
                 label,
                 key == current
             )
-            
+
             icon_rect = pygame.Rect(
                 rect.x + 16,
                 rect.centery - 9,

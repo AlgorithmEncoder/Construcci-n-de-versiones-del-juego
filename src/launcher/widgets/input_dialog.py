@@ -50,7 +50,7 @@ class InputDialog:
         h = screen.get_height()
 
         overlay = pygame.Surface((w, h), pygame.SRCALPHA)
-        overlay.fill((0, 0, 0, 120))
+        overlay.fill(styles.OVERLAY)
         screen.blit(overlay, (0, 0))
 
         rect = pygame.Rect(
@@ -62,7 +62,7 @@ class InputDialog:
 
         pygame.draw.rect(
             screen,
-            (250, 250, 250),
+            styles.DIALOG,
             rect,
             border_radius=8
         )
@@ -114,7 +114,7 @@ class InputDialog:
             Fonts.small.render(
                 "Aceptar",
                 True,
-                (255, 255, 255)
+                styles.BUTTON_TEXT
             ),
             (
                 self._accept.x + 15,

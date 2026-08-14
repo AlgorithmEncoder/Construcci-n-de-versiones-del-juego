@@ -9,15 +9,9 @@ from __future__ import annotations
 import pygame
 
 from ui.overlay import Overlay
-
 from ui.fonts import Fonts
 
-from constants import (
-    WHITE,
-    LIGHT_GREY,
-    GREY,
-    BLUE,
-)
+from game import styles
 
 
 class ConfirmUI(Overlay):
@@ -46,24 +40,24 @@ class ConfirmUI(Overlay):
             0,
             0,
             140,
-            45
+            45,
         )
 
         self._cancel_button = pygame.Rect(
             0,
             0,
             140,
-            45
+            45,
         )
 
         self._confirm_button.bottomright = (
             self._panel.right - self._padding,
-            self._panel.bottom - self._padding
+            self._panel.bottom - self._padding,
         )
 
         self._cancel_button.bottomleft = (
             self._panel.left + self._padding,
-            self._panel.bottom - self._padding
+            self._panel.bottom - self._padding,
         )
 
     # ==================================================
@@ -72,57 +66,57 @@ class ConfirmUI(Overlay):
 
     def _draw_content(
         self,
-        screen: pygame.Surface
+        screen: pygame.Surface,
     ):
 
         title = Fonts.title.render(
             self._title,
             True,
-            WHITE
+            styles.DIALOGUE_TITLE,
         )
 
         title_rect = title.get_rect(
             midtop=(
                 self._panel.centerx,
-                self._panel.top + self._padding
+                self._panel.top + self._padding,
             )
         )
 
         screen.blit(
             title,
-            title_rect
+            title_rect,
         )
 
         message = Fonts.default.render(
             self._message,
             True,
-            LIGHT_GREY
+            styles.DIALOGUE_TEXT,
         )
 
         message_rect = message.get_rect(
             center=(
                 self._panel.centerx,
-                self._panel.centery
+                self._panel.centery,
             )
         )
 
         screen.blit(
             message,
-            message_rect
+            message_rect,
         )
 
         self._draw_button(
             screen,
             self._cancel_button,
             "Cancelar",
-            GREY
+            styles.BUTTON_CANCEL,
         )
 
         self._draw_button(
             screen,
             self._confirm_button,
             "Confirmar",
-            BLUE
+            styles.BUTTON_CONFIRM,
         )
 
     # --------------------------------------------------
@@ -132,29 +126,29 @@ class ConfirmUI(Overlay):
         screen: pygame.Surface,
         rect: pygame.Rect,
         text: str,
-        background
+        background,
     ):
 
         pygame.draw.rect(
             screen,
             background,
             rect,
-            border_radius=8
+            border_radius=styles.BUTTON_RADIUS,
         )
 
         label = Fonts.default.render(
             text,
             True,
-            WHITE
+            styles.BUTTON_TEXT,
         )
 
         label_rect = label.get_rect(
-            center=rect.center
+            center=rect.center,
         )
 
         screen.blit(
             label,
-            label_rect
+            label_rect,
         )
 
     # ==================================================
@@ -163,7 +157,7 @@ class ConfirmUI(Overlay):
 
     def handle_event(
         self,
-        event
+        event,
     ) -> bool:
 
         if event.type != pygame.MOUSEBUTTONDOWN:

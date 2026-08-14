@@ -8,14 +8,11 @@ from __future__ import annotations
 
 import pygame
 
-from constants import (
-    WHITE,
-    DARK_GREY,
-)
-
 from ui.overlay import Overlay
 from ui.fonts import Fonts
 from ui.text_renderer import draw_wrapped_text
+
+from game import styles
 
 
 class DocumentUI(Overlay):
@@ -23,22 +20,6 @@ class DocumentUI(Overlay):
     BUTTON_SIZE = 42
 
     PAPER_MARGIN = 25
-
-    PAPER_COLOR_TOP = (236, 231, 216)
-    PAPER_COLOR_BOTTOM = (223, 216, 198)
-
-    PAPER_BORDER = (175, 168, 150)
-
-    TITLE_COLOR = (35, 35, 35)
-    TEXT_COLOR = (60, 60, 60)
-
-    DIVIDER_COLOR = (150, 150, 150)
-
-    BUTTON_BG = (55, 55, 55)
-    BUTTON_HOVER = (80, 80, 80)
-    BUTTON_BORDER = (230, 230, 230)
-
-    SHADOW_ALPHA = 55
 
     def __init__(
         self,
@@ -56,7 +37,10 @@ class DocumentUI(Overlay):
 
         self._document = document
 
-        self._title = document.get("title", "")
+        self._title = document.get(
+            "title",
+            "",
+        )
 
         self._pages = (
             document.get("pages")
@@ -65,7 +49,10 @@ class DocumentUI(Overlay):
 
         self._page = 0
 
-        self._paper = self.panel.inflate(-50, -50)
+        self._paper = self.panel.inflate(
+            -50,
+            -50,
+        )
 
         self._create_buttons()
 
@@ -73,12 +60,17 @@ class DocumentUI(Overlay):
     # Events
     # ==================================================
 
-    def handle_event(self, event):
+    def handle_event(
+        self,
+        event,
+    ):
 
         if event.type == pygame.KEYDOWN:
 
             if event.key == pygame.K_ESCAPE:
+
                 self.close()
+
                 return True
 
             if event.key == pygame.K_LEFT:
@@ -109,6 +101,7 @@ class DocumentUI(Overlay):
         ):
 
             self._page -= 1
+
             return True
 
         if (
@@ -117,6 +110,7 @@ class DocumentUI(Overlay):
         ):
 
             self._page += 1
+
             return True
 
         return False
@@ -147,7 +141,10 @@ class DocumentUI(Overlay):
     # Draw
     # ==================================================
 
-    def _draw_content(self, screen):
+    def _draw_content(
+        self,
+        screen: pygame.Surface,
+    ):
 
         self._draw_shadow(screen)
 
@@ -161,7 +158,10 @@ class DocumentUI(Overlay):
 
     # --------------------------------------------------
 
-    def _draw_shadow(self, screen):
+    def _draw_shadow(
+        self,
+        screen: pygame.Surface,
+    ):
 
         shadow = pygame.Surface(
             (
@@ -173,7 +173,10 @@ class DocumentUI(Overlay):
 
         pygame.draw.rect(
             shadow,
-            (0, 0, 0, self.SHADOW_ALPHA),
+            (
+                *styles.DOCUMENT_SHADOW,
+                styles.DOCUMENT_SHADOW_ALPHA,
+            ),
             shadow.get_rect(),
             border_radius=8,
         )
@@ -188,7 +191,10 @@ class DocumentUI(Overlay):
 
     # --------------------------------------------------
 
-    def _draw_paper(self, screen):
+    def _draw_paper(
+        self,
+        screen: pygame.Surface,
+    ):
 
         height = self._paper.height
 
@@ -199,32 +205,28 @@ class DocumentUI(Overlay):
             color = (
 
                 int(
-                    self.PAPER_COLOR_TOP[0] * (1 - t)
-                    + self.PAPER_COLOR_BOTTOM[0] * t
+                    styles.DOCUMENT_PAPER_TOP[0] * (1 - t)
+                    + styles.DOCUMENT_PAPER_BOTTOM[0] * t
                 ),
 
                 int(
-                    self.PAPER_COLOR_TOP[1] * (1 - t)
-                    + self.PAPER_COLOR_BOTTOM[1] * t
+                    styles.DOCUMENT_PAPER_TOP[1] * (1 - t)
+                    + styles.DOCUMENT_PAPER_BOTTOM[1] * t
                 ),
 
                 int(
-                    self.PAPER_COLOR_TOP[2] * (1 - t)
-                    + self.PAPER_COLOR_BOTTOM[2] * t
+                    styles.DOCUMENT_PAPER_TOP[2] * (1 - t)
+                    + styles.DOCUMENT_PAPER_BOTTOM[2] * t
                 ),
             )
 
             pygame.draw.line(
-
                 screen,
-
                 color,
-
                 (
                     self._paper.left,
                     self._paper.top + i,
                 ),
-
                 (
                     self._paper.right,
                     self._paper.top + i,
@@ -232,29 +234,24 @@ class DocumentUI(Overlay):
             )
 
         pygame.draw.rect(
-
             screen,
-
-            self.PAPER_BORDER,
-
+            styles.DOCUMENT_PAPER_BORDER,
             self._paper,
-
             width=2,
-
             border_radius=6,
         )
 
     # --------------------------------------------------
 
-    def _draw_title(self, screen):
+    def _draw_title(
+        self,
+        screen: pygame.Surface,
+    ):
 
         title = Fonts.title.render(
-
             self._title,
-
             True,
-
-            self.TITLE_COLOR,
+            styles.DOCUMENT_TITLE,
         )
 
         rect = title.get_rect()
@@ -264,32 +261,33 @@ class DocumentUI(Overlay):
             self._paper.top + 24,
         )
 
-        screen.blit(title, rect)
+        screen.blit(
+            title,
+            rect,
+        )
 
         y = rect.bottom + 14
 
         pygame.draw.line(
-
             screen,
-
-            self.DIVIDER_COLOR,
-
+            styles.DOCUMENT_DIVIDER,
             (
                 self._paper.left + 35,
                 y,
             ),
-
             (
                 self._paper.right - 35,
                 y,
             ),
-
-            2,
+            styles.DOCUMENT_DIVIDER_WIDTH,
         )
 
     # --------------------------------------------------
 
-    def _draw_text(self, screen):
+    def _draw_text(
+        self,
+        screen: pygame.Surface,
+    ):
 
         rect = pygame.Rect(
 
@@ -312,7 +310,7 @@ class DocumentUI(Overlay):
 
             font=Fonts.default,
 
-            color=self.TEXT_COLOR,
+            color=styles.DOCUMENT_TEXT,
 
             line_spacing=8,
 
@@ -322,28 +320,26 @@ class DocumentUI(Overlay):
 
             title_font=Fonts.subtitle,
         )
-    
-        # --------------------------------------------------
 
-    def _draw_footer(self, screen):
+    # --------------------------------------------------
+
+    def _draw_footer(
+        self,
+        screen: pygame.Surface,
+    ):
 
         total = len(self._pages)
 
         footer = Fonts.small.render(
-
             f"Página {self._page + 1} de {total}",
-
             True,
-
-            self.TEXT_COLOR,
+            styles.DOCUMENT_TEXT,
         )
 
         footer_rect = footer.get_rect()
 
         footer_rect.center = (
-
             self._paper.centerx,
-
             self._paper.bottom - 25,
         )
 
@@ -355,22 +351,16 @@ class DocumentUI(Overlay):
         if self._page > 0:
 
             self._draw_button(
-
                 screen,
-
                 self._left_button,
-
                 left=True,
             )
 
         if self._page < total - 1:
 
             self._draw_button(
-
                 screen,
-
                 self._right_button,
-
                 left=False,
             )
 
@@ -388,32 +378,23 @@ class DocumentUI(Overlay):
         hovered = rect.collidepoint(mouse)
 
         bg = (
-            self.BUTTON_HOVER
+            styles.DOCUMENT_BUTTON_HOVER
             if hovered
-            else self.BUTTON_BG
+            else styles.DOCUMENT_BUTTON
         )
 
         pygame.draw.circle(
-
             screen,
-
             bg,
-
             rect.center,
-
             rect.width // 2,
         )
 
         pygame.draw.circle(
-
             screen,
-
-            self.BUTTON_BORDER,
-
+            styles.DOCUMENT_BUTTON_BORDER,
             rect.center,
-
             rect.width // 2,
-
             2 if not hovered else 3,
         )
 
@@ -458,10 +439,7 @@ class DocumentUI(Overlay):
             ]
 
         pygame.draw.polygon(
-
             screen,
-
-            WHITE,
-
+            styles.DOCUMENT_BUTTON_ICON,
             points,
         )

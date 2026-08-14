@@ -43,7 +43,7 @@ class Explorer:
 
         pygame.draw.rect(
             screen,
-            (250,250,250),
+            styles.PANEL,
             area,
             border_radius=8
         )
@@ -71,11 +71,11 @@ class Explorer:
 
             if child is selected:
 
-                color = (210,225,255)
+                color = styles.ROW_SELECTED
 
             else:
 
-                color = (245,245,245)
+                color = styles.ROW
 
             pygame.draw.rect(
                 screen,
@@ -127,11 +127,11 @@ class Explorer:
 
             if note is selected:
 
-                color = (210,225,255)
+                color = styles.ROW_SELECTED
 
             else:
 
-                color = (252,252,252)
+                color = styles.ROW
 
             pygame.draw.rect(
                 screen,

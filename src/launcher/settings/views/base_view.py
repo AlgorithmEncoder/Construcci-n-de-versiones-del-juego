@@ -202,21 +202,21 @@ class BaseView:
 
     # --------------------------------------------------
 
-    def refresh(self):
-        """
-        Reloads this section from the SettingsManager.
+    # def refresh(self):
+    #     """
+    #     Reloads this section from the SettingsManager.
 
-        This discards unsaved local changes.
-        """
+    #     This discards unsaved local changes.
+    #     """
 
-        self._settings = dict(
-            self._settings_manager.get(
-                self._section
-            )
-        )
+    #     self._settings = dict(
+    #         self._settings_manager.get(
+    #             self._section
+    #         )
+    #     )
         
-        self._scroll_y = 0
-        self._content_height = 0
+    #     self._scroll_y = 0
+    #     self._content_height = 0
     
     # ==================================================
     # Scrolling

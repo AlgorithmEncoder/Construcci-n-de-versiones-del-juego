@@ -171,7 +171,7 @@ class IncursionDetail:
         label = Fonts.default.render(
             "Iniciar incursión",
             True,
-            (255, 255, 255)
+            styles.TEXT_LIGHT
         )
 
         screen.blit(

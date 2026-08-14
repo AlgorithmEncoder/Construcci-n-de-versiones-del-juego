@@ -18,7 +18,7 @@ from ui.fonts import Fonts
 
 from icons import draw_note, draw_iterations
 
-from constants import BLACK, WHITE, HUD_TOP_MARGIN, HUD_LEFT_MARGIN
+from game import styles
 
 
 class Renderer:
@@ -39,9 +39,14 @@ class Renderer:
         self._world = pygame.Surface(
             (world_width, world_height)
         )
-        
-        self._exit_rect = pygame.Rect(0, 0, 0, 0)
-        self._quick_note_rect = pygame.Rect(0, 0, 0, 0)
+
+        self._exit_rect = pygame.Rect(
+            0, 0, 0, 0
+        )
+
+        self._quick_note_rect = pygame.Rect(
+            0, 0, 0, 0
+        )
 
     # ==================================================
     # Public
@@ -65,7 +70,9 @@ class Renderer:
             ),
         )
 
-        self._screen.fill(BLACK)
+        self._screen.fill(
+            styles.BACKGROUND
+        )
 
         self._screen.blit(
             scaled,
@@ -84,7 +91,9 @@ class Renderer:
         state: RenderState,
     ):
 
-        self._world.fill(BLACK)
+        self._world.fill(
+            styles.WORLD_BACKGROUND
+        )
 
         self._draw_background(state)
         self._draw_npcs(state)
@@ -132,7 +141,9 @@ class Renderer:
                 rect,
             )
 
-    # --------------------------------------------------
+    # ==================================================
+    # HUD
+    # ==================================================
 
     def _draw_hud(
         self,
@@ -142,85 +153,101 @@ class Renderer:
         if not state.clock:
             return
 
-        # ===========================
+        # ==================================================
         # Clock
-        # ===========================
+        # ==================================================
 
         shadow = Fonts.clock.render(
             state.clock,
             True,
-            (0, 0, 0)
+            styles.HUD_CLOCK_SHADOW,
         )
 
-        shadow.set_alpha(100)
+        shadow.set_alpha(
+            styles.HUD_CLOCK_SHADOW_ALPHA
+        )
 
         shadow_rect = shadow.get_rect(
             midtop=(
                 self._world_width // 2 + 2,
-                HUD_TOP_MARGIN + 2
+                styles.HUD_TOP_MARGIN + 2,
             )
         )
 
-        self._world.blit(shadow, shadow_rect)
+        self._world.blit(
+            shadow,
+            shadow_rect,
+        )
 
         text = Fonts.clock.render(
             state.clock,
             True,
-            (240, 240, 240)
+            styles.HUD_CLOCK_TEXT,
         )
 
-        text.set_alpha(170)
+        text.set_alpha(
+            styles.HUD_CLOCK_TEXT_ALPHA
+        )
 
         rect = text.get_rect(
             midtop=(
                 self._world_width // 2,
-                HUD_TOP_MARGIN
+                styles.HUD_TOP_MARGIN,
             )
         )
 
-        self._world.blit(text, rect)
-        
-        # ===========================
+        self._world.blit(
+            text,
+            rect,
+        )
+
+        # ==================================================
         # Iterations
-        # ===========================
+        # ==================================================
 
         iterations_rect = pygame.Rect(
             0,
             0,
             95,
-            self._exit_rect.height
+            self._exit_rect.height,
         )
 
         iterations_rect.topright = (
             self._exit_rect.left - 12,
-            HUD_TOP_MARGIN
+            styles.HUD_TOP_MARGIN,
         )
-        
+
         badge = pygame.Surface(
             iterations_rect.size,
-            pygame.SRCALPHA
+            pygame.SRCALPHA,
         )
 
         pygame.draw.rect(
             badge,
-            (20, 20, 20, 135),
+            (
+                *styles.HUD_BADGE_BACKGROUND,
+                styles.HUD_BADGE_BACKGROUND_ALPHA,
+            ),
             badge.get_rect(),
-            border_radius=8
+            border_radius=8,
         )
 
         pygame.draw.rect(
             badge,
-            (255, 255, 255, 55),
+            (
+                *styles.HUD_BADGE_BORDER,
+                styles.HUD_BADGE_BORDER_ALPHA,
+            ),
             badge.get_rect(),
             width=1,
-            border_radius=8
+            border_radius=8,
         )
 
         self._world.blit(
             badge,
-            iterations_rect
+            iterations_rect,
         )
-        
+
         icon_rect = pygame.Rect(
             iterations_rect.x + 8,
             iterations_rect.y + 8,
@@ -231,57 +258,61 @@ class Renderer:
         draw_iterations(
             self._world,
             icon_rect,
-            (235, 235, 235),
+            styles.HUD_BADGE_ICON,
         )
-        
+
         count = Fonts.default.render(
             f"x {state.iterations}",
             True,
-            (240, 240, 240)
+            styles.HUD_BADGE_TEXT,
         )
 
-        count.set_alpha(210)
+        count.set_alpha(
+            styles.HUD_BADGE_TEXT_ALPHA
+        )
 
         self._world.blit(
             count,
             (
                 iterations_rect.x + 34,
                 iterations_rect.y + 8,
-            )
+            ),
         )
 
-        # ===========================
+        # ==================================================
         # Exit
-        # ===========================
+        # ==================================================
 
         self._exit_rect.topright = (
             self._world_width // 3,
-            HUD_TOP_MARGIN
+            styles.HUD_TOP_MARGIN,
         )
 
         self._draw_button(
             self._world,
             self._exit_rect,
-            "Abandonar sueño"
+            "Abandonar sueño",
         )
 
-        # ===========================
+        # ==================================================
         # Quick note
-        # ===========================
+        # ==================================================
 
         self._quick_note_rect.topright = (
-            self._world_width - HUD_LEFT_MARGIN,
-            HUD_TOP_MARGIN
+            self._world_width - styles.HUD_LEFT_MARGIN,
+            styles.HUD_TOP_MARGIN,
         )
 
         self._draw_button(
             self._world,
             self._quick_note_rect,
             "Nota",
-            icon=draw_note
+            icon=draw_note,
         )
 
-    # --------------------------------------------------
+    # ==================================================
+    # Overlay
+    # ==================================================
 
     def _draw_overlay(
         self,
@@ -294,9 +325,11 @@ class Renderer:
         state.overlay.draw(
             self._world
         )
-    
-    # --------------------------------------------------
-    
+
+    # ==================================================
+    # Buttons
+    # ==================================================
+
     def _draw_button(
         self,
         surface: pygame.Surface,
@@ -308,7 +341,7 @@ class Renderer:
         image = Fonts.default.render(
             text,
             True,
-            WHITE
+            styles.BUTTON_TEXT,
         )
 
         icon_size = 18
@@ -328,25 +361,27 @@ class Renderer:
             + icon_width
             + padding_x * 2,
             image.get_height()
-            + padding_y * 2
+            + padding_y * 2,
         )
 
         pygame.draw.rect(
             surface,
-            (40, 40, 40),
+            styles.BUTTON,
             rect,
-            border_radius=8
+            border_radius=styles.BUTTON_RADIUS,
         )
 
         pygame.draw.rect(
             surface,
-            WHITE,
+            styles.BUTTON_BORDER,
             rect,
-            width=2,
-            border_radius=8
+            width=styles.BUTTON_BORDER_WIDTH,
+            border_radius=styles.BUTTON_RADIUS,
         )
 
-        # ---------- Icono ----------
+        # --------------------------------------------------
+        # Icon
+        # --------------------------------------------------
 
         start_x = rect.x + padding_x
 
@@ -356,37 +391,51 @@ class Renderer:
                 start_x,
                 rect.centery - icon_size // 2,
                 icon_size,
-                icon_size
+                icon_size,
             )
 
             icon(
                 surface,
                 icon_rect,
-                WHITE
+                styles.BUTTON_TEXT,
             )
 
             start_x += icon_width
 
-        # ---------- Texto ----------
+        # --------------------------------------------------
+        # Text
+        # --------------------------------------------------
 
         text_rect = image.get_rect(
             midleft=(
                 start_x,
-                rect.centery
+                rect.centery,
             )
         )
 
         surface.blit(
             image,
-            text_rect
+            text_rect,
         )
-    
-    # --------------------------------------------------
-    
-    def exit_button_at(self, position):
 
-        return self._exit_rect.collidepoint(position)
-    
-    def quick_note_button_at(self, position):
+    # ==================================================
+    # Hit detection
+    # ==================================================
 
-        return self._quick_note_rect.collidepoint(position)
+    def exit_button_at(
+        self,
+        position,
+    ):
+
+        return self._exit_rect.collidepoint(
+            position
+        )
+
+    def quick_note_button_at(
+        self,
+        position,
+    ):
+
+        return self._quick_note_rect.collidepoint(
+            position
+        )

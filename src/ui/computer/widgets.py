@@ -102,9 +102,9 @@ def draw_header(
     radius = 6
 
     circles = (
-        (235, 95, 86),
-        (243, 190, 67),
-        (89, 201, 98),
+        styles.WINDOW_CLOSE,
+        styles.WINDOW_MINIMIZE,
+        styles.WINDOW_MAXIMIZE,
     )
 
     x = rect.x + 22

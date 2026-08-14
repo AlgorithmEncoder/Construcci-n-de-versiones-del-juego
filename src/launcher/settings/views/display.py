@@ -8,7 +8,9 @@ from __future__ import annotations
 
 import pygame
 
-from launcher import styles
+from launcher import styles as launcher_styles
+from game import styles as game_styles
+from ui.computer import styles as computer_styles
 
 from launcher.settings.views.base_view import BaseView
 from launcher.fonts import Fonts
@@ -56,10 +58,6 @@ class DisplayView(BaseView):
         1.20,
         1.30,
         1.50,
-    )
-
-    THEMES = (
-        "default",
     )
 
     # ==================================================
@@ -177,28 +175,6 @@ class DisplayView(BaseView):
                     True
                 )
             )
-
-            return True
-
-        # --------------------------------------------------
-        # UI scale
-        # --------------------------------------------------
-
-        if self._controls.get(
-            "scale_left",
-            pygame.Rect(0,0,0,0)
-        ).collidepoint(content_pos):
-
-            self._change_scale(-1)
-
-            return True
-
-        if self._controls.get(
-            "scale_right",
-            pygame.Rect(0,0,0,0)
-        ).collidepoint(content_pos):
-
-            self._change_scale(1)
 
             return True
 
@@ -370,22 +346,6 @@ class DisplayView(BaseView):
         y += self.ROW_HEIGHT + self.ROW_GAP
 
         # ==================================================
-        # UI scale
-        # ==================================================
-
-        self._draw_scale_row(
-            screen,
-            pygame.Rect(
-                x,
-                y,
-                width,
-                self.ROW_HEIGHT
-            )
-        )
-
-        y += self.ROW_HEIGHT + self.ROW_GAP
-
-        # ==================================================
         # Launcher theme
         # ==================================================
 
@@ -469,7 +429,7 @@ class DisplayView(BaseView):
         title = Fonts.default.render(
             "Resolución",
             True,
-            styles.TEXT
+            launcher_styles.TEXT
         )
 
         screen.blit(
@@ -483,7 +443,7 @@ class DisplayView(BaseView):
         description = Fonts.small.render(
             "Resolución utilizada por la ventana del juego.",
             True,
-            styles.TEXT_SECONDARY
+            launcher_styles.TEXT_SECONDARY
         )
 
         screen.blit(
@@ -586,7 +546,7 @@ class DisplayView(BaseView):
         title_surface = Fonts.default.render(
             title,
             True,
-            styles.TEXT
+            launcher_styles.TEXT
         )
 
         screen.blit(
@@ -600,7 +560,7 @@ class DisplayView(BaseView):
         description_surface = Fonts.small.render(
             description,
             True,
-            styles.TEXT_SECONDARY
+            launcher_styles.TEXT_SECONDARY
         )
 
         screen.blit(
@@ -638,123 +598,6 @@ class DisplayView(BaseView):
         )
 
     # ==================================================
-    # Scale
-    # ==================================================
-
-    def _draw_scale_row(
-        self,
-        screen,
-        rect: pygame.Rect
-    ):
-
-        self._draw_panel(
-            screen,
-            rect
-        )
-
-        text_x = rect.x + 18
-
-        title = Fonts.default.render(
-            "Escala de interfaz",
-            True,
-            styles.TEXT
-        )
-
-        screen.blit(
-            title,
-            (
-                text_x,
-                rect.y + 15
-            )
-        )
-
-        description = Fonts.small.render(
-            "Ajusta el tamaño de los elementos de la interfaz.",
-            True,
-            styles.TEXT_SECONDARY
-        )
-
-        screen.blit(
-            description,
-            (
-                text_x,
-                rect.y + 43
-            )
-        )
-
-        value = float(
-            self._get(
-                "scale_ui",
-                1.0
-            )
-        )
-
-        value_text = (
-            f"{int(value * 100)}%"
-        )
-
-        control_y = (
-            rect.y +
-            (
-                rect.height -
-                self.BUTTON_HEIGHT
-            ) // 2
-        )
-
-        right = rect.right - 18
-
-        arrow_right = pygame.Rect(
-            right - 34,
-            control_y,
-            34,
-            self.BUTTON_HEIGHT
-        )
-
-        self._controls[
-            "scale_right"
-        ] = arrow_right
-
-        self._draw_button(
-            screen,
-            arrow_right,
-            ">"
-        )
-
-        right = arrow_right.left - 8
-
-        value_rect = pygame.Rect(
-            right - 100,
-            control_y,
-            100,
-            self.BUTTON_HEIGHT
-        )
-
-        self._draw_value_box(
-            screen,
-            value_rect,
-            value_text
-        )
-
-        right = value_rect.left - 8
-
-        arrow_left = pygame.Rect(
-            right - 34,
-            control_y,
-            34,
-            self.BUTTON_HEIGHT
-        )
-
-        self._controls[
-            "scale_left"
-        ] = arrow_left
-
-        self._draw_button(
-            screen,
-            arrow_left,
-            "<"
-        )
-
-    # ==================================================
     # Theme
     # ==================================================
 
@@ -777,7 +620,7 @@ class DisplayView(BaseView):
         title_surface = Fonts.default.render(
             title,
             True,
-            styles.TEXT
+            launcher_styles.TEXT
         )
 
         screen.blit(
@@ -791,7 +634,7 @@ class DisplayView(BaseView):
         description_surface = Fonts.small.render(
             description,
             True,
-            styles.TEXT_SECONDARY
+            launcher_styles.TEXT_SECONDARY
         )
 
         screen.blit(
@@ -881,14 +724,14 @@ class DisplayView(BaseView):
 
         pygame.draw.rect(
             screen,
-            styles.PANEL,
+            launcher_styles.PANEL,
             rect,
             border_radius=6
         )
 
         pygame.draw.rect(
             screen,
-            styles.BORDER,
+            launcher_styles.BORDER,
             rect,
             1,
             border_radius=6
@@ -897,7 +740,7 @@ class DisplayView(BaseView):
         surface = Fonts.small.render(
             text,
             True,
-            styles.TEXT
+            launcher_styles.TEXT
         )
 
         text_rect = surface.get_rect(
@@ -920,14 +763,14 @@ class DisplayView(BaseView):
 
         pygame.draw.rect(
             screen,
-            styles.SIDEBAR,
+            launcher_styles.SIDEBAR,
             rect,
             border_radius=6
         )
 
         pygame.draw.rect(
             screen,
-            styles.BORDER,
+            launcher_styles.BORDER,
             rect,
             1,
             border_radius=6
@@ -936,7 +779,7 @@ class DisplayView(BaseView):
         surface = Fonts.small.render(
             text,
             True,
-            styles.TEXT
+            launcher_styles.TEXT
         )
 
         text_rect = surface.get_rect(
@@ -958,9 +801,9 @@ class DisplayView(BaseView):
     ):
 
         background = (
-            styles.ACCENT
+            launcher_styles.ACCENT
             if value
-            else styles.BORDER
+            else launcher_styles.BORDER
         )
 
         pygame.draw.rect(
@@ -997,7 +840,7 @@ class DisplayView(BaseView):
 
         pygame.draw.ellipse(
             screen,
-            styles.PANEL,
+            launcher_styles.PANEL,
             knob
         )
 
@@ -1065,46 +908,6 @@ class DisplayView(BaseView):
         )
 
     # ==================================================
-    # Scale helpers
-    # ==================================================
-
-    def _change_scale(
-        self,
-        direction: int
-    ):
-
-        current = float(
-            self._get(
-                "scale_ui",
-                1.0
-            )
-        )
-
-        closest = min(
-            self.UI_SCALES,
-            key=lambda value: abs(
-                value - current
-            )
-        )
-
-        index = self.UI_SCALES.index(
-            closest
-        )
-
-        index = max(
-            0,
-            min(
-                len(self.UI_SCALES) - 1,
-                index + direction
-            )
-        )
-
-        self._set(
-            "scale_ui",
-            self.UI_SCALES[index]
-        )
-
-    # ==================================================
     # Theme helpers
     # ==================================================
 
@@ -1114,6 +917,19 @@ class DisplayView(BaseView):
         direction: int
     ):
 
+        style_managers = {
+            "launcher_theme": launcher_styles,
+            "game_theme": game_styles,
+            "computer_theme": computer_styles,
+        }
+
+        styles = style_managers.get(key)
+
+        if styles is None:
+            return
+
+        themes = styles.get_themes()
+
         current = self._get(
             key,
             "default"
@@ -1121,33 +937,39 @@ class DisplayView(BaseView):
 
         try:
 
-            index = self.THEMES.index(
-                current
-            )
+            index = themes.index(current)
 
         except ValueError:
 
             index = 0
 
         index = (
-            index +
-            direction
-        ) % len(self.THEMES)
+            index + direction
+        ) % len(themes)
+
+        theme = themes[index]
 
         self._set(
             key,
-            self.THEMES[index]
+            theme
+        )
+
+        styles.set_theme(
+            theme
         )
 
     # --------------------------------------------------
 
     @staticmethod
-    def _theme_label(
-        theme: str
-    ):
+    def _theme_label(theme: str):
 
         labels = {
             "default": "Predeterminado",
+            "dark": "Oscuro",
+            "midnight": "Medianoche",
+            "forest": "Bosque",
+            "warm": "Cálido",
+            "high_contrast": "Alto contraste",
         }
 
         return labels.get(

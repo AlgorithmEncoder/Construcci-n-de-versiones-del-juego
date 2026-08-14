@@ -53,20 +53,52 @@ class GeneralView(BaseView):
 
     def handle_event(self, event):
 
+        # --------------------------------------------------
+        # Common events
+        # --------------------------------------------------
+
+        if super().handle_event(event):
+            return True
+
+        # --------------------------------------------------
+        # Mouse buttons
+        # --------------------------------------------------
+
         if event.type != pygame.MOUSEBUTTONDOWN:
             return False
 
         if event.button != 1:
             return False
 
+        # --------------------------------------------------
+        # Screen -> content coordinates
+        # --------------------------------------------------
+
+        mouse_x, mouse_y = event.pos
+
+        if not self._content_rect.collidepoint(
+            (mouse_x, mouse_y)
+        ):
+            return False
+
+        content_pos = (
+            mouse_x - self._content_rect.x,
+            mouse_y - self._content_rect.y
+            + self._scroll_y
+        )
+
+        # --------------------------------------------------
+        # Settings
+        # --------------------------------------------------
+
         for key, rect in self._rows.items():
 
-            if not rect.collidepoint(event.pos):
+            if not rect.collidepoint(content_pos):
                 continue
 
-            # ------------------------------------------
+            # ----------------------------------------------
             # Disabled settings
-            # ------------------------------------------
+            # ----------------------------------------------
 
             if key in (
                 "important_notifications",
@@ -75,9 +107,9 @@ class GeneralView(BaseView):
             ):
                 return False
 
-            # ------------------------------------------
+            # ----------------------------------------------
             # Active settings
-            # ------------------------------------------
+            # ----------------------------------------------
 
             if key == "confirm_exit":
 

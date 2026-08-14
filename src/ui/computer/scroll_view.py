@@ -5,7 +5,6 @@ Reusable scrollable viewport.
 from __future__ import annotations
 
 import pygame
-from ui.computer import styles
 
 class ScrollView:
 

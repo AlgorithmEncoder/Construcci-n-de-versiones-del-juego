@@ -31,7 +31,7 @@ class IncursionCard:
 
         pygame.draw.rect(
             screen,
-            (250, 250, 250),
+            styles.CARD,
             rect,
             border_radius=8
         )

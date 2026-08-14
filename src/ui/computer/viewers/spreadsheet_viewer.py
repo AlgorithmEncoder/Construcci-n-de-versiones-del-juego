@@ -73,7 +73,7 @@ class SpreadsheetViewer(BaseViewer):
 
                     screen,
 
-                    (255,255,255),
+                    styles.PANEL,
 
                     rect
 

@@ -42,7 +42,7 @@ class MoveDialog:
         h = screen.get_height()
 
         overlay = pygame.Surface((w, h), pygame.SRCALPHA)
-        overlay.fill((0, 0, 0, 120))
+        overlay.fill(styles.OVERLAY)
 
         screen.blit(overlay, (0, 0))
 
@@ -55,7 +55,7 @@ class MoveDialog:
 
         pygame.draw.rect(
             screen,
-            (250, 250, 250),
+            styles.DIALOG,
             rect,
             border_radius=8
         )
@@ -101,7 +101,7 @@ class MoveDialog:
 
             pygame.draw.rect(
                 screen,
-                styles.PRIMARY if selected else (245,245,245),
+                styles.PRIMARY if selected else styles.ROW,
                 row,
                 border_radius=5
             )
@@ -157,7 +157,7 @@ class MoveDialog:
             Fonts.small.render(
                 "Mover",
                 True,
-                (255,255,255)
+                styles.BUTTON_TEXT
             ),
             (self._accept.x + 18, self._accept.y + 7)
         )

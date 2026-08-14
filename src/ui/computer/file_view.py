@@ -173,7 +173,7 @@ class FileView:
 
         pygame.draw.rect(
             screen,
-            (210, 210, 210),
+            styles.BUTTON,
             self._open,
             border_radius=8
         )
@@ -200,7 +200,7 @@ class FileView:
 
                 True,
 
-                (140,140,140)
+                styles.TEXT
 
             ),
 

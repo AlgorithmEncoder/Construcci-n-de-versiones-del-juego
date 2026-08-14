@@ -14,8 +14,10 @@ from launcher.home.views.notes.editor import NoteEditor
 from launcher.widgets.input_dialog import InputDialog
 from launcher.widgets.move_dialog import MoveDialog
 
+from launcher.base_view import BaseView
 
-class NotesView:
+
+class NotesView(BaseView):
 
     def __init__(self, launcher):
 
@@ -39,7 +41,7 @@ class NotesView:
 
     # -------------------------------------------------
 
-    def draw(self, screen, area):
+    def _draw_content(self, screen, area):
 
         toolbar = pygame.Rect(
             area.x + 20,

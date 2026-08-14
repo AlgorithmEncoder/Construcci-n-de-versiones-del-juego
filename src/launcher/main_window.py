@@ -54,12 +54,14 @@ class MainWindow:
 
         self._dreams = DreamManager()
         self._dreams.load()
-        self._notes = NotesManager(self._logger)
+        self._notes = NotesManager(self._logger.register)
         self._notes_view = NotesView(self)
         
         self._stats = StatsManager()
         self._achievements = AchievementsManager( self._stats )
         self._settings = SettingsManager()
+        
+        self._apply_launcher_theme()
         
         self._sections = {
             "incursions": IncursionsView(self),
@@ -367,3 +369,16 @@ class MainWindow:
             )
         
         self._sidebar.update(self._sidebar_rect)
+    
+    def _apply_launcher_theme(self):
+
+        theme = self._settings.get(
+            "display"
+        ).get(
+            "launcher_theme",
+            "default"
+        )
+
+        if not styles.set_theme(theme):
+
+            styles.set_theme("default")

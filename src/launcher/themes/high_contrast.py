@@ -1,0 +1,42 @@
+"""
+High contrast launcher theme.
+"""
+
+BACKGROUND = (0, 0, 0)
+
+HEADER = (0, 0, 0)
+FOOTER = (0, 0, 0)
+
+SIDEBAR = (15, 15, 15)
+WORKSPACE = (0, 0, 0)
+PANEL = (20, 20, 20)
+
+TEXT = (255, 255, 255)
+TEXT_LIGHT = (255, 255, 255)
+TEXT_SECONDARY = (220, 220, 220)
+
+BORDER = (255, 255, 255)
+
+PRIMARY = (0, 120, 255)
+
+ACCENT = (0, 150, 255)
+ACCENT_HOVER = (80, 190, 255)
+
+SUCCESS = (0, 255, 100)
+WARNING = (255, 220, 0)
+ERROR = (255, 70, 70)
+
+CARD = (20, 20, 20)
+CARD_HOVER = (45, 45, 45)
+CARD_SELECTED = (0, 70, 130)
+
+ROW = (20, 20, 20)
+ROW_HOVER = (45, 45, 45)
+ROW_SELECTED = (0, 70, 130)
+
+INPUT = (10, 10, 10)
+
+DIALOG = (20, 20, 20)
+OVERLAY = (0, 0, 0, 190)
+
+BUTTON_TEXT = (255, 255, 255)

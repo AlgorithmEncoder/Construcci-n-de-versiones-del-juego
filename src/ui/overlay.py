@@ -8,10 +8,7 @@ from __future__ import annotations
 
 import pygame
 
-from constants import (
-    DARK_GREY,
-    WHITE
-)
+from game import styles
 
 
 class Overlay:
@@ -28,7 +25,7 @@ class Overlay:
         world_height: int,
         width: int = 900,
         height: int = 550,
-        blocks_input: bool = True
+        blocks_input: bool = True,
     ):
 
         self.blocks_input = blocks_input
@@ -37,24 +34,36 @@ class Overlay:
         self._world_width = world_width
         self._world_height = world_height
 
-        # Capa oscura semitransparente
+        # ==================================================
+        # Dark overlay background
+        # ==================================================
+
         self._background = pygame.Surface(
             (world_width, world_height),
-            pygame.SRCALPHA
+            pygame.SRCALPHA,
         )
-        self._background.fill((0, 0, 0, 160))
 
-        # Ventana
+        self._background.fill(
+            (
+                *styles.OVERLAY_BACKGROUND,
+                styles.OVERLAY_BACKGROUND_ALPHA,
+            )
+        )
+
+        # ==================================================
+        # Window panel
+        # ==================================================
+
         self._panel = pygame.Rect(
             0,
             0,
             width,
-            height
+            height,
         )
 
         self._panel.center = (
             world_width // 2,
-            world_height // 2
+            world_height // 2,
         )
 
         self._padding = 20
@@ -67,7 +76,12 @@ class Overlay:
 
         self.visible = False
 
-    def draw(self, screen: pygame.Surface):
+    # --------------------------------------------------
+
+    def draw(
+        self,
+        screen: pygame.Surface,
+    ):
 
         if not self.visible:
             return
@@ -84,56 +98,76 @@ class Overlay:
 
     def _draw_background(
         self,
-        screen: pygame.Surface
+        screen: pygame.Surface,
     ):
 
-        screen.blit(self._background, (0, 0))
+        screen.blit(
+            self._background,
+            (0, 0),
+        )
 
     # --------------------------------------------------
 
     def _draw_panel(
         self,
-        screen: pygame.Surface
+        screen: pygame.Surface,
     ):
 
         pygame.draw.rect(
             screen,
-            DARK_GREY,
+            styles.OVERLAY_PANEL,
             self._panel,
-            border_radius=12
+            border_radius=styles.OVERLAY_RADIUS,
         )
 
         pygame.draw.rect(
             screen,
-            WHITE,
+            styles.OVERLAY_BORDER,
             self._panel,
-            width=2,
-            border_radius=12
+            width=styles.OVERLAY_BORDER_WIDTH,
+            border_radius=styles.OVERLAY_RADIUS,
         )
 
     # --------------------------------------------------
 
     def _draw_content(
         self,
-        screen: pygame.Surface
+        screen: pygame.Surface,
     ):
         """
         Must be implemented by child classes.
         """
+
         raise NotImplementedError(
             "_draw_content() must be implemented."
         )
-    
-    def handle_event(self, event) -> bool:
+
+    # ==================================================
+    # Events
+    # ==================================================
+
+    def handle_event(
+        self,
+        event,
+    ) -> bool:
         """
-        Devuelve True si el evento ha sido consumido.
+        Returns True if the event was consumed.
         """
+
         return False
-    
-    def update(self, delta_time: float):
+
+    # ==================================================
+    # Update
+    # ==================================================
+
+    def update(
+        self,
+        delta_time: float,
+    ):
         """
         Optional update.
         """
+
         pass
 
     # ==================================================
@@ -144,6 +178,8 @@ class Overlay:
     def panel(self):
 
         return self._panel
+
+    # --------------------------------------------------
 
     @property
     def padding(self):

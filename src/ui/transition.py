@@ -17,7 +17,7 @@ import pygame
 from ui.overlay import Overlay
 from ui.fonts import Fonts
 
-from constants import WHITE
+from game import styles
 
 
 class TransitionUI(Overlay):
@@ -39,7 +39,7 @@ class TransitionUI(Overlay):
         world_height: int,
         duration: float,
         callback: Callable | None = None,
-        text: str | None = None
+        text: str | None = None,
     ):
 
         super().__init__(
@@ -47,7 +47,7 @@ class TransitionUI(Overlay):
             world_height=world_height,
             width=world_width,
             height=world_height,
-            blocks_input=True
+            blocks_input=True,
         )
 
         self._duration = duration
@@ -64,7 +64,10 @@ class TransitionUI(Overlay):
     # Update
     # ==================================================
 
-    def update(self, delta_time: float):
+    def update(
+        self,
+        delta_time: float,
+    ):
 
         self._elapsed += delta_time
 
@@ -86,7 +89,10 @@ class TransitionUI(Overlay):
     # Events
     # ==================================================
 
-    def handle_event(self, event) -> bool:
+    def handle_event(
+        self,
+        event,
+    ) -> bool:
         """
         Consume every input event while the transition
         is active.
@@ -98,16 +104,23 @@ class TransitionUI(Overlay):
     # Drawing
     # ==================================================
 
-    def _draw_panel(self, screen):
+    def _draw_panel(
+        self,
+        screen,
+    ):
         """
         No window panel.
         Only the dark background.
         """
+
         return
 
     # --------------------------------------------------
 
-    def _draw_content(self, screen: pygame.Surface):
+    def _draw_content(
+        self,
+        screen: pygame.Surface,
+    ):
 
         if not self._text:
             return
@@ -117,14 +130,17 @@ class TransitionUI(Overlay):
         text = Fonts.title.render(
             message,
             True,
-            WHITE
+            styles.TRANSITION_TEXT,
         )
 
         rect = text.get_rect(
             center=(
                 self.panel.centerx,
-                self.panel.centery
+                self.panel.centery,
             )
         )
 
-        screen.blit(text, rect)
+        screen.blit(
+            text,
+            rect,
+        )

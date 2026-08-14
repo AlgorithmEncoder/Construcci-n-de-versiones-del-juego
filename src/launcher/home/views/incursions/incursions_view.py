@@ -10,8 +10,10 @@ from launcher.home.views.incursions.incursion_card import (
     IncursionCard
 )
 
+from launcher.base_view import BaseView
 
-class IncursionsView:
+
+class IncursionsView(BaseView):
 
     CARD_SPACING = 18
 
@@ -35,7 +37,7 @@ class IncursionsView:
 
     # --------------------------------------------------
 
-    def draw(
+    def _draw_content(
         self,
         screen,
         area

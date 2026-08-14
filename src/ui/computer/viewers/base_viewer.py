@@ -43,10 +43,10 @@ class BaseViewer:
 
         panel = area
 
-        # Fondo blanco
+        # Fondo
         pygame.draw.rect(
             screen,
-            (248, 248, 248),
+            styles.CONTENT,
             panel,
             border_radius=12
         )

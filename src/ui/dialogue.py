@@ -11,7 +11,6 @@ import pygame
 from constants import (
     SCREEN_WIDTH,
     SCREEN_HEIGHT,
-    WHITE,
     DIALOGUE_CURSOR_BLINK,
 )
 
@@ -19,6 +18,8 @@ from ui.overlay import Overlay
 from ui.fonts import Fonts
 from ui.text_renderer import draw_wrapped_text
 from ui.text_typer import TextTyper
+
+from game import styles
 
 
 class DialogueUI(Overlay):
@@ -29,7 +30,7 @@ class DialogueUI(Overlay):
         dialogue: list[dict],
         world_width: int,
         world_height: int,
-        callback = None
+        callback=None,
     ):
 
         super().__init__(
@@ -50,7 +51,10 @@ class DialogueUI(Overlay):
 
         self._line = 0
 
-        # Máquina de escribir
+        # ==================================================
+        # Typewriter
+        # ==================================================
+
         self._typer = TextTyper()
 
         if self._dialogue:
@@ -58,10 +62,13 @@ class DialogueUI(Overlay):
                 self._dialogue[0]["text"]
             )
 
+        # ==================================================
         # Cursor
+        # ==================================================
+
         self._cursor_visible = True
         self._cursor_timer = 0.0
-        
+
         self.callback = callback
 
     # ==================================================
@@ -96,7 +103,10 @@ class DialogueUI(Overlay):
     # Events
     # ==================================================
 
-    def handle_event(self, event):
+    def handle_event(
+        self,
+        event,
+    ):
 
         if event.type == pygame.KEYDOWN:
 
@@ -132,8 +142,9 @@ class DialogueUI(Overlay):
 
     def _advance(self):
 
-        # Si todavía está escribiendo,
-        # completar la línea actual.
+        # --------------------------------------------------
+        # Finish current line if it is still being typed.
+        # --------------------------------------------------
 
         if not self._typer.finished:
 
@@ -141,15 +152,18 @@ class DialogueUI(Overlay):
 
             return
 
-        # Siguiente línea
+        # --------------------------------------------------
+        # Next line
+        # --------------------------------------------------
 
         self._line += 1
 
         if self._line >= len(self._dialogue):
 
             self.close()
-            
-            if self.callback: self.callback()
+
+            if self.callback:
+                self.callback()
 
             return
 
@@ -182,7 +196,7 @@ class DialogueUI(Overlay):
         title = Fonts.title.render(
             self._speaker,
             True,
-            WHITE,
+            styles.DIALOGUE_TITLE,
         )
 
         rect = title.get_rect()
@@ -201,7 +215,7 @@ class DialogueUI(Overlay):
 
         pygame.draw.line(
             screen,
-            (170, 170, 170),
+            styles.DIALOGUE_DIVIDER,
             (
                 self.panel.left + 20,
                 y,
@@ -210,10 +224,10 @@ class DialogueUI(Overlay):
                 self.panel.right - 20,
                 y,
             ),
-            2,
+            styles.DIALOGUE_DIVIDER_WIDTH,
         )
-    
-        # --------------------------------------------------
+
+    # --------------------------------------------------
 
     def _draw_text(
         self,
@@ -244,7 +258,7 @@ class DialogueUI(Overlay):
 
             font=Fonts.default,
 
-            color=WHITE,
+            color=styles.DIALOGUE_TEXT,
 
             line_spacing=6,
 
@@ -260,19 +274,16 @@ class DialogueUI(Overlay):
         screen: pygame.Surface,
     ):
 
-        #
-        # Mientras se escribe el texto
-        # no mostramos el indicador.
-        #
+        # --------------------------------------------------
+        # While typing, don't show the indicator.
+        # --------------------------------------------------
 
         if not self._typer.finished:
             return
 
-        #
-        # Última línea:
-        # mostramos una X para indicar
-        # que el diálogo terminará.
-        #
+        # --------------------------------------------------
+        # Last line: X
+        # --------------------------------------------------
 
         if self._line >= len(self._dialogue) - 1:
 
@@ -280,13 +291,14 @@ class DialogueUI(Overlay):
                 return
 
             indicator = Fonts.default.render(
-
                 "✕",
-
                 True,
-
-                WHITE,
+                styles.DIALOGUE_INDICATOR,
             )
+
+        # --------------------------------------------------
+        # More lines: arrow
+        # --------------------------------------------------
 
         else:
 
@@ -294,20 +306,15 @@ class DialogueUI(Overlay):
                 return
 
             indicator = Fonts.default.render(
-
                 "▶",
-
                 True,
-
-                WHITE,
+                styles.DIALOGUE_INDICATOR,
             )
 
         rect = indicator.get_rect()
 
         rect.bottomright = (
-
             self.panel.right - 22,
-
             self.panel.bottom - 18,
         )
 

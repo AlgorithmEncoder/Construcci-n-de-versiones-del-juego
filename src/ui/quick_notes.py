@@ -13,12 +13,7 @@ from launcher.widgets.text_editor import TextEditor
 
 from quick_notes import create_quick_note
 
-
-WHITE = (255, 255, 255)
-TEXT = (30, 30, 30)
-BORDER = (120, 120, 120)
-BUTTON = (70, 110, 210)
-BUTTON_CANCEL = (120, 120, 120)
+from game import styles
 
 
 class QuickNotes(Overlay):
@@ -33,28 +28,51 @@ class QuickNotes(Overlay):
             world_width,
             world_height,
             width=760,
-            height=640
+            height=640,
         )
 
         self._title = TextEditor()
 
         self._text = TextEditor()
 
-        self._title_rect = pygame.Rect(0, 0, 0, 0)
+        self._title_rect = pygame.Rect(
+            0,
+            0,
+            0,
+            0,
+        )
 
-        self._text_rect = pygame.Rect(0, 0, 0, 0)
+        self._text_rect = pygame.Rect(
+            0,
+            0,
+            0,
+            0,
+        )
 
-        self._save = pygame.Rect(0, 0, 0, 0)
+        self._save = pygame.Rect(
+            0,
+            0,
+            0,
+            0,
+        )
 
-        self._cancel = pygame.Rect(0, 0, 0, 0)
-        
+        self._cancel = pygame.Rect(
+            0,
+            0,
+            0,
+            0,
+        )
+
         self._title.focus()
 
     # ==================================================
     # Draw
     # ==================================================
 
-    def _draw_content(self, screen):
+    def _draw_content(
+        self,
+        screen,
+    ):
 
         panel = self.panel
 
@@ -62,155 +80,141 @@ class QuickNotes(Overlay):
 
         y = panel.y + self.padding
 
-        # ------------------------------
+        # ==================================================
         # Title
-        # ------------------------------
+        # ==================================================
 
         screen.blit(
-
             Fonts.title.render(
                 "Nueva nota rápida",
                 True,
-                WHITE
+                styles.QUICK_NOTES_TITLE,
             ),
-
-            (x, y)
-
+            (x, y),
         )
 
         y += 55
 
-        # ------------------------------
+        # ==================================================
         # Note title
-        # ------------------------------
+        # ==================================================
 
         screen.blit(
-
             Fonts.default.render(
                 "Título",
                 True,
-                WHITE
+                styles.QUICK_NOTES_LABEL,
             ),
-
-            (x, y)
-
+            (x, y),
         )
 
         y += 30
 
         self._title_rect = pygame.Rect(
-
             x,
             y,
             panel.width - self.padding * 2,
-            42
-
+            42,
         )
 
         self._title.draw(
             screen,
-            self._title_rect
+            self._title_rect,
         )
 
         y += 65
 
-        # ------------------------------
+        # ==================================================
         # Note text
-        # ------------------------------
+        # ==================================================
 
         screen.blit(
-
             Fonts.default.render(
                 "Texto",
                 True,
-                WHITE
+                styles.QUICK_NOTES_LABEL,
             ),
-
-            (x, y)
-
+            (x, y),
         )
 
         y += 30
 
         self._text_rect = pygame.Rect(
-
             x,
             y,
             panel.width - self.padding * 2,
-            330
-
+            330,
         )
 
         self._text.draw(
             screen,
-            self._text_rect
+            self._text_rect,
         )
 
-        # ------------------------------
+        # ==================================================
         # Buttons
-        # ------------------------------
+        # ==================================================
 
         self._cancel = pygame.Rect(
-
             panel.right - 240,
             panel.bottom - 55,
             100,
-            36
-
+            36,
         )
 
         self._save = pygame.Rect(
-
             panel.right - 120,
             panel.bottom - 55,
             100,
-            36
-
+            36,
         )
 
         pygame.draw.rect(
             screen,
-            BUTTON_CANCEL,
+            styles.BUTTON,
             self._cancel,
-            border_radius=6
+            border_radius=styles.BUTTON_RADIUS,
         )
 
         pygame.draw.rect(
             screen,
-            BUTTON,
+            styles.BUTTON,
             self._save,
-            border_radius=6
+            border_radius=styles.BUTTON_RADIUS,
         )
 
         screen.blit(
-
             Fonts.small.render(
                 "Cancelar",
                 True,
-                WHITE
+                styles.BUTTON_TEXT,
             ),
-
-            (self._cancel.x + 14, self._cancel.y + 10)
-
+            (
+                self._cancel.x + 14,
+                self._cancel.y + 10,
+            ),
         )
 
         screen.blit(
-
             Fonts.small.render(
                 "Guardar",
                 True,
-                WHITE
+                styles.BUTTON_TEXT,
             ),
-
-            (self._save.x + 20, self._save.y + 10)
-
+            (
+                self._save.x + 20,
+                self._save.y + 10,
+            ),
         )
 
     # ==================================================
     # Events
     # ==================================================
 
-    def handle_event(self, event):
+    def handle_event(
+        self,
+        event,
+    ):
 
         if event.type == pygame.KEYDOWN:
 
@@ -268,7 +272,7 @@ class QuickNotes(Overlay):
 
             create_quick_note(
                 title=self._title.text,
-                text=self._text.text
+                text=self._text.text,
             )
 
             self.close()

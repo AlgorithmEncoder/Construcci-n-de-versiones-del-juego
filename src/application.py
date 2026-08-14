@@ -28,6 +28,8 @@ class Application:
         )
         
         self._display_state = None
+        
+        self._init_themes()
 
     # ==================================================
     # Public API
@@ -205,3 +207,19 @@ class Application:
         )
 
         self._launcher._achievements.check()
+    
+    def _init_themes(self):
+        
+        display_settings = self._launcher.display_settings
+        
+        from launcher import styles as launcher_styles
+        
+        launcher_styles.set_theme(display_settings.get("launcher_theme", "default"))
+        
+        from game import styles as game_styles
+        
+        game_styles.set_theme(display_settings.get("game_theme", "default"))
+        
+        from ui.computer import styles as computer_styles
+        
+        computer_styles.set_theme(display_settings.get("computer_theme", "default"))

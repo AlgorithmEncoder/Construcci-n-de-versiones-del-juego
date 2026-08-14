@@ -61,7 +61,7 @@ class TextEditor:
 
         pygame.draw.rect(
             screen,
-            (255,255,255),
+            styles.INPUT,
             rect
         )
 
