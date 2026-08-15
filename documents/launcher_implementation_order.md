@@ -53,36 +53,34 @@
 ## Fase 5 (Ajustes)
 CONFIGURACIÓN
 
-├── 5.1 General
+├── 5.1 Bases: Json, manager y integración
+├── 5.2 General
 │   ├── Confirmaciones
 │   ├── Avisos
 │   └── Comportamiento del launcher
 │
-├── 5.2 Display
+├── 5.3 Display
 │   ├── Resolución
 │   ├── Pantalla completa
 │   ├── Modo ventana
-│   └── Ajustar a pantalla
+│   ├── Ajustar a pantalla
+│   ├── Tema del launcher
+│   ├── Tema del juego
+│   └── Tema de computers
 │
-├── 5.3 Audio
+├── 5.6 Audio
 │   ├── Volumen general
 │   ├── Música
 │   ├── Efectos
 │   └── Diálogos
 │
-├── 5.4 Idioma
+├── 5.5 Idioma
 │   └── Idioma
 │
-├── 5.5 Accesibilidad
+├── 5.4 Accesibilidad
 │   ├── Tamaño de texto
 │   ├── Animación de escritura
 │   └── Velocidad del texto
-│
-└── 5.6 Apariencia
-    ├── Tema del launcher
-    ├── Tema del juego
-    └── Contraste
-Orden: json, manager, integration, sections
 
 ## Fase 6 (Sonido)
 

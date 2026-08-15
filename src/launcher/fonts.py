@@ -27,19 +27,19 @@ class Fonts:
     # ==================================================
 
     @classmethod
-    def initialize(cls):
+    def initialize(cls, scale=1.0):
+    
+        cls.title = pygame.font.Font(
+            DEFAULT_FONT,
+            int(TITLE_FONT_SIZE*scale)
+        )
 
         cls.default = pygame.font.Font(
             DEFAULT_FONT,
-            DEFAULT_FONT_SIZE
-        )
-
-        cls.title = pygame.font.Font(
-            DEFAULT_FONT,
-            TITLE_FONT_SIZE
+            int(DEFAULT_FONT_SIZE*scale)
         )
 
         cls.small = pygame.font.Font(
             DEFAULT_FONT,
-            SMALL_FONT_SIZE
+            int(SMALL_FONT_SIZE*scale)
         )

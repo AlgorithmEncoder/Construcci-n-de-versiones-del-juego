@@ -1,24 +1,27 @@
 """
-Display settings view.
+Accessibility settings view.
 
-Provides display, window, interface scale and visual theme options.
+Provides accessibility options related to text size,
+visual contrast, motion and dialogue presentation.
 """
 
 from __future__ import annotations
 
 import pygame
 
-from launcher import styles as launcher_styles
-from game import styles as game_styles
-from ui.computer import styles as computer_styles
+from launcher import styles
 
 from launcher.settings.views.base_view import BaseView
 from launcher.fonts import Fonts
 
+from launcher import styles as launcher_styles
+from game import styles as game_styles
+from ui.computer import styles as computer_styles
 
-class DisplayView(BaseView):
+
+class AccessibilityView(BaseView):
     """
-    Settings view for display and visual configuration.
+    Settings view for accessibility options.
     """
 
     # ==================================================
@@ -39,18 +42,7 @@ class DisplayView(BaseView):
     # Available options
     # ==================================================
 
-    RESOLUTIONS = (
-        (1280, 720),
-        (1366, 768),
-        (1440, 900),
-        (1536, 864),
-        (1536, 1024),
-        (1600, 900),
-        (1920, 1080),
-        (2560, 1440),
-    )
-
-    UI_SCALES = (
+    TEXT_SIZES = (
         0.80,
         0.90,
         1.00,
@@ -58,6 +50,16 @@ class DisplayView(BaseView):
         1.20,
         1.30,
         1.50,
+    )
+
+    DIALOGUE_SPEEDS = (
+        20,
+        30,
+        40,
+        50,
+        60,
+        80,
+        100,
     )
 
     # ==================================================
@@ -68,10 +70,11 @@ class DisplayView(BaseView):
 
         super().__init__(
             settings_manager=settings_manager,
-            section="display",
-            title="Pantalla",
+            section="accessibility",
+            title="Accesibilidad",
             description=(
-                "Configura la resolución, la ventana y el aspecto visual."
+                "Configura diferentes opciones para adaptar "
+                "la experiencia a tus necesidades."
             ),
         )
 
@@ -118,147 +121,110 @@ class DisplayView(BaseView):
             + self._scroll_y
         )
 
-        # --------------------------------------------------
-        # Resolution
-        # --------------------------------------------------
+        # ==================================================
+        # Text size
+        # ==================================================
 
         if self._controls.get(
-            "resolution_left",
-            pygame.Rect(0,0,0,0)
+            "text_size_left",
+            pygame.Rect(0, 0, 0, 0)
         ).collidepoint(content_pos):
 
-            self._change_resolution(-1)
+            self._change_text_size(-1)
 
             return True
 
         if self._controls.get(
-            "resolution_right",
-            pygame.Rect(0,0,0,0)
+            "text_size_right",
+            pygame.Rect(0, 0, 0, 0)
         ).collidepoint(content_pos):
 
-            self._change_resolution(1)
+            self._change_text_size(1)
 
             return True
 
-        # --------------------------------------------------
-        # Fullscreen
-        # --------------------------------------------------
+        # ==================================================
+        # High contrast
+        # ==================================================
 
         if self._rows.get(
-            "fullscreen",
-            pygame.Rect(0,0,0,0)
+            "high_contrast",
+            pygame.Rect(0, 0, 0, 0)
+        ).collidepoint(content_pos):
+
+            value = not self._get(
+                "high_contrast",
+                False
+            )
+
+            self._set(
+                "high_contrast",
+                value
+            )
+
+            self._apply_high_contrast(
+                value
+            )
+
+            return True
+
+        # ==================================================
+        # Reduce motion
+        # ==================================================
+
+        if self._rows.get(
+            "reduce_motion",
+            pygame.Rect(0, 0, 0, 0)
         ).collidepoint(content_pos):
 
             self._set(
-                "fullscreen",
+                "reduce_motion",
                 not self._get(
-                    "fullscreen",
+                    "reduce_motion",
                     False
                 )
             )
 
             return True
 
-        # --------------------------------------------------
-        # VSync
-        # --------------------------------------------------
+        # ==================================================
+        # Dialogue typing
+        # ==================================================
 
         if self._rows.get(
-            "vsync",
-            pygame.Rect(0,0,0,0)
+            "dialogue_typing",
+            pygame.Rect(0, 0, 0, 0)
         ).collidepoint(content_pos):
 
             self._set(
-                "vsync",
+                "dialogue_typing",
                 not self._get(
-                    "vsync",
+                    "dialogue_typing",
                     True
                 )
             )
 
             return True
 
-        # --------------------------------------------------
-        # Launcher theme
-        # --------------------------------------------------
+        # ==================================================
+        # Dialogue typing speed
+        # ==================================================
 
         if self._controls.get(
-            "launcher_theme_left",
-            pygame.Rect(0,0,0,0)
+            "dialogue_typing_speed_left",
+            pygame.Rect(0, 0, 0, 0)
         ).collidepoint(content_pos):
 
-            self._change_theme(
-                "launcher_theme",
-                -1
-            )
+            self._change_dialogue_speed(-1)
 
             return True
 
         if self._controls.get(
-            "launcher_theme_right",
-            pygame.Rect(0,0,0,0)
+            "dialogue_typing_speed_right",
+            pygame.Rect(0, 0, 0, 0)
         ).collidepoint(content_pos):
 
-            self._change_theme(
-                "launcher_theme",
-                1
-            )
-
-            return True
-
-        # --------------------------------------------------
-        # Game theme
-        # --------------------------------------------------
-
-        if self._controls.get(
-            "game_theme_left",
-            pygame.Rect(0,0,0,0)
-        ).collidepoint(content_pos):
-
-            self._change_theme(
-                "game_theme",
-                -1
-            )
-
-            return True
-
-        if self._controls.get(
-            "game_theme_right",
-            pygame.Rect(0,0,0,0)
-        ).collidepoint(content_pos):
-
-            self._change_theme(
-                "game_theme",
-                1
-            )
-
-            return True
-
-        # --------------------------------------------------
-        # Computer theme
-        # --------------------------------------------------
-
-        if self._controls.get(
-            "computer_theme_left",
-            pygame.Rect(0,0,0,0)
-        ).collidepoint(content_pos):
-
-            self._change_theme(
-                "computer_theme",
-                -1
-            )
-
-            return True
-
-        if self._controls.get(
-            "computer_theme_right",
-            pygame.Rect(0,0,0,0)
-        ).collidepoint(content_pos):
-
-            self._change_theme(
-                "computer_theme",
-                1
-            )
+            self._change_dialogue_speed(1)
 
             return True
 
@@ -274,7 +240,7 @@ class DisplayView(BaseView):
         rect
     ):
         """
-        Draws the display settings content.
+        Draws the accessibility settings content.
         """
 
         self._rows.clear()
@@ -286,10 +252,10 @@ class DisplayView(BaseView):
         y = rect.y + 10
 
         # ==================================================
-        # Resolution
+        # Text size
         # ==================================================
 
-        self._draw_resolution_row(
+        self._draw_text_size_row(
             screen,
             pygame.Rect(
                 x,
@@ -302,7 +268,7 @@ class DisplayView(BaseView):
         y += self.ROW_HEIGHT + self.ROW_GAP
 
         # ==================================================
-        # Fullscreen
+        # High contrast
         # ==================================================
 
         self._draw_toggle_row(
@@ -313,18 +279,18 @@ class DisplayView(BaseView):
                 width,
                 self.ROW_HEIGHT
             ),
-            "fullscreen",
-            "Pantalla completa",
+            "high_contrast",
+            "Alto contraste",
             (
-                "Utiliza toda la pantalla para ejecutar "
-                "la aplicación."
+                "Aumenta el contraste de los elementos "
+                "para facilitar su lectura."
             )
         )
 
         y += self.ROW_HEIGHT + self.ROW_GAP
 
         # ==================================================
-        # VSync
+        # Reduce motion
         # ==================================================
 
         self._draw_toggle_row(
@@ -335,21 +301,28 @@ class DisplayView(BaseView):
                 width,
                 self.ROW_HEIGHT
             ),
-            "vsync",
-            "Sincronización vertical",
+            "reduce_motion",
+            "Reducir movimiento",
             (
-                "Sincroniza la actualización de la imagen "
-                "con la frecuencia de la pantalla."
+                "Reduce determinadas transiciones y "
+                "animaciones de la interfaz."
             )
         )
 
         y += self.ROW_HEIGHT + self.ROW_GAP
 
         # ==================================================
-        # Launcher theme
+        # Dialogue typing
         # ==================================================
 
-        self._draw_theme_row(
+        dialogue_typing_enabled = bool(
+            self._get(
+                "dialogue_typing",
+                True
+            )
+        )
+
+        self._draw_toggle_row(
             screen,
             pygame.Rect(
                 x,
@@ -357,21 +330,21 @@ class DisplayView(BaseView):
                 width,
                 self.ROW_HEIGHT
             ),
-            "launcher_theme",
-            "Tema del lanzador",
+            "dialogue_typing",
+            "Escritura de diálogos",
             (
-                "Define el aspecto visual de los menús "
-                "y la interfaz principal."
+                "Muestra los diálogos utilizando "
+                "el efecto de escritura progresiva."
             )
         )
 
         y += self.ROW_HEIGHT + self.ROW_GAP
 
         # ==================================================
-        # Game theme
+        # Dialogue typing speed
         # ==================================================
 
-        self._draw_theme_row(
+        self._draw_dialogue_speed_row(
             screen,
             pygame.Rect(
                 x,
@@ -379,45 +352,21 @@ class DisplayView(BaseView):
                 width,
                 self.ROW_HEIGHT
             ),
-            "game_theme",
-            "Tema del juego",
-            (
-                "Define el aspecto visual de la interfaz "
-                "durante las incursiones."
-            )
-        )
-
-        y += self.ROW_HEIGHT + self.ROW_GAP
-
-        # ==================================================
-        # Computer theme
-        # ==================================================
-
-        self._draw_theme_row(
-            screen,
-            pygame.Rect(
-                x,
-                y,
-                width,
-                self.ROW_HEIGHT
-            ),
-            "computer_theme",
-            "Tema de los ordenadores",
-            (
-                "Define el aspecto visual de las interfaces "
-                "de los ordenadores."
-            )
+            enabled=dialogue_typing_enabled
         )
 
     # ==================================================
-    # Resolution
+    # Text size
     # ==================================================
 
-    def _draw_resolution_row(
+    def _draw_text_size_row(
         self,
         screen,
         rect: pygame.Rect
     ):
+        """
+        Draws the text size selector.
+        """
 
         self._draw_panel(
             screen,
@@ -427,9 +376,9 @@ class DisplayView(BaseView):
         text_x = rect.x + 18
 
         title = Fonts.default.render(
-            "Resolución",
+            "Tamaño del texto",
             True,
-            launcher_styles.TEXT
+            styles.TEXT
         )
 
         screen.blit(
@@ -441,9 +390,9 @@ class DisplayView(BaseView):
         )
 
         description = Fonts.small.render(
-            "Resolución utilizada por la ventana del juego.",
+            "Ajusta el tamaño del texto utilizado por las interfaces.",
             True,
-            launcher_styles.TEXT_SECONDARY
+            styles.TEXT_SECONDARY
         )
 
         screen.blit(
@@ -454,11 +403,7 @@ class DisplayView(BaseView):
             )
         )
 
-        # --------------------------------------------------
-        # Resolution selector
-        # --------------------------------------------------
-
-        current = self._get_resolution()
+        current = self._get_text_size()
 
         control_y = (
             rect.y +
@@ -470,6 +415,10 @@ class DisplayView(BaseView):
 
         right = rect.right - 18
 
+        # --------------------------------------------------
+        # Right button
+        # --------------------------------------------------
+
         arrow_right = pygame.Rect(
             right - 34,
             control_y,
@@ -478,7 +427,7 @@ class DisplayView(BaseView):
         )
 
         self._controls[
-            "resolution_right"
+            "text_size_right"
         ] = arrow_right
 
         self._draw_button(
@@ -486,6 +435,10 @@ class DisplayView(BaseView):
             arrow_right,
             ">"
         )
+
+        # --------------------------------------------------
+        # Value
+        # --------------------------------------------------
 
         right = arrow_right.left - 8
 
@@ -499,8 +452,12 @@ class DisplayView(BaseView):
         self._draw_value_box(
             screen,
             value_rect,
-            f"{current[0]} × {current[1]}"
+            self._text_size_label(current)
         )
+
+        # --------------------------------------------------
+        # Left button
+        # --------------------------------------------------
 
         right = value_rect.left - 8
 
@@ -512,7 +469,7 @@ class DisplayView(BaseView):
         )
 
         self._controls[
-            "resolution_left"
+            "text_size_left"
         ] = arrow_left
 
         self._draw_button(
@@ -533,6 +490,9 @@ class DisplayView(BaseView):
         title: str,
         description: str
     ):
+        """
+        Draws a standard accessibility toggle row.
+        """
 
         self._rows[key] = rect
 
@@ -546,7 +506,7 @@ class DisplayView(BaseView):
         title_surface = Fonts.default.render(
             title,
             True,
-            launcher_styles.TEXT
+            styles.TEXT
         )
 
         screen.blit(
@@ -560,7 +520,7 @@ class DisplayView(BaseView):
         description_surface = Fonts.small.render(
             description,
             True,
-            launcher_styles.TEXT_SECONDARY
+            styles.TEXT_SECONDARY
         )
 
         screen.blit(
@@ -598,17 +558,21 @@ class DisplayView(BaseView):
         )
 
     # ==================================================
-    # Theme
+    # Dialogue speed
     # ==================================================
 
-    def _draw_theme_row(
+    def _draw_dialogue_speed_row(
         self,
         screen,
         rect: pygame.Rect,
-        key: str,
-        title: str,
-        description: str
+        enabled: bool = True
     ):
+        """
+        Draws the dialogue typing speed selector.
+
+        The selector remains visible when dialogue typing
+        is disabled, but is visually disabled.
+        """
 
         self._draw_panel(
             screen,
@@ -617,38 +581,43 @@ class DisplayView(BaseView):
 
         text_x = rect.x + 18
 
-        title_surface = Fonts.default.render(
-            title,
+        text_color = (
+            styles.TEXT
+            if enabled
+            else styles.TEXT_SECONDARY
+        )
+
+        description_color = styles.TEXT_SECONDARY
+
+        title = Fonts.default.render(
+            "Velocidad de escritura",
             True,
-            launcher_styles.TEXT
+            text_color
         )
 
         screen.blit(
-            title_surface,
+            title,
             (
                 text_x,
                 rect.y + 15
             )
         )
 
-        description_surface = Fonts.small.render(
-            description,
+        description = Fonts.small.render(
+            "Velocidad a la que aparece el texto de los diálogos.",
             True,
-            launcher_styles.TEXT_SECONDARY
+            description_color
         )
 
         screen.blit(
-            description_surface,
+            description,
             (
                 text_x,
                 rect.y + 43
             )
         )
 
-        value = self._get(
-            key,
-            "default"
-        )
+        current = self._get_dialogue_speed()
 
         control_y = (
             rect.y +
@@ -660,6 +629,10 @@ class DisplayView(BaseView):
 
         right = rect.right - 18
 
+        # --------------------------------------------------
+        # Right button
+        # --------------------------------------------------
+
         arrow_right = pygame.Rect(
             right - 34,
             control_y,
@@ -667,15 +640,22 @@ class DisplayView(BaseView):
             self.BUTTON_HEIGHT
         )
 
-        self._controls[
-            f"{key}_right"
-        ] = arrow_right
+        if enabled:
+
+            self._controls[
+                "dialogue_typing_speed_right"
+            ] = arrow_right
 
         self._draw_button(
             screen,
             arrow_right,
-            ">"
+            ">",
+            enabled=enabled
         )
+
+        # --------------------------------------------------
+        # Value
+        # --------------------------------------------------
 
         right = arrow_right.left - 8
 
@@ -689,8 +669,13 @@ class DisplayView(BaseView):
         self._draw_value_box(
             screen,
             value_rect,
-            self._theme_label(value)
+            self._dialogue_speed_label(current),
+            enabled=enabled
         )
+
+        # --------------------------------------------------
+        # Left button
+        # --------------------------------------------------
 
         right = value_rect.left - 8
 
@@ -701,14 +686,17 @@ class DisplayView(BaseView):
             self.BUTTON_HEIGHT
         )
 
-        self._controls[
-            f"{key}_left"
-        ] = arrow_left
+        if enabled:
+
+            self._controls[
+                "dialogue_typing_speed_left"
+            ] = arrow_left
 
         self._draw_button(
             screen,
             arrow_left,
-            "<"
+            "<",
+            enabled=enabled
         )
 
     # ==================================================
@@ -719,19 +707,35 @@ class DisplayView(BaseView):
         self,
         screen,
         rect: pygame.Rect,
-        text: str
+        text: str,
+        enabled: bool = True
     ):
+        """
+        Draws a standard selector button.
+        """
+
+        if enabled:
+
+            background = styles.PANEL
+            border = styles.BORDER
+            text_color = styles.TEXT
+
+        else:
+
+            background = styles.SIDEBAR
+            border = styles.BORDER
+            text_color = styles.TEXT_SECONDARY
 
         pygame.draw.rect(
             screen,
-            launcher_styles.PANEL,
+            background,
             rect,
             border_radius=6
         )
 
         pygame.draw.rect(
             screen,
-            launcher_styles.BORDER,
+            border,
             rect,
             1,
             border_radius=6
@@ -740,7 +744,7 @@ class DisplayView(BaseView):
         surface = Fonts.small.render(
             text,
             True,
-            launcher_styles.TEXT
+            text_color
         )
 
         text_rect = surface.get_rect(
@@ -758,19 +762,35 @@ class DisplayView(BaseView):
         self,
         screen,
         rect: pygame.Rect,
-        text: str
+        text: str,
+        enabled: bool = True
     ):
+        """
+        Draws a selector value box.
+        """
+
+        background = (
+            styles.SIDEBAR
+            if enabled
+            else styles.BACKGROUND
+        )
+
+        text_color = (
+            styles.TEXT
+            if enabled
+            else styles.TEXT_SECONDARY
+        )
 
         pygame.draw.rect(
             screen,
-            launcher_styles.SIDEBAR,
+            background,
             rect,
             border_radius=6
         )
 
         pygame.draw.rect(
             screen,
-            launcher_styles.BORDER,
+            styles.BORDER,
             rect,
             1,
             border_radius=6
@@ -779,7 +799,7 @@ class DisplayView(BaseView):
         surface = Fonts.small.render(
             text,
             True,
-            launcher_styles.TEXT
+            text_color
         )
 
         text_rect = surface.get_rect(
@@ -799,11 +819,14 @@ class DisplayView(BaseView):
         rect: pygame.Rect,
         value: bool
     ):
+        """
+        Draws a standard toggle.
+        """
 
         background = (
-            launcher_styles.ACCENT
+            styles.ACCENT
             if value
-            else launcher_styles.BORDER
+            else styles.BORDER
         )
 
         pygame.draw.rect(
@@ -840,187 +863,236 @@ class DisplayView(BaseView):
 
         pygame.draw.ellipse(
             screen,
-            launcher_styles.PANEL,
+            styles.PANEL,
             knob
         )
 
     # ==================================================
-    # Resolution helpers
+    # Text size helpers
     # ==================================================
 
-    def _get_resolution(self):
+    def _get_text_size(self):
+        """
+        Returns the current text size.
+        """
 
         value = self._get(
-            "resolution",
-            [1536, 1024]
+            "text_size",
+            1.0
         )
 
         try:
 
-            return (
-                int(value[0]),
-                int(value[1])
-            )
+            value = float(value)
 
         except (
             TypeError,
-            ValueError,
-            IndexError
+            ValueError
         ):
 
-            return (
-                1536,
-                1024
-            )
+            return 1.0
+
+        return value
 
     # --------------------------------------------------
 
-    def _change_resolution(
+    def _change_text_size(
         self,
         direction: int
     ):
+        """
+        Changes the text size to the next available value.
+        """
 
-        current = self._get_resolution()
+        current = self._get_text_size()
 
         try:
 
-            index = self.RESOLUTIONS.index(
+            index = self.TEXT_SIZES.index(
                 current
             )
 
         except ValueError:
 
-            index = 0
+            index = 2
 
         index = (
             index +
             direction
-        ) % len(self.RESOLUTIONS)
-
-        resolution = self.RESOLUTIONS[index]
+        ) % len(self.TEXT_SIZES)
 
         self._set(
-            "resolution",
-            [
-                resolution[0],
-                resolution[1]
-            ]
+            "text_size",
+            self.TEXT_SIZES[index]
         )
-
-    # ==================================================
-    # Theme helpers
-    # ==================================================
-
-    def _change_theme(
-        self,
-        key: str,
-        direction: int
-    ):
-
-        style_managers = {
-            "launcher_theme": launcher_styles,
-            "game_theme": game_styles,
-            "computer_theme": computer_styles,
-        }
-
-        styles = style_managers.get(key)
-
-        if styles is None:
-            return
-
-        themes = styles.get_themes()
-
-        current = self._get(
-            key,
-            "default"
-        )
-
-        try:
-
-            index = themes.index(current)
-
-        except ValueError:
-
-            index = 0
-
-        index = (
-            index + direction
-        ) % len(themes)
-
-        theme = themes[index]
-
-        self._set(
-            key,
-            theme
-        )
-
-        if not self._high_contrast_enabled():
-            styles.set_theme(theme)
 
     # --------------------------------------------------
 
     @staticmethod
-    def _theme_label(theme: str):
+    def _text_size_label(
+        value: float
+    ):
+        """
+        Returns the presentation label for a text size.
+        """
 
-        labels = {
-            "default": "Predeterminado",
-            "dark": "Oscuro",
-            "midnight": "Medianoche",
-            "forest": "Bosque",
-            "warm": "Cálido",
-            "high_contrast": "Alto contraste",
-        }
+        return f"{int(value * 100)}%"
 
-        return labels.get(
-            theme,
-            theme
+    # ==================================================
+    # Dialogue speed helpers
+    # ==================================================
+
+    def _get_dialogue_speed(self):
+        """
+        Returns the current dialogue typing speed.
+        """
+
+        value = self._get(
+            "dialogue_typing_speed",
+            40
         )
 
-    # ==================================================
-    # Local settings helpers
-    # ==================================================
+        try:
 
-    def _get(
+            return int(value)
+
+        except (
+            TypeError,
+            ValueError
+        ):
+
+            return 40
+
+    # --------------------------------------------------
+
+    def _change_dialogue_speed(
         self,
-        key: str,
-        default=None
+        direction: int
     ):
+        """
+        Changes the dialogue typing speed to the next
+        available value.
+        """
 
-        return self._settings.get(
-            key,
-            default
+        current = self._get_dialogue_speed()
+
+        try:
+
+            index = self.DIALOGUE_SPEEDS.index(
+                current
+            )
+
+        except ValueError:
+
+            index = 2
+
+        index = (
+            index +
+            direction
+        ) % len(self.DIALOGUE_SPEEDS)
+
+        self._set(
+            "dialogue_typing_speed",
+            self.DIALOGUE_SPEEDS[index]
         )
 
     # --------------------------------------------------
 
-    def _set(
-        self,
-        key: str,
-        value
+    @staticmethod
+    def _dialogue_speed_label(
+        value: int
     ):
+        """
+        Returns the presentation label for dialogue speed.
+        """
 
-        self._settings[key] = value
+        labels = {
+            20: "Muy lenta",
+            30: "Lenta",
+            40: "Normal",
+            50: "Rápida",
+            60: "Muy rápida",
+            80: "Rápida +",
+            100: "Muy rápida +",
+        }
+
+        return labels.get(
+            value,
+            f"{value} caracteres/s"
+        )
     
+    def _apply_high_contrast(self, enabled: bool):
+        """
+        Applies or removes the high contrast visual theme.
+
+        When enabled, all interfaces use the high contrast theme
+        without modifying the user's saved theme selections.
+
+        When disabled, the previously selected themes are restored
+        from the display settings.
+        """
+
+        if enabled:
+
+            launcher_styles.set_theme(
+                "high_contrast"
+            )
+
+            game_styles.set_theme(
+                "high_contrast"
+            )
+
+            computer_styles.set_theme(
+                "high_contrast"
+            )
+
+            return
+
+        display = self._settings_manager.get(
+            "display"
+        )
+
+        launcher_theme = display.get(
+            "launcher_theme",
+            "default"
+        )
+
+        game_theme = display.get(
+            "game_theme",
+            "default"
+        )
+
+        computer_theme = display.get(
+            "computer_theme",
+            "default"
+        )
+
+        launcher_styles.set_theme(
+            launcher_theme
+        )
+
+        game_styles.set_theme(
+            game_theme
+        )
+
+        computer_styles.set_theme(
+            computer_theme
+        )
+
+    # ==================================================
+    # Content height
+    # ==================================================
+
     def _get_content_height(
         self,
         rect
     ):
+        """
+        Returns the total height required by the section.
+        """
 
         return (
-            7 * self.ROW_HEIGHT
-            + 6 * self.ROW_GAP
+            5 * self.ROW_HEIGHT
+            + 4 * self.ROW_GAP
             + 20
-        )
-    
-    def _high_contrast_enabled(self):
-
-        accessibility = self._settings_manager.get(
-            "accessibility"
-        )
-
-        return bool(
-            accessibility.get(
-                "high_contrast",
-                False
-            )
         )

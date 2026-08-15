@@ -8,7 +8,7 @@ No game logic should be implemented here.
 from pathlib import Path
 import sys
 
-GAME_VERSION = "v.1.4.5"
+GAME_VERSION = "v.1.5.4"
 
 # ==========================================================
 # PROJECT PATHS

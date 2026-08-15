@@ -815,6 +815,87 @@ def draw_language(
     )
 
 
+def draw_accessibility(
+    surface: pygame.Surface,
+    rect: pygame.Rect,
+    colour,
+):
+    """
+    Accessibility icon represented by a simplified human figure.
+    """
+
+    # Head
+    pygame.draw.circle(
+        surface,
+        colour,
+        (
+            rect.centerx,
+            rect.top + 4,
+        ),
+        2,
+    )
+
+    # Body
+    pygame.draw.line(
+        surface,
+        colour,
+        (
+            rect.centerx,
+            rect.top + 7,
+        ),
+        (
+            rect.centerx,
+            rect.bottom - 5,
+        ),
+        LINE_WIDTH,
+    )
+
+    # Arms
+    pygame.draw.line(
+        surface,
+        colour,
+        (
+            rect.centerx - 6,
+            rect.top + 9,
+        ),
+        (
+            rect.centerx + 6,
+            rect.top + 9,
+        ),
+        LINE_WIDTH,
+    )
+
+    # Left leg
+    pygame.draw.line(
+        surface,
+        colour,
+        (
+            rect.centerx,
+            rect.bottom - 5,
+        ),
+        (
+            rect.centerx - 5,
+            rect.bottom - 1,
+        ),
+        LINE_WIDTH,
+    )
+
+    # Right leg
+    pygame.draw.line(
+        surface,
+        colour,
+        (
+            rect.centerx,
+            rect.bottom - 5,
+        ),
+        (
+            rect.centerx + 5,
+            rect.bottom - 1,
+        ),
+        LINE_WIDTH,
+    )
+
+
 
 
 def draw_iterations(

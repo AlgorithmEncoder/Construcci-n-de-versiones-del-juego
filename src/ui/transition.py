@@ -40,6 +40,7 @@ class TransitionUI(Overlay):
         duration: float,
         callback: Callable | None = None,
         text: str | None = None,
+        reduce_motion: bool = False
     ):
 
         super().__init__(
@@ -59,6 +60,8 @@ class TransitionUI(Overlay):
 
         self._dots = 0
         self._dot_timer = 0.0
+        
+        self._motion = not reduce_motion
 
     # ==================================================
     # Update
@@ -125,7 +128,13 @@ class TransitionUI(Overlay):
         if not self._text:
             return
 
-        message = f"{self._text}{'.' * self._dots}"
+        if self._motion:
+
+            message = f"{self._text}{'.' * self._dots}"
+
+        else:
+
+            message = self._text
 
         text = Fonts.title.render(
             message,

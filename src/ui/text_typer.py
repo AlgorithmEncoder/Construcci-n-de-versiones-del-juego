@@ -29,6 +29,7 @@ class TextTyper:
         self._pause = 0.0
 
         self._finished = True
+        self._dialogue_settings = None
 
     # ==================================================
     # Public API
@@ -47,7 +48,16 @@ class TextTyper:
 
         self._finished = len(self._text) == 0
 
-        if not DIALOGUE_ENABLE_TYPING:
+        dialogue_typing = (
+            self._dialogue_settings.get(
+                "dialogue_typing",
+                DIALOGUE_ENABLE_TYPING
+            )
+            if self._dialogue_settings
+            else DIALOGUE_ENABLE_TYPING
+        )
+
+        if not dialogue_typing:
 
             self.show_all()
 
@@ -68,7 +78,16 @@ class TextTyper:
 
             return
 
-        speed = DIALOGUE_TYPING_SPEED
+        dialogue_speed = (
+            self._dialogue_settings.get(
+                "dialogue_typing_speed",
+                DIALOGUE_TYPING_SPEED
+            )
+            if self._dialogue_settings
+            else DIALOGUE_TYPING_SPEED
+        )
+
+        speed = dialogue_speed
 
         if fast:
             speed *= DIALOGUE_FAST_MULTIPLIER

@@ -9,6 +9,9 @@ import pygame
 from launcher.main_window import MainWindow
 from core.game import Game
 
+from ui.fonts import Fonts
+from launcher.fonts import Fonts as launcher_fonts
+
 
 class Application:
 
@@ -37,7 +40,7 @@ class Application:
 
     def update(self, dt):
         
-        self._apply_display_settings()
+        self._apply_settings()
 
         if self._game is None:
 
@@ -89,6 +92,13 @@ class Application:
         else:
 
             self._game.handle_event(event)
+    
+    # --------------------------------------------------
+    
+    def _apply_settings(self):
+        
+        self._apply_display_settings()
+        self._apply_scale_settings()
     
     # --------------------------------------------------
     
@@ -182,6 +192,14 @@ class Application:
     
     # --------------------------------------------------
     
+    def _apply_scale_settings(self):
+        
+        scale = self._launcher._settings.get("accessibility").get("text_size", 1.0)
+        Fonts.initialize(scale)
+        launcher_fonts.initialize(scale)
+    
+    # --------------------------------------------------
+    
     def _save_data(self):
         
         current_view = self._launcher._workspace.current
@@ -210,16 +228,31 @@ class Application:
     
     def _init_themes(self):
         
-        display_settings = self._launcher.display_settings
-        
         from launcher import styles as launcher_styles
-        
-        launcher_styles.set_theme(display_settings.get("launcher_theme", "default"))
-        
         from game import styles as game_styles
-        
-        game_styles.set_theme(display_settings.get("game_theme", "default"))
-        
         from ui.computer import styles as computer_styles
         
+        if self._high_contrast_enabled():
+            launcher_styles.set_theme("high_contrast")        
+            game_styles.set_theme("high_contrast")        
+            computer_styles.set_theme("high_contrast")
+            return
+        
+        display_settings = self._launcher.display_settings
+        
+        launcher_styles.set_theme(display_settings.get("launcher_theme", "default"))        
+        game_styles.set_theme(display_settings.get("game_theme", "default"))        
         computer_styles.set_theme(display_settings.get("computer_theme", "default"))
+    
+    def _high_contrast_enabled(self):
+    
+        accessibility = self._launcher._settings.get(
+            "accessibility"
+        )
+
+        return bool(
+            accessibility.get(
+                "high_contrast",
+                False
+            )
+        )

@@ -31,6 +31,7 @@ class DialogueUI(Overlay):
         world_width: int,
         world_height: int,
         callback=None,
+        dialogue_settings:dict=None,
     ):
 
         super().__init__(
@@ -56,6 +57,7 @@ class DialogueUI(Overlay):
         # ==================================================
 
         self._typer = TextTyper()
+        if dialogue_settings: self._typer._dialogue_settings = dialogue_settings
 
         if self._dialogue:
             self._typer.set_text(

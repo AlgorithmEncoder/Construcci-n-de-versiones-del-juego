@@ -41,7 +41,9 @@ from constants import (
     COMPUTER_BOOT_TIME,
     RESET_TIME,
     OBJECTIVE_DURATION,
-    COMPUTER_WARNINGS
+    COMPUTER_WARNINGS,
+    DIALOGUE_ENABLE_TYPING,
+    DIALOGUE_TYPING_SPEED
 )
 
 
@@ -402,6 +404,26 @@ class Game:
             "finished": self._completed,
         }
     
+    @property
+    def dialogue_settings(self) -> dict:
+        """
+        Returns the accessibility settings used by
+        the dialogue system.
+        """
+
+        accessibility = self._settings.get("accessibility")
+
+        return {
+            "dialogue_typing": accessibility.get(
+                "dialogue_typing",
+                DIALOGUE_ENABLE_TYPING
+            ),
+            "dialogue_typing_speed": accessibility.get(
+                "dialogue_typing_speed",
+                DIALOGUE_TYPING_SPEED
+            ),
+        }
+    
     # ==================================================
     # Actions
     # ==================================================
@@ -546,7 +568,8 @@ class Game:
                 speaker=npc.name,
                 dialogue=[dialogue],
                 world_width=self._native_width,
-                world_height=self._native_height
+                world_height=self._native_height,
+                dialogue_settings=self.dialogue_settings
             )
         )
     
@@ -586,7 +609,9 @@ class Game:
         
                         world_height=self._native_height,
         
-                        callback=self._end_loop
+                        callback=self._end_loop,
+                        
+                        dialogue_settings=self.dialogue_settings
         
                     )
         
@@ -616,7 +641,9 @@ class Game:
 
                 callback=callback,
 
-                text=text
+                text=text,
+                
+                reduce_motion=self._settings.get("accessibility").get("reduce_motion", False)
 
             )
 
@@ -655,7 +682,9 @@ class Game:
 
                 world_height=self._native_height,
 
-                callback=callback
+                callback=callback,
+                
+                dialogue_settings=self.dialogue_settings
 
             )
 
@@ -727,8 +756,6 @@ class Game:
         return True
     
     def _show_objective(self):
-
-        from ui.transition import TransitionUI
         
         callback=self._open_intro if self._iterations == 1 else None
 
@@ -738,7 +765,8 @@ class Game:
                 duration=OBJECTIVE_DURATION,
                 world_width=self._native_width,
                 world_height=self._native_height,
-                callback=callback
+                callback=callback,
+                reduce_motion=self._settings.get("accessibility").get("reduce_motion", False)
             )
         )
     
@@ -754,7 +782,8 @@ class Game:
                 speaker="",
                 dialogue=dialogue,
                 world_width=self._native_width,
-                world_height=self._native_height
+                world_height=self._native_height,
+                dialogue_settings=self.dialogue_settings
             )
         )
     
@@ -771,7 +800,8 @@ class Game:
                 dialogue=dialogue,
                 world_width=self._native_width,
                 world_height=self._native_height,
-                callback=self._end_loop
+                callback=self._end_loop,
+                dialogue_settings=self.dialogue_settings
             )
         )
     

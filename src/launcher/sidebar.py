@@ -17,6 +17,7 @@ from icons import (
     draw_audio,
     draw_display,
     draw_language,
+    draw_accessibility,
     draw_placeholder
 )
 
@@ -42,6 +43,7 @@ class Sidebar:
             ("display", "Pantalla"),
             ("audio", "Audio"),
             ("language", "Idioma"),
+            ("accessibility", "Accesibilidad"),
         ],
     }
 
@@ -66,6 +68,7 @@ class Sidebar:
             "display": draw_display,
             "audio": draw_audio,
             "language": draw_language,
+            "accessibility": draw_accessibility,
         }
 
     def draw(self, screen, rect, module, current):
