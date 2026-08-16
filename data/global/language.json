@@ -74,6 +74,57 @@
                     "moved": "Elemento movido: {name} → {destination}",
                     "note_updated": "Nota modificada: {name}"
                 }
+            },
+
+            "stats": {
+                "title": "Estadísticas",
+                "subtitle": "Resumen de tu investigación",
+
+                "global": {
+                    "title": "Global",
+                    "subtitle": "Resumen de toda la investigación",
+
+                    "incursions": "Incursiones",
+                    "completed_memories": "Memorias completadas",
+                    "iterations": "Iteraciones",
+                    "played_time": "Tiempo jugado",
+                    "rooms_visited": "Habitaciones visitadas",
+                    "documents_opened": "Documentos abiertos",
+                    "computers_opened": "Ordenadores consultados",
+                    "chats_opened": "Conversaciones consultadas",
+                    "emails_read": "Correos leídos",
+                    "files_opened": "Archivos abiertos",
+                    "detections": "Detecciones"
+                },
+
+                "memory": {
+                    "title": "Memoria",
+                    "subtitle": "Estadísticas de {memory_title}",
+
+                    "progress": "Progreso",
+                    "incursions": "Incursiones",
+                    "iterations": "Iteraciones",
+                    "played_time": "Tiempo jugado",
+                    "last_played": "Última partida",
+                    "rooms_visited": "Habitaciones visitadas",
+                    "documents_opened": "Documentos abiertos",
+                    "computers_opened": "Ordenadores consultados",
+                    "chats_opened": "Conversaciones consultadas",
+                    "emails_read": "Correos leídos",
+                    "files_opened": "Archivos abiertos",
+                    "detections": "Detecciones"
+                },
+
+                "empty": "No hay memorias desbloqueadas.",
+                "no_memory": "Sin memoria seleccionada",
+                "never": "Nunca"
+            },
+
+            "achievements": {
+                "summary": "{unlocked} de {total} desbloqueados",
+                "empty": "Todavía no hay logros disponibles.",
+                "unlocked": "Desbloqueado · {timestamp}",
+                "locked": "Descubre cómo desbloquear este logro."
             }
         },
 
@@ -145,6 +196,57 @@
                     "moved": "Item moved: {name} → {destination}",
                     "note_updated": "Note modified: {name}"
                 }
+            },
+
+            "stats": {
+                "title": "Statistics",
+                "subtitle": "Summary of your investigation",
+
+                "global": {
+                    "title": "Global",
+                    "subtitle": "Summary of the entire investigation",
+
+                    "incursions": "Incursions",
+                    "completed_memories": "Completed memories",
+                    "iterations": "Iterations",
+                    "played_time": "Time played",
+                    "rooms_visited": "Rooms visited",
+                    "documents_opened": "Documents accessed",
+                    "computers_opened": "Computers accessed",
+                    "chats_opened": "Chats accessed",
+                    "emails_read": "Emails read",
+                    "files_opened": "Files opened",
+                    "detections": "Detections"
+                },
+
+                "memory": {
+                    "title": "Memory",
+                    "subtitle": "Statistics for {memory_title}",
+
+                    "progress": "Progress",
+                    "incursions": "Incursions",
+                    "iterations": "Iterations",
+                    "played_time": "Time played",
+                    "last_played": "Last played",
+                    "rooms_visited": "Rooms visited",
+                    "documents_opened": "Documents accessed",
+                    "computers_opened": "Computers accessed",
+                    "chats_opened": "Chats accessed",
+                    "emails_read": "Emails read",
+                    "files_opened": "Files opened",
+                    "detections": "Detections"
+                },
+
+                "empty": "No memories unlocked.",
+                "no_memory": "No memory selected",
+                "never": "Never"
+            },
+
+            "achievements": {
+                "summary": "{unlocked} of {total} unlocked",
+                "empty": "There are no achievements available yet.",
+                "unlocked": "Unlocked · {timestamp}",
+                "locked": "Discover how to unlock this achievement."
             }
         },
 
@@ -216,6 +318,57 @@
                     "moved": "Element mogut: {name} → {destination}",
                     "note_updated": "Nota modificada: {name}"
                 }
+            },
+
+            "stats": {
+                "title": "Estadístiques",
+                "subtitle": "Resum de la teua investigació",
+
+                "global": {
+                    "title": "Global",
+                    "subtitle": "Resum de tota la investigació",
+
+                    "incursions": "Incursions",
+                    "completed_memories": "Memòries completades",
+                    "iterations": "Iteracions",
+                    "played_time": "Temps jugat",
+                    "rooms_visited": "Habitacions visitades",
+                    "documents_opened": "Documents consultats",
+                    "computers_opened": "Ordinadors consultats",
+                    "chats_opened": "Converses consultades",
+                    "emails_read": "Correus llegits",
+                    "files_opened": "Fitxers oberts",
+                    "detections": "Deteccions"
+                },
+
+                "memory": {
+                    "title": "Memòria",
+                    "subtitle": "Estadístiques de {memory_title}",
+
+                    "progress": "Progrés",
+                    "incursions": "Incursions",
+                    "iterations": "Iteracions",
+                    "played_time": "Temps jugat",
+                    "last_played": "Última partida",
+                    "rooms_visited": "Habitacions visitades",
+                    "documents_opened": "Documents consultats",
+                    "computers_opened": "Ordinadors consultats",
+                    "chats_opened": "Converses consultades",
+                    "emails_read": "Correus llegits",
+                    "files_opened": "Fitxers oberts",
+                    "detections": "Deteccions"
+                },
+
+                "empty": "No hi ha memòries desbloquejades.",
+                "no_memory": "No hi ha cap memòria seleccionada",
+                "never": "Mai"
+            },
+
+            "achievements": {
+                "summary": "{unlocked} de {total} desbloquejats",
+                "empty": "Encara no hi ha assoliments disponibles.",
+                "unlocked": "Desbloquejat · {timestamp}",
+                "locked": "Descobreix com desbloquejar este assoliment."
             }
         }
     },

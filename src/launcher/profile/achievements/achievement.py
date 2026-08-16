@@ -2,53 +2,64 @@
 Achievement manager.
 
 Loads, checks and saves achievement progress.
+
+Contains no presentation data or translated text.
 """
 
 from __future__ import annotations
 
 import json
+
 from datetime import datetime, timezone
 
 from constants import DATA_DIR
 
 from launcher.profile.achievements.achievement_checks import (
     all_memories_completed,
+
     chat_reader_10,
     chat_reader_25,
     chat_reader_50,
     chat_reader_100,
     chat_reader_250,
+
     computer_user_10,
     computer_user_25,
     computer_user_50,
     computer_user_100,
     computer_user_250,
+
     detected_1,
     detected_5,
     detected_10,
     detected_25,
     detected_50,
     detected_100,
+
     document_collector_10,
     document_collector_25,
     document_collector_50,
     document_collector_100,
     document_collector_250,
+
     email_reader_10,
     email_reader_25,
     email_reader_50,
     email_reader_100,
     email_reader_250,
+
     explorer_10,
     explorer_25,
     explorer_50,
     explorer_100,
     explorer_250,
+
     file_reader_10,
     file_reader_25,
     file_reader_50,
     file_reader_100,
     file_reader_250,
+
     first_chat,
     first_computer,
     first_detection,
@@ -59,21 +70,25 @@ from launcher.profile.achievements.achievement_checks import (
     first_file,
     first_incursion,
     first_memory_completed,
+
     incursions_5,
     incursions_10,
     incursions_25,
     incursions_50,
     incursions_100,
+
     iterations_10,
     iterations_25,
     iterations_50,
     iterations_100,
     iterations_250,
     iterations_500,
+
     memories_completed_1,
     memories_completed_2,
     memories_completed_5,
     memories_completed_10,
+
     social_10,
 )
 
@@ -83,7 +98,11 @@ from launcher.profile.achievements.achievement_checks import (
 # ==================================================
 
 MEMORY_ACHIEVEMENT_CHECKS = {
+
+    # --------------------------------------------------
     # First steps
+    # --------------------------------------------------
+
     "first_incursion": first_incursion,
     "first_discovery": first_discovery,
     "first_document": first_document,
@@ -95,49 +114,70 @@ MEMORY_ACHIEVEMENT_CHECKS = {
     "first_detection": first_detection,
     "first_memory_completed": first_memory_completed,
 
+    # --------------------------------------------------
     # Exploration
+    # --------------------------------------------------
+
     "explorer_10": explorer_10,
     "explorer_25": explorer_25,
     "explorer_50": explorer_50,
     "explorer_100": explorer_100,
     "explorer_250": explorer_250,
 
+    # --------------------------------------------------
     # Documents
+    # --------------------------------------------------
+
     "document_collector_10": document_collector_10,
     "document_collector_25": document_collector_25,
     "document_collector_50": document_collector_50,
     "document_collector_100": document_collector_100,
     "document_collector_250": document_collector_250,
 
+    # --------------------------------------------------
     # Computers
+    # --------------------------------------------------
+
     "computer_user_10": computer_user_10,
     "computer_user_25": computer_user_25,
     "computer_user_50": computer_user_50,
     "computer_user_100": computer_user_100,
     "computer_user_250": computer_user_250,
 
+    # --------------------------------------------------
     # Emails
+    # --------------------------------------------------
+
     "email_reader_10": email_reader_10,
     "email_reader_25": email_reader_25,
     "email_reader_50": email_reader_50,
     "email_reader_100": email_reader_100,
     "email_reader_250": email_reader_250,
 
+    # --------------------------------------------------
     # Chats
+    # --------------------------------------------------
+
     "chat_reader_10": chat_reader_10,
     "chat_reader_25": chat_reader_25,
     "chat_reader_50": chat_reader_50,
     "chat_reader_100": chat_reader_100,
     "chat_reader_250": chat_reader_250,
 
+    # --------------------------------------------------
     # Files
+    # --------------------------------------------------
+
     "file_reader_10": file_reader_10,
     "file_reader_25": file_reader_25,
     "file_reader_50": file_reader_50,
     "file_reader_100": file_reader_100,
     "file_reader_250": file_reader_250,
 
+    # --------------------------------------------------
     # Detection
+    # --------------------------------------------------
+
     "detected_1": detected_1,
     "detected_5": detected_5,
     "detected_10": detected_10,
@@ -145,7 +185,10 @@ MEMORY_ACHIEVEMENT_CHECKS = {
     "detected_50": detected_50,
     "detected_100": detected_100,
 
+    # --------------------------------------------------
     # Iterations
+    # --------------------------------------------------
+
     "iterations_10": iterations_10,
     "iterations_25": iterations_25,
     "iterations_50": iterations_50,
@@ -153,14 +196,20 @@ MEMORY_ACHIEVEMENT_CHECKS = {
     "iterations_250": iterations_250,
     "iterations_500": iterations_500,
 
+    # --------------------------------------------------
     # Incursions
+    # --------------------------------------------------
+
     "incursions_5": incursions_5,
     "incursions_10": incursions_10,
     "incursions_25": incursions_25,
     "incursions_50": incursions_50,
     "incursions_100": incursions_100,
 
+    # --------------------------------------------------
     # Social
+    # --------------------------------------------------
+
     "social_10": social_10,
 }
 
@@ -170,6 +219,7 @@ MEMORY_ACHIEVEMENT_CHECKS = {
 # ==================================================
 
 GLOBAL_ACHIEVEMENT_CHECKS = {
+
     "memories_completed_1": memories_completed_1,
     "memories_completed_2": memories_completed_2,
     "memories_completed_5": memories_completed_5,
@@ -193,53 +243,64 @@ ACHIEVEMENT_CHECKS = {
 # ==================================================
 
 ACHIEVEMENT_PREREQUISITES = {
+
+    # Exploration
     "explorer_25": "explorer_10",
     "explorer_50": "explorer_25",
     "explorer_100": "explorer_50",
     "explorer_250": "explorer_100",
 
+    # Documents
     "document_collector_25": "document_collector_10",
     "document_collector_50": "document_collector_25",
     "document_collector_100": "document_collector_50",
     "document_collector_250": "document_collector_100",
 
+    # Computers
     "computer_user_25": "computer_user_10",
     "computer_user_50": "computer_user_25",
     "computer_user_100": "computer_user_50",
     "computer_user_250": "computer_user_100",
 
+    # Emails
     "email_reader_25": "email_reader_10",
     "email_reader_50": "email_reader_25",
     "email_reader_100": "email_reader_50",
     "email_reader_250": "email_reader_100",
 
+    # Chats
     "chat_reader_25": "chat_reader_10",
     "chat_reader_50": "chat_reader_25",
     "chat_reader_100": "chat_reader_50",
     "chat_reader_250": "chat_reader_100",
 
+    # Files
     "file_reader_25": "file_reader_10",
     "file_reader_50": "file_reader_25",
     "file_reader_100": "file_reader_50",
     "file_reader_250": "file_reader_100",
 
+    # Detection
     "detected_5": "detected_1",
     "detected_10": "detected_5",
     "detected_25": "detected_10",
     "detected_50": "detected_25",
     "detected_100": "detected_50",
 
+    # Iterations
     "iterations_25": "iterations_10",
     "iterations_50": "iterations_25",
     "iterations_100": "iterations_50",
     "iterations_250": "iterations_100",
     "iterations_500": "iterations_250",
 
+    # Incursions
     "incursions_10": "incursions_5",
     "incursions_25": "incursions_10",
     "incursions_50": "incursions_25",
     "incursions_100": "incursions_50",
 
+    # Memories
     "memories_completed_2": "memories_completed_1",
     "memories_completed_5": "memories_completed_2",
     "memories_completed_10": "memories_completed_5",
@@ -247,11 +308,21 @@ ACHIEVEMENT_PREREQUISITES = {
 
 
 class AchievementsManager:
+
     """
     Provides access to persistent achievement progress.
+
+    Achievement definitions are kept separately from the
+    persistent state. This manager only handles:
+        - checks
+        - unlock state
+        - timestamps
+        - persistence
+        - visibility prerequisites
     """
 
     def __init__(self, stats_manager):
+
         self._stats = stats_manager
 
         self._path = (
@@ -269,17 +340,22 @@ class AchievementsManager:
     # ==================================================
 
     def load(self):
+
         self._achievements = {}
 
         if self._path.exists():
+
             try:
+
                 with self._path.open(
                     "r",
                     encoding="utf-8"
                 ) as file:
+
                     data = json.load(file)
 
                 if isinstance(data, dict):
+
                     self._achievements = data
 
             except (
@@ -287,6 +363,7 @@ class AchievementsManager:
                 json.JSONDecodeError,
                 TypeError
             ):
+
                 self._achievements = {}
 
         self._ensure_entries()
@@ -294,14 +371,17 @@ class AchievementsManager:
     # --------------------------------------------------
 
     def _ensure_entries(self):
+
         changed = False
 
         for achievement_id in ACHIEVEMENT_CHECKS:
+
             state = self._achievements.get(
                 achievement_id
             )
 
             if not isinstance(state, dict):
+
                 self._achievements[
                     achievement_id
                 ] = {
@@ -310,17 +390,21 @@ class AchievementsManager:
                 }
 
                 changed = True
+
                 continue
 
             if "unlocked" not in state:
+
                 state["unlocked"] = False
                 changed = True
 
             if "unlocked_at" not in state:
+
                 state["unlocked_at"] = None
                 changed = True
 
         if changed:
+
             self.save()
 
     # ==================================================
@@ -328,10 +412,11 @@ class AchievementsManager:
     # ==================================================
 
     def check(self):
+
         """
         Check achievements that depend on global statistics.
 
-        The checks receive the global StatsManager.
+        Returns True when at least one achievement was unlocked.
         """
 
         changed = False
@@ -339,18 +424,23 @@ class AchievementsManager:
         for achievement_id, check in (
             GLOBAL_ACHIEVEMENT_CHECKS.items()
         ):
+
             if self.is_unlocked(
                 achievement_id
             ):
+
                 continue
 
             if check(self._stats):
+
                 self._unlock(
                     achievement_id
                 )
+
                 changed = True
 
         if changed:
+
             self.save()
 
         return changed
@@ -358,14 +448,12 @@ class AchievementsManager:
     # --------------------------------------------------
 
     def check_memory(self, stats):
+
         """
         Check achievements associated with the
         currently played memory.
 
-        `stats` must be the dictionary containing
-        the current memory's statistics.
-
-        Prerequisites do NOT prevent unlocking.
+        Prerequisites do not prevent unlocking.
         They only control visibility in the UI.
         """
 
@@ -374,18 +462,23 @@ class AchievementsManager:
         for achievement_id, check in (
             MEMORY_ACHIEVEMENT_CHECKS.items()
         ):
+
             if self.is_unlocked(
                 achievement_id
             ):
+
                 continue
 
             if check(stats):
+
                 self._unlock(
                     achievement_id
                 )
+
                 changed = True
 
         if changed:
+
             self.save()
 
         return changed
@@ -394,16 +487,18 @@ class AchievementsManager:
     # Unlocking
     # ==================================================
 
-    def _unlock(self, achievement_id):
+    def _unlock(
+        self,
+        achievement_id
+    ):
+
         self._achievements[
             achievement_id
         ] = {
             "unlocked": True,
-            "unlocked_at": (
-                datetime.now(
-                    timezone.utc
-                ).isoformat()
-            ),
+            "unlocked_at": datetime.now(
+                timezone.utc
+            ).isoformat(),
         }
 
     # ==================================================
@@ -411,6 +506,7 @@ class AchievementsManager:
     # ==================================================
 
     def save(self):
+
         self._path.parent.mkdir(
             parents=True,
             exist_ok=True
@@ -420,6 +516,7 @@ class AchievementsManager:
             "w",
             encoding="utf-8"
         ) as file:
+
             json.dump(
                 self._achievements,
                 file,
@@ -433,11 +530,16 @@ class AchievementsManager:
 
     @property
     def achievements(self):
+
         return self._achievements
 
     # --------------------------------------------------
 
-    def is_unlocked(self, achievement_id):
+    def is_unlocked(
+        self,
+        achievement_id
+    ):
+
         return bool(
             self._achievements.get(
                 achievement_id,
@@ -450,19 +552,26 @@ class AchievementsManager:
 
     # --------------------------------------------------
 
-    def is_visible(self, achievement_id):
+    def is_visible(
+        self,
+        achievement_id
+    ):
+
         """
-        Determines whether an achievement should show
-        its real information in the UI.
+        Determines whether an achievement has reached
+        its presentation prerequisite.
 
         Prerequisites affect presentation only.
         """
 
-        prerequisite = ACHIEVEMENT_PREREQUISITES.get(
-            achievement_id
+        prerequisite = (
+            ACHIEVEMENT_PREREQUISITES.get(
+                achievement_id
+            )
         )
 
         if prerequisite is None:
+
             return True
 
         return self.is_unlocked(

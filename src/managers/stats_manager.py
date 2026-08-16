@@ -125,19 +125,6 @@ class StatsManager:
     def stats(self) -> dict:
 
         return self._stats
-    
-    # ==================================================
-    # Played
-    # ==================================================
-
-    def register_incursion(self):
-
-        self._stats["played"]["times_incursion"] += 1
-
-        self._stats["played"]["last_played"] = (
-            datetime.now().isoformat()
-        )
-    
 
     # ==================================================
     # Incursion

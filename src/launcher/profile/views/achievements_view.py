@@ -27,15 +27,9 @@ class AchievementsView:
     # ==================================================
     # Explicit achievement order
     # ==================================================
-    #
-    # The viewer does not depend on the order used in
-    # achievements.json. New achievements should be
-    # added here explicitly.
-    #
-    # The order is grouped by category and progression.
-    #
 
     ACHIEVEMENT_ORDER = [
+
         # --------------------------------------------------
         # General / first steps
         # --------------------------------------------------
@@ -160,8 +154,24 @@ class AchievementsView:
         "iterations_500",
     ]
 
-    def __init__(self, achievements):
+    def __init__(
+        self,
+        achievements,
+        language,
+        achievement_data=None
+    ):
+
         self._achievements = achievements
+        self._language = language
+
+        self._achievement_data = (
+            achievement_data
+            if isinstance(
+                achievement_data,
+                dict
+            )
+            else {}
+        )
 
         self._scroll = 0
         self._visible_entries = 0
@@ -177,26 +187,26 @@ class AchievementsView:
     # Public API
     # ==================================================
 
-    def update(self, dt):
-        """
-        Update the view.
+    def update(
+        self,
+        dt
+    ):
 
-        Currently the achievements screen has no
-        time-dependent animation.
-        """
         return None
 
     # --------------------------------------------------
 
     def refresh(self):
-        """
-        Reset the scroll position.
-        """
+
         self._scroll = 0
 
     # --------------------------------------------------
 
-    def draw(self, screen, area):
+    def draw(
+        self,
+        screen,
+        area
+    ):
 
         self._content_rect = pygame.Rect(
             area.x,
@@ -220,10 +230,12 @@ class AchievementsView:
         )
 
         if not entries:
+
             self._draw_empty(
                 screen,
                 area
             )
+
             return
 
         content_top = (
@@ -290,15 +302,21 @@ class AchievementsView:
             max_scroll
         )
 
-    # --------------------------------------------------
+    # ==================================================
+    # Events
+    # ==================================================
 
-    def handle_event(self, event):
+    def handle_event(
+        self,
+        event
+    ):
 
         if event.type == pygame.MOUSEWHEEL:
 
             if self._content_rect.collidepoint(
                 pygame.mouse.get_pos()
             ):
+
                 self._scroll -= (
                     event.y *
                     self.SCROLL_STEP
@@ -311,36 +329,49 @@ class AchievementsView:
         if event.type == pygame.KEYDOWN:
 
             if event.key == pygame.K_UP:
+
                 self._scroll -= 1
                 self._clamp_scroll()
+
                 return True
 
             if event.key == pygame.K_DOWN:
+
                 self._scroll += 1
                 self._clamp_scroll()
+
                 return True
 
             if event.key == pygame.K_PAGEUP:
+
                 self._scroll -= max(
                     1,
                     self._visible_entries
                 )
+
                 self._clamp_scroll()
+
                 return True
 
             if event.key == pygame.K_PAGEDOWN:
+
                 self._scroll += max(
                     1,
                     self._visible_entries
                 )
+
                 self._clamp_scroll()
+
                 return True
 
             if event.key == pygame.K_HOME:
+
                 self._scroll = 0
+
                 return True
 
             if event.key == pygame.K_END:
+
                 entries = self._build_entries()
 
                 self._scroll = max(
@@ -361,6 +392,7 @@ class AchievementsView:
 
         entries = AchievementBuilder.build_all(
             self._achievements.achievements,
+            self._achievement_data,
             visible_callback=(
                 self._achievements.is_visible
             )
@@ -373,30 +405,30 @@ class AchievementsView:
 
         ordered_entries = []
 
-        # First add achievements following the
-        # explicit order.
-        for achievement_id in self.ACHIEVEMENT_ORDER:
+        for achievement_id in (
+            self.ACHIEVEMENT_ORDER
+        ):
 
             entry = entries_by_id.get(
                 achievement_id
             )
 
             if entry is not None:
+
                 ordered_entries.append(
                     entry
                 )
 
-        # If an achievement exists in the data but
-        # has not yet been added to ACHIEVEMENT_ORDER,
-        # keep it visible at the end instead of silently
-        # removing it from the viewer.
         ordered_ids = set(
             self.ACHIEVEMENT_ORDER
         )
 
         remaining_entries = [
+
             entry
+
             for entry in entries
+
             if entry["id"] not in ordered_ids
         ]
 
@@ -418,7 +450,11 @@ class AchievementsView:
     ):
 
         title = Fonts.title.render(
-            "Logros",
+            self._language.get(
+                "launcher",
+                "achievements",
+                "title"
+            ),
             True,
             styles.TEXT
         )
@@ -440,7 +476,14 @@ class AchievementsView:
         total = len(entries)
 
         subtitle = Fonts.small.render(
-            f"{unlocked} de {total} desbloqueados",
+            self._language.get(
+                "launcher",
+                "achievements",
+                "summary"
+            ).format(
+                unlocked=unlocked,
+                total=total
+            ),
             True,
             styles.TEXT_SECONDARY
         )
@@ -464,7 +507,11 @@ class AchievementsView:
     ):
 
         text = Fonts.default.render(
-            "Todavía no hay logros disponibles.",
+            self._language.get(
+                "launcher",
+                "achievements",
+                "empty"
+            ),
             True,
             styles.TEXT_SECONDARY
         )
@@ -496,6 +543,7 @@ class AchievementsView:
         )
 
         try:
+
             y = area.y
 
             for entry in entries:
@@ -514,6 +562,7 @@ class AchievementsView:
                 y += self.ENTRY_HEIGHT
 
         finally:
+
             screen.set_clip(
                 old_clip
             )
@@ -527,10 +576,6 @@ class AchievementsView:
         rect
     ):
 
-        unlocked = bool(
-            entry["unlocked"]
-        )
-
         pygame.draw.rect(
             screen,
             styles.PANEL,
@@ -538,243 +583,97 @@ class AchievementsView:
             border_radius=8
         )
 
-        self._draw_status_indicator(
-            screen,
-            rect,
-            unlocked
-        )
+        title = entry["title"]
+        description = entry["description"]
 
-        if unlocked:
+        if entry["hidden"]:
 
-            self._draw_unlocked_entry(
-                screen,
-                entry,
-                rect
+            title = "???"
+            description = self._language.get(
+                "launcher",
+                "achievements",
+                "hidden"
             )
 
-        elif entry["hidden"]:
-
-            self._draw_hidden_entry(
-                screen,
-                rect
-            )
-
-        else:
-
-            self._draw_locked_entry(
-                screen,
-                entry,
-                rect
-            )
-
-    # ==================================================
-    # Unlocked
-    # ==================================================
-
-    def _draw_unlocked_entry(
-        self,
-        screen,
-        entry,
-        rect
-    ):
-
-        title = Fonts.default.render(
-            entry["title"],
+        title_surface = Fonts.default.render(
+            title,
             True,
             styles.TEXT
         )
 
         screen.blit(
-            title,
+            title_surface,
             (
-                rect.x + 18,
-                rect.y + 14
+                rect.x + 14,
+                rect.y + 12
             )
         )
 
-        description = Fonts.small.render(
-            entry["description"],
+        description_surface = Fonts.small.render(
+            description,
             True,
             styles.TEXT_SECONDARY
         )
 
         screen.blit(
-            description,
+            description_surface,
             (
-                rect.x + 18,
-                rect.y + 43
+                rect.x + 14,
+                rect.y + 44
             )
         )
 
-        timestamp = self._format_timestamp(
-            entry.get(
-                "unlocked_at"
+        if entry["unlocked"]:
+
+            timestamp = self._format_timestamp(
+                entry["unlocked_at"]
             )
-        )
 
-        if timestamp:
+            unlocked_text = self._language.get(
+                "launcher",
+                "achievements",
+                "unlocked"
+            ).format(
+                timestamp=timestamp
+            )
 
-            date_surface = Fonts.small.render(
-                f"Desbloqueado · {timestamp}",
+            surface = Fonts.small.render(
+                unlocked_text,
                 True,
                 styles.TEXT_SECONDARY
             )
 
-            date_rect = date_surface.get_rect(
-                topright=(
-                    rect.right - 16,
-                    rect.y + 14
+            screen.blit(
+                surface,
+                (
+                    rect.right - surface.get_width() - 14,
+                    rect.y + 12
                 )
             )
-
-            screen.blit(
-                date_surface,
-                date_rect
-            )
-
-    # ==================================================
-    # Locked
-    # ==================================================
-
-    def _draw_locked_entry(
-        self,
-        screen,
-        entry,
-        rect
-    ):
-
-        title = Fonts.default.render(
-            entry["title"],
-            True,
-            styles.TEXT_SECONDARY
-        )
-
-        screen.blit(
-            title,
-            (
-                rect.x + 18,
-                rect.y + 14
-            )
-        )
-
-        description = Fonts.small.render(
-            entry["description"],
-            True,
-            styles.TEXT_SECONDARY
-        )
-
-        screen.blit(
-            description,
-            (
-                rect.x + 18,
-                rect.y + 43
-            )
-        )
-
-        status = Fonts.small.render(
-            "Bloqueado",
-            True,
-            styles.TEXT_SECONDARY
-        )
-
-        status_rect = status.get_rect(
-            topright=(
-                rect.right - 16,
-                rect.y + 14
-            )
-        )
-
-        screen.blit(
-            status,
-            status_rect
-        )
-
-    # ==================================================
-    # Hidden
-    # ==================================================
-
-    def _draw_hidden_entry(
-        self,
-        screen,
-        rect
-    ):
-
-        title = Fonts.default.render(
-            "???",
-            True,
-            styles.TEXT
-        )
-
-        screen.blit(
-            title,
-            (
-                rect.x + 18,
-                rect.y + 14
-            )
-        )
-
-        description = Fonts.small.render(
-            "Descubre cómo desbloquear este logro.",
-            True,
-            styles.TEXT_SECONDARY
-        )
-
-        screen.blit(
-            description,
-            (
-                rect.x + 18,
-                rect.y + 43
-            )
-        )
-
-        status = Fonts.small.render(
-            "Oculto",
-            True,
-            styles.TEXT_LIGHT
-        )
-
-        status_rect = status.get_rect(
-            topright=(
-                rect.right - 16,
-                rect.y + 14
-            )
-        )
-
-        screen.blit(
-            status,
-            status_rect
-        )
-
-    # ==================================================
-    # Status indicator
-    # ==================================================
-
-    def _draw_status_indicator(
-        self,
-        screen,
-        rect,
-        unlocked
-    ):
-
-        center = (
-            rect.right - 24,
-            rect.bottom - 24
-        )
-
-        pygame.draw.circle(
-            screen,
-            (
-                styles.PRIMARY
-                if unlocked
-                else styles.SIDEBAR
-            ),
-            center,
-            6
-        )
 
     # ==================================================
     # Scroll
     # ==================================================
+
+    def _clamp_scroll(self):
+
+        entries = self._build_entries()
+
+        max_scroll = max(
+            0,
+            len(entries) -
+            self._visible_entries
+        )
+
+        self._scroll = max(
+            0,
+            min(
+                self._scroll,
+                max_scroll
+            )
+        )
+
+    # --------------------------------------------------
 
     def _draw_scroll_indicator(
         self,
@@ -784,11 +683,8 @@ class AchievementsView:
         max_scroll
     ):
 
-        if (
-            max_scroll <= 0
-            or total_entries <= 0
-            or area.height <= 0
-        ):
+        if max_scroll <= 0:
+
             return
 
         track = pygame.Rect(
@@ -805,10 +701,12 @@ class AchievementsView:
             border_radius=2
         )
 
-        visible_ratio = min(
-            1.0,
+        visible_ratio = (
             self._visible_entries /
-            total_entries
+            max(
+                1,
+                total_entries
+            )
         )
 
         thumb_height = max(
@@ -819,16 +717,9 @@ class AchievementsView:
             )
         )
 
-        thumb_height = min(
-            thumb_height,
-            track.height
-        )
-
         scroll_ratio = (
             self._scroll /
             max_scroll
-            if max_scroll > 0
-            else 0
         )
 
         thumb_y = (
@@ -866,6 +757,7 @@ class AchievementsView:
     ):
 
         if not timestamp:
+
             return ""
 
         try:
@@ -874,37 +766,13 @@ class AchievementsView:
                 timestamp
             )
 
-            return value.strftime(
-                "%d/%m/%Y · %H:%M"
-            )
-
         except (
             TypeError,
             ValueError
         ):
 
-            return str(
-                timestamp
-            )
+            return str(timestamp)
 
-    # ==================================================
-    # Helpers
-    # ==================================================
-
-    def _clamp_scroll(self):
-
-        entries = self._build_entries()
-
-        max_scroll = max(
-            0,
-            len(entries) -
-            self._visible_entries
-        )
-
-        self._scroll = max(
-            0,
-            min(
-                self._scroll,
-                max_scroll
-            )
+        return value.strftime(
+            "%d/%m/%Y %H:%M"
         )

@@ -60,6 +60,7 @@ class MainWindow:
 
         self._dreams = DreamManager()
         self._dreams.load()
+        
         self._notes = NotesManager(self._logger.register)
         self._notes_view = NotesView(self._notes, self._language)
         
@@ -72,8 +73,8 @@ class MainWindow:
             "incursions": IncursionsView(self),
             "notes": self._notes_view,
             "inventory": EmptyView(),
-            "stats": StatsView(self._stats),
-            "achievements": AchievementsView(self._achievements),
+            "stats": StatsView(self._stats, self._language),
+            "achievements": AchievementsView(self._achievements, self._language),
             "activity": ActivityView(self._logger, self._language),
             "general": GeneralView(self._settings),
             "display": DisplayView(self._settings),

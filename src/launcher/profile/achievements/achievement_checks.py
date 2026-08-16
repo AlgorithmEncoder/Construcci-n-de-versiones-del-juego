@@ -14,15 +14,34 @@ from __future__ import annotations
 # Helpers
 # ==================================================
 
-def _value(stats, section, key, default=0):
+def _value(
+    stats,
+    section,
+    key,
+    default=0
+):
     """
-    Safely obtain a numeric statistic from a memory stats dict.
+    Safely obtain a numeric statistic from a memory
+    statistics dictionary.
     """
+
     try:
+
         return int(
-            stats.get(section, {}).get(key, default)
+            stats.get(
+                section,
+                {}
+            ).get(
+                key,
+                default
+            )
         )
-    except (TypeError, ValueError):
+
+    except (
+        TypeError,
+        ValueError
+    ):
+
         return default
 
 
@@ -31,6 +50,7 @@ def _value(stats, section, key, default=0):
 # ==================================================
 
 def first_incursion(stats):
+
     return _value(
         stats,
         "played",
@@ -39,12 +59,17 @@ def first_incursion(stats):
 
 
 def first_discovery(stats):
+
     return bool(
-        stats.get("discoveries", {})
+        stats.get(
+            "discoveries",
+            {}
+        )
     )
 
 
 def first_document(stats):
+
     return _value(
         stats,
         "exploration",
@@ -53,6 +78,7 @@ def first_document(stats):
 
 
 def first_computer(stats):
+
     return _value(
         stats,
         "exploration",
@@ -61,6 +87,7 @@ def first_computer(stats):
 
 
 def first_email(stats):
+
     return _value(
         stats,
         "exploration",
@@ -69,6 +96,7 @@ def first_email(stats):
 
 
 def first_chat(stats):
+
     return _value(
         stats,
         "exploration",
@@ -77,6 +105,7 @@ def first_chat(stats):
 
 
 def first_file(stats):
+
     return _value(
         stats,
         "exploration",
@@ -85,6 +114,7 @@ def first_file(stats):
 
 
 def first_dialogue(stats):
+
     return _value(
         stats,
         "exploration",
@@ -93,6 +123,7 @@ def first_dialogue(stats):
 
 
 def first_detection(stats):
+
     return _value(
         stats,
         "detection",
@@ -101,6 +132,7 @@ def first_detection(stats):
 
 
 def first_memory_completed(stats):
+
     return bool(
         stats.get(
             "state",
@@ -116,13 +148,13 @@ def first_memory_completed(stats):
 # Global memory achievements
 # ==================================================
 
-def all_memories_completed(stats_manager):
+def all_memories_completed(
+    stats_manager
+):
     """
     Returns True when every known memory is completed.
-
-    This function intentionally receives the global
-    StatsManager rather than an individual memory dict.
     """
+
     memories = getattr(
         stats_manager,
         "memories",
@@ -130,6 +162,7 @@ def all_memories_completed(stats_manager):
     )
 
     if not memories:
+
         return False
 
     return all(
@@ -146,31 +179,46 @@ def all_memories_completed(stats_manager):
     )
 
 
-def memories_completed_1(stats_manager):
+def memories_completed_1(
+    stats_manager
+):
+
     return _completed_memories_count(
         stats_manager
     ) >= 1
 
 
-def memories_completed_2(stats_manager):
+def memories_completed_2(
+    stats_manager
+):
+
     return _completed_memories_count(
         stats_manager
     ) >= 2
 
 
-def memories_completed_5(stats_manager):
+def memories_completed_5(
+    stats_manager
+):
+
     return _completed_memories_count(
         stats_manager
     ) >= 5
 
 
-def memories_completed_10(stats_manager):
+def memories_completed_10(
+    stats_manager
+):
+
     return _completed_memories_count(
         stats_manager
     ) >= 10
 
 
-def _completed_memories_count(stats_manager):
+def _completed_memories_count(
+    stats_manager
+):
+
     memories = getattr(
         stats_manager,
         "memories",
@@ -197,6 +245,7 @@ def _completed_memories_count(stats_manager):
 # ==================================================
 
 def explorer_10(stats):
+
     return _value(
         stats,
         "exploration",
@@ -205,6 +254,7 @@ def explorer_10(stats):
 
 
 def explorer_25(stats):
+
     return _value(
         stats,
         "exploration",
@@ -213,6 +263,7 @@ def explorer_25(stats):
 
 
 def explorer_50(stats):
+
     return _value(
         stats,
         "exploration",
@@ -221,6 +272,7 @@ def explorer_50(stats):
 
 
 def explorer_100(stats):
+
     return _value(
         stats,
         "exploration",
@@ -229,6 +281,7 @@ def explorer_100(stats):
 
 
 def explorer_250(stats):
+
     return _value(
         stats,
         "exploration",
@@ -241,6 +294,7 @@ def explorer_250(stats):
 # ==================================================
 
 def document_collector_10(stats):
+
     return _value(
         stats,
         "exploration",
@@ -249,6 +303,7 @@ def document_collector_10(stats):
 
 
 def document_collector_25(stats):
+
     return _value(
         stats,
         "exploration",
@@ -257,6 +312,7 @@ def document_collector_25(stats):
 
 
 def document_collector_50(stats):
+
     return _value(
         stats,
         "exploration",
@@ -265,6 +321,7 @@ def document_collector_50(stats):
 
 
 def document_collector_100(stats):
+
     return _value(
         stats,
         "exploration",
@@ -273,6 +330,7 @@ def document_collector_100(stats):
 
 
 def document_collector_250(stats):
+
     return _value(
         stats,
         "exploration",
@@ -285,6 +343,7 @@ def document_collector_250(stats):
 # ==================================================
 
 def computer_user_10(stats):
+
     return _value(
         stats,
         "exploration",
@@ -293,6 +352,7 @@ def computer_user_10(stats):
 
 
 def computer_user_25(stats):
+
     return _value(
         stats,
         "exploration",
@@ -301,6 +361,7 @@ def computer_user_25(stats):
 
 
 def computer_user_50(stats):
+
     return _value(
         stats,
         "exploration",
@@ -309,6 +370,7 @@ def computer_user_50(stats):
 
 
 def computer_user_100(stats):
+
     return _value(
         stats,
         "exploration",
@@ -317,6 +379,7 @@ def computer_user_100(stats):
 
 
 def computer_user_250(stats):
+
     return _value(
         stats,
         "exploration",
@@ -329,6 +392,7 @@ def computer_user_250(stats):
 # ==================================================
 
 def email_reader_10(stats):
+
     return _value(
         stats,
         "exploration",
@@ -337,6 +401,7 @@ def email_reader_10(stats):
 
 
 def email_reader_25(stats):
+
     return _value(
         stats,
         "exploration",
@@ -345,6 +410,7 @@ def email_reader_25(stats):
 
 
 def email_reader_50(stats):
+
     return _value(
         stats,
         "exploration",
@@ -353,6 +419,7 @@ def email_reader_50(stats):
 
 
 def email_reader_100(stats):
+
     return _value(
         stats,
         "exploration",
@@ -361,6 +428,7 @@ def email_reader_100(stats):
 
 
 def email_reader_250(stats):
+
     return _value(
         stats,
         "exploration",
@@ -373,6 +441,7 @@ def email_reader_250(stats):
 # ==================================================
 
 def chat_reader_10(stats):
+
     return _value(
         stats,
         "exploration",
@@ -381,6 +450,7 @@ def chat_reader_10(stats):
 
 
 def chat_reader_25(stats):
+
     return _value(
         stats,
         "exploration",
@@ -389,6 +459,7 @@ def chat_reader_25(stats):
 
 
 def chat_reader_50(stats):
+
     return _value(
         stats,
         "exploration",
@@ -397,6 +468,7 @@ def chat_reader_50(stats):
 
 
 def chat_reader_100(stats):
+
     return _value(
         stats,
         "exploration",
@@ -405,6 +477,7 @@ def chat_reader_100(stats):
 
 
 def chat_reader_250(stats):
+
     return _value(
         stats,
         "exploration",
@@ -417,6 +490,7 @@ def chat_reader_250(stats):
 # ==================================================
 
 def file_reader_10(stats):
+
     return _value(
         stats,
         "exploration",
@@ -425,6 +499,7 @@ def file_reader_10(stats):
 
 
 def file_reader_25(stats):
+
     return _value(
         stats,
         "exploration",
@@ -433,6 +508,7 @@ def file_reader_25(stats):
 
 
 def file_reader_50(stats):
+
     return _value(
         stats,
         "exploration",
@@ -441,6 +517,7 @@ def file_reader_50(stats):
 
 
 def file_reader_100(stats):
+
     return _value(
         stats,
         "exploration",
@@ -449,6 +526,7 @@ def file_reader_100(stats):
 
 
 def file_reader_250(stats):
+
     return _value(
         stats,
         "exploration",
@@ -461,6 +539,7 @@ def file_reader_250(stats):
 # ==================================================
 
 def detected_1(stats):
+
     return _value(
         stats,
         "detection",
@@ -469,6 +548,7 @@ def detected_1(stats):
 
 
 def detected_5(stats):
+
     return _value(
         stats,
         "detection",
@@ -477,6 +557,7 @@ def detected_5(stats):
 
 
 def detected_10(stats):
+
     return _value(
         stats,
         "detection",
@@ -485,6 +566,7 @@ def detected_10(stats):
 
 
 def detected_25(stats):
+
     return _value(
         stats,
         "detection",
@@ -493,6 +575,7 @@ def detected_25(stats):
 
 
 def detected_50(stats):
+
     return _value(
         stats,
         "detection",
@@ -501,6 +584,7 @@ def detected_50(stats):
 
 
 def detected_100(stats):
+
     return _value(
         stats,
         "detection",
@@ -513,6 +597,7 @@ def detected_100(stats):
 # ==================================================
 
 def iterations_10(stats):
+
     return _value(
         stats,
         "played",
@@ -521,6 +606,7 @@ def iterations_10(stats):
 
 
 def iterations_25(stats):
+
     return _value(
         stats,
         "played",
@@ -529,6 +615,7 @@ def iterations_25(stats):
 
 
 def iterations_50(stats):
+
     return _value(
         stats,
         "played",
@@ -537,6 +624,7 @@ def iterations_50(stats):
 
 
 def iterations_100(stats):
+
     return _value(
         stats,
         "played",
@@ -545,6 +633,7 @@ def iterations_100(stats):
 
 
 def iterations_250(stats):
+
     return _value(
         stats,
         "played",
@@ -553,6 +642,7 @@ def iterations_250(stats):
 
 
 def iterations_500(stats):
+
     return _value(
         stats,
         "played",
@@ -565,6 +655,7 @@ def iterations_500(stats):
 # ==================================================
 
 def incursions_5(stats):
+
     return _value(
         stats,
         "played",
@@ -573,6 +664,7 @@ def incursions_5(stats):
 
 
 def incursions_10(stats):
+
     return _value(
         stats,
         "played",
@@ -581,6 +673,7 @@ def incursions_10(stats):
 
 
 def incursions_25(stats):
+
     return _value(
         stats,
         "played",
@@ -589,6 +682,7 @@ def incursions_25(stats):
 
 
 def incursions_50(stats):
+
     return _value(
         stats,
         "played",
@@ -597,6 +691,7 @@ def incursions_50(stats):
 
 
 def incursions_100(stats):
+
     return _value(
         stats,
         "played",
@@ -609,6 +704,7 @@ def incursions_100(stats):
 # ==================================================
 
 def social_10(stats):
+
     return _value(
         stats,
         "exploration",

@@ -37,9 +37,10 @@ class StatsView:
     # Construction
     # ==================================================
 
-    def __init__(self, stats):
+    def __init__(self, stats, language_manager):
 
         self._stats = stats
+        self._language = language_manager
 
         # ----------------------------------------------
         # Memory selector
@@ -387,8 +388,13 @@ class StatsView:
         area
     ):
 
+        title_name = self._language.get(
+            "launcher",
+            "stats",
+            "title"
+        )
         title = Fonts.title.render(
-            "Estadísticas",
+            title_name,
             True,
             styles.TEXT
         )
@@ -401,8 +407,13 @@ class StatsView:
             )
         )
 
+        subtitle_name = self._language.get(
+            "launcher",
+            "stats",
+            "subtitle"
+        )
         subtitle = Fonts.small.render(
-            "Resumen de tu investigación",
+            subtitle_name,
             True,
             styles.TEXT_SECONDARY
         )
@@ -428,8 +439,14 @@ class StatsView:
         # Title
         # ==================================================
 
+        title_name = self._language.get(
+            "launcher",
+            "stats",
+            "memory",
+            "title"
+        )
         title = Fonts.default.render(
-            "Memoria",
+            title_name,
             True,
             styles.TEXT
         )
@@ -466,8 +483,15 @@ class StatsView:
             self._selected_memory
         )
 
+        subtitle_name = self._language.get(
+            "launcher",
+            "stats",
+            "memory",
+            "subtitle",
+            memory_title=memory_title
+        )
         subtitle = Fonts.small.render(
-            f"Estadísticas de {memory_title}",
+            subtitle_name,
             True,
             styles.TEXT_SECONDARY
         )
@@ -497,10 +521,22 @@ class StatsView:
 
         title_y = area.y + 16
 
+        title_name = self._language.get(
+            "launcher",
+            "stats",
+            "global",
+            "title"
+        )
+        subtitle_name = self._language.get(
+            "launcher",
+            "stats",
+            "global",
+            "subtitle"
+        )
         y = self._draw_section_title(
             screen,
-            "Global",
-            "Resumen de toda la investigación",
+            title_name,
+            subtitle_name,
             area.x + 14,
             title_y
         )
@@ -1007,7 +1043,11 @@ class StatsView:
     ):
 
         text = Fonts.default.render(
-            "No hay memorias desbloqueadas.",
+            self._language.get(
+                "launcher",
+                "stats",
+                "empty"
+            ),
             True,
             styles.TEXT_SECONDARY
         )
@@ -1243,7 +1283,12 @@ class StatsView:
         return [
 
             (
-                "Incursiones",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "global",
+                    "incursions"
+                ),
                 stats.get(
                     "incursions",
                     0
@@ -1251,7 +1296,12 @@ class StatsView:
             ),
 
             (
-                "Memorias completadas",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "global",
+                    "completed_memories"
+                ),
                 stats.get(
                     "completed_memories",
                     0
@@ -1259,7 +1309,12 @@ class StatsView:
             ),
 
             (
-                "Iteraciones",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "global",
+                    "iterations"
+                ),
                 stats.get(
                     "iterations",
                     0
@@ -1267,7 +1322,12 @@ class StatsView:
             ),
 
             (
-                "Tiempo jugado",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "global",
+                    "played_time"
+                ),
                 self._format_seconds(
                     stats.get(
                         "total_played",
@@ -1277,7 +1337,12 @@ class StatsView:
             ),
 
             (
-                "Habitaciones visitadas",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "global",
+                    "rooms_visited"
+                ),
                 stats.get(
                     "rooms_visited",
                     0
@@ -1285,7 +1350,12 @@ class StatsView:
             ),
 
             (
-                "Documentos abiertos",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "global",
+                    "documents_opened"
+                ),
                 stats.get(
                     "documents_opened",
                     0
@@ -1293,7 +1363,12 @@ class StatsView:
             ),
 
             (
-                "Ordenadores consultados",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "global",
+                    "computers_opened"
+                ),
                 stats.get(
                     "computers_opened",
                     0
@@ -1301,7 +1376,12 @@ class StatsView:
             ),
 
             (
-                "Conversaciones consultadas",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "global",
+                    "chats_opened"
+                ),
                 stats.get(
                     "chats_opened",
                     0
@@ -1309,7 +1389,12 @@ class StatsView:
             ),
 
             (
-                "Correos leídos",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "global",
+                    "emails_read"
+                ),
                 stats.get(
                     "emails_read",
                     0
@@ -1317,7 +1402,12 @@ class StatsView:
             ),
 
             (
-                "Archivos abiertos",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "global",
+                    "files_opened"
+                ),
                 stats.get(
                     "files_opened",
                     0
@@ -1325,7 +1415,12 @@ class StatsView:
             ),
 
             (
-                "Detecciones",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "global",
+                    "detections"
+                ),
                 stats.get(
                     "detections",
                     0
@@ -1370,14 +1465,24 @@ class StatsView:
         return [
 
             (
-                "Progreso",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "memory",
+                    "progress"
+                ),
                 f"{progress.get('discovered', 0)} / "
                 f"{progress.get('total', 0)} "
                 f"({progress.get('percent', 0)}%)"
             ),
 
             (
-                "Incursiones",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "memory",
+                    "incursions"
+                ),
                 played.get(
                     "times_incursion",
                     0
@@ -1385,7 +1490,12 @@ class StatsView:
             ),
 
             (
-                "Iteraciones",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "memory",
+                    "iterations"
+                ),
                 played.get(
                     "iterations",
                     0
@@ -1393,7 +1503,12 @@ class StatsView:
             ),
 
             (
-                "Tiempo jugado",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "memory",
+                    "played_time"
+                ),
                 self._format_seconds(
                     played.get(
                         "total_played",
@@ -1403,15 +1518,29 @@ class StatsView:
             ),
 
             (
-                "Última partida",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "memory",
+                    "last_played"
+                ),
                 played.get(
                     "last_played",
-                    "Nunca"
+                    self._language.get(
+                        "launcher",
+                        "stats",
+                        "never"
+                    )
                 )
             ),
 
             (
-                "Habitaciones visitadas",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "memory",
+                    "rooms_visited"
+                ),
                 exploration.get(
                     "rooms_visited",
                     0
@@ -1419,7 +1548,12 @@ class StatsView:
             ),
 
             (
-                "Documentos abiertos",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "memory",
+                    "documents_opened"
+                ),
                 exploration.get(
                     "documents_opened",
                     0
@@ -1427,7 +1561,12 @@ class StatsView:
             ),
 
             (
-                "Ordenadores consultados",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "memory",
+                    "computers_opened"
+                ),
                 exploration.get(
                     "computers_opened",
                     0
@@ -1435,7 +1574,12 @@ class StatsView:
             ),
 
             (
-                "Conversaciones consultadas",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "memory",
+                    "chats_opened"
+                ),
                 exploration.get(
                     "chats_opened",
                     0
@@ -1443,7 +1587,12 @@ class StatsView:
             ),
 
             (
-                "Correos leídos",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "memory",
+                    "emails_read"
+                ),
                 exploration.get(
                     "emails_read",
                     0
@@ -1451,7 +1600,12 @@ class StatsView:
             ),
 
             (
-                "Archivos abiertos",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "memory",
+                    "files_opened"
+                ),
                 exploration.get(
                     "files_opened",
                     0
@@ -1459,7 +1613,12 @@ class StatsView:
             ),
 
             (
-                "Detecciones",
+                self._language.get(
+                    "launcher",
+                    "stats",
+                    "memory",
+                    "detections"
+                ),
                 detection.get(
                     "total",
                     0
@@ -1505,7 +1664,11 @@ class StatsView:
     ):
 
         if memory is None:
-            return "Sin memoria seleccionada"
+            return self._language.get(
+                "launcher",
+                "stats",
+                "no_memory"
+            )
 
         try:
 
