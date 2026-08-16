@@ -35,6 +35,7 @@ from launcher.settings.views.accessibility import AccessibilityView
 from launcher.profile.stats.stats_manager import StatsManager
 from launcher.profile.achievements.achievement import AchievementsManager
 from launcher.settings.settings_manager import SettingsManager
+from launcher.settings.language_manager import LanguageManager
 
 
 class MainWindow:
@@ -46,11 +47,14 @@ class MainWindow:
         
         self._start_requested = None
         self._running = True
+        
+        self._settings = SettingsManager()
+        self._language = LanguageManager(self._settings)
 
-        self._header = Header()
-        self._sidebar = Sidebar()
+        self._header = Header(self._language)
+        self._sidebar = Sidebar(self._language)
         self._workspace = Workspace()
-        self._footer = Footer()
+        self._footer = Footer(self._language)
 
         self._navigation = Navigation()
 
@@ -61,7 +65,6 @@ class MainWindow:
         
         self._stats = StatsManager()
         self._achievements = AchievementsManager( self._stats )
-        self._settings = SettingsManager()
         
         self._apply_launcher_theme()
         
@@ -71,7 +74,7 @@ class MainWindow:
             "inventory": EmptyView(),
             "stats": StatsView(self._stats),
             "achievements": AchievementsView(self._achievements),
-            "activity": ActivityView(self._logger),
+            "activity": ActivityView(self._logger, self._language),
             "general": GeneralView(self._settings),
             "display": DisplayView(self._settings),
             "audio": EmptyView(),

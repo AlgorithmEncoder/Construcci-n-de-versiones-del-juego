@@ -6,14 +6,19 @@ from ui.fonts import Fonts
 
 from . import styles
 
-from constants import GAME_VERSION
+from constants import GAME_VERSION, AUTHOR_NAME
 
 
 class Footer:
 
-    def __init__(self):
+    def __init__(self, language_manager):
 
-        self.message = "Sistema preparado."
+        self._language = language_manager
+        self.message = self._language.get(
+            "launcher",
+            "footer",
+            "message"
+        )
 
     def draw(self, screen, rect):
 
@@ -30,7 +35,7 @@ class Footer:
         )
 
         author = Fonts.small.render(
-            "© Ferran Clausell",
+            f"© {AUTHOR_NAME}",
             True,
             styles.TEXT_LIGHT
         )

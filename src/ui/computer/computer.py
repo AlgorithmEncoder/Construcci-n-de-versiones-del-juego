@@ -165,8 +165,9 @@ class ComputerUI(Overlay):
                     if self._activity_callback:
 
                         self._activity_callback(
-                            f"Email consultado: {email_id}",
-                            category="discovery"
+                            "game.computer.register.email_opened",
+                            category="discovery",
+                            email_id=email_id
                         )
 
                     return True
@@ -212,8 +213,9 @@ class ComputerUI(Overlay):
                     if self._activity_callback:
 
                         self._activity_callback(
-                            f"Chat consultado: {chat_id}",
-                            category="discovery"
+                            "game.computer.register.chat_opened",
+                            category="discovery",
+                            chat_id=chat_id
                         )
 
                     return True
@@ -281,8 +283,9 @@ class ComputerUI(Overlay):
                         if self._activity_callback:
 
                             self._activity_callback(
-                                f"Archivo consultado: {file_id}",
-                                category="discovery"
+                                "game.computer.register.file_opened",
+                                category="discovery",
+                                file_id=file_id
                             )
 
 

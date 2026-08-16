@@ -1,51 +1,203 @@
 {
     "available_languages": {
-        "launcher_interface": {
-            "es": "Español",
-            "en": "English",
-            "va": "Valencià"
-        },
-        "game_interface": {
-            "es": "Español",
-            "en": "English",
-            "va": "Valencià"
-        },
-        "documents": {
-            "es": "Español",
-            "en": "English",
-            "va": "Valencià"
-        },
-        "story": {
-            "es": "Español",
-            "en": "English",
-            "va": "Valencià"
-        },
-        "dialogues": {
-            "es": "Español",
-            "en": "English",
-            "va": "Valencià"
-        },
-        "computer_messages": {
-            "es": "Español",
-            "en": "English",
-            "va": "Valencià"
-        },
-        "computer_files": {
-            "es": "Español",
-            "en": "English",
-            "va": "Valencià"
-        }
+        "es": "Español",
+        "en": "English",
+        "va": "Valencià"
     },
 
     "launcher": {
-        "es": {},
-        "en": {},
-        "va": {}
+        "es": {
+            "header": {
+                "home": "Principal",
+                "profile": "Perfil",
+                "settings": "Ajustes"
+            },
+
+            "sidebar": {
+                "home": {
+                    "incursions": "Incursiones",
+                    "notes": "Notas",
+                    "inventory": "Inventario"
+                },
+                "profile": {
+                    "stats": "Estadísticas",
+                    "achievements": "Logros",
+                    "activity": "Actividad"
+                },
+                "settings": {
+                    "general": "General",
+                    "display": "Pantalla",
+                    "audio": "Audio",
+                    "language": "Idioma",
+                    "accessibility": "Accesibilidad"
+                }
+            },
+
+            "footer": {
+                "message": "",
+                "author": ""
+            },
+
+            "notes": {
+                "register": {
+                    "quick_note_creator_opened": "Apertura del creador de nota rápida.",
+                    "folder_created": "Carpeta de notas creada: {name}",
+                    "note_created": "Nota creada: {name}",
+                    "renamed": "Elemento renombrado: {old_name} → {new_name}",
+                    "deleted": "Elemento eliminado: {name}",
+                    "moved": "Elemento movido: {name} → {destination}",
+                    "note_updated": "Nota modificada: {name}"
+                }
+            }
+        },
+
+        "en": {
+            "header": {
+                "home": "Home",
+                "profile": "Profile",
+                "settings": "Settings"
+            },
+
+            "sidebar": {
+                "home": {
+                    "incursions": "Incursions",
+                    "notes": "Notes",
+                    "inventory": "Inventory"
+                },
+                "profile": {
+                    "stats": "Statistics",
+                    "achievements": "Achievements",
+                    "activity": "Activity"
+                },
+                "settings": {
+                    "general": "General",
+                    "display": "Display",
+                    "audio": "Audio",
+                    "language": "Language",
+                    "accessibility": "Accessibility"
+                }
+            },
+
+            "footer": {
+                "message": "",
+                "author": ""
+            },
+
+            "notes": {
+                "register": {
+                    "quick_note_creator_opened": "Quick note creator opened.",
+                    "folder_created": "Notes folder created: {name}",
+                    "note_created": "Note created: {name}",
+                    "renamed": "Item renamed: {old_name} → {new_name}",
+                    "deleted": "Item deleted: {name}",
+                    "moved": "Item moved: {name} → {destination}",
+                    "note_updated": "Note modified: {name}"
+                }
+            }
+        },
+
+        "va": {
+            "header": {
+                "home": "Principal",
+                "profile": "Perfil",
+                "settings": "Ajustos"
+            },
+
+            "sidebar": {
+                "home": {
+                    "incursions": "Incursions",
+                    "notes": "Notes",
+                    "inventory": "Inventari"
+                },
+                "profile": {
+                    "stats": "Estadístiques",
+                    "achievements": "Assoliments",
+                    "activity": "Activitat"
+                },
+                "settings": {
+                    "general": "General",
+                    "display": "Pantalla",
+                    "audio": "Àudio",
+                    "language": "Idioma",
+                    "accessibility": "Accessibilitat"
+                }
+            },
+
+            "footer": {
+                "message": "",
+                "author": ""
+            },
+
+            "notes": {
+                "register": {
+                    "quick_note_creator_opened": "Obertura del creador de nota ràpida.",
+                    "folder_created": "Carpeta de notes creada: {name}",
+                    "note_created": "Nota creada: {name}",
+                    "renamed": "Element reanomenat: {old_name} → {new_name}",
+                    "deleted": "Element eliminat: {name}",
+                    "moved": "Element mogut: {name} → {destination}",
+                    "note_updated": "Nota modificada: {name}"
+                }
+            }
+        }
     },
 
     "game": {
-        "es": {},
-        "en": {},
-        "va": {}
+        "es": {
+            "register": {
+                "incursion_started": "Inicio de la incursión: {memory_name}",
+                "incursion_completed": "Incursión completada: {memory_name}",
+                "room_entered": "Entrada en la habitación: {room_id}",
+                "document_opened": "Documento consultado: {document_id}",
+                "computer_opened": "Ordenador consultado: {computer_id}",
+                "npc_conversation": "Conversación con {npc_name}",
+                "detected": "Detectado por {npc_name}: {reason}",
+                "computer_warning": "Advertencia del ordenador por {npc_name} ({warnings})",
+                "element_discovered": "Elemento descubierto: {element_id}",
+                "memory_reset": "La memoria se ha reiniciado. Iteración {iteration}.",
+                "incursion_abandoned": "Abandono de la incursión '{memory_name}' en la iteración {iteration}.",
+                "email_opened": "Email consultado: {email_id}",
+                "chat_opened": "Chat consultado: {chat_id}",
+                "file_opened": "Archivo consultado: {file_id}"
+            }
+        },
+
+        "en": {
+            "register": {
+                "incursion_started": "Incursion started: {memory_name}",
+                "incursion_completed": "Incursion completed: {memory_name}",
+                "room_entered": "Entered room: {room_id}",
+                "document_opened": "Document viewed: {document_id}",
+                "computer_opened": "Computer accessed: {computer_id}",
+                "npc_conversation": "Conversation with {npc_name}",
+                "detected": "Detected by {npc_name}: {reason}",
+                "computer_warning": "Computer warning from {npc_name} ({warnings})",
+                "element_discovered": "Element discovered: {element_id}",
+                "memory_reset": "Memory has been reset. Iteration {iteration}.",
+                "incursion_abandoned": "Incursion '{memory_name}' abandoned on iteration {iteration}.",
+                "email_opened": "Email viewed: {email_id}",
+                "chat_opened": "Chat viewed: {chat_id}",
+                "file_opened": "File viewed: {file_id}"
+            }
+        },
+
+        "va": {
+            "register": {
+                "incursion_started": "Inici de la incursió: {memory_name}",
+                "incursion_completed": "Incursió completada: {memory_name}",
+                "room_entered": "Entrada a l'habitació: {room_id}",
+                "document_opened": "Document consultat: {document_id}",
+                "computer_opened": "Ordinador consultat: {computer_id}",
+                "npc_conversation": "Conversa amb {npc_name}",
+                "detected": "Detectat per {npc_name}: {reason}",
+                "computer_warning": "Advertència de l'ordinador per {npc_name} ({warnings})",
+                "element_discovered": "Element descobert: {element_id}",
+                "memory_reset": "La memòria s'ha reiniciat. Iteració {iteration}.",
+                "incursion_abandoned": "Abandonament de la incursió '{memory_name}' en la iteració {iteration}.",
+                "email_opened": "Correu consultat: {email_id}",
+                "chat_opened": "Xat consultat: {chat_id}",
+                "file_opened": "Fitxer consultat: {file_id}"
+            }
+        }
     }
 }

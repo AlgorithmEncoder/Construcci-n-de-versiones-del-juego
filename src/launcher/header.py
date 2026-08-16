@@ -9,14 +9,15 @@ from . import styles
 class Header:
 
     BUTTONS = [
-        ("home", "Principal"),
-        ("profile", "Perfil"),
-        ("settings", "Ajustes"),
+        "home",
+        "profile",
+        "settings",
     ]
 
-    def __init__(self):
+    def __init__(self, language_manager):
 
         self.buttons = []
+        self._language = language_manager
 
     def draw(self, screen, rect, current):
 
@@ -34,7 +35,13 @@ class Header:
 
         x = 280
 
-        for key, label in self.BUTTONS:
+        for key in self.BUTTONS:
+            
+            label = self._language.get(
+                "launcher",
+                "navigation",
+                key
+            )
 
             r = pygame.Rect(x, 10, 120, 40)
 

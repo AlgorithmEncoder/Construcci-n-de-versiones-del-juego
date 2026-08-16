@@ -8,14 +8,14 @@ import shutil
 
 from pathlib import Path
 
-from constants import ROOT_DIR
+from constants import ASSETS_DIR
 
 from launcher.home.notes.filesystem import FileSystem
 from launcher.home.notes.folder import Folder
 from launcher.home.notes.note import Note
 
 
-NOTES_DIR = ROOT_DIR / "assets" / "notes"
+NOTES_DIR = ASSETS_DIR / "notes"
 
 
 class NotesManager:
@@ -146,7 +146,8 @@ class NotesManager:
         )
         
         self._register_activity(
-            f"Carpeta de notas creada: {name}"
+            "launcher.notes.register.folder_created",
+            name=name
         )
 
         return folder
@@ -170,7 +171,8 @@ class NotesManager:
         )
         
         self._register_activity(
-            f"Nota creada: {name}"
+            "launcher.notes.register.note_created",
+            name=name
         )
 
         return note
@@ -202,7 +204,9 @@ class NotesManager:
         item.name = new_name
 
         self._register_activity(
-            f"Elemento renombrado: {old_name} → {new_name}"
+            "launcher.notes.register.renamed",
+            old_name=old_name,
+            new_name=new_name
         )
 
         return True
@@ -228,7 +232,8 @@ class NotesManager:
         self._filesystem.delete(item)
         
         self._register_activity(
-            f"Elemento eliminado: {name}"
+            "launcher.notes.register.deleted",
+            name=name
         )
 
     # --------------------------------------------------
@@ -257,7 +262,9 @@ class NotesManager:
         )
         
         self._register_activity(
-            f"Elemento movido: {item.name} → {destination.name}"
+            "launcher.notes.register.moved",
+            name=item.name,
+            destination=destination.name
         )
 
         return True
@@ -312,19 +319,22 @@ class NotesManager:
         )
         
         self._register_activity(
-            f"Nota modificada: {note.name}"
+            "launcher.notes.register.note_updated",
+            name=note.name
         )
     
     def _register_activity(
         self,
-        message: str
+        key: str,
+        **params
     ):
 
         if self._activity_callback:
 
             self._activity_callback(
-                message,
-                category="notes"
+                key,
+                category="notes",
+                **params
             )
 
 def onerror(func, path, exc_info):

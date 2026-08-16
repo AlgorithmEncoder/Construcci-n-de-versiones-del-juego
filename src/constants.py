@@ -9,6 +9,7 @@ from pathlib import Path
 import sys
 
 GAME_VERSION = "v.1.5.4"
+AUTHOR_NAME = "Ferran Clausell Sánchez"
 
 # ==========================================================
 # PROJECT PATHS
@@ -31,7 +32,7 @@ GLOBAL_DIR = DATA_DIR / "global"
 # WINDOW
 # ==========================================================
 
-WINDOW_TITLE = "Mind Investigation"
+WINDOW_TITLE = "DreamWalker"
 
 SCREEN_WIDTH = 1536
 SCREEN_HEIGHT = 1024

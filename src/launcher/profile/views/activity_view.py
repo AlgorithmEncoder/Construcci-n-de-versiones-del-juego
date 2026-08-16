@@ -10,32 +10,34 @@ from datetime import datetime
 
 import pygame
 
-from ui.fonts import Fonts
 from launcher import styles
+from launcher.fonts import Fonts
+
 
 class ActivityView:
 
-    CATEGORY_LABELS = {
-
-        "general": "General",
-        "system": "Sistema",
-        "incursion": "Incursión",
-        "discovery": "Descubrimiento",
-        "interaction": "Interacción",
-        "achievement": "Logro",
-
-    }
+    """
+    Displays the global activity log.
+    """
 
     ENTRY_HEIGHT = 82
 
     SCROLL_STEP = 3
 
-    def __init__(self, logger):
+    # ==================================================
+    # Construction
+    # ==================================================
+
+    def __init__(
+        self,
+        logger,
+        language_manager
+    ):
 
         self._logger = logger
+        self._language = language_manager
 
         self._scroll = 0
-
         self._visible_entries = 0
 
         self._content_rect = pygame.Rect(
@@ -49,12 +51,19 @@ class ActivityView:
     # Public API
     # ==================================================
 
-    def update(self, dt):
+    def update(
+        self,
+        dt
+    ):
         pass
 
     # --------------------------------------------------
 
-    def draw(self, screen, area):
+    def draw(
+        self,
+        screen,
+        area
+    ):
 
         self._content_rect = pygame.Rect(
             area.x,
@@ -89,23 +98,29 @@ class ActivityView:
 
             return
 
-        content_top = area.y + 85
+        content_top = (
+            area.y + 85
+        )
 
         content_rect = pygame.Rect(
             area.x + 12,
             content_top + 8,
             area.width - 24,
-            area.bottom - content_top - 16
+            area.bottom
+            - content_top
+            - 16
         )
 
         self._visible_entries = max(
             1,
-            content_rect.height // self.ENTRY_HEIGHT
+            content_rect.height //
+            self.ENTRY_HEIGHT
         )
 
         max_scroll = max(
             0,
-            len(entries) - self._visible_entries
+            len(entries)
+            - self._visible_entries
         )
 
         self._scroll = max(
@@ -118,7 +133,9 @@ class ActivityView:
 
         visible = entries[
             self._scroll:
-            self._scroll + self._visible_entries + 1
+            self._scroll
+            + self._visible_entries
+            + 1
         ]
 
         self._draw_entries(
@@ -136,7 +153,10 @@ class ActivityView:
 
     # --------------------------------------------------
 
-    def handle_event(self, event):
+    def handle_event(
+        self,
+        event
+    ):
 
         if event.type == pygame.MOUSEWHEEL:
 
@@ -145,7 +165,8 @@ class ActivityView:
             ):
 
                 self._scroll -= (
-                    event.y * self.SCROLL_STEP
+                    event.y *
+                    self.SCROLL_STEP
                 )
 
                 self._clamp_scroll()
@@ -172,7 +193,9 @@ class ActivityView:
 
             if event.key == pygame.K_PAGEUP:
 
-                self._scroll -= self._visible_entries
+                self._scroll -= (
+                    self._visible_entries
+                )
 
                 self._clamp_scroll()
 
@@ -180,7 +203,9 @@ class ActivityView:
 
             if event.key == pygame.K_PAGEDOWN:
 
-                self._scroll += self._visible_entries
+                self._scroll += (
+                    self._visible_entries
+                )
 
                 self._clamp_scroll()
 
@@ -198,7 +223,8 @@ class ActivityView:
 
                 self._scroll = max(
                     0,
-                    len(entries) - self._visible_entries
+                    len(entries)
+                    - self._visible_entries
                 )
 
                 return True
@@ -209,10 +235,17 @@ class ActivityView:
     # Header
     # ==================================================
 
-    def _draw_header(self, screen, area):
+    def _draw_header(
+        self,
+        screen,
+        area
+    ):
 
         title = Fonts.title.render(
-            "Actividad",
+            self._text(
+                "activity.title",
+                fallback="Actividad"
+            ),
             True,
             styles.TEXT
         )
@@ -220,13 +253,16 @@ class ActivityView:
         screen.blit(
             title,
             (
-                area.x+10,
-                area.y+10
+                area.x + 10,
+                area.y + 10
             )
         )
 
         subtitle = Fonts.small.render(
-            "Registro de acontecimientos",
+            self._text(
+                "activity.subtitle",
+                fallback="Registro de acontecimientos"
+            ),
             True,
             styles.TEXT_SECONDARY
         )
@@ -234,7 +270,7 @@ class ActivityView:
         screen.blit(
             subtitle,
             (
-                area.x+10,
+                area.x + 10,
                 area.y + 50
             )
         )
@@ -243,10 +279,19 @@ class ActivityView:
     # Empty state
     # ==================================================
 
-    def _draw_empty(self, screen, area):
+    def _draw_empty(
+        self,
+        screen,
+        area
+    ):
 
         text = Fonts.default.render(
-            "Todavía no hay actividad registrada.",
+            self._text(
+                "activity.empty",
+                fallback=(
+                    "Todavía no hay actividad registrada."
+                )
+            ),
             True,
             styles.TEXT_SECONDARY
         )
@@ -273,7 +318,9 @@ class ActivityView:
 
         old_clip = screen.get_clip()
 
-        screen.set_clip(area)
+        screen.set_clip(
+            area
+        )
 
         y = area.y
 
@@ -292,7 +339,9 @@ class ActivityView:
 
             y += self.ENTRY_HEIGHT
 
-        screen.set_clip(old_clip)
+        screen.set_clip(
+            old_clip
+        )
 
     # --------------------------------------------------
 
@@ -324,16 +373,13 @@ class ActivityView:
             )
         )
 
-        message = str(
-            entry.get(
-                "message",
-                ""
-            )
+        message = self._get_entry_message(
+            entry
         )
 
-        # ------------------------------
+        # ==================================================
         # Date
-        # ------------------------------
+        # ==================================================
 
         date_surface = Fonts.small.render(
             timestamp,
@@ -349,9 +395,9 @@ class ActivityView:
             )
         )
 
-        # ------------------------------
+        # ==================================================
         # Category
-        # ------------------------------
+        # ==================================================
 
         category_surface = Fonts.small.render(
             category.upper(),
@@ -383,9 +429,9 @@ class ActivityView:
             category_rect
         )
 
-        # ------------------------------
+        # ==================================================
         # Message
-        # ------------------------------
+        # ==================================================
 
         message_surface = Fonts.default.render(
             message,
@@ -400,8 +446,6 @@ class ActivityView:
             )
         )
 
-        # Prevent the message from crossing
-        # into the category area.
         max_width = (
             rect.width - 28
         )
@@ -416,6 +460,50 @@ class ActivityView:
         screen.blit(
             message_surface,
             message_rect
+        )
+
+    # ==================================================
+    # Activity text
+    # ==================================================
+
+    def _get_entry_message(
+        self,
+        entry
+    ) -> str:
+        """
+        Resolves an activity entry into presentation text.
+
+        New entries use message_key + parameters.
+
+        Legacy entries containing message are still supported.
+        """
+
+        message_key = entry.get(
+            "message_key"
+        )
+
+        if message_key:
+
+            parameters = entry.get(
+                "parameters",
+                {}
+            )
+
+            return self._text(
+                message_key,
+                fallback=message_key,
+                **parameters
+            )
+
+        # --------------------------------------------------
+        # Legacy activity
+        # --------------------------------------------------
+
+        return str(
+            entry.get(
+                "message",
+                ""
+            )
         )
 
     # ==================================================
@@ -468,8 +556,11 @@ class ActivityView:
         thumb_y = (
             track.y +
             int(
-                (track.height - thumb_height) *
-                scroll_ratio
+                (
+                    track.height -
+                    thumb_height
+                )
+                * scroll_ratio
             )
         )
 
@@ -491,15 +582,18 @@ class ActivityView:
     # Formatting
     # ==================================================
 
-    def _format_category(self, category):
+    def _format_category(
+        self,
+        category
+    ):
 
         category = str(
             category or "general"
         )
 
-        return self.CATEGORY_LABELS.get(
-            category,
-            category.replace(
+        return self._text(
+            f"activity.categories.{category}",
+            fallback=category.replace(
                 "_",
                 " "
             ).title()
@@ -507,7 +601,10 @@ class ActivityView:
 
     # --------------------------------------------------
 
-    def _format_timestamp(self, timestamp):
+    def _format_timestamp(
+        self,
+        timestamp
+    ):
 
         if not timestamp:
             return ""
@@ -571,6 +668,58 @@ class ActivityView:
         )
 
     # ==================================================
+    # Language
+    # ==================================================
+
+    def _text(
+        self,
+        key: str,
+        fallback: str = "",
+        **parameters
+    ) -> str:
+        """
+        Obtains translated interface text.
+
+        This small wrapper keeps the ActivityView independent
+        from the exact LanguageManager API.
+        """
+
+        try:
+
+            value = self._language.get(
+                key,
+                default=fallback
+            )
+
+        except TypeError:
+
+            value = self._language.get(
+                key
+            )
+
+        if value is None:
+
+            value = fallback
+
+        try:
+
+            return str(
+                value
+            ).format(
+                **parameters
+            )
+
+        except (
+            KeyError,
+            IndexError,
+            ValueError
+        ):
+
+            return str(
+                value
+            )
+    
+    # ==================================================
     # Helpers
     # ==================================================
 
@@ -582,8 +731,8 @@ class ActivityView:
 
         max_scroll = max(
             0,
-            total_entries -
-            self._visible_entries
+            total_entries
+            - self._visible_entries
         )
 
         self._scroll = max(

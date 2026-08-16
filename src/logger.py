@@ -3,8 +3,12 @@ Activity logger.
 
 Stores persistent global activity generated throughout the game.
 
-The logger keeps activity entries in memory during execution and only
-writes them to disk when save() is explicitly called.
+The logger stores activity identifiers and parameters rather than
+presentation text. Text is resolved by the ActivityView through the
+language system.
+
+Entries remain in memory during execution and are only written to disk
+when save() is explicitly called.
 """
 
 from __future__ import annotations
@@ -13,27 +17,26 @@ import json
 import os
 
 from datetime import datetime
-from pathlib import Path
 
 from constants import GLOBAL_DIR
 
+
 # ============================================================
-
 # Paths
-
 # ============================================================
 
 ACTIVITY_FILE = GLOBAL_DIR / "activity.json"
 
+
 class Logger:
-    
+
     """
     Activity logger.
 
-    Stores persistent global activity generated throughout the game.
+    Stores persistent global activity entries.
 
-    The logger keeps activity entries in memory during execution and only
-    writes them to disk when save() is explicitly called.
+    The logger is responsible only for recording and persisting
+    activity. It does not handle presentation or translation.
     """
 
     def __init__(self):
@@ -48,13 +51,7 @@ class Logger:
         """
         Load the activity log from disk.
 
-        If the file does not exist or contains invalid/empty data,
-        an empty log is created in memory.
-
-        Returns
-        -------
-        list[dict]
-            Current activity entries.
+        Invalid or missing data results in an empty in-memory log.
         """
 
         self._entries = []
@@ -99,27 +96,34 @@ class Logger:
 
     def register(
         self,
-        message: str,
+        message_key: str,
         *,
-        category: str = "general"
+        category: str = "general",
+        **parameters
     ) -> dict:
         """
         Register an activity entry in memory.
 
-        The entry is NOT written to disk until save() is called.
-
         Parameters
         ----------
-        message : str
-            Human-readable description of the activity.
+        message_key:
+            Identifier used to obtain the activity text from the
+            language data.
 
-        category : str, optional
+        category:
             Activity category.
+
+        **parameters:
+            Values used when formatting the translated activity text.
 
         Returns
         -------
         dict
             The newly created activity entry.
+
+        Notes
+        -----
+        The entry is not written to disk until save() is called.
         """
 
         entry = {
@@ -128,29 +132,65 @@ class Logger:
                 timespec="seconds"
             ),
 
-            "category": category,
+            "category": str(category),
 
-            "message": str(message),
+            "message_key": str(message_key),
+
+            "parameters": parameters,
 
         }
 
-        self._entries.append(entry)
+        self._entries.append(
+            entry
+        )
 
         return entry
 
     # --------------------------------------------------------
 
+    def register_legacy(
+        self,
+        message: str,
+        *,
+        category: str = "general"
+    ) -> dict:
+        """
+        Register a legacy activity containing presentation text.
+
+        This method exists temporarily so old activity registrations
+        can coexist while the project is migrated to message keys.
+
+        New code should use register().
+        """
+
+        entry = {
+
+            "timestamp": datetime.now().isoformat(
+                timespec="seconds"
+            ),
+
+            "category": str(category),
+
+            "message": str(message),
+
+        }
+
+        self._entries.append(
+            entry
+        )
+
+        return entry
+
+    # ========================================================
+    # Persistence
+    # ========================================================
+
     def save(self) -> bool:
         """
         Save the current activity log to disk.
 
-        The file is written through a temporary file first and then
+        The file is written through a temporary file and then
         replaced atomically when possible.
-
-        Returns
-        -------
-        bool
-            True if saving succeeded, False otherwise.
         """
 
         try:
@@ -195,21 +235,17 @@ class Logger:
 
     @property
     def entries(self) -> list[dict]:
-        """
-        Return the current activity entries.
-
-        The returned list is the logger's in-memory list.
-        """
 
         return self._entries
 
+    # --------------------------------------------------------
+
     @property
     def count(self) -> int:
-        """
-        Return the number of registered activities.
-        """
 
-        return len(self._entries)
+        return len(
+            self._entries
+        )
 
     # ========================================================
     # Utility
@@ -219,8 +255,7 @@ class Logger:
         """
         Clear the activity currently held in memory.
 
-        This does NOT modify the file on disk until save() is called.
+        This does not modify the file on disk until save() is called.
         """
 
         self._entries.clear()
-

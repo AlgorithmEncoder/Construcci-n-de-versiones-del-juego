@@ -25,29 +25,30 @@ from icons import (
 class Sidebar:
     
     MODULES = {
-
         "home": [
-            ("incursions", "Incursiones"),
-            ("notes", "Notas"),
-            ("inventory", "Inventario"),
+            "incursions",
+            "notes",
+            "inventory",
         ],
 
         "profile": [
-            ("stats", "Estadísticas"),
-            ("achievements", "Logros"),
-            ("activity", "Actividad"),
+            "stats",
+            "achievements",
+            "activity",
         ],
 
         "settings": [
-            ("general", "General"),
-            ("display", "Pantalla"),
-            ("audio", "Audio"),
-            ("language", "Idioma"),
-            ("accessibility", "Accesibilidad"),
+            "general",
+            "display",
+            "audio",
+            "language",
+            "accessibility",
         ],
     }
 
-    def __init__(self):
+    def __init__(self, language_manager):
+        
+        self._language = language_manager
         
         self.module = "home"
 
@@ -79,7 +80,13 @@ class Sidebar:
 
         y = rect.y + 25
 
-        for key, label in self.MODULES[module]:
+        for key in self.MODULES[module]:
+            
+            label = self._language.get(
+                "launcher",
+                "navigation",
+                key
+            )
 
             r = pygame.Rect(
                 rect.x + 10,
@@ -179,7 +186,7 @@ class Sidebar:
 
         y = rect.y + 25
 
-        for key, _ in self.MODULES[self.module]:
+        for key in self.MODULES[self.module]:
 
             button = pygame.Rect(
                 rect.x + 10,

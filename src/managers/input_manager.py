@@ -109,7 +109,7 @@ class InputManager:
         if self._game.renderer.quick_note_button_at(position):
             
             self._game.logger.register(
-                "Apertura del creador de nota rápida.",
+                "launcher.notes.register.quick_note_creator_opened",
                 category="notes"
             )
 
