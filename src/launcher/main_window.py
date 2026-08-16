@@ -29,6 +29,7 @@ from launcher.profile.views.stats_view import StatsView
 from launcher.profile.views.achievements_view import AchievementsView
 from launcher.settings.views.general import GeneralView
 from launcher.settings.views.display import DisplayView
+from launcher.settings.views.language import LanguageView
 from launcher.settings.views.accessibility import AccessibilityView
 
 from launcher.profile.stats.stats_manager import StatsManager
@@ -74,7 +75,7 @@ class MainWindow:
             "general": GeneralView(self._settings),
             "display": DisplayView(self._settings),
             "audio": EmptyView(),
-            "language": EmptyView(),
+            "language": LanguageView(self._settings),
             "accessibility": AccessibilityView(self._settings)
         }
         

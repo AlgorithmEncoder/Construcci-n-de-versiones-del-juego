@@ -783,34 +783,88 @@ def draw_language(
     rect: pygame.Rect,
     colour,
 ):
+    """
+    Two speech bubbles representing language selection.
+    """
 
-    pygame.draw.circle(
+    # Left bubble
+    left = pygame.Rect(
+        rect.x + 1,
+        rect.y + 2,
+        10,
+        8,
+    )
+
+    pygame.draw.rect(
         surface,
         colour,
-        rect.center,
-        7,
+        left,
+        LINE_WIDTH,
+        border_radius=2,
+    )
+
+    pygame.draw.line(
+        surface,
+        colour,
+        (rect.x + 4, rect.y + 10),
+        (rect.x + 3, rect.y + 13),
         LINE_WIDTH,
     )
 
-    pygame.draw.arc(
+    pygame.draw.line(
         surface,
         colour,
-        (
-            rect.centerx - 4,
-            rect.y + 2,
-            8,
-            rect.height - 4,
-        ),
-        0,
-        6.28,
+        (rect.x + 3, rect.y + 13),
+        (rect.x + 7, rect.y + 10),
+        LINE_WIDTH,
+    )
+
+    # Right bubble
+    right = pygame.Rect(
+        rect.x + 9,
+        rect.y + 7,
+        10,
+        8,
+    )
+
+    pygame.draw.rect(
+        surface,
+        colour,
+        right,
+        LINE_WIDTH,
+        border_radius=2,
+    )
+
+    pygame.draw.line(
+        surface,
+        colour,
+        (rect.x + 15, rect.y + 15),
+        (rect.x + 16, rect.y + 18),
+        LINE_WIDTH,
+    )
+
+    pygame.draw.line(
+        surface,
+        colour,
+        (rect.x + 16, rect.y + 18),
+        (rect.x + 12, rect.y + 15),
+        LINE_WIDTH,
+    )
+
+    # Language marks
+    pygame.draw.line(
+        surface,
+        colour,
+        (rect.x + 4, rect.y + 5),
+        (rect.x + 8, rect.y + 5),
         1,
     )
 
     pygame.draw.line(
         surface,
         colour,
-        (rect.left + 2, rect.centery),
-        (rect.right - 2, rect.centery),
+        (rect.x + 12, rect.y + 10),
+        (rect.x + 16, rect.y + 10),
         1,
     )
 

@@ -75,7 +75,10 @@ CONFIGURACIÓN
 │   └── Diálogos
 │
 ├── 5.5 Idioma
-│   └── Idioma
+│   ├── Viewer
+│   ├── Estructura de archivos
+│   ├── Integración código
+│   └── + Idiomas (es, en, va)
 │
 ├── 5.4 Accesibilidad
 │   ├── Tamaño de texto
