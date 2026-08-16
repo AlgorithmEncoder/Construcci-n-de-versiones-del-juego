@@ -24,7 +24,7 @@
         "La investigación puede continuar... o puedes abandonar la simulación."
     ],
     "progress": {
-        "director_archivo_laberinto": false,
+        "director_archivo_laberinto": true,
         "director_firma_familiar": false,
         "director_archivador_azul": false,
         "director_expedientes_familiares": false,
@@ -45,8 +45,8 @@
         "recepcion_visitante_espera": false,
         "recepcion_decoracion_cambiada": false,
         "recepcion_limpieza_acceso_archivo": false,
-        "waiting_notepad": false,
-        "reception_agenda": false,
+        "waiting_notepad": true,
+        "reception_agenda": true,
         "employee_registry": false,
         "contracts_folder": false,
         "team_photo_doc": false,
@@ -82,7 +82,7 @@
         "team_photos": false,
         "discarded_note": false,
         "desk_drawers": false,
-        "meeting_agenda": false,
+        "meeting_agenda": true,
         "meeting_notes": false,
         "meeting_minutes_previous": false,
         "meeting_01": false,
@@ -102,7 +102,7 @@
         "organisation_backup": false,
         "old_organisation_notes": false,
         "contracts_registry": false,
-        "archive_index": false,
+        "archive_index": true,
         "historical_records": false,
         "historical_archive_guide": false,
         "archive_room_map": false,
@@ -159,8 +159,8 @@
         "d_mail_043": false,
         "d_mail_044": false
     },
-    "iterations": 0,
+    "iterations": 64,
     "locked": false,
     "finished": false,
-    "progress_percent": 0
+    "progress_percent": 4
 }

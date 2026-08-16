@@ -74,6 +74,8 @@ memory_X/
 ├── objects.json               ← COMPARTIDO
 ├── npcs.json                  ← COMPARTIDO
 ├── events.json                ← COMPARTIDO
+├── computer_files.json: rutas ← COMPARTIDO
+├── stats.json                 ← COMPARTIDO
 │
 └── locales/
     ├── es/

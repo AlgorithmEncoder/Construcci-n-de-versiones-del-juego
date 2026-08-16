@@ -1,0 +1,51 @@
+{
+    "available_languages": {
+        "launcher_interface": {
+            "es": "Español",
+            "en": "English",
+            "va": "Valencià"
+        },
+        "game_interface": {
+            "es": "Español",
+            "en": "English",
+            "va": "Valencià"
+        },
+        "documents": {
+            "es": "Español",
+            "en": "English",
+            "va": "Valencià"
+        },
+        "story": {
+            "es": "Español",
+            "en": "English",
+            "va": "Valencià"
+        },
+        "dialogues": {
+            "es": "Español",
+            "en": "English",
+            "va": "Valencià"
+        },
+        "computer_messages": {
+            "es": "Español",
+            "en": "English",
+            "va": "Valencià"
+        },
+        "computer_files": {
+            "es": "Español",
+            "en": "English",
+            "va": "Valencià"
+        }
+    },
+
+    "launcher": {
+        "es": {},
+        "en": {},
+        "va": {}
+    },
+
+    "game": {
+        "es": {},
+        "en": {},
+        "va": {}
+    }
+}
