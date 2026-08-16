@@ -39,6 +39,32 @@
             },
 
             "notes": {
+                "toolbar": {
+                    "new_folder": "Nueva carpeta",
+                    "new_note": "Nueva nota",
+                    "rename": "Renombrar",
+                    "delete": "Eliminar",
+                    "move": "Mover",
+                    "back": "Volver"
+                },
+
+                "dialog": {
+                    "new_folder": "Nueva carpeta",
+                    "new_note": "Nueva nota",
+                    "rename": "Renombrar",
+                    "accept": "Aceptar",
+                    "move": "Mover a...",
+                    "move_title": "Mover"
+                },
+
+                "quick": {
+                    "title": "Nueva nota rápida",
+                    "note_title": "Título",
+                    "note_text": "Texto",
+                    "cancel": "Cancelar",
+                    "save": "Guardar"
+                },
+
                 "register": {
                     "quick_note_creator_opened": "Apertura del creador de nota rápida.",
                     "folder_created": "Carpeta de notas creada: {name}",
@@ -84,6 +110,32 @@
             },
 
             "notes": {
+                "toolbar": {
+                    "new_folder": "New folder",
+                    "new_note": "New note",
+                    "rename": "Rename",
+                    "delete": "Delete",
+                    "move": "Move",
+                    "back": "Back"
+                },
+
+                "dialog": {
+                    "new_folder": "New folder",
+                    "new_note": "New note",
+                    "rename": "Rename",
+                    "accept": "Accept",
+                    "move": "Move to...",
+                    "move_title": "Move"
+                },
+
+                "quick": {
+                    "title": "New quick note",
+                    "note_title": "Title",
+                    "note_text": "Text",
+                    "cancel": "Cancel",
+                    "save": "Save"
+                },
+
                 "register": {
                     "quick_note_creator_opened": "Quick note creator opened.",
                     "folder_created": "Notes folder created: {name}",
@@ -129,6 +181,32 @@
             },
 
             "notes": {
+                "toolbar": {
+                    "new_folder": "Nova carpeta",
+                    "new_note": "Nova nota",
+                    "rename": "Reanomenar",
+                    "delete": "Eliminar",
+                    "move": "Moure",
+                    "back": "Tornar"
+                },
+
+                "dialog": {
+                    "new_folder": "Nova carpeta",
+                    "new_note": "Nova nota",
+                    "rename": "Reanomenar",
+                    "accept": "Acceptar",
+                    "move": "Moure a...",
+                    "move_title": "Moure"
+                },
+
+                "quick": {
+                    "title": "Nova nota ràpida",
+                    "note_title": "Títol",
+                    "note_text": "Text",
+                    "cancel": "Cancel·lar",
+                    "save": "Guardar"
+                },
+
                 "register": {
                     "quick_note_creator_opened": "Obertura del creador de nota ràpida.",
                     "folder_created": "Carpeta de notes creada: {name}",

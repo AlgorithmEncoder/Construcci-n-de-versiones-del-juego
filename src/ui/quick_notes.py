@@ -22,6 +22,7 @@ class QuickNotes(Overlay):
         self,
         world_width: int,
         world_height: int,
+        language_manager,
     ):
 
         super().__init__(
@@ -31,6 +32,8 @@ class QuickNotes(Overlay):
             height=640,
         )
 
+        self._language = language_manager
+        
         self._title = TextEditor()
 
         self._text = TextEditor()
@@ -84,9 +87,15 @@ class QuickNotes(Overlay):
         # Title
         # ==================================================
 
+        title = self._language.get(
+            "launcher",
+            "notes",
+            "quick",
+            "title"
+        )
         screen.blit(
             Fonts.title.render(
-                "Nueva nota rápida",
+                title,
                 True,
                 styles.QUICK_NOTES_TITLE,
             ),
@@ -99,9 +108,15 @@ class QuickNotes(Overlay):
         # Note title
         # ==================================================
 
+        note_title = self._language.get(
+            "launcher",
+            "notes",
+            "quick",
+            "note_title"
+        )
         screen.blit(
             Fonts.default.render(
-                "Título",
+                note_title,
                 True,
                 styles.QUICK_NOTES_LABEL,
             ),
@@ -128,9 +143,15 @@ class QuickNotes(Overlay):
         # Note text
         # ==================================================
 
+        note_text = self._language.get(
+            "launcher",
+            "notes",
+            "quick",
+            "note_text"
+        )
         screen.blit(
             Fonts.default.render(
-                "Texto",
+                note_text,
                 True,
                 styles.QUICK_NOTES_LABEL,
             ),
@@ -183,9 +204,15 @@ class QuickNotes(Overlay):
             border_radius=styles.BUTTON_RADIUS,
         )
 
+        cancel = self._language.get(
+            "launcher",
+            "notes",
+            "quick",
+            "cancel"
+        )
         screen.blit(
             Fonts.small.render(
-                "Cancelar",
+                cancel,
                 True,
                 styles.BUTTON_TEXT,
             ),
@@ -195,9 +222,15 @@ class QuickNotes(Overlay):
             ),
         )
 
+        save = self._language.get(
+            "launcher",
+            "notes",
+            "quick",
+            "save"
+        )
         screen.blit(
             Fonts.small.render(
-                "Guardar",
+                save,
                 True,
                 styles.BUTTON_TEXT,
             ),

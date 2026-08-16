@@ -10,16 +10,16 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from constants import ROOT_DIR
+from constants import ASSETS_DIR
 
 
-NOTES_DIR = ROOT_DIR / "assets" / "notes"
+NOTES_DIR = ASSETS_DIR / "notes"
 QUICK_FOLDER = NOTES_DIR / "Notas rápidas"
 
 
 def create_quick_note(
     text: str,
-    title: str = "Nueva nota"
+    title: str = "New note"
 ) -> Path:
 
     """
@@ -59,7 +59,7 @@ def _next_filename(title: str) -> str:
 
     if not title:
 
-        title = "Nueva nota"
+        title = "New note"
 
     candidate = f"{title}.txt"
 

@@ -61,12 +61,14 @@ class Game:
         screen: pygame.Surface,
         memory: str,
         logger,
-        settings_manager
+        settings_manager,
+        language_manager
     ):
 
         self._screen = screen
         self._logger = logger
         self._settings = settings_manager
+        self._language = language_manager
 
         self._memory_name = memory
         self._iterations = 1

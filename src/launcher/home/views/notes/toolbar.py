@@ -13,23 +13,18 @@ from launcher import styles
 class Toolbar:
 
     BUTTONS = [
-
-        ("Nueva carpeta", "folder"),
-
-        ("Nueva nota", "note"),
-
-        ("Renombrar", "rename"),
-
-        ("Eliminar", "delete"),
-        
-        ("Mover", "move"),
-        
-        ("Volver", "back")
+        ("new_folder", "folder"),
+        ("new_note", "note"),
+        ("rename", "rename"),
+        ("delete", "delete"),
+        ("move", "move"),
+        ("back", "back"),
     ]
 
-    def __init__(self):
+    def __init__(self, language_manager):
 
         self._buttons = []
+        self._language = language_manager
 
     def draw(self, screen, area):
 
@@ -37,7 +32,13 @@ class Toolbar:
 
         x = area.x
 
-        for label, action in self.BUTTONS:
+        for label_id, action in self.BUTTONS:
+            
+            label = self._language.get(
+                "launcher",
+                "toolbar",
+                label_id
+            )
 
             rect = pygame.Rect(
                 x,

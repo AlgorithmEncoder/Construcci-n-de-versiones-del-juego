@@ -17,20 +17,29 @@ class InputDialog:
     WIDTH = 420
     HEIGHT = 180
 
-    def __init__(self, title):
+    def __init__(self, action, language_manager):
 
-        self._title = title
+        self._action = action
+        
+        self._language = language_manager
 
         self._editor = TextEditor()
 
         self._accept = pygame.Rect(0, 0, 0, 0)
+        
+        self._title = self._language.get(
+            "launcher",
+            "notes",
+            "dialog",
+            self._action
+        )
 
     # -------------------------------------------------
 
     @property
-    def title(self):
+    def action(self):
 
-        return self._title
+        return self._action
 
     @property
     def value(self):
@@ -110,9 +119,15 @@ class InputDialog:
             border_radius=5
         )
 
+        accept_text = self._language.get(
+            "launcher",
+            "notes",
+            "dialog",
+            "accept"
+        )
         screen.blit(
             Fonts.small.render(
-                "Aceptar",
+                accept_text,
                 True,
                 styles.BUTTON_TEXT
             ),

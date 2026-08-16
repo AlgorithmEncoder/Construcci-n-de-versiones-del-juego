@@ -17,6 +17,7 @@ class InputManager:
     def __init__(self, game):
 
         self._game = game
+        self._language = game._language
 
     # ==================================================
     # Public API
@@ -117,7 +118,8 @@ class InputManager:
 
                 QuickNotes(
                     self._game.native_width,
-                    self._game.native_height
+                    self._game.native_height,
+                    self._language
                 )
 
             )

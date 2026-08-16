@@ -17,9 +17,11 @@ class MoveDialog:
 
     ROW_HEIGHT = 34
 
-    def __init__(self, filesystem):
+    def __init__(self, filesystem, language_manager):
 
         self._filesystem = filesystem
+        
+        self._language = language_manager
 
         self._selected = filesystem.current
 
@@ -68,11 +70,17 @@ class MoveDialog:
             border_radius=8
         )
 
+        move_text = self._language.get(
+            "launcher",
+            "notes",
+            "dialog",
+            "move"
+        )
         screen.blit(
 
             Fonts.default.render(
 
-                "Mover a...",
+                move_text,
 
                 True,
 
@@ -153,9 +161,15 @@ class MoveDialog:
             border_radius=5
         )
 
+        move_title = self._language.get(
+            "launcher",
+            "notes",
+            "dialog",
+            "move_title"
+        )
         screen.blit(
             Fonts.small.render(
-                "Mover",
+                move_title,
                 True,
                 styles.BUTTON_TEXT
             ),

@@ -52,7 +52,8 @@ class Application:
                     self._screen,
                     self._launcher.start_requested,
                     self._logger,
-                    self._launcher._settings
+                    self._launcher._settings,
+                    self._launcher._language
                 )
 
                 self._launcher.clear_requests()

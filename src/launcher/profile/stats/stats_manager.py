@@ -12,7 +12,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from constants import DATA_DIR, MEMORIES_DIR
+from constants import GLOBAL_DIR, MEMORIES_DIR
 
 
 class StatsManager:
@@ -27,7 +27,7 @@ class StatsManager:
     def __init__(self):
 
         self._global_path = (
-            DATA_DIR / "global" / "stats.json"
+            GLOBAL_DIR / "stats.json"
         )
 
         self._memories: dict[str, dict] = {}

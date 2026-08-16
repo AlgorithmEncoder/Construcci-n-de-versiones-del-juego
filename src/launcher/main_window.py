@@ -61,7 +61,7 @@ class MainWindow:
         self._dreams = DreamManager()
         self._dreams.load()
         self._notes = NotesManager(self._logger.register)
-        self._notes_view = NotesView(self)
+        self._notes_view = NotesView(self._notes, self._language)
         
         self._stats = StatsManager()
         self._achievements = AchievementsManager( self._stats )
@@ -271,7 +271,7 @@ class MainWindow:
 
         valid_sections = {
             key
-            for key, _ in self._sidebar.MODULES[self._module]
+            for key in self._sidebar.MODULES[self._module]
         }
 
         if section not in valid_sections:

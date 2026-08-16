@@ -19,14 +19,14 @@ from launcher.base_view import BaseView
 
 class NotesView(BaseView):
 
-    def __init__(self, launcher):
+    def __init__(self, notes, language_manager):
 
-        self._launcher = launcher
-        self._filesystem = launcher._notes._filesystem
+        self._language = language_manager
+        self._filesystem = notes._filesystem
 
-        self._notes = launcher.notes
+        self._notes = notes
 
-        self._toolbar = Toolbar()
+        self._toolbar = Toolbar(self._language)
         self._breadcrumb = Breadcrumb()
         self._explorer = Explorer()
 
@@ -159,13 +159,13 @@ class NotesView(BaseView):
         if action == "folder":
 
             self._dialog = InputDialog(
-                "Nueva carpeta"
+                "new_folder"
             )
 
         elif action == "note":
 
             self._dialog = InputDialog(
-                "Nueva nota"
+                "new_note"
             )
 
         elif action == "rename":
@@ -174,7 +174,7 @@ class NotesView(BaseView):
                 return
 
             self._dialog = InputDialog(
-                "Renombrar"
+                "rename"
             )
 
             self._dialog.value = self._selected.name
@@ -196,7 +196,8 @@ class NotesView(BaseView):
                 return
 
             self._dialog = MoveDialog(
-                self._filesystem
+                self._filesystem,
+                self._language
             )
         
         elif action == "back":
@@ -215,15 +216,15 @@ class NotesView(BaseView):
 
         if action == "accept":
 
-            if self._dialog.title == "Nueva carpeta":
+            if self._dialog.action == "new_folder":
 
                 self._notes.create_folder(value)
 
-            elif self._dialog.title == "Nueva nota":
+            elif self._dialog.action == "new_note":
 
                 self._notes.create_note(value)
 
-            elif self._dialog.title == "Renombrar":
+            elif self._dialog.action == "rename":
 
                 self._notes.rename(
                     self._selected,
