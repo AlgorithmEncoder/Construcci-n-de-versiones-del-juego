@@ -66,16 +66,28 @@ class AccessibilityView(BaseView):
     # Construction
     # ==================================================
 
-    def __init__(self, settings_manager):
+    def __init__(self, settings_manager, laungage_manager):
+        
+        self._language = laungage_manager
+        
+        title = self._language.get(
+            "launcher",
+            "settings",
+            "accessibility",
+            "title"
+        )
+        description = self._language.get(
+            "launcher",
+            "settings",
+            "accessibility",
+            "description"
+        )
 
         super().__init__(
             settings_manager=settings_manager,
             section="accessibility",
-            title="Accesibilidad",
-            description=(
-                "Configura diferentes opciones para adaptar "
-                "la experiencia a tus necesidades."
-            ),
+            title=title,
+            description=description,
         )
 
         self._rows: dict[str, pygame.Rect] = {}
@@ -271,6 +283,20 @@ class AccessibilityView(BaseView):
         # High contrast
         # ==================================================
 
+        constrast_title = self._language.get(
+            "launcher",
+            "settings",
+            "accessibility",
+            "high_contrast",
+            "title"
+        )
+        contrast_description = self._language.get(
+            "launcher",
+            "settings",
+            "accessibility",
+            "high_contrast",
+            "description"
+        )
         self._draw_toggle_row(
             screen,
             pygame.Rect(
@@ -280,11 +306,8 @@ class AccessibilityView(BaseView):
                 self.ROW_HEIGHT
             ),
             "high_contrast",
-            "Alto contraste",
-            (
-                "Aumenta el contraste de los elementos "
-                "para facilitar su lectura."
-            )
+            constrast_title,
+            contrast_description
         )
 
         y += self.ROW_HEIGHT + self.ROW_GAP
@@ -293,6 +316,20 @@ class AccessibilityView(BaseView):
         # Reduce motion
         # ==================================================
 
+        motion_title = self._language.get(
+            "launcher",
+            "settings",
+            "accessibility",
+            "reduce_motion",
+            "title"
+        )
+        motion_description = self._language.get(
+            "launcher",
+            "settings",
+            "accessibility",
+            "reduce_motion",
+            "description"
+        )
         self._draw_toggle_row(
             screen,
             pygame.Rect(
@@ -302,11 +339,8 @@ class AccessibilityView(BaseView):
                 self.ROW_HEIGHT
             ),
             "reduce_motion",
-            "Reducir movimiento",
-            (
-                "Reduce determinadas transiciones y "
-                "animaciones de la interfaz."
-            )
+            motion_title,
+            motion_description
         )
 
         y += self.ROW_HEIGHT + self.ROW_GAP
@@ -322,6 +356,20 @@ class AccessibilityView(BaseView):
             )
         )
 
+        typing_title = self._language.get(
+            "launcher",
+            "settings",
+            "accessibility",
+            "dialogue_typing",
+            "title"
+        )
+        typing_description = self._language.get(
+            "launcher",
+            "settings",
+            "accessibility",
+            "dialogue_typing",
+            "description"
+        )
         self._draw_toggle_row(
             screen,
             pygame.Rect(
@@ -331,11 +379,8 @@ class AccessibilityView(BaseView):
                 self.ROW_HEIGHT
             ),
             "dialogue_typing",
-            "Escritura de diálogos",
-            (
-                "Muestra los diálogos utilizando "
-                "el efecto de escritura progresiva."
-            )
+            typing_title,
+            typing_description
         )
 
         y += self.ROW_HEIGHT + self.ROW_GAP
@@ -375,8 +420,15 @@ class AccessibilityView(BaseView):
 
         text_x = rect.x + 18
 
+        title_text = self._language.get(
+            "launcher",
+            "settings",
+            "accessibility",
+            "text_size",
+            "title"
+        )
         title = Fonts.default.render(
-            "Tamaño del texto",
+            title_text,
             True,
             styles.TEXT
         )
@@ -389,8 +441,15 @@ class AccessibilityView(BaseView):
             )
         )
 
+        description_text = self._language.get(
+            "launcher",
+            "settings",
+            "accessibility",
+            "text_size",
+            "description"
+        )
         description = Fonts.small.render(
-            "Ajusta el tamaño del texto utilizado por las interfaces.",
+            description_text,
             True,
             styles.TEXT_SECONDARY
         )
@@ -589,8 +648,15 @@ class AccessibilityView(BaseView):
 
         description_color = styles.TEXT_SECONDARY
 
+        title_text = self._language.get(
+            "launcher",
+            "settings",
+            "accessibility",
+            "dialogue_typing_speed",
+            "title"
+        )
         title = Fonts.default.render(
-            "Velocidad de escritura",
+            title_text,
             True,
             text_color
         )
@@ -603,8 +669,15 @@ class AccessibilityView(BaseView):
             )
         )
 
+        description_text = self._language.get(
+            "launcher",
+            "settings",
+            "accessibility",
+            "dialogue_typing_speed",
+            "description"
+        )
         description = Fonts.small.render(
-            "Velocidad a la que aparece el texto de los diálogos.",
+            description_text,
             True,
             description_color
         )
@@ -998,27 +1071,31 @@ class AccessibilityView(BaseView):
 
     # --------------------------------------------------
 
-    @staticmethod
-    def _dialogue_speed_label(
-        value: int
-    ):
+    def _dialogue_speed_label(self, value: int):
         """
         Returns the presentation label for dialogue speed.
         """
 
-        labels = {
-            20: "Muy lenta",
-            30: "Lenta",
-            40: "Normal",
-            50: "Rápida",
-            60: "Muy rápida",
-            80: "Rápida +",
-            100: "Muy rápida +",
-        }
+        key = {
+            20: "very_slow",
+            30: "slow",
+            40: "normal",
+            50: "fast",
+            60: "very_fast",
+            80: "fast_plus",
+            100: "very_fast_plus",
+        }.get(value)
 
-        return labels.get(
-            value,
-            f"{value} caracteres/s"
+        if key is None:
+            return f"{value} caracteres/s"
+
+        return self._language.get(
+            "launcher",
+            "settings",
+            "accessibility",
+            "dialogue_typing_speed",
+            "values",
+            key
         )
     
     def _apply_high_contrast(self, enabled: bool):

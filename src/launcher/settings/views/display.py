@@ -64,15 +64,28 @@ class DisplayView(BaseView):
     # Construction
     # ==================================================
 
-    def __init__(self, settings_manager):
+    def __init__(self, settings_manager, language_manager):
+        
+        self._language = language_manager
+        
+        title = self._language.get(
+            "launcher",
+            "settings",
+            "display",
+            "title"
+        )
+        description = self._language.get(
+            "launcher",
+            "settings",
+            "display",
+            "description"
+        )
 
         super().__init__(
             settings_manager=settings_manager,
             section="display",
-            title="Pantalla",
-            description=(
-                "Configura la resolución, la ventana y el aspecto visual."
-            ),
+            title=title,
+            description=description
         )
 
         self._rows: dict[str, pygame.Rect] = {}
@@ -305,6 +318,20 @@ class DisplayView(BaseView):
         # Fullscreen
         # ==================================================
 
+        fullscreen_title = self._language.get(
+            "launcher",
+            "settings",
+            "display",
+            "fullscreen",
+            "title"
+        )
+        fullscreen_description = self._language.get(
+            "launcher",
+            "settings",
+            "display",
+            "fullscreen",
+            "description"
+        )
         self._draw_toggle_row(
             screen,
             pygame.Rect(
@@ -314,11 +341,8 @@ class DisplayView(BaseView):
                 self.ROW_HEIGHT
             ),
             "fullscreen",
-            "Pantalla completa",
-            (
-                "Utiliza toda la pantalla para ejecutar "
-                "la aplicación."
-            )
+            fullscreen_title,
+            fullscreen_description
         )
 
         y += self.ROW_HEIGHT + self.ROW_GAP
@@ -327,6 +351,20 @@ class DisplayView(BaseView):
         # VSync
         # ==================================================
 
+        vsync_title = self._language.get(
+            "launcher",
+            "settings",
+            "display",
+            "vsync",
+            "title"
+        )
+        vsync_description = self._language.get(
+            "launcher",
+            "settings",
+            "display",
+            "vsync",
+            "description"
+        )
         self._draw_toggle_row(
             screen,
             pygame.Rect(
@@ -336,11 +374,8 @@ class DisplayView(BaseView):
                 self.ROW_HEIGHT
             ),
             "vsync",
-            "Sincronización vertical",
-            (
-                "Sincroniza la actualización de la imagen "
-                "con la frecuencia de la pantalla."
-            )
+            vsync_title,
+            vsync_description
         )
 
         y += self.ROW_HEIGHT + self.ROW_GAP
@@ -349,6 +384,20 @@ class DisplayView(BaseView):
         # Launcher theme
         # ==================================================
 
+        launcher_title = self._language.get(
+            "launcher",
+            "settings",
+            "display",
+            "launcher_theme",
+            "title"
+        )
+        launcher_description = self._language.get(
+            "launcher",
+            "settings",
+            "display",
+            "launcher_theme",
+            "description"
+        )
         self._draw_theme_row(
             screen,
             pygame.Rect(
@@ -358,11 +407,8 @@ class DisplayView(BaseView):
                 self.ROW_HEIGHT
             ),
             "launcher_theme",
-            "Tema del lanzador",
-            (
-                "Define el aspecto visual de los menús "
-                "y la interfaz principal."
-            )
+            launcher_title,
+            launcher_description
         )
 
         y += self.ROW_HEIGHT + self.ROW_GAP
@@ -371,6 +417,20 @@ class DisplayView(BaseView):
         # Game theme
         # ==================================================
 
+        game_title = self._language.get(
+            "launcher",
+            "settings",
+            "display",
+            "game_theme",
+            "title"
+        )
+        game_description = self._language.get(
+            "launcher",
+            "settings",
+            "display",
+            "game_theme",
+            "description"
+        )
         self._draw_theme_row(
             screen,
             pygame.Rect(
@@ -380,11 +440,8 @@ class DisplayView(BaseView):
                 self.ROW_HEIGHT
             ),
             "game_theme",
-            "Tema del juego",
-            (
-                "Define el aspecto visual de la interfaz "
-                "durante las incursiones."
-            )
+            game_title,
+            game_description
         )
 
         y += self.ROW_HEIGHT + self.ROW_GAP
@@ -393,6 +450,20 @@ class DisplayView(BaseView):
         # Computer theme
         # ==================================================
 
+        computer_title = self._language.get(
+            "launcher",
+            "settings",
+            "display",
+            "computer_theme",
+            "title"
+        )
+        computer_description = self._language.get(
+            "launcher",
+            "settings",
+            "display",
+            "computer_theme",
+            "description"
+        )
         self._draw_theme_row(
             screen,
             pygame.Rect(
@@ -402,11 +473,8 @@ class DisplayView(BaseView):
                 self.ROW_HEIGHT
             ),
             "computer_theme",
-            "Tema de los ordenadores",
-            (
-                "Define el aspecto visual de las interfaces "
-                "de los ordenadores."
-            )
+            computer_title,
+            computer_description
         )
 
     # ==================================================
@@ -426,8 +494,15 @@ class DisplayView(BaseView):
 
         text_x = rect.x + 18
 
+        title_text = self._language.get(
+            "launcher",
+            "settings",
+            "display",
+            "resolution",
+            "title"
+        )
         title = Fonts.default.render(
-            "Resolución",
+            title_text,
             True,
             launcher_styles.TEXT
         )
@@ -440,8 +515,15 @@ class DisplayView(BaseView):
             )
         )
 
+        description_text = self._language.get(
+            "launcher",
+            "settings",
+            "display",
+            "resolution",
+            "description"
+        )
         description = Fonts.small.render(
-            "Resolución utilizada por la ventana del juego.",
+            description_text,
             True,
             launcher_styles.TEXT_SECONDARY
         )
@@ -959,8 +1041,7 @@ class DisplayView(BaseView):
 
     # --------------------------------------------------
 
-    @staticmethod
-    def _theme_label(theme: str):
+    def _theme_label(self, theme: str):
 
         labels = {
             "default": "Predeterminado",
@@ -972,7 +1053,13 @@ class DisplayView(BaseView):
         }
 
         return labels.get(
-            theme,
+            self._language.get(
+                "launcher",
+                "settings",
+                "display",
+                "themes",
+                theme
+            ) ,
             theme
         )
 

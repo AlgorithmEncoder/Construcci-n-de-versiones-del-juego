@@ -16,7 +16,9 @@ class IncursionDetail:
     BUTTON_WIDTH = 260
     BUTTON_HEIGHT = 54
 
-    def __init__(self, dreams, dream_id):
+    def __init__(self, dreams, dream_id, language_manager):
+        
+        self._language = language_manager
 
         self._dreams = dreams
         self._dream_id = dream_id
@@ -64,7 +66,12 @@ class IncursionDetail:
 
         # Texto
         back = Fonts.default.render(
-            "Volver",
+            self._language.get(
+                "launcher",
+                "detail",
+                "incursions",
+                "back"
+            ),
             True,
             styles.ACCENT
         )
@@ -88,19 +95,69 @@ class IncursionDetail:
 
         # ---------- Information ----------
 
+        state = (
+            self._language.get(
+                "launcher",
+                "incursions",
+                "detail",
+                "status_locked"
+            )
+            if dream["locked"]
+            else self._language.get(
+                "launcher",
+                "incursions",
+                "detail",
+                "status_available"
+            )
+        )
+
         info = [
 
-            ("Estado",
-             "Bloqueado" if dream["locked"] else "Disponible"),
+            (
+                self._language.get(
+                    "launcher",
+                    "incursions",
+                    "detail",
+                    "status"
+                ),
+                state
+            ),
 
-            ("Duración",
-             f"{dream['duration']//60} minutos"),
+            (
+                self._language.get(
+                    "launcher",
+                    "incursions",
+                    "detail",
+                    "duration"
+                ),
+                f"{dream['duration']//60} "
+                f"{self._language.get(
+                    'launcher',
+                    'incursions',
+                    "detail",
+                    'minutes'
+                )}"
+            ),
 
-            ("Incursiones",
-             str(dream["iterations"])),
+            (
+                self._language.get(
+                    "launcher",
+                    "incursions",
+                    "detail",
+                    "iterations"
+                ),
+                str(dream["iterations"])
+            ),
 
-            ("Progreso",
-             f"{dream['progress']}%")
+            (
+                self._language.get(
+                    "launcher",
+                    "incursions",
+                    "detail",
+                    "progress"
+                ),
+                f"{dream['progress']}%"
+            )
         ]
 
         for name, value in info:
@@ -131,7 +188,12 @@ class IncursionDetail:
 
         screen.blit(
             Fonts.subtitle.render(
-                "Objetivo",
+                self._language.get(
+                    "launcher",
+                    "incursions",
+                    "detail",
+                    "objective"
+                ),
                 True,
                 styles.TEXT
             ),
@@ -169,7 +231,12 @@ class IncursionDetail:
         )
 
         label = Fonts.default.render(
-            "Iniciar incursión",
+            self._language.get(
+                "launcher",
+                "incursions",
+                "detail",
+                "start"
+            ),
             True,
             styles.TEXT_LIGHT
         )

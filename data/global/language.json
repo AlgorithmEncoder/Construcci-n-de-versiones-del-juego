@@ -125,6 +125,193 @@
                 "empty": "Todavía no hay logros disponibles.",
                 "unlocked": "Desbloqueado · {timestamp}",
                 "locked": "Descubre cómo desbloquear este logro."
+            },
+
+            "settings": {
+                "general": {
+                    "title": "General",
+                    "description": "Configura el comportamiento general de la aplicación.",
+
+                    "confirm_exit": {
+                        "title": "Confirmar salida",
+                        "description": "Muestra una confirmación antes de abandonar una incursión."
+                    },
+
+                    "important_notifications": {
+                        "title": "Avisos importantes",
+                        "description": "Muestra avisos adicionales sobre acciones importantes."
+                    },
+
+                    "confirm_important_actions": {
+                        "title": "Confirmar acciones importantes",
+                        "description": "Solicita confirmación antes de determinadas acciones."
+                    },
+
+                    "restore_previous_state": {
+                        "title": "Restaurar estado anterior",
+                        "description": "Permite configurar el comportamiento al volver a abrir el juego."
+                    },
+
+                    "not_implemented": "No implementado"
+                },
+
+                "display": {
+                    "title": "Pantalla",
+                    "description": "Configura la resolución, la ventana y el aspecto visual.",
+
+                    "resolution": {
+                        "title": "Resolución",
+                        "description": "Resolución utilizada por la ventana del juego."
+                    },
+
+                    "fullscreen": {
+                        "title": "Pantalla completa",
+                        "description": "Utiliza toda la pantalla para ejecutar la aplicación."
+                    },
+
+                    "vsync": {
+                        "title": "Sincronización vertical",
+                        "description": "Sincroniza la actualización de la imagen con la frecuencia de la pantalla."
+                    },
+
+                    "launcher_theme": {
+                        "title": "Tema del lanzador",
+                        "description": "Define el aspecto visual de los menús y la interfaz principal."
+                    },
+
+                    "game_theme": {
+                        "title": "Tema del juego",
+                        "description": "Define el aspecto visual de la interfaz durante las incursiones."
+                    },
+
+                    "computer_theme": {
+                        "title": "Tema de los ordenadores",
+                        "description": "Define el aspecto visual de las interfaces de los ordenadores."
+                    },
+
+                    "themes": {
+                        "default": "Predeterminado",
+                        "dark": "Oscuro",
+                        "midnight": "Medianoche",
+                        "forest": "Bosque",
+                        "warm": "Cálido",
+                        "high_contrast": "Alto contraste"
+                    }
+                },
+
+                "language": {
+                    "title": "Idioma",
+                    "description": "Configura de forma independiente el idioma de la interfaz y del contenido.",
+
+                    "launcher_interface": {
+                        "title": "Interfaz del launcher",
+                        "description": "Idioma utilizado por los menús y textos de la aplicación."
+                    },
+
+                    "game_interface": {
+                        "title": "Interfaz del juego",
+                        "description": "Idioma utilizado por los menús y elementos de la interfaz durante una incursión."
+                    },
+
+                    "documents": {
+                        "title": "Documentos",
+                        "description": "Idioma de los documentos encontrados durante las incursiones."
+                    },
+
+                    "story": {
+                        "title": "Historia",
+                        "description": "Idioma de la introducción, objetivos y final de las memorias."
+                    },
+
+                    "dialogues": {
+                        "title": "Diálogos",
+                        "description": "Idioma utilizado en las conversaciones con los personajes."
+                    },
+
+                    "computer_messages": {
+                        "title": "Mensajes de ordenador",
+                        "description": "Idioma de los emails y chats encontrados en los ordenadores."
+                    },
+
+                    "computer_files": {
+                        "title": "Archivos de ordenador",
+                        "description": "Idioma de los archivos almacenados en los ordenadores."
+                    }
+                },
+
+                "accessibility": {
+                    "title": "Accesibilidad",
+                    "description": "Configura diferentes opciones para adaptar la experiencia a tus necesidades.",
+
+                    "text_size": {
+                        "title": "Tamaño del texto",
+                        "description": "Ajusta el tamaño del texto utilizado por las interfaces."
+                    },
+
+                    "high_contrast": {
+                        "title": "Alto contraste",
+                        "description": "Aumenta el contraste de los elementos para facilitar su lectura."
+                    },
+
+                    "reduce_motion": {
+                        "title": "Reducir movimiento",
+                        "description": "Reduce determinadas transiciones y animaciones de la interfaz."
+                    },
+
+                    "dialogue_typing": {
+                        "title": "Escritura de diálogos",
+                        "description": "Muestra los diálogos utilizando el efecto de escritura progresiva."
+                    },
+
+                    "dialogue_typing_speed": {
+                        "title": "Velocidad de escritura",
+                        "description": "Velocidad a la que aparece el texto de los diálogos.",
+
+                        "values": {
+                            "very_slow": "Muy lenta",
+                            "slow": "Lenta",
+                            "normal": "Normal",
+                            "fast": "Rápida",
+                            "very_fast": "Muy rápida",
+                            "fast_plus": "Rápida +",
+                            "very_fast_plus": "Muy rápida +"
+                        },
+
+                        "characters_per_second": "{value} caracteres/s"
+                    }
+                }
+            },
+
+            "incursions": {
+                "card": {
+                    "status": "Estado: {state}",
+                    "locked": "Bloqueado",
+                    "available": "Disponible",
+                    "duration": "Duración: {minutes} min",
+                    "iterations": "Incursiones: {iterations}",
+                    "progress": "Progreso: {progress}%"
+                },
+
+                "detail": {
+                    "back": "Volver",
+
+                    "status": "Estado",
+                    "locked": "Bloqueado",
+                    "available": "Disponible",
+
+                    "duration": "Duración",
+                    "duration_value": "{minutes} minutos",
+
+                    "iterations": "Incursiones",
+
+                    "progress": "Progreso",
+
+                    "objective": "Objetivo",
+
+                    "start": "Iniciar incursión"
+                },
+
+                "empty": "No hay incursiones disponibles."
             }
         },
 
@@ -247,6 +434,193 @@
                 "empty": "There are no achievements available yet.",
                 "unlocked": "Unlocked · {timestamp}",
                 "locked": "Discover how to unlock this achievement."
+            },
+
+            "settings": {
+                "general": {
+                    "title": "General",
+                    "description": "Configure the general behaviour of the application.",
+
+                    "confirm_exit": {
+                        "title": "Confirm exit",
+                        "description": "Shows a confirmation before leaving an incursion."
+                    },
+
+                    "important_notifications": {
+                        "title": "Important notifications",
+                        "description": "Shows additional notifications about important actions."
+                    },
+
+                    "confirm_important_actions": {
+                        "title": "Confirm important actions",
+                        "description": "Requests confirmation before certain actions."
+                    },
+
+                    "restore_previous_state": {
+                        "title": "Restore previous state",
+                        "description": "Allows you to configure what happens when reopening the game."
+                    },
+
+                    "not_implemented": "Not implemented"
+                },
+
+                "display": {
+                    "title": "Display",
+                    "description": "Configure the resolution, window and visual appearance.",
+
+                    "resolution": {
+                        "title": "Resolution",
+                        "description": "Resolution used by the game window."
+                    },
+
+                    "fullscreen": {
+                        "title": "Fullscreen",
+                        "description": "Uses the entire screen to run the application."
+                    },
+
+                    "vsync": {
+                        "title": "Vertical synchronization",
+                        "description": "Synchronizes image updates with the display refresh rate."
+                    },
+
+                    "launcher_theme": {
+                        "title": "Launcher theme",
+                        "description": "Defines the visual appearance of the menus and main interface."
+                    },
+
+                    "game_theme": {
+                        "title": "Game theme",
+                        "description": "Defines the visual appearance of the interface during incursions."
+                    },
+
+                    "computer_theme": {
+                        "title": "Computer theme",
+                        "description": "Defines the visual appearance of computer interfaces."
+                    },
+
+                    "themes": {
+                        "default": "Default",
+                        "dark": "Dark",
+                        "midnight": "Midnight",
+                        "forest": "Forest",
+                        "warm": "Warm",
+                        "high_contrast": "High contrast"
+                    }
+                },
+
+                "language": {
+                    "title": "Language",
+                    "description": "Configure the language of the interface and content independently.",
+
+                    "launcher_interface": {
+                        "title": "Launcher interface",
+                        "description": "Language used by the application's menus and texts."
+                    },
+
+                    "game_interface": {
+                        "title": "Game interface",
+                        "description": "Language used by menus and interface elements during an incursion."
+                    },
+
+                    "documents": {
+                        "title": "Documents",
+                        "description": "Language of documents found during incursions."
+                    },
+
+                    "story": {
+                        "title": "Story",
+                        "description": "Language of the introduction, objectives and endings of memories."
+                    },
+
+                    "dialogues": {
+                        "title": "Dialogues",
+                        "description": "Language used in conversations with characters."
+                    },
+
+                    "computer_messages": {
+                        "title": "Computer messages",
+                        "description": "Language of emails and chats found on computers."
+                    },
+
+                    "computer_files": {
+                        "title": "Computer files",
+                        "description": "Language of files stored on computers."
+                    }
+                },
+
+                "accessibility": {
+                    "title": "Accessibility",
+                    "description": "Configure different options to adapt the experience to your needs.",
+
+                    "text_size": {
+                        "title": "Text size",
+                        "description": "Adjust the size of text used by the interfaces."
+                    },
+
+                    "high_contrast": {
+                        "title": "High contrast",
+                        "description": "Increases the contrast of elements to make them easier to read."
+                    },
+
+                    "reduce_motion": {
+                        "title": "Reduce motion",
+                        "description": "Reduces certain interface transitions and animations."
+                    },
+
+                    "dialogue_typing": {
+                        "title": "Dialogue typing",
+                        "description": "Displays dialogue using the progressive typing effect."
+                    },
+
+                    "dialogue_typing_speed": {
+                        "title": "Typing speed",
+                        "description": "Speed at which dialogue text appears.",
+
+                        "values": {
+                            "very_slow": "Very slow",
+                            "slow": "Slow",
+                            "normal": "Normal",
+                            "fast": "Fast",
+                            "very_fast": "Very fast",
+                            "fast_plus": "Fast +",
+                            "very_fast_plus": "Very fast +"
+                        },
+
+                        "characters_per_second": "{value} characters/s"
+                    }
+                }
+            },
+
+            "incursions": {
+                "card": {
+                    "status": "Status: {state}",
+                    "locked": "Locked",
+                    "available": "Available",
+                    "duration": "Duration: {minutes} min",
+                    "iterations": "Incursions: {iterations}",
+                    "progress": "Progress: {progress}%"
+                },
+
+                "detail": {
+                    "back": "Back",
+
+                    "status": "Status",
+                    "locked": "Locked",
+                    "available": "Available",
+
+                    "duration": "Duration",
+                    "duration_value": "{minutes} minutes",
+
+                    "iterations": "Incursions",
+
+                    "progress": "Progress",
+
+                    "objective": "Objective",
+
+                    "start": "Start incursion"
+                },
+
+                "empty": "There are no incursions available."
             }
         },
 
@@ -369,6 +743,193 @@
                 "empty": "Encara no hi ha assoliments disponibles.",
                 "unlocked": "Desbloquejat · {timestamp}",
                 "locked": "Descobreix com desbloquejar este assoliment."
+            },
+
+            "settings": {
+                "general": {
+                    "title": "General",
+                    "description": "Configura el comportament general de l'aplicació.",
+
+                    "confirm_exit": {
+                        "title": "Confirmar eixida",
+                        "description": "Mostra una confirmació abans d'abandonar una incursió."
+                    },
+
+                    "important_notifications": {
+                        "title": "Avisos importants",
+                        "description": "Mostra avisos addicionals sobre accions importants."
+                    },
+
+                    "confirm_important_actions": {
+                        "title": "Confirmar accions importants",
+                        "description": "Sol·licita confirmació abans de determinades accions."
+                    },
+
+                    "restore_previous_state": {
+                        "title": "Restaurar estat anterior",
+                        "description": "Permet configurar el comportament en tornar a obrir el joc."
+                    },
+
+                    "not_implemented": "No implementat"
+                },
+
+                "display": {
+                    "title": "Pantalla",
+                    "description": "Configura la resolució, la finestra i l'aspecte visual.",
+
+                    "resolution": {
+                        "title": "Resolució",
+                        "description": "Resolució utilitzada per la finestra del joc."
+                    },
+
+                    "fullscreen": {
+                        "title": "Pantalla completa",
+                        "description": "Utilitza tota la pantalla per executar l'aplicació."
+                    },
+
+                    "vsync": {
+                        "title": "Sincronització vertical",
+                        "description": "Sincronitza l'actualització de la imatge amb la freqüència de la pantalla."
+                    },
+
+                    "launcher_theme": {
+                        "title": "Tema del launcher",
+                        "description": "Defineix l'aspecte visual dels menús i de la interfície principal."
+                    },
+
+                    "game_theme": {
+                        "title": "Tema del joc",
+                        "description": "Defineix l'aspecte visual de la interfície durant les incursions."
+                    },
+
+                    "computer_theme": {
+                        "title": "Tema dels ordinadors",
+                        "description": "Defineix l'aspecte visual de les interfícies dels ordinadors."
+                    },
+
+                    "themes": {
+                        "default": "Predeterminat",
+                        "dark": "Fosc",
+                        "midnight": "Mitjanit",
+                        "forest": "Bosc",
+                        "warm": "Càlid",
+                        "high_contrast": "Alt contrast"
+                    }
+                },
+
+                "language": {
+                    "title": "Idioma",
+                    "description": "Configura de manera independent l'idioma de la interfície i del contingut.",
+
+                    "launcher_interface": {
+                        "title": "Interfície del launcher",
+                        "description": "Idioma utilitzat pels menús i textos de l'aplicació."
+                    },
+
+                    "game_interface": {
+                        "title": "Interfície del joc",
+                        "description": "Idioma utilitzat pels menús i elements de la interfície durant una incursió."
+                    },
+
+                    "documents": {
+                        "title": "Documents",
+                        "description": "Idioma dels documents trobats durant les incursions."
+                    },
+
+                    "story": {
+                        "title": "Història",
+                        "description": "Idioma de la introducció, els objectius i el final de les memòries."
+                    },
+
+                    "dialogues": {
+                        "title": "Diàlegs",
+                        "description": "Idioma utilitzat en les converses amb els personatges."
+                    },
+
+                    "computer_messages": {
+                        "title": "Missatges d'ordinador",
+                        "description": "Idioma dels correus i xats trobats als ordinadors."
+                    },
+
+                    "computer_files": {
+                        "title": "Fitxers d'ordinador",
+                        "description": "Idioma dels fitxers emmagatzemats als ordinadors."
+                    }
+                },
+
+                "accessibility": {
+                    "title": "Accessibilitat",
+                    "description": "Configura diferents opcions per adaptar l'experiència a les teues necessitats.",
+
+                    "text_size": {
+                        "title": "Mida del text",
+                        "description": "Ajusta la mida del text utilitzat per les interfícies."
+                    },
+
+                    "high_contrast": {
+                        "title": "Alt contrast",
+                        "description": "Augmenta el contrast dels elements per facilitar-ne la lectura."
+                    },
+
+                    "reduce_motion": {
+                        "title": "Reduir moviment",
+                        "description": "Redueix determinades transicions i animacions de la interfície."
+                    },
+
+                    "dialogue_typing": {
+                        "title": "Escriptura de diàlegs",
+                        "description": "Mostra els diàlegs utilitzant l'efecte d'escriptura progressiva."
+                    },
+
+                    "dialogue_typing_speed": {
+                        "title": "Velocitat d'escriptura",
+                        "description": "Velocitat a la qual apareix el text dels diàlegs.",
+
+                        "values": {
+                            "very_slow": "Molt lenta",
+                            "slow": "Lenta",
+                            "normal": "Normal",
+                            "fast": "Ràpida",
+                            "very_fast": "Molt ràpida",
+                            "fast_plus": "Ràpida +",
+                            "very_fast_plus": "Molt ràpida +"
+                        },
+
+                        "characters_per_second": "{value} caràcters/s"
+                    }
+                }
+            },
+
+            "incursions": {
+                "card": {
+                    "status": "Estat: {state}",
+                    "locked": "Bloquejada",
+                    "available": "Disponible",
+                    "duration": "Duració: {minutes} min",
+                    "iterations": "Incursions: {iterations}",
+                    "progress": "Progrés: {progress}%"
+                },
+
+                "detail": {
+                    "back": "Tornar",
+
+                    "status": "Estat",
+                    "locked": "Bloquejada",
+                    "available": "Disponible",
+
+                    "duration": "Duració",
+                    "duration_value": "{minutes} minuts",
+
+                    "iterations": "Incursions",
+
+                    "progress": "Progrés",
+
+                    "objective": "Objectiu",
+
+                    "start": "Iniciar incursió"
+                },
+
+                "empty": "No hi ha incursions disponibles."
             }
         }
     },
@@ -424,7 +985,7 @@
                 "computer_warning": "Advertència de l'ordinador per {npc_name} ({warnings})",
                 "element_discovered": "Element descobert: {element_id}",
                 "memory_reset": "La memòria s'ha reiniciat. Iteració {iteration}.",
-                "incursion_abandoned": "Abandonament de la incursió '{memory_name}' en la iteració {iteration}.",
+                "incursion_abandoned": "Abandó de la incursió '{memory_name}' en la iteració {iteration}.",
                 "email_opened": "Correu consultat: {email_id}",
                 "chat_opened": "Xat consultat: {chat_id}",
                 "file_opened": "Fitxer consultat: {file_id}"

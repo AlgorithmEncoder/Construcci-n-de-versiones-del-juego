@@ -70,17 +70,17 @@ class MainWindow:
         self._apply_launcher_theme()
         
         self._sections = {
-            "incursions": IncursionsView(self),
+            "incursions": IncursionsView(self.dreams.dreams, self._language),
             "notes": self._notes_view,
             "inventory": EmptyView(),
             "stats": StatsView(self._stats, self._language),
             "achievements": AchievementsView(self._achievements, self._language),
             "activity": ActivityView(self._logger, self._language),
-            "general": GeneralView(self._settings),
-            "display": DisplayView(self._settings),
+            "general": GeneralView(self._settings, self._language),
+            "display": DisplayView(self._settings, self._language),
             "audio": EmptyView(),
-            "language": LanguageView(self._settings),
-            "accessibility": AccessibilityView(self._settings)
+            "language": LanguageView(self._settings, self._language),
+            "accessibility": AccessibilityView(self._settings, self._language)
         }
         
         self._workspace.set_view(

@@ -14,7 +14,9 @@ class IncursionCard:
 
     HEIGHT = 135
 
-    def __init__(self):
+    def __init__(self, language_manager):
+        
+        self._language = language_manager
 
         self._rect = pygame.Rect(0, 0, 0, 0)
 
@@ -56,20 +58,50 @@ class IncursionCard:
         )
 
         state = (
-            "Bloqueado"
+            self._language.get(
+                "launcher",
+                "incursions",
+                "card",
+                "status_locked"
+            )
             if dream["locked"]
-            else "Disponible"
+            else self._language.get(
+                "launcher",
+                "incursions",
+                "card",
+                "status_available"
+            )
         )
 
         info = [
 
-            f"Estado: {state}",
+            f"{self._language.get(
+                'launcher',
+                'incursions',
+                "card",
+                'status'
+            )}: {state}",
 
-            f"Duración: {dream['duration']//60} min",
+            f"{self._language.get(
+                'launcher',
+                'incursions',
+                "card",
+                'duration'
+            )}: {dream['duration']//60} min",
 
-            f"Incursiones: {dream['iterations']}",
+            f"{self._language.get(
+                'launcher',
+                'incursions',
+                "card",
+                'iterations'
+            )}: {dream['iterations']}",
 
-            f"Progreso: {dream['progress']}%"
+            f"{self._language.get(
+                'launcher',
+                'incursions',
+                "card",
+                'progress'
+            )}: {dream['progress']}%"
         ]
 
         y = rect.y + 50

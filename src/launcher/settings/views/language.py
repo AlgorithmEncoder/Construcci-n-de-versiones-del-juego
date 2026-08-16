@@ -52,87 +52,41 @@ class LanguageView(BaseView):
     # ==================================================
 
     LANGUAGE_OPTIONS = (
-        (
-            "launcher_interface",
-            "Interfaz del launcher",
-            (
-                "Idioma utilizado por los menús y textos "
-                "de la aplicación."
-            ),
-        ),
-
-        (
-            "game_interface",
-            "Interfaz del juego",
-            (
-                "Idioma utilizado por los menús y elementos "
-                "de la interfaz durante una incursión."
-            ),
-        ),
-
-        (
-            "documents",
-            "Documentos",
-            (
-                "Idioma de los documentos encontrados durante "
-                "las incursiones."
-            ),
-        ),
-
-        (
-            "story",
-            "Historia",
-            (
-                "Idioma de la introducción, objetivos y final "
-                "de las memorias."
-            ),
-        ),
-
-        (
-            "dialogues",
-            "Diálogos",
-            (
-                "Idioma utilizado en las conversaciones "
-                "con los personajes."
-            ),
-        ),
-
-        (
-            "computer_messages",
-            "Mensajes de ordenador",
-            (
-                "Idioma de los emails y chats encontrados "
-                "en los ordenadores."
-            ),
-        ),
-
-        (
-            "computer_files",
-            "Archivos de ordenador",
-            (
-                "Idioma de los archivos almacenados en "
-                "los ordenadores."
-            ),
-        ),
+        "launcher_interface",
+        "game_interface",
+        "documents",
+        "story",
+        "dialogues",
+        "computer_messages",
+        "computer_files",
     )
 
     # ==================================================
     # Construction
     # ==================================================
 
-    def __init__(
-        self,
-        settings_manager
-    ):
+    def __init__(self, settings_manager, launguage_manager):
+        
+        self._language = launguage_manager
+        
+        title = self._language.get(
+            "launcher",
+            "settings",
+            "language",
+            "title"
+        )
+        description = self._language.get(
+            "launcher",
+            "settings",
+            "language",
+            "description"
+        )
 
         super().__init__(
             settings_manager=settings_manager,
             section="language",
-            title="Idioma",
-            description=(
-                "Configura de forma independiente el idioma "
-                "de la interfaz y del contenido."
-            ),
+            title=title,
+            description=description,
         )
 
         self._section = "language"
@@ -236,17 +190,28 @@ class LanguageView(BaseView):
         # Language settings
         # ==================================================
 
-        for (
-            key,
-            title,
-            description
-        ) in self.LANGUAGE_OPTIONS:
+        for key in self.LANGUAGE_OPTIONS:
 
             row = pygame.Rect(
                 x,
                 y,
                 width,
                 self.ROW_HEIGHT
+            )
+            
+            title = self._language.get(
+                "launcher",
+                "settings",
+                "language",
+                key,
+                "title"
+            )
+            description = self._language.get(
+                "launcher",
+                "settings",
+                "language",
+                key,
+                "description"
             )
 
             self._draw_language_row(

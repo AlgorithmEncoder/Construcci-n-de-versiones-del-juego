@@ -8,8 +8,17 @@ from launcher.base_view import BaseView
 
 
 class EmptyView(BaseView):
+    
+    def __init__(self, language_manager):
+        self._language = language_manager
 
-    def _draw_content(self, screen, area, text="Not implemented"):
+    def _draw_content(self, screen, area, text=None):
+        
+        if not text:
+            text = self._language.get(
+                "launcher",
+                "empty"
+            )
 
         label = Fonts.default.render(
             text,

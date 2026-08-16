@@ -33,15 +33,29 @@ class GeneralView(BaseView):
     # Construction
     # ==================================================
 
-    def __init__(self, settings_manager):
+    def __init__(self, settings_manager, language_manager):
+        
+        self._language = language_manager
+        
+        title = self._language.get(
+            "launcher",
+            "settings",
+            "general",
+            "title"
+        )
+        
+        description = self._language.get(
+            "launcher",
+            "settings",
+            "general",
+            "description"
+        )
 
         super().__init__(
             settings_manager=settings_manager,
             section="general",
-            title="General",
-            description=(
-                "Configura el comportamiento general de la aplicación."
-            ),
+            title=title,
+            description=description
         )
 
         self._section = "general"
@@ -149,6 +163,20 @@ class GeneralView(BaseView):
         # Settings
         # ==================================================
 
+        confirm_title = self._language.get(
+            "launcher",
+            "settings",
+            "general",
+            "confirm_exit",
+            "title"
+        )
+        confirm_description = self._language.get(
+            "launcher",
+            "settings",
+            "general",
+            "confirm_exit",
+            "description"
+        )
         self._draw_setting_row(
             screen,
             pygame.Rect(
@@ -158,12 +186,26 @@ class GeneralView(BaseView):
                 72
             ),
             "confirm_exit",
-            "Confirmar salida",
-            "Muestra una confirmación antes de abandonar una incursión.",
+            confirm_title,
+            confirm_description,
         )
 
         y += 82
 
+        notify_title = self._language.get(
+            "launcher",
+            "settings",
+            "general",
+            "important_notifications",
+            "title"
+        )
+        notify_description = self._language.get(
+            "launcher",
+            "settings",
+            "general",
+            "important_notifications",
+            "description"
+        )
         self._draw_setting_row(
             screen,
             pygame.Rect(
@@ -173,13 +215,27 @@ class GeneralView(BaseView):
                 72
             ),
             "important_notifications",
-            "Avisos importantes",
-            "Muestra avisos adicionales sobre acciones importantes.",
+            notify_title,
+            notify_description,
             enabled=False
         )
 
         y += 82
 
+        important_title = self._language.get(
+            "launcher",
+            "settings",
+            "general",
+            "confirm_important_actions",
+            "title"
+        )
+        important_description = self._language.get(
+            "launcher",
+            "settings",
+            "general",
+            "confirm_important_actions",
+            "description"
+        )
         self._draw_setting_row(
             screen,
             pygame.Rect(
@@ -188,14 +244,28 @@ class GeneralView(BaseView):
                 width,
                 72
             ),
-            "confirm_important_actions",
-            "Confirmar acciones importantes",
+            important_title,
+            important_description,
             "Solicita confirmación antes de determinadas acciones.",
             enabled=False
         )
 
         y += 82
 
+        restore_title = self._language.get(
+            "launcher",
+            "settings",
+            "general",
+            "restore_previous_state",
+            "title"
+        )
+        restore_description = self._language.get(
+            "launcher",
+            "settings",
+            "general",
+            "restore_previous_state",
+            "description"
+        )
         self._draw_setting_row(
             screen,
             pygame.Rect(
@@ -205,8 +275,8 @@ class GeneralView(BaseView):
                 72
             ),
             "restore_previous_state",
-            "Restaurar estado anterior",
-            "Permite configurar el comportamiento al volver a abrir el juego.",
+            restore_title,
+            restore_description,
             enabled=False
         )
 
@@ -302,8 +372,14 @@ class GeneralView(BaseView):
 
         if not enabled:
 
+            status = self._language.get(
+                "launcher",
+                "settings",
+                "general",
+                "not_implemented"
+            )
             status_surface = Fonts.small.render(
-                "No implementado",
+                status,
                 True,
                 styles.TEXT_SECONDARY
             )
