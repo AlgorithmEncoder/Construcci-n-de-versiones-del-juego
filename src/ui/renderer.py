@@ -28,9 +28,11 @@ class Renderer:
         screen: pygame.Surface,
         world_width: int,
         world_height: int,
+        language_manager
     ):
 
         self._screen = screen
+        self._language = language_manager
 
         self._world_width = world_width
         self._world_height = world_height
@@ -291,7 +293,11 @@ class Renderer:
         self._draw_button(
             self._world,
             self._exit_rect,
-            "Abandonar sueño",
+            self._language.get(
+                "game",
+                "hud",
+                "exit"
+            ),
         )
 
         # ==================================================
@@ -306,7 +312,11 @@ class Renderer:
         self._draw_button(
             self._world,
             self._quick_note_rect,
-            "Nota",
+            self._language.get(
+                "game",
+                "hud",
+                "quick_note"
+            ),
             icon=draw_note,
         )
 

@@ -14,7 +14,7 @@ from constants import MEMORIES_DIR
 
 class MemoryLoader:
 
-    def __init__(self, memory_name: str):
+    def __init__(self, memory_name: str, language_settings: dict):
 
         self.memory_path = MEMORIES_DIR / memory_name
 
@@ -31,6 +31,8 @@ class MemoryLoader:
         self.dialogues = {}
 
         self.events = []
+        
+        self._settings = language_settings
 
     # --------------------------------------------------
 
@@ -54,8 +56,10 @@ class MemoryLoader:
     # --------------------------------------------------
 
     def _load_story(self):
+        
+        language = self._settings.get("story")
 
-        return self._load_json("story.json")
+        return self._load_json("story.json", language)
 
     def _load_rooms(self):
 
@@ -66,8 +70,10 @@ class MemoryLoader:
         return self._load_json("npcs.json")
 
     def _load_computers(self):
+        
+        language = self._settings.get("computer_messages")
 
-        return self._load_json("computers.json")
+        return self._load_json("computers.json", language)
 
     def _load_events(self):
 
@@ -78,12 +84,16 @@ class MemoryLoader:
         return self._load_json("metadata.json")
     
     def _load_dialogues(self):
+        
+        language = self._settings.get("dialogues")
 
-        return self._load_json("dialogues.json")
+        return self._load_json("dialogues.json", language)
     
     def _load_documents(self):
+        
+        language = self._settings.get("documents")
 
-        return self._load_json("documents.json")
+        return self._load_json("documents.json", language)
     
     def _load_objects(self):
 
@@ -91,9 +101,10 @@ class MemoryLoader:
 
     # --------------------------------------------------
 
-    def _load_json(self, filename: str):
-
-        filepath = self.memory_path / filename
+    def _load_json(self, filename: str, language=None):
+        
+        if language: filepath = self.memory_path / "locals" / language / filename
+        else: filepath = self.memory_path / filename
 
         with open(filepath, "r", encoding="utf-8") as file:
 

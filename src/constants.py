@@ -104,11 +104,3 @@ DIALOGUE_ENABLE_TYPING = True
 
 DIALOGUE_AUTO_WRAP_NEWLINES = True
 DIALOGUE_PLAY_TYPING_SOUND = False
-
-
-COMPUTER_WARNINGS = (
-    "No tienes autorización para utilizar este ordenador.",
-    "Ya te he advertido una vez. Aléjate del ordenador.",
-    "Último aviso. La próxima vez informaré al jefe.",
-    "Te avisé."
-)

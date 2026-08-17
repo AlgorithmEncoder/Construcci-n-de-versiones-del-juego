@@ -41,7 +41,6 @@ from constants import (
     COMPUTER_BOOT_TIME,
     RESET_TIME,
     OBJECTIVE_DURATION,
-    COMPUTER_WARNINGS,
     DIALOGUE_ENABLE_TYPING,
     DIALOGUE_TYPING_SPEED
 )
@@ -116,7 +115,8 @@ class Game:
         self._completed = self._loader.story["finished"]
         
         PathManager.set_memory(self._memory_name)
-        PathManager.set_language("es")
+        languages = self._settings.get("language")
+        PathManager.set_language(languages)
 
         self._create_managers()
         
@@ -136,7 +136,7 @@ class Game:
 
     def _load_memory(self):
 
-        self._loader = MemoryLoader(self._memory_name)
+        self._loader = MemoryLoader(self._memory_name, self._settings)
 
         self._loader.load()
 
@@ -169,7 +169,7 @@ class Game:
         
         self._calculate_viewport()
 
-        self._renderer = Renderer(self._screen, self._native_width, self._native_height)
+        self._renderer = Renderer(self._screen, self._native_width, self._native_height, self._language)
         
         self._input = InputManager(self)
         
@@ -437,7 +437,11 @@ class Game:
 
             duration=ROOM_CHANGE_TIME,
 
-            text="Cambiando de habitación",
+            text=self._language.get(
+                "game",
+                "transitions",
+                "change_room"
+            ),
 
             callback=lambda: self._finish_change_room(room_id)
         )
@@ -465,7 +469,11 @@ class Game:
 
             duration=DOCUMENT_OPEN_TIME,
 
-            text="Leyendo documento",
+            text=self._language.get(
+                "game",
+                "transitions",
+                "read_document"
+            ),
 
             callback=lambda: self._finish_open_document(document_id)
 
@@ -507,7 +515,11 @@ class Game:
 
             duration=COMPUTER_BOOT_TIME,
 
-            text="Encendiendo ordenador",
+            text=self._language.get(
+                "game",
+                "transitions",
+                "boot_computer"
+            ),
 
             callback=lambda: self._finish_open_computer(computer_id)
 
@@ -611,7 +623,11 @@ class Game:
         
                         dialogue=[
                             {
-                                "text":"NO TE ESTÁ PERMITIDA LA ENTRADA EN ESTA HABITACIÓN"
+                                "text": self._language.get(
+                                    "game",
+                                    "detection",
+                                    "restricted_room"
+                                )
                             }
                         ],
         
@@ -672,9 +688,18 @@ class Game:
             warnings=warnings
         )
 
-        index = min(warnings - 1, len(COMPUTER_WARNINGS) - 1)
+        warnings_text = self._language.get(
+            "game",
+            "detection",
+            "computer_warnings"
+        )
 
-        text = COMPUTER_WARNINGS[index]
+        index = min(
+            warnings - 1,
+            len(warnings_text) - 1
+        )
+
+        text = warnings_text[index]
 
         callback = self.reset if warnings >= 4 else None
 
@@ -708,7 +733,11 @@ class Game:
 
             duration=RESET_TIME,
 
-            text="REINICIANDO MEMORIA",
+            text=self._language.get(
+                "game",
+                "transitions",
+                "reset_memory"
+            ),
 
             callback=self.reset
 
@@ -871,8 +900,16 @@ class Game:
             from ui.confirm import ConfirmUI
             self._ui.open(
                 ConfirmUI(
-                    title="Abandonar incursión",
-                    message="¿Seguro que quieres abandonar la incursión?",
+                    title=self._language.get(
+                        "game",
+                        "exit",
+                        "title"
+                    ),
+                    message=self._language.get(
+                        "game",
+                        "exit",
+                        "message"
+                    ),
                     on_confirm=self._finish_exit_dream,
                     world_width=self.native_width,
                     world_height=self.native_height

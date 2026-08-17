@@ -6,7 +6,7 @@ from constants import MEMORIES_DIR
 class PathManager:
 
     _memory = None
-    _lang = None
+    _lang = {}
 
     # ==================================================
     # Context
@@ -61,7 +61,7 @@ class PathManager:
             MEMORIES_DIR
             / cls._memory
             / "locales"
-            / cls._lang
+            / cls._lang.get("computer_files")
             / "documents"
         )
 
@@ -75,14 +75,4 @@ class PathManager:
         return (
             MEMORIES_DIR
             / cls._memory
-        )
-
-    @classmethod
-    def local_json_folder(cls) -> Path:
-
-        return (
-            MEMORIES_DIR
-            / cls._memory
-            / "locales"
-            / cls._lang
         )
