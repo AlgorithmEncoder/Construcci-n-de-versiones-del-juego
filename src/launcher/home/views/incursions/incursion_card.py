@@ -62,46 +62,26 @@ class IncursionCard:
                 "launcher",
                 "incursions",
                 "card",
-                "status_locked"
+                "locked"
             )
             if dream["locked"]
             else self._language.get(
                 "launcher",
                 "incursions",
                 "card",
-                "status_available"
+                "available"
             )
         )
 
         info = [
 
-            f"{self._language.get(
-                'launcher',
-                'incursions',
-                "card",
-                'status'
-            )}: {state}",
+            f"{self._language.get('launcher', 'incursions', 'card', 'status').format(state=state)}",
 
-            f"{self._language.get(
-                'launcher',
-                'incursions',
-                "card",
-                'duration'
-            )}: {dream['duration']//60} min",
+            f"{self._language.get('launcher', 'incursions', 'card', 'duration').format(minutes=dream['duration']//60)}",
 
-            f"{self._language.get(
-                'launcher',
-                'incursions',
-                "card",
-                'iterations'
-            )}: {dream['iterations']}",
+            f"{self._language.get('launcher', 'incursions', 'card', 'iterations').format(iterations=dream['iterations'])}",
 
-            f"{self._language.get(
-                'launcher',
-                'incursions',
-                "card",
-                'progress'
-            )}: {dream['progress']}%"
+            f"{self._language.get('launcher', 'incursions', 'card', 'progress').format(progress=dream['progress'])}",
         ]
 
         y = rect.y + 50

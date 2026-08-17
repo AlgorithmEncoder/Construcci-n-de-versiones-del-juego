@@ -39,7 +39,7 @@ class Header:
             
             label = self._language.get(
                 "launcher",
-                "navigation",
+                "header",
                 key
             )
 

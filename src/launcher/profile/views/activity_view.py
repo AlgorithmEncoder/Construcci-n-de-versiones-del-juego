@@ -677,35 +677,43 @@ class ActivityView:
         fallback: str = "",
         **parameters
     ) -> str:
-        """
-        Obtains translated interface text.
 
-        This small wrapper keeps the ActivityView independent
-        from the exact LanguageManager API.
-        """
+        if "." in key:
+            key_list = key.split(".")
+        else:
+            key_list = [key]
 
-        try:
+        # ----------------------------------------------
+        # Claves procedentes del registro del juego
+        # ----------------------------------------------
 
-            value = self._language.get(
-                key,
-                default=fallback
-            )
+        if key_list[0] == "game" and key_list[1] == "register":
+            key_list = ["activity"] + key_list[2:]
 
-        except TypeError:
+        # ----------------------------------------------
+        # Evitar que se pueda pasar "launcher.activity..."
+        # ----------------------------------------------
 
-            value = self._language.get(
-                key
-            )
+        if key_list and key_list[0] == "launcher":
+            key_list = key_list[1:]
+        
+        # ----------------------------------------------
+        # Todas las claves de ActivityView están
+        # dentro de launcher.activity
+        # ----------------------------------------------
+
+        value = self._language.get(
+            "launcher",
+            *key_list,
+            default=fallback
+        )
 
         if value is None:
-
             value = fallback
 
         try:
 
-            return str(
-                value
-            ).format(
+            return str(value).format(
                 **parameters
             )
 
@@ -715,9 +723,7 @@ class ActivityView:
             ValueError
         ):
 
-            return str(
-                value
-            )
+            return str(value)
     
     # ==================================================
     # Helpers

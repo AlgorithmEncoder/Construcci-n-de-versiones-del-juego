@@ -84,7 +84,8 @@ class Sidebar:
             
             label = self._language.get(
                 "launcher",
-                "navigation",
+                "sidebar",
+                module,
                 key
             )
 

@@ -68,8 +68,8 @@ class IncursionDetail:
         back = Fonts.default.render(
             self._language.get(
                 "launcher",
-                "detail",
                 "incursions",
+                "detail",
                 "back"
             ),
             True,
@@ -100,17 +100,23 @@ class IncursionDetail:
                 "launcher",
                 "incursions",
                 "detail",
-                "status_locked"
+                "locked"
             )
             if dream["locked"]
             else self._language.get(
                 "launcher",
                 "incursions",
                 "detail",
-                "status_available"
+                "available"
             )
         )
 
+        minutes = self._language.get(
+            "launcher",
+            "incursions",
+            "detail",
+            "duration_value"
+        ).format(minutes=dream['duration']//60)
         info = [
 
             (
@@ -130,13 +136,7 @@ class IncursionDetail:
                     "detail",
                     "duration"
                 ),
-                f"{dream['duration']//60} "
-                f"{self._language.get(
-                    'launcher',
-                    'incursions',
-                    "detail",
-                    'minutes'
-                )}"
+                minutes
             ),
 
             (

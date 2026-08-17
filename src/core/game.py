@@ -136,7 +136,7 @@ class Game:
 
     def _load_memory(self):
 
-        self._loader = MemoryLoader(self._memory_name, self._settings)
+        self._loader = MemoryLoader(self._memory_name, self._settings.get("language"))
 
         self._loader.load()
 

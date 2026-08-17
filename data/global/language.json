@@ -57,14 +57,6 @@
                     "move_title": "Mover"
                 },
 
-                "quick": {
-                    "title": "Nueva nota rápida",
-                    "note_title": "Título",
-                    "note_text": "Texto",
-                    "cancel": "Cancelar",
-                    "save": "Guardar"
-                },
-
                 "register": {
                     "quick_note_creator_opened": "Apertura del creador de nota rápida.",
                     "folder_created": "Carpeta de notas creada: {name}",
@@ -121,10 +113,47 @@
             },
 
             "achievements": {
+                "title": "Logros",
                 "summary": "{unlocked} de {total} desbloqueados",
                 "empty": "Todavía no hay logros disponibles.",
                 "unlocked": "Desbloqueado · {timestamp}",
                 "locked": "Descubre cómo desbloquear este logro."
+            },
+
+            "activity": {
+                "title": "Actividad",
+                "subtitle": "Registro de acontecimientos",
+                "empty": "Todavía no hay actividad registrada.",
+
+                "categories": {
+                    "general": "General",
+                    "incursion": "Incursión",
+                    "detection": "Detección",
+                    "discovery": "Descubrimiento",
+                    "system": "Sistema",
+                    "email": "Email",
+                    "chat": "Chat",
+                    "file": "Archivo",
+                    "exploration": "Exploración",
+                    "notes": "Notas",
+                    "character": "Personaje",
+                    "interaction": "Interacción"
+                },
+
+                "incursion_started": "Inicio de la incursión: {memory_name}",
+                "incursion_completed": "Incursión completada: {memory_name}",
+                "room_entered": "Entrada en la habitación: {room_id}",
+                "document_opened": "Documento consultado: {document_id}",
+                "computer_opened": "Ordenador consultado: {computer_id}",
+                "npc_conversation": "Conversación con {npc_name}",
+                "detected": "Detectado por {npc_name}: {reason}",
+                "computer_warning": "Advertencia del ordenador por {npc_name} ({warnings})",
+                "element_discovered": "Elemento descubierto: {element_id}",
+                "memory_reset": "La memoria se ha reiniciado. Iteración {iteration}.",
+                "incursion_abandoned": "Abandono de la incursión '{memory_name}' en la iteración {iteration}.",
+                "email_opened": "Email consultado: {email_id}",
+                "chat_opened": "Chat consultado: {chat_id}",
+                "file_opened": "Archivo consultado: {file_id}"
             },
 
             "settings": {
@@ -312,7 +341,9 @@
                 },
 
                 "empty": "No hay incursiones disponibles."
-            }
+            },
+            
+            "empty": "No implementado"
         },
 
         "en": {
@@ -364,14 +395,6 @@
                     "accept": "Accept",
                     "move": "Move to...",
                     "move_title": "Move"
-                },
-
-                "quick": {
-                    "title": "New quick note",
-                    "note_title": "Title",
-                    "note_text": "Text",
-                    "cancel": "Cancel",
-                    "save": "Save"
                 },
 
                 "register": {
@@ -430,10 +453,47 @@
             },
 
             "achievements": {
+                "title": "Achievements",
                 "summary": "{unlocked} of {total} unlocked",
                 "empty": "There are no achievements available yet.",
                 "unlocked": "Unlocked · {timestamp}",
                 "locked": "Discover how to unlock this achievement."
+            },
+
+            "activity": {
+                "title": "Activity",
+                "subtitle": "Record of events",
+                "empty": "There is no activity recorded yet.",
+
+                "categories": {
+                    "general": "General",
+                    "incursion": "Incursion",
+                    "detection": "Detection",
+                    "discovery": "Discovery",
+                    "system": "System",
+                    "email": "Email",
+                    "chat": "Chat",
+                    "file": "File",
+                    "exploration": "Exploration",
+                    "notes": "Notes",
+                    "character": "Character",
+                    "interaction": "Interaction"
+                },
+
+                "incursion_started": "Incursion started: {memory_name}",
+                "incursion_completed": "Incursion completed: {memory_name}",
+                "room_entered": "Entered room: {room_id}",
+                "document_opened": "Document viewed: {document_id}",
+                "computer_opened": "Computer accessed: {computer_id}",
+                "npc_conversation": "Conversation with {npc_name}",
+                "detected": "Detected by {npc_name}: {reason}",
+                "computer_warning": "Computer warning from {npc_name} ({warnings})",
+                "element_discovered": "Element discovered: {element_id}",
+                "memory_reset": "Memory has been reset. Iteration {iteration}.",
+                "incursion_abandoned": "Incursion '{memory_name}' abandoned on iteration {iteration}.",
+                "email_opened": "Email viewed: {email_id}",
+                "chat_opened": "Chat viewed: {chat_id}",
+                "file_opened": "File viewed: {file_id}"
             },
 
             "settings": {
@@ -621,7 +681,9 @@
                 },
 
                 "empty": "There are no incursions available."
-            }
+            },
+
+            "empty": "Not implemented"
         },
 
         "va": {
@@ -673,14 +735,6 @@
                     "accept": "Acceptar",
                     "move": "Moure a...",
                     "move_title": "Moure"
-                },
-
-                "quick": {
-                    "title": "Nova nota ràpida",
-                    "note_title": "Títol",
-                    "note_text": "Text",
-                    "cancel": "Cancel·lar",
-                    "save": "Guardar"
                 },
 
                 "register": {
@@ -739,10 +793,47 @@
             },
 
             "achievements": {
+                "title": "Aconseguiments",
                 "summary": "{unlocked} de {total} desbloquejats",
                 "empty": "Encara no hi ha assoliments disponibles.",
                 "unlocked": "Desbloquejat · {timestamp}",
                 "locked": "Descobreix com desbloquejar este assoliment."
+            },
+
+            "activity": {
+                "title": "Activitat",
+                "subtitle": "Registre d'esdeveniments",
+                "empty": "Encara no hi ha activitat registrada.",
+
+                "categories": {
+                    "general": "General",
+                    "incursion": "Incursió",
+                    "detection": "Detecció",
+                    "discovery": "Descobriment",
+                    "system": "Sistema",
+                    "email": "Correu",
+                    "chat": "Xat",
+                    "file": "Fitxer",
+                    "exploration": "Exploració",
+                    "notes": "Notes",
+                    "character": "Personatge",
+                    "interaction": "Interacció"
+                },
+
+                "incursion_started": "Inici de la incursió: {memory_name}",
+                "incursion_completed": "Incursió completada: {memory_name}",
+                "room_entered": "Entrada a l'habitació: {room_id}",
+                "document_opened": "Document consultat: {document_id}",
+                "computer_opened": "Ordinador consultat: {computer_id}",
+                "npc_conversation": "Conversa amb {npc_name}",
+                "detected": "Detectat per {npc_name}: {reason}",
+                "computer_warning": "Advertència de l'ordinador per {npc_name} ({warnings})",
+                "element_discovered": "Element descobert: {element_id}",
+                "memory_reset": "La memòria s'ha reiniciat. Iteració {iteration}.",
+                "incursion_abandoned": "Abandó de la incursió '{memory_name}' en la iteració {iteration}.",
+                "email_opened": "Correu consultat: {email_id}",
+                "chat_opened": "Xat consultat: {chat_id}",
+                "file_opened": "Fitxer consultat: {file_id}"
             },
 
             "settings": {
@@ -930,7 +1021,9 @@
                 },
 
                 "empty": "No hi ha incursions disponibles."
-            }
+            },
+
+            "empty": "No implementat"
         }
     },
 
@@ -951,6 +1044,43 @@
                 "email_opened": "Email consultado: {email_id}",
                 "chat_opened": "Chat consultado: {chat_id}",
                 "file_opened": "Archivo consultado: {file_id}"
+            },
+
+            "transitions": {
+                "change_room": "Cambiando de habitación",
+                "read_document": "Leyendo documento",
+                "boot_computer": "Encendiendo ordenador",
+                "reset_memory": "REINICIANDO MEMORIA"
+            },
+
+            "detection": {
+                "restricted_room": "NO TE ESTÁ PERMITIDA LA ENTRADA EN ESTA HABITACIÓN",
+                "computer_warnings": [
+                    "No tienes autorización para utilizar este ordenador.",
+                    "Ya te he advertido una vez. Aléjate del ordenador.",
+                    "Último aviso. La próxima vez informaré al jefe.",
+                    "Te avisé."
+                ]
+            },
+
+            "hud": {
+                "exit": "Abandonar sueño",
+                "quick_note": "Nota"
+            },
+
+            "notes": {
+                "quick": {
+                    "title": "Nueva nota rápida",
+                    "note_title": "Título",
+                    "note_text": "Texto",
+                    "cancel": "Cancelar",
+                    "save": "Guardar"
+                }
+            },
+
+            "exit": {
+                "title": "Abandonar incursión",
+                "message": "¿Seguro que quieres abandonar la incursión?"
             }
         },
 
@@ -970,6 +1100,43 @@
                 "email_opened": "Email viewed: {email_id}",
                 "chat_opened": "Chat viewed: {chat_id}",
                 "file_opened": "File viewed: {file_id}"
+            },
+
+            "transitions": {
+                "change_room": "Changing room",
+                "read_document": "Reading document",
+                "boot_computer": "Starting computer",
+                "reset_memory": "RESETTING MEMORY"
+            },
+
+            "detection": {
+                "restricted_room": "YOU ARE NOT ALLOWED TO ENTER THIS ROOM",
+                "computer_warnings": [
+                    "You are not authorized to use this computer.",
+                    "I have already warned you once. Stay away from the computer.",
+                    "Final warning. Next time I will inform the boss.",
+                    "I warned you."
+                ]
+            },
+
+            "hud": {
+                "exit": "Abandon dream",
+                "quick_note": "Note"
+            },
+
+            "notes": {
+                "quick": {
+                    "title": "New quick note",
+                    "note_title": "Title",
+                    "note_text": "Text",
+                    "cancel": "Cancel",
+                    "save": "Save"
+                }
+            },
+
+            "exit": {
+                "title": "Abandon incursion",
+                "message": "Are you sure you want to abandon the incursion?"
             }
         },
 
@@ -989,6 +1156,43 @@
                 "email_opened": "Correu consultat: {email_id}",
                 "chat_opened": "Xat consultat: {chat_id}",
                 "file_opened": "Fitxer consultat: {file_id}"
+            },
+
+            "transitions": {
+                "change_room": "Canviant d'habitació",
+                "read_document": "Llegint document",
+                "boot_computer": "Engegant ordinador",
+                "reset_memory": "REINICIANT MEMÒRIA"
+            },
+
+            "detection": {
+                "restricted_room": "NO T'ESTÀ PERMÉS ENTRAR EN AQUESTA HABITACIÓ",
+                "computer_warnings": [
+                    "No tens autorització per utilitzar aquest ordinador.",
+                    "Ja t'he advertit una vegada. Allunya't de l'ordinador.",
+                    "Últim avís. La pròxima vegada informaré el cap.",
+                    "T'he avisat."
+                ]
+            },
+
+            "hud": {
+                "exit": "Abandonar somni",
+                "quick_note": "Nota"
+            },
+
+            "notes": {
+                "quick": {
+                    "title": "Nova nota ràpida",
+                    "note_title": "Títol",
+                    "note_text": "Text",
+                    "cancel": "Cancel·lar",
+                    "save": "Guardar"
+                }
+            },
+
+            "exit": {
+                "title": "Abandonar incursió",
+                "message": "Estàs segur que vols abandonar la incursió?"
             }
         }
     }

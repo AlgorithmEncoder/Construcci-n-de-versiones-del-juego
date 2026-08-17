@@ -103,7 +103,7 @@ class MemoryLoader:
 
     def _load_json(self, filename: str, language=None):
         
-        if language: filepath = self.memory_path / "locals" / language / filename
+        if language: filepath = self.memory_path / "locales" / language / filename
         else: filepath = self.memory_path / filename
 
         with open(filepath, "r", encoding="utf-8") as file:

@@ -88,7 +88,7 @@ class QuickNotes(Overlay):
         # ==================================================
 
         title = self._language.get(
-            "launcher",
+            "game",
             "notes",
             "quick",
             "title"
@@ -109,7 +109,7 @@ class QuickNotes(Overlay):
         # ==================================================
 
         note_title = self._language.get(
-            "launcher",
+            "game",
             "notes",
             "quick",
             "note_title"
@@ -144,7 +144,7 @@ class QuickNotes(Overlay):
         # ==================================================
 
         note_text = self._language.get(
-            "launcher",
+            "game",
             "notes",
             "quick",
             "note_text"
@@ -205,7 +205,7 @@ class QuickNotes(Overlay):
         )
 
         cancel = self._language.get(
-            "launcher",
+            "game",
             "notes",
             "quick",
             "cancel"
@@ -223,7 +223,7 @@ class QuickNotes(Overlay):
         )
 
         save = self._language.get(
-            "launcher",
+            "game",
             "notes",
             "quick",
             "save"

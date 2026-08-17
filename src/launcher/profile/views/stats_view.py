@@ -487,7 +487,9 @@ class StatsView:
             "launcher",
             "stats",
             "memory",
-            "subtitle",
+            "subtitle"
+        )
+        subtitle_name = subtitle_name.format(
             memory_title=memory_title
         )
         subtitle = Fonts.small.render(

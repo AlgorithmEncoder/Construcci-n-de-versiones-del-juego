@@ -12,6 +12,8 @@ from pathlib import Path
 
 from constants import MEMORIES_DIR
 
+from managers.path_manager import PathManager
+
 
 class DreamManager:
 
@@ -39,7 +41,7 @@ class DreamManager:
             if not memory_dir.is_dir():
                 continue
 
-            story_path = memory_dir / "story.json"
+            story_path = PathManager.story_path(memory_dir)
             self._story_path = story_path
 
             if not story_path.exists():

@@ -37,6 +37,8 @@ from launcher.profile.achievements.achievement import AchievementsManager
 from launcher.settings.settings_manager import SettingsManager
 from launcher.settings.language_manager import LanguageManager
 
+from managers.path_manager import PathManager
+
 
 class MainWindow:
 
@@ -50,6 +52,7 @@ class MainWindow:
         
         self._settings = SettingsManager()
         self._language = LanguageManager(self._settings)
+        self._language.load()
 
         self._header = Header(self._language)
         self._sidebar = Sidebar(self._language)
@@ -58,6 +61,8 @@ class MainWindow:
 
         self._navigation = Navigation()
 
+        PathManager.set_language(self._settings.get("languages"))
+        
         self._dreams = DreamManager()
         self._dreams.load()
         
@@ -70,15 +75,15 @@ class MainWindow:
         self._apply_launcher_theme()
         
         self._sections = {
-            "incursions": IncursionsView(self.dreams.dreams, self._language),
+            "incursions": IncursionsView(self),
             "notes": self._notes_view,
-            "inventory": EmptyView(),
+            "inventory": EmptyView(self._language),
             "stats": StatsView(self._stats, self._language),
             "achievements": AchievementsView(self._achievements, self._language),
             "activity": ActivityView(self._logger, self._language),
             "general": GeneralView(self._settings, self._language),
             "display": DisplayView(self._settings, self._language),
-            "audio": EmptyView(),
+            "audio": EmptyView(self._language),
             "language": LanguageView(self._settings, self._language),
             "accessibility": AccessibilityView(self._settings, self._language)
         }
@@ -251,7 +256,8 @@ class MainWindow:
                 self._workspace.set_view(
                     IncursionDetail(
                         self._dreams,
-                        data["id"]
+                        data["id"],
+                        self._language
                     )
                 )
         
@@ -296,7 +302,7 @@ class MainWindow:
         self._module = module
         self._sidebar.update(self._sidebar_rect)
 
-        first_section = self._sidebar.MODULES[module][0][0]
+        first_section = self._sidebar.MODULES[module][0]
         self._change_section(first_section)
         
         return True

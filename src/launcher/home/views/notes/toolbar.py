@@ -36,6 +36,7 @@ class Toolbar:
             
             label = self._language.get(
                 "launcher",
+                "notes",
                 "toolbar",
                 label_id
             )

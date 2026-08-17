@@ -19,12 +19,13 @@ class IncursionsView(BaseView):
 
     def __init__(
         self,
-        dreams,
-        language_manager
+        launcher
     ):
-        self._language = language_manager
+        self._launcher = launcher
+        
+        self._language = launcher._language
 
-        self._dreams = dreams
+        self._dreams = launcher.dreams.dreams
 
         self._cards = []
 

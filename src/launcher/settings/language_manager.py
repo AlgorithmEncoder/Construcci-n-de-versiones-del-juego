@@ -101,7 +101,7 @@ class LanguageManager:
         section: str,
         *keys: str,
         default: str = ""
-    ) -> str:
+    ):
 
         """
         Returns a translated text from a language section.
@@ -132,6 +132,7 @@ class LanguageManager:
             data,
             dict
         ):
+            raise Exception(f"Error section {section}")
 
             return default
 
@@ -144,6 +145,7 @@ class LanguageManager:
             data,
             dict
         ):
+            raise Exception(f"Error language {language}")
 
             return default
 
@@ -153,21 +155,16 @@ class LanguageManager:
                 data,
                 dict
             ):
+                raise Exception(f"Error key in {section}, {key}")
 
                 return default
 
+            if not key in data: raise Exception(f"No key founded {key}")
             data = data.get(
                 key
             )
 
-        if isinstance(
-            data,
-            str
-        ):
-
-            return data
-
-        return default
+        return data
 
     # ==================================================
     # Available languages
