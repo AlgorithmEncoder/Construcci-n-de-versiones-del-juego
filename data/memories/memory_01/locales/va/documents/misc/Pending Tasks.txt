@@ -1,0 +1,20 @@
+TASQUES PENDENTS
+================
+
+ELEMENTS OBERTS
+===============
+
+Tasca                                              | Departament    | Prioritat | Estat  
+---------------------------------------------------+----------------+-----------+--------
+Verifiqueu les versions del registre dels empleats | RRHH           | Alt       | Pendent
+Inventari complet de l'arxiu                       | Instal·lacions | Alt       | En curs
+Revisar l'organigrama antic                        | Gestió         | Mitjana   | Pendent
+Substituïu les plantilles obsoletes                | Administració  | Baixa     | Pendent
+
+NOTES ADDICIONALS
+=================
+
+Algunes tasques romanen obertes perquè depenen de la informació emmagatzemada a la documentació històrica. S'ha indicat als departaments responsables que no descartin els registres anteriors fins que no finalitzi la revisió.
+
+La revisió de l'arxiu s'ha de considerar l'element prioritari abans del proper cicle de gestió.
+

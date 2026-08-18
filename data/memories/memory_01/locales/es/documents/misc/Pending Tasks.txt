@@ -1,20 +1,20 @@
-PENDING TASKS
-=============
+TAREAS PENDIENTES
+=================
 
-OPEN ITEMS
-==========
+ARTÍCULOS ABIERTOS
+==================
 
-Task                              | Department     | Priority | Status     
-----------------------------------+----------------+----------+------------
-Verify employee registry versions | HR             | High     | Pending    
-Complete archive inventory        | Facilities     | High     | In Progress
-Review old organisation chart     | Management     | Medium   | Pending    
-Replace outdated templates        | Administration | Low      | Pending    
+Tarea                                             | Departamento   | Prioridad | Estado   
+--------------------------------------------------+----------------+-----------+----------
+Verificar las versiones del registro de empleados | HORA           | Alto      | Pendiente
+Inventario de archivos completo                   | Instalaciones  | Alto      | En curso 
+Revisar el organigrama antiguo                    | Gestión        | Medio     | Pendiente
+Reemplazar plantillas obsoletas                   | Administración | Bajo      | Pendiente
 
-ADDITIONAL NOTES
-================
+NOTAS ADICIONALES
+=================
 
-Some tasks remain open because they depend on information stored in historical documentation. The responsible departments have been instructed not to discard previous records until the review is complete.
+Algunas tareas permanecen abiertas porque dependen de información almacenada en la documentación histórica. Se ha ordenado a los departamentos responsables que no descarten registros anteriores hasta que se complete la revisión.
 
-The archive review should be considered the priority item before the next management cycle.
+La revisión de archivos debe considerarse el elemento prioritario antes del próximo ciclo de gestión.
 

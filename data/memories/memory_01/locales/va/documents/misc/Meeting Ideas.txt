@@ -1,0 +1,27 @@
+IDEES DE TROBADA
+================
+
+TEMES DE REUNIONS FUTURES
+=========================
+
+Aquest document conté suggeriments informals recollits abans de futures reunions de direcció.
+
+• Reviseu les millores de l'arxiu.
+• Discutir els estàndards de documentació.
+• Millorar el control de versions.
+• Aclarir les responsabilitats del departament.
+
+NOTES DE DISCUSSIÓ
+==================
+
+Un suggeriment recurrent va ser la creació d'una única font de veritat per als documents de l'organització tot conservant les versions històriques.
+
+Diversos participants van destacar que les decisions anteriors eren difícils d'entendre quan la documentació antiga no estava disponible.
+
+CONSIDERACIONS FUTURES
+======================
+
+• Millora la cerca d'arxius.
+• Resolucions d'aprovació de documents.
+• Mantenir l'historial de revisions.
+

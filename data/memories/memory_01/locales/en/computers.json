@@ -1,0 +1,3955 @@
+{
+    "director_pc": {
+        "emails": [
+            {
+                "id": "d_mail_001",
+                "from": "Marta Romero",
+                "to": "Miguel Ruiz",
+                "date": "07:38",
+                "subject": "Today's agenda",
+                "body": [
+                    "Good morning.",
+                    "",
+                    "I've attached the agenda planned for this morning.",
+                    "",
+                    "I've left the slot between 08:30 and 09:00 free in case you need to prepare for the meeting."
+                ]
+            },
+            {
+                "id": "d_mail_002",
+                "from": "Miguel Ruiz",
+                "to": "Marta Romero",
+                "date": "07:39",
+                "subject": "RE: Today's agenda",
+                "body": [
+                    "Perfect.",
+                    "",
+                    "Thank you."
+                ]
+            },
+            {
+                "id": "d_mail_003",
+                "from": "Carlos Vega",
+                "to": "Miguel Ruiz",
+                "date": "07:42",
+                "subject": "Q3 Budget",
+                "body": [
+                    "Good morning.",
+                    "",
+                    "I've attached the latest budget revision.",
+                    "",
+                    "I'll wait for your approval."
+                ]
+            },
+            {
+                "id": "d_mail_004",
+                "from": "Miguel Ruiz",
+                "to": "Carlos Vega",
+                "date": "07:44",
+                "subject": "RE: Q3 Budget",
+                "body": [
+                    "Reviewed.",
+                    "",
+                    "You can proceed."
+                ]
+            },
+            {
+                "id": "d_mail_005",
+                "from": "Clara Pérez",
+                "to": "Miguel Ruiz",
+                "date": "07:47",
+                "subject": "Team photograph",
+                "body": [
+                    "I found an old photograph while sorting through a filing cabinet.",
+                    "",
+                    "It's a little damaged.",
+                    "",
+                    "Should we keep it?"
+                ]
+            },
+            {
+                "id": "d_mail_006",
+                "from": "Miguel Ruiz",
+                "to": "Clara Pérez",
+                "date": "07:48",
+                "subject": "RE: Team photograph",
+                "body": [
+                    "Yes.",
+                    "",
+                    "Archive it.",
+                    "",
+                    "There's no need to restore it."
+                ]
+            },
+            {
+                "id": "d_mail_007",
+                "from": "Marta Romero",
+                "to": "Miguel Ruiz",
+                "date": "07:50",
+                "subject": "Organisation chart",
+                "body": [
+                    "I'm reviewing the updated organisation chart.",
+                    "",
+                    "There are some small differences compared to the old copy.",
+                    "",
+                    "I assume they're formatting changes."
+                ]
+            },
+            {
+                "id": "d_mail_008",
+                "from": "Miguel Ruiz",
+                "to": "Marta Romero",
+                "date": "07:51",
+                "subject": "RE: Organisation chart",
+                "body": [
+                    "Correct.",
+                    "",
+                    "Keep both versions."
+                ]
+            },
+            {
+                "id": "d_mail_009",
+                "from": "Laura López",
+                "to": "Miguel Ruiz",
+                "date": "07:54",
+                "subject": "Old documentation",
+                "body": [
+                    "While sorting through the Archive, several old folders turned up.",
+                    "",
+                    "Do you want me to remove the duplicates?"
+                ]
+            },
+            {
+                "id": "d_mail_010",
+                "from": "Miguel Ruiz",
+                "to": "Laura López",
+                "date": "07:55",
+                "subject": "RE: Old documentation",
+                "body": [
+                    "No.",
+                    "",
+                    "Keep everything.",
+                    "",
+                    "Even the obsolete documents."
+                ]
+            },
+            {
+                "id": "d_mail_011",
+                "from": "Marta Romero",
+                "to": "Miguel Ruiz",
+                "date": "08:01",
+                "subject": "HR enquiry",
+                "body": [
+                    "Good morning.",
+                    "",
+                    "An employee has asked about last year's reorganisation.",
+                    "",
+                    "I wasn't really sure what to tell them."
+                ]
+            },
+            {
+                "id": "d_mail_012",
+                "from": "Miguel Ruiz",
+                "to": "Marta Romero",
+                "date": "08:02",
+                "subject": "RE: HR enquiry",
+                "body": [
+                    "Only respond with the current documentation.",
+                    "",
+                    "If they need to consult previous versions, let me know."
+                ]
+            },
+            {
+                "id": "d_mail_013",
+                "from": "Carlos Vega",
+                "to": "Miguel Ruiz",
+                "date": "08:04",
+                "subject": "Archived contracts",
+                "body": [
+                    "I've found several versions of the same contract.",
+                    "",
+                    "They don't seem to contain the same information."
+                ]
+            },
+            {
+                "id": "d_mail_014",
+                "from": "Miguel Ruiz",
+                "to": "Carlos Vega",
+                "date": "08:05",
+                "subject": "RE: Archived contracts",
+                "body": [
+                    "Don't modify any of them.",
+                    "",
+                    "Archive them together."
+                ]
+            },
+            {
+                "id": "d_mail_015",
+                "from": "Laura López",
+                "to": "Miguel Ruiz",
+                "date": "08:08",
+                "subject": "Old photograph",
+                "body": [
+                    "I looked at the photograph again.",
+                    "",
+                    "I could swear I remembered a different team arrangement.",
+                    "",
+                    "I suppose I'm getting confused."
+                ]
+            },
+            {
+                "id": "d_mail_016",
+                "from": "Miguel Ruiz",
+                "to": "Laura López",
+                "date": "08:09",
+                "subject": "RE: Old photograph",
+                "body": [
+                    "Don't worry.",
+                    "",
+                    "It's a very old photograph."
+                ]
+            },
+            {
+                "id": "d_mail_017",
+                "from": "Clara Pérez",
+                "to": "Miguel Ruiz",
+                "date": "08:12",
+                "subject": "Archive organisation",
+                "body": [
+                    "There are very few shelves left.",
+                    "",
+                    "Keeping all the documentation is becoming difficult."
+                ]
+            },
+            {
+                "id": "d_mail_018",
+                "from": "Miguel Ruiz",
+                "to": "Clara Pérez",
+                "date": "08:13",
+                "subject": "RE: Archive organisation",
+                "body": [
+                    "We'll review it.",
+                    "",
+                    "In the meantime, don't remove any documentation."
+                ]
+            },
+            {
+                "id": "d_mail_019",
+                "from": "M. Romero",
+                "to": "Miguel Ruiz",
+                "date": "08:16",
+                "subject": "Old list",
+                "body": [
+                    "I've located a copy of the previous list.",
+                    "",
+                    "It doesn't exactly match the current one."
+                ]
+            },
+            {
+                "id": "d_mail_020",
+                "from": "Miguel Ruiz",
+                "to": "M. Romero",
+                "date": "08:17",
+                "subject": "RE: Old list",
+                "body": [
+                    "Leave it where it was.",
+                    "",
+                    "We'll talk about it later."
+                ]
+            },
+            {
+                "id": "d_mail_021",
+                "from": "Marta Romero",
+                "to": "Miguel Ruiz",
+                "date": "08:19",
+                "subject": "RE: Organisation chart",
+                "body": [
+                    "I've compared both versions again.",
+                    "",
+                    "They still seem different to me.",
+                    "",
+                    "I couldn't say exactly why."
+                ]
+            },
+            {
+                "id": "d_mail_022",
+                "from": "Miguel Ruiz",
+                "to": "Marta Romero",
+                "date": "08:20",
+                "subject": "RE: Organisation chart",
+                "body": [
+                    "Don't overthink it.",
+                    "",
+                    "Always work with the current version."
+                ]
+            },
+            {
+                "id": "d_mail_023",
+                "from": "Clara Pérez",
+                "to": "Miguel Ruiz",
+                "date": "08:22",
+                "subject": "Visitor enquiry",
+                "body": [
+                    "The visitor asked who currently runs the company.",
+                    "",
+                    "I told them it was you."
+                ]
+            },
+            {
+                "id": "d_mail_024",
+                "from": "Miguel Ruiz",
+                "to": "Clara Pérez",
+                "date": "08:23",
+                "subject": "RE: Visitor enquiry",
+                "body": [
+                    "Perfect.",
+                    "",
+                    "Let them in when the time comes."
+                ]
+            },
+            {
+                "id": "d_mail_025",
+                "from": "Carlos Vega",
+                "to": "Miguel Ruiz",
+                "date": "08:25",
+                "subject": "Pending signature",
+                "body": [
+                    "I've attached the report for signature.",
+                    "",
+                    "I can't archive it without your approval."
+                ]
+            },
+            {
+                "id": "d_mail_026",
+                "from": "Miguel Ruiz",
+                "to": "Carlos Vega",
+                "date": "08:26",
+                "subject": "RE: Pending signature",
+                "body": [
+                    "I'll review it before the meeting."
+                ]
+            },
+            {
+                "id": "d_mail_027",
+                "from": "Laura López",
+                "to": "Miguel Ruiz",
+                "date": "08:27",
+                "subject": "Former employee",
+                "body": [
+                    "There's a signature on some documents that I can't identify.",
+                    "",
+                    "I thought perhaps you might remember it."
+                ]
+            },
+            {
+                "id": "d_mail_028",
+                "from": "Miguel Ruiz",
+                "to": "Laura López",
+                "date": "08:28",
+                "subject": "RE: Former employee",
+                "body": [
+                    "Leave them on my desk.",
+                    "",
+                    "I'll take a look."
+                ]
+            },
+            {
+                "id": "d_mail_029",
+                "from": "Marta Romero",
+                "to": "Miguel Ruiz",
+                "date": "08:29",
+                "subject": "Question",
+                "body": [
+                    "Sorry for asking.",
+                    "",
+                    "Do you remember the reorganisation perfectly?",
+                    "",
+                    "I'm starting to think I'm the one remembering it incorrectly."
+                ]
+            },
+            {
+                "id": "d_mail_030",
+                "from": "Miguel Ruiz",
+                "to": "Marta Romero",
+                "date": "08:30",
+                "subject": "RE: Question",
+                "body": [
+                    "Don't worry.",
+                    "",
+                    "It's normal for details to change over time."
+                ]
+            },
+            {
+                "id": "d_mail_031",
+                "from": "Clara Pérez",
+                "to": "Miguel Ruiz",
+                "date": "08:32",
+                "subject": "Documentation for the meeting",
+                "body": [
+                    "Good morning.",
+                    "",
+                    "All the documentation is ready.",
+                    "",
+                    "I've left it on your desk."
+                ]
+            },
+            {
+                "id": "d_mail_032",
+                "from": "Miguel Ruiz",
+                "to": "Clara Pérez",
+                "date": "08:33",
+                "subject": "RE: Documentation for the meeting",
+                "body": [
+                    "Perfect.",
+                    "",
+                    "Thank you."
+                ]
+            },
+            {
+                "id": "d_mail_033",
+                "from": "Secretariat",
+                "to": "Miguel Ruiz",
+                "date": "08:34",
+                "subject": "Pending signature",
+                "body": [
+                    "I've attached the minutes of the last committee meeting.",
+                    "",
+                    "Only your signature is still pending.",
+                    "",
+                    "Miguel Ruiz",
+                    "General Director"
+                ]
+            },
+            {
+                "id": "d_mail_034",
+                "from": "Miguel Ruiz",
+                "to": "Secretariat",
+                "date": "08:35",
+                "subject": "RE: Pending signature",
+                "body": [
+                    "I'll sign it before 09:00."
+                ]
+            },
+            {
+                "id": "d_mail_035",
+                "from": "Marta Romero",
+                "to": "Miguel Ruiz",
+                "date": "08:36",
+                "subject": "Quick question",
+                "body": [
+                    "Carlos and I have tried to reconstruct some old records.",
+                    "",
+                    "We can't reach the same conclusion.",
+                    "",
+                    "When you have a moment, could you take a look at them?"
+                ]
+            },
+            {
+                "id": "d_mail_036",
+                "from": "Miguel Ruiz",
+                "to": "Marta Romero",
+                "date": "08:37",
+                "subject": "RE: Quick question",
+                "body": [
+                    "Yes.",
+                    "",
+                    "Leave them in my office."
+                ]
+            },
+            {
+                "id": "d_mail_037",
+                "from": "Carlos Vega",
+                "to": "Miguel Ruiz",
+                "date": "08:38",
+                "subject": "Archive inventory",
+                "body": [
+                    "I've finished the inventory.",
+                    "",
+                    "There are documents that no one has consulted for years.",
+                    "",
+                    "Do you want me to move them to external storage?"
+                ]
+            },
+            {
+                "id": "d_mail_038",
+                "from": "Miguel Ruiz",
+                "to": "Carlos Vega",
+                "date": "08:39",
+                "subject": "RE: Archive inventory",
+                "body": [
+                    "No.",
+                    "",
+                    "Everything must remain accessible."
+                ]
+            },
+            {
+                "id": "d_mail_039",
+                "from": "Laura López",
+                "to": "Miguel Ruiz",
+                "date": "08:41",
+                "subject": "Thank you",
+                "body": [
+                    "I found the documentation.",
+                    "",
+                    "In the end, it was exactly where you told me it was.",
+                    "",
+                    "Thank you."
+                ]
+            },
+            {
+                "id": "d_mail_040",
+                "from": "Miguel Ruiz",
+                "to": "Laura López",
+                "date": "08:42",
+                "subject": "RE: Thank you",
+                "body": [
+                    "You're welcome."
+                ]
+            },
+            {
+                "id": "d_mail_041",
+                "from": "Finance",
+                "to": "Miguel Ruiz",
+                "date": "08:45",
+                "subject": "Budget approved",
+                "body": [
+                    "The revised budget has been approved.",
+                    "",
+                    "You can now continue with the planning."
+                ]
+            },
+            {
+                "id": "d_mail_042",
+                "from": "Marta Romero",
+                "to": "Miguel Ruiz",
+                "date": "08:48",
+                "subject": "Staff questions",
+                "body": [
+                    "Several employees have asked the same question again.",
+                    "",
+                    "I don't know what to tell them anymore."
+                ]
+            },
+            {
+                "id": "d_mail_043",
+                "from": "Miguel Ruiz",
+                "to": "All staff",
+                "date": "08:50",
+                "subject": "Reminder",
+                "body": [
+                    "Pending matters must not be discussed",
+                    "outside this office."
+                ]
+            },
+            {
+                "id": "d_mail_044",
+                "from": "Unknown",
+                "to": "Miguel Ruiz",
+                "date": "08:53",
+                "subject": "Meeting",
+                "body": [
+                    "We need to talk",
+                    "before the others start asking questions."
+                ]
+            }
+        ],
+        "chats": [
+            {
+                "id": "director_impresora_finanzas",
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "Got a minute?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Yes."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "The Finance printer is printing a blank page between every page again."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Call IT."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "I already did."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "They said I should restart the printer."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Then restart it."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "That's what I'll do."
+                    }
+                ]
+            },
+            {
+                "id": "director_archivo_laberinto",
+                "with": "Laura López",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "Do you also get the feeling that the Archive is bigger than it seems?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "It's easy to get lost."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "It took me ten minutes to find the exit today."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Next time, follow the main corridors."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "That's what I'm trying to do."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "But I could swear some filing cabinets change places."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "They don't move."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "I suppose it's just me."
+                    }
+                ]
+            },
+            {
+                "id": "director_comer_en_escritorio",
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "I need your professional opinion."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Go ahead."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Is it acceptable to eat in front of the computer?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "What if it's just a sandwich?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Still no."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "What about some biscuits?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Carlos."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Understood..."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "I'll go to the kitchen."
+                    }
+                ]
+            },
+            {
+                "id": "director_cumpleanos_del_mes",
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "I'm preparing the email to wish everyone a happy birthday this month."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Perfect."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "I'm always afraid I'll forget someone."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Check it one more time."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "I've checked it three times."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Then it'll be fine."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Don't you ever have doubts?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "More than it seems."
+                    }
+                ]
+            },
+            {
+                "id": "director_firma_familiar",
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "I found a report signed years ago."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "And?"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "The signature looks familiar."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "It'll be from some former manager."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Could be."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Although I could swear they still work here."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Don't overthink it."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Okay."
+                    }
+                ]
+            },
+            {
+                "id": "director_llave_sin_etiqueta",
+                "with": "Laura López",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "I found a key inside a folder today."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Does it have a label?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Put it in lost and found."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "I was going to leave it at reception."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Better not."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "All right."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "At this rate I'll find a car in a box one day."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Let me know if that happens."
+                    }
+                ]
+            },
+            {
+                "id": "director_cafeterias_carlos",
+                "with": "Clara Pérez",
+                "messages": [
+                    {
+                        "sender": "Clara",
+                        "text": "I'm going to tell you a secret."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "I'm listening."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Carlos says he doesn't check social media during work hours."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Uh-huh."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "But every time I walk past his desk, he's reading café reviews."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Maybe he's looking for inspiration."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Inspiration for the eleven o'clock coffee."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "It's a noble cause."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "I didn't expect you to defend him."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Neither did I."
+                    }
+                ]
+            },
+            {
+                "id": "director_carlos_madrugador",
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "Have you seen Carlos this morning?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Not yet."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "He arrived ten minutes early."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Now that's news."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "He says he wanted to park nearby."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Did he manage it?"
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "No. He parked where he always does."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Then he got up early for nothing."
+                    }
+                ]
+            },
+            {
+                "id": "director_final_definitivo_4",
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "I have an existential question."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "I was afraid this moment would come."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "How many folders called 'Final' are too many?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "More than one."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Then I have a problem."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "I suspected as much."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "I've reached 'Final Definitive 4'."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "It could be worse."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "How?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "There could be a 'Final Definitive 4 Good'."
+                    }
+                ]
+            },
+            {
+                "id": "director_archivador_azul",
+                "with": "Laura López",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "I've lost the blue filing cabinet again today."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Did you look where you left it yesterday?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Yes."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "And it wasn't there."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Someone must be using it."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Could be."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Although later it appeared exactly where I remembered."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "It happens sometimes."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "It's happening to me more and more."
+                    }
+                ]
+            },
+            {
+                "id": "director_repartidor_horarios",
+                "with": "Clara Pérez",
+                "messages": [
+                    {
+                        "sender": "Clara",
+                        "text": "The delivery driver asked me if we actually worked here."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Why?"
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "He says he never sees anyone go out for lunch."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Observant of him."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "I told him we have different schedules."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Good answer."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Although now that I think about it..."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "I can't remember the last time I went out for lunch either."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "I'm sure it was recently."
+                    }
+                ]
+            },
+            {
+                "id": "director_paquetes_recepcion",
+                "with": "Clara Pérez",
+                "messages": [
+                    {
+                        "sender": "Clara",
+                        "text": "The courier came again without warning."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Did they leave the packages?"
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Yes."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "But they said they'll be back tomorrow with more boxes."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Have them leave them at reception."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "There won't be enough room this time."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "We'll find somewhere."
+                    }
+                ]
+            },
+            {
+                "id": "director_expedientes_familiares",
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "I'm reviewing old files."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Everything all right?"
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Yes."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Well..."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "What's wrong?"
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "There are names that seem familiar to me."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "That's normal."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "The strange thing is that I don't know why."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Don't worry about it."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "I suppose I've simply been here too long."
+                    }
+                ]
+            },
+            {
+                "id": "director_bandeja_entrada_cero",
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "I managed to get my inbox down to zero."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Congratulations."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "It lasted exactly forty seconds."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "New record."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Fifteen emails just came in."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Peace never lasts."
+                    }
+                ]
+            },
+            {
+                "id": "director_planta_recepcion",
+                "with": "Clara Pérez",
+                "messages": [
+                    {
+                        "sender": "Clara",
+                        "text": "The reception plant is dying."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Water it."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "I've been doing that for two weeks."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Then stop watering it."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "I wasn't expecting gardening advice."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Neither was I."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "I'll give it a try."
+                    }
+                ]
+            },
+            {
+                "id": "director_archivadores_vacios",
+                "with": "Laura López",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "Do we keep the empty filing cabinets?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Yes."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Even if they don't have a label?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Yes."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "What if they're broken?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Those too."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "I'm starting to think we don't throw absolutely anything away here."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "It's a good habit."
+                    }
+                ]
+            },
+            {
+                "id": "director_vacaciones_personal",
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "I've received three holiday requests for the same week."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "We'll have to reorganise."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Carlos says he chose those dates because they're the cheapest."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Typical of him."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Clara wants to go at the same time as a friend."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Let's try to make it work."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Laura says she doesn't mind when."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Then we'll start with her."
+                    }
+                ]
+            },
+            {
+                "id": "director_reunion_olvidada",
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "Do you remember last Tuesday's meeting?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Yes."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "I don't."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "You were there."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "That's what they say."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "You took notes."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "I've read them."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "They still don't help me remember it."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "You must have been tired."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "I suppose."
+                    }
+                ]
+            },
+            {
+                "id": "director_cartel_timbre",
+                "with": "Clara Pérez",
+                "messages": [
+                    {
+                        "sender": "Clara",
+                        "text": "I've changed the sign at reception."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "What did the previous one say?"
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "\"Ring the bell\"."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "And now?"
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "\"Ring the bell once only\"."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Have there been incidents?"
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Yesterday a delivery driver pressed it for almost a minute."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "I understand the change."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "My ears are still ringing."
+                    }
+                ]
+            },
+            {
+                "id": "director_excel_nuevo_bueno",
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "I found an Excel file called 'New'."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "And?"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Inside it there was another one called 'New 2'."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Promising."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "And inside that, another one called 'New Good'."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Which one was the correct one?"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "I don't know."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Then keep all three."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "I'm starting to suspect that's your answer to everything."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Not always."
+                    }
+                ]
+            },
+            {
+                "id": "director_estanteria_c_repetida",
+                "with": "Laura López",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "I've finished organising shelf C."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Perfect."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Tomorrow I'll continue with D."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Very good."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Although..."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Yes?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "I could swear I also finished C last week."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "You're probably remembering it incorrectly."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Yes... that must be it."
+                    }
+                ]
+            },
+            {
+                "id": "director_reorganizar_rrhh",
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "I'm thinking about reorganising the Human Resources archive."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Why?"
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "It's getting harder to find some things."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "The system works."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "I know."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "But sometimes I get the feeling I'm looking in the wrong place."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Don't change anything for now."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "All right."
+                    }
+                ]
+            },
+            {
+                "id": "director_reserva_sala_vacia",
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "Who keeps booking the meeting room and then never shows up?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Good question."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "That's the third time this month."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Cancel the booking if ten minutes pass."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "I'll add it to the procedure."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Perfect."
+                    }
+                ]
+            },
+            {
+                "id": "director_mismo_dia_dos_veces",
+                "with": "Clara Pérez",
+                "messages": [
+                    {
+                        "sender": "Clara",
+                        "text": "Can I ask you a slightly strange question?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Of course."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Do you never get the feeling that you've lived the same day twice?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Today I greeted a visitor and for a second I could have sworn I'd already done it."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "It happens when we follow the same routine."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Yeah..."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "I suppose you're right."
+                    }
+                ]
+            },
+            {
+                "id": "director_tres_copias_informe",
+                "with": "Laura López",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "I found a folder with three copies of the same report."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Are they exactly the same?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Two of them are."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "The third has a different signature."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Keep all three."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "I thought you'd want to save space."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "I'd rather keep them."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Understood."
+                    }
+                ]
+            },
+            {
+                "id": "director_cafetera_temporizador",
+                "with": "Clara Pérez",
+                "messages": [
+                    {
+                        "sender": "Clara",
+                        "text": "Do you know what happened to the new coffee machine?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Carlos tried to program it."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "And?"
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Now it serves coffee at 3:00 in the morning."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Very useful."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "He says it was to test the timer."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Tell him not to touch it again."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "I'll tell him."
+                    }
+                ]
+            },
+            {
+                "id": "director_presupuesto_tres_versiones",
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "I'm reviewing last year's budget."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Any problem?"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "I don't understand why we have three almost identical versions."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Keep the latest one."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "All three claim to be the latest."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Compare them."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Only one figure is different."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Then keep all three."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "One day I'll have to ask you why we never throw anything away."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "One day."
+                    }
+                ]
+            },
+            {
+                "id": "director_comercial_fotocopiadora",
+                "with": "Clara Pérez",
+                "messages": [
+                    {
+                        "sender": "Clara",
+                        "text": "The photocopier salesman came back today."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Again?"
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "He says our contract ends soon."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "There's still time."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "I told him the same thing."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Even so, he left me three catalogues."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Keep them."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Will anyone read them?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Probably not."
+                    }
+                ]
+            },
+            {
+                "id": "director_microondas_sucio",
+                "with": "Clara Pérez",
+                "messages": [
+                    {
+                        "sender": "Clara",
+                        "text": "Do you know who left the microwave dirty again?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Well, someone exploded a pasta container."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Oh dear."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "I put up a sign."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Will it work?"
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "But at least I got it off my chest."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "That's something."
+                    }
+                ]
+            },
+            {
+                "id": "director_listado_cumpleanos",
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "I've updated the birthday list."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Perfect."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "I always forget someone."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Not this year."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "How can you be so sure?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "I've checked it."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "I don't know how you find time for everything."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "You have to stay organised."
+                    }
+                ]
+            }
+        ],
+        "files": [
+            {
+                "name": "Meeting_Agenda.pdf",
+                "document_id": "meeting_agenda"
+            },
+            {
+                "name": "Organisation_Chart.pdf",
+                "document_id": "organisation_chart_current"
+            },
+            {
+                "name": "Budget_Q3.xlsx",
+                "document_id": "budget_q3"
+            },
+            {
+                "name": "Employee_Evaluations.pdf",
+                "document_id": "employee_evaluations"
+            },
+            {
+                "name": "Interview_Report.pdf",
+                "document_id": "interview_report"
+            },
+            {
+                "name": "Company_Policies.pdf",
+                "document_id": "company_policies"
+            },
+            {
+                "name": "Employee_Registry_Current.xlsx",
+                "document_id": "employee_registry_current"
+            },
+            {
+                "name": "Employee_Registry_Previous.xlsx",
+                "document_id": "employee_registry_previous"
+            },
+            {
+                "name": "Archive_Index.xlsx",
+                "document_id": "archive_index"
+            },
+            {
+                "name": "Internal_Reorganisation.pdf",
+                "document_id": "internal_reorganisation"
+            },
+            {
+                "name": "Management_Meeting_Minutes.pdf",
+                "document_id": "management_meeting_minutes"
+            },
+            {
+                "name": "Historical_Records.pdf",
+                "document_id": "historical_records"
+            },
+            {
+                "name": "Director_Agenda.pdf",
+                "document_id": "director_agenda"
+            },
+            {
+                "name": "Executive_Approvals.pdf",
+                "document_id": "executive_approvals"
+            },
+            {
+                "name": "Company_Organisation.pdf",
+                "document_id": "company_organisation"
+            },
+            {
+                "name": "Signed_Reports.pdf",
+                "document_id": "signed_reports"
+            },
+            {
+                "name": "Management_Directory.pdf",
+                "document_id": "management_directory"
+            },
+            {
+                "name": "Board_Minutes.pdf",
+                "document_id": "board_minutes"
+            },
+            {
+                "name": "Committee_Minutes.pdf",
+                "document_id": "committee_minutes"
+            },
+            {
+                "name": "Director_Signatures.pdf",
+                "document_id": "director_signatures"
+            },
+            {
+                "name": "Archive_Guidelines.pdf",
+                "document_id": "archive_guidelines"
+            },
+            {
+                "name": "Historical_Index.xlsx",
+                "document_id": "historical_index"
+            },
+            {
+                "name": "Executive_Approvals_2024.pdf",
+                "document_id": "executive_approvals_2024"
+            },
+            {
+                "name": "Director_Notes.txt",
+                "document_id": "director_notes"
+            }
+        ]
+    },
+
+    "meeting_laptop": {
+        "emails": [
+            {
+                "id": "m_mail_001",
+                "from": "Marta Romero",
+                "to": "Meeting Room",
+                "date": "07:30",
+                "subject": "Presentation",
+                "body": [
+                    "I have prepared the presentation for this morning.",
+                    "",
+                    "It is on the Desktop."
+                ]
+            },
+            {
+                "id": "m_mail_002",
+                "from": "Carlos Vega",
+                "to": "Meeting Room",
+                "date": "07:34",
+                "subject": "RE: Presentation",
+                "body": [
+                    "Perfect.",
+                    "",
+                    "I have updated the figures for the last quarter."
+                ]
+            },
+            {
+                "id": "m_mail_003",
+                "from": "Miguel Ruiz",
+                "to": "Meeting Room",
+                "date": "07:40",
+                "subject": "Agenda",
+                "body": [
+                    "The meeting will follow the planned agenda.",
+                    "",
+                    "There will be no need to add any more items."
+                ]
+            },
+            {
+                "id": "mail_004",
+                "from": "Clara Pérez",
+                "to": "Meeting Room",
+                "date": "07:45",
+                "subject": "Projector",
+                "body": [
+                    "The projector is already set up."
+                ]
+            },
+            {
+                "id": "mail_005",
+                "from": "IT",
+                "to": "Meeting Room",
+                "date": "07:52",
+                "subject": "Update",
+                "body": [
+                    "The shared laptop will be updated tonight.",
+                    "",
+                    "Save any important documents."
+                ]
+            }
+        ],
+        "chats": [],
+        "files": [
+            {
+                "name": "Presentacion_Q3_FINAL.pptx",
+                "document_id": "presentation_q3_final"
+            },
+            {
+                "name": "Presentacion_Q3_FINAL_BUENA.pptx",
+                "document_id": "presentation_q3_final_v2"
+            },
+            {
+                "name": "Presentacion_Q3_USAR_ESTA.pptx",
+                "document_id": "presentation_q3_final_v3"
+            },
+            {
+                "name": "Acta_Reunion_Anterior.pdf",
+                "document_id": "meeting_minutes_previous"
+            },
+            {
+                "name": "Orden_del_dia.pdf",
+                "document_id": "meeting_agenda"
+            },
+            {
+                "name": "Presupuesto_Q3.xlsx",
+                "document_id": "budget_q3"
+            },
+            {
+                "name": "Plantilla_Actas.docx",
+                "document_id": "meeting_template"
+            },
+            {
+                "name": "Logo_empresa.png",
+                "document_id": "company_logo"
+            },
+            {
+                "name": "Nueva carpeta.zip",
+                "document_id": "new_folder_zip"
+            },
+            {
+                "folder": "Desktop",
+                "name": "Notas.txt",
+                "document_id": "meeting_notes"
+            },
+            {
+                "folder": "Desktop",
+                "name": "Tareas.docx",
+                "document_id": "meeting_tasks"
+            },
+            {
+                "folder": "Desktop",
+                "name": "Lista_asistentes.xlsx",
+                "document_id": "meeting_attendees"
+            },
+            {
+                "folder": "Desktop",
+                "name": "Borrador_presupuesto.xlsx",
+                "document_id": "budget_draft"
+            },
+            {
+                "folder": "Desktop",
+                "name": "NO_USAR.pptx",
+                "document_id": "presentation_old"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Employee_List_v1.xlsx",
+                "document_id": "employee_registry_v1"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Employee_List_v2.xlsx",
+                "document_id": "employee_registry_v2"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Organisation_Chart_old.pdf",
+                "document_id": "organisation_chart_old"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Organisation_Chart_current.pdf",
+                "document_id": "organisation_chart_current"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Team_Photo.jpg",
+                "document_id": "team_photo"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Printer_Manual.pdf",
+                "document_id": "printer_manual"
+            },
+            {
+                "folder": "Downloads",
+                "name": "CoffeeMachine.pdf",
+                "document_id": "coffee_machine_manual"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Emergency_Plan.pdf",
+                "document_id": "emergency_plan"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_01.pdf",
+                "document_id": "meeting_01"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_02.pdf",
+                "document_id": "meeting_02"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_03.pdf",
+                "document_id": "meeting_03"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_04.pdf",
+                "document_id": "meeting_04"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_05.pdf",
+                "document_id": "meeting_05"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_06.pdf",
+                "document_id": "meeting_06"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_07.pdf",
+                "document_id": "meeting_07"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_08.pdf",
+                "document_id": "meeting_08"
+            },
+            {
+                "folder": "Archive",
+                "name": "Archive_Index.pdf",
+                "document_id": "archive_index"
+            },
+            {
+                "folder": "Archive",
+                "name": "Historical_Records.pdf",
+                "document_id": "historical_records"
+            },
+            {
+                "folder": "Archive",
+                "name": "Contracts_Registry.xlsx",
+                "document_id": "contracts_registry"
+            },
+            {
+                "folder": "Archive",
+                "name": "Employee_History.pdf",
+                "document_id": "employee_history"
+            },
+            {
+                "folder": "Archive",
+                "name": "Old_Organisation_Notes.docx",
+                "document_id": "old_organisation_notes"
+            },
+            {
+                "folder": "Templates",
+                "name": "Meeting_Template.docx",
+                "document_id": "meeting_template"
+            },
+            {
+                "folder": "Templates",
+                "name": "Decision_Template.docx",
+                "document_id": "decision_template"
+            },
+            {
+                "folder": "Templates",
+                "name": "Internal_Report_Template.docx",
+                "document_id": "internal_report_template"
+            },
+            {
+                "folder": "Old",
+                "name": "Presentation_2022.pptx",
+                "document_id": "presentation_2022"
+            },
+            {
+                "folder": "Old",
+                "name": "Presentation_2023.pptx",
+                "document_id": "presentation_2023"
+            },
+            {
+                "folder": "Old",
+                "name": "Organisation_Backup.pdf",
+                "document_id": "organisation_backup"
+            },
+            {
+                "folder": "Archive",
+                "name": "Document_Access_Log.xlsx",
+                "document_id": "document_access_log"
+            },
+            {
+                "folder": "Archive",
+                "name": "Historical_Archive_Guide.pdf",
+                "document_id": "historical_archive_guide"
+            },
+            {
+                "folder": "Archive",
+                "name": "Archive_Room_Map.pdf",
+                "document_id": "archive_room_map"
+            },
+            {
+                "folder": "Desktop",
+                "name": "Pendientes.txt",
+                "document_id": "pending_tasks"
+            },
+            {
+                "folder": "Desktop",
+                "name": "Ideas reunión.txt",
+                "document_id": "meeting_ideas"
+            },
+            {
+                "folder": "Photos",
+                "name": "Photo_Office_2018.jpg",
+                "document_id": "office_photo_2018"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Meeting_Recording_Notes.docx",
+                "document_id": "meeting_recording_notes"
+            },
+            {
+                "folder": "Old",
+                "name": "Archive_Cleanup_Proposal.pdf",
+                "document_id": "archive_cleanup_proposal"
+            },
+            {
+                "folder": "Old",
+                "name": "Rejected_Proposal.pdf",
+                "document_id": "rejected_proposal"
+            },
+            {
+                "folder": "Old",
+                "name": "Employee_List_Draft.xlsx",
+                "document_id": "employee_list_draft"
+            }
+        ]
+    },
+
+    "reception_pc": {
+  "emails": [
+    {
+      "id": "mail_001",
+      "from": "Miguel Ruiz",
+      "to": "Reception",
+      "date": "07:42",
+      "subject": "Today's visitor",
+      "body": [
+        "Good morning.",
+        "",
+        "We will be receiving a visitor today.",
+        "Wait for my call before sending them to the office.",
+        "",
+        "Do not make any exceptions.",
+        "",
+        "Miguel"
+      ]
+    },
+    {
+      "id": "mail_002",
+      "from": "Marta Romero",
+      "to": "Reception",
+      "date": "07:46",
+      "subject": "New employee list",
+      "body": [
+        "Good morning.",
+        "",
+        "Attached is the updated version of the employee list.",
+        "",
+        "Destroy the previous copy when you can.",
+        "",
+        "Thank you."
+      ]
+    },
+    {
+      "id": "mail_003",
+      "from": "Clara Pérez",
+      "to": "Reception",
+      "date": "07:48",
+      "subject": "Cake",
+      "body": [
+        "Are we still doing the birthday thing this afternoon?",
+        "",
+        "I've ordered a chocolate cake.",
+        "",
+        "Don't tell Carlos."
+      ]
+    },
+    {
+      "id": "mail_004",
+      "from": "Maintenance",
+      "to": "Entire company",
+      "date": "07:51",
+      "subject": "Elevator",
+      "body": [
+        "The elevator will be out of service tomorrow between 09:00 and 11:00.",
+        "",
+        "Sorry for the inconvenience."
+      ]
+    },
+    {
+      "id": "mail_005",
+      "from": "IT",
+      "to": "Entire company",
+      "date": "07:53",
+      "subject": "Mandatory password change",
+      "body": [
+        "This is a reminder that all passwords must be changed before Friday.",
+        "",
+        "Do not reuse old passwords."
+      ]
+    },
+    {
+      "id": "mail_006",
+      "from": "Carlos Vega",
+      "to": "Reception",
+      "date": "07:55",
+      "subject": "Meeting room",
+      "body": [
+        "Is the meeting room free at 09:00?",
+        "",
+        "I need to prepare some documents."
+      ]
+    },
+    {
+      "id": "mail_007",
+      "from": "OfficeLine Supplier",
+      "to": "Reception",
+      "date": "07:56",
+      "subject": "Material delivery",
+      "body": [
+        "The order will arrive tomorrow.",
+        "",
+        "It includes folders, paper, and toner."
+      ]
+    },
+    {
+      "id": "mail_008",
+      "from": "Miguel Ruiz",
+      "to": "Reception",
+      "date": "07:57",
+      "subject": "Visitors",
+      "body": [
+        "Reminder.",
+        "",
+        "No one should access the Archive without authorization.",
+        "",
+        "Miguel"
+      ]
+    },
+    {
+      "id": "mail_009",
+      "from": "Laura López",
+      "to": "Reception",
+      "date": "07:58",
+      "subject": "Do you remember?",
+      "body": [
+        "A slightly strange question.",
+        "",
+        "Do you remember who occupied desk 4 a few months ago?",
+        "",
+        "I can't seem to remember."
+      ]
+    },
+    {
+      "id": "mail_010",
+      "from": "Reception",
+      "to": "Laura López",
+      "date": "08:00",
+      "subject": "Re: Do you remember?",
+      "body": [
+        "Now that you mention it...",
+        "",
+        "Neither do I."
+      ]
+    },
+    {
+      "id": "mail_011",
+      "from": "Marta Romero",
+      "to": "Miguel Ruiz",
+      "cc": "Reception",
+      "date": "08:01",
+      "subject": "Organization chart update",
+      "body": [
+        "Good morning.",
+        "",
+        "I've prepared a new version of the organization chart.",
+        "The previous one is still in the Archive in case it is needed.",
+        "",
+        "Should we replace it today?",
+        "",
+        "Marta"
+      ]
+    },
+    {
+      "id": "mail_012",
+      "from": "Miguel Ruiz",
+      "to": "Marta Romero",
+      "cc": "Reception",
+      "date": "08:02",
+      "subject": "Re: Organization chart update",
+      "body": [
+        "Yes.",
+        "",
+        "Remove the old version from circulation.",
+        "",
+        "There is no need to destroy it.",
+        "",
+        "Miguel"
+      ]
+    },
+    {
+      "id": "mail_013",
+      "from": "Carlos Vega",
+      "to": "Reception",
+      "date": "08:03",
+      "subject": "Who's taking the chairs?",
+      "body": [
+        "Once again, a chair is missing from the meeting room.",
+        "",
+        "If someone took it to another room, please return it."
+      ]
+    },
+    {
+      "id": "mail_014",
+      "from": "Clara Pérez",
+      "to": "Reception",
+      "date": "08:04",
+      "subject": "Team photo",
+      "body": [
+        "I found an old photo of the team.",
+        "",
+        "It's a little bent.",
+        "",
+        "I think I'll leave it in the Archive so it doesn't get lost."
+      ]
+    },
+    {
+      "id": "mail_015",
+      "from": "Laura López",
+      "to": "Reception",
+      "date": "08:05",
+      "subject": "Strange question",
+      "body": [
+        "I don't know if you'll think this is silly...",
+        "",
+        "Do you remember there being a plant next to the window?",
+        "",
+        "I can't picture that area."
+      ]
+    },
+    {
+      "id": "mail_016",
+      "from": "Reception",
+      "to": "Laura López",
+      "date": "08:06",
+      "subject": "Re: Strange question",
+      "body": [
+        "The truth is, neither can I.",
+        "",
+        "But I'd swear it's always been the same."
+      ]
+    },
+    {
+      "id": "mail_017",
+      "from": "IT",
+      "to": "Entire company",
+      "date": "08:07",
+      "subject": "Equipment inventory",
+      "body": [
+        "This week we will be checking all the computers.",
+        "",
+        "Do not disconnect any equipment."
+      ]
+    },
+    {
+      "id": "mail_018",
+      "from": "OfficeLine Supplier",
+      "to": "Reception",
+      "date": "08:08",
+      "subject": "Filing cabinets",
+      "body": [
+        "The order will include four additional filing cabinets.",
+        "",
+        "We expect delivery tomorrow."
+      ]
+    },
+    {
+      "id": "mail_019",
+      "from": "Miguel Ruiz",
+      "to": "Entire company",
+      "date": "08:09",
+      "subject": "Meeting",
+      "body": [
+        "The meeting scheduled for this morning is still on.",
+        "",
+        "Please be punctual."
+      ]
+    },
+    {
+      "id": "mail_020",
+      "from": "M. Romero",
+      "to": "Reception",
+      "date": "08:10",
+      "subject": "Printed list",
+      "body": [
+        "Have you replaced the old copy yet?",
+        "",
+        "I can't find the previous version."
+      ]
+    },
+    {
+      "id": "mail_021",
+      "from": "M. Romero",
+      "to": "Reception",
+      "date": "08:11",
+      "subject": "Physical Archive",
+      "body": [
+        "Good morning.",
+        "",
+        "When you have a moment, take the folders marked in blue to the Archive.",
+        "",
+        "The red ones can stay at reception."
+      ]
+    },
+    {
+      "id": "mail_022",
+      "from": "Reception",
+      "to": "M. Romero",
+      "date": "08:12",
+      "subject": "Re: Physical Archive",
+      "body": [
+        "The old folders too?",
+        "",
+        "Some of them are quite damaged."
+      ]
+    },
+    {
+      "id": "mail_023",
+      "from": "M. Romero",
+      "to": "Reception",
+      "date": "08:13",
+      "subject": "Re: Physical Archive",
+      "body": [
+        "Yes.",
+        "",
+        "Don't throw anything away."
+      ]
+    },
+    {
+      "id": "mail_024",
+      "from": "Clara Pérez",
+      "to": "Reception",
+      "date": "08:15",
+      "subject": "Waiting room",
+      "body": [
+        "There's a lamp flickering.",
+        "",
+        "Let's see if maintenance can come by today."
+      ]
+    },
+    {
+      "id": "mail_025",
+      "from": "IT",
+      "to": "Entire company",
+      "date": "08:16",
+      "subject": "Disk cleanup",
+      "body": [
+        "Over the weekend we will delete temporary files.",
+        "",
+        "Important documents will not be affected."
+      ]
+    },
+    {
+      "id": "mail_026",
+      "from": "Carlos Vega",
+      "to": "Reception",
+      "date": "08:17",
+      "subject": "Blue box",
+      "body": [
+        "Is there still a blue box with invoices at reception?",
+        "",
+        "I can't find it."
+      ]
+    },
+    {
+      "id": "mail_027",
+      "from": "Reception",
+      "to": "Carlos Vega",
+      "date": "08:18",
+      "subject": "Re: Blue box",
+      "body": [
+        "Yes.",
+        "",
+        "It's behind the counter."
+      ]
+    },
+    {
+      "id": "mail_028",
+      "from": "Miguel Ruiz",
+      "to": "Reception",
+      "date": "08:20",
+      "subject": "Office access",
+      "body": [
+        "If someone asks for me while I'm in a meeting,",
+        "tell them I'm unavailable.",
+        "",
+        "Thank you."
+      ]
+    },
+    {
+      "id": "mail_029",
+      "from": "Maintenance",
+      "to": "Entire company",
+      "date": "08:22",
+      "subject": "Archive door",
+      "body": [
+        "The lock has jammed again.",
+        "",
+        "It will be checked this afternoon."
+      ]
+    },
+    {
+      "id": "mail_030",
+      "from": "Laura López",
+      "to": "Reception",
+      "date": "08:24",
+      "subject": "A question",
+      "body": [
+        "Do you remember ever changing the layout of Finance?",
+        "",
+        "I don't know why, but I have the impression it used to be different."
+      ]
+    },
+    {
+      "id": "mail_031",
+      "from": "Clara Pérez",
+      "to": "Reception",
+      "date": "08:26",
+      "subject": "Keys",
+      "body": [
+        "Do you know where the keys to the gray filing cabinet are?",
+        "",
+        "They're nowhere to be found."
+      ]
+    },
+    {
+      "id": "mail_032",
+      "from": "Reception",
+      "to": "Clara Pérez",
+      "date": "08:27",
+      "subject": "Re: Keys",
+      "body": [
+        "Look in the second drawer.",
+        "",
+        "They always end up there."
+      ]
+    },
+    {
+      "id": "mail_033",
+      "from": "M. Ruiz",
+      "to": "Reception",
+      "date": "08:28",
+      "subject": "Schedule",
+      "body": [
+        "Please don't schedule any more meetings this morning.",
+        "",
+        "I'll need the office free."
+      ]
+    },
+    {
+      "id": "mail_034",
+      "from": "Laura López",
+      "to": "Reception",
+      "date": "08:29",
+      "subject": "Photograph",
+      "body": [
+        "I looked at the photograph again.",
+        "",
+        "I think I was getting confused.",
+        "",
+        "I suppose we've always been the same people."
+      ]
+    },
+    {
+      "id": "mail_035",
+      "from": "IT",
+      "to": "Entire company",
+      "date": "08:30",
+      "subject": "Backups",
+      "body": [
+        "The automatic backups have completed successfully.",
+        "",
+        "No action is required."
+      ]
+    },
+    {
+      "id": "mail_036",
+      "from": "Carlos Vega",
+      "to": "Reception",
+      "date": "08:31",
+      "subject": "Filing cabinets",
+      "body": [
+        "I found a folder with old contracts.",
+        "",
+        "I'll leave it in the Archive."
+      ]
+    },
+    {
+      "id": "mail_037",
+      "from": "Miguel Ruiz",
+      "to": "Reception",
+      "date": "08:33",
+      "subject": "Documentation",
+      "body": [
+        "If anyone asks to consult old documentation,",
+        "they must ask me personally."
+      ]
+    },
+    {
+      "id": "mail_038",
+      "from": "Marta Romero",
+      "to": "Reception",
+      "date": "08:34",
+      "subject": "Former employee",
+      "body": [
+        "I'm reviewing some contracts.",
+        "",
+        "There's a signature I can't identify.",
+        "",
+        "I'll take a closer look later."
+      ]
+    },
+    {
+      "id": "mail_039",
+      "from": "Reception",
+      "to": "Marta Romero",
+      "date": "08:35",
+      "subject": "Re: Former employee",
+      "body": [
+        "Let me know if you need help.",
+        "",
+        "Maybe Carlos remembers something."
+      ]
+    },
+    {
+      "id": "mail_040",
+      "from": "Miguel Ruiz",
+      "to": "Entire company",
+      "date": "08:37",
+      "subject": "Good morning",
+      "body": [
+        "Thank you for your work over the past few weeks.",
+        "",
+        "See you at the meeting."
+      ]
+    }
+  ],
+  "chats": [
+    {
+      "id": "recepcion_contratos_mensajero",
+      "with": "Marta Romero",
+      "messages": [
+        {
+          "sender": "Marta",
+          "text": "Good morning, Laura."
+        },
+        {
+          "sender": "Clara",
+          "text": "Good morning!"
+        },
+        {
+          "sender": "Marta",
+          "text": "Has the courier arrived yet?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Not yet."
+        },
+        {
+          "sender": "Marta",
+          "text": "They're bringing some contracts."
+        },
+        {
+          "sender": "Clara",
+          "text": "I'll let you know as soon as they arrive."
+        },
+        {
+          "sender": "Marta",
+          "text": "Thanks."
+        },
+        {
+          "sender": "Clara",
+          "text": "That's what I'm here for :)"
+        }
+      ]
+    },
+    {
+      "id": "recepcion_documentos_originales",
+      "with": "Miguel",
+      "messages": [
+        {
+          "sender": "Clara",
+          "text": "There are several people asking about old documents."
+        },
+        {
+          "sender": "Miguel",
+          "text": "Who?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Two clients and a supplier."
+        },
+        {
+          "sender": "Miguel",
+          "text": "Have them request a copy."
+        },
+        {
+          "sender": "Clara",
+          "text": "One of them insists on consulting the original."
+        },
+        {
+          "sender": "Miguel",
+          "text": "No."
+        },
+        {
+          "sender": "Clara",
+          "text": "Not even accompanied?"
+        },
+        {
+          "sender": "Miguel",
+          "text": "Not even accompanied."
+        },
+        {
+          "sender": "Clara",
+          "text": "All right."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_envio_certificado_ruiz",
+      "with": "Express Courier",
+      "messages": [
+        {
+          "sender": "Courier",
+          "text": "Good morning. We have a registered delivery for Ruiz."
+        },
+        {
+          "sender": "Clara",
+          "text": "Perfect. You can leave it at reception."
+        },
+        {
+          "sender": "Courier",
+          "text": "We need his signature."
+        },
+        {
+          "sender": "Clara",
+          "text": "He's in a meeting right now."
+        },
+        {
+          "sender": "Courier",
+          "text": "Should we wait?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Yes, he usually finishes quickly."
+        },
+        {
+          "sender": "Courier",
+          "text": "All right."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_carlos_coartada_cafetera",
+      "with": "Carlos Vega",
+      "messages": [
+        {
+          "sender": "Carlos",
+          "text": "I need a favor."
+        },
+        {
+          "sender": "Clara",
+          "text": "Depends."
+        },
+        {
+          "sender": "Carlos",
+          "text": "If they call asking for me..."
+        },
+        {
+          "sender": "Clara",
+          "text": "What should I say?"
+        },
+        {
+          "sender": "Carlos",
+          "text": "That I'm in a meeting."
+        },
+        {
+          "sender": "Clara",
+          "text": "And where are you really?"
+        },
+        {
+          "sender": "Carlos",
+          "text": "Trying to fix the coffee machine."
+        },
+        {
+          "sender": "Clara",
+          "text": "That also counts as a meeting."
+        },
+        {
+          "sender": "Carlos",
+          "text": "I knew I could count on you."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_ana_archivo",
+      "with": "Marta Romero",
+      "messages": [
+        {
+          "sender": "Marta",
+          "text": "Have you seen Ana?"
+        },
+        {
+          "sender": "Clara",
+          "text": "She's gone down to the Archive."
+        },
+        {
+          "sender": "Marta",
+          "text": "Again."
+        },
+        {
+          "sender": "Clara",
+          "text": "Yes."
+        },
+        {
+          "sender": "Marta",
+          "text": "She spends more time there than at her desk."
+        },
+        {
+          "sender": "Clara",
+          "text": "She says she always finds something that needs doing."
+        },
+        {
+          "sender": "Marta",
+          "text": "I don't know how she can find her way around in there."
+        },
+        {
+          "sender": "Clara",
+          "text": "I'd get lost in five minutes."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_proyector_servicio_tecnico",
+      "with": "Technical Support",
+      "messages": [
+        {
+          "sender": "Technical Support",
+          "text": "Is the projector still causing problems?"
+        },
+        {
+          "sender": "Clara",
+          "text": "It works today."
+        },
+        {
+          "sender": "Technical Support",
+          "text": "Are you sure?"
+        },
+        {
+          "sender": "Clara",
+          "text": "For now, yes."
+        },
+        {
+          "sender": "Technical Support",
+          "text": "Then you'd better not touch it."
+        },
+        {
+          "sender": "Clara",
+          "text": "That was exactly my plan."
+        },
+        {
+          "sender": "Technical Support",
+          "text": "Wise decision."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_miguel_nombres",
+      "with": "Miguel",
+      "messages": [
+        {
+          "sender": "Clara",
+          "text": "Just curious."
+        },
+        {
+          "sender": "Miguel",
+          "text": "Go ahead."
+        },
+        {
+          "sender": "Clara",
+          "text": "How do you manage to remember everyone's name?"
+        },
+        {
+          "sender": "Miguel",
+          "text": "It's part of the job."
+        },
+        {
+          "sender": "Clara",
+          "text": "I still mix up the suppliers."
+        },
+        {
+          "sender": "Miguel",
+          "text": "You'll stop doing that with time."
+        },
+        {
+          "sender": "Clara",
+          "text": "I've been here for four years."
+        },
+        {
+          "sender": "Miguel",
+          "text": "Then you just need a little more."
+        },
+        {
+          "sender": "Clara",
+          "text": "hahahah"
+        }
+      ]
+    },
+    {
+      "id": "recepcion_ana_esperando_alguien",
+      "with": "Laura López",
+      "messages": [
+        {
+          "sender": "Laura",
+          "text": "Has anyone come asking for me?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Just the delivery driver."
+        },
+        {
+          "sender": "Laura",
+          "text": "Thank goodness."
+        },
+        {
+          "sender": "Clara",
+          "text": "Were you expecting someone?"
+        },
+        {
+          "sender": "Laura",
+          "text": "No... well... maybe."
+        },
+        {
+          "sender": "Clara",
+          "text": "That didn't sound very convincing."
+        },
+        {
+          "sender": "Laura",
+          "text": "Forget it, I'll tell you later."
+        },
+        {
+          "sender": "Clara",
+          "text": "Noted :)"
+        }
+      ]
+    },
+    {
+      "id": "recepcion_carlos_calculadora",
+      "with": "Carlos Vega",
+      "messages": [
+        {
+          "sender": "Carlos",
+          "text": "Do you know who took my calculator?"
+        },
+        {
+          "sender": "Clara",
+          "text": "The gray one?"
+        },
+        {
+          "sender": "Carlos",
+          "text": "Yes."
+        },
+        {
+          "sender": "Clara",
+          "text": "Have you looked under the monitor?"
+        },
+        {
+          "sender": "Carlos",
+          "text": "..."
+        },
+        {
+          "sender": "Carlos",
+          "text": "It was under the monitor."
+        },
+        {
+          "sender": "Clara",
+          "text": "That's the third time this month."
+        },
+        {
+          "sender": "Carlos",
+          "text": "No need to keep count."
+        },
+        {
+          "sender": "Clara",
+          "text": "Too late hahaha"
+        }
+      ]
+    },
+    {
+      "id": "recepcion_buen_ambiente_lunes",
+      "with": "Marta Romero",
+      "messages": [
+        {
+          "sender": "Marta",
+          "text": "There's a really good atmosphere in the office today."
+        },
+        {
+          "sender": "Clara",
+          "text": "Yes, it's been a while since I've seen everyone this relaxed."
+        },
+        {
+          "sender": "Marta",
+          "text": "Enjoy it while it lasts."
+        },
+        {
+          "sender": "Clara",
+          "text": "Are you that pessimistic?"
+        },
+        {
+          "sender": "Marta",
+          "text": "No."
+        },
+        {
+          "sender": "Marta",
+          "text": "I just know Mondays."
+        },
+        {
+          "sender": "Clara",
+          "text": "Now that's experience."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_pedido_cafe",
+      "with": "Supplier - Café Sierra",
+      "messages": [
+        {
+          "sender": "Supplier",
+          "text": "Good morning. We're confirming the usual order."
+        },
+        {
+          "sender": "Clara",
+          "text": "Perfect."
+        },
+        {
+          "sender": "Supplier",
+          "text": "Are you still at the same number of people?"
+        },
+        {
+          "sender": "Clara",
+          "text": "As far as I know, yes."
+        },
+        {
+          "sender": "Supplier",
+          "text": "I ask because some weeks you consume quite a bit more coffee."
+        },
+        {
+          "sender": "Clara",
+          "text": "It probably depends on the meetings."
+        },
+        {
+          "sender": "Supplier",
+          "text": "Makes sense. I'll leave it there, then."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_carlos_esperando_cafe",
+      "with": "Carlos Vega",
+      "messages": [
+        {
+          "sender": "Carlos",
+          "text": "Laura..."
+        },
+        {
+          "sender": "Clara",
+          "text": "Yes?"
+        },
+        {
+          "sender": "Carlos",
+          "text": "Has the coffee arrived yet?"
+        },
+        {
+          "sender": "Clara",
+          "text": "No."
+        },
+        {
+          "sender": "Carlos",
+          "text": "So there's still hope?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Hope for what?"
+        },
+        {
+          "sender": "Carlos",
+          "text": "For surviving the meeting."
+        },
+        {
+          "sender": "Clara",
+          "text": "😂"
+        }
+      ]
+    },
+    {
+      "id": "recepcion_miguel_documentos_archivo",
+      "with": "Miguel",
+      "messages": [
+        {
+          "sender": "Clara",
+          "text": "There's something that has always amused me."
+        },
+        {
+          "sender": "Miguel",
+          "text": "What?"
+        },
+        {
+          "sender": "Clara",
+          "text": "When someone doesn't know where a document is..."
+        },
+        {
+          "sender": "Clara",
+          "text": "They always end up asking you."
+        },
+        {
+          "sender": "Miguel",
+          "text": "It's part of my job."
+        },
+        {
+          "sender": "Clara",
+          "text": "But they don't even ask in the Archive first."
+        },
+        {
+          "sender": "Miguel",
+          "text": "Sometimes it's faster that way."
+        },
+        {
+          "sender": "Clara",
+          "text": "If an entire building ever disappeared, they'd ask you too."
+        },
+        {
+          "sender": "Miguel",
+          "text": "I hope that doesn't happen."
+        },
+        {
+          "sender": "Clara",
+          "text": "Let's hope so hahaha"
+        }
+      ]
+    },
+    {
+      "id": "recepcion_ana_firma_documento",
+      "with": "Laura López",
+      "messages": [
+        {
+          "sender": "Laura",
+          "text": "Has Miguel left the office yet?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Not yet."
+        },
+        {
+          "sender": "Laura",
+          "text": "I need him to sign a document."
+        },
+        {
+          "sender": "Clara",
+          "text": "Leave it here if you want."
+        },
+        {
+          "sender": "Laura",
+          "text": "I'd rather give it to him in person."
+        },
+        {
+          "sender": "Clara",
+          "text": "As you wish."
+        },
+        {
+          "sender": "Clara",
+          "text": "Although he always says afterward that there was no need to wait."
+        },
+        {
+          "sender": "Laura",
+          "text": "Yeah..."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_carlos_jazz_reuniones",
+      "with": "Carlos Vega",
+      "messages": [
+        {
+          "sender": "Carlos",
+          "text": "Who put music on in the meeting room?"
+        },
+        {
+          "sender": "Clara",
+          "text": "I think Marta."
+        },
+        {
+          "sender": "Carlos",
+          "text": "I've been listening to jazz for half an hour."
+        },
+        {
+          "sender": "Clara",
+          "text": "It was worse when she put on classical music."
+        },
+        {
+          "sender": "Carlos",
+          "text": "That happened?"
+        },
+        {
+          "sender": "Clara",
+          "text": "It lasted a day."
+        },
+        {
+          "sender": "Carlos",
+          "text": "WHAT?!"
+        },
+        {
+          "sender": "Clara",
+          "text": "That's what we've got."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_candidato_entrevista",
+      "with": "Marta",
+      "messages": [
+        {
+          "sender": "Marta",
+          "text": "Has the candidate arrived yet?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Yes."
+        },
+        {
+          "sender": "Marta",
+          "text": "What impression did you get?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Very nervous."
+        },
+        {
+          "sender": "Marta",
+          "text": "That's normal."
+        },
+        {
+          "sender": "Clara",
+          "text": "He hasn't stopped looking at the clock."
+        },
+        {
+          "sender": "Marta",
+          "text": "I suppose he wants to make a good impression."
+        },
+        {
+          "sender": "Clara",
+          "text": "I'm sure."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_puerta_archivo_mantenimiento",
+      "with": "Maintenance",
+      "messages": [
+        {
+          "sender": "Maintenance",
+          "text": "Good morning. Are you still having problems with the Archive door?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Which door?"
+        },
+        {
+          "sender": "Maintenance",
+          "text": "The inner one."
+        },
+        {
+          "sender": "Clara",
+          "text": "I didn't know there was a problem."
+        },
+        {
+          "sender": "Maintenance",
+          "text": "Then I suppose it's already been fixed."
+        },
+        {
+          "sender": "Clara",
+          "text": "I suppose..."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_miguel_organiza_archivo",
+      "with": "Miguel Ruiz",
+      "messages": [
+        {
+          "sender": "Clara",
+          "text": "Can I ask you something silly?"
+        },
+        {
+          "sender": "Miguel",
+          "text": "Sure."
+        },
+        {
+          "sender": "Clara",
+          "text": "Why do you never let anyone organize the documents in the Archive?"
+        },
+        {
+          "sender": "Miguel",
+          "text": "Because it's faster if I do it myself."
+        },
+        {
+          "sender": "Clara",
+          "text": "Laura says she always offers."
+        },
+        {
+          "sender": "Miguel",
+          "text": "I know."
+        },
+        {
+          "sender": "Clara",
+          "text": "It must take you a long time."
+        },
+        {
+          "sender": "Miguel",
+          "text": "It's worth it."
+        },
+        {
+          "sender": "Clara",
+          "text": "I'll never understand how you remember where everything goes."
+        },
+        {
+          "sender": "Clara",
+          "text": "Every time I go looking for something, I have a hell of a time."
+        },
+        {
+          "sender": "Miguel",
+          "text": "Habit."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_carlos_llaves_coche",
+      "with": "Carlos Vega",
+      "messages": [
+        {
+          "sender": "Carlos",
+          "text": "Can you do me a favor?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Depends on the favor."
+        },
+        {
+          "sender": "Carlos",
+          "text": "If anyone asks, I've been looking for a report for five minutes."
+        },
+        {
+          "sender": "Clara",
+          "text": "And what have you really been doing?"
+        },
+        {
+          "sender": "Carlos",
+          "text": "I've been looking for my car keys for five minutes."
+        },
+        {
+          "sender": "Clara",
+          "text": "Have you looked in your pocket?"
+        },
+        {
+          "sender": "Carlos",
+          "text": "..."
+        },
+        {
+          "sender": "Carlos",
+          "text": "I don't want to talk about it."
+        },
+        {
+          "sender": "Clara",
+          "text": "Same as always. Hahaha"
+        }
+      ]
+    },
+    {
+      "id": "recepcion_informe_rrhh_plantilla",
+      "with": "Marta Romero",
+      "messages": [
+        {
+          "sender": "Clara",
+          "text": "Have you finished the Human Resources report yet?"
+        },
+        {
+          "sender": "Marta",
+          "text": "Yes."
+        },
+        {
+          "sender": "Clara",
+          "text": "I thought it would take you all day."
+        },
+        {
+          "sender": "Marta",
+          "text": "I reused last year's."
+        },
+        {
+          "sender": "Clara",
+          "text": "That sounds unprofessional."
+        },
+        {
+          "sender": "Marta",
+          "text": "I only reused the template."
+        },
+        {
+          "sender": "Clara",
+          "text": "Now that sounds professional."
+        },
+        {
+          "sender": "Marta",
+          "text": "Much better. ;)"
+        }
+      ]
+    },
+    {
+      "id": "recepcion_ana_archivador_verde",
+      "with": "Laura López",
+      "messages": [
+        {
+          "sender": "Laura",
+          "text": "Have you seen the green filing cabinet?"
+        },
+        {
+          "sender": "Clara",
+          "text": "No."
+        },
+        {
+          "sender": "Laura",
+          "text": "I'm starting to think they disappear on their own."
+        },
+        {
+          "sender": "Clara",
+          "text": "Again?"
+        },
+        {
+          "sender": "Laura",
+          "text": "They always turn up eventually."
+        },
+        {
+          "sender": "Clara",
+          "text": "Then don't worry."
+        },
+        {
+          "sender": "Laura",
+          "text": "That's precisely what's strange."
+        },
+        {
+          "sender": "Clara",
+          "text": "What is?"
+        },
+        {
+          "sender": "Laura",
+          "text": "That it doesn't even surprise me anymore."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_revision_control_accesos",
+      "with": "Security Company",
+      "messages": [
+        {
+          "sender": "Security",
+          "text": "Good morning. We confirm the annual inspection of the access control system."
+        },
+        {
+          "sender": "Clara",
+          "text": "Perfect."
+        },
+        {
+          "sender": "Security",
+          "text": "Have there been any incidents since our last visit?"
+        },
+        {
+          "sender": "Clara",
+          "text": "None that I know of."
+        },
+        {
+          "sender": "Security",
+          "text": "Especially in the restricted areas."
+        },
+        {
+          "sender": "Clara",
+          "text": "Everything is quiet."
+        },
+        {
+          "sender": "Security",
+          "text": "Then it should be a quick inspection."
+        },
+        {
+          "sender": "Clara",
+          "text": "Great."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_ana_reserva_sala",
+      "with": "Laura López",
+      "messages": [
+        {
+          "sender": "Laura",
+          "text": "Is the meeting room free?"
+        },
+        {
+          "sender": "Clara",
+          "text": "It is until nine."
+        },
+        {
+          "sender": "Laura",
+          "text": "Perfect."
+        },
+        {
+          "sender": "Clara",
+          "text": "Do you need me to prepare anything?"
+        },
+        {
+          "sender": "Laura",
+          "text": "Just the projector."
+        },
+        {
+          "sender": "Clara",
+          "text": "Cross your fingers."
+        },
+        {
+          "sender": "Laura",
+          "text": "Is it acting up again?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Not yet today, but you never know."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_miguel_memoria_archivo",
+      "with": "Miguel",
+      "messages": [
+        {
+          "sender": "Clara",
+          "text": "Sometimes I get the feeling that you know this company better than your own home."
+        },
+        {
+          "sender": "Miguel",
+          "text": "I spend a lot of hours here."
+        },
+        {
+          "sender": "Clara",
+          "text": "That's not what I mean."
+        },
+        {
+          "sender": "Clara",
+          "text": "It's as if you knew where every folder was before looking for it."
+        },
+        {
+          "sender": "Miguel",
+          "text": "After so many years, you end up learning."
+        },
+        {
+          "sender": "Clara",
+          "text": "Do you never make mistakes?"
+        },
+        {
+          "sender": "Miguel",
+          "text": "Of course I do."
+        },
+        {
+          "sender": "Clara",
+          "text": "Well, I still haven't seen you make one."
+        },
+        {
+          "sender": "Miguel",
+          "text": "It'll happen someday."
+        },
+        {
+          "sender": "Clara",
+          "text": "I'll celebrate that day with coffee."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_pedido_papel",
+      "with": "Supplier - OfficeSupplies",
+      "messages": [
+        {
+          "sender": "OfficeSupplies",
+          "text": "Good morning. We'll make the usual delivery tomorrow."
+        },
+        {
+          "sender": "Clara",
+          "text": "Perfect."
+        },
+        {
+          "sender": "OfficeSupplies",
+          "text": "Do you need to increase the paper order?"
+        },
+        {
+          "sender": "Clara",
+          "text": "I think we're fine."
+        },
+        {
+          "sender": "OfficeSupplies",
+          "text": "Last time you ordered quite a bit more than usual."
+        },
+        {
+          "sender": "Clara",
+          "text": "I'll check and let you know."
+        },
+        {
+          "sender": "OfficeSupplies",
+          "text": "Great. Thanks."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_visitante_espera",
+      "with": "Miguel",
+      "messages": [
+        {
+          "sender": "Miguel",
+          "text": "When the visitor arrives, make them wait a few minutes."
+        },
+        {
+          "sender": "Clara",
+          "text": "All right."
+        },
+        {
+          "sender": "Clara",
+          "text": "Should I offer them coffee?"
+        },
+        {
+          "sender": "Miguel",
+          "text": "Yes."
+        },
+        {
+          "sender": "Clara",
+          "text": "And if they ask how long you'll take?"
+        },
+        {
+          "sender": "Miguel",
+          "text": "Tell them I'm finishing a meeting."
+        },
+        {
+          "sender": "Clara",
+          "text": "As always :)"
+        },
+        {
+          "sender": "Miguel",
+          "text": "As always."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_tecnico_fotocopiadora",
+      "with": "Carlos",
+      "messages": [
+        {
+          "sender": "Carlos",
+          "text": "Has the photocopier technician arrived yet?"
+        },
+        {
+          "sender": "Clara",
+          "text": "No."
+        },
+        {
+          "sender": "Carlos",
+          "text": "He's been saying he's coming for two weeks."
+        },
+        {
+          "sender": "Clara",
+          "text": "Last week he said he'd been here."
+        },
+        {
+          "sender": "Carlos",
+          "text": "Well, I didn't see him."
+        },
+        {
+          "sender": "Clara",
+          "text": "Neither did I."
+        },
+        {
+          "sender": "Carlos",
+          "text": "Maybe he came while we were in a meeting."
+        },
+        {
+          "sender": "Clara",
+          "text": "I suppose."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_decoracion_cambiada",
+      "with": "Marta Romero",
+      "messages": [
+        {
+          "sender": "Clara",
+          "text": "I've changed the reception decor."
+        },
+        {
+          "sender": "Marta",
+          "text": "What did you change?"
+        },
+        {
+          "sender": "Clara",
+          "text": "I moved the plant and the picture."
+        },
+        {
+          "sender": "Marta",
+          "text": "I'd swear they've always been there."
+        },
+        {
+          "sender": "Clara",
+          "text": "Well, they haven't."
+        },
+        {
+          "sender": "Clara",
+          "text": "I moved them this morning."
+        },
+        {
+          "sender": "Marta",
+          "text": "How strange..."
+        },
+        {
+          "sender": "Marta",
+          "text": "I remembered them exactly the same."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_limpieza_acceso_archivo",
+      "with": "Cleaning Company",
+      "messages": [
+        {
+          "sender": "Cleaning",
+          "text": "Good morning. Can we access the offices this afternoon?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Yes, from 18:30 onward."
+        },
+        {
+          "sender": "Cleaning",
+          "text": "The Archive too?"
+        },
+        {
+          "sender": "Clara",
+          "text": "The director would have to authorize that."
+        },
+        {
+          "sender": "Cleaning",
+          "text": "As always."
+        },
+        {
+          "sender": "Clara",
+          "text": "Yes, the rules are quite strict."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_ana_gafas",
+      "with": "Laura López",
+      "messages": [
+        {
+          "sender": "Laura",
+          "text": "Have you seen my glasses?"
+        },
+        {
+          "sender": "Clara",
+          "text": "The black ones?"
+        },
+        {
+          "sender": "Laura",
+          "text": "Yes."
+        },
+        {
+          "sender": "Clara",
+          "text": "You're wearing them."
+        },
+        {
+          "sender": "Laura",
+          "text": "..."
+        },
+        {
+          "sender": "Laura",
+          "text": "I'm going to pretend this never happened."
+        },
+        {
+          "sender": "Clara",
+          "text": "Deal hahaha"
+        }
+      ]
+    }
+  ],
+
+        "files": [
+            {
+                "name": "Employee_List.xlsx",
+                "document_id": "employee_registry_v2"
+            },
+            {
+                "name": "Employee_List_OLD.xlsx",
+                "document_id": "employee_registry_v1"
+            },
+            {
+                "name": "Reception_Manual.pdf",
+                "document_id": "reception_manual"
+            },
+            {
+                "name": "Visitor_Protocol.pdf",
+                "document_id": "visitor_protocol"
+            },
+            {
+                "name": "Meeting_Room_Bookings.xlsx",
+                "document_id": "meeting_bookings"
+            },
+            {
+                "name": "Emergency_Contacts.xlsx",
+                "document_id": "emergency_contacts"
+            },
+            {
+                "name": "Suppliers.xlsx",
+                "document_id": "suppliers"
+            },
+            {
+                "name": "Office_Map.png",
+                "document_id": "office_map"
+            },
+            {
+                "name": "Office_Layout_v1.pdf",
+                "document_id": "office_layout_old"
+            },
+            {
+                "name": "Office_Layout_v2.pdf",
+                "document_id": "office_layout_new"
+            },
+            {
+                "name": "Organisation_Chart_v1.pdf",
+                "document_id": "organisation_chart_old"
+            },
+            {
+                "name": "Organisation_Chart_v2.pdf",
+                "document_id": "organisation_chart_new"
+            },
+            {
+                "name": "Reception_Checklist.docx",
+                "document_id": "reception_checklist"
+            },
+            {
+                "name": "Morning_Tasks.docx",
+                "document_id": "morning_tasks"
+            },
+            {
+                "name": "Employee_Photos.zip",
+                "document_id": "employee_photos"
+            },
+            {
+                "name": "Office_Photos.zip",
+                "document_id": "office_photos"
+            },
+            {
+                "name": "Employee_Seating.pdf",
+                "document_id": "employee_seating"
+            },
+            {
+                "name": "Building_Evacuation.pdf",
+                "document_id": "evacuation_plan"
+            },
+            {
+                "name": "Reception_Log_2024.xlsx",
+                "document_id": "reception_log"
+            },
+            {
+                "name": "Maintenance_History.pdf",
+                "document_id": "maintenance_history"
+            },
+            {
+                "name": "Reception_Checklist_v2.docx",
+                "document_id": "reception_checklist_v2"
+            },
+            {
+                "name": "Employee_List_PRINT.pdf",
+                "document_id": "employee_list_print"
+            },
+            {
+                "name": "Building_Map.pdf",
+                "document_id": "building_map"
+            },
+            {
+                "name": "Meeting_Room_Reservations.xlsx",
+                "document_id": "meeting_room_reservations"
+            },
+            {
+                "name": "Reception_Log_Old.xlsx",
+                "document_id": "reception_log_old"
+            },
+            {
+                "name": "Reception_Log_Current.xlsx",
+                "document_id": "reception_log_current"
+            }
+        ]
+    }
+}

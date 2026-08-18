@@ -1,0 +1,857 @@
+{
+  "magazine": {
+    "title": "Tech Monthly - Edició d'abril",
+    "pages": [
+      "Editorial\n\nLa intel·ligència artificial continua transformant totes les indústries. Les empreses que van invertir-hi prompte ja estan reestructurant departaments, automatitzant tasques repetitives i redefinint els rols tradicionals de l'oficina. Mentre molts celebren aquests avanços, els experts adverteixen que la documentació i la gestió del coneixement són cada vegada més importants a mesura que les organitzacions es tornen més complexes.",
+      "Article destacat\n\nLa infraestructura en el núvol s'ha convertit en la columna vertebral de les empreses modernes. En lloc de mantindre servidors físics, les organitzacions estan migrant els seus sistemes a plataformes de núvol escalables. Els analistes estimen que més del 80% de les empreses mitjanes completaran aquesta transició durant els pròxims cinc anys.",
+      "Entrevista\n\nLa consultora de ciberseguretat Elena Navarro explica que l'error humà continua sent la principal causa de les filtracions de dades. «La tecnologia millora cada any», afirma, «però els documents oblidats, els procediments desactualitzats i una mala gestió dels registres continuen creant riscos innecessaris.»",
+      "Focus en les empreses emergents\n\nDiverses empreses tecnològiques europees han atret una inversió rècord aquest trimestre. La majoria comparteixen una característica comuna: una organització interna sòlida i una gestió acurada de les dades històriques de l'empresa."
+    ]
+  },
+
+  "waiting_notepad": {
+    "title": "Bloc de recepció",
+    "pages": [
+      "Tasques per a aquest matí\n\n☑ Imprimir els documents de l'entrevista\n☑ Provar la impressora de targetes de visitant\n☑ Telefonar al manteniment de la impressora\n☐ Comprar càpsules de cafè\n☐ Regar les plantes de recepció",
+      "Recordatoris\n\n• Preguntar a M. per l'accés a l'arxiu.\n• Tornar la clau de la sala de reunions.\n• Confirmar el lliurament de demà.\n• Demanar nous cartutxos de tòner.\n• Substituir la targeta de visitant danyada.",
+      "Notes personals\n\nL'arxiu ha estat més ocupat del normal aquesta setmana. Marta ha comentat que encara no ha acabat de reorganitzar les carpetes antigues. Miguel ha demanat que no es retire res fins a nou avís."
+    ]
+  },
+
+  "reception_agenda": {
+    "title": "Agenda de recepció",
+    "pages": [
+      "08:00 Obertura de l'oficina\n08:15 Lliuraments\n08:30 Entrevista a un candidat\n08:45 Recollida del missatger\n09:00 Reunió setmanal de direcció\n09:20 Inventari de l'arxiu",
+      "09:45 Proveïdor de cafè\n10:00 Miguel Ruiz\n10:15 Marta Romero\n11:00 Manteniment informàtic\n11:30 Empresa de neteja\n12:00 Visitants externs",
+      "Notes\n\nSala de reunions reservada fins a les 10:30.\nPreparar les targetes de visitant abans de les 08:45.\nAdministració ha sol·licitat accés a l'arxiu."
+    ]
+  },
+
+  "wall_calendar": {
+    "title": "Calendari de l'oficina",
+    "pages": [
+      "Dilluns\n\n18 - Aniversari de Laura\n25 - Aniversari de Sergio\n\nDivendres: Simulacre d'incendi a les 11:00.",
+      "Pròximament\n\nRevisió trimestral la setmana que ve.\nManteniment de l'oficina dijous de vesprada.\nSala de reunions no disponible dimarts de vesprada.",
+      "Nota adhesiva\n\nRecorda actualitzar la fitxa de contactes d'emergència abans que acabe el mes."
+    ]
+  },
+
+  "employee_registry": {
+    "title": "Registre d'empleats",
+    "pages": [
+      "Clara Pérez\nRecepció\nExtensió: 101\nIncorporació: 2019\n\nResponsable dels visitants, els lliuraments i les reserves de la sala de reunions.",
+      "Miguel Ruiz\nDirector\nExtensió: 201\nIncorporació: 2009\n\nResponsable de la gestió de l'empresa i de l'aprovació final de la documentació interna.",
+      "Marta Romero\nRecursos Humans\nExtensió: 203\nIncorporació: 2016\n\nSelecció, contractes i expedients de personal.",
+      "Carlos Vega\nFinances\nExtensió: 205\nIncorporació: 2018\n\nPressupostos, proveïdors i informes trimestrals.",
+      "Laura López\nAdministració\nExtensió: 107\nIncorporació: 2021\n\nManteniment de l'arxiu, inventari i organització de documents."
+    ]
+  },
+
+  "contracts_folder": {
+    "title": "Contractes dels empleats",
+    "pages": [
+      "Contingut\n\nClara Pérez\nMarta Romero\nCarlos Vega\nLaura López\n\nCada contracte conté les condicions de contractació, informació salarial i clàusules de confidencialitat.",
+      "Índex\n\nPàgina 1 - Clara Pérez\nPàgina 2 - Marta Romero\nPàgina 3 - Carlos Vega\nPàgina 4 - Laura López\nPàgina 5 - Reservada",
+      "El separador final està buit.\n\nUna etiqueta diu:\n«Documentació addicional dels empleats.»\n\nNo queda cap document darrere."
+    ]
+  },
+
+  "team_photo_doc": {
+    "title": "Fotografia de l'empresa",
+    "pages": [
+      "Una fotografia de grup emmarcada mostra cinc empleats davant de l'entrada de l'empresa. Tots somriuen. La imatge s'ha esvaït lleugerament amb el pas dels anys.",
+      "La cantonada inferior dreta ha sigut doblegada diverses vegades. El peu de foto de sota està molt deteriorat i només en queden visibles unes poques lletres.",
+      "Al darrere de la fotografia algú ha escrit:\n\n«Reunió anual de l'empresa.»\n\nLa data és quasi impossible de llegir."
+    ]
+  },
+
+  "shredded_document": {
+    "title": "Document triturat",
+    "pages": [
+      "Hi ha xicotetes tires de paper escampades damunt de l'escriptori.\n\nLa majoria de les frases són impossibles de reconstruir.",
+      "Fragments visibles:\n\n«...aprovat...»\n«...versió anterior...»\n«...conservar...»\n«...Director...»",
+      "Els fragments semblen pertànyer a un document intern oficial, però falta massa part de la pàgina per entendre'n el significat original."
+    ]
+  },
+
+  "company_board": {
+    "title": "Informació de l'empresa",
+    "pages": [
+      "Organització\n\nDirector\nRecursos Humans\nFinances\nAdministració\nRecepció",
+      "Directori de l'edifici\n\nRecepció ←\nArxiu\nSala de reunions\nDespatx del director\nMagatzem",
+      "Contactes d'emergència\n\nRecepció: 101\nDirector: 201\nSuport informàtic: 301\nSeguretat: 399"
+    ]
+  },
+
+  "desk_notes": {
+    "title": "Notes de l'escriptori",
+    "pages": [
+      "Matí\n\nTelefonar al proveïdor.\nRevisar l'informe trimestral.\nPreparar la sala de reunions.\nRespondre a Recursos Humans.",
+      "Vesprada\n\nRevisar la sol·licitud de l'arxiu.\nDemanar material d'oficina.\nConfirmar el calendari d'entrevistes de la setmana que ve.",
+      "Nota de la cantonada\n\nNo oblides M.R.\nComprova la llista de contractes antics abans de la reunió."
+    ]
+  },
+
+  "director_diploma": {
+    "title": "Diploma universitari",
+    "pages": [
+      "Universidad Autónoma\n\nAcredita que\n\nMiguel Ruiz\n\nha completat satisfactòriament el programa de Màster en Administració d'Empreses.",
+      "Any de graduació: 2008\n\nObtingut amb distinció.\n\nSegell oficial de la universitat."
+    ]
+  },
+
+  "office_photo": {
+    "title": "Fotografia emmarcada",
+    "pages": [
+      "Una fotografia emmarcada mostra Miguel Ruiz donant la mà a un altre executiu durant una conferència empresarial. Tots dos porten acreditacions de la conferència.",
+      "El marc ha acumulat una fina capa de pols. Una xicoteta placa de davall diu:\n\n«Conferència Empresarial Anual».",
+      "La data impresa s'ha esvaït quasi completament i ja no es pot llegir."
+    ]
+  },
+
+  "whiteboard_notes": {
+    "title": "Pissarra de la reunió",
+    "pages": [
+      "Temes d'avui\n\n• Revisió del pressupost\n• Selecció de personal\n• Migració de servidors\n• Organització de l'arxiu\n• Substitució de la màquina de cafè",
+      "Tasques\n\nCarlos - Informe financer\nClara - Logística de visitants\nLaura - Inventari de l'arxiu\nMarta - Actualitzacions de selecció",
+      "Cantonada inferior\n\n«Porta la documentació anterior si cal.»"
+    ]
+  },
+
+  "meeting_schedule": {
+    "title": "Reunió setmanal",
+    "pages": [
+      "09:00 Reunió setmanal de direcció\n\nDuració prevista: 60 minuts.\nLloc: Sala de reunions A.",
+      "Assistents\n\nMiguel Ruiz\nMarta Romero\nClara Pérez\nCarlos Vega\nLaura López",
+      "Ordre del dia\n\n1. Revisió del pressupost\n2. Selecció de personal\n3. Organització de l'arxiu\n4. Documentació pendent\n5. Debat obert"
+    ]
+  },
+
+  "coat_bag_contents": {
+    "title": "Bossa",
+    "pages": [
+      "La bossa penja del penjador, al costat d'un abric.\n\nA dins hi ha una cartera, un paquet de mocadors, un carregador de telèfon, un xicotet necesser i una bossa reutilitzable acuradament plegada.\n\nNo sembla haver-hi res inusual dins.",
+      "En una butxaca lateral trobes una llista escrita a mà.\n\n• Comprar menjar per a Nala.\n• Recollir el paquet.\n• Telefonar al veterinari.\n• Comprar piles AA.\n\nNo hi ha cap nom que identifique el propietari de la bossa.",
+      "Tanques la bossa amb cura.\n\nContinuar regirant les pertinences personals d'una altra persona no sembla una bona idea."
+    ]
+  },
+
+  "plant_shopping_list": {
+    "title": "Llista de la compra arrugada",
+    "pages": [
+      "Mires dins del test, però no hi veus res.\nTanmateix, observes un tros de paper amagat entre el test i la paret.\nL'agafes.",
+      "Lliges el que diu:\n\n• Tomaca\n• Llet\n• Pa\n• Pasta\n• Iogurts\n• Paper de cuina",
+      "Al final algú ha afegit un últim recordatori:\n\n«Telefonar a l'àvia.»\n\nLa lletra canvia lleugerament, com si s'haguera escrit amb pressa."
+    ]
+  },
+
+  "magazine_business": {
+    "title": "Empresa i Gestió - Juny",
+    "pages": [
+      "Editorial\n\nLes xicotetes i mitjanes empreses continuen invertint en digitalització. Cada vegada més departaments estan substituint els processos basats en paper per eines informàtiques, encara que molts experts assenyalen que una bona organització continua sent més important que qualsevol programari.",
+      "Gestió\n\nEls estudis sobre productivitat coincideixen que els millors equips no són necessàriament els més grans, sinó aquells que documenten correctament els seus processos i comparteixen el coneixement entre departaments.",
+      "Entrevista\n\nLa consultora Isabel Romero explica que moltes empreses perden temps buscant informació que ja existeix.\n\n«El problema real no és la falta de documents, sinó no saber on trobar-los.»",
+      "Mercat\n\nDurant aquest trimestre diverses empreses nacionals de consultoria han anunciat processos de reorganització interna per adaptar-se al creixement de la plantilla."
+    ]
+  },
+
+  "magazine_travel": {
+    "title": "Viatges Avui",
+    "pages": [
+      "Escapades\n\nCinc pobles costaners on encara és possible passar un cap de setmana tranquil lluny del turisme massiu.",
+      "Europa\n\nUna guia de rutes de dos dies per diferents capitals europees utilitzant únicament el transport públic.",
+      "Fotografia\n\nLes millors imatges enviades pels lectors mostren eixides de sol als Pirineus, els Alps i la costa portuguesa.",
+      "Consells\n\nAbans de viatjar, sempre és recomanable portar una bateria externa, còpies dels documents i mapes sense connexió."
+    ]
+  },
+
+  "magazine_gardening": {
+    "title": "Jardins i Llar",
+    "pages": [
+      "Plantes d'interior\n\nDiversos estudis indiquen que afegir plantes a les oficines redueix la sensació d'estrés i millora la percepció que els empleats i visitants tenen de l'espai.",
+      "Cures\n\nL'excés de reg continua sent el motiu més habitual pel qual les plantes d'interior es deterioren. És millor regar-les massa poc que massa.",
+      "Decoració\n\nEls tests grans ajuden a dividir els espais oberts sense necessitat d'instal·lar particions o parets permanents."
+    ]
+  },
+
+  "small_plant_nothing": {
+    "title": "Test de planta",
+    "pages": [
+      "Examines amb cura la terra.\n\nNomés hi ha unes quantes fulles seques i una mica d'humitat. No sembla que hi haja res interessant amagat ací."
+    ]
+  },
+
+  "water_notice": {
+    "title": "Avís del dispensador d'aigua",
+    "pages": [
+      "Utilitzeu gots reutilitzables sempre que siga possible.\n\nEls gots d'un sol ús estan reservats per als visitants.",
+      "Si el dispensador es queda sense aigua, aviseu recepció.\n\nNo intenteu substituir l'ampolla vosaltres mateixos."
+    ]
+  },
+
+  "sofa_nothing": {
+    "title": "Entre els coixins",
+    "pages": [
+      "Mous lleugerament els coixins del sofà.\n\nNomés trobes una mica de pols i una molla de pa vella. Res que et cride l'atenció."
+    ]
+  },
+
+  "hidden_receipt_sofa": {
+    "title": "Tiquet de cafeteria",
+    "pages": [
+      "CAFETERIA CENTRAL\n\n08:14\n\n2 cafés\n1 torrada\n\nTOTAL: 7,20 €",
+      "Al darrere algú ha escrit amb bolígraf:\n\n«No oblides l'entrevista de les 08:30.»"
+    ]
+  },
+
+  "safety_leaflet": {
+    "title": "Fullet de seguretat",
+    "pages": [
+      "Normes bàsiques de seguretat\n\n• Mantindre lliures les eixides d'emergència.\n• Comunicar qualsevol avaria.\n• No bloquejar els extintors.\n• Portar la identificació visible durant la jornada laboral.",
+      "La seguretat és responsabilitat de tots.\n\nEn cas d'incident, contacteu amb recepció o amb el responsable de manteniment."
+    ]
+  },
+
+  "business_card_found": {
+    "title": "Targeta de visita",
+    "pages": [
+      "Daniel Ortega\n\nConsultor empresarial\nNova Systems",
+      "Telèfon\n+34 91 XXX XX XX\n\nCorreu electrònic\ncontacto@novasystems.example",
+      "La targeta està lleugerament doblegada.\n\nProbablement va caure de les pertinences d'un visitant fa algun temps."
+    ]
+  },
+
+  "incoming_documents": {
+    "title": "Safata d'entrada",
+    "pages": [
+      "La safata conté diversos documents pendents de revisió.\n\n• Factura pendent de validació.\n• Sol·licitud de vacances.\n• Pressupost de material d'oficina.\n• Confirmació d'entrevista.",
+      "Un dels documents té una nota adhesiva.\n\n«Quan arribe Marta, recorda-li que signe l'autorització de formació.»",
+      "No sembla que hi haja res especialment important. Són els papers típics que s'acumulen en qualsevol recepció."
+    ]
+  },
+
+  "phone_note": {
+    "title": "Extensions internes",
+    "pages": [
+      "Al costat del telèfon hi ha una fitxa plastificada.\n\nRecepció ........ 100\nDirecció ........ 101\nAdministració ... 102\nArxiu ........... 103\nSala de reunions  104",
+      "A la cantonada inferior algú ha escrit a mà:\n\n«Si ningú troba un arxiu antic, telefoneu primer a Direcció.»"
+    ]
+  },
+
+  "plant_nothing": {
+    "title": "Test de planta",
+    "pages": [
+      "La planta sembla ben cuidada.\n\nNomés hi ha terra humida i unes quantes fulles seques. No trobes res més."
+    ]
+  },
+
+  "archive_request_forms": {
+    "title": "Sol·licituds de localització de documents",
+    "pages": [
+      "Formulari intern\n\nSol·licitud per localitzar documentació històrica.\n\nDepartament sol·licitant:\n______________\n\nArxiu:\n______________",
+      "Procediment\n\n1. Buscar a l'Arxiu.\n2. Comprovar la numeració històrica.\n3. Si no es troba, consultar Direcció abans de crear una còpia nova.",
+      "Observacions habituals\n\n• Arxiu no localitzat.\n• Numeració antiga.\n• Caixa arxivada incorrectament.\n• Documentació traslladada.",
+      "En diversos fulls diferents algú ha escrit sempre la mateixa nota:\n\n«Pregunta al director.»\n\nLa frase apareix repetidament amb diferents bolígrafs."
+    ]
+  },
+
+  "pending_requests": {
+    "title": "Sol·licituds pendents",
+    "pages": [
+      "Llista de sol·licituds pendents.\n\n• Còpia del contracte de 2019.\n• Expedient fiscal.\n• Historial de proveïdors.\n• Organigrama anterior.",
+      "Totes les sol·licituds tenen una casella amb:\n\n□ Revisat\n□ Localitzat\n□ Lliurat",
+      "Diverses contenen la nota següent:\n\n«Pendent de confirmació per part de Direcció.»"
+    ]
+  },
+
+  "large_plant_nothing": {
+    "title": "Test de planta gran",
+    "pages": [
+      "El test ocupa pràcticament tota la cantonada.\n\nComproves al seu voltant per si ha caigut algun tros de paper, però no trobes res."
+    ]
+  },
+
+  "coffee_cleaning_log": {
+    "title": "Registre de neteja de la màquina de cafè",
+    "pages": [
+      "Neteja setmanal\n\n☑ Dilluns\n☑ Dimarts\n☑ Dimecres\n☑ Dijous\n☑ Divendres",
+      "Consum aproximat\n\n• Càpsules normals: 34\n• Descafeïnat: 12\n• Te: 5",
+      "Algú ha escrit davall:\n\n«Qui s'acabe les càpsules, que ens avise abans que ens tornem a quedar sense cafè.»"
+    ]
+  },
+
+  "supplier_folders": {
+    "title": "Carpetes de proveïdors",
+    "pages": [
+      "Les carpetes estan ordenades alfabèticament.\n\nA-C\nD-F\nG-L\nM-R\nS-Z",
+      "La majoria contenen pressupostos, contractes de manteniment i albarans de lliurament que ja han sigut arxivats."
+    ]
+  },
+
+  "training_records": {
+    "title": "Formació interna",
+    "pages": [
+      "Cursos completats durant l'últim any.\n\n• Seguretat laboral.\n• Protecció de dades.\n• Ciberseguretat.\n• Atenció al client.",
+      "Tots els fulls estan correctament arxivats i signats."
+    ]
+  },
+
+  "maintenance_archive": {
+    "title": "Manteniment",
+    "pages": [
+      "Historial d'incidències.\n\n• Substitució de la il·luminació.\n• Reparació de l'aire condicionat.\n• Substitució de panys.\n• Inspecció d'extintors.",
+      "La inspecció més recent consta com a completada fa dues setmanes."
+    ]
+  },
+
+  "office_inventory": {
+    "title": "Inventari",
+    "pages": [
+      "Equipament disponible\n\n14 teclats\n12 ratolins\n8 monitors\n5 impressores\n42 arxivadors",
+      "Al final del full algú ha afegit:\n\n«Demanar més bolígrafs blaus.»"
+    ]
+  },
+
+  "management_books": {
+    "title": "Llibres de gestió",
+    "pages": [
+      "Els títols inclouen:\n\n• Gestió del temps.\n• Gestió d'equips.\n• Lideratge pràctic.\n• Organització de documents.",
+      "Molts semblen pràcticament nous. Alguns encara conserven el preu."
+    ]
+  },
+
+  "box_labels": {
+    "title": "Etiquetes de les caixes",
+    "pages": [
+      "Les caixes estan identificades amb etiquetes impreses.\n\n• Material d'oficina.\n• Cables.\n• Decoració de Nadal.\n• Fullets antics.",
+      "Una caixa no té etiqueta, però està completament segellada."
+    ]
+  },
+
+  "visitor_forms": {
+    "title": "Formularis de visitants",
+    "pages": [
+      "Registre d'accés.\n\nNom\nEmpresa\nHora d'entrada\nHora d'eixida\nSignatura",
+      "La majoria pertanyen a proveïdors, empreses de manteniment i candidats a entrevistes."
+    ]
+  },
+
+  "printed_drafts": {
+    "title": "Esborranys impresos",
+    "pages": [
+      "Diverses pàgines impreses amb correccions manuscrites.\n\nCanvis de format.\nErrades tipogràfiques.\nComentaris als marges.",
+      "La primera pàgina diu:\n\n«Imprimeix la versió final quan Miguel done la seua aprovació.»"
+    ]
+  },
+
+  "forgotten_print": {
+    "title": "Document oblidat",
+    "pages": [
+      "Un full de paper ha quedat oblidat a la impressora.\n\nÉs un esborrany del calendari de reunions del pròxim trimestre.",
+      "A la cantonada superior diu:\n\n«ESBORRANY - NO DISTRIBUIR»"
+    ]
+  },
+
+  "camera_notice": {
+    "title": "Avís de videovigilància",
+    "pages": [
+      "ZONA VIDEOVIGILADA.\n\nLes càmeres s'utilitzen únicament per garantir la seguretat de les instal·lacions i dels empleats.",
+      "Per a més informació, consulteu la política de protecció de dades de l'empresa."
+    ]
+  },
+
+  "desk_note": {
+    "title": "Nota al costat del material d'oficina",
+    "pages": [
+      "«Qui agafe l'últim bolígraf, que ens avise.\n\nI, per favor, deixeu de portar-vos les tisores a altres taules.»\n\n— Laura",
+      "Davall, algú ha respost amb un altre bolígraf:\n\n«Encara estic buscant la grapadora des de març.»"
+    ]
+  },
+
+  "personnel_files": {
+    "title": "Armaris d'arxiu - Personal",
+    "pages": [
+      "Els armaris contenen expedients d'empleats actuals i antics. Estan ordenats alfabèticament i quasi tots inclouen contractes, canvis salarials i avaluacions de rendiment.",
+      "Molts expedients tenen dècades d'antiguitat. Alguns noms apareixen repetidament en diferents anys, encara que probablement es tracta de persones diferents.",
+      "Una nota impresa recorda al personal:\n\n«No retireu els expedients originals sense autorització de Direcció.»"
+    ]
+  },
+
+  "financial_archive": {
+    "title": "Armaris d'arxiu - Comptabilitat",
+    "pages": [
+      "Factures, balanços, documents fiscals i auditories internes estan perfectament arxivats.",
+      "La documentació sembla impecable. Cada carpeta està numerada i datada.",
+      "No trobes res especialment estrany."
+    ]
+  },
+
+  "historical_projects": {
+    "title": "Projectes finalitzats",
+    "pages": [
+      "Carpetes corresponents als projectes finalitzats durant els últims quinze anys.",
+      "Alguns projectes van canviar de nom durant el seu desenvolupament. Una nota indica:\n\n«Comprova la nomenclatura antiga abans de duplicar la documentació.»",
+      "És evident que algú ha dedicat molt de temps a mantindre aquest arxiu organitzat."
+    ]
+  },
+
+  "box_index": {
+    "title": "Índex de caixes",
+    "pages": [
+      "Caixa 12 - Material promocional.\nCaixa 13 - Mobiliari.\nCaixa 14 - Arxiu fiscal.\nCaixa 15 - Equipament retirat.",
+      "Totes les caixes semblen estar correctament identificades."
+    ]
+  },
+
+  "sealed_boxes": {
+    "title": "Caixes segellades",
+    "pages": [
+      "Les caixes continuen segellades amb cinta d'embalar.",
+      "Una etiqueta diu:\n\n«Pendent de revisió documental.»",
+      "No pots determinar què contenen."
+    ]
+  },
+
+  "warehouse_labels": {
+    "title": "Etiquetes antigues",
+    "pages": [
+      "Diverses etiquetes adhesives que s'estan desprenent.\n\n«Arxiu Nord»\n«Magatzem B»\n«Documentació Històrica»",
+      "Sembla que la zona d'emmagatzematge va ser reorganitzada completament en algun moment."
+    ]
+  },
+
+  "archive_manifest": {
+    "title": "Inventari de l'emmagatzematge",
+    "pages": [
+      "Llista de les caixes emmagatzemades durant l'última reorganització.",
+      "Moltes referències estan marcades com a «Traslladat».",
+      "Una nota manuscrita diu:\n\n«Miguel coneix la ubicació anterior. No canvies res fins que ho confirme.»"
+    ]
+  },
+
+  "discarded_pages": {
+    "title": "Papers rebutjats",
+    "pages": [
+      "Són fotocòpies incompletes i fulls amb errors d'impressió.",
+      "La majoria estan ratllats amb un bolígraf roig.",
+      "No sembla que continguen informació útil."
+    ]
+  },
+
+  "sorting_notes": {
+    "title": "Notes de classificació",
+    "pages": [
+      "Revisió pendent de les caixes 41-48.\n\nMoure fitxers duplicats.\nEliminar còpies innecessàries.",
+      "Algú ha afegit davall:\n\n«No toqueu els armaris d'arxiu antics fins que Direcció els haja revisat.»"
+    ]
+  },
+
+  "old_equipment_boxes": {
+    "title": "Equipament antic",
+    "pages": [
+      "Ratolins PS/2.\nTeclats antics.\nCables VGA.\nDisquets sense etiquetar.",
+      "Tot sembla equipament tecnològic obsolet."
+    ]
+  },
+
+  "cleaning_supplies": {
+    "title": "Material de neteja",
+    "pages": [
+      "Inventari del personal de neteja.\n\nDesinfectant.\nGuants.\nBosses.\nDraps.\nAmbientador.",
+      "Res estrany."
+    ]
+  },
+
+  "drawer_labels": {
+    "title": "Etiquetes dels calaixos",
+    "pages": [
+      "Cada calaix està identificat amb xicotetes etiquetes:\n\nA-E\nF-K\nL-P\nQ-Z\nMiscel·lània",
+      "El sistema facilita trobar qualsevol expedient ràpidament."
+    ]
+  },
+
+  "forgotten_folder": {
+    "title": "Carpeta oblidada",
+    "pages": [
+      "La carpeta ha quedat oblidada dins d'un calaix obert.",
+      "Només conté formularis en blanc i fulls per registrar préstecs de documents.",
+      "A l'última pàgina algú ha escrit:\n\n«Torna sempre l'original.»"
+    ]
+  },
+
+  "archive_notebook": {
+    "title": "Quadern de l'arxiu",
+    "pages": [
+      "Dia 4\n\nHui he mogut diverses caixes de nou. Cada vegada és més difícil trobar espai.",
+      "Dia 11\n\nMiguel diu que és millor mantindre la classificació antiga encara que no siga gaire intuïtiva.",
+      "Dia 17\n\nDe vegades em pregunte com s'ho fa per recordar on està absolutament tot.",
+      "Última pàgina\n\n«Pregunta sempre abans de moure documentació històrica.»"
+    ]
+  },
+
+  "crumpled_note_a": {
+    "title": "Paper arrugat",
+    "pages": [
+      "Només es pot llegir això:\n\n«...han tornat a canviar la numeració...»"
+    ]
+  },
+
+  "crumpled_note_b": {
+    "title": "Paper arrugat",
+    "pages": [
+      "«Comprar etiquetes noves.\nLes antigues ja no coincideixen amb quasi res.»"
+    ]
+  },
+
+  "archive_work": {
+    "title": "Treball pendent",
+    "pages": [
+      "Diverses carpetes obertes estan esperant ser arxivades.",
+      "Un full enumera diverses tasques:\n\n• Revisar fitxers antics.\n• Actualitzar l'inventari.\n• Classificar les noves entrades.",
+      "Algú ha escrit al marge:\n\n«No crees còpies noves fins a comprovar si ja existeix un original.»"
+    ]
+  },
+
+  "first_aid_checklist": {
+    "title": "Farmaciola",
+    "pages": [
+      "Llista de comprovació mensual.\n\n☑ Benes\n☑ Gases\n☑ Antisèptic\n☑ Guants\n☑ Analgèsics",
+      "Tot sembla complet i dins de la data de caducitat."
+    ]
+  },
+
+  "drawer_contents": {
+    "title": "Armari del passadís",
+    "pages": [
+      "Damunt de l'armari hi ha material d'oficina perfectament organitzat: bolígrafs, retoladors, grapes, clips i diversos quaderns encara sense utilitzar.",
+      "El primer calaix conté formularis en blanc per sol·licitar sales de reunions, equipament informàtic i targetes d'accés temporal.",
+      "El segon calaix conté manuals d'usuari de diversos equips antics. Res sembla especialment rellevant."
+    ]
+  },
+
+  "emergency_exit_notice": {
+    "title": "Porta d'emergència",
+    "pages": [
+      "EIXIDA D'EMERGÈNCIA\n\nAquesta porta només es pot utilitzar en cas d'evacuació o d'una emergència real.",
+      "Obrir-la fora d'una situació d'emergència activarà una alarma i quedarà registrat pel sistema de seguretat de l'edifici."
+    ]
+  },
+
+  "vending_service_sheet": {
+    "title": "Full de manteniment",
+    "pages": [
+      "Màquina expenedora\n\nEmpresa responsable: Vending Solutions S.L.\nÚltima reposició: fa tres dies.",
+      "Productes més venuts:\n• Café amb llet\n• Aigua mineral\n• Barres de cereals\n• Refrescos sense sucre",
+      "Nota del tècnic:\n\n«El mecanisme de devolució de monedes torna a encallar-se ocasionalment.»"
+    ]
+  },
+
+  "plant_care_record": {
+    "title": "Registre de manteniment",
+    "pages": [
+      "Planta ornamental del passadís.\n\nReg: dues vegades per setmana.\nFertilitzant: mensual.\nÚltima poda: completada correctament.",
+      "Al final del full algú ha escrit amb humor:\n\n«Probablement és l'empleat més constant de tota l'oficina.»"
+    ]
+  },
+
+  "company_foundation_photo": {
+    "title": "Fotografia emmarcada",
+    "pages": [
+      "La fotografia mostra la inauguració de l'empresa fa molts anys. Diverses persones posen i somriuen davant de l'edifici original.",
+      "El marc té una xicoteta placa metàl·lica:\n\n«Primeres Oficines Corporatives»",
+      "El peu de foto està molt desgastat. Només es poden distingir alguns noms; la resta són il·legibles."
+    ]
+  },
+
+  "lost_scarf": {
+    "title": "Bufanda oblidada",
+    "pages": [
+      "Hi ha una xicoteta bufanda blava acuradament plegada damunt del banc.",
+      "A sota hi ha una nota manuscrita:\n\n«Si algú troba aquesta bufanda, que la deixe a recepció.\n\nGràcies.\n— Marta»"
+    ]
+  },
+
+  "fire_equipment_tag": {
+    "title": "Etiqueta de l'extintor",
+    "pages": [
+      "Empresa de manteniment:\nSEGURFIRE Protecció contra Incendis",
+      "Última inspecció: fa quatre mesos.\nPròxima inspecció: d'ací a huit mesos.",
+      "El precinte indica que l'equipament està en perfecte estat."
+    ]
+  },
+
+  "camera_maintenance_log": {
+    "title": "Registre de càmeres",
+    "pages": [
+      "Càmera IP - Passadís principal\n\nÚltima inspecció tècnica completada correctament.",
+      "El registre indica que les gravacions es conserven durant trenta dies, llevat que hi haja un incident o una sol·licitud interna.",
+      "No apareixen observacions addicionals."
+    ]
+  },
+
+  "restroom_repair_notice": {
+    "title": "Avís de manteniment",
+    "pages": [
+      "LAVABOS TEMPORALMENT FORA DE SERVEI\n\nDisculpeu les molèsties.",
+      "Motiu:\nSubstitució de canonades i reparació del sistema de ventilació.",
+      "Duració estimada dels treballs:\nDos dies laborables."
+    ]
+  },
+
+  "landscape_painting": {
+    "title": "Quadre de l'oficina",
+    "pages": [
+      "Un paisatge muntanyós penja de la paret principal de l'oficina. La placa indica que va ser un regal del consell d'administració per commemorar el desé aniversari de Miguel Ruiz com a director.",
+      "Una xicoteta dedicatòria apareix a la cantonada inferior:\n\n«Per tots aquests anys de lideratge i compromís.»"
+    ]
+  },
+
+  "desk_drawers": {
+    "title": "Calaixos de l'escriptori",
+    "pages": [
+      "El primer calaix conté bolígrafs de qualitat, una agenda sense estrenar, diverses memòries USB i targetes de visita ordenades amb cura.",
+      "El segon conté carpetes amb projectes recents. Tot està etiquetat amb dates i codis interns.",
+      "L'últim calaix conté un sobre segellat sense destinatari, diverses claus antigues no identificades i un xicotet bloc amb números de telèfon escrits a mà."
+    ]
+  },
+
+  "filing_cabinet": {
+    "title": "Arxivador auxiliar",
+    "pages": [
+      "Cada calaix està dedicat a una categoria diferent: Finances, Recursos Humans i Correspondència.",
+      "Les carpetes estan ordenades alfabèticament. Miguel sembla extremadament meticulós amb l'organització.",
+      "No trobes res estrany, encara que és notable la cura amb què està organitzat l'arxiu."
+    ]
+  },
+
+  "office_plant_note": {
+    "title": "Test de planta",
+    "pages": [
+      "La planta té un aspecte sorprenentment saludable.",
+      "Hi ha una xicoteta etiqueta clavada a la terra:\n\n«Regar només els dilluns i els dijous.»"
+    ]
+  },
+
+  "executive_recognition": {
+    "title": "Reconeixement empresarial",
+    "pages": [
+      "Certificat atorgat per **Orbis Consulting Group** en reconeixement a l'excel·lència en la gestió empresarial.",
+      "Data: fa dotze anys.",
+      "No recordes haver sentit parlar mai d'aquesta empresa."
+    ]
+  },
+
+  "draft_reports": {
+    "title": "Esborranys",
+    "pages": [
+      "Diverses versions impreses del mateix informe, plenes de notes manuscrites, paràgrafs ratllats i comentaris als marges.",
+      "Una nota diu:\n\n«Escurça aquesta secció. Hi ha massa detalls innecessaris.»",
+      "Una altra anotació, escrita amb una lletra diferent, simplement diu:\n\n«Conserva la versió anterior per si de cas.»"
+    ]
+  },
+
+  "signed_reports": {
+    "title": "Informes signats",
+    "pages": [
+      "Els documents estan perfectament organitzats i signats.",
+      "La majoria tracten sobre pressupostos, autoritzacions de compra i renovacions de contractes.",
+      "Tot sembla estar en ordre."
+    ]
+  },
+
+  "bookshelf_selection": {
+    "title": "Llibres de l'escriptori",
+    "pages": [
+      "«Gestió Estratègica».\nNombrosos passatges estan subratllats a llapis.",
+      "«La Memòria de les Organitzacions».\nHi ha un punt de llibre aproximadament a la meitat del llibre."
+    ]
+  },
+
+  "discarded_note": {
+    "title": "Paper arrugat",
+    "pages": [
+      "Desplegues amb cura el full.",
+      "Només conté una frase ratllada diverses vegades:\n\n«Parla amb Marta abans de divendres.»",
+      "La resta del paper està completament en blanc."
+    ]
+  },
+
+  "photo_collection": {
+    "title": "Col·lecció de fotografies",
+    "pages": [
+      "Hi ha diverses fotografies familiars al costat d'altres fetes en esdeveniments corporatius.",
+      "En una apareix Miguel rebent un premi. En una altra posa amb un grup d'empleats durant un dinar de l'empresa.",
+      "També hi ha una fotografia prou antiga davant d'un edifici diferent de l'actual. No reconeixes el lloc."
+    ]
+  },
+
+  "bookshelf_history": {
+    "title": "Prestatgeria A",
+    "pages": [
+      "Llibres sobre història empresarial, economia europea i desenvolupament del sector tecnològic.",
+      "Molts semblen prou antics, però estan ben conservats."
+    ]
+  },
+
+  "bookshelf_management": {
+    "title": "Prestatgeria B",
+    "pages": [
+      "La majoria són manuals sobre lideratge, negociació i gestió d'equips.",
+      "Diversos contenen xicotetes notes adhesives que sobresurten entre les pàgines."
+    ]
+  },
+
+  "bookshelf_finance": {
+    "title": "Prestatgeria C",
+    "pages": [
+      "Manuals avançats de comptabilitat, auditoria interna i planificació financera.",
+      "Res et crida especialment l'atenció."
+    ]
+  },
+
+  "bookshelf_technology": {
+    "title": "Prestatgeria D",
+    "pages": [
+      "Publicacions sobre digitalització de documents, emmagatzematge al núvol i ciberseguretat.",
+      "Algunes edicions són relativament recents."
+    ]
+  },
+
+  "bookshelf_legal": {
+    "title": "Prestatgeria E",
+    "pages": [
+      "Compendis de dret laboral, protecció de dades i normativa comercial.",
+      "Un dels llibres té desenes de pàgines marcades amb pestanyes de colors."
+    ]
+  },
+
+  "bookshelf_archives": {
+    "title": "Prestatgeria F",
+    "pages": [
+      "Llibres especialitzats en conservació de documents i gestió d'arxius històrics.",
+      "Un conté una frase subratllada:\n\n«Destruir un document és fàcil; reconstruir-ne el context pot ser impossible.»"
+    ]
+  },
+
+  "bookshelf_personal": {
+    "title": "Prestatgeria G",
+    "pages": [
+      "Els llibres d'ací són més personals: novel·les històriques, biografies i diversos atles antics.",
+      "Sembla ser l'única prestatgeria de l'oficina triada per interés personal en lloc de per motius laborals."
+    ]
+  },
+
+  "bookshelf_misc": {
+    "title": "Prestatgeria H",
+    "pages": [
+      "Hi ha diccionaris, enciclopèdies i diverses carpetes sense etiquetar.",
+      "Res sembla especialment interessant."
+    ]
+  },
+
+  "business_card": {
+    "title": "Targeta de visita",
+    "pages": [
+      "Una targeta de visita ha quedat entre els coixins de la butaca.",
+      "Pertany a un antic proveïdor que va deixar de treballar amb l'empresa fa anys.",
+      "Algú ha escrit al darrere:\n\n«Telefonar quan acabe l'auditoria.»"
+    ]
+  },
+
+  "storage_inventory": {
+    "title": "Inventari de l'armari d'emmagatzematge",
+    "pages": [
+      "Els armaris contenen material d'oficina de reserva: paper, carpetes, arxivadors buits i caixes d'emmagatzematge.",
+      "Tot està inventariat mitjançant xicotetes etiquetes numerades.",
+      "No sembla que falte res."
+    ]
+  },
+
+  "meeting_notebook": {
+    "title": "Quadern de reunions",
+    "pages": [
+      "Diverses pàgines contenen notes de reunions setmanals.\n\n• Revisar el pressupost.\n• Migració de servidors.\n• Entrevistes pendents.\n• Actualitzar l'inventari.",
+      "Una altra pàgina conté diversos noms envoltats de cercles i fletxes. No sembla que hi haja cap ordre concret.",
+      "L'última pàgina conté diversos gargots fets mentre algú escoltava una presentació. Entre ells es pot llegir:\n\n«No oblides reservar la sala per a dijous.»"
+    ]
+  },
+
+  "team_photos": {
+    "title": "Fotografies de l'equip",
+    "pages": [
+      "Hi ha diverses fotografies fetes durant dinars de l'empresa, celebracions i activitats d'equip.",
+      "En quasi totes, el mateix grup d'empleats somriu a la càmera.",
+      "Una fotografia sembla més antiga que les altres. La qualitat és pitjor i algunes persones són difícils de reconéixer."
+    ]
+  },
+
+  "sofa_cushion": {
+    "title": "Sofà",
+    "pages": [
+      "Comproves entre els coixins del sofà.",
+      "Només trobes unes quantes molles, un clip metàl·lic i prou pols acumulada.",
+      "No sembla que hi haja res important."
+    ]
+  },
+
+  "coin_under_sofa": {
+    "title": "Davall del sofà",
+    "pages": [
+      "Quan t'ajups, trobes una moneda d'un euro bastant gastada.",
+      "També hi ha un embolcall antic de caramel de menta.",
+      "No hi ha res més d'interés."
+    ]
+  },
+
+  "chair_nameplate": {
+    "title": "Cadira de la reunió",
+    "pages": [
+      "Algú ha col·locat una xicoteta etiqueta adhesiva al respatller:\n\n«Carlos»",
+      "Sembla que durant algunes reunions cada participant sempre s'asseu al mateix lloc."
+    ]
+  },
+
+  "meeting_scribbles": {
+    "title": "Notes sobre la taula",
+    "pages": [
+      "Diversos fulls contenen notes ràpides fetes durant una reunió.",
+      "Entre números i fletxes es pot llegir:\n\n«Confirmar el pressupost amb Finances.»\n«Preparar documentació per a Recursos Humans.»",
+      "En una cantonada algú ha escrit distraídament:\n\n«Qui s'emporta sempre els retoladors?»"
+    ]
+  },
+
+  "projector_service_label": {
+    "title": "Etiqueta del projector",
+    "pages": [
+      "Projector multimèdia.\n\nÚltim manteniment completat correctament fa dos mesos.",
+      "Segons el registre de servei, la làmpada encara té moltes hores de vida útil."
+    ]
+  },
+
+  "window_view": {
+    "title": "A través de les persianes",
+    "pages": [
+      "A través de les làmines de les persianes amb prou feines pots veure l'edifici de davant.",
+      "La gent entra i ix del pàrquing mentre els cotxes circulen pel carrer.",
+      "Res en particular et crida l'atenció."
+    ]
+  },
+
+  "rear_window_view": {
+    "title": "Finestra lateral",
+    "pages": [
+      "Des d'aquest costat només pots veure una part del pati interior de l'edifici.",
+      "Hi ha diversos contenidors de reciclatge i una xicoteta zona de càrrega.",
+      "No observes res inusual."
+    ]
+  },
+
+  "forgotten_usb_box": {
+    "title": "Davall de la cadira",
+    "pages": [
+      "Trobes una xicoteta caixa de plàstic per guardar memòries USB.",
+      "Està completament buida.",
+      "Algú ha escrit a la tapa amb un retolador permanent:\n\n«Presentació del client»"
+    ]
+  }
+}

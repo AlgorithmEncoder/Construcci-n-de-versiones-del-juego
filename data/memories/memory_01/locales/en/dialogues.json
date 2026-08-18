@@ -1,0 +1,186 @@
+{
+  "clara": [
+    {
+      "from": 0,
+      "to": 90,
+      "lines": [
+        "Good morning. Please, take a seat.",
+        "The director will finish a meeting in a few minutes.",
+        "If you need anything while you wait, I'll be here.",
+        "If you have any questions about the building, I can point you in the right direction."
+      ]
+    },
+    {
+      "from": 90,
+      "to": 210,
+      "lines": [
+        "What a busy morning...",
+        "People keep asking me for old documents.",
+        "I thought hardly anyone ever checked the Archive.",
+        "Lately, everyone seems to be looking for things from years ago.",
+        "Although I suppose it's just a coincidence."
+      ]
+    },
+    {
+      "from": 210,
+      "to": 360,
+      "lines": [
+        "It's strange...",
+        "I could swear I used to know where everything was.",
+        "Lately, I've had to ask much more often.",
+        "Maybe I've been here too many hours and I'm starting to mix everything up.",
+        "Sometimes the corridors seem longer than I remember."
+      ]
+    },
+    {
+      "from": 360,
+      "to": 510,
+      "lines": [
+        "Thank goodness Miguel always knows where everything is.",
+        "If someone needs an old document, they always end up asking him.",
+        "He has an incredible memory for this sort of thing.",
+        "I don't know how he manages to remember so many details.",
+        "I suppose it's a matter of experience."
+      ]
+    },
+    {
+      "from": 510,
+      "to": 600,
+      "lines": [
+        "It's almost time for the meeting.",
+        "Once it's over, everything will go back to normal.",
+        "Although this morning has been rather strange...",
+        "Well, I'd better not think about it too much."
+      ]
+    }
+  ],
+  "miguel": [
+    {
+      "from": 0,
+      "to": 180,
+      "lines": [
+        "I'm sorry, I'm busy at the moment.",
+        "If you need anything, Reception can help you.",
+        "I'll answer your questions as soon as the meeting is over.",
+        "Thank you for your patience."
+      ]
+    },
+    {
+      "from": 180,
+      "to": 420,
+      "lines": [
+        "I'm reviewing some documentation.",
+        "We can talk once the meeting is over.",
+        "There are several matters that require my attention.",
+        "I prefer to review everything before giving an answer."
+      ]
+    },
+    {
+      "from": 420,
+      "to": 600,
+      "lines": [
+        "Not yet.",
+        "I have a few pending matters to resolve first.",
+        "I assure you that everything is under control.",
+        "We can talk when the time is right."
+      ]
+    }
+  ],
+  "marta": [
+    {
+      "from": 0,
+      "to": 180,
+      "lines": [
+        "Good morning.",
+        "I always try to arrive a little early.",
+        "I like to go over things calmly before I start.",
+        "That way I avoid making mistakes."
+      ]
+    },
+    {
+      "from": 180,
+      "to": 360,
+      "lines": [
+        "I'm reviewing some lists.",
+        "I don't know why... but I could swear they used to be different.",
+        "Maybe someone updated them and I didn't notice.",
+        "Sometimes we work with the same documents for so long that we stop noticing the changes."
+      ]
+    },
+    {
+      "from": 360,
+      "to": 600,
+      "lines": [
+        "I suppose I simply remember it incorrectly.",
+        "Sometimes we overthink things.",
+        "Our memory isn't perfect either.",
+        "I'm sure there's a simple explanation."
+      ]
+    }
+  ],
+  "laura": [
+    {
+      "from": 0,
+      "to": 150,
+      "lines": [
+        "Are you here for the interview?",
+        "It's quite busy today.",
+        "It seems everyone needs something from Management.",
+        "It'll be one of those difficult mornings."
+      ]
+    },
+    {
+      "from": 150,
+      "to": 360,
+      "lines": [
+        "I've been organising some old photographs.",
+        "It's incredible how many things we end up keeping.",
+        "There are pictures I don't even remember seeing before.",
+        "I suppose after so many years, we accumulate too many memories."
+      ]
+    },
+    {
+      "from": 360,
+      "to": 600,
+      "lines": [
+        "If you're looking for old documentation, ask Management.",
+        "They know better than anyone how everything is organised.",
+        "Miguel usually handles those matters.",
+        "He always seems to find what the rest of us can't."
+      ]
+    }
+  ],
+  "carlos": [
+    {
+      "from": 0,
+      "to": 180,
+      "lines": [
+        "I have to finish some reports.",
+        "There's always something pending.",
+        "Lately, I haven't had a moment to myself.",
+        "But well, it's part of the job."
+      ]
+    },
+    {
+      "from": 180,
+      "to": 360,
+      "lines": [
+        "There was something I wanted to check...",
+        "I can't remember what it was right now.",
+        "That's strange. I had it completely clear in my mind a moment ago.",
+        "I must have too many things on my mind."
+      ]
+    },
+    {
+      "from": 360,
+      "to": 600,
+      "lines": [
+        "Never mind.",
+        "I'm sure Miguel remembers.",
+        "He always seems to know these things.",
+        "Although, now that I think about it... maybe he just has more experience than we do.",
+        "Yes, that must be it."
+      ]
+    }
+  ]
+}

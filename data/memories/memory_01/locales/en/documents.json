@@ -1,0 +1,857 @@
+{
+  "magazine": {
+    "title": "Tech Monthly - April Edition",
+    "pages": [
+      "Editorial\n\nArtificial intelligence continues to transform every industry. Companies that invested early are already restructuring departments, automating repetitive tasks and redefining traditional office roles. While many celebrate these advances, experts warn that documentation and knowledge management are becoming increasingly important as organisations grow more complex.",
+      "Feature Article\n\nCloud infrastructure has become the backbone of modern businesses. Instead of maintaining physical servers, organisations are migrating their systems to scalable cloud platforms. Analysts estimate that over 80% of medium-sized companies will complete this transition within the next five years.",
+      "Interview\n\nCybersecurity consultant Elena Navarro explains that human error remains the leading cause of data breaches. 'Technology improves every year,' she says, 'but forgotten documents, outdated procedures and poor record keeping still create unnecessary risks.'",
+      "Start-up Focus\n\nSeveral European technology companies have attracted record investment this quarter. Most share one common characteristic: strong internal organisation and careful management of historical company data."
+    ]
+  },
+
+  "waiting_notepad": {
+    "title": "Reception Notepad",
+    "pages": [
+      "Tasks for this morning\n\n☑ Print interview documents\n☑ Test visitor badge printer\n☑ Call printer maintenance\n☐ Buy coffee capsules\n☐ Water reception plants",
+      "Reminders\n\n• Ask M. about archive access.\n• Return meeting room key.\n• Confirm tomorrow's delivery.\n• Order new toner cartridges.\n• Replace damaged visitor badge.",
+      "Personal Notes\n\nThe archive has been busier than usual this week. Marta mentioned she still hasn't finished reorganising the old folders. Miguel asked not to remove anything until further notice."
+    ]
+  },
+
+  "reception_agenda": {
+    "title": "Reception Agenda",
+    "pages": [
+      "08:00 Office opens\n08:15 Deliveries\n08:30 Candidate interview\n08:45 Courier collection\n09:00 Weekly management meeting\n09:20 Archive inventory",
+      "09:45 Coffee supplier\n10:00 Miguel Ruiz\n10:15 Marta Romero\n11:00 IT maintenance\n11:30 Cleaning company\n12:00 External visitors",
+      "Notes\n\nMeeting room reserved until 10:30.\nPrepare visitor badges before 08:45.\nArchive access requested by Administration."
+    ]
+  },
+
+  "wall_calendar": {
+    "title": "Office Calendar",
+    "pages": [
+      "Monday\n\n18 - Laura's birthday\n25 - Sergio's birthday\n\nFriday: Fire drill at 11:00.",
+      "Upcoming\n\nQuarterly review next week.\nOffice maintenance on Thursday evening.\nMeeting room unavailable Tuesday afternoon.",
+      "Sticky Note\n\nRemember to update the emergency contact sheet before the end of the month."
+    ]
+  },
+
+  "employee_registry": {
+    "title": "Employee Registry",
+    "pages": [
+      "Clara Pérez\nReception\nExtension: 101\nJoined: 2019\n\nResponsible for visitors, deliveries and meeting room bookings.",
+      "Miguel Ruiz\nDirector\nExtension: 201\nJoined: 2009\n\nResponsible for company management and final approval of internal documentation.",
+      "Marta Romero\nHuman Resources\nExtension: 203\nJoined: 2016\n\nRecruitment, contracts and personnel records.",
+      "Carlos Vega\nFinance\nExtension: 205\nJoined: 2018\n\nBudgets, suppliers and quarterly reports.",
+      "Laura López\nAdministration\nExtension: 107\nJoined: 2021\n\nArchive maintenance, inventory and document organisation."
+    ]
+  },
+
+  "contracts_folder": {
+    "title": "Employee Contracts",
+    "pages": [
+      "Contents\n\nClara Pérez\nMarta Romero\nCarlos Vega\nLaura López\n\nEach contract contains hiring conditions, salary information and confidentiality clauses.",
+      "Index\n\nPage 1 - Clara Pérez\nPage 2 - Marta Romero\nPage 3 - Carlos Vega\nPage 4 - Laura López\nPage 5 - Reserved",
+      "The final divider is empty.\n\nA label reads:\n'Additional employee documentation.'\n\nNo documents remain behind it."
+    ]
+  },
+
+  "team_photo_doc": {
+    "title": "Company Photo",
+    "pages": [
+      "A framed group photograph shows five employees standing in front of the company entrance. Everyone is smiling. The image has faded slightly with age.",
+      "The lower-right corner has been folded several times. The caption underneath is badly damaged and only a few letters remain visible.",
+      "On the back of the photograph someone has written:\n\n'Annual company meeting.'\n\nThe date is almost impossible to read."
+    ]
+  },
+
+  "shredded_document": {
+    "title": "Shredded Document",
+    "pages": [
+      "Small strips of paper are scattered across the desk.\n\nMost sentences are impossible to reconstruct.",
+      "Visible fragments:\n\n'...approved...'\n'...previous version...'\n'...retain...'\n'...Director...'",
+      "The fragments appear to belong to an official internal document, but too much of the page is missing to understand its original meaning."
+    ]
+  },
+
+  "company_board": {
+    "title": "Company Information",
+    "pages": [
+      "Organisation\n\nDirector\nHuman Resources\nFinance\nAdministration\nReception",
+      "Building Directory\n\nReception ←\nArchive\nMeeting Room\nDirector's Office\nStorage",
+      "Emergency Contacts\n\nReception: 101\nDirector: 201\nIT Support: 301\nSecurity: 399"
+    ]
+  },
+
+  "desk_notes": {
+    "title": "Desk Notes",
+    "pages": [
+      "Morning\n\nCall supplier.\nReview quarterly report.\nPrepare meeting room.\nReply to HR.",
+      "Afternoon\n\nReview archive request.\nOrder stationery.\nConfirm next week's interview schedule.",
+      "Corner Note\n\nDon't forget M.R.\nCheck old contract list before the meeting."
+    ]
+  },
+
+  "director_diploma": {
+    "title": "University Diploma",
+    "pages": [
+      "Universidad Autónoma\n\nThis certifies that\n\nMiguel Ruiz\n\nhas successfully completed the Master in Business Administration programme.",
+      "Graduation Year: 2008\n\nAwarded with distinction.\n\nOfficial university seal."
+    ]
+  },
+
+  "office_photo": {
+    "title": "Framed Photograph",
+    "pages": [
+      "A framed photograph shows Miguel Ruiz shaking hands with another executive during a business conference. Both are wearing conference badges.",
+      "The frame has gathered a thin layer of dust. A small plaque underneath reads:\n\n'Annual Business Conference'.",
+      "The printed date has faded almost completely and can no longer be read."
+    ]
+  },
+
+  "whiteboard_notes": {
+    "title": "Meeting Whiteboard",
+    "pages": [
+      "Today's Topics\n\n• Budget review\n• Recruitment\n• Server migration\n• Archive organisation\n• Coffee machine replacement",
+      "Action Items\n\nCarlos - Financial report\nClara - Visitor logistics\nLaura - Archive inventory\nMarta - Recruitment updates",
+      "Bottom Corner\n\n'Bring previous documentation if needed.'"
+    ]
+  },
+
+  "meeting_schedule": {
+    "title": "Weekly Meeting",
+    "pages": [
+      "09:00 Weekly Management Meeting\n\nExpected duration: 60 minutes.\nLocation: Meeting Room A.",
+      "Attendees\n\nMiguel Ruiz\nMarta Romero\nClara Pérez\nCarlos Vega\nLaura López",
+      "Agenda\n\n1. Budget review\n2. Recruitment\n3. Archive organisation\n4. Pending documentation\n5. Open discussion"
+    ]
+  },
+
+  "coat_bag_contents": {
+    "title": "Bag",
+    "pages": [
+      "The bag hangs from the coat rack beside a coat.\n\nInside there is a wallet, a packet of tissues, a phone charger, a small toiletry bag and a carefully folded reusable shopping bag.\n\nThere doesn't seem to be anything unusual inside.",
+      "In a side pocket you find a handwritten list.\n\n• Buy food for Nala.\n• Pick up the package.\n• Call the vet.\n• Buy AA batteries.\n\nThere is no name identifying the owner of the bag.",
+      "You carefully close the bag.\n\nContinuing to rummage through someone else's personal belongings doesn't seem like a good idea."
+    ]
+  },
+
+  "plant_shopping_list": {
+    "title": "Crumpled Shopping List",
+    "pages": [
+      "You look inside the plant pot, but you don't see anything.\nHowever, you notice a piece of paper hidden between the pot and the wall.\nYou pick it up.",
+      "You read what it says:\n\n• Tomatoes\n• Milk\n• Bread\n• Pasta\n• Yogurts\n• Kitchen paper",
+      "At the bottom someone added one final reminder:\n\n\"Call Grandma.\"\n\nThe handwriting changes slightly, as if it was written in a hurry."
+    ]
+  },
+
+  "magazine_business": {
+    "title": "Business & Management - June",
+    "pages": [
+      "Editorial\n\nSmall and medium-sized businesses continue to invest in digitalisation. More and more departments are replacing paper-based processes with computer tools, although many experts point out that good organisation remains more important than any software.",
+      "Management\n\nStudies on productivity agree that the best teams are not necessarily the largest, but those that properly document their processes and share knowledge between departments.",
+      "Interview\n\nConsultant Isabel Romero explains that many companies waste time looking for information that already exists.\n\n\"The real problem is not the lack of documents, but not knowing where to find them.\"",
+      "Market\n\nDuring this quarter several national consulting firms have announced internal reorganisation processes to adapt to workforce growth."
+    ]
+  },
+
+  "magazine_travel": {
+    "title": "Travel Today",
+    "pages": [
+      "Getaways\n\nFive coastal towns where it is still possible to spend a quiet weekend away from mass tourism.",
+      "Europe\n\nA guide to two-day itineraries through different European capitals using public transport only.",
+      "Photography\n\nThe best images submitted by readers show sunrises in the Pyrenees, the Alps and the Portuguese coast.",
+      "Tips\n\nBefore travelling, it is always advisable to carry a power bank, copies of your documents and offline maps."
+    ]
+  },
+
+  "magazine_gardening": {
+    "title": "Gardens & Home",
+    "pages": [
+      "Indoor Plants\n\nVarious studies indicate that adding plants to offices reduces feelings of stress and improves how employees and visitors perceive the space.",
+      "Care\n\nOverwatering remains the most common reason indoor plants deteriorate. It is better to water them too little than too much.",
+      "Decoration\n\nLarge plant pots help divide open spaces without the need to install partitions or permanent walls."
+    ]
+  },
+
+  "small_plant_nothing": {
+    "title": "Plant Pot",
+    "pages": [
+      "You examine the soil carefully.\n\nThere are only a few dry leaves and a little moisture. There doesn't seem to be anything interesting hidden here."
+    ]
+  },
+
+  "water_notice": {
+    "title": "Water Dispenser Notice",
+    "pages": [
+      "Please use reusable cups whenever possible.\n\nDisposable cups are reserved for visitors.",
+      "If the dispenser runs out of water, notify reception.\n\nDo not attempt to replace the bottle yourself."
+    ]
+  },
+
+  "sofa_nothing": {
+    "title": "Between the Cushions",
+    "pages": [
+      "You slightly move the sofa cushions.\n\nYou only find some dust and an old bread crumb. Nothing that catches your attention."
+    ]
+  },
+
+  "hidden_receipt_sofa": {
+    "title": "Café Receipt",
+    "pages": [
+      "CENTRAL CAFÉ\n\n08:14\n\n2 coffees\n1 toast\n\nTOTAL: €7.20",
+      "On the back someone wrote in pen:\n\n\"Don't forget the 08:30 interview.\""
+    ]
+  },
+
+  "safety_leaflet": {
+    "title": "Safety Leaflet",
+    "pages": [
+      "Basic Safety Rules\n\n• Keep emergency exits clear.\n• Report any faults.\n• Do not block fire extinguishers.\n• Wear your identification visibly during the working day.",
+      "Safety is everyone's responsibility.\n\nIn the event of an incident, contact reception or the maintenance manager."
+    ]
+  },
+
+  "business_card_found": {
+    "title": "Business Card",
+    "pages": [
+      "Daniel Ortega\n\nBusiness Consultant\nNova Systems",
+      "Phone\n+34 91 XXX XX XX\n\nEmail\ncontacto@novasystems.example",
+      "The card is slightly bent.\n\nIt probably fell from a visitor's belongings some time ago."
+    ]
+  },
+
+  "incoming_documents": {
+    "title": "Incoming Tray",
+    "pages": [
+      "The tray contains several documents waiting to be reviewed.\n\n• Invoice awaiting validation.\n• Holiday request.\n• Office supplies quotation.\n• Interview confirmation.",
+      "One of the documents has a sticky note.\n\n\"When Marta arrives, remind her to sign the training authorisation.\"",
+      "Nothing seems particularly important. They are the typical papers that pile up in any reception area."
+    ]
+  },
+
+  "phone_note": {
+    "title": "Internal Extensions",
+    "pages": [
+      "Beside the phone there is a laminated sheet.\n\nReception ........ 100\nManagement ........ 101\nAdministration ... 102\nArchive .......... 103\nMeeting Room ..... 104",
+      "In the bottom corner someone wrote by hand:\n\n\"If nobody can find an old file, call Management first.\""
+    ]
+  },
+
+  "plant_nothing": {
+    "title": "Plant Pot",
+    "pages": [
+      "The plant appears well cared for.\n\nThere is only damp soil and a few dry leaves. You don't find anything else."
+    ]
+  },
+
+  "archive_request_forms": {
+    "title": "Document Location Requests",
+    "pages": [
+      "Internal Form\n\nRequest to locate historical documentation.\n\nRequesting Department:\n______________\n\nFile:\n______________",
+      "Procedure\n\n1. Search the Archive.\n2. Check the historical numbering.\n3. If it cannot be found, consult Management before creating a new copy.",
+      "Common Observations\n\n• File not located.\n• Old numbering.\n• Box incorrectly archived.\n• Documentation relocated.",
+      "On several different sheets someone has always written the same note:\n\n\"Ask the director.\"\n\nThe phrase appears repeatedly in different pens."
+    ]
+  },
+
+  "pending_requests": {
+    "title": "Pending Requests",
+    "pages": [
+      "List of pending requests.\n\n• Copy of 2019 contract.\n• Tax file.\n• Supplier history.\n• Previous organisation chart.",
+      "All requests have a box labelled:\n\n□ Reviewed\n□ Located\n□ Delivered",
+      "Several contain the following note:\n\n\"Pending confirmation from Management.\""
+    ]
+  },
+
+  "large_plant_nothing": {
+    "title": "Large Plant Pot",
+    "pages": [
+      "The plant pot takes up almost the entire corner.\n\nYou check around it in case a piece of paper has fallen, but you find nothing."
+    ]
+  },
+
+  "coffee_cleaning_log": {
+    "title": "Coffee Machine Log",
+    "pages": [
+      "Weekly Cleaning\n\n☑ Monday\n☑ Tuesday\n☑ Wednesday\n☑ Thursday\n☑ Friday",
+      "Approximate Consumption\n\n• Regular capsules: 34\n• Decaffeinated: 12\n• Tea: 5",
+      "Someone wrote underneath:\n\n\"Whoever finishes the capsules, please let us know before we run out of coffee again.\""
+    ]
+  },
+
+  "supplier_folders": {
+    "title": "Supplier Folders",
+    "pages": [
+      "The folders are arranged alphabetically.\n\nA-C\nD-F\nG-L\nM-R\nS-Z",
+      "Most contain quotations, maintenance contracts and delivery notes that have already been archived."
+    ]
+  },
+
+  "training_records": {
+    "title": "Internal Training",
+    "pages": [
+      "Courses completed during the last year.\n\n• Workplace safety.\n• Data protection.\n• Cybersecurity.\n• Customer service.",
+      "All sheets are correctly archived and signed."
+    ]
+  },
+
+  "maintenance_archive": {
+    "title": "Maintenance",
+    "pages": [
+      "Incident history.\n\n• Lighting replacement.\n• Air conditioning repair.\n• Lock replacement.\n• Fire extinguisher inspection.",
+      "The latest inspection is recorded as completed two weeks ago."
+    ]
+  },
+
+  "office_inventory": {
+    "title": "Inventory",
+    "pages": [
+      "Available equipment\n\n14 keyboards\n12 mice\n8 monitors\n5 printers\n42 filing cabinets",
+      "At the bottom of the sheet someone added:\n\n\"Order more blue pens.\""
+    ]
+  },
+
+  "management_books": {
+    "title": "Management Books",
+    "pages": [
+      "The titles include:\n\n• Time Management.\n• Team Management.\n• Practical Leadership.\n• Document Organisation.",
+      "Many appear practically new. Some still have their price tags."
+    ]
+  },
+
+  "box_labels": {
+    "title": "Box Labels",
+    "pages": [
+      "The boxes are identified with printed labels.\n\n• Office supplies.\n• Cables.\n• Christmas decorations.\n• Old brochures.",
+      "One box has no label, but it is completely sealed."
+    ]
+  },
+
+  "visitor_forms": {
+    "title": "Visitor Forms",
+    "pages": [
+      "Access Register.\n\nName\nCompany\nEntry time\nExit time\nSignature",
+      "Most belong to suppliers, maintenance companies and interview candidates."
+    ]
+  },
+
+  "printed_drafts": {
+    "title": "Printed Drafts",
+    "pages": [
+      "Several printed pages with handwritten corrections.\n\nFormatting changes.\nTypographical errors.\nComments in the margins.",
+      "The first page says:\n\n\"Print the final version when Miguel gives his approval.\""
+    ]
+  },
+
+  "forgotten_print": {
+    "title": "Forgotten Document",
+    "pages": [
+      "A sheet of paper has been left forgotten on the printer.\n\nIt is a draft of next quarter's meeting calendar.",
+      "In the upper corner it reads:\n\n\"DRAFT - DO NOT DISTRIBUTE\""
+    ]
+  },
+
+  "camera_notice": {
+    "title": "CCTV Notice",
+    "pages": [
+      "CCTV AREA.\n\nThe cameras are used solely to ensure the security of the premises and employees.",
+      "For more information, consult the company's data protection policy."
+    ]
+  },
+
+  "desk_note": {
+    "title": "Note Beside the Office Supplies",
+    "pages": [
+      "\"Whoever takes the last pen, please let us know.\n\nAnd please stop taking the scissors to other desks.\"\n\n— Laura",
+      "Underneath, someone replied with another pen:\n\n\"I'm still looking for the stapler since March.\""
+    ]
+  },
+
+  "personnel_files": {
+    "title": "Filing Cabinets - Personnel",
+    "pages": [
+      "The filing cabinets contain records of current and former employees. They are arranged alphabetically and almost all include contracts, salary changes and performance reviews.",
+      "Many files are decades old. Some names appear repeatedly in different years, although they are probably different people.",
+      "A printed note reminds staff:\n\n\"Do not remove original files without Management authorisation.\""
+    ]
+  },
+
+  "financial_archive": {
+    "title": "Filing Cabinets - Accounting",
+    "pages": [
+      "Invoices, balance sheets, tax documents and internal audits are perfectly archived.",
+      "The documentation appears impeccable. Each folder is numbered and dated.",
+      "You don't find anything particularly unusual."
+    ]
+  },
+
+  "historical_projects": {
+    "title": "Completed Projects",
+    "pages": [
+      "Folders corresponding to projects completed over the last fifteen years.",
+      "Some projects changed names during their development. A note states:\n\n\"Check the old naming convention before duplicating documentation.\"",
+      "It is obvious that someone has spent a great deal of time keeping this archive organised."
+    ]
+  },
+
+  "box_index": {
+    "title": "Box Index",
+    "pages": [
+      "Box 12 - Promotional material.\nBox 13 - Furniture.\nBox 14 - Tax archive.\nBox 15 - Retired equipment.",
+      "All boxes appear to be correctly identified."
+    ]
+  },
+
+  "sealed_boxes": {
+    "title": "Sealed Boxes",
+    "pages": [
+      "The boxes remain sealed with packing tape.",
+      "A label reads:\n\n\"Pending document review.\"",
+      "You cannot determine what they contain."
+    ]
+  },
+
+  "warehouse_labels": {
+    "title": "Old Labels",
+    "pages": [
+      "Several peeling adhesive labels.\n\n\"North Archive\"\n\"Storage B\"\n\"Historical Documentation\"",
+      "It appears that the storage area was completely reorganised at some point."
+    ]
+  },
+
+  "archive_manifest": {
+    "title": "Storage Inventory",
+    "pages": [
+      "List of boxes stored during the last reorganisation.",
+      "Many references are marked as \"Relocated\".",
+      "A handwritten note says:\n\n\"Miguel knows the previous location. Do not change anything until confirmed.\""
+    ]
+  },
+
+  "discarded_pages": {
+    "title": "Discarded Papers",
+    "pages": [
+      "They are incomplete photocopies and sheets with printing errors.",
+      "Most have been crossed out with a red pen.",
+      "Nothing appears to contain useful information."
+    ]
+  },
+
+  "sorting_notes": {
+    "title": "Sorting Notes",
+    "pages": [
+      "Pending review of boxes 41-48.\n\nMove duplicate files.\nRemove unnecessary copies.",
+      "Someone added below:\n\n\"Do not touch the old filing cabinets until Management has reviewed them.\""
+    ]
+  },
+
+  "old_equipment_boxes": {
+    "title": "Old Equipment",
+    "pages": [
+      "PS/2 mice.\nOld keyboards.\nVGA cables.\nUnlabelled floppy disks.",
+      "Everything appears to be obsolete technology equipment."
+    ]
+  },
+
+  "cleaning_supplies": {
+    "title": "Cleaning Supplies",
+    "pages": [
+      "Cleaning staff inventory.\n\nDisinfectant.\nGloves.\nBags.\nCloths.\nAir freshener.",
+      "Nothing unusual."
+    ]
+  },
+
+  "drawer_labels": {
+    "title": "Drawer Labels",
+    "pages": [
+      "Each drawer is identified with small labels:\n\nA-E\nF-K\nL-P\nQ-Z\nMiscellaneous",
+      "The system makes it easy to find any file quickly."
+    ]
+  },
+
+  "forgotten_folder": {
+    "title": "Forgotten Folder",
+    "pages": [
+      "The folder was left forgotten inside an open drawer.",
+      "It contains only blank forms and sheets for recording document loans.",
+      "On the last page someone wrote:\n\n\"Always return the original.\""
+    ]
+  },
+
+  "archive_notebook": {
+    "title": "Archive Notebook",
+    "pages": [
+      "Day 4\n\nToday I moved several boxes again. It is getting harder to find space.",
+      "Day 11\n\nMiguel says it is better to keep the old classification even if it isn't very intuitive.",
+      "Day 17\n\nSometimes I wonder how he manages to remember where absolutely everything is.",
+      "Last Page\n\n\"Always ask before moving historical documentation.\""
+    ]
+  },
+
+  "crumpled_note_a": {
+    "title": "Crumpled Paper",
+    "pages": [
+      "Only this can be read:\n\n\"...they changed the numbering again...\""
+    ]
+  },
+
+  "crumpled_note_b": {
+    "title": "Crumpled Paper",
+    "pages": [
+      "\"Buy new labels.\nThe old ones no longer match almost anything.\""
+    ]
+  },
+
+  "archive_work": {
+    "title": "Pending Work",
+    "pages": [
+      "Several open folders are waiting to be archived.",
+      "A sheet lists several tasks:\n\n• Review old files.\n• Update inventory.\n• Classify new entries.",
+      "Someone wrote in the margin:\n\n\"Do not create new copies until checking whether an original already exists.\""
+    ]
+  },
+
+  "first_aid_checklist": {
+    "title": "First Aid Kit",
+    "pages": [
+      "Monthly inspection checklist.\n\n☑ Bandages\n☑ Gauze\n☑ Antiseptic\n☑ Gloves\n☑ Painkillers",
+      "Everything appears complete and within its expiry date."
+    ]
+  },
+
+  "drawer_contents": {
+    "title": "Hallway Cabinet",
+    "pages": [
+      "On top of the cabinet there is perfectly organised office equipment: pens, markers, staples, paper clips and several notebooks that are still unused.",
+      "The first drawer contains blank forms for requesting meeting rooms, computer equipment and temporary access cards.",
+      "The second drawer contains user manuals for several old pieces of equipment. Nothing seems particularly relevant."
+    ]
+  },
+
+  "emergency_exit_notice": {
+    "title": "Emergency Door",
+    "pages": [
+      "EMERGENCY EXIT\n\nThis door may only be used in the event of an evacuation or actual emergency.",
+      "Opening it outside an emergency situation will trigger an alarm and will be recorded by the building's security system."
+    ]
+  },
+
+  "vending_service_sheet": {
+    "title": "Maintenance Sheet",
+    "pages": [
+      "Vending Machine\n\nResponsible company: Vending Solutions S.L.\nLast restocking: three days ago.",
+      "Best-selling products:\n• Coffee with milk\n• Mineral water\n• Cereal bars\n• Sugar-free soft drinks",
+      "Technician's note:\n\n\"The coin return mechanism is occasionally jamming again.\""
+    ]
+  },
+
+  "plant_care_record": {
+    "title": "Maintenance Record",
+    "pages": [
+      "Hallway ornamental plant.\n\nWatering: twice a week.\nFertiliser: monthly.\nLast pruning: completed correctly.",
+      "At the bottom of the sheet someone wrote humorously:\n\n\"It is probably the most consistent employee in the entire office.\""
+    ]
+  },
+
+  "company_foundation_photo": {
+    "title": "Framed Photograph",
+    "pages": [
+      "The photograph shows the company's inauguration many years ago. Several people are posing and smiling in front of the original building.",
+      "The frame has a small metal plaque:\n\n\"First Corporate Offices\"",
+      "The caption is badly worn. Only a few names can be distinguished; the rest are illegible."
+    ]
+  },
+
+  "lost_scarf": {
+    "title": "Forgotten Scarf",
+    "pages": [
+      "There is a small blue scarf carefully folded on the bench.",
+      "Underneath it is a handwritten note:\n\n\"If anyone finds this scarf, please leave it at reception.\n\nThank you.\n— Marta\""
+    ]
+  },
+
+  "fire_equipment_tag": {
+    "title": "Fire Extinguisher Label",
+    "pages": [
+      "Maintenance company:\nSEGURFIRE Fire Protection",
+      "Last inspection: four months ago.\nNext inspection: in eight months.",
+      "The seal indicates that the equipment is in perfect condition."
+    ]
+  },
+
+  "camera_maintenance_log": {
+    "title": "Camera Log",
+    "pages": [
+      "IP Camera - Main Corridor\n\nLast technical inspection completed successfully.",
+      "The log states that recordings are kept for thirty days unless there is an incident or an internal request.",
+      "No additional remarks appear."
+    ]
+  },
+
+  "restroom_repair_notice": {
+    "title": "Maintenance Notice",
+    "pages": [
+      "RESTROOMS TEMPORARILY OUT OF SERVICE\n\nWe apologise for the inconvenience.",
+      "Reason:\nPipe replacement and ventilation system repair.",
+      "Estimated duration of the work:\nTwo working days."
+    ]
+  },
+
+  "landscape_painting": {
+    "title": "Office Painting",
+    "pages": [
+      "A mountain landscape hangs on the main wall of the office. The plaque states that it was a gift from the board of directors to mark Miguel Ruiz's tenth anniversary as director.",
+      "A small dedication appears in the lower corner:\n\n\"For all these years of leadership and commitment.\""
+    ]
+  },
+
+  "desk_drawers": {
+    "title": "Desk Drawers",
+    "pages": [
+      "The first drawer contains quality pens, an unused planner, several USB drives and neatly organised business cards.",
+      "The second contains folders with recent projects. Everything is labelled with dates and internal codes.",
+      "The last drawer contains a sealed envelope with no addressee, several unidentified old keys and a small notepad with handwritten phone numbers."
+    ]
+  },
+
+  "filing_cabinet": {
+    "title": "Auxiliary Filing Cabinet",
+    "pages": [
+      "Each drawer is dedicated to a different category: Finance, Human Resources and Correspondence.",
+      "The folders are arranged alphabetically. Miguel appears extremely meticulous about organisation.",
+      "You don't find anything unusual, although the care taken with the filing is remarkable."
+    ]
+  },
+
+  "office_plant_note": {
+    "title": "Plant Pot",
+    "pages": [
+      "The plant looks surprisingly healthy.",
+      "There is a small label stuck into the soil:\n\n\"Water only on Mondays and Thursdays.\""
+    ]
+  },
+
+  "executive_recognition": {
+    "title": "Business Recognition",
+    "pages": [
+      "Certificate awarded by **Orbis Consulting Group** in recognition of excellence in business management.",
+      "Date: twelve years ago.",
+      "You don't remember ever hearing of that company."
+    ]
+  },
+
+  "draft_reports": {
+    "title": "Drafts",
+    "pages": [
+      "Several printed versions of the same report, filled with handwritten notes, crossed-out paragraphs and comments in the margins.",
+      "One note says:\n\n\"Shorten this section. Too many unnecessary details.\"",
+      "Another annotation, written in a different handwriting, simply says:\n\n\"Keep the previous version just in case.\""
+    ]
+  },
+
+  "signed_reports": {
+    "title": "Signed Reports",
+    "pages": [
+      "The documents are perfectly organised and signed.",
+      "Most concern budgets, purchase authorisations and contract renewals.",
+      "Everything appears to be in order."
+    ]
+  },
+
+  "bookshelf_selection": {
+    "title": "Books on the Desk",
+    "pages": [
+      "\"Strategic Management\".\nNumerous passages are underlined in pencil.",
+      "\"The Memory of Organisations\".\nA bookmark remains placed approximately halfway through the book."
+    ]
+  },
+
+  "discarded_note": {
+    "title": "Crumpled Paper",
+    "pages": [
+      "You carefully unfold the sheet.",
+      "It contains only one sentence crossed out several times:\n\n\"Talk to Marta before Friday.\"",
+      "The rest of the paper is completely blank."
+    ]
+  },
+
+  "photo_collection": {
+    "title": "Framed Photographs",
+    "pages": [
+      "There are several family photographs alongside others taken at corporate events.",
+      "One shows Miguel receiving an award. Another shows him posing with a group of employees during a company lunch.",
+      "There is also a fairly old photograph in front of a building different from the current one. You don't recognise the location."
+    ]
+  },
+
+  "bookshelf_history": {
+    "title": "Shelf A",
+    "pages": [
+      "Books about business history, European economics and the development of the technology sector.",
+      "Many appear quite old but well preserved."
+    ]
+  },
+
+  "bookshelf_management": {
+    "title": "Shelf B",
+    "pages": [
+      "Most are manuals on leadership, negotiation and team management.",
+      "Several contain small sticky notes protruding between the pages."
+    ]
+  },
+
+  "bookshelf_finance": {
+    "title": "Shelf C",
+    "pages": [
+      "Advanced accounting, internal auditing and financial planning manuals.",
+      "Nothing particularly catches your attention."
+    ]
+  },
+
+  "bookshelf_technology": {
+    "title": "Shelf D",
+    "pages": [
+      "Publications on document digitalisation, cloud storage and cybersecurity.",
+      "Some editions are relatively recent."
+    ]
+  },
+
+  "bookshelf_legal": {
+    "title": "Shelf E",
+    "pages": [
+      "Compendiums of labour law, data protection and commercial regulations.",
+      "One of the books has dozens of pages marked with coloured tabs."
+    ]
+  },
+
+  "bookshelf_archives": {
+    "title": "Shelf F",
+    "pages": [
+      "Books specialising in document preservation and historical archive management.",
+      "One contains an underlined sentence:\n\n\"Destroying a document is easy; reconstructing its context may be impossible.\""
+    ]
+  },
+
+  "bookshelf_personal": {
+    "title": "Shelf G",
+    "pages": [
+      "The books here are more personal: historical novels, biographies and several old atlases.",
+      "It appears to be the only shelf in the office chosen for personal interest rather than work."
+    ]
+  },
+
+  "bookshelf_misc": {
+    "title": "Shelf H",
+    "pages": [
+      "There are dictionaries, encyclopaedias and several unlabelled binders.",
+      "Nothing seems particularly interesting."
+    ]
+  },
+
+  "business_card": {
+    "title": "Business Card",
+    "pages": [
+      "A business card has been left between the armchair cushions.",
+      "It belongs to a former supplier who stopped working with the company years ago.",
+      "Someone wrote on the back:\n\n\"Call when the audit is over.\""
+    ]
+  },
+
+  "storage_inventory": {
+    "title": "Storage Cabinet Inventory",
+    "pages": [
+      "The cabinets contain spare office supplies: paper, folders, empty binders and storage boxes.",
+      "Everything is inventoried using small numbered labels.",
+      "Nothing appears to be missing."
+    ]
+  },
+
+  "meeting_notebook": {
+    "title": "Meeting Notebook",
+    "pages": [
+      "Several pages contain notes from weekly meetings.\n\n• Review budget.\n• Server migration.\n• Pending interviews.\n• Update inventory.",
+      "Another page contains several names surrounded by circles and arrows. There doesn't seem to be any particular order.",
+      "The last page contains several doodles made while someone was listening to a presentation. Among them you can read:\n\n\"Don't forget to book the room for Thursday.\""
+    ]
+  },
+
+  "team_photos": {
+    "title": "Team Photographs",
+    "pages": [
+      "There are several photographs taken during company lunches, celebrations and team activities.",
+      "In almost all of them, the same group of employees is smiling at the camera.",
+      "One photograph appears older than the others. The quality is worse and some people are difficult to recognise."
+    ]
+  },
+
+  "sofa_cushion": {
+    "title": "Sofa",
+    "pages": [
+      "You check between the sofa cushions.",
+      "You only find a few crumbs, a metal paper clip and quite a lot of accumulated dust.",
+      "Nothing seems important."
+    ]
+  },
+
+  "coin_under_sofa": {
+    "title": "Under the Sofa",
+    "pages": [
+      "When you crouch down, you find a rather worn one-euro coin.",
+      "There is also an old mint candy wrapper.",
+      "There is nothing else of interest."
+    ]
+  },
+
+  "chair_nameplate": {
+    "title": "Meeting Chair",
+    "pages": [
+      "Someone has placed a small adhesive label on the backrest:\n\n\"Carlos\"",
+      "It seems that during some meetings each participant always sits in the same seat."
+    ]
+  },
+
+  "meeting_scribbles": {
+    "title": "Notes on the Table",
+    "pages": [
+      "Several sheets contain quick notes made during a meeting.",
+      "Among numbers and arrows you can read:\n\n\"Confirm budget with Finance.\"\n\"Prepare documentation for HR.\"",
+      "In one corner someone absent-mindedly wrote:\n\n\"Who always takes the markers?\""
+    ]
+  },
+
+  "projector_service_label": {
+    "title": "Projector Label",
+    "pages": [
+      "Multimedia projector.\n\nLast maintenance completed successfully two months ago.",
+      "According to the service record, the lamp still has many hours of useful life remaining."
+    ]
+  },
+
+  "window_view": {
+    "title": "Through the Blinds",
+    "pages": [
+      "Through the slats of the blinds you can barely see the building opposite.",
+      "People enter and leave the car park while cars pass along the street.",
+      "Nothing particularly catches your attention."
+    ]
+  },
+
+  "rear_window_view": {
+    "title": "Side Window",
+    "pages": [
+      "From this side you can only see part of the building's inner courtyard.",
+      "There are several recycling bins and a small loading area.",
+      "You don't notice anything unusual."
+    ]
+  },
+
+  "forgotten_usb_box": {
+    "title": "Under the Chair",
+    "pages": [
+      "You find a small plastic box for storing USB drives.",
+      "It is completely empty.",
+      "Someone wrote on the lid with a permanent marker:\n\n\"Client Presentation\""
+    ]
+  }
+}

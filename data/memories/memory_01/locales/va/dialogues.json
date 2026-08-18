@@ -1,0 +1,186 @@
+{
+  "clara": [
+    {
+      "from": 0,
+      "to": 90,
+      "lines": [
+        "Bon dia. Seguisca, per favor.",
+        "El director acabarà una reunió d'ací a uns minuts.",
+        "Si necessita alguna cosa mentre espera, estaré ací.",
+        "Si té algun dubte sobre l'edifici, puc orientar-lo."
+      ]
+    },
+    {
+      "from": 90,
+      "to": 210,
+      "lines": [
+        "Quin matí més mogut...",
+        "No paren de demanar-me documents antics.",
+        "Pensava que quasi ningú consultava l'Arxiu.",
+        "Últimament tothom sembla estar buscant coses de fa anys.",
+        "Encara que supose que seran casualitats."
+      ]
+    },
+    {
+      "from": 210,
+      "to": 360,
+      "lines": [
+        "És curiós...",
+        "Juraria que abans sabia millor on estava cada cosa.",
+        "Últimament he de preguntar molt més.",
+        "Potser porte massa hores ací i comence a barrejar-ho tot.",
+        "De vegades els passadissos semblen més llargs del que recorde."
+      ]
+    },
+    {
+      "from": 360,
+      "to": 510,
+      "lines": [
+        "Menys mal que Miguel sempre sap on està tot.",
+        "Si algú necessita un document antic, acaba preguntant-li a ell.",
+        "Té una memòria increïble per a aquestes coses.",
+        "No sé com aconsegueix recordar tants detalls.",
+        "Supose que és qüestió d'experiència."
+      ]
+    },
+    {
+      "from": 510,
+      "to": 600,
+      "lines": [
+        "Ja quasi és l'hora de la reunió.",
+        "Quan acabe, tot tornarà a la normalitat.",
+        "Encara que aquest matí ha sigut prou estrany...",
+        "Bé, serà millor no donar-li més voltes."
+      ]
+    }
+  ],
+  "miguel": [
+    {
+      "from": 0,
+      "to": 180,
+      "lines": [
+        "Disculpe, ara mateix estic ocupat.",
+        "Si necessita alguna cosa, Recepció podrà ajudar-lo.",
+        "Quan acabe la reunió atendré les seues preguntes.",
+        "Gràcies per la seua paciència."
+      ]
+    },
+    {
+      "from": 180,
+      "to": 420,
+      "lines": [
+        "Estic revisant documentació.",
+        "Quan acabe la reunió podrem parlar.",
+        "Hi ha diversos assumptes que requereixen la meua atenció.",
+        "Preferisc revisar-ho tot abans de donar una resposta."
+      ]
+    },
+    {
+      "from": 420,
+      "to": 600,
+      "lines": [
+        "Encara no.",
+        "Abans he de resoldre alguns assumptes pendents.",
+        "Li assegure que tot està sota control.",
+        "Quan siga el moment adequat podrem parlar."
+      ]
+    }
+  ],
+  "marta": [
+    {
+      "from": 0,
+      "to": 180,
+      "lines": [
+        "Bon dia.",
+        "Sempre intente arribar un poc abans.",
+        "M'agrada revisar les coses amb calma abans de començar.",
+        "Així evite cometre errors."
+      ]
+    },
+    {
+      "from": 180,
+      "to": 360,
+      "lines": [
+        "Estic revisant uns llistats.",
+        "No sé per què... però juraria que abans eren diferents.",
+        "Potser algú els va actualitzar i no me'n vaig adonar.",
+        "De vegades treballem tant amb els mateixos documents que deixem de veure els canvis."
+      ]
+    },
+    {
+      "from": 360,
+      "to": 600,
+      "lines": [
+        "Supose que simplement ho recorde malament.",
+        "De vegades li donem massa voltes a les coses.",
+        "La nostra memòria tampoc és perfecta.",
+        "Segur que hi ha una explicació senzilla."
+      ]
+    }
+  ],
+  "laura": [
+    {
+      "from": 0,
+      "to": 150,
+      "lines": [
+        "Ha vingut per l'entrevista?",
+        "Hui tenim prou moviment.",
+        "Sembla que tothom necessita alguna cosa de Direcció.",
+        "Serà un d'aquells matins complicats."
+      ]
+    },
+    {
+      "from": 150,
+      "to": 360,
+      "lines": [
+        "He estat organitzant unes fotografies antigues.",
+        "És increïble la quantitat de coses que acabem guardant.",
+        "Hi ha imatges que ni tan sols recordava haver vist.",
+        "Supose que amb tants anys acumulem massa records."
+      ]
+    },
+    {
+      "from": 360,
+      "to": 600,
+      "lines": [
+        "Si busca documentació antiga, pregunte en Direcció.",
+        "Ells saben millor que ningú com està organitzat tot.",
+        "Miguel sol encarregar-se d'aquests assumptes.",
+        "Sempre sembla trobar el que els altres no veiem."
+      ]
+    }
+  ],
+  "carlos": [
+    {
+      "from": 0,
+      "to": 180,
+      "lines": [
+        "He d'acabar uns informes.",
+        "Sempre hi ha alguna cosa pendent.",
+        "Últimament no pare ni un moment.",
+        "Però bé, és part de la faena."
+      ]
+    },
+    {
+      "from": 180,
+      "to": 360,
+      "lines": [
+        "Hi havia una cosa que volia comprovar...",
+        "Ara mateix no recorde què era.",
+        "Què curiós, ho tenia completament clar fa un moment.",
+        "Deu ser que tinc massa coses al cap."
+      ]
+    },
+    {
+      "from": 360,
+      "to": 600,
+      "lines": [
+        "Fa igual.",
+        "Segur que Miguel ho recorda.",
+        "Sempre acaba sabent aquestes coses.",
+        "Encara que, pensant-ho bé... potser simplement té més experiència que nosaltres.",
+        "Sí, deu ser això."
+      ]
+    }
+  ]
+}

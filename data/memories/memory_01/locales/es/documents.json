@@ -1,856 +1,857 @@
 {
   "magazine": {
-    "title": "Tech Monthly - April Edition",
+    "title": "Tecnología Mensual - Edición de abril",
     "pages": [
-      "Editorial\n\nArtificial intelligence continues to transform every industry. Companies that invested early are already restructuring departments, automating repetitive tasks and redefining traditional office roles. While many celebrate these advances, experts warn that documentation and knowledge management are becoming increasingly important as organisations grow more complex.",
-      "Feature Article\n\nCloud infrastructure has become the backbone of modern businesses. Instead of maintaining physical servers, organisations are migrating their systems to scalable cloud platforms. Analysts estimate that over 80% of medium-sized companies will complete this transition within the next five years.",
-      "Interview\n\nCybersecurity consultant Elena Navarro explains that human error remains the leading cause of data breaches. 'Technology improves every year,' she says, 'but forgotten documents, outdated procedures and poor record keeping still create unnecessary risks.'",
-      "Start-up Focus\n\nSeveral European technology companies have attracted record investment this quarter. Most share one common characteristic: strong internal organisation and careful management of historical company data."
+      "Editorial\n\nLa inteligencia artificial continúa transformando todos los sectores. Las empresas que invirtieron pronto ya están reorganizando departamentos, automatizando tareas repetitivas y redefiniendo los roles tradicionales de oficina. Mientras muchos celebran estos avances, los expertos advierten de que la documentación y la gestión del conocimiento son cada vez más importantes a medida que las organizaciones se vuelven más complejas.",
+      "Artículo principal\n\nLa infraestructura en la nube se ha convertido en la columna vertebral de las empresas modernas. En lugar de mantener servidores físicos, las organizaciones están migrando sus sistemas a plataformas en la nube escalables. Los analistas estiman que más del 80% de las empresas medianas completarán esta transición durante los próximos cinco años.",
+      "Entrevista\n\nLa consultora de ciberseguridad Elena Navarro explica que el error humano sigue siendo la principal causa de las filtraciones de datos. «La tecnología mejora cada año», afirma, «pero los documentos olvidados, los procedimientos desactualizados y una mala gestión de los registros siguen creando riesgos innecesarios».",
+      "Enfoque en las empresas emergentes\n\nVarias empresas tecnológicas europeas han atraído una inversión récord este trimestre. La mayoría comparte una característica: una sólida organización interna y una gestión cuidadosa de los datos históricos de la empresa."
     ]
   },
 
   "waiting_notepad": {
-    "title": "Reception Notepad",
+    "title": "Bloc de recepción",
     "pages": [
-      "Tasks for this morning\n\n☑ Print interview documents\n☑ Test visitor badge printer\n☑ Call printer maintenance\n☐ Buy coffee capsules\n☐ Water reception plants",
-      "Reminders\n\n• Ask M. about archive access.\n• Return meeting room key.\n• Confirm tomorrow's delivery.\n• Order new toner cartridges.\n• Replace damaged visitor badge.",
-      "Personal Notes\n\nThe archive has been busier than usual this week. Marta mentioned she still hasn't finished reorganising the old folders. Miguel asked not to remove anything until further notice."
+      "Tareas para esta mañana\n\n☑ Imprimir documentos de la entrevista\n☑ Probar la impresora de acreditaciones de visitantes\n☑ Llamar al servicio de mantenimiento de la impresora\n☐ Comprar cápsulas de café\n☐ Regar las plantas de recepción",
+      "Recordatorios\n\n• Preguntar a M. por el acceso al archivo.\n• Devolver la llave de la sala de reuniones.\n• Confirmar la entrega de mañana.\n• Pedir nuevos cartuchos de tóner.\n• Sustituir la acreditación de visitante dañada.",
+      "Notas personales\n\nEl archivo ha estado más concurrido de lo habitual esta semana. Marta comentó que todavía no ha terminado de reorganizar las carpetas antiguas. Miguel pidió que no se retirara nada hasta nuevo aviso."
     ]
   },
 
   "reception_agenda": {
-    "title": "Reception Agenda",
+    "title": "Agenda de recepción",
     "pages": [
-      "08:00 Office opens\n08:15 Deliveries\n08:30 Candidate interview\n08:45 Courier collection\n09:00 Weekly management meeting\n09:20 Archive inventory",
-      "09:45 Coffee supplier\n10:00 Miguel Ruiz\n10:15 Marta Romero\n11:00 IT maintenance\n11:30 Cleaning company\n12:00 External visitors",
-      "Notes\n\nMeeting room reserved until 10:30.\nPrepare visitor badges before 08:45.\nArchive access requested by Administration."
+      "08:00 Apertura de la oficina\n08:15 Entregas\n08:30 Entrevista de candidato\n08:45 Recogida del mensajero\n09:00 Reunión semanal de dirección\n09:20 Inventario del archivo",
+      "09:45 Proveedor de café\n10:00 Miguel Ruiz\n10:15 Marta Romero\n11:00 Mantenimiento informático\n11:30 Empresa de limpieza\n12:00 Visitas externas",
+      "Notas\n\nSala de reuniones reservada hasta las 10:30.\nPreparar las acreditaciones de visitantes antes de las 08:45.\nAdministración ha solicitado acceso al archivo."
     ]
   },
 
   "wall_calendar": {
-    "title": "Office Calendar",
+    "title": "Calendario de la oficina",
     "pages": [
-      "Monday\n\n18 - Laura's birthday\n25 - Sergio's birthday\n\nFriday: Fire drill at 11:00.",
-      "Upcoming\n\nQuarterly review next week.\nOffice maintenance on Thursday evening.\nMeeting room unavailable Tuesday afternoon.",
-      "Sticky Note\n\nRemember to update the emergency contact sheet before the end of the month."
+      "Lunes\n\n18 - Cumpleaños de Laura\n25 - Cumpleaños de Sergio\n\nViernes: Simulacro de incendio a las 11:00.",
+      "Próximamente\n\nRevisión trimestral la próxima semana.\nMantenimiento de la oficina el jueves por la tarde.\nSala de reuniones no disponible el martes por la tarde.",
+      "Nota adhesiva\n\nRecordar actualizar la hoja de contactos de emergencia antes de que termine el mes."
     ]
   },
 
   "employee_registry": {
-    "title": "Employee Registry",
+    "title": "Registro de empleados",
     "pages": [
-      "Clara Pérez\nReception\nExtension: 101\nJoined: 2019\n\nResponsible for visitors, deliveries and meeting room bookings.",
-      "Miguel Ruiz\nDirector\nExtension: 201\nJoined: 2009\n\nResponsible for company management and final approval of internal documentation.",
-      "Marta Romero\nHuman Resources\nExtension: 203\nJoined: 2016\n\nRecruitment, contracts and personnel records.",
-      "Carlos Vega\nFinance\nExtension: 205\nJoined: 2018\n\nBudgets, suppliers and quarterly reports.",
-      "Laura López\nAdministration\nExtension: 107\nJoined: 2021\n\nArchive maintenance, inventory and document organisation."
+      "Clara Pérez\nRecepción\nExtensión: 101\nIncorporación: 2019\n\nResponsable de visitantes, entregas y reservas de salas de reuniones.",
+      "Miguel Ruiz\nDirección\nExtensión: 201\nIncorporación: 2009\n\nResponsable de la gestión de la empresa y de la aprobación final de la documentación interna.",
+      "Marta Romero\nRecursos Humanos\nExtensión: 203\nIncorporación: 2016\n\nSelección, contratos y expedientes de personal.",
+      "Carlos Vega\nFinanzas\nExtensión: 205\nIncorporación: 2018\n\nPresupuestos, proveedores e informes trimestrales.",
+      "Laura López\nAdministración\nExtensión: 107\nIncorporación: 2021\n\nMantenimiento del archivo, inventario y organización documental."
     ]
   },
 
   "contracts_folder": {
-    "title": "Employee Contracts",
+    "title": "Contratos de empleados",
     "pages": [
-      "Contents\n\nClara Pérez\nMarta Romero\nCarlos Vega\nLaura López\n\nEach contract contains hiring conditions, salary information and confidentiality clauses.",
-      "Index\n\nPage 1 - Clara Pérez\nPage 2 - Marta Romero\nPage 3 - Carlos Vega\nPage 4 - Laura López\nPage 5 - Reserved",
-      "The final divider is empty.\n\nA label reads:\n'Additional employee documentation.'\n\nNo documents remain behind it."
+      "Contenido\n\nClara Pérez\nMarta Romero\nCarlos Vega\nLaura López\n\nCada contrato contiene las condiciones de contratación, información salarial y cláusulas de confidencialidad.",
+      "Índice\n\nPágina 1 - Clara Pérez\nPágina 2 - Marta Romero\nPágina 3 - Carlos Vega\nPágina 4 - Laura López\nPágina 5 - Reservada",
+      "El separador final está vacío.\n\nUna etiqueta indica:\n«Documentación adicional de empleados.»\n\nNo quedan documentos detrás."
     ]
   },
 
   "team_photo_doc": {
-    "title": "Company Photo",
+    "title": "Fotografía de la empresa",
     "pages": [
-      "A framed group photograph shows five employees standing in front of the company entrance. Everyone is smiling. The image has faded slightly with age.",
-      "The lower-right corner has been folded several times. The caption underneath is badly damaged and only a few letters remain visible.",
-      "On the back of the photograph someone has written:\n\n'Annual company meeting.'\n\nThe date is almost impossible to read."
+      "Una fotografía de grupo enmarcada muestra a cinco empleados delante de la entrada de la empresa. Todos sonríen. La imagen está ligeramente descolorida por el paso del tiempo.",
+      "La esquina inferior derecha ha sido doblada varias veces. El pie de foto está muy deteriorado y solo quedan visibles unas pocas letras.",
+      "En la parte posterior de la fotografía alguien escribió:\n\n«Reunión anual de la empresa.»\n\nLa fecha resulta casi imposible de leer."
     ]
   },
 
   "shredded_document": {
-    "title": "Shredded Document",
+    "title": "Documento triturado",
     "pages": [
-      "Small strips of paper are scattered across the desk.\n\nMost sentences are impossible to reconstruct.",
-      "Visible fragments:\n\n'...approved...'\n'...previous version...'\n'...retain...'\n'...Director...'",
-      "The fragments appear to belong to an official internal document, but too much of the page is missing to understand its original meaning."
+      "Pequeñas tiras de papel están esparcidas sobre el escritorio.\n\nLa mayoría de las frases son imposibles de reconstruir.",
+      "Fragmentos visibles:\n\n«...aprobado...»\n«...versión anterior...»\n«...conservar...»\n«...Director...»",
+      "Los fragmentos parecen pertenecer a un documento interno oficial, pero falta demasiada parte de la página para comprender su significado original."
     ]
   },
 
   "company_board": {
-    "title": "Company Information",
+    "title": "Información de la empresa",
     "pages": [
-      "Organisation\n\nDirector\nHuman Resources\nFinance\nAdministration\nReception",
-      "Building Directory\n\nReception ←\nArchive\nMeeting Room\nDirector's Office\nStorage",
-      "Emergency Contacts\n\nReception: 101\nDirector: 201\nIT Support: 301\nSecurity: 399"
+      "Organización\n\nDirección\nRecursos Humanos\nFinanzas\nAdministración\nRecepción",
+      "Directorio del edificio\n\nRecepción ←\nArchivo\nSala de reuniones\nDespacho del director\nAlmacén",
+      "Contactos de emergencia\n\nRecepción: 101\nDirección: 201\nSoporte informático: 301\nSeguridad: 399"
     ]
   },
 
   "desk_notes": {
-    "title": "Desk Notes",
+    "title": "Notas del escritorio",
     "pages": [
-      "Morning\n\nCall supplier.\nReview quarterly report.\nPrepare meeting room.\nReply to HR.",
-      "Afternoon\n\nReview archive request.\nOrder stationery.\nConfirm next week's interview schedule.",
-      "Corner Note\n\nDon't forget M.R.\nCheck old contract list before the meeting."
+      "Mañana\n\nLlamar al proveedor.\nRevisar el informe trimestral.\nPreparar la sala de reuniones.\nResponder a RR. HH.",
+      "Tarde\n\nRevisar la solicitud del archivo.\nPedir material de oficina.\nConfirmar el calendario de entrevistas de la próxima semana.",
+      "Nota en la esquina\n\nNo olvidar a M.R.\nComprobar la lista de contratos antiguos antes de la reunión."
     ]
   },
 
   "director_diploma": {
-    "title": "University Diploma",
+    "title": "Título universitario",
     "pages": [
-      "Universidad Autónoma\n\nThis certifies that\n\nMiguel Ruiz\n\nhas successfully completed the Master in Business Administration programme.",
-      "Graduation Year: 2008\n\nAwarded with distinction.\n\nOfficial university seal."
+      "Universidad Autónoma\n\nSe certifica que\n\nMiguel Ruiz\n\nha completado satisfactoriamente el programa de Máster en Administración de Empresas.",
+      "Año de graduación: 2008\n\nObtenido con distinción.\n\nSello oficial de la universidad."
     ]
   },
 
   "office_photo": {
-    "title": "Framed Photograph",
+    "title": "Fotografía enmarcada",
     "pages": [
-      "A framed photograph shows Miguel Ruiz shaking hands with another executive during a business conference. Both are wearing conference badges.",
-      "The frame has gathered a thin layer of dust. A small plaque underneath reads:\n\n'Annual Business Conference'.",
-      "The printed date has faded almost completely and can no longer be read."
+      "Una fotografía enmarcada muestra a Miguel Ruiz estrechando la mano de otro ejecutivo durante una conferencia empresarial. Ambos llevan acreditaciones de la conferencia.",
+      "El marco ha acumulado una fina capa de polvo. Una pequeña placa debajo indica:\n\n«Conferencia Empresarial Anual».",
+      "La fecha impresa se ha borrado casi por completo y ya no puede leerse."
     ]
   },
 
   "whiteboard_notes": {
-    "title": "Meeting Whiteboard",
+    "title": "Pizarra de reuniones",
     "pages": [
-      "Today's Topics\n\n• Budget review\n• Recruitment\n• Server migration\n• Archive organisation\n• Coffee machine replacement",
-      "Action Items\n\nCarlos - Financial report\nClara - Visitor logistics\nLaura - Archive inventory\nMarta - Recruitment updates",
-      "Bottom Corner\n\n'Bring previous documentation if needed.'"
+      "Temas de hoy\n\n• Revisión del presupuesto\n• Contratación\n• Migración de servidores\n• Organización del archivo\n• Sustitución de la cafetera",
+      "Tareas\n\nCarlos - Informe financiero\nClara - Logística de visitantes\nLaura - Inventario del archivo\nMarta - Actualizaciones de selección",
+      "Esquina inferior\n\n«Traer documentación anterior si es necesario.»"
     ]
   },
 
   "meeting_schedule": {
-    "title": "Weekly Meeting",
+    "title": "Reunión semanal",
     "pages": [
-      "09:00 Weekly Management Meeting\n\nExpected duration: 60 minutes.\nLocation: Meeting Room A.",
-      "Attendees\n\nMiguel Ruiz\nMarta Romero\nClara Pérez\nCarlos Vega\nLaura López",
-      "Agenda\n\n1. Budget review\n2. Recruitment\n3. Archive organisation\n4. Pending documentation\n5. Open discussion"
+      "09:00 Reunión semanal de dirección\n\nDuración prevista: 60 minutos.\nUbicación: Sala de reuniones A.",
+      "Asistentes\n\nMiguel Ruiz\nMarta Romero\nClara Pérez\nCarlos Vega\nLaura López",
+      "Orden del día\n\n1. Revisión del presupuesto\n2. Selección de personal\n3. Organización del archivo\n4. Documentación pendiente\n5. Asuntos abiertos"
     ]
   },
+
   "coat_bag_contents": {
     "title": "Bolso",
     "pages": [
-        "El bolso cuelga del perchero junto a un abrigo.\n\nDentro hay una cartera, un paquete de pañuelos, un cargador de móvil, un pequeño neceser y una bolsa reutilizable cuidadosamente doblada.\n\nNo parece contener nada fuera de lo normal.",
-        "En un bolsillo lateral encuentras una lista escrita a mano.\n\n• Comprar comida para Nala.\n• Recoger el paquete.\n• Llamar a la veterinaria.\n• Comprar pilas AA.\n\nNo hay ningún nombre que identifique a la dueña del bolso.",
-        "Cierras el bolso con cuidado.\n\nSeguir rebuscando entre las pertenencias personales de otra persona no parece una buena idea."
+      "El bolso cuelga del perchero junto a un abrigo.\n\nDentro hay una cartera, un paquete de pañuelos, un cargador de móvil, un pequeño neceser y una bolsa reutilizable cuidadosamente doblada.\n\nNo parece contener nada fuera de lo normal.",
+      "En un bolsillo lateral encuentras una lista escrita a mano.\n\n• Comprar comida para Nala.\n• Recoger el paquete.\n• Llamar a la veterinaria.\n• Comprar pilas AA.\n\nNo hay ningún nombre que identifique a la dueña del bolso.",
+      "Cierras el bolso con cuidado.\n\nSeguir rebuscando entre las pertenencias personales de otra persona no parece una buena idea."
     ]
-},
+  },
 
-"plant_shopping_list": {
+  "plant_shopping_list": {
     "title": "Lista de la compra arrugada",
     "pages": [
-        "Miras en la maceta, pero no ves nada.\nSin embargo, te percatas de un papel escondido entre la maceta y la pared.\nLo coges.",
-        "Lees lo que pone:\n\n• Tomates\n• Leche\n• Pan\n• Pasta\n• Yogures\n• Papel de cocina",
-        "En la parte inferior alguien añadió un último recordatorio:\n\n\"Llamar a la abuela.\"\n\nLa letra cambia ligeramente, como si se hubiera escrito con prisa."
+      "Miras en la maceta, pero no ves nada.\nSin embargo, te percatas de un papel escondido entre la maceta y la pared.\nLo coges.",
+      "Lees lo que pone:\n\n• Tomates\n• Leche\n• Pan\n• Pasta\n• Yogures\n• Papel de cocina",
+      "En la parte inferior alguien añadió un último recordatorio:\n\n«Llamar a la abuela.»\n\nLa letra cambia ligeramente, como si se hubiera escrito con prisa."
     ]
-},
+  },
 
-"magazine_business": {
+  "magazine_business": {
     "title": "Empresa & Gestión - Junio",
     "pages": [
-        "Editorial\n\nLas pequeñas y medianas empresas continúan apostando por la digitalización. Cada vez más departamentos sustituyen procesos en papel por herramientas informáticas, aunque muchos expertos recuerdan que una buena organización sigue siendo más importante que cualquier software.",
-        "Dirección\n\nLos estudios sobre productividad coinciden en que los mejores equipos no son necesariamente los más grandes, sino aquellos que documentan correctamente sus procesos y comparten el conocimiento entre departamentos.",
-        "Entrevista\n\nLa consultora Isabel Romero explica que muchas empresas pierden tiempo buscando información que ya existe.\n\n\"El verdadero problema no es la falta de documentos, sino no saber dónde encontrarlos.\"",
-        "Mercado\n\nDurante este trimestre varias consultoras nacionales han anunciado procesos de reorganización interna para adaptarse al crecimiento de plantilla."
+      "Editorial\n\nLas pequeñas y medianas empresas continúan apostando por la digitalización. Cada vez más departamentos sustituyen procesos en papel por herramientas informáticas, aunque muchos expertos recuerdan que una buena organización sigue siendo más importante que cualquier software.",
+      "Dirección\n\nLos estudios sobre productividad coinciden en que los mejores equipos no son necesariamente los más grandes, sino aquellos que documentan correctamente sus procesos y comparten el conocimiento entre departamentos.",
+      "Entrevista\n\nLa consultora Isabel Romero explica que muchas empresas pierden tiempo buscando información que ya existe.\n\n«El verdadero problema no es la falta de documentos, sino no saber dónde encontrarlos.»",
+      "Mercado\n\nDurante este trimestre varias consultoras nacionales han anunciado procesos de reorganización interna para adaptarse al crecimiento de plantilla."
     ]
-},
+  },
 
-"magazine_travel": {
+  "magazine_travel": {
     "title": "Viajar Hoy",
     "pages": [
-        "Escapadas\n\nCinco pueblos costeros donde todavía es posible pasar un fin de semana tranquilo lejos del turismo masificado.",
-        "Europa\n\nUna guía con recorridos de dos días por distintas capitales europeas utilizando únicamente transporte público.",
-        "Fotografía\n\nLas mejores imágenes enviadas por los lectores muestran amaneceres en los Pirineos, los Alpes y la costa portuguesa.",
-        "Consejos\n\nAntes de viajar conviene llevar siempre una batería externa, copias de la documentación y descargar mapas sin conexión."
+      "Escapadas\n\nCinco pueblos costeros donde todavía es posible pasar un fin de semana tranquilo lejos del turismo masificado.",
+      "Europa\n\nUna guía con recorridos de dos días por distintas capitales europeas utilizando únicamente transporte público.",
+      "Fotografía\n\nLas mejores imágenes enviadas por los lectores muestran amaneceres en los Pirineos, los Alpes y la costa portuguesa.",
+      "Consejos\n\nAntes de viajar conviene llevar siempre una batería externa, copias de la documentación y descargar mapas sin conexión."
     ]
-},
+  },
 
-"magazine_gardening": {
+  "magazine_gardening": {
     "title": "Jardines & Hogar",
     "pages": [
-        "Plantas de interior\n\nDiversos estudios indican que incorporar plantas en oficinas reduce la sensación de estrés y mejora la percepción del espacio por parte de empleados y visitantes.",
-        "Cuidados\n\nEl exceso de agua sigue siendo la causa más habitual de que las plantas de interior se deterioren. Es preferible regarlas menos que demasiado.",
-        "Decoración\n\nLas macetas grandes ayudan a separar espacios abiertos sin necesidad de instalar mamparas o divisiones permanentes."
+      "Plantas de interior\n\nDiversos estudios indican que incorporar plantas en oficinas reduce la sensación de estrés y mejora la percepción del espacio por parte de empleados y visitantes.",
+      "Cuidados\n\nEl exceso de agua sigue siendo la causa más habitual de que las plantas de interior se deterioren. Es preferible regarlas menos que demasiado.",
+      "Decoración\n\nLas macetas grandes ayudan a separar espacios abiertos sin necesidad de instalar mamparas o divisiones permanentes."
     ]
-},
+  },
 
-"small_plant_nothing": {
+  "small_plant_nothing": {
     "title": "Maceta",
     "pages": [
-        "Observas la tierra con atención.\n\nSolo hay algunas hojas secas y un poco de humedad. No parece haber nada interesante escondido aquí."
+      "Observas la tierra con atención.\n\nSolo hay algunas hojas secas y un poco de humedad. No parece haber nada interesante escondido aquí."
     ]
-},
+  },
 
-"water_notice": {
+  "water_notice": {
     "title": "Aviso del dispensador",
     "pages": [
-        "Por favor, utilice vasos reutilizables siempre que sea posible.\n\nLos vasos desechables están reservados para visitantes.",
-        "Si el dispensador se queda sin agua, avise en recepción.\n\nNo intente sustituir la garrafa por su cuenta."
+      "Por favor, utilice vasos reutilizables siempre que sea posible.\n\nLos vasos desechables están reservados para visitantes.",
+      "Si el dispensador se queda sin agua, avise en recepción.\n\nNo intente sustituir la garrafa por su cuenta."
     ]
-},
+  },
 
-"sofa_nothing": {
+  "sofa_nothing": {
     "title": "Entre los cojines",
     "pages": [
-        "Apartas ligeramente los cojines del sofá.\n\nSolo encuentras algo de polvo y una vieja miga de pan. Nada que llame la atención."
+      "Apartas ligeramente los cojines del sofá.\n\nSolo encuentras algo de polvo y una vieja miga de pan. Nada que llame la atención."
     ]
-},
+  },
 
-"hidden_receipt_sofa": {
+  "hidden_receipt_sofa": {
     "title": "Ticket de cafetería",
     "pages": [
-        "CAFETERÍA CENTRAL\n\n08:14\n\n2 cafés\n1 tostada\n\nTOTAL: 7,20 €",
-        "En la parte trasera alguien escribió con bolígrafo:\n\n\"No olvidar la entrevista de las 08:30.\""
+      "CAFETERÍA CENTRAL\n\n08:14\n\n2 cafés\n1 tostada\n\nTOTAL: 7,20 €",
+      "En la parte trasera alguien escribió con bolígrafo:\n\n«No olvidar la entrevista de las 08:30.»"
     ]
-},
+  },
 
-"safety_leaflet": {
+  "safety_leaflet": {
     "title": "Folleto de prevención",
     "pages": [
-        "Normas básicas de seguridad\n\n• Mantenga libres las salidas de emergencia.\n• Comunique cualquier avería.\n• No bloquee los extintores.\n• Lleve visible su acreditación durante la jornada.",
-        "La seguridad es responsabilidad de todos.\n\nAnte cualquier incidencia, contacte con recepción o con el responsable de mantenimiento."
+      "Normas básicas de seguridad\n\n• Mantenga libres las salidas de emergencia.\n• Comunique cualquier avería.\n• No bloquee los extintores.\n• Lleve visible su acreditación durante la jornada.",
+      "La seguridad es responsabilidad de todos.\n\nAnte cualquier incidencia, contacte con recepción o con el responsable de mantenimiento."
     ]
-},
+  },
 
-"business_card_found": {
+  "business_card_found": {
     "title": "Tarjeta de visita",
     "pages": [
-        "Daniel Ortega\n\nConsultor Comercial\nNova Systems",
-        "Teléfono\n+34 91 XXX XX XX\n\nCorreo\ncontacto@novasystems.example",
-        "La tarjeta está ligeramente doblada.\n\nProbablemente se le cayó a algún visitante hace tiempo."
+      "Daniel Ortega\n\nConsultor Comercial\nNova Systems",
+      "Teléfono\n+34 91 XXX XX XX\n\nCorreo\ncontacto@novasystems.example",
+      "La tarjeta está ligeramente doblada.\n\nProbablemente se le cayó a algún visitante hace tiempo."
     ]
-},
+  },
 
-"incoming_documents": {
+  "incoming_documents": {
     "title": "Bandeja de entrada",
     "pages": [
-        "La bandeja contiene varios documentos pendientes de revisar.\n\n• Factura pendiente de validar.\n• Solicitud de vacaciones.\n• Presupuesto de material de oficina.\n• Confirmación de una entrevista.",
-        "Uno de los documentos tiene una nota adhesiva.\n\n\"Cuando llegue Marta, recordarle que firme la autorización de formación.\"",
-        "Nada parece especialmente importante. Son los típicos papeles que se acumulan en cualquier recepción."
+      "La bandeja contiene varios documentos pendientes de revisar.\n\n• Factura pendiente de validar.\n• Solicitud de vacaciones.\n• Presupuesto de material de oficina.\n• Confirmación de una entrevista.",
+      "Uno de los documentos tiene una nota adhesiva.\n\n«Cuando llegue Marta, recordarle que firme la autorización de formación.»",
+      "Nada parece especialmente importante. Son los típicos papeles que se acumulan en cualquier recepción."
     ]
-},
+  },
 
-"phone_note": {
+  "phone_note": {
     "title": "Extensiones internas",
     "pages": [
-        "Junto al teléfono hay una hoja plastificada.\n\nRecepción ........ 100\nDirección ........ 101\nAdministración ... 102\nArchivo .......... 103\nSala reuniones ... 104",
-        "En la esquina inferior alguien escribió a mano:\n\n\"Si nadie encuentra un expediente antiguo, llamar primero a Dirección.\""
+      "Junto al teléfono hay una hoja plastificada.\n\nRecepción ........ 100\nDirección ........ 101\nAdministración ... 102\nArchivo .......... 103\nSala reuniones ... 104",
+      "En la esquina inferior alguien escribió a mano:\n\n«Si nadie encuentra un expediente antiguo, llamar primero a Dirección.»"
     ]
-},
+  },
 
-"plant_nothing": {
+  "plant_nothing": {
     "title": "Maceta",
     "pages": [
-        "La planta parece bien cuidada.\n\nSolo hay tierra húmeda y algunas hojas secas. No encuentras nada más."
+      "La planta parece bien cuidada.\n\nSolo hay tierra húmeda y algunas hojas secas. No encuentras nada más."
     ]
-},
+  },
 
-"archive_request_forms": {
+  "archive_request_forms": {
     "title": "Solicitudes de localización",
     "pages": [
-        "Formulario interno\n\nSolicitud de localización de documentación histórica.\n\nDepartamento solicitante:\n______________\n\nExpediente:\n______________",
-        "Procedimiento\n\n1. Buscar en Archivo.\n2. Revisar la numeración histórica.\n3. Si no aparece, consultar con Dirección antes de crear una nueva copia.",
-        "Observaciones frecuentes\n\n• Expediente sin localizar.\n• Numeración antigua.\n• Caja archivada incorrectamente.\n• Documentación trasladada.",
-        "En varias hojas distintas alguien ha escrito siempre la misma anotación:\n\n\"Preguntar al director.\"\n\nLa frase aparece repetida con bolígrafos diferentes."
+      "Formulario interno\n\nSolicitud de localización de documentación histórica.\n\nDepartamento solicitante:\n______________\n\nExpediente:\n______________",
+      "Procedimiento\n\n1. Buscar en Archivo.\n2. Revisar la numeración histórica.\n3. Si no aparece, consultar con Dirección antes de crear una nueva copia.",
+      "Observaciones frecuentes\n\n• Expediente sin localizar.\n• Numeración antigua.\n• Caja archivada incorrectamente.\n• Documentación trasladada.",
+      "En varias hojas distintas alguien ha escrito siempre la misma anotación:\n\n«Preguntar al director.»\n\nLa frase aparece repetida con bolígrafos diferentes."
     ]
-},
+  },
 
-"pending_requests": {
+  "pending_requests": {
     "title": "Solicitudes pendientes",
     "pages": [
-        "Listado de peticiones pendientes.\n\n• Copia contrato 2019.\n• Expediente fiscal.\n• Historial de proveedores.\n• Organigrama anterior.",
-        "Todas las solicitudes tienen una casilla llamada:\n\n□ Revisado\n□ Localizado\n□ Entregado",
-        "En varias aparece una observación:\n\n\"Pendiente de confirmación por Dirección.\""
+      "Listado de peticiones pendientes.\n\n• Copia contrato 2019.\n• Expediente fiscal.\n• Historial de proveedores.\n• Organigrama anterior.",
+      "Todas las solicitudes tienen una casilla llamada:\n\n□ Revisado\n□ Localizado\n□ Entregado",
+      "En varias aparece una observación:\n\n«Pendiente de confirmación por Dirección.»"
     ]
-},
+  },
 
-"large_plant_nothing": {
+  "large_plant_nothing": {
     "title": "Maceta grande",
     "pages": [
-        "La maceta ocupa casi toda la esquina.\n\nCompruebas alrededor por si hubiera caído algún papel, pero no encuentras nada."
+      "La maceta ocupa casi toda la esquina.\n\nCompruebas alrededor por si hubiera caído algún papel, pero no encuentras nada."
     ]
-},
+  },
 
-"coffee_cleaning_log": {
+  "coffee_cleaning_log": {
     "title": "Registro de la cafetera",
     "pages": [
-        "Limpieza semanal\n\n☑ Lunes\n☑ Martes\n☑ Miércoles\n☑ Jueves\n☑ Viernes",
-        "Consumo aproximado\n\n• Cápsulas normales: 34\n• Descafeinados: 12\n• Té: 5",
-        "Alguien escribió debajo:\n\n\"Quien termine las cápsulas que avise antes de que vuelva a faltar café.\""
+      "Limpieza semanal\n\n☑ Lunes\n☑ Martes\n☑ Miércoles\n☑ Jueves\n☑ Viernes",
+      "Consumo aproximado\n\n• Cápsulas normales: 34\n• Descafeinados: 12\n• Té: 5",
+      "Alguien escribió debajo:\n\n«Quien termine las cápsulas que avise antes de que vuelva a faltar café.»"
     ]
-},
+  },
 
-"supplier_folders": {
+  "supplier_folders": {
     "title": "Carpetas de proveedores",
     "pages": [
-        "Las carpetas están ordenadas alfabéticamente.\n\nA-C\nD-F\nG-L\nM-R\nS-Z",
-        "La mayoría contienen presupuestos, contratos de mantenimiento y albaranes ya archivados."
+      "Las carpetas están ordenadas alfabéticamente.\n\nA-C\nD-F\nG-L\nM-R\nS-Z",
+      "La mayoría contienen presupuestos, contratos de mantenimiento y albaranes ya archivados."
     ]
-},
+  },
 
-"training_records": {
+  "training_records": {
     "title": "Formación interna",
     "pages": [
-        "Cursos realizados durante el último año.\n\n• Prevención de riesgos.\n• Protección de datos.\n• Ciberseguridad.\n• Atención al cliente.",
-        "Todas las hojas están correctamente archivadas y firmadas."
+      "Cursos realizados durante el último año.\n\n• Prevención de riesgos.\n• Protección de datos.\n• Ciberseguridad.\n• Atención al cliente.",
+      "Todas las hojas están correctamente archivadas y firmadas."
     ]
-},
+  },
 
-"maintenance_archive": {
+  "maintenance_archive": {
     "title": "Mantenimiento",
     "pages": [
-        "Historial de incidencias.\n\n• Sustitución iluminación.\n• Reparación aire acondicionado.\n• Cambio de cerraduras.\n• Revisión extintores.",
-        "La última revisión figura como completada hace dos semanas."
+      "Historial de incidencias.\n\n• Sustitución de iluminación.\n• Reparación del aire acondicionado.\n• Cambio de cerraduras.\n• Revisión de extintores.",
+      "La última revisión figura como completada hace dos semanas."
     ]
-},
+  },
 
-"office_inventory": {
+  "office_inventory": {
     "title": "Inventario",
     "pages": [
-        "Material disponible\n\n14 teclados\n12 ratones\n8 monitores\n5 impresoras\n42 archivadores",
-        "Al pie de la hoja alguien añadió:\n\n\"Pedir más bolígrafos azules.\""
+      "Material disponible\n\n14 teclados\n12 ratones\n8 monitores\n5 impresoras\n42 archivadores",
+      "Al pie de la hoja alguien añadió:\n\n«Pedir más bolígrafos azules.»"
     ]
-},
+  },
 
-"management_books": {
+  "management_books": {
     "title": "Libros de gestión",
     "pages": [
-        "Los títulos incluyen:\n\n• Gestión del tiempo.\n• Dirección de equipos.\n• Liderazgo práctico.\n• Organización documental.",
-        "Muchos parecen prácticamente nuevos. Algunos todavía conservan el precio."
+      "Los títulos incluyen:\n\n• Gestión del tiempo.\n• Dirección de equipos.\n• Liderazgo práctico.\n• Organización documental.",
+      "Muchos parecen prácticamente nuevos. Algunos todavía conservan el precio."
     ]
-},
+  },
 
-"box_labels": {
+  "box_labels": {
     "title": "Etiquetas de cajas",
     "pages": [
-        "Las cajas están identificadas con etiquetas impresas.\n\n• Material oficina.\n• Cables.\n• Decoración Navidad.\n• Folletos antiguos.",
-        "Una caja carece de etiqueta, pero está completamente cerrada."
+      "Las cajas están identificadas con etiquetas impresas.\n\n• Material de oficina.\n• Cables.\n• Decoración de Navidad.\n• Folletos antiguos.",
+      "Una caja carece de etiqueta, pero está completamente cerrada."
     ]
-},
+  },
 
-"visitor_forms": {
+  "visitor_forms": {
     "title": "Formularios de visitantes",
     "pages": [
-        "Registro de acceso.\n\nNombre\nEmpresa\nHora entrada\nHora salida\nFirma",
-        "La mayoría pertenecen a proveedores, empresas de mantenimiento y candidatos a entrevistas."
+      "Registro de acceso.\n\nNombre\nEmpresa\nHora de entrada\nHora de salida\nFirma",
+      "La mayoría pertenecen a proveedores, empresas de mantenimiento y candidatos a entrevistas."
     ]
-},
+  },
 
-"printed_drafts": {
+  "printed_drafts": {
     "title": "Borradores impresos",
     "pages": [
-        "Varias hojas impresas con correcciones a bolígrafo.\n\nCambios de formato.\nErrores tipográficos.\nComentarios al margen.",
-        "La primera página tiene escrito:\n\n\"Imprimir versión definitiva cuando Miguel dé el visto bueno.\""
+      "Varias hojas impresas con correcciones a bolígrafo.\n\nCambios de formato.\nErrores tipográficos.\nComentarios al margen.",
+      "La primera página tiene escrito:\n\n«Imprimir versión definitiva cuando Miguel dé el visto bueno.»"
     ]
-},
+  },
 
-"forgotten_print": {
+  "forgotten_print": {
     "title": "Documento olvidado",
     "pages": [
-        "Una hoja permanece olvidada sobre la impresora.\n\nEs un borrador del calendario de reuniones del próximo trimestre.",
-        "En la esquina superior puede leerse:\n\n\"BORRADOR - NO DISTRIBUIR\""
+      "Una hoja permanece olvidada sobre la impresora.\n\nEs un borrador del calendario de reuniones del próximo trimestre.",
+      "En la esquina superior puede leerse:\n\n«BORRADOR - NO DISTRIBUIR»"
     ]
-},
+  },
 
-"camera_notice": {
+  "camera_notice": {
     "title": "Aviso de videovigilancia",
     "pages": [
-        "Zona videovigilada.\n\nLas cámaras tienen como única finalidad garantizar la seguridad de las instalaciones y de los trabajadores.",
-        "Para más información consulte la política de protección de datos de la empresa."
+      "Zona videovigilada.\n\nLas cámaras tienen como única finalidad garantizar la seguridad de las instalaciones y de los trabajadores.",
+      "Para más información consulte la política de protección de datos de la empresa."
     ]
-},
+  },
 
-"desk_note": {
+  "desk_note": {
     "title": "Nota junto al material de oficina",
     "pages": [
-        "\"Quien coja el último bolígrafo que avise.\n\nY, por favor, dejad de llevaros las tijeras a otras mesas.\"\n\n— Laura",
-        "Debajo alguien respondió con otro bolígrafo:\n\n\"Yo sigo buscando la grapadora desde marzo.\""
+      "«Quien coja el último bolígrafo que avise.\n\nY, por favor, dejad de llevaros las tijeras a otras mesas.»\n\n— Laura",
+      "Debajo alguien respondió con otro bolígrafo:\n\n«Yo sigo buscando la grapadora desde marzo.»"
     ]
-},
+  },
 
-"personnel_files": {
+  "personnel_files": {
     "title": "Archivadores - Personal",
     "pages": [
-        "Los archivadores contienen expedientes de empleados actuales y antiguos. Están ordenados alfabéticamente y casi todos incluyen contratos, modificaciones salariales y evaluaciones de desempeño.",
-        "Muchos expedientes tienen décadas de antigüedad. Algunos nombres aparecen repetidos en distintos años, aunque probablemente se trate de personas diferentes.",
-        "Una nota impresa recuerda:\n\n\"No retirar expedientes originales sin autorización de Dirección.\""
+      "Los archivadores contienen expedientes de empleados actuales y antiguos. Están ordenados alfabéticamente y casi todos incluyen contratos, modificaciones salariales y evaluaciones de desempeño.",
+      "Muchos expedientes tienen décadas de antigüedad. Algunos nombres aparecen repetidos en distintos años, aunque probablemente se trate de personas diferentes.",
+      "Una nota impresa recuerda:\n\n«No retirar expedientes originales sin autorización de Dirección.»"
     ]
-},
+  },
 
-"financial_archive": {
+  "financial_archive": {
     "title": "Archivadores - Contabilidad",
     "pages": [
-        "Facturas, balances, impuestos y auditorías internas perfectamente archivados.",
-        "La documentación parece impecable. Cada carpeta está numerada y fechada.",
-        "No encuentras nada especialmente llamativo."
+      "Facturas, balances, impuestos y auditorías internas perfectamente archivados.",
+      "La documentación parece impecable. Cada carpeta está numerada y fechada.",
+      "No encuentras nada especialmente llamativo."
     ]
-},
+  },
 
-"historical_projects": {
-    "title": "Proyectos Finalizados",
+  "historical_projects": {
+    "title": "Proyectos finalizados",
     "pages": [
-        "Carpetas correspondientes a proyectos completados durante los últimos quince años.",
-        "Algunos proyectos cambiaron de nombre durante su desarrollo. Una anotación indica:\n\n\"Consultar la nomenclatura antigua antes de duplicar documentación.\"",
-        "Es evidente que alguien ha dedicado mucho tiempo a mantener este archivo organizado."
+      "Carpetas correspondientes a proyectos completados durante los últimos quince años.",
+      "Algunos proyectos cambiaron de nombre durante su desarrollo. Una anotación indica:\n\n«Consultar la nomenclatura antigua antes de duplicar documentación.»",
+      "Es evidente que alguien ha dedicado mucho tiempo a mantener este archivo organizado."
     ]
-},
+  },
 
-"box_index": {
+  "box_index": {
     "title": "Índice de cajas",
     "pages": [
-        "Caja 12 - Material promocional.\nCaja 13 - Mobiliario.\nCaja 14 - Archivo fiscal.\nCaja 15 - Equipos retirados.",
-        "Todas las cajas parecen correctamente identificadas."
+      "Caja 12 - Material promocional.\nCaja 13 - Mobiliario.\nCaja 14 - Archivo fiscal.\nCaja 15 - Equipos retirados.",
+      "Todas las cajas parecen correctamente identificadas."
     ]
-},
+  },
 
-"sealed_boxes": {
+  "sealed_boxes": {
     "title": "Cajas selladas",
     "pages": [
-        "Las cajas permanecen cerradas con cinta de embalaje.",
-        "Una etiqueta indica:\n\n\"Pendiente de revisión documental.\"",
-        "No puedes averiguar qué contienen."
+      "Las cajas permanecen cerradas con cinta de embalaje.",
+      "Una etiqueta indica:\n\n«Pendiente de revisión documental.»",
+      "No puedes averiguar qué contienen."
     ]
-},
+  },
 
-"warehouse_labels": {
+  "warehouse_labels": {
     "title": "Etiquetas antiguas",
     "pages": [
-        "Varias etiquetas adhesivas despegadas.\n\n\"Archivo Norte\"\n\"Almacén B\"\n\"Documentación histórica\"",
-        "Parece que en algún momento reorganizaron completamente el almacén."
+      "Varias etiquetas adhesivas despegadas.\n\n«Archivo Norte»\n«Almacén B»\n«Documentación histórica»",
+      "Parece que en algún momento reorganizaron completamente el almacén."
     ]
-},
+  },
 
-"archive_manifest": {
+  "archive_manifest": {
     "title": "Inventario del almacén",
     "pages": [
-        "Listado de cajas almacenadas durante la última reorganización.",
-        "Muchas referencias aparecen marcadas como \"Reubicadas\".",
-        "Una nota manuscrita dice:\n\n\"Miguel conoce la ubicación anterior. No modificar hasta confirmar.\""
+      "Listado de cajas almacenadas durante la última reorganización.",
+      "Muchas referencias aparecen marcadas como «Reubicadas».",
+      "Una nota manuscrita dice:\n\n«Miguel conoce la ubicación anterior. No modificar hasta confirmar.»"
     ]
-},
+  },
 
-"discarded_pages": {
+  "discarded_pages": {
     "title": "Papeles desechados",
     "pages": [
-        "Son fotocopias incompletas y hojas con errores de impresión.",
-        "La mayoría están tachadas con un bolígrafo rojo.",
-        "Nada parece conservar información útil."
+      "Son fotocopias incompletas y hojas con errores de impresión.",
+      "La mayoría están tachadas con un bolígrafo rojo.",
+      "Nada parece conservar información útil."
     ]
-},
+  },
 
-"sorting_notes": {
+  "sorting_notes": {
     "title": "Notas de clasificación",
     "pages": [
-        "Pendiente revisar cajas 41-48.\n\nMover expedientes duplicados.\nEliminar copias innecesarias.",
-        "Abajo alguien añadió:\n\n\"No tocar los archivadores antiguos hasta que Dirección lo revise.\""
+      "Pendiente revisar cajas 41-48.\n\nMover expedientes duplicados.\nEliminar copias innecesarias.",
+      "Abajo alguien añadió:\n\n«No tocar los archivadores antiguos hasta que Dirección lo revise.»"
     ]
-},
+  },
 
-"old_equipment_boxes": {
+  "old_equipment_boxes": {
     "title": "Equipamiento antiguo",
     "pages": [
-        "Ratones PS/2.\nTeclados antiguos.\nCables VGA.\nDisquetes sin etiquetar.",
-        "Todo parece material tecnológico obsoleto."
+      "Ratones PS/2.\nTeclados antiguos.\nCables VGA.\nDisquetes sin etiquetar.",
+      "Todo parece material tecnológico obsoleto."
     ]
-},
+  },
 
-"cleaning_supplies": {
+  "cleaning_supplies": {
     "title": "Productos de limpieza",
     "pages": [
-        "Inventario del personal de limpieza.\n\nDesinfectante.\nGuantes.\nBolsas.\nBayetas.\nAmbientador.",
-        "Nada fuera de lo habitual."
+      "Inventario del personal de limpieza.\n\nDesinfectante.\nGuantes.\nBolsas.\nBayetas.\nAmbientador.",
+      "Nada fuera de lo habitual."
     ]
-},
+  },
 
-"drawer_labels": {
+  "drawer_labels": {
     "title": "Etiquetas de cajones",
     "pages": [
-        "Cada cajón está identificado con pequeñas etiquetas:\n\nA-E\nF-K\nL-P\nQ-Z\nVarios",
-        "El sistema facilita encontrar cualquier expediente rápidamente."
+      "Cada cajón está identificado con pequeñas etiquetas:\n\nA-E\nF-K\nL-P\nQ-Z\nVarios",
+      "El sistema facilita encontrar cualquier expediente rápidamente."
     ]
-},
+  },
 
-"forgotten_folder": {
+  "forgotten_folder": {
     "title": "Carpeta olvidada",
     "pages": [
-        "La carpeta quedó olvidada dentro de un cajón abierto.",
-        "Contiene únicamente formularios en blanco y hojas para registrar préstamos de documentación.",
-        "En la última página alguien escribió:\n\n\"Devolver siempre el original.\""
+      "La carpeta quedó olvidada dentro de un cajón abierto.",
+      "Contiene únicamente formularios en blanco y hojas para registrar préstamos de documentación.",
+      "En la última página alguien escribió:\n\n«Devolver siempre el original.»"
     ]
-},
+  },
 
-"archive_notebook": {
+  "archive_notebook": {
     "title": "Cuaderno del archivo",
     "pages": [
-        "Día 4\n\nHoy he vuelto a cambiar varias cajas de sitio. Cada vez cuesta más encontrar espacio.",
-        "Día 11\n\nMiguel dice que es mejor mantener la clasificación antigua aunque resulte poco intuitiva.",
-        "Día 17\n\nA veces me pregunto cómo consigue recordar dónde está absolutamente todo.",
-        "Última página\n\n\"Preguntar siempre antes de mover documentación histórica.\""
+      "Día 4\n\nHoy he vuelto a cambiar varias cajas de sitio. Cada vez cuesta más encontrar espacio.",
+      "Día 11\n\nMiguel dice que es mejor mantener la clasificación antigua aunque resulte poco intuitiva.",
+      "Día 17\n\nA veces me pregunto cómo consigue recordar dónde está absolutamente todo.",
+      "Última página\n\n«Preguntar siempre antes de mover documentación histórica.»"
     ]
-},
+  },
 
-"crumpled_note_a": {
+  "crumpled_note_a": {
     "title": "Papel arrugado",
     "pages": [
-        "Solo puede leerse:\n\n\"...otra vez cambiaron la numeración...\""
+      "Solo puede leerse:\n\n«...otra vez cambiaron la numeración...»"
     ]
-},
+  },
 
-"crumpled_note_b": {
+  "crumpled_note_b": {
     "title": "Papel arrugado",
     "pages": [
-        "\"Comprar etiquetas nuevas.\nLas antiguas ya no coinciden con casi nada.\""
+      "«Comprar etiquetas nuevas.\nLas antiguas ya no coinciden con casi nada.»"
     ]
-},
+  },
 
-"archive_work": {
+  "archive_work": {
     "title": "Trabajo pendiente",
     "pages": [
-        "Varias carpetas abiertas esperan ser archivadas.",
-        "Una hoja enumera tareas:\n\n• Revisar expedientes antiguos.\n• Actualizar inventario.\n• Clasificar nuevas entradas.",
-        "En el margen alguien escribió:\n\n\"No generar nuevas copias hasta comprobar si ya existe un original.\""
+      "Varias carpetas abiertas esperan ser archivadas.",
+      "Una hoja enumera tareas:\n\n• Revisar expedientes antiguos.\n• Actualizar inventario.\n• Clasificar nuevas entradas.",
+      "En el margen alguien escribió:\n\n«No generar nuevas copias hasta comprobar si ya existe un original.»"
     ]
-},
+  },
 
-"first_aid_checklist": {
+  "first_aid_checklist": {
     "title": "Botiquín",
     "pages": [
-        "Lista de revisión mensual.\n\n☑ Vendas\n☑ Gasas\n☑ Antiséptico\n☑ Guantes\n☑ Analgésicos",
-        "Todo parece completo y dentro de la fecha de caducidad."
+      "Lista de revisión mensual.\n\n☑ Vendas\n☑ Gasas\n☑ Antiséptico\n☑ Guantes\n☑ Analgésicos",
+      "Todo parece completo y dentro de la fecha de caducidad."
     ]
-},
+  },
 
-"drawer_contents": {
+  "drawer_contents": {
     "title": "La cajonera del hall",
     "pages": [
-        "Sobre la cajonera hay material de oficina perfectamente ordenado: bolígrafos, rotuladores, grapas, clips y varias libretas todavía sin estrenar.",
-        "En el primer cajón hay formularios en blanco para solicitar salas de reuniones, material informático y tarjetas de acceso temporales.",
-        "El segundo cajón guarda manuales de uso de varios equipos antiguos. Nada parece especialmente relevante."
+      "Sobre la cajonera hay material de oficina perfectamente ordenado: bolígrafos, rotuladores, grapas, clips y varias libretas todavía sin estrenar.",
+      "En el primer cajón hay formularios en blanco para solicitar salas de reuniones, material informático y tarjetas de acceso temporales.",
+      "El segundo cajón guarda manuales de uso de varios equipos antiguos. Nada parece especialmente relevante."
     ]
-},
+  },
 
-"emergency_exit_notice": {
+  "emergency_exit_notice": {
     "title": "Puerta de emergencia",
     "pages": [
-        "SALIDA DE EMERGENCIA\n\nEsta puerta solo podrá utilizarse en caso de evacuación o emergencia real.",
-        "Su apertura fuera de una situación de emergencia activará una alarma y quedará registrada por el sistema de seguridad del edificio."
+      "SALIDA DE EMERGENCIA\n\nEsta puerta solo podrá utilizarse en caso de evacuación o emergencia real.",
+      "Su apertura fuera de una situación de emergencia activará una alarma y quedará registrada por el sistema de seguridad del edificio."
     ]
-},
+  },
 
-"vending_service_sheet": {
+  "vending_service_sheet": {
     "title": "Hoja de mantenimiento",
     "pages": [
-        "Máquina expendedora\n\nEmpresa responsable: Vending Solutions S.L.\nÚltima reposición: hace tres días.",
-        "Productos más vendidos:\n• Café con leche\n• Agua mineral\n• Barritas de cereales\n• Refrescos sin azúcar",
-        "Anotación del técnico:\n\n\"El mecanismo de devolución de monedas vuelve a atascarse ocasionalmente.\""
+      "Máquina expendedora\n\nEmpresa responsable: Vending Solutions S.L.\nÚltima reposición: hace tres días.",
+      "Productos más vendidos:\n• Café con leche\n• Agua mineral\n• Barritas de cereales\n• Refrescos sin azúcar",
+      "Anotación del técnico:\n\n«El mecanismo de devolución de monedas vuelve a atascarse ocasionalmente.»"
     ]
-},
+  },
 
-"plant_care_record": {
+  "plant_care_record": {
     "title": "Registro de mantenimiento",
     "pages": [
-        "Planta ornamental del pasillo.\n\nRiego: dos veces por semana.\nAbono: mensual.\nÚltima poda: realizada correctamente.",
-        "Al pie de la hoja alguien escribió con humor:\n\n\"Es probablemente la empleada más constante de toda la oficina.\""
+      "Planta ornamental del pasillo.\n\nRiego: dos veces por semana.\nAbono: mensual.\nÚltima poda: realizada correctamente.",
+      "Al pie de la hoja alguien escribió con humor:\n\n«Es probablemente la empleada más constante de toda la oficina.»"
     ]
-},
+  },
 
-"company_foundation_photo": {
+  "company_foundation_photo": {
     "title": "Fotografía enmarcada",
     "pages": [
-        "La fotografía muestra la inauguración de la empresa hace muchos años. Varias personas posan sonriendo delante del edificio original.",
-        "El marco conserva una pequeña placa metálica:\n\n\"Primeras oficinas corporativas\"",
-        "El pie de foto está muy desgastado. Solo pueden distinguirse algunos nombres; el resto resulta ilegible."
+      "La fotografía muestra la inauguración de la empresa hace muchos años. Varias personas posan sonriendo delante del edificio original.",
+      "El marco conserva una pequeña placa metálica:\n\n«Primeras oficinas corporativas»",
+      "El pie de foto está muy desgastado. Solo pueden distinguirse algunos nombres; el resto resulta ilegible."
     ]
-},
+  },
 
-"lost_scarf": {
+  "lost_scarf": {
     "title": "Pañuelo olvidado",
     "pages": [
-        "Hay un pequeño pañuelo azul cuidadosamente doblado sobre el banco.",
-        "Debajo hay una nota escrita a mano:\n\n\"Si alguien encuentra este pañuelo, por favor dejadlo en recepción.\n\nGracias.\n— Marta\""
+      "Hay un pequeño pañuelo azul cuidadosamente doblado sobre el banco.",
+      "Debajo hay una nota escrita a mano:\n\n«Si alguien encuentra este pañuelo, por favor dejadlo en recepción.\n\nGracias.\n— Marta»"
     ]
-},
+  },
 
-"fire_equipment_tag": {
+  "fire_equipment_tag": {
     "title": "Etiqueta del extintor",
     "pages": [
-        "Empresa mantenedora:\nSEGURFIRE Protección Contra Incendios",
-        "Última revisión: hace cuatro meses.\nPróxima revisión: dentro de ocho meses.",
-        "El sello indica que el equipo se encuentra en perfecto estado."
+      "Empresa mantenedora:\nSEGURFIRE Protección Contra Incendios",
+      "Última revisión: hace cuatro meses.\nPróxima revisión: dentro de ocho meses.",
+      "El sello indica que el equipo se encuentra en perfecto estado."
     ]
-},
+  },
 
-"camera_maintenance_log": {
+  "camera_maintenance_log": {
     "title": "Registro de la cámara",
     "pages": [
-        "Cámara IP - Pasillo principal\n\nÚltima revisión técnica completada correctamente.",
-        "El registro indica que las grabaciones se conservan durante treinta días salvo incidencia o requerimiento interno.",
-        "No aparecen observaciones adicionales."
+      "Cámara IP - Pasillo principal\n\nÚltima revisión técnica completada correctamente.",
+      "El registro indica que las grabaciones se conservan durante treinta días salvo incidencia o requerimiento interno.",
+      "No aparecen observaciones adicionales."
     ]
-},
+  },
 
-"restroom_repair_notice": {
+  "restroom_repair_notice": {
     "title": "Aviso de mantenimiento",
     "pages": [
-        "ASEOS TEMPORALMENTE FUERA DE SERVICIO\n\nDisculpen las molestias.",
-        "Motivo:\nSustitución de tuberías y reparación del sistema de ventilación.",
-        "Duración estimada de los trabajos:\nDos días laborables."
+      "ASEOS TEMPORALMENTE FUERA DE SERVICIO\n\nDisculpen las molestias.",
+      "Motivo:\nSustitución de tuberías y reparación del sistema de ventilación.",
+      "Duración estimada de los trabajos:\nDos días laborables."
     ]
-},
+  },
 
-"landscape_painting": {
+  "landscape_painting": {
     "title": "Cuadro del despacho",
     "pages": [
-        "Un paisaje montañoso preside la pared principal del despacho. La placa indica que fue un regalo del consejo de administración por el décimo aniversario de Miguel Ruiz como director.",
-        "En la esquina inferior aparece una pequeña dedicatoria:\n\n\"Por todos estos años de liderazgo y compromiso.\""
+      "Un paisaje montañoso preside la pared principal del despacho. La placa indica que fue un regalo del consejo de administración por el décimo aniversario de Miguel Ruiz como director.",
+      "En la esquina inferior aparece una pequeña dedicatoria:\n\n«Por todos estos años de liderazgo y compromiso.»"
     ]
-},
+  },
 
-"desk_drawers": {
+  "desk_drawers": {
     "title": "Cajones del escritorio",
     "pages": [
-        "El primer cajón contiene bolígrafos de calidad, una agenda sin estrenar, varias memorias USB y tarjetas de visita perfectamente ordenadas.",
-        "El segundo guarda carpetas con proyectos recientes. Todo está etiquetado con fechas y códigos internos.",
-        "En el último cajón hay un sobre cerrado sin destinatario, varias llaves antiguas sin identificar y un pequeño bloc con números de teléfono escritos a mano."
+      "El primer cajón contiene bolígrafos de calidad, una agenda sin estrenar, varias memorias USB y tarjetas de visita perfectamente ordenadas.",
+      "El segundo guarda carpetas con proyectos recientes. Todo está etiquetado con fechas y códigos internos.",
+      "En el último cajón hay un sobre cerrado sin destinatario, varias llaves antiguas sin identificar y un pequeño bloc con números de teléfono escritos a mano."
     ]
-},
+  },
 
-"filing_cabinet": {
+  "filing_cabinet": {
     "title": "Cajonera auxiliar",
     "pages": [
-        "Cada cajón está dedicado a una categoría distinta: Finanzas, Recursos Humanos y Correspondencia.",
-        "Las carpetas están ordenadas alfabéticamente. Miguel parece extremadamente meticuloso con la organización.",
-        "No encuentras nada fuera de lo habitual, aunque sorprende el cuidado con el que todo ha sido archivado."
+      "Cada cajón está dedicado a una categoría distinta: Finanzas, Recursos Humanos y Correspondencia.",
+      "Las carpetas están ordenadas alfabéticamente. Miguel parece extremadamente meticuloso con la organización.",
+      "No encuentras nada fuera de lo habitual, aunque sorprende el cuidado con el que todo ha sido archivado."
     ]
-},
+  },
 
-"office_plant_note": {
+  "office_plant_note": {
     "title": "Maceta",
     "pages": [
-        "La planta luce sorprendentemente sana.",
-        "Hay una pequeña etiqueta clavada en la tierra:\n\n\"Regar únicamente los lunes y jueves.\""
+      "La planta luce sorprendentemente sana.",
+      "Hay una pequeña etiqueta clavada en la tierra:\n\n«Regar únicamente los lunes y jueves.»"
     ]
-},
+  },
 
-"executive_recognition": {
+  "executive_recognition": {
     "title": "Reconocimiento empresarial",
     "pages": [
-        "Diploma otorgado por **Orbis Consulting Group** en reconocimiento a la excelencia en dirección empresarial.",
-        "Fecha: hace doce años.",
-        "No recuerdas haber oído hablar nunca de esa empresa."
+      "Diploma otorgado por **Orbis Consulting Group** en reconocimiento a la excelencia en dirección empresarial.",
+      "Fecha: hace doce años.",
+      "No recuerdas haber oído hablar nunca de esa empresa."
     ]
-},
+  },
 
-"draft_reports": {
+  "draft_reports": {
     "title": "Borradores",
     "pages": [
-        "Son varias versiones impresas del mismo informe, llenas de anotaciones a mano, párrafos tachados y comentarios en los márgenes.",
-        "Una nota dice:\n\n\"Reducir esta sección. Demasiados detalles innecesarios.\"",
-        "Otra anotación, escrita con otra caligrafía, simplemente dice:\n\n\"Conservar la versión anterior por si acaso.\""
+      "Son varias versiones impresas del mismo informe, llenas de anotaciones a mano, párrafos tachados y comentarios en los márgenes.",
+      "Una nota dice:\n\n«Reducir esta sección. Demasiados detalles innecesarios.»",
+      "Otra anotación, escrita con otra caligrafía, simplemente dice:\n\n«Conservar la versión anterior por si acaso.»"
     ]
-},
+  },
 
-"signed_reports": {
+  "signed_reports": {
     "title": "Informes firmados",
     "pages": [
-        "Los documentos están perfectamente ordenados y firmados.",
-        "La mayoría corresponden a presupuestos, autorizaciones de compra y renovaciones de contratos.",
-        "Todo parece estar en regla."
+      "Los documentos están perfectamente ordenados y firmados.",
+      "La mayoría corresponden a presupuestos, autorizaciones de compra y renovaciones de contratos.",
+      "Todo parece estar en regla."
     ]
-},
+  },
 
-"bookshelf_selection": {
+  "bookshelf_selection": {
     "title": "Libros sobre la mesa",
     "pages": [
-        "\"Dirección Estratégica\".\nNumerosos pasajes aparecen subrayados con lápiz.",
-        "\"La memoria de las organizaciones\".\nUn marcapáginas permanece colocado aproximadamente por la mitad del libro."
+      "«Dirección Estratégica».\nNumerosos pasajes aparecen subrayados con lápiz.",
+      "«La memoria de las organizaciones».\nUn marcapáginas permanece colocado aproximadamente por la mitad del libro."
     ]
-},
+  },
 
-"discarded_note": {
+  "discarded_note": {
     "title": "Papel arrugado",
     "pages": [
-        "Desdoblas cuidadosamente la hoja.",
-        "Solo contiene una frase tachada varias veces:\n\n\"Hablar con Marta antes del viernes.\"",
-        "El resto del papel está completamente en blanco."
+      "Desdoblas cuidadosamente la hoja.",
+      "Solo contiene una frase tachada varias veces:\n\n«Hablar con Marta antes del viernes.»",
+      "El resto del papel está completamente en blanco."
     ]
-},
+  },
 
-"photo_collection": {
+  "photo_collection": {
     "title": "Fotografías enmarcadas",
     "pages": [
-        "Hay varias fotografías familiares junto a otras tomadas durante eventos corporativos.",
-        "En una aparece Miguel recibiendo un premio. En otra posa junto a un grupo de empleados durante una comida de empresa.",
-        "También hay una fotografía bastante antigua delante de un edificio distinto al actual. No reconoces el lugar."
+      "Hay varias fotografías familiares junto a otras tomadas durante eventos corporativos.",
+      "En una aparece Miguel recibiendo un premio. En otra posa junto a un grupo de empleados durante una comida de empresa.",
+      "También hay una fotografía bastante antigua delante de un edificio distinto al actual. No reconoces el lugar."
     ]
-},
+  },
 
-"bookshelf_history": {
+  "bookshelf_history": {
     "title": "Estantería A",
     "pages": [
-        "Libros sobre historia empresarial, economía europea y evolución del sector tecnológico.",
-        "Muchos parecen bastante antiguos pero bien conservados."
+      "Libros sobre historia empresarial, economía europea y evolución del sector tecnológico.",
+      "Muchos parecen bastante antiguos pero bien conservados."
     ]
-},
+  },
 
-"bookshelf_management": {
+  "bookshelf_management": {
     "title": "Estantería B",
     "pages": [
-        "La mayoría son manuales de liderazgo, negociación y dirección de equipos.",
-        "Varios contienen pequeñas notas adhesivas sobresaliendo entre las páginas."
+      "La mayoría son manuales de liderazgo, negociación y dirección de equipos.",
+      "Varios contienen pequeñas notas adhesivas sobresaliendo entre las páginas."
     ]
-},
+  },
 
-"bookshelf_finance": {
+  "bookshelf_finance": {
     "title": "Estantería C",
     "pages": [
-        "Manual de contabilidad avanzada, auditoría interna y planificación financiera.",
-        "Nada llama especialmente la atención."
+      "Manual de contabilidad avanzada, auditoría interna y planificación financiera.",
+      "Nada llama especialmente la atención."
     ]
-},
+  },
 
-"bookshelf_technology": {
+  "bookshelf_technology": {
     "title": "Estantería D",
     "pages": [
-        "Publicaciones sobre digitalización documental, almacenamiento en la nube y seguridad informática.",
-        "Algunos ejemplares son relativamente recientes."
+      "Publicaciones sobre digitalización documental, almacenamiento en la nube y seguridad informática.",
+      "Algunos ejemplares son relativamente recientes."
     ]
-},
+  },
 
-"bookshelf_legal": {
+  "bookshelf_legal": {
     "title": "Estantería E",
     "pages": [
-        "Compendios de legislación laboral, protección de datos y normativa mercantil.",
-        "Uno de los libros tiene decenas de páginas marcadas con separadores de colores."
+      "Compendios de legislación laboral, protección de datos y normativa mercantil.",
+      "Uno de los libros tiene decenas de páginas marcadas con separadores de colores."
     ]
-},
+  },
 
-"bookshelf_archives": {
+  "bookshelf_archives": {
     "title": "Estantería F",
     "pages": [
-        "Libros especializados en conservación documental y gestión de archivos históricos.",
-        "En uno de ellos hay una frase subrayada:\n\n\"Destruir un documento es sencillo; reconstruir su contexto puede ser imposible.\""
+      "Libros especializados en conservación documental y gestión de archivos históricos.",
+      "En uno de ellos hay una frase subrayada:\n\n«Destruir un documento es sencillo; reconstruir su contexto puede ser imposible.»"
     ]
-},
+  },
 
-"bookshelf_personal": {
+  "bookshelf_personal": {
     "title": "Estantería G",
     "pages": [
-        "Aquí los libros son más personales: novelas históricas, biografías y varios atlas antiguos.",
-        "Parece la única balda del despacho elegida por afición y no por trabajo."
+      "Aquí los libros son más personales: novelas históricas, biografías y varios atlas antiguos.",
+      "Parece la única balda del despacho elegida por afición y no por trabajo."
     ]
-},
+  },
 
-"bookshelf_misc": {
+  "bookshelf_misc": {
     "title": "Estantería H",
     "pages": [
-        "Hay diccionarios, enciclopedias y varios archivadores sin etiquetar.",
-        "Nada parece especialmente interesante."
+      "Hay diccionarios, enciclopedias y varios archivadores sin etiquetar.",
+      "Nada parece especialmente interesante."
     ]
-},
+  },
 
-"business_card": {
+  "business_card": {
     "title": "Tarjeta de visita",
     "pages": [
-        "Una tarjeta ha quedado olvidada entre los cojines de la butaca.",
-        "Pertenece a un antiguo proveedor que dejó de trabajar con la empresa hace años.",
-        "En el reverso alguien escribió:\n\n\"Llamar cuando termine la auditoría.\""
+      "Una tarjeta ha quedado olvidada entre los cojines de la butaca.",
+      "Pertenece a un antiguo proveedor que dejó de trabajar con la empresa hace años.",
+      "En el reverso alguien escribió:\n\n«Llamar cuando termine la auditoría.»"
     ]
-},
+  },
 
-"storage_inventory": {
+  "storage_inventory": {
     "title": "Inventario de armarios",
     "pages": [
-        "Los armarios contienen material de oficina de reserva: papel, carpetas, archivadores vacíos y cajas de almacenamiento.",
-        "Todo está inventariado mediante pequeñas etiquetas numeradas.",
-        "No parece faltar nada."
+      "Los armarios contienen material de oficina de reserva: papel, carpetas, archivadores vacíos y cajas de almacenamiento.",
+      "Todo está inventariado mediante pequeñas etiquetas numeradas.",
+      "No parece faltar nada."
     ]
-},
+  },
 
-"meeting_notebook": {
+  "meeting_notebook": {
     "title": "Cuaderno de reuniones",
     "pages": [
-        "Varias páginas contienen apuntes de reuniones semanales.\n\n• Revisar presupuesto.\n• Migración del servidor.\n• Entrevistas pendientes.\n• Actualizar inventario.",
-        "En otra página aparecen varios nombres rodeados con círculos y flechas. No parece seguir ningún orden concreto.",
-        "La última hoja tiene varios garabatos hechos mientras alguien escuchaba una presentación. Entre ellos puede leerse:\n\n\"No olvidar reservar la sala para el jueves.\""
+      "Varias páginas contienen apuntes de reuniones semanales.\n\n• Revisar presupuesto.\n• Migración del servidor.\n• Entrevistas pendientes.\n• Actualizar inventario.",
+      "En otra página aparecen varios nombres rodeados con círculos y flechas. No parece seguir ningún orden concreto.",
+      "La última hoja tiene varios garabatos hechos mientras alguien escuchaba una presentación. Entre ellos puede leerse:\n\n«No olvidar reservar la sala para el jueves.»"
     ]
-},
+  },
 
-"team_photos": {
+  "team_photos": {
     "title": "Fotografías del equipo",
     "pages": [
-        "Hay varias fotografías tomadas durante comidas de empresa, celebraciones y actividades de equipo.",
-        "En casi todas aparece el mismo grupo de empleados sonriendo frente a la cámara.",
-        "Una fotografía parece más antigua que las demás. La calidad es peor y algunas personas resultan difíciles de reconocer."
+      "Hay varias fotografías tomadas durante comidas de empresa, celebraciones y actividades de equipo.",
+      "En casi todas aparece el mismo grupo de empleados sonriendo frente a la cámara.",
+      "Una fotografía parece más antigua que las demás. La calidad es peor y algunas personas resultan difíciles de reconocer."
     ]
-},
+  },
 
-"sofa_cushion": {
+  "sofa_cushion": {
     "title": "Sofá",
     "pages": [
-        "Revisas entre los cojines del sofá.",
-        "Solo encuentras algunas migas, un clip metálico y bastante polvo acumulado.",
-        "Nada parece tener importancia."
+      "Revisas entre los cojines del sofá.",
+      "Solo encuentras algunas migas, un clip metálico y bastante polvo acumulado.",
+      "Nada parece tener importancia."
     ]
-},
+  },
 
-"coin_under_sofa": {
+  "coin_under_sofa": {
     "title": "Debajo del sofá",
     "pages": [
-        "Al agacharte encuentras una moneda de un euro bastante desgastada.",
-        "También hay un viejo envoltorio de un caramelo de menta.",
-        "No hay nada más interesante."
+      "Al agacharte encuentras una moneda de un euro bastante desgastada.",
+      "También hay un viejo envoltorio de un caramelo de menta.",
+      "No hay nada más interesante."
     ]
-},
+  },
 
-"chair_nameplate": {
+  "chair_nameplate": {
     "title": "Silla de reuniones",
     "pages": [
-        "Sobre el respaldo alguien ha colocado una pequeña etiqueta adhesiva:\n\n\"Carlos\"",
-        "Parece que durante algunas reuniones cada participante ocupa siempre el mismo asiento."
+      "Sobre el respaldo alguien ha colocado una pequeña etiqueta adhesiva:\n\n«Carlos»",
+      "Parece que durante algunas reuniones cada participante ocupa siempre el mismo asiento."
     ]
-},
+  },
 
-"meeting_scribbles": {
+  "meeting_scribbles": {
     "title": "Notas sobre la mesa",
     "pages": [
-        "Son varias hojas con anotaciones rápidas realizadas durante una reunión.",
-        "Entre números y flechas puede leerse:\n\n\"Confirmar presupuesto con Finanzas.\"\n\"Preparar documentación para RR. HH.\"",
-        "En una esquina alguien escribió distraídamente:\n\n\"¿Quién se lleva siempre los rotuladores?\""
+      "Son varias hojas con anotaciones rápidas realizadas durante una reunión.",
+      "Entre números y flechas puede leerse:\n\n«Confirmar presupuesto con Finanzas.»\n«Preparar documentación para RR. HH.»",
+      "En una esquina alguien escribió distraídamente:\n\n«¿Quién se lleva siempre los rotuladores?»"
     ]
-},
+  },
 
-"projector_service_label": {
+  "projector_service_label": {
     "title": "Etiqueta del proyector",
     "pages": [
-        "Proyector multimedia.\n\nÚltimo mantenimiento realizado correctamente hace dos meses.",
-        "La lámpara tiene todavía muchas horas de vida útil según el registro del servicio técnico."
+      "Proyector multimedia.\n\nÚltimo mantenimiento realizado correctamente hace dos meses.",
+      "La lámpara tiene todavía muchas horas de vida útil según el registro del servicio técnico."
     ]
-},
+  },
 
-"window_view": {
+  "window_view": {
     "title": "A través de las persianas",
     "pages": [
-        "Entre las lamas de la persiana apenas puede verse el edificio situado enfrente.",
-        "Algunas personas entran y salen del aparcamiento mientras los coches pasan por la calle.",
-        "Nada llama especialmente tu atención."
+      "Entre las lamas de la persiana apenas puede verse el edificio situado enfrente.",
+      "Algunas personas entran y salen del aparcamiento mientras los coches pasan por la calle.",
+      "Nada llama especialmente tu atención."
     ]
-},
+  },
 
-"rear_window_view": {
+  "rear_window_view": {
     "title": "Ventana lateral",
     "pages": [
-        "Desde este lado solo alcanzas a ver parte del patio interior del edificio.",
-        "Hay varios contenedores de reciclaje y una pequeña zona destinada a carga y descarga.",
-        "No observas nada fuera de lo normal."
+      "Desde este lado solo alcanzas a ver parte del patio interior del edificio.",
+      "Hay varios contenedores de reciclaje y una pequeña zona destinada a carga y descarga.",
+      "No observas nada fuera de lo normal."
     ]
-},
+  },
 
-"forgotten_usb_box": {
+  "forgotten_usb_box": {
     "title": "Debajo de la silla",
     "pages": [
-        "Encuentras una pequeña caja de plástico para guardar memorias USB.",
-        "Está completamente vacía.",
-        "En la tapa alguien escribió con rotulador permanente:\n\n\"Presentación clientes\""
+      "Encuentras una pequeña caja de plástico para guardar memorias USB.",
+      "Está completamente vacía.",
+      "En la tapa alguien escribió con rotulador permanente:\n\n«Presentación clientes»"
     ]
-}
+  }
 }

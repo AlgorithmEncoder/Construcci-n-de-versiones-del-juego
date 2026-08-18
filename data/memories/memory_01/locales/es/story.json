@@ -1,5 +1,5 @@
 {
-    "title": "Fragments",
+    "title": "Fragmentos",
     "time_limit": 600,
     "initial_room": "waiting_room",
     "objective": "Descubre qué ocurrió realmente... y quién recuerda la verdad.",
@@ -159,7 +159,7 @@
         "d_mail_043": false,
         "d_mail_044": false
     },
-    "iterations": 64,
+    "iterations": 69,
     "locked": false,
     "finished": false,
     "progress_percent": 4

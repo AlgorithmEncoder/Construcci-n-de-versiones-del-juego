@@ -1,0 +1,20 @@
+PENDING TASKS
+=============
+
+OPEN ITEMS
+==========
+
+Task                              | Department     | Priority | Status     
+----------------------------------+----------------+----------+------------
+Verify employee registry versions | HR             | High     | Pending    
+Complete archive inventory        | Facilities     | High     | In Progress
+Review old organisation chart     | Management     | Medium   | Pending    
+Replace outdated templates        | Administration | Low      | Pending    
+
+ADDITIONAL NOTES
+================
+
+Some tasks remain open because they depend on information stored in historical documentation. The responsible departments have been instructed not to discard previous records until the review is complete.
+
+The archive review should be considered the priority item before the next management cycle.
+

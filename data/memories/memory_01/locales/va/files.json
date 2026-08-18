@@ -1,0 +1,4357 @@
+{
+  "meeting_agenda": {
+    "template": "meeting",
+    "title": "Ordre del dia de la reunió de direcció",
+    "author": "Administració",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Agenda"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Aprovació de l'acta de la sessió anterior",
+          "Revisió financera trimestral",
+          "Progressió de la reorganització de l'oficina",
+          "Actualització de la digitalització de l'arxiu",
+          "Revisió de personal",
+          "Debat obert"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Informació de la reunió"
+      },
+      {
+        "type": "paragraph",
+        "text": "Data: 14 de setembre. Hora: 09:00h. Lloc: Sala Principal de Conferències. Durada: 90 minuts aproximadament."
+      },
+      {
+        "type": "heading",
+        "text": "Preparació"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Portar informes departamentals.",
+          "Reviseu l'esborrany del pressupost del tercer trimestre.",
+          "Preparar comentaris sobre la reubicació de l'arxiu.",
+          "Confirmar assistència abans de les 08:30."
+        ]
+      }
+    ]
+  },
+  "meeting_notes": {
+    "template": "meeting",
+    "title": "Notes de la reunió",
+    "author": "Administració",
+    "revision": "1.1",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Notes generals"
+      },
+      {
+        "type": "paragraph",
+        "text": "La reunió va començar segons el previst. Finances va presentar l'última previsió de despeses mentre que Recursos Humans va confirmar que el procés de contractació actual es manté en pausa fins a nou avís."
+      },
+      {
+        "type": "paragraph",
+        "text": "Les instal·lacions van informar que la neteja de l'arxiu avança més lentament del que s'esperava perquè diversos gabinets encara contenen material històric no classificat."
+      },
+      {
+        "type": "heading",
+        "text": "Discussió"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Revisar l'inventari de l'arxiu.",
+          "Substituïu els organigrames obsolets.",
+          "Confirmeu el registre dels empleats abans de la publicació.",
+          "Prepareu la presentació final del tercer trimestre."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Durant la discussió es va mencionar breument un registre de personal, però es va ajornar fins a la propera reunió de direcció a causa de la documentació incompleta."
+      }
+    ]
+  },
+  "meeting_attendees": {
+    "template": "spreadsheet",
+    "title": "Assistents a la reunió",
+    "author": "Administració",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "table",
+        "headers": [
+          "Nom",
+          "Departament",
+          "Assistència"
+        ],
+        "rows": [
+          [
+            "Sarah K.",
+            "Gestió",
+            "Present"
+          ],
+          [
+            "Daniel P.",
+            "Finances",
+            "Present"
+          ],
+          [
+            "Laura L.",
+            "Recursos Humans",
+            "Present"
+          ],
+          [
+            "Oliver M.",
+            "Instal·lacions",
+            "Present"
+          ],
+          [
+            "James R.",
+            "IT",
+            "Remot"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Assistència confirmada per l'Administració abans de començar la reunió."
+      }
+    ]
+  },
+  "meeting_minutes_previous": {
+    "template": "meeting",
+    "title": "Acta de la sessió anterior",
+    "author": "Administració",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Resum"
+      },
+      {
+        "type": "paragraph",
+        "text": "La reunió anterior es va centrar en els ajustos pressupostaris, l'organització de l'arxiu i la planificació departamental per al proper trimestre."
+      },
+      {
+        "type": "heading",
+        "text": "Decisions"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Aprovar el projecte d'inventari de l'arxiu.",
+          "Retardar la reforma de l'oficina fins al quart trimestre.",
+          "Reviseu la documentació dels empleats abans de la publicació.",
+          "Elaborar organigrames actualitzats."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Elements pendents"
+      },
+      {
+        "type": "paragraph",
+        "text": "Un assumpte relacionat amb els empleats va romandre sense resoldre perquè no es va poder trobar la documentació de suport abans que conclogués la reunió."
+      }
+    ]
+  },
+  "meeting_recording_notes": {
+    "template": "meeting",
+    "title": "Notes de gravació de la reunió",
+    "author": "Administració",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Revisió de gravació"
+      },
+      {
+        "type": "paragraph",
+        "text": "La qualitat de gravació és generalment acceptable. Hi ha soroll de fons durant els primers deu minuts a causa de les tasques de manteniment del passadís."
+      },
+      {
+        "type": "paragraph",
+        "text": "Falten dos fragments curts de la gravació perquè el micròfon estava silenciat mentre s'intercanviaven documents."
+      },
+      {
+        "type": "heading",
+        "text": "Temes confirmats"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Revisions pressupostàries",
+          "Inventari de l'arxiu",
+          "Calendari de trasllat d'oficines",
+          "Personal del departament",
+          "Política de retenció de documents"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Durant la reproducció, un participant fa referència a una llista d'empleats que no coincideix amb la còpia impresa distribuïda abans de la reunió. La discussió continua sense demanar aclariments."
+      },
+      {
+        "type": "paragraph",
+        "text": "Acció: conservar l'enregistrament original juntament amb l'acta escrita."
+      }
+    ]
+  },
+  "meeting_01": {
+    "template": "meeting",
+    "title": "Reunió de Direcció 01",
+    "author": "Administració",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Obertura"
+      },
+      {
+        "type": "paragraph",
+        "text": "Reunió trimestral de planificació que cobreix els objectius operatius, l'elaboració del pressupost i el manteniment de l'arxiu."
+      },
+      {
+        "type": "heading",
+        "text": "Principals decisions"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Aprovar el pressupost de material d'oficina.",
+          "Comenceu l'inventari de l'arxiu.",
+          "Revisar contractes històrics.",
+          "Actualitzar el registre d'empleats."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "L'administració prepararà la documentació revisada abans de la propera reunió."
+      }
+    ]
+  },
+  "meeting_02": {
+    "template": "meeting",
+    "title": "Reunió de Direcció 02",
+    "author": "Administració",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Revisió pressupostària"
+      },
+      {
+        "type": "paragraph",
+        "text": "Finances va presentar la previsió preliminar del tercer trimestre. No es van identificar desviacions importants."
+      },
+      {
+        "type": "heading",
+        "text": "Arxiu"
+      },
+      {
+        "type": "paragraph",
+        "text": "Diversos armaris d'emmagatzematge contenen carpetes duplicades que es remunten a més de deu anys. La direcció va aprovar una revisió abans de l'eliminació."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Departament",
+          "Estat"
+        ],
+        "rows": [
+          [
+            "Finances",
+            "Completat"
+          ],
+          [
+            "RRHH",
+            "Pendent"
+          ],
+          [
+            "Instal·lacions",
+            "En curs"
+          ],
+          [
+            "IT",
+            "Completat"
+          ]
+        ]
+      }
+    ]
+  },
+  "meeting_03": {
+    "template": "meeting",
+    "title": "Reunió de Direcció 03",
+    "author": "Administració",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Revisió del registre"
+      },
+      {
+        "type": "paragraph",
+        "text": "Recursos Humans va informar de petites diferències entre l'esborrany del registre d'empleats i el registre històric arxivat l'any passat."
+      },
+      {
+        "type": "paragraph",
+        "text": "Es creu que les discrepàncies són el resultat de canvis de format anteriors i no es consideren importants operacionalment."
+      },
+      {
+        "type": "heading",
+        "text": "Accions"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Compara el registre arxivat.",
+          "Verificar l'organigrama.",
+          "Publicar la llista d'empleats corregida."
+        ]
+      }
+    ]
+  },
+  "meeting_04": {
+    "template": "meeting",
+    "title": "Reunió de Direcció 04",
+    "author": "Administració",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Revisió operativa"
+      },
+      {
+        "type": "paragraph",
+        "text": "Les instal·lacions han completat l'inventari dels gabinets A a F. El gabinet G roman tancat pendent d'autorització."
+      },
+      {
+        "type": "paragraph",
+        "text": "No es va registrar cap explicació sobre per què el gabinet G va ser exclòs dels inventaris anteriors."
+      },
+      {
+        "type": "heading",
+        "text": "Seguiment"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Sol·licitar accés a l'arxiu.",
+          "Actualitzar el mapa d'inventari.",
+          "Revisar els documents conservats.",
+          "Confirmeu el registre d'accés al document."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "La reunió va concloure després de confirmar que el gabinet romandria segellat fins que es completés la revisió de l'arxiu."
+      }
+    ]
+  },
+  "meeting_05": {
+    "template": "meeting",
+    "title": "Reunió de Direcció 05",
+    "author": "Administració",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Actualització del progrés de l'arxiu"
+      },
+      {
+        "type": "paragraph",
+        "text": "La revisió de l'arxiu ha avançat segons el calendari. Diversos documents històrics han estat classificats i traslladats a l'inventari digital."
+      },
+      {
+        "type": "heading",
+        "text": "Punts de discussió"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Revisar contractes antics.",
+          "Confirmeu la propietat del document.",
+          "Comproveu els permisos d'accés.",
+          "Actualitza l'índex de l'arxiu."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "L'administració va assenyalar que alguns documents fan referència a departaments que ja no existeixen sota l'estructura organitzativa actual."
+      },
+      {
+        "type": "paragraph",
+        "text": "L'assumpte es va ajornar fins a l'aprovació del nou organigrama."
+      }
+    ]
+  },
+  "meeting_06": {
+    "template": "meeting",
+    "title": "Reunió de Direcció 06",
+    "author": "Administració",
+    "revision": "1.1",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Revisió de l'organització"
+      },
+      {
+        "type": "paragraph",
+        "text": "La direcció va revisar els canvis organitzatius proposats per al trimestre següent."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Àrea",
+          "Estat anterior",
+          "Nou estat"
+        ],
+        "rows": [
+          [
+            "Finances",
+            "Independent",
+            "Sense canvis"
+          ],
+          [
+            "Recursos Humans",
+            "Centralitzat",
+            "En revisió"
+          ],
+          [
+            "Arxiu",
+            "Manual",
+            "Transició digital"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Pendent d'aprovació"
+      },
+      {
+        "type": "paragraph",
+        "text": "L'organigrama actualitzat requereix una confirmació final abans de la distribució."
+      }
+    ]
+  },
+  "meeting_07": {
+    "template": "meeting",
+    "title": "Reunió de Direcció 07",
+    "author": "Administració",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Revisió de documentació"
+      },
+      {
+        "type": "paragraph",
+        "text": "Els departaments van confirmar que la documentació actual està majoritàriament alineada amb els procediments aprovats."
+      },
+      {
+        "type": "paragraph",
+        "text": "Una comparació entre informes anteriors i plantilles actuals va identificar diversos documents creats amb formats obsolets."
+      },
+      {
+        "type": "heading",
+        "text": "Accions"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Substituïu les plantilles obsoletes.",
+          "Arxiu versions anteriors.",
+          "Restringeix els permisos d'edició.",
+          "Enregistreu els canvis futurs del document."
+        ]
+      }
+    ]
+  },
+  "meeting_08": {
+    "template": "meeting",
+    "title": "Reunió de Direcció 08",
+    "author": "Administració",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Tancament del trimestre"
+      },
+      {
+        "type": "paragraph",
+        "text": "L'última revisió trimestral es va centrar en el tancament del pressupost, l'organització documental i la preparació de la presentació executiva."
+      },
+      {
+        "type": "heading",
+        "text": "Elements confirmats"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Aprovar l'informe financer del tercer trimestre.",
+          "Distribuïu la presentació actualitzada.",
+          "Documentació completa de l'arxiu.",
+          "Reviseu els registres dels empleats restants."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "La reunió va concloure amb un recordatori que tota la documentació històrica ha de romandre accessible per a futures auditories."
+      }
+    ]
+  },
+  "budget_draft": {
+    "template": "spreadsheet",
+    "title": "Esborrany de pressupost",
+    "author": "Departament de Finances",
+    "revision": "0.8",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Visió general del pressupost"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Categoria",
+          "Estimat",
+          "Real",
+          "Diferència"
+        ],
+        "rows": [
+          [
+            "Operacions d'oficina",
+            "85000",
+            "82000",
+            "-3000"
+          ],
+          [
+            "Tecnologia",
+            "45000",
+            "47000",
+            "+2000"
+          ],
+          [
+            "Dotació de personal",
+            "210000",
+            "208000",
+            "-2000"
+          ],
+          [
+            "Projecte Arxiu",
+            "25000",
+            "31000",
+            "+6000"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Els costos relacionats amb l'arxiu van superar l'estimació inicial a causa del treball de classificació addicional i el descobriment de material no documentat que requereix una revisió."
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquest esborrany continua pendent d'aprovació i no s'ha de distribuir fora de Finances."
+      }
+    ]
+  },
+  "budget_q3": {
+    "template": "spreadsheet",
+    "title": "Informe pressupostari Q3",
+    "author": "Departament de Finances",
+    "revision": "1.2",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Visió general financera trimestral"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquest document conté la visió general financera revisada del tercer trimestre. Les xifres han estat revisades per Finances i comparades amb l'esborrany de pressupost inicial presentat a l'inici del període de planificació."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Departament",
+          "Pressupost assignat",
+          "Esgotat",
+          "Restant",
+          "Estat"
+        ],
+        "rows": [
+          [
+            "Operacions",
+            "85000",
+            "82000",
+            "3000",
+            "Completat"
+          ],
+          [
+            "Tecnologia",
+            "45000",
+            "47000",
+            "-2000",
+            "Sobre Pressupost"
+          ],
+          [
+            "Recursos Humans",
+            "210000",
+            "208000",
+            "2000",
+            "Completat"
+          ],
+          [
+            "Instal·lacions",
+            "35000",
+            "39000",
+            "-4000",
+            "Revisió obligatòria"
+          ],
+          [
+            "Projecte Arxiu",
+            "25000",
+            "31000",
+            "-6000",
+            "Revisió obligatòria"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Observacions financeres"
+      },
+      {
+        "type": "paragraph",
+        "text": "El projecte d'arxiu va superar la previsió original a causa de les necessitats laborals addicionals. Durant el procés de classificació, diversos grups de documents històrics van requerir una revisió manual abans de ser traslladats a l'arxiu digital."
+      },
+      {
+        "type": "paragraph",
+        "text": "Les despeses de tecnologia van augmentar lleugerament a causa de la substitució del maquinari i dels requisits d'emmagatzematge addicionals associats a la preservació de documents."
+      },
+      {
+        "type": "heading",
+        "text": "Notes d'aprovació"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Aprovació financera completada.",
+          "Revisió de gestió pendent.",
+          "Cal actualitzar la presentació final.",
+          "Els costos d'arxiu s'han d'explicar en un resum executiu."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquest document substitueix l'anterior projecte de pressupost. Les versions anteriors han de romandre arxivades segons la política de retenció de documents."
+      }
+    ]
+  },
+  "meeting_template": {
+    "template": "template",
+    "title": "Plantilla de reunió",
+    "author": "Administració",
+    "revision": "3.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Informació de la reunió"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Camp",
+          "Valor"
+        ],
+        "rows": [
+          [
+            "Data",
+            "[Insereix data]"
+          ],
+          [
+            "Ubicació",
+            "[Insereix la ubicació]"
+          ],
+          [
+            "President",
+            "[Insereix nom]"
+          ],
+          [
+            "Participants",
+            "[Insereix els assistents]"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Objectius"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Definir els objectius de la reunió.",
+          "Revisa les accions anteriors.",
+          "Documentar les decisions.",
+          "Assignar responsabilitats."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Notes de discussió"
+      },
+      {
+        "type": "paragraph",
+        "text": "Utilitzeu aquesta secció per registrar discussions, decisions i observacions addicionals rellevants."
+      },
+      {
+        "type": "heading",
+        "text": "Registre d'Accions"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Acció",
+          "Responsable",
+          "Data límit",
+          "Estat"
+        ],
+        "rows": [
+          [
+            "[Acció]",
+            "[Persona]",
+            "[Data]",
+            "[Estat]"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Control de documents"
+      },
+      {
+        "type": "paragraph",
+        "text": "Tots els actes de reunió emplenats s'han d'emmagatzemar d'acord amb el procediment intern de gestió de documents."
+      }
+    ]
+  },
+  "decision_template": {
+    "template": "template",
+    "title": "Plantilla de decisió",
+    "author": "Oficina de Gestió",
+    "revision": "2.1",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Registre de decisions"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Camp",
+          "Informació"
+        ],
+        "rows": [
+          [
+            "ID de decisió",
+            "[Insereix ID]"
+          ],
+          [
+            "Data",
+            "[Insereix data]"
+          ],
+          [
+            "Propietari",
+            "[Insereix el propietari]"
+          ],
+          [
+            "Departament",
+            "[Insereix departament]"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Fons"
+      },
+      {
+        "type": "paragraph",
+        "text": "Descriviu el motiu de la decisió i proporcioneu un context suficient per als futurs revisors."
+      },
+      {
+        "type": "heading",
+        "text": "Decisió"
+      },
+      {
+        "type": "paragraph",
+        "text": "Registra l'acció aprovada, les alternatives rebutjades i les restriccions associades a la decisió."
+      },
+      {
+        "type": "heading",
+        "text": "Requisits de revisió"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Confirmeu la implementació.",
+          "Actualitzar la documentació relacionada.",
+          "Notificar als departaments afectats.",
+          "Arxiu de proves de suport."
+        ]
+      }
+    ]
+  },
+  "internal_report_template": {
+    "template": "report",
+    "title": "Plantilla d'informe intern",
+    "author": "Oficina de Gestió",
+    "revision": "1.5",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Resum de l'informe"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquesta plantilla proporciona l'estructura estàndard per als informes interns que requereixen revisió, aprovació i arxivat."
+      },
+      {
+        "type": "heading",
+        "text": "Resum executiu"
+      },
+      {
+        "type": "paragraph",
+        "text": "[Insereix un resum de troballes, riscos i accions recomanades.]"
+      },
+      {
+        "type": "heading",
+        "text": "Descobriments"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "[Trobant-ne un]",
+          "[Trobant dos]",
+          "[Trobant tres]"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Recomanacions"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Recomanació",
+          "Prioritat",
+          "Propietari"
+        ],
+        "rows": [
+          [
+            "[Recomanació]",
+            "[Alt/Mitjà/Baix]",
+            "[Propietari]"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Història del document"
+      },
+      {
+        "type": "paragraph",
+        "text": "Les versions anteriors s'han de conservar quan les modificacions afectin conclusions, aprovacions o responsabilitats."
+      }
+    ]
+  },
+  "pending_tasks": {
+    "template": "tasks",
+    "title": "Tasques pendents",
+    "author": "Administració",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Elements oberts"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Tasca",
+          "Departament",
+          "Prioritat",
+          "Estat"
+        ],
+        "rows": [
+          [
+            "Verifiqueu les versions del registre dels empleats",
+            "RRHH",
+            "Alt",
+            "Pendent"
+          ],
+          [
+            "Inventari complet de l'arxiu",
+            "Instal·lacions",
+            "Alt",
+            "En curs"
+          ],
+          [
+            "Revisar l'organigrama antic",
+            "Gestió",
+            "Mitjana",
+            "Pendent"
+          ],
+          [
+            "Substituïu les plantilles obsoletes",
+            "Administració",
+            "Baixa",
+            "Pendent"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Notes addicionals"
+      },
+      {
+        "type": "paragraph",
+        "text": "Algunes tasques romanen obertes perquè depenen de la informació emmagatzemada a la documentació històrica. S'ha indicat als departaments responsables que no descartin els registres anteriors fins que no finalitzi la revisió."
+      },
+      {
+        "type": "paragraph",
+        "text": "La revisió de l'arxiu s'ha de considerar l'element prioritari abans del proper cicle de gestió."
+      }
+    ]
+  },
+  "employee_list_draft": {
+    "template": "spreadsheet",
+    "title": "Esborrany de llista d'empleats",
+    "author": "Recursos Humans",
+    "revision": "0.6",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Esborrany del Directori d'empleats"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquest document conté la versió preliminar del directori d'empleats preparat per a la revisió interna. Encara no s'ha aprovat per a la seva distribució i pot contenir informació incompleta."
+      },
+      {
+        "type": "heading",
+        "text": "Registres dels empleats"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Identificador de l'empleat",
+          "Nom",
+          "Departament",
+          "Posició",
+          "Estat"
+        ],
+        "rows": [
+          [
+            "EMP-001",
+            "Sarah K.",
+            "Gestió",
+            "Responsable d'operacions",
+            "Actius"
+          ],
+          [
+            "EMP-002",
+            "Daniel P.",
+            "Finances",
+            "Analista financer",
+            "Actius"
+          ],
+          [
+            "EMP-003",
+            "Laura L.",
+            "Recursos Humans",
+            "Especialista en RRHH",
+            "Actius"
+          ],
+          [
+            "EMP-004",
+            "Oliver M.",
+            "Instal·lacions",
+            "Coordinador d'instal·lacions",
+            "Actius"
+          ],
+          [
+            "EMP-005",
+            "James R.",
+            "IT",
+            "Administrador de sistemes",
+            "Actius"
+          ],
+          [
+            "EMP-006",
+            "M. R.",
+            "Operacions",
+            "Coordinador del projecte",
+            "Revisió obligatòria"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Notes de revisió"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Comproveu els identificadors dels empleats amb el registre històric.",
+          "Confirmeu les assignacions del departament després de l'actualització de l'organització.",
+          "Revisar la documentació incompleta del personal.",
+          "No publiqueu fins que no rebeu l'aprovació."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Preguntes pendents"
+      },
+      {
+        "type": "paragraph",
+        "text": "Un registre requereix una verificació addicional perquè l'assignació actual del departament no coincideix amb la documentació organitzativa anterior."
+      },
+      {
+        "type": "paragraph",
+        "text": "L'identificador de l'empleat segueix sent vàlid, però la informació de suport no s'ha pogut confirmar durant la primera revisió."
+      },
+      {
+        "type": "heading",
+        "text": "Historial de revisions"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Versió",
+          "Data",
+          "Canviar"
+        ],
+        "rows": [
+          [
+            "0.4",
+            "05 de setembre",
+            "Recopilació inicial"
+          ],
+          [
+            "0.5",
+            "08 de setembre",
+            "Departaments actualitzats"
+          ],
+          [
+            "0.6",
+            "12 de setembre",
+            "S'han afegit comentaris de ressenyes"
+          ]
+        ]
+      }
+    ]
+  },
+  "employee_registry_v1": {
+    "template": "spreadsheet",
+    "title": "Versió 1 del registre d'empleats",
+    "author": "Recursos Humans",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Registre Oficial de Treballadors"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquest registre representa els registres dels empleats aprovats després de la revisió anual de la documentació. S'ha elaborat segons el procediment de gestió dels empleats."
+      },
+      {
+        "type": "heading",
+        "text": "Empleats en actiu"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "ID",
+          "Empleat",
+          "Departament",
+          "Data d'inici",
+          "Estat"
+        ],
+        "rows": [
+          [
+            "EMP-001",
+            "Sarah K.",
+            "Gestió",
+            "2016",
+            "Actius"
+          ],
+          [
+            "EMP-002",
+            "Daniel P.",
+            "Finances",
+            "2018",
+            "Actius"
+          ],
+          [
+            "EMP-003",
+            "Laura L.",
+            "Recursos Humans",
+            "2017",
+            "Actius"
+          ],
+          [
+            "EMP-004",
+            "Oliver M.",
+            "Instal·lacions",
+            "2019",
+            "Actius"
+          ],
+          [
+            "EMP-005",
+            "James R.",
+            "IT",
+            "2020",
+            "Actius"
+          ],
+          [
+            "EMP-006",
+            "M. R.",
+            "Operacions",
+            "2015",
+            "Ressenya arxivada"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Observacions del Registre"
+      },
+      {
+        "type": "paragraph",
+        "text": "El registre es va compilar a partir dels registres anteriors dels empleats, la documentació del departament i la informació organitzativa aprovada."
+      },
+      {
+        "type": "paragraph",
+        "text": "Durant la validació, una referència històrica no s'ha pogut comparar amb les estructures de departament actuals. El registre es va conservar a l'espera de més aclariments."
+      },
+      {
+        "type": "heading",
+        "text": "Llista de verificació de validació"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "S'han comprovat els identificadors dels empleats.",
+          "S'han revisat les tasques del departament.",
+          "Situació laboral confirmada.",
+          "Referències històriques comparades."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Comentari intern"
+      },
+      {
+        "type": "paragraph",
+        "text": "Les versions futures haurien de conservar els identificadors anteriors fins i tot quan els canvis organitzatius afecten els noms dels departaments."
+      }
+    ]
+  },
+  "employee_registry_v2": {
+    "template": "spreadsheet",
+    "title": "Versió 2 del registre d'empleats",
+    "author": "Recursos Humans",
+    "revision": "2.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Registre d'empleats actualitzat"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquesta versió substitueix l'anterior registre d'empleats després del procés de reestructuració organitzativa. S'han actualitzat diversos camps per reflectir les assignacions actuals del departament."
+      },
+      {
+        "type": "heading",
+        "text": "Registres actuals"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "ID",
+          "Empleat",
+          "Departament",
+          "Posició",
+          "Verificació"
+        ],
+        "rows": [
+          [
+            "EMP-001",
+            "Sarah K.",
+            "Gestió",
+            "Responsable d'operacions",
+            "Verificat"
+          ],
+          [
+            "EMP-002",
+            "Daniel P.",
+            "Finances",
+            "Analista financer",
+            "Verificat"
+          ],
+          [
+            "EMP-003",
+            "Laura L.",
+            "Recursos Humans",
+            "Especialista en RRHH",
+            "Verificat"
+          ],
+          [
+            "EMP-004",
+            "Oliver M.",
+            "Instal·lacions",
+            "Coordinador d'instal·lacions",
+            "Verificat"
+          ],
+          [
+            "EMP-005",
+            "James R.",
+            "IT",
+            "Administrador de sistemes",
+            "Verificat"
+          ],
+          [
+            "EMP-006",
+            "M. R.",
+            "Operacions",
+            "No assignat",
+            "Requereix una revisió"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Canvis de la versió anterior"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Camp",
+          "Anterior",
+          "Actual"
+        ],
+        "rows": [
+          [
+            "Estructura del Departament",
+            "Organització anterior",
+            "Nova Organització"
+          ],
+          [
+            "Referències documentals",
+            "Mixt",
+            "Actualitzat"
+          ],
+          [
+            "EMP-006 Tasca",
+            "Coordinador d'operacions",
+            "No assignat"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Notes de RRHH"
+      },
+      {
+        "type": "paragraph",
+        "text": "El registre EMP-006 roman actiu a la documentació històrica, però actualment no es pot assignar a un departament mitjançant els registres disponibles."
+      },
+      {
+        "type": "paragraph",
+        "text": "La documentació prèvia fa referència a aquest empleat en relació amb projectes operatius i reunions de direcció. Els registres de suport s'han de revisar abans de fer qualsevol modificació."
+      },
+      {
+        "type": "heading",
+        "text": "Estat d'aprovació"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "S'ha completat la revisió de la direcció.",
+          "Aprovació de RRHH pendent.",
+          "Referències de l'arxiu conservades.",
+          "Registre anterior conservat."
+        ]
+      }
+    ]
+  },
+  "employee_history": {
+    "template": "report",
+    "title": "Arxiu Històric dels Empleats",
+    "author": "Recursos Humans",
+    "revision": "1.4",
+    "classification": "Confidencial - Ús intern",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Finalitat d'aquest document"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquest document ofereix una visió històrica dels registres dels empleats que manté Recursos Humans. Consolida la informació de registres anteriors, documents organitzatius i fitxers administratius arxivats."
+      },
+      {
+        "type": "paragraph",
+        "text": "El document existeix per preservar l'exactitud històrica durant els canvis organitzatius i no s'ha de considerar un reemplaçament del registre d'empleats actual."
+      },
+      {
+        "type": "heading",
+        "text": "Cronologia del registre"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Període",
+          "Font del document",
+          "Estat",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "2015-2017",
+            "Registres de recursos humans originals",
+            "Arxivat",
+            "Documentació inicial del treballador"
+          ],
+          [
+            "2018",
+            "Registre d'empleats v1",
+            "Aprovat",
+            "Revisió anual completada"
+          ],
+          [
+            "2020",
+            "Registres d'actualització del Departament",
+            "Aprovat",
+            "S'han introduït canvis organitzatius"
+          ],
+          [
+            "2023",
+            "Registre d'empleats v2",
+            "Actual",
+            "Pendent de verificació històrica"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Inscripcions històriques d'empleats"
+      },
+      {
+        "type": "paragraph",
+        "text": "Les entrades següents representen els empleats i els registres associats que han aparegut a les versions anteriors de la documentació interna."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Identificador",
+          "Referència",
+          "Primera aparició",
+          "Estat actual"
+        ],
+        "rows": [
+          [
+            "EMP-001",
+            "Expedients de gestió",
+            "2016",
+            "Actius"
+          ],
+          [
+            "EMP-002",
+            "Registres financers",
+            "2018",
+            "Actius"
+          ],
+          [
+            "EMP-003",
+            "Registres de RRHH",
+            "2017",
+            "Actius"
+          ],
+          [
+            "EMP-004",
+            "Registres de les instal·lacions",
+            "2019",
+            "Actius"
+          ],
+          [
+            "EMP-005",
+            "Registres informàtics",
+            "2020",
+            "Actius"
+          ],
+          [
+            "EMP-006",
+            "Registres operatius",
+            "2015",
+            "Requereix una revisió"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "EMP-006 Revisió històrica"
+      },
+      {
+        "type": "paragraph",
+        "text": "El registre EMP-006 apareix de manera coherent en diversos documents històrics. L'empleat estava associat a activitats operatives, coordinació interna i diverses tasques relacionades amb la gestió."
+      },
+      {
+        "type": "paragraph",
+        "text": "La documentació disponible confirma que l'identificador existia i s'utilitzava activament. Tanmateix, els registres posteriors contenen informació incompleta sobre l'assignació del departament i l'estat administratiu actual."
+      },
+      {
+        "type": "heading",
+        "text": "Comparació de documents"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Font",
+          "Referència EMP-006",
+          "Observació"
+        ],
+        "rows": [
+          [
+            "Registre d'empleats v1",
+            "Llistat",
+            "Departament assignat"
+          ],
+          [
+            "Registre d'empleats v2",
+            "Llistat",
+            "Departament no disponible"
+          ],
+          [
+            "Registres de la reunió",
+            "Referenciat",
+            "Participació esmentada"
+          ],
+          [
+            "Documents d'organització",
+            "Referència indirecta",
+            "Requereix verificació"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Notes administratives"
+      },
+      {
+        "type": "paragraph",
+        "text": "Diversos documents indiquen que els registres històrics s'han de preservar fins i tot quan els sistemes actuals ja no contenen informació completa. Les versions anteriors no s'han de suprimir ni substituir sense aprovació."
+      },
+      {
+        "type": "paragraph",
+        "text": "Recursos humans ha conservat còpies de registres anteriors a causa de les diferències trobades durant els procediments de comparació."
+      },
+      {
+        "type": "heading",
+        "text": "Preguntes obertes"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Confirmeu l'assignació final del departament.",
+          "Revisar la documentació arxivada del projecte.",
+          "Compareu els registres d'assistència a les reunions.",
+          "Verifica les referències organitzatives.",
+          "Documenteu els canvis aprovats."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Historial de revisions"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Versió",
+          "Data",
+          "Modificació"
+        ],
+        "rows": [
+          [
+            "1.0",
+            "Creació Inicial",
+            "Registres històrics compilats"
+          ],
+          [
+            "1.2",
+            "Revisió de l'arxiu",
+            "Referències addicionals incloses"
+          ],
+          [
+            "1.4",
+            "Auditoria de RRHH",
+            "S'han afegit notes de comparació"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Final del document. Distribució restringida al personal autoritzat."
+      }
+    ]
+  },
+  "organisation_chart_old": {
+    "template": "report",
+    "title": "Organigrama Antic",
+    "author": "Oficina de Gestió",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Estructura organitzativa - Versió anterior"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquest document representa l'estructura organitzativa aprovada abans de l'últim procés de reestructuració interna."
+      },
+      {
+        "type": "paragraph",
+        "text": "El gràfic va ser mantingut per l'Oficina de Gestió i utilitzat com a referència per a les línies d'informes, les responsabilitats del departament i les aprovacions internes."
+      },
+      {
+        "type": "heading",
+        "text": "Estructura executiva"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Àrea",
+          "Responsable",
+          "Informes a"
+        ],
+        "rows": [
+          [
+            "Gestió",
+            "Sarah K.",
+            "Oficina Executiva"
+          ],
+          [
+            "Finances",
+            "Daniel P.",
+            "Gestió"
+          ],
+          [
+            "Recursos Humans",
+            "Laura L.",
+            "Gestió"
+          ],
+          [
+            "Instal·lacions",
+            "Oliver M.",
+            "Gestió"
+          ],
+          [
+            "IT",
+            "James R.",
+            "Gestió"
+          ],
+          [
+            "Operacions",
+            "M. R.",
+            "Gestió"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Responsabilitats del Departament"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Finances gestiona els pressupostos, les previsions i les aprovacions financeres.",
+          "Recursos Humans manté els registres i la documentació dels empleats.",
+          "Facilities gestiona les operacions de l'oficina i els arxius físics.",
+          "IT gestiona sistemes i infraestructures tècniques.",
+          "Operacions coordina projectes interdepartamentals."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Nota històrica"
+      },
+      {
+        "type": "paragraph",
+        "text": "La funció de coordinació d'Operacions es va considerar essencial durant diversos projectes interns i es va incloure en totes les referències organitzatives anteriors."
+      },
+      {
+        "type": "heading",
+        "text": "Control de documents"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Versió",
+          "Estat"
+        ],
+        "rows": [
+          [
+            "1.0",
+            "Substituït"
+          ]
+        ]
+      }
+    ]
+  },
+  "organisation_chart_current": {
+    "template": "report",
+    "title": "Organigrama actual",
+    "author": "Oficina de Gestió",
+    "revision": "2.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Estructura organitzativa actual"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquest document representa l'estructura organitzativa actualment aprovada després del procés de reestructuració."
+      },
+      {
+        "type": "heading",
+        "text": "Departaments actuals"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Àrea",
+          "Responsable",
+          "Estat"
+        ],
+        "rows": [
+          [
+            "Gestió",
+            "Sarah K.",
+            "Actius"
+          ],
+          [
+            "Finances",
+            "Daniel P.",
+            "Actius"
+          ],
+          [
+            "Recursos Humans",
+            "Laura L.",
+            "Actius"
+          ],
+          [
+            "Instal·lacions",
+            "Oliver M.",
+            "Actius"
+          ],
+          [
+            "IT",
+            "James R.",
+            "Actius"
+          ],
+          [
+            "Operacions",
+            "Sense assignar",
+            "En revisió"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Canvis estructurals"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Redistribució de responsabilitats operatives.",
+          "S'ha eliminat el paper de coordinació anterior de l'estructura activa.",
+          "Documentació del projecte transferida als departaments.",
+          "Registres històrics conservats."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Comentari de la direcció"
+      },
+      {
+        "type": "paragraph",
+        "text": "L'eliminació del càrrec de coordinació d'Operacions reflecteix el model organitzatiu actual. Els documents històrics haurien de continuar fent referència a estructures anteriors quan sigui necessari."
+      },
+      {
+        "type": "heading",
+        "text": "Informació d'aprovació"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aprovat per l'Oficina de Gestió. Documentació de suport emmagatzemada a la secció d'arxiu."
+      }
+    ]
+  },
+  "organisation_backup": {
+    "template": "report",
+    "title": "Còpia de seguretat de l'organització",
+    "author": "Oficina de Gestió",
+    "revision": "1.5",
+    "classification": "Arxiu intern",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Còpia de seguretat"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquest fitxer es va conservar durant la transició entre estructures organitzatives anteriors i actuals."
+      },
+      {
+        "type": "heading",
+        "text": "Estructura arxivada"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Departament",
+          "Propietari anterior",
+          "Estat de transició"
+        ],
+        "rows": [
+          [
+            "Finances",
+            "Daniel P.",
+            "Sense canvis"
+          ],
+          [
+            "Recursos Humans",
+            "Laura L.",
+            "Sense canvis"
+          ],
+          [
+            "Operacions",
+            "M. R.",
+            "Transferit"
+          ],
+          [
+            "Coordinació d'Arxiu",
+            "M. R.",
+            "Integrat"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Notes de còpia de seguretat"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquesta còpia de seguretat conté informació eliminada de la versió publicada final. Es va conservar perquè diversos departaments van continuar fent referència a l'estructura anterior durant el període de transició."
+      },
+      {
+        "type": "paragraph",
+        "text": "No s'ha registrat cap sol·licitud d'eliminació per a aquest fitxer."
+      },
+      {
+        "type": "heading",
+        "text": "Historial d'accés"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Creat durant la reestructuració.",
+          "Revisat per la Direcció.",
+          "S'ha transferit a l'arxiu."
+        ]
+      }
+    ]
+  },
+  "old_organisation_notes": {
+    "template": "report",
+    "title": "Notes antigues de l'organització",
+    "author": "Oficina de Gestió",
+    "revision": "0.9",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Notes de preparació de la reestructuració"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquestes notes es van preparar abans de l'actualització organitzativa. Contenen observacions preliminars i s'han de comparar amb l'estructura final aprovada."
+      },
+      {
+        "type": "heading",
+        "text": "Temes principals"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Reduir les responsabilitats duplicades.",
+          "Millorar la propietat dels documents.",
+          "Aclarir les línies d'informe.",
+          "Revisar les tasques històriques."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Revisió d'operacions"
+      },
+      {
+        "type": "paragraph",
+        "text": "La funció de coordinació d'operacions requereix una consideració especial perquè diversos projectes en curs depenen del coneixement històric i de la documentació prèvia."
+      },
+      {
+        "type": "paragraph",
+        "text": "El pla de transició ha de garantir que les referències del projecte segueixen sent comprensibles després dels canvis estructurals."
+      },
+      {
+        "type": "heading",
+        "text": "Recordatori final"
+      },
+      {
+        "type": "paragraph",
+        "text": "S'han de conservar els documents organitzatius anteriors. L'eliminació de referències històriques pot afectar les auditories futures i la interpretació de documents."
+      }
+    ]
+  },
+  "contracts_registry": {
+    "template": "spreadsheet",
+    "title": "Registre de contractes",
+    "author": "Departament d'Arxiu",
+    "revision": "2.3",
+    "classification": "Arxiu intern",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Visió general del registre de contractes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquest registre conté un índex històric de contractes emmagatzemats a l'arxiu de l'empresa. L'objectiu del document és proporcionar traçabilitat entre documents físics i referències digitals."
+      },
+      {
+        "type": "heading",
+        "text": "Documents Registrats"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Referència",
+          "Categoria",
+          "Any",
+          "Ubicació",
+          "Estat"
+        ],
+        "rows": [
+          [
+            "CTR-001",
+            "Acord amb el proveïdor",
+            "2016",
+            "Gabinet d'Arxiu A",
+            "Disponible"
+          ],
+          [
+            "CTR-002",
+            "Serveis Tecnològics",
+            "2018",
+            "Gabinet d'arxiu B",
+            "Disponible"
+          ],
+          [
+            "CTR-003",
+            "Acord d'instal·lacions",
+            "2019",
+            "Gabinet d'Arxiu C",
+            "Disponible"
+          ],
+          [
+            "CTR-004",
+            "Suport a les operacions",
+            "2015",
+            "Arxiu Gabinet G",
+            "Revisió obligatòria"
+          ],
+          [
+            "CTR-005",
+            "Serveis Interns",
+            "2017",
+            "Desconegut",
+            "Verificació pendent"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Observacions del Registre"
+      },
+      {
+        "type": "paragraph",
+        "text": "Es van crear diverses referències més antigues abans d'introduir el sistema de classificació de documents actual. Aquestes entrades haurien de romandre sense canvis fins que es completi la migració de l'arxiu."
+      },
+      {
+        "type": "paragraph",
+        "text": "CTR-004 requereix una revisió addicional perquè la seva ubicació correspon a un gabinet exclòs dels informes d'inventari anteriors."
+      },
+      {
+        "type": "heading",
+        "text": "Política de retenció"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "No destruïu els contractes històrics.",
+          "Conservar els identificadors originals.",
+          "Registra tots els moviments de l'arxiu.",
+          "Mantenir l'historial d'accés."
+        ]
+      }
+    ]
+  },
+  "archive_index": {
+    "template": "report",
+    "title": "Índex d'arxiu",
+    "author": "Departament d'Arxiu",
+    "revision": "4.1",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Índex de classificació de l'arxiu"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquest document proporciona l'estructura de classificació utilitzada per als registres històrics de l'empresa. Va ser creat per donar suport al projecte de digitalització d'arxius."
+      },
+      {
+        "type": "heading",
+        "text": "Àrees d'Arxiu"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Secció",
+          "Descripció",
+          "Estat"
+        ],
+        "rows": [
+          [
+            "A",
+            "Registres financers",
+            "Completa"
+          ],
+          [
+            "B",
+            "Contractes",
+            "Completa"
+          ],
+          [
+            "C",
+            "Recursos Humans",
+            "Revisió pendent"
+          ],
+          [
+            "D",
+            "Documents de gestió",
+            "Completa"
+          ],
+          [
+            "G",
+            "Material històric",
+            "Restringit"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Normes de classificació"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Tots els documents requereixen un identificador.",
+          "S'han de conservar les versions anteriors.",
+          "Cal revisar els documents de propietat desconegut.",
+          "Les seccions restringides requereixen aprovació."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Avís d'Arxiu"
+      },
+      {
+        "type": "paragraph",
+        "text": "La secció G continua restringida perquè diversos documents emmagatzemats allà es van crear abans que existissin els procediments de classificació actuals."
+      },
+      {
+        "type": "paragraph",
+        "text": "L'accés només s'ha de concedir després de la confirmació de la Direcció."
+      }
+    ]
+  },
+  "historical_records": {
+    "template": "report",
+    "title": "Informe de registres històrics",
+    "author": "Departament d'Arxiu",
+    "revision": "1.8",
+    "classification": "Arxiu intern",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Revisió de documentació històrica"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquest informe resumeix les conclusions de la revisió de la documentació històrica realitzada durant el projecte d'organització de l'arxiu."
+      },
+      {
+        "type": "heading",
+        "text": "Categories revisades"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Registres dels empleats.",
+          "Documents de l'organització.",
+          "Documentació financera.",
+          "Contractes.",
+          "Actes de reunió."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Principals troballes"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Trobar",
+          "Impacte",
+          "Acció"
+        ],
+        "rows": [
+          [
+            "Registres duplicats",
+            "Mitjana",
+            "Comparar versions"
+          ],
+          [
+            "Falten referències",
+            "Alt",
+            "Cerca a l'arxiu"
+          ],
+          [
+            "Estructures obsoletes",
+            "Mitjana",
+            "Preservar la història"
+          ],
+          [
+            "Propietat desconeguda",
+            "Alt",
+            "Revisió de la direcció"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "La revisió va identificar múltiples casos en què la documentació actual no explica completament les decisions organitzatives anteriors."
+      },
+      {
+        "type": "paragraph",
+        "text": "La recomanació és conservar tots els registres històrics fins que s'hagi realitzat una auditoria completa."
+      }
+    ]
+  },
+  "historical_archive_guide": {
+    "template": "manual",
+    "title": "Guia de l'Arxiu Històric",
+    "author": "Departament d'Arxiu",
+    "revision": "2.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Propòsit"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquesta guia explica els procediments per accedir i revisar el material d'arxiu històric."
+      },
+      {
+        "type": "heading",
+        "text": "Procediment d'accés"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Sol·licitar accés a l'arxiu.",
+          "Registra la informació dels visitants.",
+          "Confirmeu les referències dels documents.",
+          "Torna els documents després de la revisió."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Material restringit"
+      },
+      {
+        "type": "paragraph",
+        "text": "Alguns registres històrics poden contenir informació de l'organització obsoleta. Aquests registres s'han d'interpretar juntament amb la documentació actual."
+      },
+      {
+        "type": "heading",
+        "text": "Recordatori important"
+      },
+      {
+        "type": "paragraph",
+        "text": "Els registres històrics són evidència d'estructures anteriors de l'empresa i no s'han d'alterar per coincidir amb els models organitzatius actuals."
+      }
+    ]
+  },
+  "archive_room_map": {
+    "template": "report",
+    "title": "Arxiu del mapa de la sala",
+    "author": "Instal·lacions",
+    "revision": "1.1",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Disseny d'emmagatzematge d'arxiu"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquest document descriu l'organització física de les àrees d'emmagatzematge d'arxius."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Àrea",
+          "Continguts",
+          "Accés"
+        ],
+        "rows": [
+          [
+            "Gabinet A",
+            "Registres financers",
+            "Estàndard"
+          ],
+          [
+            "Gabinet B",
+            "Contractes",
+            "Estàndard"
+          ],
+          [
+            "Gabinet C",
+            "Instal·lacions",
+            "Estàndard"
+          ],
+          [
+            "Gabinet D",
+            "Gestió",
+            "Restringit"
+          ],
+          [
+            "Gabinet G",
+            "Documents històrics",
+            "Restringit"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Notes de manteniment"
+      },
+      {
+        "type": "paragraph",
+        "text": "El gabinet G no es va incloure al mapa d'inventari públic anterior. La seva existència es va confirmar durant el procés de revisió de l'arxiu."
+      },
+      {
+        "type": "paragraph",
+        "text": "L'accés requereix la confirmació del Departament d'Arxiu."
+      }
+    ]
+  },
+  "presentation_old": {
+    "template": "presentation",
+    "title": "Presentació de la Revisió Trimestral OLD",
+    "author": "Oficina de Gestió",
+    "revision": "0.9",
+    "classification": "Esborrany intern",
+    "content": [
+      {
+        "type": "slide",
+        "title": "Revisió trimestral",
+        "body": [
+          "Presentació de la gestió interna.",
+          "Preparat per a la revisió operativa trimestral.",
+          "Versió esborrany - no aprovada per a la distribució."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Agenda",
+        "body": [
+          "Rendiment financer.",
+          "Canvis operatius.",
+          "Arxiu de l'estat del projecte.",
+          "Revisió de l'organització.",
+          "Problemes de documentació pendents."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Visió general financera",
+        "body": [
+          "El rendiment global del pressupost es manté dins dels límits previstos.",
+          "Algunes àrees operatives van superar les estimacions inicials.",
+          "Els costos relacionats amb l'arxiu van augmentar a causa dels requisits addicionals de revisió."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Projecte Arxiu",
+        "body": [
+          "El procés de digitalització ha començat amb èxit.",
+          "La documentació històrica requereix una classificació addicional.",
+          "Diversos registres no coincideixen amb les estructures organitzatives actuals.",
+          "Es recomana una revisió addicional abans de prendre decisions d'eliminació."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Canvis d'organització",
+        "body": [
+          "S'han actualitzat les responsabilitats del departament.",
+          "Les estructures anteriors romanen disponibles a la documentació arxivada.",
+          "Cal preservar les referències històriques."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Preguntes obertes",
+        "body": [
+          "Diferències de registre d'empleats.",
+          "Referències del departament històric.",
+          "Material d'arxiu no classificat.",
+          "Decisions de gestió pendents."
+        ]
+      }
+    ]
+  },
+  "presentation_q3_final": {
+    "template": "presentation",
+    "title": "Q3 Presentació final",
+    "author": "Oficina de Gestió",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "slide",
+        "title": "Revisió executiva Q3",
+        "body": [
+          "Resum del rendiment trimestral.",
+          "Preparat per a la distribució de gestió."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Resultats financers",
+        "body": [
+          "Revisió del rendiment del pressupost.",
+          "S'identifiquen petites desviacions.",
+          "Accions correctores implementades."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Millores operatives",
+        "body": [
+          "Millora dels procediments de gestió documental.",
+          "Fluxos de treball interns actualitzats.",
+          "L'organització de l'arxiu progressa."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Actualització de l'organització",
+        "body": [
+          "Nova estructura implantada.",
+          "Responsabilitats redistribuïdes.",
+          "Transició completada."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Següents passos",
+        "body": [
+          "Continuar el projecte d'arxiu digital.",
+          "Completa les actualitzacions restants de la documentació.",
+          "Revisar millores futures."
+        ]
+      }
+    ]
+  },
+  "presentation_q3_final_v2": {
+    "template": "presentation",
+    "title": "Q3 Presentació final Versió 2",
+    "author": "Oficina de Gestió",
+    "revision": "1.5",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "slide",
+        "title": "Q3 Revisió empresarial",
+        "body": [
+          "Versió actualitzada després dels comentaris de la direcció.",
+          "Èmfasi ajustat als assoliments operatius."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Visió general financera",
+        "body": [
+          "Trimestre completat amb èxit.",
+          "El projecte d'arxiu requeria recursos addicionals.",
+          "Inversió addicional aprovada."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Progrés de l'arxiu",
+        "body": [
+          "Continua la revisió de la documentació històrica.",
+          "Millora de la classificació dels documents.",
+          "Reducció de l'arxiu físic ajornat."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Actualització de Recursos Humans",
+        "body": [
+          "S'ha completat la revisió de la documentació dels empleats.",
+          "Registre actualitzat després de canvis organitzatius.",
+          "Registres històrics conservats."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Notes de gestió",
+        "body": [
+          "Eviteu presentar problemes de documentació històrica no resolts.",
+          "Centrar la comunicació en les accions realitzades."
+        ]
+      }
+    ]
+  },
+  "presentation_q3_final_v3": {
+    "template": "presentation",
+    "title": "Q3 Presentació final UTILITZA AQUEST",
+    "author": "Oficina de Gestió",
+    "revision": "2.0",
+    "classification": "Aprovat",
+    "content": [
+      {
+        "type": "slide",
+        "title": "Q3 Resum executiu",
+        "body": [
+          "Trimestre finalitzat segons objectius estratègics.",
+          "Millores operatives implementades amb èxit."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Rendiment financer",
+        "body": [
+          "Objectius pressupostaris assolits.",
+          "L'assignació de recursos s'ajusta quan sigui necessari.",
+          "Planificació futura aprovada."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Millores de processos",
+        "body": [
+          "Procediments documentals actualitzats.",
+          "S'han millorat els fluxos de treball interns.",
+          "La digitalització de l'arxiu avança."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Estructura organitzativa",
+        "body": [
+          "Model d'organització actual establert.",
+          "S'han aclarit les responsabilitats del departament.",
+          "Documentació històrica conservada per separat."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Accions futures",
+        "body": [
+          "Transició completa a l'arxiu.",
+          "Mantenir els estàndards de documentació.",
+          "Continuar amb les millores operatives."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Nota final",
+        "body": [
+          "Aquesta presentació representa la versió de comunicació de gestió aprovada.",
+          "Els esborranys anteriors han de romandre arxivats."
+        ]
+      }
+    ]
+  },
+  "printer_manual": {
+    "template": "manual",
+    "title": "Manual de la impressora",
+    "author": "Departament d'informàtica",
+    "revision": "2.4",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Guia d'operació de la impressora d'oficina"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquest manual proporciona instruccions d'operació per al sistema d'impressora de l'oficina principal. Inclou informació sobre el funcionament bàsic, els procediments de manteniment i la resolució de problemes."
+      },
+      {
+        "type": "heading",
+        "text": "Informació de l'equip"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Camp",
+          "Informació"
+        ],
+        "rows": [
+          [
+            "Ubicació",
+            "Oficina Principal - Planta 2"
+          ],
+          [
+            "Departament responsable",
+            "IT"
+          ],
+          [
+            "Manteniment",
+            "Programat trimestralment"
+          ],
+          [
+            "Accés",
+            "Empleats amb credencials"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Problemes comuns"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Substitució de paper.",
+          "Problemes de connexió a la xarxa.",
+          "Errors d'autenticació.",
+          "Avisos de manteniment."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Historial de manteniment"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Data",
+          "Acció",
+          "Responsable"
+        ],
+        "rows": [
+          [
+            "gener",
+            "Inspecció de rutina",
+            "IT"
+          ],
+          [
+            "març",
+            "Actualització de la xarxa",
+            "IT"
+          ],
+          [
+            "juny",
+            "Comprovació de trasllat",
+            "Instal·lacions"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "La ubicació de la impressora es va revisar durant l'actualització de l'organització de l'oficina. Qualsevol trasllat futur s'ha de registrar a través de les instal·lacions."
+      }
+    ]
+  },
+  "coffee_machine_manual": {
+    "template": "manual",
+    "title": "Manual de la màquina de cafè",
+    "author": "Departament d'Instal·lacions",
+    "revision": "1.2",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Guia d'equips per a la sala de descans"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquest document ofereix instruccions per al funcionament i el manteniment de la màquina de cafè d'oficina."
+      },
+      {
+        "type": "heading",
+        "text": "Detalls de l'equip"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Item",
+          "Valor"
+        ],
+        "rows": [
+          [
+            "Ubicació",
+            "Sala de descans"
+          ],
+          [
+            "Propietari",
+            "Instal·lacions"
+          ],
+          [
+            "Freqüència de manteniment",
+            "Mensualment"
+          ],
+          [
+            "Proveïdor",
+            "Serveis d'Oficina"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Notes de manteniment"
+      },
+      {
+        "type": "paragraph",
+        "text": "Durant el procés de reorganització de l'oficina, es van revisar les ubicacions dels equips per garantir la documentació actualitzada de les instal·lacions."
+      },
+      {
+        "type": "paragraph",
+        "text": "Les referències d'ubicacions anteriors encara poden aparèixer a les notes de reunió anteriors."
+      },
+      {
+        "type": "heading",
+        "text": "Registres de servei"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Mes",
+          "Acció"
+        ],
+        "rows": [
+          [
+            "gener",
+            "Neteja"
+          ],
+          [
+            "Abril",
+            "Substitució del filtre"
+          ],
+          [
+            "juliol",
+            "Inspecció general"
+          ]
+        ]
+      }
+    ]
+  },
+  "emergency_plan": {
+    "template": "manual",
+    "title": "Pla d'emergència",
+    "author": "Departament d'Instal·lacions",
+    "revision": "3.0",
+    "classification": "Document de seguretat interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Procediments d'urgència de l'oficina"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquest document descriu els procediments d'emergència, les responsabilitats d'evacuació i els requisits de comunicació."
+      },
+      {
+        "type": "heading",
+        "text": "Responsabilitats d'emergència"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Àrea",
+          "Responsable",
+          "Còpia de seguretat"
+        ],
+        "rows": [
+          [
+            "Planta principal",
+            "Instal·lacions",
+            "Gestió"
+          ],
+          [
+            "Àrea d'Arxiu",
+            "Departament d'Arxiu",
+            "Instal·lacions"
+          ],
+          [
+            "Sistemes tècnics",
+            "IT",
+            "Gestió"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Instruccions de l'àrea d'arxiu"
+      },
+      {
+        "type": "paragraph",
+        "text": "Els documents històrics emmagatzemats en àrees restringides només s'han de moure quan hi hagi personal autoritzat disponible."
+      },
+      {
+        "type": "paragraph",
+        "text": "La reubicació d'emergència dels documents s'ha de registrar després de l'esdeveniment."
+      },
+      {
+        "type": "heading",
+        "text": "Revisar l'historial"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Versió",
+          "Canviar"
+        ],
+        "rows": [
+          [
+            "2.0",
+            "Vies d'evacuació actualitzades"
+          ],
+          [
+            "3.0",
+            "S'han afegit procediments d'arxiu"
+          ]
+        ]
+      }
+    ]
+  },
+  "meeting_tasks": {
+    "template": "tasks",
+    "title": "Registre de tasques de la reunió",
+    "author": "Administració",
+    "revision": "2.1",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Accions de reunió oberta"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquest document fa un seguiment de les accions generades durant les reunions de direcció i les revisions departamentals."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Tasca",
+          "Font",
+          "Propietari",
+          "Estat"
+        ],
+        "rows": [
+          [
+            "Revisar les diferències del registre dels empleats",
+            "Trobada 05",
+            "RRHH",
+            "Pendent"
+          ],
+          [
+            "Comparar organigrames",
+            "Trobada 06",
+            "Gestió",
+            "Completat"
+          ],
+          [
+            "Actualitza l'índex de l'arxiu",
+            "Trobada 07",
+            "Arxiu",
+            "En curs"
+          ],
+          [
+            "Preparar la presentació final",
+            "Trobada 08",
+            "Gestió",
+            "Completat"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Comentaris addicionals"
+      },
+      {
+        "type": "paragraph",
+        "text": "Diverses accions depenen de la revisió de la documentació històrica. Els equips van rebre instruccions per preservar les versions anteriors fins a la validació final."
+      },
+      {
+        "type": "heading",
+        "text": "Elements prioritaris"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Verificació completa de l'arxiu.",
+          "Confirmeu els registres dels empleats.",
+          "Reviseu els documents restringits restants."
+        ]
+      }
+    ]
+  },
+  "meeting_ideas": {
+    "template": "notes",
+    "title": "Idees de trobada",
+    "author": "Administració",
+    "revision": "0.5",
+    "classification": "Esborrany intern",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Temes de reunions futures"
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquest document conté suggeriments informals recollits abans de futures reunions de direcció."
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Reviseu les millores de l'arxiu.",
+          "Discutir els estàndards de documentació.",
+          "Millorar el control de versions.",
+          "Aclarir les responsabilitats del departament."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Notes de discussió"
+      },
+      {
+        "type": "paragraph",
+        "text": "Un suggeriment recurrent va ser la creació d'una única font de veritat per als documents de l'organització tot conservant les versions històriques."
+      },
+      {
+        "type": "paragraph",
+        "text": "Diversos participants van destacar que les decisions anteriors eren difícils d'entendre quan la documentació antiga no estava disponible."
+      },
+      {
+        "type": "heading",
+        "text": "Consideracions futures"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Millora la cerca d'arxius.",
+          "Resolucions d'aprovació de documents.",
+          "Mantenir l'historial de revisions."
+        ]
+      }
+    ]
+  },
+  "company_logo": {
+    "template": "image",
+    "title": "Logotip de l'empresa",
+    "author": "Comunicacions Corporatives",
+    "source": "misc/Company Logo.png",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "description",
+        "text": "Logotip oficial de l'empresa utilitzat per a documents interns, presentacions i materials corporatius."
+      }
+    ]
+  },
+  "new_folder_zip": {
+    "template": "archive",
+    "title": "Nou arxiu de carpetes",
+    "author": "Desconegut",
+    "source": "misc/New Folder.zip",
+    "revision": "1.0",
+    "classification": "Sense classificar",
+    "content": [
+      {
+        "type": "description",
+        "text": "Arxiu comprimit que conté documents agrupats prèviament. Els continguts requereixen una verificació abans de la classificació."
+      },
+      {
+        "type": "paragraph",
+        "text": "L'arxiu s'ha trobat sense metadades completes i s'ha de revisar durant la classificació del document."
+      }
+    ]
+  },
+  "office_photo_2018": {
+    "template": "image",
+    "title": "Foto de l'oficina 2018",
+    "author": "Administració",
+    "source": "photos/Office Photo 2018.jpg",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "description",
+        "text": "Fotografia que mostra les instal·lacions d'oficines durant l'any 2018. Útil per a la comparació històrica de l'organització de l'espai de treball."
+      }
+    ]
+  },
+  "team_photo": {
+    "template": "image",
+    "title": "Foto de l'equip",
+    "author": "Recursos Humans",
+    "source": "photos/Team Photo.jpg",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "description",
+        "text": "Fotografia de l'equip intern conservada com a part dels registres històrics de l'empresa."
+      }
+    ]
+  },
+  "document_access_log": {
+    "template": "spreadsheet",
+    "title": "Registre d'accés al document",
+    "author": "Administració",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Registres d'accés recents"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Data",
+          "Document",
+          "Usuari",
+          "Acció"
+        ],
+        "rows": [
+          [
+            "12 de setembre",
+            "Registres Històrics",
+            "Miguel Ruiz",
+            "Vist"
+          ],
+          [
+            "13 de setembre",
+            "Organigrama Antic",
+            "Laura López",
+            "Copiat"
+          ],
+          [
+            "14 de setembre",
+            "Registre d'empleats anterior",
+            "Miguel Ruiz",
+            "Vist"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Els documents històrics estan subjectes a accés restringit. Els registres originals no s'han d'eliminar sense autorització."
+      }
+    ]
+  },
+  "archive_cleanup_proposal": {
+    "template": "report",
+    "title": "Proposta de neteja d'arxius",
+    "author": "Administració",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Propòsit"
+      },
+      {
+        "type": "paragraph",
+        "text": "Proposta per reduir el material duplicat tot preservant la documentació històrica necessària per a les auditories i la revisió interna."
+      },
+      {
+        "type": "heading",
+        "text": "Recomanació"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Identificar còpies duplicades.",
+          "No destruïu els originals.",
+          "Obtenir l'aprovació de la direcció abans de l'eliminació.",
+          "Enregistreu tots els documents eliminats de l'emmagatzematge actiu."
+        ]
+      }
+    ]
+  },
+  "rejected_proposal": {
+    "template": "report",
+    "title": "Proposta rebutjada",
+    "author": "Oficina de Gestió",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Estat"
+      },
+      {
+        "type": "paragraph",
+        "text": "Proposta rebutjada després de la revisió de la direcció."
+      },
+      {
+        "type": "heading",
+        "text": "Raó"
+      },
+      {
+        "type": "paragraph",
+        "text": "La proposta eliminaria la documentació històrica el context de la qual i les versions anteriors encara es poden requerir."
+      },
+      {
+        "type": "paragraph",
+        "text": "Instrucció: conservar el material original fins que es tanqui formalment la revisió de l'arxiu."
+      }
+    ]
+  },
+  "employee_evaluations": {
+    "template": "report",
+    "title": "Avaluacions dels empleats",
+    "author": "Recursos Humans",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Revisió de personal"
+      },
+      {
+        "type": "paragraph",
+        "text": "Avaluacions internes dels empleats i registres històrics de rendiment."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Empleat",
+          "Departament",
+          "Revisa l'estat"
+        ],
+        "rows": [
+          [
+            "Marta Romero",
+            "Recursos Humans",
+            "Completa"
+          ],
+          [
+            "Laura López",
+            "Administració",
+            "Completa"
+          ],
+          [
+            "Carlos Vega",
+            "Finances",
+            "Completa"
+          ],
+          [
+            "Clara Pérez",
+            "Recepció",
+            "Completa"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Les avaluacions originals han de romandre a l'arxiu de personal i només es podran retirar amb l'autorització de la Direcció."
+      }
+    ]
+  },
+  "interview_report": {
+    "template": "report",
+    "title": "Informe d'entrevista",
+    "author": "Recursos Humans",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Resum de l'entrevista"
+      },
+      {
+        "type": "paragraph",
+        "text": "Informe de l'entrevista interna elaborat per a la revisió de la Direcció."
+      },
+      {
+        "type": "heading",
+        "text": "Observació"
+      },
+      {
+        "type": "paragraph",
+        "text": "L'informe conté referències a acords organitzatius anteriors i documentació de suport."
+      },
+      {
+        "type": "paragraph",
+        "text": "L'aprovació final continua amb Miguel Ruiz."
+      }
+    ]
+  },
+  "company_policies": {
+    "template": "report",
+    "title": "Polítiques de l'empresa",
+    "author": "Oficina de Gestió",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Retenció de documents"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Els registres històrics han de romandre accessibles.",
+          "Els documents originals no s'han de descartar sense autorització.",
+          "Les versions anteriors s'han de conservar quan els canvis afecten les responsabilitats o les aprovacions."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Control de documents"
+      },
+      {
+        "type": "paragraph",
+        "text": "La direcció és responsable de l'aprovació final de la documentació interna."
+      }
+    ]
+  },
+  "employee_registry_current": {
+    "template": "spreadsheet",
+    "title": "Registre d'empleats actual",
+    "author": "Recursos Humans",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Registre actual d'empleats"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Nom",
+          "Departament",
+          "Posició"
+        ],
+        "rows": [
+          [
+            "Clara Pérez",
+            "Recepció",
+            "Recepció"
+          ],
+          [
+            "Miguel Ruiz",
+            "Gestió",
+            "Director"
+          ],
+          [
+            "Marta Romero",
+            "Recursos Humans",
+            "RRHH"
+          ],
+          [
+            "Carlos Vega",
+            "Finances",
+            "Finances"
+          ],
+          [
+            "Laura López",
+            "Administració",
+            "Administració"
+          ]
+        ]
+      }
+    ]
+  },
+  "employee_registry_previous": {
+    "template": "spreadsheet",
+    "title": "Registre d'empleats anterior",
+    "author": "Recursos Humans",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Registre d'empleats anteriors"
+      },
+      {
+        "type": "paragraph",
+        "text": "Versió arxivada conservada per comparar-la amb el registre actual."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Nom",
+          "Departament",
+          "Posició"
+        ],
+        "rows": [
+          [
+            "Clara Pérez",
+            "Recepció",
+            "Recepció"
+          ],
+          [
+            "Miguel Ruiz",
+            "Gestió",
+            "Director"
+          ],
+          [
+            "Marta Romero",
+            "Recursos Humans",
+            "RRHH"
+          ],
+          [
+            "Carlos Vega",
+            "Finances",
+            "Finances"
+          ],
+          [
+            "Laura López",
+            "Administració",
+            "Administració"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Mantingueu aquesta versió disponible quan investigueu els canvis organitzatius històrics."
+      }
+    ]
+  },
+  "internal_reorganisation": {
+    "template": "report",
+    "title": "Reorganització interna",
+    "author": "Oficina de Gestió",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Revisió de la reorganització"
+      },
+      {
+        "type": "paragraph",
+        "text": "Els canvis interns van afectar les línies d'informes i les responsabilitats departamentals."
+      },
+      {
+        "type": "heading",
+        "text": "Documentació"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cal conservar tant les estructures organitzatives anteriors com les actuals perquè descriuen diferents punts de la història de l'empresa."
+      },
+      {
+        "type": "paragraph",
+        "text": "La direcció va emetre la confirmació final."
+      }
+    ]
+  },
+  "management_meeting_minutes": {
+    "template": "meeting",
+    "title": "Acta de la Junta Directiva",
+    "author": "Oficina de Gestió",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Resum"
+      },
+      {
+        "type": "paragraph",
+        "text": "La direcció ha revisat l'organització de l'arxiu, la documentació dels empleats i l'organigrama actualitzat."
+      },
+      {
+        "type": "heading",
+        "text": "Decisions"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Conservar la documentació històrica.",
+          "Comparar registres actuals i anteriors.",
+          "Revisar els registres d'accés a l'arxiu.",
+          "Aprovar la documentació organitzativa actualitzada."
+        ]
+      }
+    ]
+  },
+  "director_agenda": {
+    "template": "meeting",
+    "title": "Agenda del director",
+    "author": "Miguel Ruiz",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Agenda matinal"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Revisar la documentació pendent.",
+          "Signar les actes de la comissió.",
+          "Revisa les sol·licituds d'arxiu.",
+          "Trobada amb l'equip directiu a les 09:00."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Diversos documents històrics requereixen la revisió del director abans d'actuar."
+      }
+    ]
+  },
+  "executive_approvals": {
+    "template": "report",
+    "title": "Aprovacions executives",
+    "author": "Miguel Ruiz",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Elements aprovats"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Revisió del pressupost del tercer trimestre.",
+          "Política de documentació d'arxiu.",
+          "Documentació de gestió actualitzada."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "L'aprovació definitiva de la documentació interna recau en el director."
+      }
+    ]
+  },
+  "company_organisation": {
+    "template": "report",
+    "title": "Organització de l'empresa",
+    "author": "Oficina de Gestió",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Estructura actual"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Departament",
+          "Responsable"
+        ],
+        "rows": [
+          [
+            "Gestió",
+            "Miguel Ruiz"
+          ],
+          [
+            "Recursos Humans",
+            "Marta Romero"
+          ],
+          [
+            "Finances",
+            "Carlos Vega"
+          ],
+          [
+            "Administració",
+            "Laura López"
+          ],
+          [
+            "Recepció",
+            "Clara Pérez"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Les versions històriques de l'organització s'han de conservar com a referència."
+      }
+    ]
+  },
+  "signed_reports": {
+    "template": "report",
+    "title": "Informes signats",
+    "author": "Oficina de Gestió",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Documents signats"
+      },
+      {
+        "type": "paragraph",
+        "text": "Recollida d'informes interns aprovats, autoritzacions i renovacions de contractes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Els documents estan signats i arxivats. Les versions anteriors continuen subjectes a la política de retenció."
+      }
+    ]
+  },
+  "management_directory": {
+    "template": "spreadsheet",
+    "title": "Directori de gestió",
+    "author": "Oficina de Gestió",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Directori intern"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Nom",
+          "Rol",
+          "Extensió"
+        ],
+        "rows": [
+          [
+            "Miguel Ruiz",
+            "Director",
+            "201"
+          ],
+          [
+            "Marta Romero",
+            "Recursos Humans",
+            "203"
+          ],
+          [
+            "Carlos Vega",
+            "Finances",
+            "205"
+          ],
+          [
+            "Laura López",
+            "Administració",
+            "107"
+          ],
+          [
+            "Clara Pérez",
+            "Recepció",
+            "101"
+          ]
+        ]
+      }
+    ]
+  },
+  "board_minutes": {
+    "template": "meeting",
+    "title": "Actes de la Junta",
+    "author": "Oficina de Gestió",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Resum de la reunió"
+      },
+      {
+        "type": "paragraph",
+        "text": "El consell va revisar l'organització de l'empresa, la retenció de documents i les responsabilitats de gestió."
+      },
+      {
+        "type": "paragraph",
+        "text": "La junta va demanar que la documentació històrica romangués accessible per a una futura revisió."
+      }
+    ]
+  },
+  "committee_minutes": {
+    "template": "meeting",
+    "title": "Actes de la Comissió",
+    "author": "Secretaria",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Reunió del Comitè"
+      },
+      {
+        "type": "paragraph",
+        "text": "La comissió va revisar les aprovacions pendents i la documentació que requeria la signatura del director."
+      },
+      {
+        "type": "paragraph",
+        "text": "Un element va quedar pendent fins que Miguel Ruiz va completar l'aprovació final."
+      }
+    ]
+  },
+  "director_signatures": {
+    "template": "report",
+    "title": "Signatures del director",
+    "author": "Oficina de Gestió",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Referència de la signatura"
+      },
+      {
+        "type": "paragraph",
+        "text": "Exemples de referència de signatures autoritzades utilitzades per validar documents interns."
+      },
+      {
+        "type": "paragraph",
+        "text": "Utilitzeu aquest registre només per a la verificació de documents. Els documents originals signats romanen a l'arxiu."
+      }
+    ]
+  },
+  "archive_guidelines": {
+    "template": "report",
+    "title": "Directrius d'arxiu",
+    "author": "Administració",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Procediment d'arxiu"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Mantenir els originals històrics.",
+          "No creeu originals duplicats.",
+          "Comproveu la numeració històrica abans de crear un registre nou.",
+          "Pregunteu a la direcció abans de moure documents restringits."
+        ]
+      }
+    ]
+  },
+  "historical_index": {
+    "template": "spreadsheet",
+    "title": "Índex històric",
+    "author": "Administració",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Índex de documents històrics"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Categoria",
+          "Ubicació",
+          "Estat"
+        ],
+        "rows": [
+          [
+            "Registres dels empleats",
+            "Arxiu",
+            "Retingut"
+          ],
+          [
+            "Contractes",
+            "Arxiu",
+            "Retingut"
+          ],
+          [
+            "Organització",
+            "Arxiu",
+            "Múltiples versions"
+          ],
+          [
+            "Expedients de gestió",
+            "Oficina del Director",
+            "Restringit"
+          ]
+        ]
+      }
+    ]
+  },
+  "executive_approvals_2024": {
+    "template": "report",
+    "title": "Aprovacions executives 2024",
+    "author": "Miguel Ruiz",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Aprovacions"
+      },
+      {
+        "type": "paragraph",
+        "text": "Recollida d'aprovacions executives emeses durant l'any 2024."
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "S'ha aprovat la revisió de l'arxiu.",
+          "Conservació de documentació històrica confirmada.",
+          "S'ha aprovat la documentació organitzativa actualitzada."
+        ]
+      }
+    ]
+  },
+  "director_notes": {
+    "template": "text",
+    "title": "Notes del director",
+    "author": "Miguel Ruiz",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Notes"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Revisa la sol·licitud d'arxiu.",
+          "Consulta l'organigrama anterior.",
+          "Pregunta a la Laura sobre els registres històrics.",
+          "Mantenir accessible la documentació original."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Alguns registres més antics poden contenir informació que ja no es reflecteix a la documentació actual."
+      }
+    ]
+  },
+  "presentation_2022": {
+    "template": "presentation",
+    "title": "Presentació 2022",
+    "author": "Oficina de Gestió",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Visió general de l'empresa"
+      },
+      {
+        "type": "paragraph",
+        "text": "Estructura de l'empresa i prioritats operatives anteriors."
+      },
+      {
+        "type": "heading",
+        "text": "Organització"
+      },
+      {
+        "type": "paragraph",
+        "text": "Presentació històrica que mostra l'organització abans de canvis interns posteriors."
+      }
+    ]
+  },
+  "presentation_2023": {
+    "template": "presentation",
+    "title": "Presentació 2023",
+    "author": "Oficina de Gestió",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Revisió anual"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rendiment de l'empresa, personal i canvis organitzatius durant l'any."
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquesta presentació és anterior a l'organigrama actual."
+      }
+    ]
+  },
+  "reception_manual": {
+    "template": "report",
+    "title": "Manual de recepció",
+    "author": "Recepció",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Procediments d'acollida"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Registre de visitants.",
+          "Preparar sales de reunions.",
+          "Gestionar els lliuraments.",
+          "Poseu-vos en contacte amb el departament corresponent quan no es pugui localitzar un fitxer històric."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Per a sol·licituds de document històric no resoltes, poseu-vos en contacte amb l'Administració o amb el director."
+      }
+    ]
+  },
+  "visitor_protocol": {
+    "template": "report",
+    "title": "Protocol de visitants",
+    "author": "Recepció",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Procediment de visitants"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Registra els detalls dels visitants.",
+          "Prepara el distintiu de visitant.",
+          "Confirmeu l'amfitrió.",
+          "Avisar a Recepció quan arribi el visitant."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Els visitants que sol·licitin documentació de l'empresa restringida s'han de derivar a la Direcció."
+      }
+    ]
+  },
+  "meeting_bookings": {
+    "template": "spreadsheet",
+    "title": "Reserves de sales de reunions",
+    "author": "Recepció",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Reserves"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Temps",
+          "Habitació",
+          "Propòsit",
+          "Amfitrió"
+        ],
+        "rows": [
+          [
+            "08:30",
+            "Sala de reunions A",
+            "Preparació",
+            "Miguel Ruiz"
+          ],
+          [
+            "09:00",
+            "Sala de reunions A",
+            "Reunió setmanal de gestió",
+            "Miguel Ruiz"
+          ],
+          [
+            "10:15",
+            "Sala de reunions A",
+            "Reunió interna",
+            "Marta Romero"
+          ]
+        ]
+      }
+    ]
+  },
+  "emergency_contacts": {
+    "template": "spreadsheet",
+    "title": "Contactes d'emergència",
+    "author": "Recepció",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Contactes interns"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Servei",
+          "Extensió"
+        ],
+        "rows": [
+          [
+            "Recepció",
+            "101"
+          ],
+          [
+            "Director",
+            "201"
+          ],
+          [
+            "Suport informàtic",
+            "301"
+          ],
+          [
+            "Seguretat",
+            "399"
+          ]
+        ]
+      }
+    ]
+  },
+  "suppliers": {
+    "template": "spreadsheet",
+    "title": "Proveïdors",
+    "author": "Recepció",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Proveïdors habituals"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Proveïdor",
+          "Servei"
+        ],
+        "rows": [
+          [
+            "Vending Solutions S.L.",
+            "Vending"
+          ],
+          [
+            "Manteniment de la impressora",
+            "Impressores"
+          ],
+          [
+            "Empresa de neteja",
+            "Neteja"
+          ]
+        ]
+      }
+    ]
+  },
+  "office_map": {
+    "template": "image",
+    "title": "Mapa de l'oficina",
+    "author": "Recepció",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Àrees d'edificació"
+      },
+      {
+        "type": "paragraph",
+        "text": "La recepció, l'arxiu, la sala de reunions i el despatx del director estan connectats pel passadís de l'oficina principal."
+      }
+    ]
+  },
+  "office_layout_old": {
+    "template": "report",
+    "title": "Disseny d'oficina v1",
+    "author": "Recepció",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Disseny anterior"
+      },
+      {
+        "type": "paragraph",
+        "text": "Disposició històrica d'oficines que mostra la disposició anterior dels espais de recepció, arxiu i reunió."
+      },
+      {
+        "type": "paragraph",
+        "text": "Es conserva per comparar amb la disposició actual."
+      }
+    ]
+  },
+  "office_layout_new": {
+    "template": "report",
+    "title": "Disseny d'oficina v2",
+    "author": "Recepció",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Disseny actual"
+      },
+      {
+        "type": "paragraph",
+        "text": "Disposició actual de l'oficina que mostra recepció, arxiu, sala de reunions i despatx del director."
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquesta versió substitueix el disseny anterior per a les operacions diàries."
+      }
+    ]
+  },
+  "organisation_chart_new": {
+    "template": "report",
+    "title": "Organigrama v2",
+    "author": "Administració",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Organització actualitzada"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Àrea",
+          "Responsable"
+        ],
+        "rows": [
+          [
+            "Gestió",
+            "Miguel Ruiz"
+          ],
+          [
+            "Recursos Humans",
+            "Marta Romero"
+          ],
+          [
+            "Finances",
+            "Carlos Vega"
+          ],
+          [
+            "Administració",
+            "Laura López"
+          ],
+          [
+            "Recepció",
+            "Clara Pérez"
+          ]
+        ]
+      }
+    ]
+  },
+  "reception_checklist": {
+    "template": "tasks",
+    "title": "Llista de control de recepció",
+    "author": "Recepció",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Llista de control matinal"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Recepció oberta.",
+          "Consulteu els lliuraments.",
+          "Preparar insígnies de visitants.",
+          "Confirmeu la reserva de la sala de reunions.",
+          "Comproveu les sol·licituds d'arxiu pendents."
+        ]
+      }
+    ]
+  },
+  "morning_tasks": {
+    "template": "tasks",
+    "title": "Tasques matinals",
+    "author": "Recepció",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Tasques"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Imprimeix documents de l'entrevista.",
+          "Prova la impressora d'insígnies de visitant.",
+          "Truqueu al manteniment de la impressora.",
+          "Confirmeu la preparació de la sala de reunions.",
+          "Revisa les sol·licituds d'arxiu."
+        ]
+      }
+    ]
+  },
+  "employee_photos": {
+    "template": "archive",
+    "title": "Fotos de l'empleat",
+    "author": "Recepció",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Arxiu de fotos"
+      },
+      {
+        "type": "paragraph",
+        "text": "Col·lecció de fotografies dels empleats conservades per a la identificació interna i els registres històrics."
+      },
+      {
+        "type": "paragraph",
+        "text": "Algunes fotografies són més antigues i poden mostrar arranjaments anteriors de l'equip."
+      }
+    ]
+  },
+  "office_photos": {
+    "template": "archive",
+    "title": "Fotos de l'oficina",
+    "author": "Recepció",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Arxiu de fotos de l'oficina"
+      },
+      {
+        "type": "paragraph",
+        "text": "Fotografies que documenten espais d'oficines i dissenys anteriors."
+      },
+      {
+        "type": "paragraph",
+        "text": "Les imatges més antigues s'han de conservar quan es comparen l'organització històrica de l'oficina."
+      }
+    ]
+  },
+  "employee_seating": {
+    "template": "spreadsheet",
+    "title": "Seients dels empleats",
+    "author": "Recepció",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Seients de reunió"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Seient",
+          "Empleat"
+        ],
+        "rows": [
+          [
+            "1",
+            "Miguel Ruiz"
+          ],
+          [
+            "2",
+            "Marta Romero"
+          ],
+          [
+            "3",
+            "Carlos Vega"
+          ],
+          [
+            "4",
+            "Laura López"
+          ],
+          [
+            "5",
+            "Clara Pérez"
+          ]
+        ]
+      }
+    ]
+  },
+  "evacuation_plan": {
+    "template": "report",
+    "title": "Pla d'evacuació de l'edifici",
+    "author": "Recepció",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Procediment d'urgència"
+      },
+      {
+        "type": "paragraph",
+        "text": "Seguiu les rutes d'evacuació senyalitzades i informeu-vos a l'àrea de reunió designada."
+      },
+      {
+        "type": "paragraph",
+        "text": "Les sortides d'emergència estan controlades i el seu ús està registrat pel sistema de seguretat de l'edifici."
+      }
+    ]
+  },
+  "reception_log": {
+    "template": "spreadsheet",
+    "title": "Registre de recepció 2024",
+    "author": "Recepció",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Registre diari"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Temps",
+          "Esdeveniment",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "08:15",
+            "Lliurament",
+            "Rutina"
+          ],
+          [
+            "08:30",
+            "Entrevista al candidat",
+            "Sala de reunions A"
+          ],
+          [
+            "08:45",
+            "missatgeria",
+            "Col·lecció"
+          ],
+          [
+            "09:00",
+            "Reunió de direcció",
+            "Sala de reunions A"
+          ]
+        ]
+      }
+    ]
+  },
+  "maintenance_history": {
+    "template": "report",
+    "title": "Historial de manteniment",
+    "author": "Instal·lacions",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Manteniment recent"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "S'ha completat la substitució de la il·luminació.",
+          "Aire condicionat reparat.",
+          "Panys inspeccionats.",
+          "Extintors revisats."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Actualment no hi ha cap problema de manteniment sense resoldre."
+      }
+    ]
+  },
+  "reception_checklist_v2": {
+    "template": "tasks",
+    "title": "Llista de control de recepció v2",
+    "author": "Recepció",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Llista de verificació actualitzada"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Recepció oberta.",
+          "Verifiqueu els formularis de visitants.",
+          "Preparar insígnies.",
+          "Consulta les reserves de sales de reunions.",
+          "Revisar les sol·licituds de documentació pendents."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Aquesta versió substitueix la llista de verificació de recepció anterior."
+      }
+    ]
+  },
+  "employee_list_print": {
+    "template": "report",
+    "title": "Llista d'empleats PRINT",
+    "author": "Recepció",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Directori d'empleats"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Nom",
+          "Departament",
+          "Extensió"
+        ],
+        "rows": [
+          [
+            "Clara Pérez",
+            "Recepció",
+            "101"
+          ],
+          [
+            "Miguel Ruiz",
+            "Director",
+            "201"
+          ],
+          [
+            "Marta Romero",
+            "Recursos Humans",
+            "203"
+          ],
+          [
+            "Carlos Vega",
+            "Finances",
+            "205"
+          ],
+          [
+            "Laura López",
+            "Administració",
+            "107"
+          ]
+        ]
+      }
+    ]
+  },
+  "building_map": {
+    "template": "image",
+    "title": "Mapa de l'edifici",
+    "author": "Recepció",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Àrees principals"
+      },
+      {
+        "type": "paragraph",
+        "text": "El directori de l'edifici identifica Recepció, Arxiu, Sala de Reunions, Oficina del Director i Emmagatzematge."
+      }
+    ]
+  },
+  "meeting_room_reservations": {
+    "template": "spreadsheet",
+    "title": "Reserves de sales de reunions",
+    "author": "Recepció",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Reserves"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Temps",
+          "Habitació",
+          "Reserva"
+        ],
+        "rows": [
+          [
+            "08:30-09:00",
+            "Sala de reunions A",
+            "Preparació"
+          ],
+          [
+            "09:00-10:00",
+            "Sala de reunions A",
+            "Reunió setmanal de gestió"
+          ],
+          [
+            "10:15-10:30",
+            "Sala de reunions A",
+            "Reunió interna"
+          ]
+        ]
+      }
+    ]
+  },
+  "reception_log_old": {
+    "template": "spreadsheet",
+    "title": "Registre de recepció Antic",
+    "author": "Recepció",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Registre històric de recepció"
+      },
+      {
+        "type": "paragraph",
+        "text": "Registre de recepció arxivat conservat per comparar-lo amb els registres actuals."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Temps",
+          "Esdeveniment"
+        ],
+        "rows": [
+          [
+            "08:30",
+            "Entrevista"
+          ],
+          [
+            "09:00",
+            "Reunió de direcció"
+          ],
+          [
+            "09:20",
+            "Inventari de l'arxiu"
+          ]
+        ]
+      }
+    ]
+  },
+  "reception_log_current": {
+    "template": "spreadsheet",
+    "title": "Registre de recepció actual",
+    "author": "Recepció",
+    "revision": "1.0",
+    "classification": "Interna",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Registre de recepció actual"
+      },
+      {
+        "type": "paragraph",
+        "text": "Registre d'activitats de recepció diària actual."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Temps",
+          "Esdeveniment"
+        ],
+        "rows": [
+          [
+            "08:15",
+            "Lliurament"
+          ],
+          [
+            "08:30",
+            "Entrevista al candidat"
+          ],
+          [
+            "09:00",
+            "Reunió de direcció"
+          ],
+          [
+            "09:20",
+            "Inventari de l'arxiu"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,3954 @@
+{
+    "director_pc": {
+        "emails": [
+            {
+                "id": "d_mail_001",
+                "from": "Marta Romero",
+                "to": "Miguel Ruiz",
+                "date": "07:38",
+                "subject": "Agenda de hui",
+                "body": [
+                    "Bon dia.",
+                    "",
+                    "T'adjunte l'agenda prevista per a este matí.",
+                    "",
+                    "He deixat lliure l'espai entre les 08:30 i les 09:00 per si necessites preparar la reunió."
+                ]
+            },
+            {
+                "id": "d_mail_002",
+                "from": "Miguel Ruiz",
+                "to": "Marta Romero",
+                "date": "07:39",
+                "subject": "RE: Agenda de hui",
+                "body": [
+                    "Perfecte.",
+                    "",
+                    "Gràcies."
+                ]
+            },
+            {
+                "id": "d_mail_003",
+                "from": "Carlos Vega",
+                "to": "Miguel Ruiz",
+                "date": "07:42",
+                "subject": "Pressupost Q3",
+                "body": [
+                    "Bon dia.",
+                    "",
+                    "Adjunte l'última revisió del pressupost.",
+                    "",
+                    "Quede pendent de la teua aprovació."
+                ]
+            },
+            {
+                "id": "d_mail_004",
+                "from": "Miguel Ruiz",
+                "to": "Carlos Vega",
+                "date": "07:44",
+                "subject": "RE: Pressupost Q3",
+                "body": [
+                    "Revisat.",
+                    "",
+                    "Pots continuar."
+                ]
+            },
+            {
+                "id": "d_mail_005",
+                "from": "Clara Pérez",
+                "to": "Miguel Ruiz",
+                "date": "07:47",
+                "subject": "Fotografia de l'equip",
+                "body": [
+                    "He trobat una fotografia antiga mentre ordenava un arxivador.",
+                    "",
+                    "Està un poc deteriorada.",
+                    "",
+                    "La conservem?"
+                ]
+            },
+            {
+                "id": "d_mail_006",
+                "from": "Miguel Ruiz",
+                "to": "Clara Pérez",
+                "date": "07:48",
+                "subject": "RE: Fotografia de l'equip",
+                "body": [
+                    "Sí.",
+                    "",
+                    "Arxiva-la.",
+                    "",
+                    "No cal restaurar-la."
+                ]
+            },
+            {
+                "id": "d_mail_007",
+                "from": "Marta Romero",
+                "to": "Miguel Ruiz",
+                "date": "07:50",
+                "subject": "Organigrama",
+                "body": [
+                    "Estic revisant l'organigrama actualitzat.",
+                    "",
+                    "Hi ha xicotetes diferències respecte de la còpia antiga.",
+                    "",
+                    "Imagine que són canvis de format."
+                ]
+            },
+            {
+                "id": "d_mail_008",
+                "from": "Miguel Ruiz",
+                "to": "Marta Romero",
+                "date": "07:51",
+                "subject": "RE: Organigrama",
+                "body": [
+                    "Correcte.",
+                    "",
+                    "Conserva les dos versions."
+                ]
+            },
+            {
+                "id": "d_mail_009",
+                "from": "Laura López",
+                "to": "Miguel Ruiz",
+                "date": "07:54",
+                "subject": "Documentació antiga",
+                "body": [
+                    "Mentre ordenava l'Arxiu han aparegut diverses carpetes antigues.",
+                    "",
+                    "Vols que elimine les duplicades?"
+                ]
+            },
+            {
+                "id": "d_mail_010",
+                "from": "Miguel Ruiz",
+                "to": "Laura López",
+                "date": "07:55",
+                "subject": "RE: Documentació antiga",
+                "body": [
+                    "No.",
+                    "",
+                    "Conserva-ho tot.",
+                    "",
+                    "Inclús els documents obsolets."
+                ]
+            },
+            {
+                "id": "d_mail_011",
+                "from": "Marta Romero",
+                "to": "Miguel Ruiz",
+                "date": "08:01",
+                "subject": "Consulta RRHH",
+                "body": [
+                    "Bon dia.",
+                    "",
+                    "Un empleat ha preguntat per la reorganització de l'any passat.",
+                    "",
+                    "No he sabut molt bé què respondre."
+                ]
+            },
+            {
+                "id": "d_mail_012",
+                "from": "Miguel Ruiz",
+                "to": "Marta Romero",
+                "date": "08:02",
+                "subject": "RE: Consulta RRHH",
+                "body": [
+                    "Respon-li únicament amb la documentació vigent.",
+                    "",
+                    "Si necessita consultar versions anteriors, que m'ho comunique."
+                ]
+            },
+            {
+                "id": "d_mail_013",
+                "from": "Carlos Vega",
+                "to": "Miguel Ruiz",
+                "date": "08:04",
+                "subject": "Contractes arxivats",
+                "body": [
+                    "He trobat diverses versions del mateix contracte.",
+                    "",
+                    "No pareixen contindre la mateixa informació."
+                ]
+            },
+            {
+                "id": "d_mail_014",
+                "from": "Miguel Ruiz",
+                "to": "Carlos Vega",
+                "date": "08:05",
+                "subject": "RE: Contractes arxivats",
+                "body": [
+                    "No en modifiques cap.",
+                    "",
+                    "Arxiva'ls junts."
+                ]
+            },
+            {
+                "id": "d_mail_015",
+                "from": "Laura López",
+                "to": "Miguel Ruiz",
+                "date": "08:08",
+                "subject": "Fotografia antiga",
+                "body": [
+                    "He tornat a mirar la fotografia.",
+                    "",
+                    "Juraria que recordava una altra distribució de l'equip.",
+                    "",
+                    "Imagine que m'estic confonent."
+                ]
+            },
+            {
+                "id": "d_mail_016",
+                "from": "Miguel Ruiz",
+                "to": "Laura López",
+                "date": "08:09",
+                "subject": "RE: Fotografia antiga",
+                "body": [
+                    "No et preocupes.",
+                    "",
+                    "És una fotografia molt antiga."
+                ]
+            },
+            {
+                "id": "d_mail_017",
+                "from": "Clara Pérez",
+                "to": "Miguel Ruiz",
+                "date": "08:12",
+                "subject": "Organització de l'Arxiu",
+                "body": [
+                    "Queden molt poques prestatgeries lliures.",
+                    "",
+                    "Conservar tota la documentació comença a ser complicat."
+                ]
+            },
+            {
+                "id": "d_mail_018",
+                "from": "Miguel Ruiz",
+                "to": "Clara Pérez",
+                "date": "08:13",
+                "subject": "RE: Organització de l'Arxiu",
+                "body": [
+                    "Ho revisarem.",
+                    "",
+                    "Mentrestant no retireu documentació."
+                ]
+            },
+            {
+                "id": "d_mail_019",
+                "from": "M. Romero",
+                "to": "Miguel Ruiz",
+                "date": "08:16",
+                "subject": "Llistat antic",
+                "body": [
+                    "He localitzat una còpia del llistat anterior.",
+                    "",
+                    "No coincideix exactament amb l'actual."
+                ]
+            },
+            {
+                "id": "d_mail_020",
+                "from": "Miguel Ruiz",
+                "to": "M. Romero",
+                "date": "08:17",
+                "subject": "RE: Llistat antic",
+                "body": [
+                    "Deixa'l on estava.",
+                    "",
+                    "Ja en parlarem."
+                ]
+            },
+            {
+                "id": "d_mail_021",
+                "from": "Marta Romero",
+                "to": "Miguel Ruiz",
+                "date": "08:19",
+                "subject": "RE: Organigrama",
+                "body": [
+                    "He comparat les dos versions una altra vegada.",
+                    "",
+                    "Em continuen pareixent diferents.",
+                    "",
+                    "No sabria explicar exactament per què."
+                ]
+            },
+            {
+                "id": "d_mail_022",
+                "from": "Miguel Ruiz",
+                "to": "Marta Romero",
+                "date": "08:20",
+                "subject": "RE: Organigrama",
+                "body": [
+                    "No li dones més voltes.",
+                    "",
+                    "Treballa sempre amb la versió actual."
+                ]
+            },
+            {
+                "id": "d_mail_023",
+                "from": "Clara Pérez",
+                "to": "Miguel Ruiz",
+                "date": "08:22",
+                "subject": "Consulta del visitant",
+                "body": [
+                    "El visitant ha preguntat qui dirigeix actualment l'empresa.",
+                    "",
+                    "Li he indicat que eres tu."
+                ]
+            },
+            {
+                "id": "d_mail_024",
+                "from": "Miguel Ruiz",
+                "to": "Clara Pérez",
+                "date": "08:23",
+                "subject": "RE: Consulta del visitant",
+                "body": [
+                    "Perfecte.",
+                    "",
+                    "Fes-lo passar quan arribe el moment."
+                ]
+            },
+            {
+                "id": "d_mail_025",
+                "from": "Carlos Vega",
+                "to": "Miguel Ruiz",
+                "date": "08:25",
+                "subject": "Signatura pendent",
+                "body": [
+                    "Adjunte l'informe per a signar.",
+                    "",
+                    "Sense la teua aprovació no puc arxivar-lo."
+                ]
+            },
+            {
+                "id": "d_mail_026",
+                "from": "Miguel Ruiz",
+                "to": "Carlos Vega",
+                "date": "08:26",
+                "subject": "RE: Signatura pendent",
+                "body": [
+                    "El revisaré abans de la reunió."
+                ]
+            },
+            {
+                "id": "d_mail_027",
+                "from": "Laura López",
+                "to": "Miguel Ruiz",
+                "date": "08:27",
+                "subject": "Empleat antic",
+                "body": [
+                    "Hi ha una signatura en uns documents que no aconseguisc identificar.",
+                    "",
+                    "Pensava que potser tu la recordaries."
+                ]
+            },
+            {
+                "id": "d_mail_028",
+                "from": "Miguel Ruiz",
+                "to": "Laura López",
+                "date": "08:28",
+                "subject": "RE: Empleat antic",
+                "body": [
+                    "Deixa'ls sobre la meua taula.",
+                    "",
+                    "Els revisaré."
+                ]
+            },
+            {
+                "id": "d_mail_029",
+                "from": "Marta Romero",
+                "to": "Miguel Ruiz",
+                "date": "08:29",
+                "subject": "Dubte",
+                "body": [
+                    "Perdona la pregunta.",
+                    "",
+                    "Tu recordes perfectament la reorganització?",
+                    "",
+                    "Comence a pensar que soc jo qui la recorda malament."
+                ]
+            },
+            {
+                "id": "d_mail_030",
+                "from": "Miguel Ruiz",
+                "to": "Marta Romero",
+                "date": "08:30",
+                "subject": "RE: Dubte",
+                "body": [
+                    "No et preocupes.",
+                    "",
+                    "És normal que els detalls canvien amb el temps."
+                ]
+            },
+            {
+                "id": "d_mail_031",
+                "from": "Clara Pérez",
+                "to": "Miguel Ruiz",
+                "date": "08:32",
+                "subject": "Documentació per a la reunió",
+                "body": [
+                    "Bon dia.",
+                    "",
+                    "Ja està preparada tota la documentació.",
+                    "",
+                    "L'he deixada sobre la teua taula."
+                ]
+            },
+            {
+                "id": "d_mail_032",
+                "from": "Miguel Ruiz",
+                "to": "Clara Pérez",
+                "date": "08:33",
+                "subject": "RE: Documentació per a la reunió",
+                "body": [
+                    "Perfecte.",
+                    "",
+                    "Gràcies."
+                ]
+            },
+            {
+                "id": "d_mail_033",
+                "from": "Secretaria",
+                "to": "Miguel Ruiz",
+                "date": "08:34",
+                "subject": "Signatura pendent",
+                "body": [
+                    "Adjunte l'acta de l'última reunió del comité.",
+                    "",
+                    "Queda pendent únicament la teua signatura.",
+                    "",
+                    "Miguel Ruiz",
+                    "Director General"
+                ]
+            },
+            {
+                "id": "d_mail_034",
+                "from": "Miguel Ruiz",
+                "to": "Secretaria",
+                "date": "08:35",
+                "subject": "RE: Signatura pendent",
+                "body": [
+                    "La signaré abans de les 09:00."
+                ]
+            },
+            {
+                "id": "d_mail_035",
+                "from": "Marta Romero",
+                "to": "Miguel Ruiz",
+                "date": "08:36",
+                "subject": "Consulta ràpida",
+                "body": [
+                    "Carlos i jo hem intentat reconstruir uns registres antics.",
+                    "",
+                    "No aconseguim arribar a la mateixa conclusió.",
+                    "",
+                    "Quan tingues un moment, podries revisar-los?"
+                ]
+            },
+            {
+                "id": "d_mail_036",
+                "from": "Miguel Ruiz",
+                "to": "Marta Romero",
+                "date": "08:37",
+                "subject": "RE: Consulta ràpida",
+                "body": [
+                    "Sí.",
+                    "",
+                    "Deixeu-los al meu despatx."
+                ]
+            },
+            {
+                "id": "d_mail_037",
+                "from": "Carlos Vega",
+                "to": "Miguel Ruiz",
+                "date": "08:38",
+                "subject": "Inventari de l'Arxiu",
+                "body": [
+                    "He acabat l'inventari.",
+                    "",
+                    "Hi ha documents que ningú consulta des de fa anys.",
+                    "",
+                    "Vols que els passe a emmagatzematge extern?"
+                ]
+            },
+            {
+                "id": "d_mail_038",
+                "from": "Miguel Ruiz",
+                "to": "Carlos Vega",
+                "date": "08:39",
+                "subject": "RE: Inventari de l'Arxiu",
+                "body": [
+                    "No.",
+                    "",
+                    "Tot ha de romandre accessible."
+                ]
+            },
+            {
+                "id": "d_mail_039",
+                "from": "Laura López",
+                "to": "Miguel Ruiz",
+                "date": "08:41",
+                "subject": "Gràcies",
+                "body": [
+                    "Ja he trobat la documentació.",
+                    "",
+                    "Al final era exactament on m'havies dit.",
+                    "",
+                    "Gràcies."
+                ]
+            },
+            {
+                "id": "d_mail_040",
+                "from": "Miguel Ruiz",
+                "to": "Laura López",
+                "date": "08:42",
+                "subject": "RE: Gràcies",
+                "body": [
+                    "De res."
+                ]
+            },
+            {
+                "id": "d_mail_041",
+                "from": "Finance",
+                "to": "Miguel Ruiz",
+                "date": "08:45",
+                "subject": "Pressupost aprovat",
+                "body": [
+                    "El pressupost revisat ha sigut aprovat.",
+                    "",
+                    "Ja pots continuar amb la planificació."
+                ]
+            },
+            {
+                "id": "d_mail_042",
+                "from": "Marta Romero",
+                "to": "Miguel Ruiz",
+                "date": "08:48",
+                "subject": "Dubtes del personal",
+                "body": [
+                    "Diversos empleats han tornat a fer la mateixa pregunta.",
+                    "",
+                    "Ja no sé què respondre'ls."
+                ]
+            },
+            {
+                "id": "d_mail_043",
+                "from": "Miguel Ruiz",
+                "to": "Tot el personal",
+                "date": "08:50",
+                "subject": "Recordatori",
+                "body": [
+                    "No s'han de comentar assumptes pendents",
+                    "fora d'esta oficina."
+                ]
+            },
+            {
+                "id": "d_mail_044",
+                "from": "Desconegut",
+                "to": "Miguel Ruiz",
+                "date": "08:53",
+                "subject": "Reunió",
+                "body": [
+                    "Hem de parlar",
+                    "abans que els altres comencen a fer preguntes."
+                ]
+            }
+        ],
+        "chats": [
+            {
+                "id": "director_impresora_finanzas",
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "Tens un minut?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Sí."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "La impressora de Finances torna a traure un full en blanc entre cada pàgina."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Crida a IT."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Ja ho he fet."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Diuen que reinicie la impressora."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Aleshores reinicia-la."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Això faré."
+                    }
+                ]
+            },
+            {
+                "id": "director_archivo_laberinto",
+                "with": "Laura López",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "Tu també tens la sensació que l'Arxiu és més gran del que pareix?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "És fàcil perdre's."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Hui he tardat deu minuts a trobar l'eixida."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "La pròxima vegada segueix els corredors principals."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Això intente."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Però juraria que alguns arxivadors canvien de lloc."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No canvien."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Imagine que serà cosa meua."
+                    }
+                ]
+            },
+            {
+                "id": "director_comer_en_escritorio",
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "Necessite la teua opinió professional."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Endavant."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "És acceptable menjar davant de l'ordinador?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "I si és només un entrepà?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Tampoc."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "I unes galetes?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Carlos."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Entés..."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Me n'aniré a la cuina."
+                    }
+                ]
+            },
+            {
+                "id": "director_cumpleanos_del_mes",
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "Estic preparant el correu per a felicitar els aniversaris del mes."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Perfecte."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Sempre em fa por oblidar-me d'algú."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Revisa'l una vegada més."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "L'he revisat tres vegades."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Aleshores estarà bé."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Tu mai dubtes?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Més del que pareix."
+                    }
+                ]
+            },
+            {
+                "id": "director_firma_familiar",
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "He trobat un informe signat fa anys."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "I?"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "La signatura em resulta familiar."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Serà d'algun antic responsable."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Pot ser."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Encara que juraria que continua treballant ací."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No li dones més voltes."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "D'acord."
+                    }
+                ]
+            },
+            {
+                "id": "director_llave_sin_etiqueta",
+                "with": "Laura López",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "Hui m'he trobat una clau dins d'una carpeta."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Té alguna etiqueta?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Guarda-la en objectes perduts."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Pensava deixar-la en recepció."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Millor no."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "D'acord."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "A este pas un dia trobaré un cotxe dins d'una caixa."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Avisa'm si passa."
+                    }
+                ]
+            },
+            {
+                "id": "director_cafeterias_carlos",
+                "with": "Clara Pérez",
+                "messages": [
+                    {
+                        "sender": "Clara",
+                        "text": "Et contaré un secret."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "T'escolte."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Carlos diu que no mira les xarxes socials en horari laboral."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Ahà."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Però cada vegada que passe per la seua taula està llegint ressenyes de cafeteries."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Potser està buscant inspiració."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Inspiració per al café de les onze."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "És una causa noble."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "No esperava que el defensares."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Jo tampoc."
+                    }
+                ]
+            },
+            {
+                "id": "director_carlos_madrugador",
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "Has vist Carlos este matí?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Encara no."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Ha arribat deu minuts abans."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Això sí que és notícia."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Diu que volia aparcar prop."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Ho ha aconseguit?"
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "No. Ha aparcat on sempre."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Aleshores ha matinat per no res."
+                    }
+                ]
+            },
+            {
+                "id": "director_final_definitivo_4",
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "Tinc un dubte existencial."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Temia este moment."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Quantes carpetes anomenades 'Final' són massa?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Més d'una."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Aleshores tinc un problema."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "M'ho imaginava."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "He arribat a 'Final Definitiu 4'."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Podria ser pitjor."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Com?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Podria existir un 'Final Definitiu 4 Bo'."
+                    }
+                ]
+            },
+            {
+                "id": "director_archivador_azul",
+                "with": "Laura López",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "Hui he tornat a perdre l'arxivador blau."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Has mirat on el vas deixar ahir?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Sí."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "I precisament allí no estava."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Hi haurà algú utilitzant-lo."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Pot ser."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Encara que després ha aparegut exactament on recordava."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "A vegades passa."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Cada vegada em passa més."
+                    }
+                ]
+            },
+            {
+                "id": "director_repartidor_horarios",
+                "with": "Clara Pérez",
+                "messages": [
+                    {
+                        "sender": "Clara",
+                        "text": "El repartidor m'ha preguntat si treballàvem ací de veritat."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Per què?"
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Diu que mai veu ningú eixir a dinar."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Quin observador."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Li he dit que tenim horaris diferents."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Bona resposta."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Encara que ara que ho pense..."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Jo tampoc recorde l'última vegada que vaig eixir a dinar."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Segur que va ser fa poc."
+                    }
+                ]
+            },
+            {
+                "id": "director_paquetes_recepcion",
+                "with": "Clara Pérez",
+                "messages": [
+                    {
+                        "sender": "Clara",
+                        "text": "Ha vingut una altra vegada el missatger sense avisar."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Ha deixat els paquets?"
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Sí."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Però diu que demà torna amb més caixes."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Que les deixe en recepció."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Esta vegada no cabran."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Buscarem lloc."
+                    }
+                ]
+            },
+            {
+                "id": "director_expedientes_familiares",
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "Estic revisant expedients antics."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Tot correcte?"
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Sí."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Bé..."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Què passa?"
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Hi ha noms que em resulten familiars."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "És normal."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "El que és estrany és que no sé per què."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No et preocupes per això."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Imagine que simplement porte massa temps ací."
+                    }
+                ]
+            },
+            {
+                "id": "director_bandeja_entrada_cero",
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "He aconseguit deixar la safata d'entrada a zero."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Enhorabona."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Ha durat exactament quaranta segons."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Nou rècord."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Acaben d'entrar quinze correus."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "La pau mai dura."
+                    }
+                ]
+            },
+            {
+                "id": "director_planta_recepcion",
+                "with": "Clara Pérez",
+                "messages": [
+                    {
+                        "sender": "Clara",
+                        "text": "La planta de recepció s'està morint."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Regala."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Això porte fent-ho dos setmanes."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Aleshores deixa de regar-la."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "No esperava un consell de jardineria."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Jo tampoc."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Ho provaré."
+                    }
+                ]
+            },
+            {
+                "id": "director_archivadores_vacios",
+                "with": "Laura López",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "Guardem els arxivadors buits?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Sí."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Inclús si no tenen etiqueta?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Sí."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "I si estan trencats?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "També."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Comence a pensar que ací no es tira absolutament res."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "És un bon costum."
+                    }
+                ]
+            },
+            {
+                "id": "director_vacaciones_personal",
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "He rebut tres sol·licituds de vacances per a la mateixa setmana."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Haurem de reorganitzar."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Carlos diu que va triar eixes dates perquè són les més barates."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Molt propi d'ell."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Clara vol coincidir amb una amiga."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Intentem quadrar-ho."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Laura diu que li és igual quan."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Aleshores comencem per ella."
+                    }
+                ]
+            },
+            {
+                "id": "director_reunion_olvidada",
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "Te'n recordes de la reunió de dimarts passat?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Sí."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Jo no."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Hi eres."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Això diuen."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Vas prendre notes."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Les he llegides."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Continuen sense ajudar-me a recordar-la."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Devies estar cansat."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Imagine."
+                    }
+                ]
+            },
+            {
+                "id": "director_cartel_timbre",
+                "with": "Clara Pérez",
+                "messages": [
+                    {
+                        "sender": "Clara",
+                        "text": "He canviat el cartell de recepció."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Què posava l'anterior?"
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "\"Toque el timbre\"."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "I ara?"
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "\"Toque el timbre una sola vegada\"."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Hi ha hagut incidents?"
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Ahir un repartidor el va prémer durant quasi un minut."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Entenc el canvi."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Encara em xiulen les orelles."
+                    }
+                ]
+            },
+            {
+                "id": "director_excel_nuevo_bueno",
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "He trobat un Excel anomenat 'Nou'."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "I?"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Dins n'hi havia un altre anomenat 'Nou 2'."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Prometedor."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "I dins d'eixe, un altre anomenat 'Nou Bo'."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Quin era el correcte?"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "No ho sé."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Aleshores conserva els tres."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Comence a sospitar que eixa és la teua resposta per a tot."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No sempre."
+                    }
+                ]
+            },
+            {
+                "id": "director_estanteria_c_repetida",
+                "with": "Laura López",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "He acabat d'ordenar la prestatgeria C."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Perfecte."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Demà continuaré amb la D."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Molt bé."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Encara que..."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Sí?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Juraria que la setmana passada també vaig acabar la C."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Segurament la recordes malament."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Sí... deu ser això."
+                    }
+                ]
+            },
+            {
+                "id": "director_reorganizar_rrhh",
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "Estic pensant a reorganitzar l'arxiu de Recursos Humans."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Per què?"
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Cada vegada em costa més trobar algunes coses."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "El sistema funciona."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Ho sé."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Però a vegades tinc la sensació de buscar on no toca."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No canvies res de moment."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "D'acord."
+                    }
+                ]
+            },
+            {
+                "id": "director_reserva_sala_vacia",
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "Qui reserva sempre la sala de reunions i després no apareix?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Bona pregunta."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Ja és la tercera vegada este mes."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Cancel·la la reserva si passen deu minuts."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Ho apuntaré en el procediment."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Perfecte."
+                    }
+                ]
+            },
+            {
+                "id": "director_mismo_dia_dos_veces",
+                "with": "Clara Pérez",
+                "messages": [
+                    {
+                        "sender": "Clara",
+                        "text": "Et puc fer una pregunta un poc estranya?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Clar."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Mai tens la sensació d'haver viscut el mateix dia dos vegades?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Jo hui he saludat un visitant i durant un segon hauria jurat que ja ho havia fet."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Ens passa quan seguim la mateixa rutina."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Sí..."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Imagine que tens raó."
+                    }
+                ]
+            },
+            {
+                "id": "director_tres_copias_informe",
+                "with": "Laura López",
+                "messages": [
+                    {
+                        "sender": "Laura",
+                        "text": "He trobat una carpeta amb tres còpies del mateix informe."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Són exactament iguals?"
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Dos sí."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "La tercera té una signatura diferent."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Conserva les tres."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Pensava que voldries estalviar espai."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Preferisc conservar-les."
+                    },
+                    {
+                        "sender": "Laura",
+                        "text": "Entés."
+                    }
+                ]
+            },
+            {
+                "id": "director_cafetera_temporizador",
+                "with": "Clara Pérez",
+                "messages": [
+                    {
+                        "sender": "Clara",
+                        "text": "Saps què ha passat amb la cafetera nova?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Carlos ha intentat programar-la."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "I?"
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Ara serveix café a les 03:00 de la matinada."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Molt útil."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Diu que era per a provar el temporitzador."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Que no torne a tocar-la."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Li ho diré."
+                    }
+                ]
+            },
+            {
+                "id": "director_presupuesto_tres_versiones",
+                "with": "Carlos Vega",
+                "messages": [
+                    {
+                        "sender": "Carlos",
+                        "text": "Estic revisant el pressupost de l'any passat."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Algun problema?"
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "No entenc per què tenim tres versions quasi iguals."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Queda't amb l'última."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Les tres diuen ser l'última."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Compara-les."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Només canvia una xifra."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Aleshores conserva les tres."
+                    },
+                    {
+                        "sender": "Carlos",
+                        "text": "Algun dia hauré de preguntar-te per què mai tirem res."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Algun dia."
+                    }
+                ]
+            },
+            {
+                "id": "director_comercial_fotocopiadora",
+                "with": "Clara Pérez",
+                "messages": [
+                    {
+                        "sender": "Clara",
+                        "text": "Hui ha tornat el comercial de la fotocopiadora."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Una altra vegada?"
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Diu que el nostre contracte acaba prompte."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Encara queda."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Li he dit el mateix."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Tot i això m'ha deixat tres catàlegs."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Guarda'ls."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Els llegirà algú?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Probablement no."
+                    }
+                ]
+            },
+            {
+                "id": "director_microondas_sucio",
+                "with": "Clara Pérez",
+                "messages": [
+                    {
+                        "sender": "Clara",
+                        "text": "Saps qui ha tornat a deixar el microones sense netejar?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Doncs algú ha fet esclatar un tàper de pasta."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Vaja."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "He posat un cartell."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Funcionarà?"
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "No."
+                    },
+                    {
+                        "sender": "Clara",
+                        "text": "Però almenys m'he desfogat."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Això ja és alguna cosa."
+                    }
+                ]
+            },
+            {
+                "id": "director_listado_cumpleanos",
+                "with": "Marta Romero",
+                "messages": [
+                    {
+                        "sender": "Marta",
+                        "text": "He actualitzat el llistat d'aniversaris."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Perfecte."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Sempre se m'oblida algú."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Enguany no."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "Com pots estar tan segur?"
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Ho he revisat."
+                    },
+                    {
+                        "sender": "Marta",
+                        "text": "No sé com trobes temps per a tot."
+                    },
+                    {
+                        "sender": "Miguel",
+                        "text": "Cal organitzar-se."
+                    }
+                ]
+            }
+        ],
+        "files": [
+            {
+                "name": "Meeting_Agenda.pdf",
+                "document_id": "meeting_agenda"
+            },
+            {
+                "name": "Organisation_Chart.pdf",
+                "document_id": "organisation_chart_current"
+            },
+            {
+                "name": "Budget_Q3.xlsx",
+                "document_id": "budget_q3"
+            },
+            {
+                "name": "Employee_Evaluations.pdf",
+                "document_id": "employee_evaluations"
+            },
+            {
+                "name": "Interview_Report.pdf",
+                "document_id": "interview_report"
+            },
+            {
+                "name": "Company_Policies.pdf",
+                "document_id": "company_policies"
+            },
+            {
+                "name": "Employee_Registry_Current.xlsx",
+                "document_id": "employee_registry_current"
+            },
+            {
+                "name": "Employee_Registry_Previous.xlsx",
+                "document_id": "employee_registry_previous"
+            },
+            {
+                "name": "Archive_Index.xlsx",
+                "document_id": "archive_index"
+            },
+            {
+                "name": "Internal_Reorganisation.pdf",
+                "document_id": "internal_reorganisation"
+            },
+            {
+                "name": "Management_Meeting_Minutes.pdf",
+                "document_id": "management_meeting_minutes"
+            },
+            {
+                "name": "Historical_Records.pdf",
+                "document_id": "historical_records"
+            },
+            {
+                "name": "Director_Agenda.pdf",
+                "document_id": "director_agenda"
+            },
+            {
+                "name": "Executive_Approvals.pdf",
+                "document_id": "executive_approvals"
+            },
+            {
+                "name": "Company_Organisation.pdf",
+                "document_id": "company_organisation"
+            },
+            {
+                "name": "Signed_Reports.pdf",
+                "document_id": "signed_reports"
+            },
+            {
+                "name": "Management_Directory.pdf",
+                "document_id": "management_directory"
+            },
+            {
+                "name": "Board_Minutes.pdf",
+                "document_id": "board_minutes"
+            },
+            {
+                "name": "Committee_Minutes.pdf",
+                "document_id": "committee_minutes"
+            },
+            {
+                "name": "Director_Signatures.pdf",
+                "document_id": "director_signatures"
+            },
+            {
+                "name": "Archive_Guidelines.pdf",
+                "document_id": "archive_guidelines"
+            },
+            {
+                "name": "Historical_Index.xlsx",
+                "document_id": "historical_index"
+            },
+            {
+                "name": "Executive_Approvals_2024.pdf",
+                "document_id": "executive_approvals_2024"
+            },
+            {
+                "name": "Director_Notes.txt",
+                "document_id": "director_notes"
+            }
+        ]
+    },
+
+    "meeting_laptop": {
+        "emails": [
+            {
+                "id": "m_mail_001",
+                "from": "Marta Romero",
+                "to": "Sala de reunions",
+                "date": "07:30",
+                "subject": "Presentació",
+                "body": [
+                    "He deixat preparada la presentació per a este matí.",
+                    "",
+                    "Està a l'Escriptori."
+                ]
+            },
+            {
+                "id": "m_mail_002",
+                "from": "Carlos Vega",
+                "to": "Sala de reunions",
+                "date": "07:34",
+                "subject": "RE: Presentació",
+                "body": [
+                    "Perfecte.",
+                    "",
+                    "He actualitzat les xifres de l'últim trimestre."
+                ]
+            },
+            {
+                "id": "m_mail_003",
+                "from": "Miguel Ruiz",
+                "to": "Sala de reunions",
+                "date": "07:40",
+                "subject": "Ordre del dia",
+                "body": [
+                    "La reunió seguirà l'ordre previst.",
+                    "",
+                    "No serà necessari afegir més punts."
+                ]
+            },
+            {
+                "id": "mail_004",
+                "from": "Clara Pérez",
+                "to": "Sala de reunions",
+                "date": "07:45",
+                "subject": "Projector",
+                "body": [
+                    "El projector ja està preparat."
+                ]
+            },
+            {
+                "id": "mail_005",
+                "from": "IT",
+                "to": "Sala de reunions",
+                "date": "07:52",
+                "subject": "Actualització",
+                "body": [
+                    "El portàtil compartit s'actualitzarà esta nit.",
+                    "",
+                    "Guardeu els documents importants."
+                ]
+            }
+        ],
+        "chats": [],
+        "files": [
+            {
+                "name": "Presentacion_Q3_FINAL.pptx",
+                "document_id": "presentation_q3_final"
+            },
+            {
+                "name": "Presentacion_Q3_FINAL_BUENA.pptx",
+                "document_id": "presentation_q3_final_v2"
+            },
+            {
+                "name": "Presentacion_Q3_USAR_ESTA.pptx",
+                "document_id": "presentation_q3_final_v3"
+            },
+            {
+                "name": "Acta_Reunion_Anterior.pdf",
+                "document_id": "meeting_minutes_previous"
+            },
+            {
+                "name": "Orden_del_dia.pdf",
+                "document_id": "meeting_agenda"
+            },
+            {
+                "name": "Presupuesto_Q3.xlsx",
+                "document_id": "budget_q3"
+            },
+            {
+                "name": "Plantilla_Actas.docx",
+                "document_id": "meeting_template"
+            },
+            {
+                "name": "Logo_empresa.png",
+                "document_id": "company_logo"
+            },
+            {
+                "name": "Nueva carpeta.zip",
+                "document_id": "new_folder_zip"
+            },
+            {
+                "folder": "Desktop",
+                "name": "Notas.txt",
+                "document_id": "meeting_notes"
+            },
+            {
+                "folder": "Desktop",
+                "name": "Tareas.docx",
+                "document_id": "meeting_tasks"
+            },
+            {
+                "folder": "Desktop",
+                "name": "Lista_asistentes.xlsx",
+                "document_id": "meeting_attendees"
+            },
+            {
+                "folder": "Desktop",
+                "name": "Borrador_presupuesto.xlsx",
+                "document_id": "budget_draft"
+            },
+            {
+                "folder": "Desktop",
+                "name": "NO_USAR.pptx",
+                "document_id": "presentation_old"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Employee_List_v1.xlsx",
+                "document_id": "employee_registry_v1"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Employee_List_v2.xlsx",
+                "document_id": "employee_registry_v2"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Organisation_Chart_old.pdf",
+                "document_id": "organisation_chart_old"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Organisation_Chart_current.pdf",
+                "document_id": "organisation_chart_current"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Team_Photo.jpg",
+                "document_id": "team_photo"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Printer_Manual.pdf",
+                "document_id": "printer_manual"
+            },
+            {
+                "folder": "Downloads",
+                "name": "CoffeeMachine.pdf",
+                "document_id": "coffee_machine_manual"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Emergency_Plan.pdf",
+                "document_id": "emergency_plan"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_01.pdf",
+                "document_id": "meeting_01"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_02.pdf",
+                "document_id": "meeting_02"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_03.pdf",
+                "document_id": "meeting_03"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_04.pdf",
+                "document_id": "meeting_04"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_05.pdf",
+                "document_id": "meeting_05"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_06.pdf",
+                "document_id": "meeting_06"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_07.pdf",
+                "document_id": "meeting_07"
+            },
+            {
+                "folder": "Meetings",
+                "name": "Meeting_08.pdf",
+                "document_id": "meeting_08"
+            },
+            {
+                "folder": "Archive",
+                "name": "Archive_Index.pdf",
+                "document_id": "archive_index"
+            },
+            {
+                "folder": "Archive",
+                "name": "Historical_Records.pdf",
+                "document_id": "historical_records"
+            },
+            {
+                "folder": "Archive",
+                "name": "Contracts_Registry.xlsx",
+                "document_id": "contracts_registry"
+            },
+            {
+                "folder": "Archive",
+                "name": "Employee_History.pdf",
+                "document_id": "employee_history"
+            },
+            {
+                "folder": "Archive",
+                "name": "Old_Organisation_Notes.docx",
+                "document_id": "old_organisation_notes"
+            },
+            {
+                "folder": "Templates",
+                "name": "Meeting_Template.docx",
+                "document_id": "meeting_template"
+            },
+            {
+                "folder": "Templates",
+                "name": "Decision_Template.docx",
+                "document_id": "decision_template"
+            },
+            {
+                "folder": "Templates",
+                "name": "Internal_Report_Template.docx",
+                "document_id": "internal_report_template"
+            },
+            {
+                "folder": "Old",
+                "name": "Presentation_2022.pptx",
+                "document_id": "presentation_2022"
+            },
+            {
+                "folder": "Old",
+                "name": "Presentation_2023.pptx",
+                "document_id": "presentation_2023"
+            },
+            {
+                "folder": "Old",
+                "name": "Organisation_Backup.pdf",
+                "document_id": "organisation_backup"
+            },
+            {
+                "folder": "Archive",
+                "name": "Document_Access_Log.xlsx",
+                "document_id": "document_access_log"
+            },
+            {
+                "folder": "Archive",
+                "name": "Historical_Archive_Guide.pdf",
+                "document_id": "historical_archive_guide"
+            },
+            {
+                "folder": "Archive",
+                "name": "Archive_Room_Map.pdf",
+                "document_id": "archive_room_map"
+            },
+            {
+                "folder": "Desktop",
+                "name": "Pendientes.txt",
+                "document_id": "pending_tasks"
+            },
+            {
+                "folder": "Desktop",
+                "name": "Ideas reunión.txt",
+                "document_id": "meeting_ideas"
+            },
+            {
+                "folder": "Photos",
+                "name": "Photo_Office_2018.jpg",
+                "document_id": "office_photo_2018"
+            },
+            {
+                "folder": "Downloads",
+                "name": "Meeting_Recording_Notes.docx",
+                "document_id": "meeting_recording_notes"
+            },
+            {
+                "folder": "Old",
+                "name": "Archive_Cleanup_Proposal.pdf",
+                "document_id": "archive_cleanup_proposal"
+            },
+            {
+                "folder": "Old",
+                "name": "Rejected_Proposal.pdf",
+                "document_id": "rejected_proposal"
+            },
+            {
+                "folder": "Old",
+                "name": "Employee_List_Draft.xlsx",
+                "document_id": "employee_list_draft"
+            }
+        ]
+    },
+
+    "reception_pc": {
+  "emails": [
+    {
+      "id": "mail_001",
+      "from": "Miguel Ruiz",
+      "to": "Recepció",
+      "date": "07:42",
+      "subject": "El visitant de hui",
+      "body": [
+        "Bon dia.",
+        "",
+        "Hui rebrem un visitant.",
+        "Espereu la meua telefonada abans d'enviar-lo al despatx.",
+        "",
+        "No feu cap excepció.",
+        "",
+        "Miguel"
+      ]
+    },
+    {
+      "id": "mail_002",
+      "from": "Marta Romero",
+      "to": "Recepció",
+      "date": "07:46",
+      "subject": "Nova llista d'empleats",
+      "body": [
+        "Bon dia.",
+        "",
+        "Adjunte la versió actualitzada de la llista d'empleats.",
+        "",
+        "Destruïu la còpia anterior quan pugueu.",
+        "",
+        "Gràcies."
+      ]
+    },
+    {
+      "id": "mail_003",
+      "from": "Clara Pérez",
+      "to": "Recepció",
+      "date": "07:48",
+      "subject": "Pastís",
+      "body": [
+        "Al final fem això de l'aniversari esta vesprada?",
+        "",
+        "He encarregat un pastís de xocolate.",
+        "",
+        "No li ho digueu a Carlos."
+      ]
+    },
+    {
+      "id": "mail_004",
+      "from": "Manteniment",
+      "to": "Tota l'empresa",
+      "date": "07:51",
+      "subject": "Ascensor",
+      "body": [
+        "L'ascensor estarà fora de servei demà entre les 09:00 i les 11:00.",
+        "",
+        "Disculpeu les molèsties."
+      ]
+    },
+    {
+      "id": "mail_005",
+      "from": "IT",
+      "to": "Tota l'empresa",
+      "date": "07:53",
+      "subject": "Canvi obligatori de contrasenya",
+      "body": [
+        "Vos recordem que totes les contrasenyes hauran de canviar-se abans de divendres.",
+        "",
+        "No reutilitzeu contrasenyes antigues."
+      ]
+    },
+    {
+      "id": "mail_006",
+      "from": "Carlos Vega",
+      "to": "Recepció",
+      "date": "07:55",
+      "subject": "Sala de reunions",
+      "body": [
+        "Està lliure la sala de reunions a les 09:00?",
+        "",
+        "Necessite preparar uns documents."
+      ]
+    },
+    {
+      "id": "mail_007",
+      "from": "Proveïdor OfficeLine",
+      "to": "Recepció",
+      "date": "07:56",
+      "subject": "Entrega de material",
+      "body": [
+        "La comanda arribarà demà.",
+        "",
+        "Inclou arxivadors, paper i tòner."
+      ]
+    },
+    {
+      "id": "mail_008",
+      "from": "Miguel Ruiz",
+      "to": "Recepció",
+      "date": "07:57",
+      "subject": "Visites",
+      "body": [
+        "Recordatori.",
+        "",
+        "Ningú ha d'accedir a l'Arxiu sense autorització.",
+        "",
+        "Miguel"
+      ]
+    },
+    {
+      "id": "mail_009",
+      "from": "Laura López",
+      "to": "Recepció",
+      "date": "07:58",
+      "subject": "Te'n recordes?",
+      "body": [
+        "Una pregunta un poc estranya.",
+        "",
+        "Recordes qui ocupava la taula 4 fa uns mesos?",
+        "",
+        "No aconseguisc recordar-ho."
+      ]
+    },
+    {
+      "id": "mail_010",
+      "from": "Recepció",
+      "to": "Laura López",
+      "date": "08:00",
+      "subject": "Re: Te'n recordes?",
+      "body": [
+        "Ara que ho dius...",
+        "",
+        "Jo tampoc."
+      ]
+    },
+    {
+      "id": "mail_011",
+      "from": "Marta Romero",
+      "to": "Miguel Ruiz",
+      "cc": "Recepció",
+      "date": "08:01",
+      "subject": "Actualització de l'organigrama",
+      "body": [
+        "Bon dia.",
+        "",
+        "He preparat una nova versió de l'organigrama.",
+        "L'anterior continua a l'Arxiu per si fora necessària.",
+        "",
+        "La substituïm hui?",
+        "",
+        "Marta"
+      ]
+    },
+    {
+      "id": "mail_012",
+      "from": "Miguel Ruiz",
+      "to": "Marta Romero",
+      "cc": "Recepció",
+      "date": "08:02",
+      "subject": "Re: Actualització de l'organigrama",
+      "body": [
+        "Sí.",
+        "",
+        "Retireu la versió antiga de circulació.",
+        "",
+        "No cal destruir-la.",
+        "",
+        "Miguel"
+      ]
+    },
+    {
+      "id": "mail_013",
+      "from": "Carlos Vega",
+      "to": "Recepció",
+      "date": "08:03",
+      "subject": "Qui s'emporta les cadires?",
+      "body": [
+        "Una altra vegada falta una cadira de la sala de reunions.",
+        "",
+        "Si algú l'ha agafada per a una altra sala, per favor que la torne."
+      ]
+    },
+    {
+      "id": "mail_014",
+      "from": "Clara Pérez",
+      "to": "Recepció",
+      "date": "08:04",
+      "subject": "Foto de l'equip",
+      "body": [
+        "He trobat una fotografia antiga de l'equip.",
+        "",
+        "Està un poc doblegada.",
+        "",
+        "Crec que la deixaré a l'Arxiu perquè no es perda."
+      ]
+    },
+    {
+      "id": "mail_015",
+      "from": "Laura López",
+      "to": "Recepció",
+      "date": "08:05",
+      "subject": "Pregunta estranya",
+      "body": [
+        "No sé si et semblarà una ximpleria...",
+        "",
+        "Recordes que abans hi haguera una planta al costat de la finestra?",
+        "",
+        "No aconseguisc visualitzar aquella zona."
+      ]
+    },
+    {
+      "id": "mail_016",
+      "from": "Recepció",
+      "to": "Laura López",
+      "date": "08:06",
+      "subject": "Re: Pregunta estranya",
+      "body": [
+        "La veritat és que jo tampoc.",
+        "",
+        "Però juraria que sempre ha estat igual."
+      ]
+    },
+    {
+      "id": "mail_017",
+      "from": "IT",
+      "to": "Tota l'empresa",
+      "date": "08:07",
+      "subject": "Inventari d'equips",
+      "body": [
+        "Durant esta setmana revisarem tots els ordinadors.",
+        "",
+        "No desconnecteu cap equip."
+      ]
+    },
+    {
+      "id": "mail_018",
+      "from": "Proveïdor OfficeLine",
+      "to": "Recepció",
+      "date": "08:08",
+      "subject": "Arxivadors",
+      "body": [
+        "La comanda inclourà quatre arxivadors addicionals.",
+        "",
+        "Esperem fer l'entrega demà."
+      ]
+    },
+    {
+      "id": "mail_019",
+      "from": "Miguel Ruiz",
+      "to": "Tota l'empresa",
+      "date": "08:09",
+      "subject": "Reunió",
+      "body": [
+        "La reunió prevista per a este matí es manté.",
+        "",
+        "Puntualitat, per favor."
+      ]
+    },
+    {
+      "id": "mail_020",
+      "from": "M. Romero",
+      "to": "Recepció",
+      "date": "08:10",
+      "subject": "Llista impresa",
+      "body": [
+        "Ja heu substituït la còpia antiga?",
+        "",
+        "No trobe la versió anterior."
+      ]
+    },
+    {
+      "id": "mail_021",
+      "from": "M. Romero",
+      "to": "Recepció",
+      "date": "08:11",
+      "subject": "Arxiu físic",
+      "body": [
+        "Bon dia.",
+        "",
+        "Quan tingueu un moment, porteu les carpetes marcades en blau a l'Arxiu.",
+        "",
+        "Les roges poden quedar-se en recepció."
+      ]
+    },
+    {
+      "id": "mail_022",
+      "from": "Recepció",
+      "to": "M. Romero",
+      "date": "08:12",
+      "subject": "Re: Arxiu físic",
+      "body": [
+        "També les carpetes antigues?",
+        "",
+        "N'hi ha algunes prou deteriorades."
+      ]
+    },
+    {
+      "id": "mail_023",
+      "from": "M. Romero",
+      "to": "Recepció",
+      "date": "08:13",
+      "subject": "Re: Arxiu físic",
+      "body": [
+        "Sí.",
+        "",
+        "No tireu res."
+      ]
+    },
+    {
+      "id": "mail_024",
+      "from": "Clara Pérez",
+      "to": "Recepció",
+      "date": "08:15",
+      "subject": "Sala d'espera",
+      "body": [
+        "Hi ha una làmpada que parpelleja.",
+        "",
+        "A veure si manteniment pot passar hui."
+      ]
+    },
+    {
+      "id": "mail_025",
+      "from": "IT",
+      "to": "Tota l'empresa",
+      "date": "08:16",
+      "subject": "Neteja de discs",
+      "body": [
+        "Durant el cap de setmana eliminarem fitxers temporals.",
+        "",
+        "Els documents importants no es veuran afectats."
+      ]
+    },
+    {
+      "id": "mail_026",
+      "from": "Carlos Vega",
+      "to": "Recepció",
+      "date": "08:17",
+      "subject": "Caixa blava",
+      "body": [
+        "Continua en recepció una caixa blava amb factures?",
+        "",
+        "No la trobe."
+      ]
+    },
+    {
+      "id": "mail_027",
+      "from": "Recepció",
+      "to": "Carlos Vega",
+      "date": "08:18",
+      "subject": "Re: Caixa blava",
+      "body": [
+        "Sí.",
+        "",
+        "Està darrere del taulell."
+      ]
+    },
+    {
+      "id": "mail_028",
+      "from": "Miguel Ruiz",
+      "to": "Recepció",
+      "date": "08:20",
+      "subject": "Accés al despatx",
+      "body": [
+        "Si algú pregunta per mi mentre estic reunit,",
+        "digueu que no estic disponible.",
+        "",
+        "Gràcies."
+      ]
+    },
+    {
+      "id": "mail_029",
+      "from": "Manteniment",
+      "to": "Tota l'empresa",
+      "date": "08:22",
+      "subject": "Porta de l'Arxiu",
+      "body": [
+        "El pany ha tornat a encallar-se.",
+        "",
+        "Es revisarà esta vesprada."
+      ]
+    },
+    {
+      "id": "mail_030",
+      "from": "Laura López",
+      "to": "Recepció",
+      "date": "08:24",
+      "subject": "Un dubte",
+      "body": [
+        "Recordes haver canviat alguna vegada la distribució de Finances?",
+        "",
+        "No sé per què, però tinc la impressió que abans era diferent."
+      ]
+    },
+    {
+      "id": "mail_031",
+      "from": "Clara Pérez",
+      "to": "Recepció",
+      "date": "08:26",
+      "subject": "Claus",
+      "body": [
+        "Saps on estan les claus de l'arxivador gris?",
+        "",
+        "No apareixen per cap lloc."
+      ]
+    },
+    {
+      "id": "mail_032",
+      "from": "Recepció",
+      "to": "Clara Pérez",
+      "date": "08:27",
+      "subject": "Re: Claus",
+      "body": [
+        "Mira al segon calaix.",
+        "",
+        "Sempre acaben allí."
+      ]
+    },
+    {
+      "id": "mail_033",
+      "from": "M. Ruiz",
+      "to": "Recepció",
+      "date": "08:28",
+      "subject": "Agenda",
+      "body": [
+        "Per favor, no programeu més reunions este matí.",
+        "",
+        "Necessitaré el despatx lliure."
+      ]
+    },
+    {
+      "id": "mail_034",
+      "from": "Laura López",
+      "to": "Recepció",
+      "date": "08:29",
+      "subject": "Fotografia",
+      "body": [
+        "He tornat a mirar la fotografia.",
+        "",
+        "Crec que m'estava confonent.",
+        "",
+        "Supose que sempre hem sigut els mateixos."
+      ]
+    },
+    {
+      "id": "mail_035",
+      "from": "IT",
+      "to": "Tota l'empresa",
+      "date": "08:30",
+      "subject": "Còpies de seguretat",
+      "body": [
+        "Les còpies automàtiques s'han completat correctament.",
+        "",
+        "No cal fer cap acció."
+      ]
+    },
+    {
+      "id": "mail_036",
+      "from": "Carlos Vega",
+      "to": "Recepció",
+      "date": "08:31",
+      "subject": "Arxivadors",
+      "body": [
+        "He trobat una carpeta amb contractes antics.",
+        "",
+        "La deixaré a l'Arxiu."
+      ]
+    },
+    {
+      "id": "mail_037",
+      "from": "Miguel Ruiz",
+      "to": "Recepció",
+      "date": "08:33",
+      "subject": "Documentació",
+      "body": [
+        "Si algú sol·licita consultar documentació antiga,",
+        "m'ho ha de demanar personalment."
+      ]
+    },
+    {
+      "id": "mail_038",
+      "from": "Marta Romero",
+      "to": "Recepció",
+      "date": "08:34",
+      "subject": "Antic empleat",
+      "body": [
+        "Estic revisant uns contractes.",
+        "",
+        "Hi ha una firma que no aconseguisc identificar.",
+        "",
+        "Després ho miraré amb calma."
+      ]
+    },
+    {
+      "id": "mail_039",
+      "from": "Recepció",
+      "to": "Marta Romero",
+      "date": "08:35",
+      "subject": "Re: Antic empleat",
+      "body": [
+        "Si necessites ajuda, avisa'm.",
+        "",
+        "Potser Carlos recorda alguna cosa."
+      ]
+    },
+    {
+      "id": "mail_040",
+      "from": "Miguel Ruiz",
+      "to": "Tota l'empresa",
+      "date": "08:37",
+      "subject": "Bon dia",
+      "body": [
+        "Gràcies pel treball d'estes últimes setmanes.",
+        "",
+        "Ens veiem en la reunió."
+      ]
+    }
+  ],
+  "chats": [
+    {
+      "id": "recepcion_contratos_mensajero",
+      "with": "Marta Romero",
+      "messages": [
+        {
+          "sender": "Marta",
+          "text": "Bon dia, Laura."
+        },
+        {
+          "sender": "Clara",
+          "text": "Bon dia!"
+        },
+        {
+          "sender": "Marta",
+          "text": "Ja ha arribat el missatger?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Encara no."
+        },
+        {
+          "sender": "Marta",
+          "text": "Porta uns contractes."
+        },
+        {
+          "sender": "Clara",
+          "text": "Quan arribe t'avise."
+        },
+        {
+          "sender": "Marta",
+          "text": "Gràcies."
+        },
+        {
+          "sender": "Clara",
+          "text": "Per a això estic :)"
+        }
+      ]
+    },
+    {
+      "id": "recepcion_documentos_originales",
+      "with": "Miguel",
+      "messages": [
+        {
+          "sender": "Clara",
+          "text": "Hi ha diverses persones preguntant per documents antics."
+        },
+        {
+          "sender": "Miguel",
+          "text": "Qui?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Dos clients i un proveïdor."
+        },
+        {
+          "sender": "Miguel",
+          "text": "Que sol·liciten una còpia."
+        },
+        {
+          "sender": "Clara",
+          "text": "Un insisteix a consultar l'original."
+        },
+        {
+          "sender": "Miguel",
+          "text": "No."
+        },
+        {
+          "sender": "Clara",
+          "text": "Ni acompanyat?"
+        },
+        {
+          "sender": "Miguel",
+          "text": "Ni acompanyat."
+        },
+        {
+          "sender": "Clara",
+          "text": "D'acord."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_envio_certificado_ruiz",
+      "with": "Missatgeria Express",
+      "messages": [
+        {
+          "sender": "Missatgeria",
+          "text": "Bon dia. Tenim un enviament certificat per a Ruiz."
+        },
+        {
+          "sender": "Clara",
+          "text": "Perfecte. Pot deixar-lo en recepció."
+        },
+        {
+          "sender": "Missatgeria",
+          "text": "Necessitem la seua firma."
+        },
+        {
+          "sender": "Clara",
+          "text": "Ara mateix està reunit."
+        },
+        {
+          "sender": "Missatgeria",
+          "text": "Esperem?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Sí, normalment acaba ràpid."
+        },
+        {
+          "sender": "Missatgeria",
+          "text": "D'acord."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_carlos_coartada_cafetera",
+      "with": "Carlos Vega",
+      "messages": [
+        {
+          "sender": "Carlos",
+          "text": "Necessite un favor."
+        },
+        {
+          "sender": "Clara",
+          "text": "Depén."
+        },
+        {
+          "sender": "Carlos",
+          "text": "Si telefonen preguntant per mi..."
+        },
+        {
+          "sender": "Clara",
+          "text": "Què dic?"
+        },
+        {
+          "sender": "Carlos",
+          "text": "Que estic en una reunió."
+        },
+        {
+          "sender": "Clara",
+          "text": "I on estàs realment?"
+        },
+        {
+          "sender": "Carlos",
+          "text": "Intentant arreglar la cafetera."
+        },
+        {
+          "sender": "Clara",
+          "text": "Això també compta com una reunió."
+        },
+        {
+          "sender": "Carlos",
+          "text": "Sabia que podia comptar amb tu."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_ana_archivo",
+      "with": "Marta Romero",
+      "messages": [
+        {
+          "sender": "Marta",
+          "text": "Has vist Ana?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Ha baixat a l'Arxiu."
+        },
+        {
+          "sender": "Marta",
+          "text": "Una altra vegada."
+        },
+        {
+          "sender": "Clara",
+          "text": "Sí."
+        },
+        {
+          "sender": "Marta",
+          "text": "Passa més temps allí que a la seua taula."
+        },
+        {
+          "sender": "Clara",
+          "text": "Diu que sempre troba alguna cosa pendent."
+        },
+        {
+          "sender": "Marta",
+          "text": "No sé com pot orientar-se allí dins."
+        },
+        {
+          "sender": "Clara",
+          "text": "Jo em perdria en cinc minuts."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_proyector_servicio_tecnico",
+      "with": "Servei Tècnic",
+      "messages": [
+        {
+          "sender": "Servei Tècnic",
+          "text": "Continua donant problemes el projector?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Hui funciona."
+        },
+        {
+          "sender": "Servei Tècnic",
+          "text": "Segur?"
+        },
+        {
+          "sender": "Clara",
+          "text": "De moment sí."
+        },
+        {
+          "sender": "Servei Tècnic",
+          "text": "Aleshores millor no el toqueu."
+        },
+        {
+          "sender": "Clara",
+          "text": "Eixe era exactament el meu pla."
+        },
+        {
+          "sender": "Servei Tècnic",
+          "text": "Decisió intel·ligent."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_miguel_nombres",
+      "with": "Miguel",
+      "messages": [
+        {
+          "sender": "Clara",
+          "text": "Una curiositat."
+        },
+        {
+          "sender": "Miguel",
+          "text": "Digues."
+        },
+        {
+          "sender": "Clara",
+          "text": "Com t'ho fas per recordar el nom de tot el món?"
+        },
+        {
+          "sender": "Miguel",
+          "text": "Forma part del treball."
+        },
+        {
+          "sender": "Clara",
+          "text": "Jo continue confonent els proveïdors."
+        },
+        {
+          "sender": "Miguel",
+          "text": "Amb el temps deixaràs de fer-ho."
+        },
+        {
+          "sender": "Clara",
+          "text": "Fa quatre anys que estic ací."
+        },
+        {
+          "sender": "Miguel",
+          "text": "Aleshores només necessites un poc més."
+        },
+        {
+          "sender": "Clara",
+          "text": "jajajj"
+        }
+      ]
+    },
+    {
+      "id": "recepcion_ana_esperando_alguien",
+      "with": "Laura López",
+      "messages": [
+        {
+          "sender": "Laura",
+          "text": "Ha vingut algú preguntant per mi?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Només el repartidor."
+        },
+        {
+          "sender": "Laura",
+          "text": "Menys mal."
+        },
+        {
+          "sender": "Clara",
+          "text": "Esperaves algú?"
+        },
+        {
+          "sender": "Laura",
+          "text": "No... bé... potser."
+        },
+        {
+          "sender": "Clara",
+          "text": "Això no ha sonat molt convincent."
+        },
+        {
+          "sender": "Laura",
+          "text": "Deixa-ho, després t'ho conte."
+        },
+        {
+          "sender": "Clara",
+          "text": "Queda apuntat :)"
+        }
+      ]
+    },
+    {
+      "id": "recepcion_carlos_calculadora",
+      "with": "Carlos Vega",
+      "messages": [
+        {
+          "sender": "Carlos",
+          "text": "Saps qui ha agafat la meua calculadora?"
+        },
+        {
+          "sender": "Clara",
+          "text": "La grisa?"
+        },
+        {
+          "sender": "Carlos",
+          "text": "Sí."
+        },
+        {
+          "sender": "Clara",
+          "text": "Has mirat davall del monitor?"
+        },
+        {
+          "sender": "Carlos",
+          "text": "..."
+        },
+        {
+          "sender": "Carlos",
+          "text": "Estava davall del monitor."
+        },
+        {
+          "sender": "Clara",
+          "text": "És la tercera vegada este mes."
+        },
+        {
+          "sender": "Carlos",
+          "text": "No cal portar el compte."
+        },
+        {
+          "sender": "Clara",
+          "text": "Massa tard jajaj"
+        }
+      ]
+    },
+    {
+      "id": "recepcion_buen_ambiente_lunes",
+      "with": "Marta Romero",
+      "messages": [
+        {
+          "sender": "Marta",
+          "text": "Hui hi ha molt bon ambient a l'oficina."
+        },
+        {
+          "sender": "Clara",
+          "text": "Sí, feia temps que no veia a tots tan tranquils."
+        },
+        {
+          "sender": "Marta",
+          "text": "Aprofita mentre dure."
+        },
+        {
+          "sender": "Clara",
+          "text": "Ets tan pessimista?"
+        },
+        {
+          "sender": "Marta",
+          "text": "No."
+        },
+        {
+          "sender": "Marta",
+          "text": "Simplement conec els dilluns."
+        },
+        {
+          "sender": "Clara",
+          "text": "Això sí que és experiència."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_pedido_cafe",
+      "with": "Proveïdor - Café Sierra",
+      "messages": [
+        {
+          "sender": "Proveïdor",
+          "text": "Bon dia. Confirmem la comanda habitual."
+        },
+        {
+          "sender": "Clara",
+          "text": "Perfecte."
+        },
+        {
+          "sender": "Proveïdor",
+          "text": "Continueu amb el mateix nombre de persones?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Que jo sàpia, sí."
+        },
+        {
+          "sender": "Proveïdor",
+          "text": "Ho preguntava perquè algunes setmanes consumiu prou més café."
+        },
+        {
+          "sender": "Clara",
+          "text": "Dependrà de les reunions."
+        },
+        {
+          "sender": "Proveïdor",
+          "text": "Té sentit. Ho deixe, doncs."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_carlos_esperando_cafe",
+      "with": "Carlos Vega",
+      "messages": [
+        {
+          "sender": "Carlos",
+          "text": "Laura..."
+        },
+        {
+          "sender": "Clara",
+          "text": "Digues."
+        },
+        {
+          "sender": "Carlos",
+          "text": "Ja ha arribat el café?"
+        },
+        {
+          "sender": "Clara",
+          "text": "No."
+        },
+        {
+          "sender": "Carlos",
+          "text": "Aleshores encara queda esperança?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Esperança de què?"
+        },
+        {
+          "sender": "Carlos",
+          "text": "De sobreviure a la reunió."
+        },
+        {
+          "sender": "Clara",
+          "text": "😂"
+        }
+      ]
+    },
+    {
+      "id": "recepcion_miguel_documentos_archivo",
+      "with": "Miguel",
+      "messages": [
+        {
+          "sender": "Clara",
+          "text": "Hi ha una cosa que sempre m'ha fet gràcia."
+        },
+        {
+          "sender": "Miguel",
+          "text": "Quina?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Quan algú no sap on està un document..."
+        },
+        {
+          "sender": "Clara",
+          "text": "Sempre acaba preguntant-te a tu."
+        },
+        {
+          "sender": "Miguel",
+          "text": "Forma part del meu treball."
+        },
+        {
+          "sender": "Clara",
+          "text": "Però ni tan sols pregunten abans a l'Arxiu."
+        },
+        {
+          "sender": "Miguel",
+          "text": "A vegades és més ràpid així."
+        },
+        {
+          "sender": "Clara",
+          "text": "Si algun dia desapareix un edifici sencer, també t'ho preguntaran a tu."
+        },
+        {
+          "sender": "Miguel",
+          "text": "Espere que no passe."
+        },
+        {
+          "sender": "Clara",
+          "text": "Esperem-ho jajaja"
+        }
+      ]
+    },
+    {
+      "id": "recepcion_ana_firma_documento",
+      "with": "Laura López",
+      "messages": [
+        {
+          "sender": "Laura",
+          "text": "Ja ha eixit Miguel del despatx?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Encara no."
+        },
+        {
+          "sender": "Laura",
+          "text": "Necessite que firme un document."
+        },
+        {
+          "sender": "Clara",
+          "text": "Deixa-me'l ací si vols."
+        },
+        {
+          "sender": "Laura",
+          "text": "Preferisc donar-li'l en mà."
+        },
+        {
+          "sender": "Clara",
+          "text": "Com vulgues."
+        },
+        {
+          "sender": "Clara",
+          "text": "Encara que després sempre diu que no calia esperar."
+        },
+        {
+          "sender": "Laura",
+          "text": "Ja..."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_carlos_jazz_reuniones",
+      "with": "Carlos Vega",
+      "messages": [
+        {
+          "sender": "Carlos",
+          "text": "Qui ha posat música a la sala de reunions?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Crec que Marta."
+        },
+        {
+          "sender": "Carlos",
+          "text": "Fa mitja hora que escolte jazz."
+        },
+        {
+          "sender": "Clara",
+          "text": "Pitjor va ser quan va posar música clàssica."
+        },
+        {
+          "sender": "Carlos",
+          "text": "Això va passar?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Va durar un dia."
+        },
+        {
+          "sender": "Carlos",
+          "text": "QUÈ?!"
+        },
+        {
+          "sender": "Clara",
+          "text": "És el que hi ha."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_candidato_entrevista",
+      "with": "Marta",
+      "messages": [
+        {
+          "sender": "Marta",
+          "text": "Ja ha vingut el candidat?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Sí."
+        },
+        {
+          "sender": "Marta",
+          "text": "Quina impressió t'ha fet?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Molt nerviós."
+        },
+        {
+          "sender": "Marta",
+          "text": "És normal."
+        },
+        {
+          "sender": "Clara",
+          "text": "No ha deixat de mirar el rellotge."
+        },
+        {
+          "sender": "Marta",
+          "text": "Supose que vol causar bona impressió."
+        },
+        {
+          "sender": "Clara",
+          "text": "Segur."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_puerta_archivo_mantenimiento",
+      "with": "Manteniment",
+      "messages": [
+        {
+          "sender": "Manteniment",
+          "text": "Bon dia. Continueu tenint problemes amb la porta de l'Arxiu?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Quina porta?"
+        },
+        {
+          "sender": "Manteniment",
+          "text": "La interior."
+        },
+        {
+          "sender": "Clara",
+          "text": "No sabia que hi haguera cap avaria."
+        },
+        {
+          "sender": "Manteniment",
+          "text": "Aleshores ja estarà solucionada."
+        },
+        {
+          "sender": "Clara",
+          "text": "Supose..."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_miguel_organiza_archivo",
+      "with": "Miguel Ruiz",
+      "messages": [
+        {
+          "sender": "Clara",
+          "text": "Et puc preguntar una ximpleria?"
+        },
+        {
+          "sender": "Miguel",
+          "text": "Clar."
+        },
+        {
+          "sender": "Clara",
+          "text": "Per què mai deixes que ningú col·loque els documents de l'Arxiu?"
+        },
+        {
+          "sender": "Miguel",
+          "text": "Perquè és més ràpid fer-ho jo."
+        },
+        {
+          "sender": "Clara",
+          "text": "Laura diu que sempre s'ofereix."
+        },
+        {
+          "sender": "Miguel",
+          "text": "Ho sé."
+        },
+        {
+          "sender": "Clara",
+          "text": "Deu portar-te molt de temps."
+        },
+        {
+          "sender": "Miguel",
+          "text": "Val la pena."
+        },
+        {
+          "sender": "Clara",
+          "text": "Mai entendré com recordes on va cada cosa."
+        },
+        {
+          "sender": "Clara",
+          "text": "Sempre que vaig a buscar alguna cosa em costa horrors."
+        },
+        {
+          "sender": "Miguel",
+          "text": "El costum."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_carlos_llaves_coche",
+      "with": "Carlos Vega",
+      "messages": [
+        {
+          "sender": "Carlos",
+          "text": "Em pots fer un favor?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Depén del favor."
+        },
+        {
+          "sender": "Carlos",
+          "text": "Si algú pregunta, porte cinc minuts buscant un informe."
+        },
+        {
+          "sender": "Clara",
+          "text": "I què estàs fent realment?"
+        },
+        {
+          "sender": "Carlos",
+          "text": "Porte cinc minuts buscant les claus del cotxe."
+        },
+        {
+          "sender": "Clara",
+          "text": "Has mirat a la butxaca?"
+        },
+        {
+          "sender": "Carlos",
+          "text": "..."
+        },
+        {
+          "sender": "Carlos",
+          "text": "No vull parlar del tema."
+        },
+        {
+          "sender": "Clara",
+          "text": "Sempre igual. Jajjaja"
+        }
+      ]
+    },
+    {
+      "id": "recepcion_informe_rrhh_plantilla",
+      "with": "Marta Romero",
+      "messages": [
+        {
+          "sender": "Clara",
+          "text": "Ja has acabat l'informe de Recursos Humans?"
+        },
+        {
+          "sender": "Marta",
+          "text": "Sí."
+        },
+        {
+          "sender": "Clara",
+          "text": "Pensava que et portaria tot el dia."
+        },
+        {
+          "sender": "Marta",
+          "text": "He reutilitzat el de l'any passat."
+        },
+        {
+          "sender": "Clara",
+          "text": "Això sona poc professional."
+        },
+        {
+          "sender": "Marta",
+          "text": "Només he reutilitzat la plantilla."
+        },
+        {
+          "sender": "Clara",
+          "text": "Ara sí que sona professional."
+        },
+        {
+          "sender": "Marta",
+          "text": "Molt millor. ;)"
+        }
+      ]
+    },
+    {
+      "id": "recepcion_ana_archivador_verde",
+      "with": "Laura López",
+      "messages": [
+        {
+          "sender": "Laura",
+          "text": "Has vist l'arxivador verd?"
+        },
+        {
+          "sender": "Clara",
+          "text": "No."
+        },
+        {
+          "sender": "Laura",
+          "text": "Comence a pensar que desapareixen sols."
+        },
+        {
+          "sender": "Clara",
+          "text": "Una altra vegada?"
+        },
+        {
+          "sender": "Laura",
+          "text": "Sempre acaben apareixent."
+        },
+        {
+          "sender": "Clara",
+          "text": "Aleshores no et preocupes."
+        },
+        {
+          "sender": "Laura",
+          "text": "Això és precisament el que és estrany."
+        },
+        {
+          "sender": "Clara",
+          "text": "Què?"
+        },
+        {
+          "sender": "Laura",
+          "text": "Que ja ni em sorprén."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_revision_control_accesos",
+      "with": "Empresa de Seguretat",
+      "messages": [
+        {
+          "sender": "Seguretat",
+          "text": "Bon dia. Confirmem la revisió anual del sistema de control d'accessos."
+        },
+        {
+          "sender": "Clara",
+          "text": "Perfecte."
+        },
+        {
+          "sender": "Seguretat",
+          "text": "Hi ha hagut incidències des de l'última visita?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Cap que jo sàpia."
+        },
+        {
+          "sender": "Seguretat",
+          "text": "Especialment en les zones restringides."
+        },
+        {
+          "sender": "Clara",
+          "text": "Tot tranquil."
+        },
+        {
+          "sender": "Seguretat",
+          "text": "Aleshores serà una revisió ràpida."
+        },
+        {
+          "sender": "Clara",
+          "text": "Estupend."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_ana_reserva_sala",
+      "with": "Laura López",
+      "messages": [
+        {
+          "sender": "Laura",
+          "text": "Està lliure la sala de reunions?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Fins a les nou sí."
+        },
+        {
+          "sender": "Laura",
+          "text": "Perfecte."
+        },
+        {
+          "sender": "Clara",
+          "text": "Necessites que prepare alguna cosa?"
+        },
+        {
+          "sender": "Laura",
+          "text": "Només el projector."
+        },
+        {
+          "sender": "Clara",
+          "text": "Creua els dits."
+        },
+        {
+          "sender": "Laura",
+          "text": "Torna a fallar?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Hui encara no, però mai se sap."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_miguel_memoria_archivo",
+      "with": "Miguel",
+      "messages": [
+        {
+          "sender": "Clara",
+          "text": "A vegades em fa la sensació que coneixes esta empresa millor que ta casa."
+        },
+        {
+          "sender": "Miguel",
+          "text": "Passe moltes hores ací."
+        },
+        {
+          "sender": "Clara",
+          "text": "No em referisc a això."
+        },
+        {
+          "sender": "Clara",
+          "text": "És com si sabéres on està cada carpeta abans de buscar-la."
+        },
+        {
+          "sender": "Miguel",
+          "text": "Després de tants anys acabes aprenent."
+        },
+        {
+          "sender": "Clara",
+          "text": "Mai t'equivoques?"
+        },
+        {
+          "sender": "Miguel",
+          "text": "Clar que sí."
+        },
+        {
+          "sender": "Clara",
+          "text": "Doncs jo encara no t'he vist fer-ho."
+        },
+        {
+          "sender": "Miguel",
+          "text": "Algun dia passarà."
+        },
+        {
+          "sender": "Clara",
+          "text": "Eixe dia ho celebraré amb café."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_pedido_papel",
+      "with": "Proveïdor - OfficeSupplies",
+      "messages": [
+        {
+          "sender": "OfficeSupplies",
+          "text": "Bon dia. Demà farem l'entrega habitual."
+        },
+        {
+          "sender": "Clara",
+          "text": "Perfecte."
+        },
+        {
+          "sender": "OfficeSupplies",
+          "text": "Necessiten ampliar la comanda de paper?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Crec que anem bé."
+        },
+        {
+          "sender": "OfficeSupplies",
+          "text": "L'última vegada van demanar prou més del normal."
+        },
+        {
+          "sender": "Clara",
+          "text": "Ho consultaré i vos dic alguna cosa."
+        },
+        {
+          "sender": "OfficeSupplies",
+          "text": "Estupend. Gràcies."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_visitante_espera",
+      "with": "Miguel",
+      "messages": [
+        {
+          "sender": "Miguel",
+          "text": "Quan arribe el visitant, fes-lo esperar uns minuts."
+        },
+        {
+          "sender": "Clara",
+          "text": "D'acord."
+        },
+        {
+          "sender": "Clara",
+          "text": "Li oferisc café?"
+        },
+        {
+          "sender": "Miguel",
+          "text": "Sí."
+        },
+        {
+          "sender": "Clara",
+          "text": "I si pregunta quant tardaràs?"
+        },
+        {
+          "sender": "Miguel",
+          "text": "Digues-li que estic acabant una reunió."
+        },
+        {
+          "sender": "Clara",
+          "text": "Com sempre :)"
+        },
+        {
+          "sender": "Miguel",
+          "text": "Com sempre."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_tecnico_fotocopiadora",
+      "with": "Carlos",
+      "messages": [
+        {
+          "sender": "Carlos",
+          "text": "Ja ha arribat el tècnic de la fotocopiadora?"
+        },
+        {
+          "sender": "Clara",
+          "text": "No."
+        },
+        {
+          "sender": "Carlos",
+          "text": "Fa dues setmanes que diu que ve."
+        },
+        {
+          "sender": "Clara",
+          "text": "La setmana passada va dir que havia estat ací."
+        },
+        {
+          "sender": "Carlos",
+          "text": "Doncs jo no el vaig veure."
+        },
+        {
+          "sender": "Clara",
+          "text": "Jo tampoc."
+        },
+        {
+          "sender": "Carlos",
+          "text": "Igual va vindre quan estàvem reunits."
+        },
+        {
+          "sender": "Clara",
+          "text": "Supose."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_decoracion_cambiada",
+      "with": "Marta Romero",
+      "messages": [
+        {
+          "sender": "Clara",
+          "text": "He canviat la decoració de recepció."
+        },
+        {
+          "sender": "Marta",
+          "text": "Què has canviat?"
+        },
+        {
+          "sender": "Clara",
+          "text": "He mogut la planta i el quadre."
+        },
+        {
+          "sender": "Marta",
+          "text": "Juraria que sempre han estat allí."
+        },
+        {
+          "sender": "Clara",
+          "text": "Doncs no."
+        },
+        {
+          "sender": "Clara",
+          "text": "Este matí els he canviat."
+        },
+        {
+          "sender": "Marta",
+          "text": "Què estrany..."
+        },
+        {
+          "sender": "Marta",
+          "text": "Els recordava exactament igual."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_limpieza_acceso_archivo",
+      "with": "Empresa de Neteja",
+      "messages": [
+        {
+          "sender": "Neteja",
+          "text": "Bon dia. Podem accedir esta vesprada a les oficines?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Sí, a partir de les 18:30."
+        },
+        {
+          "sender": "Neteja",
+          "text": "També a l'Arxiu?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Això ho hauria d'autoritzar el director."
+        },
+        {
+          "sender": "Neteja",
+          "text": "Com sempre."
+        },
+        {
+          "sender": "Clara",
+          "text": "Sí, les normes són prou estrictes."
+        }
+      ]
+    },
+    {
+      "id": "recepcion_ana_gafas",
+      "with": "Laura López",
+      "messages": [
+        {
+          "sender": "Laura",
+          "text": "Has vist les meues ulleres?"
+        },
+        {
+          "sender": "Clara",
+          "text": "Les negres?"
+        },
+        {
+          "sender": "Laura",
+          "text": "Sí."
+        },
+        {
+          "sender": "Clara",
+          "text": "Les portes posades."
+        },
+        {
+          "sender": "Laura",
+          "text": "..."
+        },
+        {
+          "sender": "Laura",
+          "text": "Faré veure que això no ha passat."
+        },
+        {
+          "sender": "Clara",
+          "text": "Tracte fet jajaj"
+        }
+      ]
+    }
+  ],
+        "files": [
+            {
+                "name": "Employee_List.xlsx",
+                "document_id": "employee_registry_v2"
+            },
+            {
+                "name": "Employee_List_OLD.xlsx",
+                "document_id": "employee_registry_v1"
+            },
+            {
+                "name": "Reception_Manual.pdf",
+                "document_id": "reception_manual"
+            },
+            {
+                "name": "Visitor_Protocol.pdf",
+                "document_id": "visitor_protocol"
+            },
+            {
+                "name": "Meeting_Room_Bookings.xlsx",
+                "document_id": "meeting_bookings"
+            },
+            {
+                "name": "Emergency_Contacts.xlsx",
+                "document_id": "emergency_contacts"
+            },
+            {
+                "name": "Suppliers.xlsx",
+                "document_id": "suppliers"
+            },
+            {
+                "name": "Office_Map.png",
+                "document_id": "office_map"
+            },
+            {
+                "name": "Office_Layout_v1.pdf",
+                "document_id": "office_layout_old"
+            },
+            {
+                "name": "Office_Layout_v2.pdf",
+                "document_id": "office_layout_new"
+            },
+            {
+                "name": "Organisation_Chart_v1.pdf",
+                "document_id": "organisation_chart_old"
+            },
+            {
+                "name": "Organisation_Chart_v2.pdf",
+                "document_id": "organisation_chart_new"
+            },
+            {
+                "name": "Reception_Checklist.docx",
+                "document_id": "reception_checklist"
+            },
+            {
+                "name": "Morning_Tasks.docx",
+                "document_id": "morning_tasks"
+            },
+            {
+                "name": "Employee_Photos.zip",
+                "document_id": "employee_photos"
+            },
+            {
+                "name": "Office_Photos.zip",
+                "document_id": "office_photos"
+            },
+            {
+                "name": "Employee_Seating.pdf",
+                "document_id": "employee_seating"
+            },
+            {
+                "name": "Building_Evacuation.pdf",
+                "document_id": "evacuation_plan"
+            },
+            {
+                "name": "Reception_Log_2024.xlsx",
+                "document_id": "reception_log"
+            },
+            {
+                "name": "Maintenance_History.pdf",
+                "document_id": "maintenance_history"
+            },
+            {
+                "name": "Reception_Checklist_v2.docx",
+                "document_id": "reception_checklist_v2"
+            },
+            {
+                "name": "Employee_List_PRINT.pdf",
+                "document_id": "employee_list_print"
+            },
+            {
+                "name": "Building_Map.pdf",
+                "document_id": "building_map"
+            },
+            {
+                "name": "Meeting_Room_Reservations.xlsx",
+                "document_id": "meeting_room_reservations"
+            },
+            {
+                "name": "Reception_Log_Old.xlsx",
+                "document_id": "reception_log_old"
+            },
+            {
+                "name": "Reception_Log_Current.xlsx",
+                "document_id": "reception_log_current"
+            }
+        ]
+    }
+}

@@ -1,0 +1,4357 @@
+{
+  "meeting_agenda": {
+    "template": "meeting",
+    "title": "Management Meeting Agenda",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Agenda"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Approval of previous meeting minutes",
+          "Quarterly financial review",
+          "Office reorganisation progress",
+          "Archive digitisation update",
+          "Staffing review",
+          "Open discussion"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Meeting Information"
+      },
+      {
+        "type": "paragraph",
+        "text": "Date: 14 September. Time: 09:00. Location: Main Conference Room. Duration: approximately 90 minutes."
+      },
+      {
+        "type": "heading",
+        "text": "Preparation"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Bring departmental reports.",
+          "Review the Q3 budget draft.",
+          "Prepare feedback regarding archive relocation.",
+          "Confirm attendance before 08:30."
+        ]
+      }
+    ]
+  },
+  "meeting_notes": {
+    "template": "meeting",
+    "title": "Meeting Notes",
+    "author": "Administration",
+    "revision": "1.1",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "General Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "The meeting started on schedule. Finance presented the latest expenditure forecast while Human Resources confirmed that the current recruitment process remains paused until further notice."
+      },
+      {
+        "type": "paragraph",
+        "text": "Facilities reported that the archive clean-up is progressing more slowly than expected because several cabinets still contain unclassified historical material."
+      },
+      {
+        "type": "heading",
+        "text": "Discussion"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Review archive inventory.",
+          "Replace outdated organisation charts.",
+          "Confirm employee registry before publication.",
+          "Prepare final Q3 presentation."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "One personnel record was mentioned briefly during the discussion but postponed until the next management meeting due to incomplete documentation."
+      }
+    ]
+  },
+  "meeting_attendees": {
+    "template": "spreadsheet",
+    "title": "Meeting Attendees",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "table",
+        "headers": [
+          "Name",
+          "Department",
+          "Attendance"
+        ],
+        "rows": [
+          [
+            "Sarah K.",
+            "Management",
+            "Present"
+          ],
+          [
+            "Daniel P.",
+            "Finance",
+            "Present"
+          ],
+          [
+            "Laura L.",
+            "Human Resources",
+            "Present"
+          ],
+          [
+            "Oliver M.",
+            "Facilities",
+            "Present"
+          ],
+          [
+            "James R.",
+            "IT",
+            "Remote"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Attendance confirmed by Administration before the meeting started."
+      }
+    ]
+  },
+  "meeting_minutes_previous": {
+    "template": "meeting",
+    "title": "Previous Meeting Minutes",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Summary"
+      },
+      {
+        "type": "paragraph",
+        "text": "The previous meeting focused on budget adjustments, archive organisation and departmental planning for the next quarter."
+      },
+      {
+        "type": "heading",
+        "text": "Decisions"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Approve archive inventory project.",
+          "Delay office refurbishment until Q4.",
+          "Review employee documentation before publication.",
+          "Prepare updated organisational charts."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Pending Items"
+      },
+      {
+        "type": "paragraph",
+        "text": "One employee-related matter remained unresolved because supporting documentation could not be located before the meeting concluded."
+      }
+    ]
+  },
+  "meeting_recording_notes": {
+    "template": "meeting",
+    "title": "Meeting Recording Notes",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Recording Review"
+      },
+      {
+        "type": "paragraph",
+        "text": "The recording quality is generally acceptable. Background noise is present during the first ten minutes due to maintenance work in the corridor."
+      },
+      {
+        "type": "paragraph",
+        "text": "Two short fragments are missing from the recording because the microphone was muted while documents were being exchanged."
+      },
+      {
+        "type": "heading",
+        "text": "Topics Confirmed"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Budget revisions",
+          "Archive inventory",
+          "Office relocation schedule",
+          "Department staffing",
+          "Document retention policy"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "During playback, one participant references an employee list that does not match the printed copy distributed before the meeting. The discussion continues without requesting clarification."
+      },
+      {
+        "type": "paragraph",
+        "text": "Action: preserve the original recording together with the written minutes."
+      }
+    ]
+  },
+  "meeting_01": {
+    "template": "meeting",
+    "title": "Management Meeting 01",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Opening"
+      },
+      {
+        "type": "paragraph",
+        "text": "Quarterly planning meeting covering operational objectives, budget preparation and archive maintenance."
+      },
+      {
+        "type": "heading",
+        "text": "Main Decisions"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Approve office supply budget.",
+          "Begin archive inventory.",
+          "Review historical contracts.",
+          "Update employee registry."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Administration will prepare revised documentation before the next meeting."
+      }
+    ]
+  },
+  "meeting_02": {
+    "template": "meeting",
+    "title": "Management Meeting 02",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Budget Review"
+      },
+      {
+        "type": "paragraph",
+        "text": "Finance presented the preliminary Q3 forecast. No major deviations were identified."
+      },
+      {
+        "type": "heading",
+        "text": "Archive"
+      },
+      {
+        "type": "paragraph",
+        "text": "Several storage cabinets contain duplicate folders dating back more than ten years. Management approved a review before disposal."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Department",
+          "Status"
+        ],
+        "rows": [
+          [
+            "Finance",
+            "Completed"
+          ],
+          [
+            "HR",
+            "Pending"
+          ],
+          [
+            "Facilities",
+            "In Progress"
+          ],
+          [
+            "IT",
+            "Completed"
+          ]
+        ]
+      }
+    ]
+  },
+  "meeting_03": {
+    "template": "meeting",
+    "title": "Management Meeting 03",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Registry Review"
+      },
+      {
+        "type": "paragraph",
+        "text": "Human Resources reported small differences between the draft employee registry and the historical registry archived last year."
+      },
+      {
+        "type": "paragraph",
+        "text": "The discrepancies are believed to be the result of previous formatting changes and are not considered operationally significant."
+      },
+      {
+        "type": "heading",
+        "text": "Actions"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Compare archived registry.",
+          "Verify organisation chart.",
+          "Publish corrected employee list."
+        ]
+      }
+    ]
+  },
+  "meeting_04": {
+    "template": "meeting",
+    "title": "Management Meeting 04",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Operational Review"
+      },
+      {
+        "type": "paragraph",
+        "text": "Facilities completed the inventory of cabinets A through F. Cabinet G remains locked pending authorisation."
+      },
+      {
+        "type": "paragraph",
+        "text": "No explanation was recorded regarding why cabinet G was excluded from previous inventories."
+      },
+      {
+        "type": "heading",
+        "text": "Follow-up"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Request archive access.",
+          "Update inventory map.",
+          "Review retained documents.",
+          "Confirm document access log."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The meeting concluded after confirming that the cabinet would remain sealed until the archive review was complete."
+      }
+    ]
+  },
+  "meeting_05": {
+    "template": "meeting",
+    "title": "Management Meeting 05",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Archive Progress Update"
+      },
+      {
+        "type": "paragraph",
+        "text": "The archive review has progressed according to schedule. Several historical documents have been classified and transferred to the digital inventory."
+      },
+      {
+        "type": "heading",
+        "text": "Discussion Points"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Review old contracts.",
+          "Confirm document ownership.",
+          "Check access permissions.",
+          "Update archive index."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Administration noted that some documents reference departments that no longer exist under the current organisation structure."
+      },
+      {
+        "type": "paragraph",
+        "text": "The matter was postponed until the new organisation chart was approved."
+      }
+    ]
+  },
+  "meeting_06": {
+    "template": "meeting",
+    "title": "Management Meeting 06",
+    "author": "Administration",
+    "revision": "1.1",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Organisation Review"
+      },
+      {
+        "type": "paragraph",
+        "text": "Management reviewed the proposed organisational changes for the following quarter."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Area",
+          "Previous Status",
+          "New Status"
+        ],
+        "rows": [
+          [
+            "Finance",
+            "Independent",
+            "Unchanged"
+          ],
+          [
+            "Human Resources",
+            "Centralised",
+            "Under Review"
+          ],
+          [
+            "Archive",
+            "Manual",
+            "Digital Transition"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Pending Approval"
+      },
+      {
+        "type": "paragraph",
+        "text": "The updated organisation chart requires final confirmation before distribution."
+      }
+    ]
+  },
+  "meeting_07": {
+    "template": "meeting",
+    "title": "Management Meeting 07",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Documentation Review"
+      },
+      {
+        "type": "paragraph",
+        "text": "Departments confirmed that current documentation is mostly aligned with the approved procedures."
+      },
+      {
+        "type": "paragraph",
+        "text": "A comparison between previous reports and current templates identified several documents created using outdated formats."
+      },
+      {
+        "type": "heading",
+        "text": "Actions"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Replace outdated templates.",
+          "Archive previous versions.",
+          "Restrict editing permissions.",
+          "Record future document changes."
+        ]
+      }
+    ]
+  },
+  "meeting_08": {
+    "template": "meeting",
+    "title": "Management Meeting 08",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Quarter Closing"
+      },
+      {
+        "type": "paragraph",
+        "text": "The final quarterly review focused on budget closure, document organisation and preparation of the executive presentation."
+      },
+      {
+        "type": "heading",
+        "text": "Confirmed Items"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Approve Q3 financial report.",
+          "Distribute updated presentation.",
+          "Complete archive documentation.",
+          "Review remaining employee records."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The meeting concluded with a reminder that all historical documentation must remain accessible for future audits."
+      }
+    ]
+  },
+  "budget_draft": {
+    "template": "spreadsheet",
+    "title": "Budget Draft",
+    "author": "Finance Department",
+    "revision": "0.8",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Budget Overview"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Category",
+          "Estimated",
+          "Actual",
+          "Difference"
+        ],
+        "rows": [
+          [
+            "Office Operations",
+            "85000",
+            "82000",
+            "-3000"
+          ],
+          [
+            "Technology",
+            "45000",
+            "47000",
+            "+2000"
+          ],
+          [
+            "Staffing",
+            "210000",
+            "208000",
+            "-2000"
+          ],
+          [
+            "Archive Project",
+            "25000",
+            "31000",
+            "+6000"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Archive-related costs exceeded the initial estimate due to additional classification work and the discovery of undocumented material requiring review."
+      },
+      {
+        "type": "paragraph",
+        "text": "This draft remains pending approval and should not be distributed outside Finance."
+      }
+    ]
+  },
+  "budget_q3": {
+    "template": "spreadsheet",
+    "title": "Q3 Budget Report",
+    "author": "Finance Department",
+    "revision": "1.2",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Quarterly Financial Overview"
+      },
+      {
+        "type": "paragraph",
+        "text": "This document contains the revised financial overview for the third quarter. The figures have been reviewed by Finance and compared against the initial budget draft submitted at the beginning of the planning period."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Department",
+          "Allocated Budget",
+          "Spent",
+          "Remaining",
+          "Status"
+        ],
+        "rows": [
+          [
+            "Operations",
+            "85000",
+            "82000",
+            "3000",
+            "Completed"
+          ],
+          [
+            "Technology",
+            "45000",
+            "47000",
+            "-2000",
+            "Over Budget"
+          ],
+          [
+            "Human Resources",
+            "210000",
+            "208000",
+            "2000",
+            "Completed"
+          ],
+          [
+            "Facilities",
+            "35000",
+            "39000",
+            "-4000",
+            "Review Required"
+          ],
+          [
+            "Archive Project",
+            "25000",
+            "31000",
+            "-6000",
+            "Review Required"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Financial Observations"
+      },
+      {
+        "type": "paragraph",
+        "text": "The archive project exceeded the original forecast due to additional labour requirements. During the classification process, several groups of historical documents required manual review before being transferred to the digital archive."
+      },
+      {
+        "type": "paragraph",
+        "text": "Technology expenses increased slightly due to replacement hardware and additional storage requirements associated with document preservation."
+      },
+      {
+        "type": "heading",
+        "text": "Approval Notes"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Finance approval completed.",
+          "Management review pending.",
+          "Final presentation update required.",
+          "Archive costs must be explained in executive summary."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "This document replaces the previous budget draft. Previous versions must remain archived according to document retention policy."
+      }
+    ]
+  },
+  "meeting_template": {
+    "template": "template",
+    "title": "Meeting Template",
+    "author": "Administration",
+    "revision": "3.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Meeting Information"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Field",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Date",
+            "[Insert date]"
+          ],
+          [
+            "Location",
+            "[Insert location]"
+          ],
+          [
+            "Chairperson",
+            "[Insert name]"
+          ],
+          [
+            "Participants",
+            "[Insert attendees]"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Objectives"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Define meeting goals.",
+          "Review previous actions.",
+          "Document decisions.",
+          "Assign responsibilities."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Discussion Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Use this section to record relevant discussions, decisions and additional observations."
+      },
+      {
+        "type": "heading",
+        "text": "Action Register"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Action",
+          "Responsible",
+          "Deadline",
+          "Status"
+        ],
+        "rows": [
+          [
+            "[Action]",
+            "[Person]",
+            "[Date]",
+            "[Status]"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Document Control"
+      },
+      {
+        "type": "paragraph",
+        "text": "All completed meeting records must be stored according to the internal document management procedure."
+      }
+    ]
+  },
+  "decision_template": {
+    "template": "template",
+    "title": "Decision Template",
+    "author": "Management Office",
+    "revision": "2.1",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Decision Record"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Field",
+          "Information"
+        ],
+        "rows": [
+          [
+            "Decision ID",
+            "[Insert ID]"
+          ],
+          [
+            "Date",
+            "[Insert date]"
+          ],
+          [
+            "Owner",
+            "[Insert owner]"
+          ],
+          [
+            "Department",
+            "[Insert department]"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Background"
+      },
+      {
+        "type": "paragraph",
+        "text": "Describe the reason for the decision and provide sufficient context for future reviewers."
+      },
+      {
+        "type": "heading",
+        "text": "Decision"
+      },
+      {
+        "type": "paragraph",
+        "text": "Record the approved action, rejected alternatives and any restrictions associated with the decision."
+      },
+      {
+        "type": "heading",
+        "text": "Review Requirements"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Confirm implementation.",
+          "Update related documentation.",
+          "Notify affected departments.",
+          "Archive supporting evidence."
+        ]
+      }
+    ]
+  },
+  "internal_report_template": {
+    "template": "report",
+    "title": "Internal Report Template",
+    "author": "Management Office",
+    "revision": "1.5",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Report Summary"
+      },
+      {
+        "type": "paragraph",
+        "text": "This template provides the standard structure for internal reports requiring review, approval and archival."
+      },
+      {
+        "type": "heading",
+        "text": "Executive Summary"
+      },
+      {
+        "type": "paragraph",
+        "text": "[Insert summary of findings, risks and recommended actions.]"
+      },
+      {
+        "type": "heading",
+        "text": "Findings"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "[Finding one]",
+          "[Finding two]",
+          "[Finding three]"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Recommendations"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Recommendation",
+          "Priority",
+          "Owner"
+        ],
+        "rows": [
+          [
+            "[Recommendation]",
+            "[High/Medium/Low]",
+            "[Owner]"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Document History"
+      },
+      {
+        "type": "paragraph",
+        "text": "Previous versions must be retained when modifications affect conclusions, approvals or responsibilities."
+      }
+    ]
+  },
+  "pending_tasks": {
+    "template": "tasks",
+    "title": "Pending Tasks",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Open Items"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Task",
+          "Department",
+          "Priority",
+          "Status"
+        ],
+        "rows": [
+          [
+            "Verify employee registry versions",
+            "HR",
+            "High",
+            "Pending"
+          ],
+          [
+            "Complete archive inventory",
+            "Facilities",
+            "High",
+            "In Progress"
+          ],
+          [
+            "Review old organisation chart",
+            "Management",
+            "Medium",
+            "Pending"
+          ],
+          [
+            "Replace outdated templates",
+            "Administration",
+            "Low",
+            "Pending"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Additional Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Some tasks remain open because they depend on information stored in historical documentation. The responsible departments have been instructed not to discard previous records until the review is complete."
+      },
+      {
+        "type": "paragraph",
+        "text": "The archive review should be considered the priority item before the next management cycle."
+      }
+    ]
+  },
+  "employee_list_draft": {
+    "template": "spreadsheet",
+    "title": "Employee List Draft",
+    "author": "Human Resources",
+    "revision": "0.6",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Draft Employee Directory"
+      },
+      {
+        "type": "paragraph",
+        "text": "This document contains the preliminary version of the employee directory prepared for internal review. It has not yet been approved for distribution and may contain incomplete information."
+      },
+      {
+        "type": "heading",
+        "text": "Employee Records"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Employee ID",
+          "Name",
+          "Department",
+          "Position",
+          "Status"
+        ],
+        "rows": [
+          [
+            "EMP-001",
+            "Sarah K.",
+            "Management",
+            "Operations Manager",
+            "Active"
+          ],
+          [
+            "EMP-002",
+            "Daniel P.",
+            "Finance",
+            "Financial Analyst",
+            "Active"
+          ],
+          [
+            "EMP-003",
+            "Laura L.",
+            "Human Resources",
+            "HR Specialist",
+            "Active"
+          ],
+          [
+            "EMP-004",
+            "Oliver M.",
+            "Facilities",
+            "Facilities Coordinator",
+            "Active"
+          ],
+          [
+            "EMP-005",
+            "James R.",
+            "IT",
+            "Systems Administrator",
+            "Active"
+          ],
+          [
+            "EMP-006",
+            "M. R.",
+            "Operations",
+            "Project Coordinator",
+            "Review Required"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Review Notes"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Verify employee identifiers against historical registry.",
+          "Confirm department assignments after organisation update.",
+          "Review incomplete personnel documentation.",
+          "Do not publish until approval is received."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Outstanding Questions"
+      },
+      {
+        "type": "paragraph",
+        "text": "One record requires additional verification because the current department assignment does not match the previous organisational documentation."
+      },
+      {
+        "type": "paragraph",
+        "text": "The employee identifier remains valid, but supporting information could not be confirmed during the first review."
+      },
+      {
+        "type": "heading",
+        "text": "Revision History"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Version",
+          "Date",
+          "Change"
+        ],
+        "rows": [
+          [
+            "0.4",
+            "05 Sep",
+            "Initial compilation"
+          ],
+          [
+            "0.5",
+            "08 Sep",
+            "Updated departments"
+          ],
+          [
+            "0.6",
+            "12 Sep",
+            "Added review comments"
+          ]
+        ]
+      }
+    ]
+  },
+  "employee_registry_v1": {
+    "template": "spreadsheet",
+    "title": "Employee Registry Version 1",
+    "author": "Human Resources",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Official Employee Registry"
+      },
+      {
+        "type": "paragraph",
+        "text": "This registry represents the approved employee records following the annual documentation review. It was prepared according to the employee management procedure."
+      },
+      {
+        "type": "heading",
+        "text": "Active Employees"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "ID",
+          "Employee",
+          "Department",
+          "Start Date",
+          "Status"
+        ],
+        "rows": [
+          [
+            "EMP-001",
+            "Sarah K.",
+            "Management",
+            "2016",
+            "Active"
+          ],
+          [
+            "EMP-002",
+            "Daniel P.",
+            "Finance",
+            "2018",
+            "Active"
+          ],
+          [
+            "EMP-003",
+            "Laura L.",
+            "Human Resources",
+            "2017",
+            "Active"
+          ],
+          [
+            "EMP-004",
+            "Oliver M.",
+            "Facilities",
+            "2019",
+            "Active"
+          ],
+          [
+            "EMP-005",
+            "James R.",
+            "IT",
+            "2020",
+            "Active"
+          ],
+          [
+            "EMP-006",
+            "M. R.",
+            "Operations",
+            "2015",
+            "Archived Review"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Registry Observations"
+      },
+      {
+        "type": "paragraph",
+        "text": "The registry was compiled from previous employee records, department documentation and approved organisational information."
+      },
+      {
+        "type": "paragraph",
+        "text": "During validation, one historical reference could not be matched with current department structures. The record was retained pending further clarification."
+      },
+      {
+        "type": "heading",
+        "text": "Validation Checklist"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Employee identifiers checked.",
+          "Department assignments reviewed.",
+          "Employment status confirmed.",
+          "Historical references compared."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Internal Comment"
+      },
+      {
+        "type": "paragraph",
+        "text": "Future versions should preserve previous identifiers even when organisational changes affect department names."
+      }
+    ]
+  },
+  "employee_registry_v2": {
+    "template": "spreadsheet",
+    "title": "Employee Registry Version 2",
+    "author": "Human Resources",
+    "revision": "2.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Updated Employee Registry"
+      },
+      {
+        "type": "paragraph",
+        "text": "This version replaces the previous employee registry after the organisational restructuring process. Several fields have been updated to reflect current departmental assignments."
+      },
+      {
+        "type": "heading",
+        "text": "Current Records"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "ID",
+          "Employee",
+          "Department",
+          "Position",
+          "Verification"
+        ],
+        "rows": [
+          [
+            "EMP-001",
+            "Sarah K.",
+            "Management",
+            "Operations Manager",
+            "Verified"
+          ],
+          [
+            "EMP-002",
+            "Daniel P.",
+            "Finance",
+            "Financial Analyst",
+            "Verified"
+          ],
+          [
+            "EMP-003",
+            "Laura L.",
+            "Human Resources",
+            "HR Specialist",
+            "Verified"
+          ],
+          [
+            "EMP-004",
+            "Oliver M.",
+            "Facilities",
+            "Facilities Coordinator",
+            "Verified"
+          ],
+          [
+            "EMP-005",
+            "James R.",
+            "IT",
+            "Systems Administrator",
+            "Verified"
+          ],
+          [
+            "EMP-006",
+            "M. R.",
+            "Operations",
+            "Not Assigned",
+            "Requires Review"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Changes From Previous Version"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Field",
+          "Previous",
+          "Current"
+        ],
+        "rows": [
+          [
+            "Department Structure",
+            "Previous Organisation",
+            "New Organisation"
+          ],
+          [
+            "Document References",
+            "Mixed",
+            "Updated"
+          ],
+          [
+            "EMP-006 Assignment",
+            "Operations Coordinator",
+            "Not Assigned"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "HR Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "The EMP-006 record remains active in historical documentation but cannot currently be assigned to a department using available records."
+      },
+      {
+        "type": "paragraph",
+        "text": "Previous documentation references this employee in relation to operational projects and management meetings. Supporting records should be reviewed before any modification is made."
+      },
+      {
+        "type": "heading",
+        "text": "Approval Status"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Management review completed.",
+          "HR approval pending.",
+          "Archive references retained.",
+          "Previous registry preserved."
+        ]
+      }
+    ]
+  },
+  "employee_history": {
+    "template": "report",
+    "title": "Employee History Archive",
+    "author": "Human Resources",
+    "revision": "1.4",
+    "classification": "Confidential - Internal Use",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Purpose of This Document"
+      },
+      {
+        "type": "paragraph",
+        "text": "This document provides a historical overview of employee records maintained by Human Resources. It consolidates information from previous registries, organisational documents and archived administrative files."
+      },
+      {
+        "type": "paragraph",
+        "text": "The document exists to preserve historical accuracy during organisational changes and should not be considered a replacement for the current employee registry."
+      },
+      {
+        "type": "heading",
+        "text": "Registry Timeline"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Period",
+          "Document Source",
+          "Status",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "2015-2017",
+            "Original HR Records",
+            "Archived",
+            "Initial employee documentation"
+          ],
+          [
+            "2018",
+            "Employee Registry v1",
+            "Approved",
+            "Annual review completed"
+          ],
+          [
+            "2020",
+            "Department Update Records",
+            "Approved",
+            "Organisation changes introduced"
+          ],
+          [
+            "2023",
+            "Employee Registry v2",
+            "Current",
+            "Pending historical verification"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Historical Employee Entries"
+      },
+      {
+        "type": "paragraph",
+        "text": "The following entries represent employees and associated records that have appeared throughout previous versions of internal documentation."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Identifier",
+          "Reference",
+          "First Appearance",
+          "Current Status"
+        ],
+        "rows": [
+          [
+            "EMP-001",
+            "Management records",
+            "2016",
+            "Active"
+          ],
+          [
+            "EMP-002",
+            "Finance records",
+            "2018",
+            "Active"
+          ],
+          [
+            "EMP-003",
+            "HR records",
+            "2017",
+            "Active"
+          ],
+          [
+            "EMP-004",
+            "Facilities records",
+            "2019",
+            "Active"
+          ],
+          [
+            "EMP-005",
+            "IT records",
+            "2020",
+            "Active"
+          ],
+          [
+            "EMP-006",
+            "Operational records",
+            "2015",
+            "Requires Review"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "EMP-006 Historical Review"
+      },
+      {
+        "type": "paragraph",
+        "text": "The EMP-006 record appears consistently across multiple historical documents. The employee was associated with operational activities, internal coordination and several management-related tasks."
+      },
+      {
+        "type": "paragraph",
+        "text": "The available documentation confirms that the identifier existed and was actively used. However, later records contain incomplete information regarding department assignment and current administrative status."
+      },
+      {
+        "type": "heading",
+        "text": "Document Comparison"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Source",
+          "EMP-006 Reference",
+          "Observation"
+        ],
+        "rows": [
+          [
+            "Employee Registry v1",
+            "Listed",
+            "Department assigned"
+          ],
+          [
+            "Employee Registry v2",
+            "Listed",
+            "Department unavailable"
+          ],
+          [
+            "Meeting Records",
+            "Referenced",
+            "Participation mentioned"
+          ],
+          [
+            "Organisation Documents",
+            "Indirect reference",
+            "Requires verification"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Administrative Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Several documents indicate that historical records should be preserved even when current systems no longer contain complete information. Previous versions must not be deleted or replaced without approval."
+      },
+      {
+        "type": "paragraph",
+        "text": "Human Resources has retained copies of earlier registries due to differences found during comparison procedures."
+      },
+      {
+        "type": "heading",
+        "text": "Open Questions"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Confirm final department assignment.",
+          "Review archived project documentation.",
+          "Compare meeting attendance records.",
+          "Verify organisational references.",
+          "Document any approved changes."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Revision History"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Version",
+          "Date",
+          "Modification"
+        ],
+        "rows": [
+          [
+            "1.0",
+            "Initial Creation",
+            "Historical records compiled"
+          ],
+          [
+            "1.2",
+            "Archive Review",
+            "Additional references included"
+          ],
+          [
+            "1.4",
+            "HR Audit",
+            "Comparison notes added"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "End of document. Distribution restricted to authorised personnel."
+      }
+    ]
+  },
+  "organisation_chart_old": {
+    "template": "report",
+    "title": "Organisation Chart Old",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Organisation Structure - Previous Version"
+      },
+      {
+        "type": "paragraph",
+        "text": "This document represents the approved organisational structure before the latest internal restructuring process."
+      },
+      {
+        "type": "paragraph",
+        "text": "The chart was maintained by the Management Office and used as a reference for reporting lines, department responsibilities and internal approvals."
+      },
+      {
+        "type": "heading",
+        "text": "Executive Structure"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Area",
+          "Responsible",
+          "Reports To"
+        ],
+        "rows": [
+          [
+            "Management",
+            "Sarah K.",
+            "Executive Office"
+          ],
+          [
+            "Finance",
+            "Daniel P.",
+            "Management"
+          ],
+          [
+            "Human Resources",
+            "Laura L.",
+            "Management"
+          ],
+          [
+            "Facilities",
+            "Oliver M.",
+            "Management"
+          ],
+          [
+            "IT",
+            "James R.",
+            "Management"
+          ],
+          [
+            "Operations",
+            "M. R.",
+            "Management"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Department Responsibilities"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Finance manages budgets, forecasts and financial approvals.",
+          "Human Resources maintains employee records and documentation.",
+          "Facilities manages office operations and physical archives.",
+          "IT manages systems and technical infrastructure.",
+          "Operations coordinates cross-department projects."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Historical Note"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Operations coordination role was considered essential during several internal projects and was included in all previous organisational references."
+      },
+      {
+        "type": "heading",
+        "text": "Document Control"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Version",
+          "Status"
+        ],
+        "rows": [
+          [
+            "1.0",
+            "Superseded"
+          ]
+        ]
+      }
+    ]
+  },
+  "organisation_chart_current": {
+    "template": "report",
+    "title": "Organisation Chart Current",
+    "author": "Management Office",
+    "revision": "2.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Current Organisation Structure"
+      },
+      {
+        "type": "paragraph",
+        "text": "This document represents the currently approved organisational structure following the restructuring process."
+      },
+      {
+        "type": "heading",
+        "text": "Current Departments"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Area",
+          "Responsible",
+          "Status"
+        ],
+        "rows": [
+          [
+            "Management",
+            "Sarah K.",
+            "Active"
+          ],
+          [
+            "Finance",
+            "Daniel P.",
+            "Active"
+          ],
+          [
+            "Human Resources",
+            "Laura L.",
+            "Active"
+          ],
+          [
+            "Facilities",
+            "Oliver M.",
+            "Active"
+          ],
+          [
+            "IT",
+            "James R.",
+            "Active"
+          ],
+          [
+            "Operations",
+            "Unassigned",
+            "Under Review"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Structural Changes"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Operations responsibilities redistributed.",
+          "Previous coordination role removed from active structure.",
+          "Project documentation transferred to departments.",
+          "Historical records retained."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Management Comment"
+      },
+      {
+        "type": "paragraph",
+        "text": "The removal of the Operations coordination position reflects the current organisational model. Historical documents should continue to reference previous structures when required."
+      },
+      {
+        "type": "heading",
+        "text": "Approval Information"
+      },
+      {
+        "type": "paragraph",
+        "text": "Approved by Management Office. Supporting documentation stored in the archive section."
+      }
+    ]
+  },
+  "organisation_backup": {
+    "template": "report",
+    "title": "Organisation Backup",
+    "author": "Management Office",
+    "revision": "1.5",
+    "classification": "Internal Archive",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Backup Copy"
+      },
+      {
+        "type": "paragraph",
+        "text": "This file was retained during the transition between previous and current organisational structures."
+      },
+      {
+        "type": "heading",
+        "text": "Archived Structure"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Department",
+          "Previous Owner",
+          "Transition Status"
+        ],
+        "rows": [
+          [
+            "Finance",
+            "Daniel P.",
+            "Unchanged"
+          ],
+          [
+            "Human Resources",
+            "Laura L.",
+            "Unchanged"
+          ],
+          [
+            "Operations",
+            "M. R.",
+            "Transferred"
+          ],
+          [
+            "Archive Coordination",
+            "M. R.",
+            "Integrated"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Backup Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "This backup contains information removed from the final published version. It was preserved because several departments continued referencing the previous structure during the transition period."
+      },
+      {
+        "type": "paragraph",
+        "text": "No deletion request was recorded for this file."
+      },
+      {
+        "type": "heading",
+        "text": "Access History"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Created during restructuring.",
+          "Reviewed by Management.",
+          "Transferred to archive storage."
+        ]
+      }
+    ]
+  },
+  "old_organisation_notes": {
+    "template": "report",
+    "title": "Old Organisation Notes",
+    "author": "Management Office",
+    "revision": "0.9",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Restructuring Preparation Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "These notes were prepared before the organisational update. They contain preliminary observations and should be compared with the final approved structure."
+      },
+      {
+        "type": "heading",
+        "text": "Main Topics"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Reduce duplicated responsibilities.",
+          "Improve document ownership.",
+          "Clarify reporting lines.",
+          "Review historical assignments."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Operations Review"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Operations coordination role requires special consideration because several ongoing projects depend on historical knowledge and previous documentation."
+      },
+      {
+        "type": "paragraph",
+        "text": "The transition plan should ensure that project references remain understandable after structural changes."
+      },
+      {
+        "type": "heading",
+        "text": "Final Reminder"
+      },
+      {
+        "type": "paragraph",
+        "text": "Previous organisational documents must be preserved. Removing historical references may affect future audits and document interpretation."
+      }
+    ]
+  },
+  "contracts_registry": {
+    "template": "spreadsheet",
+    "title": "Contracts Registry",
+    "author": "Archive Department",
+    "revision": "2.3",
+    "classification": "Internal Archive",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Contract Registry Overview"
+      },
+      {
+        "type": "paragraph",
+        "text": "This registry contains a historical index of contracts stored in the company archive. The purpose of the document is to provide traceability between physical documents and digital references."
+      },
+      {
+        "type": "heading",
+        "text": "Registered Documents"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Reference",
+          "Category",
+          "Year",
+          "Location",
+          "Status"
+        ],
+        "rows": [
+          [
+            "CTR-001",
+            "Supplier Agreement",
+            "2016",
+            "Archive Cabinet A",
+            "Available"
+          ],
+          [
+            "CTR-002",
+            "Technology Services",
+            "2018",
+            "Archive Cabinet B",
+            "Available"
+          ],
+          [
+            "CTR-003",
+            "Facilities Agreement",
+            "2019",
+            "Archive Cabinet C",
+            "Available"
+          ],
+          [
+            "CTR-004",
+            "Operations Support",
+            "2015",
+            "Archive Cabinet G",
+            "Review Required"
+          ],
+          [
+            "CTR-005",
+            "Internal Services",
+            "2017",
+            "Unknown",
+            "Verification Pending"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Registry Observations"
+      },
+      {
+        "type": "paragraph",
+        "text": "Several older references were created before the current document classification system was introduced. These entries should remain unchanged until the archive migration is complete."
+      },
+      {
+        "type": "paragraph",
+        "text": "CTR-004 requires additional review because its location corresponds to a cabinet excluded from previous inventory reports."
+      },
+      {
+        "type": "heading",
+        "text": "Retention Policy"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Do not destroy historical contracts.",
+          "Preserve original identifiers.",
+          "Record all archive movements.",
+          "Maintain access history."
+        ]
+      }
+    ]
+  },
+  "archive_index": {
+    "template": "report",
+    "title": "Archive Index",
+    "author": "Archive Department",
+    "revision": "4.1",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Archive Classification Index"
+      },
+      {
+        "type": "paragraph",
+        "text": "This document provides the classification structure used for historical company records. It was created to support the archive digitisation project."
+      },
+      {
+        "type": "heading",
+        "text": "Archive Areas"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Section",
+          "Description",
+          "Status"
+        ],
+        "rows": [
+          [
+            "A",
+            "Financial Records",
+            "Complete"
+          ],
+          [
+            "B",
+            "Contracts",
+            "Complete"
+          ],
+          [
+            "C",
+            "Human Resources",
+            "Review Pending"
+          ],
+          [
+            "D",
+            "Management Documents",
+            "Complete"
+          ],
+          [
+            "G",
+            "Historical Material",
+            "Restricted"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Classification Rules"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "All documents require an identifier.",
+          "Previous versions must be retained.",
+          "Unknown ownership documents require review.",
+          "Restricted sections require approval."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Archive Notice"
+      },
+      {
+        "type": "paragraph",
+        "text": "Section G remains restricted because several documents stored there were created before current classification procedures existed."
+      },
+      {
+        "type": "paragraph",
+        "text": "Access should only be granted after confirmation from Management."
+      }
+    ]
+  },
+  "historical_records": {
+    "template": "report",
+    "title": "Historical Records Report",
+    "author": "Archive Department",
+    "revision": "1.8",
+    "classification": "Internal Archive",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Historical Documentation Review"
+      },
+      {
+        "type": "paragraph",
+        "text": "This report summarises findings from the historical documentation review performed during the archive organisation project."
+      },
+      {
+        "type": "heading",
+        "text": "Reviewed Categories"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Employee records.",
+          "Organisation documents.",
+          "Financial documentation.",
+          "Contracts.",
+          "Meeting records."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Key Findings"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Finding",
+          "Impact",
+          "Action"
+        ],
+        "rows": [
+          [
+            "Duplicate records",
+            "Medium",
+            "Compare versions"
+          ],
+          [
+            "Missing references",
+            "High",
+            "Search archive"
+          ],
+          [
+            "Outdated structures",
+            "Medium",
+            "Preserve history"
+          ],
+          [
+            "Unknown ownership",
+            "High",
+            "Management review"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The review identified multiple cases where current documentation does not fully explain previous organisational decisions."
+      },
+      {
+        "type": "paragraph",
+        "text": "The recommendation is to preserve all historical records until a complete audit has been performed."
+      }
+    ]
+  },
+  "historical_archive_guide": {
+    "template": "manual",
+    "title": "Historical Archive Guide",
+    "author": "Archive Department",
+    "revision": "2.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Purpose"
+      },
+      {
+        "type": "paragraph",
+        "text": "This guide explains procedures for accessing and reviewing historical archive material."
+      },
+      {
+        "type": "heading",
+        "text": "Access Procedure"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Request archive access.",
+          "Record visitor information.",
+          "Confirm document references.",
+          "Return documents after review."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Restricted Material"
+      },
+      {
+        "type": "paragraph",
+        "text": "Certain historical records may contain outdated organisational information. These records should be interpreted together with current documentation."
+      },
+      {
+        "type": "heading",
+        "text": "Important Reminder"
+      },
+      {
+        "type": "paragraph",
+        "text": "Historical records are evidence of previous company structures and must not be altered to match current organisational models."
+      }
+    ]
+  },
+  "archive_room_map": {
+    "template": "report",
+    "title": "Archive Room Map",
+    "author": "Facilities",
+    "revision": "1.1",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Archive Storage Layout"
+      },
+      {
+        "type": "paragraph",
+        "text": "This document describes the physical organisation of archive storage areas."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Area",
+          "Contents",
+          "Access"
+        ],
+        "rows": [
+          [
+            "Cabinet A",
+            "Financial Records",
+            "Standard"
+          ],
+          [
+            "Cabinet B",
+            "Contracts",
+            "Standard"
+          ],
+          [
+            "Cabinet C",
+            "Facilities",
+            "Standard"
+          ],
+          [
+            "Cabinet D",
+            "Management",
+            "Restricted"
+          ],
+          [
+            "Cabinet G",
+            "Historical Documents",
+            "Restricted"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Maintenance Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cabinet G was not included in the previous public inventory map. Its existence was confirmed during the archive review process."
+      },
+      {
+        "type": "paragraph",
+        "text": "Access requires confirmation from the Archive Department."
+      }
+    ]
+  },
+  "presentation_old": {
+    "template": "presentation",
+    "title": "Quarterly Review Presentation OLD",
+    "author": "Management Office",
+    "revision": "0.9",
+    "classification": "Internal Draft",
+    "content": [
+      {
+        "type": "slide",
+        "title": "Quarterly Review",
+        "body": [
+          "Internal management presentation.",
+          "Prepared for quarterly operational review.",
+          "Draft version - not approved for distribution."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Agenda",
+        "body": [
+          "Financial performance.",
+          "Operational changes.",
+          "Archive project status.",
+          "Organisation review.",
+          "Pending documentation issues."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Financial Overview",
+        "body": [
+          "Overall budget performance remains within expected limits.",
+          "Some operational areas exceeded initial estimates.",
+          "Archive-related costs increased due to additional review requirements."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Archive Project",
+        "body": [
+          "Digitisation process started successfully.",
+          "Historical documentation requires additional classification.",
+          "Several records do not match current organisational structures.",
+          "Further review recommended before disposal decisions."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Organisation Changes",
+        "body": [
+          "Department responsibilities have been updated.",
+          "Previous structures remain available in archived documentation.",
+          "Historical references should be preserved."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Open Questions",
+        "body": [
+          "Employee registry differences.",
+          "Historical department references.",
+          "Unclassified archive material.",
+          "Pending management decisions."
+        ]
+      }
+    ]
+  },
+  "presentation_q3_final": {
+    "template": "presentation",
+    "title": "Q3 Final Presentation",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "slide",
+        "title": "Q3 Executive Review",
+        "body": [
+          "Summary of quarterly performance.",
+          "Prepared for management distribution."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Financial Results",
+        "body": [
+          "Budget performance reviewed.",
+          "Minor deviations identified.",
+          "Corrective actions implemented."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Operational Improvements",
+        "body": [
+          "Improved document management procedures.",
+          "Updated internal workflows.",
+          "Archive organisation progressing."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Organisation Update",
+        "body": [
+          "New structure implemented.",
+          "Responsibilities redistributed.",
+          "Transition completed."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Next Steps",
+        "body": [
+          "Continue digital archive project.",
+          "Complete remaining documentation updates.",
+          "Review future improvements."
+        ]
+      }
+    ]
+  },
+  "presentation_q3_final_v2": {
+    "template": "presentation",
+    "title": "Q3 Final Presentation Version 2",
+    "author": "Management Office",
+    "revision": "1.5",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "slide",
+        "title": "Q3 Business Review",
+        "body": [
+          "Updated version following management feedback.",
+          "Adjusted emphasis on operational achievements."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Financial Overview",
+        "body": [
+          "Quarter completed successfully.",
+          "Archive project required additional resources.",
+          "Additional investment approved."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Archive Progress",
+        "body": [
+          "Historical documentation review continues.",
+          "Document classification improving.",
+          "Physical archive reduction postponed."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Human Resources Update",
+        "body": [
+          "Employee documentation review completed.",
+          "Registry updated following organisational changes.",
+          "Historical records preserved."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Management Notes",
+        "body": [
+          "Avoid presenting unresolved historical documentation issues.",
+          "Focus communication on completed actions."
+        ]
+      }
+    ]
+  },
+  "presentation_q3_final_v3": {
+    "template": "presentation",
+    "title": "Q3 Final Presentation USE THIS",
+    "author": "Management Office",
+    "revision": "2.0",
+    "classification": "Approved",
+    "content": [
+      {
+        "type": "slide",
+        "title": "Q3 Executive Summary",
+        "body": [
+          "Quarter completed according to strategic objectives.",
+          "Operational improvements successfully implemented."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Financial Performance",
+        "body": [
+          "Budget objectives achieved.",
+          "Resource allocation adjusted where necessary.",
+          "Future planning approved."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Process Improvements",
+        "body": [
+          "Document procedures updated.",
+          "Internal workflows improved.",
+          "Archive digitisation progressing."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Organisational Structure",
+        "body": [
+          "Current organisation model established.",
+          "Department responsibilities clarified.",
+          "Historical documentation maintained separately."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Future Actions",
+        "body": [
+          "Complete archive transition.",
+          "Maintain documentation standards.",
+          "Continue operational improvements."
+        ]
+      },
+      {
+        "type": "slide",
+        "title": "Final Note",
+        "body": [
+          "This presentation represents the approved management communication version.",
+          "Previous drafts must remain archived."
+        ]
+      }
+    ]
+  },
+  "printer_manual": {
+    "template": "manual",
+    "title": "Printer Manual",
+    "author": "IT Department",
+    "revision": "2.4",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Office Printer Operation Guide"
+      },
+      {
+        "type": "paragraph",
+        "text": "This manual provides operating instructions for the main office printer system. It includes basic operation, maintenance procedures and troubleshooting information."
+      },
+      {
+        "type": "heading",
+        "text": "Equipment Information"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Field",
+          "Information"
+        ],
+        "rows": [
+          [
+            "Location",
+            "Main Office - Floor 2"
+          ],
+          [
+            "Responsible Department",
+            "IT"
+          ],
+          [
+            "Maintenance",
+            "Scheduled quarterly"
+          ],
+          [
+            "Access",
+            "Employees with credentials"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Common Issues"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Paper replacement.",
+          "Network connection problems.",
+          "Authentication errors.",
+          "Maintenance warnings."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Maintenance History"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Date",
+          "Action",
+          "Responsible"
+        ],
+        "rows": [
+          [
+            "January",
+            "Routine inspection",
+            "IT"
+          ],
+          [
+            "March",
+            "Network update",
+            "IT"
+          ],
+          [
+            "June",
+            "Relocation check",
+            "Facilities"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The printer location was reviewed during the office organisation update. Any future relocation should be recorded through Facilities."
+      }
+    ]
+  },
+  "coffee_machine_manual": {
+    "template": "manual",
+    "title": "Coffee Machine Manual",
+    "author": "Facilities Department",
+    "revision": "1.2",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Break Room Equipment Guide"
+      },
+      {
+        "type": "paragraph",
+        "text": "This document provides instructions for operation and maintenance of the office coffee machine."
+      },
+      {
+        "type": "heading",
+        "text": "Equipment Details"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Item",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Location",
+            "Break Room"
+          ],
+          [
+            "Owner",
+            "Facilities"
+          ],
+          [
+            "Maintenance Frequency",
+            "Monthly"
+          ],
+          [
+            "Supplier",
+            "Office Services"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Maintenance Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "During the office reorganisation process, equipment locations were reviewed to ensure updated facilities documentation."
+      },
+      {
+        "type": "paragraph",
+        "text": "Previous location references may still appear in older meeting notes."
+      },
+      {
+        "type": "heading",
+        "text": "Service Records"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Month",
+          "Action"
+        ],
+        "rows": [
+          [
+            "January",
+            "Cleaning"
+          ],
+          [
+            "April",
+            "Filter replacement"
+          ],
+          [
+            "July",
+            "General inspection"
+          ]
+        ]
+      }
+    ]
+  },
+  "emergency_plan": {
+    "template": "manual",
+    "title": "Emergency Plan",
+    "author": "Facilities Department",
+    "revision": "3.0",
+    "classification": "Internal Safety Document",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Office Emergency Procedures"
+      },
+      {
+        "type": "paragraph",
+        "text": "This document describes emergency procedures, evacuation responsibilities and communication requirements."
+      },
+      {
+        "type": "heading",
+        "text": "Emergency Responsibilities"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Area",
+          "Responsible",
+          "Backup"
+        ],
+        "rows": [
+          [
+            "Main Floor",
+            "Facilities",
+            "Management"
+          ],
+          [
+            "Archive Area",
+            "Archive Department",
+            "Facilities"
+          ],
+          [
+            "Technical Systems",
+            "IT",
+            "Management"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Archive Area Instructions"
+      },
+      {
+        "type": "paragraph",
+        "text": "Historical documents stored in restricted areas should only be moved when authorised personnel are available."
+      },
+      {
+        "type": "paragraph",
+        "text": "Emergency relocation of documents must be recorded after the event."
+      },
+      {
+        "type": "heading",
+        "text": "Review History"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Version",
+          "Change"
+        ],
+        "rows": [
+          [
+            "2.0",
+            "Updated evacuation routes"
+          ],
+          [
+            "3.0",
+            "Added archive procedures"
+          ]
+        ]
+      }
+    ]
+  },
+  "meeting_tasks": {
+    "template": "tasks",
+    "title": "Meeting Tasks Register",
+    "author": "Administration",
+    "revision": "2.1",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Open Meeting Actions"
+      },
+      {
+        "type": "paragraph",
+        "text": "This document tracks actions generated during management meetings and departmental reviews."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Task",
+          "Source",
+          "Owner",
+          "Status"
+        ],
+        "rows": [
+          [
+            "Review employee registry differences",
+            "Meeting 05",
+            "HR",
+            "Pending"
+          ],
+          [
+            "Compare organisation charts",
+            "Meeting 06",
+            "Management",
+            "Completed"
+          ],
+          [
+            "Update archive index",
+            "Meeting 07",
+            "Archive",
+            "In Progress"
+          ],
+          [
+            "Prepare final presentation",
+            "Meeting 08",
+            "Management",
+            "Completed"
+          ]
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Additional Comments"
+      },
+      {
+        "type": "paragraph",
+        "text": "Several actions depend on historical documentation review. Teams were instructed to preserve previous versions until final validation."
+      },
+      {
+        "type": "heading",
+        "text": "Priority Items"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Complete archive verification.",
+          "Confirm employee records.",
+          "Review remaining restricted documents."
+        ]
+      }
+    ]
+  },
+  "meeting_ideas": {
+    "template": "notes",
+    "title": "Meeting Ideas",
+    "author": "Administration",
+    "revision": "0.5",
+    "classification": "Internal Draft",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Future Meeting Topics"
+      },
+      {
+        "type": "paragraph",
+        "text": "This document contains informal suggestions collected before future management meetings."
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Review archive improvements.",
+          "Discuss documentation standards.",
+          "Improve version control.",
+          "Clarify department responsibilities."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Discussion Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "A recurring suggestion was creating a single source of truth for organisational documents while still preserving historical versions."
+      },
+      {
+        "type": "paragraph",
+        "text": "Several participants highlighted that previous decisions were difficult to understand when older documentation was unavailable."
+      },
+      {
+        "type": "heading",
+        "text": "Future Considerations"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Improve archive search.",
+          "Document approval decisions.",
+          "Maintain revision history."
+        ]
+      }
+    ]
+  },
+  "company_logo": {
+    "template": "image",
+    "title": "Company Logo",
+    "author": "Corporate Communications",
+    "source": "misc/Company Logo.png",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "description",
+        "text": "Official company logo used for internal documents, presentations and corporate materials."
+      }
+    ]
+  },
+  "new_folder_zip": {
+    "template": "archive",
+    "title": "New Folder Archive",
+    "author": "Unknown",
+    "source": "misc/New Folder.zip",
+    "revision": "1.0",
+    "classification": "Unclassified",
+    "content": [
+      {
+        "type": "description",
+        "text": "Compressed archive containing previously grouped documents. Contents require verification before classification."
+      },
+      {
+        "type": "paragraph",
+        "text": "The archive was found without complete metadata and should be reviewed during document classification."
+      }
+    ]
+  },
+  "office_photo_2018": {
+    "template": "image",
+    "title": "Office Photo 2018",
+    "author": "Administration",
+    "source": "photos/Office Photo 2018.jpg",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "description",
+        "text": "Photograph showing office facilities during 2018. Useful for historical comparison of workspace organisation."
+      }
+    ]
+  },
+  "team_photo": {
+    "template": "image",
+    "title": "Team Photo",
+    "author": "Human Resources",
+    "source": "photos/Team Photo.jpg",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "description",
+        "text": "Internal team photograph maintained as part of company historical records."
+      }
+    ]
+  },
+  "document_access_log": {
+    "template": "spreadsheet",
+    "title": "Document Access Log",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Recent Access Records"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Date",
+          "Document",
+          "User",
+          "Action"
+        ],
+        "rows": [
+          [
+            "12 September",
+            "Historical Records",
+            "Miguel Ruiz",
+            "Viewed"
+          ],
+          [
+            "13 September",
+            "Organisation Chart Old",
+            "Laura López",
+            "Copied"
+          ],
+          [
+            "14 September",
+            "Employee Registry Previous",
+            "Miguel Ruiz",
+            "Viewed"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Historical documents are subject to restricted access. Original records must not be removed without authorisation."
+      }
+    ]
+  },
+  "archive_cleanup_proposal": {
+    "template": "report",
+    "title": "Archive Cleanup Proposal",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Purpose"
+      },
+      {
+        "type": "paragraph",
+        "text": "Proposal to reduce duplicate material while preserving historical documentation required for audits and internal review."
+      },
+      {
+        "type": "heading",
+        "text": "Recommendation"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Identify duplicate copies.",
+          "Do not destroy originals.",
+          "Obtain Management approval before disposal.",
+          "Record every document removed from active storage."
+        ]
+      }
+    ]
+  },
+  "rejected_proposal": {
+    "template": "report",
+    "title": "Rejected Proposal",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Status"
+      },
+      {
+        "type": "paragraph",
+        "text": "Proposal rejected after management review."
+      },
+      {
+        "type": "heading",
+        "text": "Reason"
+      },
+      {
+        "type": "paragraph",
+        "text": "The proposal would remove historical documentation whose context and previous versions may still be required."
+      },
+      {
+        "type": "paragraph",
+        "text": "Instruction: retain the original material until the archive review is formally closed."
+      }
+    ]
+  },
+  "employee_evaluations": {
+    "template": "report",
+    "title": "Employee Evaluations",
+    "author": "Human Resources",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Personnel Review"
+      },
+      {
+        "type": "paragraph",
+        "text": "Internal employee evaluations and historical performance records."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Employee",
+          "Department",
+          "Review Status"
+        ],
+        "rows": [
+          [
+            "Marta Romero",
+            "Human Resources",
+            "Complete"
+          ],
+          [
+            "Laura López",
+            "Administration",
+            "Complete"
+          ],
+          [
+            "Carlos Vega",
+            "Finance",
+            "Complete"
+          ],
+          [
+            "Clara Pérez",
+            "Reception",
+            "Complete"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Original evaluations must remain in the personnel archive and may only be removed with Management authorisation."
+      }
+    ]
+  },
+  "interview_report": {
+    "template": "report",
+    "title": "Interview Report",
+    "author": "Human Resources",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Interview Summary"
+      },
+      {
+        "type": "paragraph",
+        "text": "Internal interview report prepared for Management review."
+      },
+      {
+        "type": "heading",
+        "text": "Observation"
+      },
+      {
+        "type": "paragraph",
+        "text": "The report contains references to previous organisational arrangements and supporting documentation."
+      },
+      {
+        "type": "paragraph",
+        "text": "Final approval remains with Miguel Ruiz."
+      }
+    ]
+  },
+  "company_policies": {
+    "template": "report",
+    "title": "Company Policies",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Document Retention"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Historical records must remain accessible.",
+          "Original documents must not be discarded without authorisation.",
+          "Previous versions should be retained when changes affect responsibilities or approvals."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Document Control"
+      },
+      {
+        "type": "paragraph",
+        "text": "Management is responsible for final approval of internal documentation."
+      }
+    ]
+  },
+  "employee_registry_current": {
+    "template": "spreadsheet",
+    "title": "Employee Registry Current",
+    "author": "Human Resources",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Current Employee Registry"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Name",
+          "Department",
+          "Position"
+        ],
+        "rows": [
+          [
+            "Clara Pérez",
+            "Reception",
+            "Reception"
+          ],
+          [
+            "Miguel Ruiz",
+            "Management",
+            "Director"
+          ],
+          [
+            "Marta Romero",
+            "Human Resources",
+            "HR"
+          ],
+          [
+            "Carlos Vega",
+            "Finance",
+            "Finance"
+          ],
+          [
+            "Laura López",
+            "Administration",
+            "Administration"
+          ]
+        ]
+      }
+    ]
+  },
+  "employee_registry_previous": {
+    "template": "spreadsheet",
+    "title": "Employee Registry Previous",
+    "author": "Human Resources",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Previous Employee Registry"
+      },
+      {
+        "type": "paragraph",
+        "text": "Archived version retained for comparison with the current registry."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Name",
+          "Department",
+          "Position"
+        ],
+        "rows": [
+          [
+            "Clara Pérez",
+            "Reception",
+            "Reception"
+          ],
+          [
+            "Miguel Ruiz",
+            "Management",
+            "Director"
+          ],
+          [
+            "Marta Romero",
+            "Human Resources",
+            "HR"
+          ],
+          [
+            "Carlos Vega",
+            "Finance",
+            "Finance"
+          ],
+          [
+            "Laura López",
+            "Administration",
+            "Administration"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Keep this version available when investigating historical organisational changes."
+      }
+    ]
+  },
+  "internal_reorganisation": {
+    "template": "report",
+    "title": "Internal Reorganisation",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Reorganisation Review"
+      },
+      {
+        "type": "paragraph",
+        "text": "Internal changes affected reporting lines and departmental responsibilities."
+      },
+      {
+        "type": "heading",
+        "text": "Documentation"
+      },
+      {
+        "type": "paragraph",
+        "text": "Both the previous and current organisation structures should be retained because they describe different points in the company's history."
+      },
+      {
+        "type": "paragraph",
+        "text": "Final confirmation was issued by Management."
+      }
+    ]
+  },
+  "management_meeting_minutes": {
+    "template": "meeting",
+    "title": "Management Meeting Minutes",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Summary"
+      },
+      {
+        "type": "paragraph",
+        "text": "Management reviewed archive organisation, employee documentation and the updated organisation chart."
+      },
+      {
+        "type": "heading",
+        "text": "Decisions"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Retain historical documentation.",
+          "Compare current and previous registries.",
+          "Review archive access records.",
+          "Approve updated organisational documentation."
+        ]
+      }
+    ]
+  },
+  "director_agenda": {
+    "template": "meeting",
+    "title": "Director Agenda",
+    "author": "Miguel Ruiz",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Morning Agenda"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Review pending documentation.",
+          "Sign committee minutes.",
+          "Review archive requests.",
+          "Meet with management team at 09:00."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Several historical documents require the Director's review before further action."
+      }
+    ]
+  },
+  "executive_approvals": {
+    "template": "report",
+    "title": "Executive Approvals",
+    "author": "Miguel Ruiz",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Approved Items"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Q3 budget review.",
+          "Archive documentation policy.",
+          "Updated management documentation."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Final approval for internal documentation remains with the Director."
+      }
+    ]
+  },
+  "company_organisation": {
+    "template": "report",
+    "title": "Company Organisation",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Current Structure"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Department",
+          "Responsible"
+        ],
+        "rows": [
+          [
+            "Management",
+            "Miguel Ruiz"
+          ],
+          [
+            "Human Resources",
+            "Marta Romero"
+          ],
+          [
+            "Finance",
+            "Carlos Vega"
+          ],
+          [
+            "Administration",
+            "Laura López"
+          ],
+          [
+            "Reception",
+            "Clara Pérez"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Historical versions of the organisation should be retained for reference."
+      }
+    ]
+  },
+  "signed_reports": {
+    "template": "report",
+    "title": "Signed Reports",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Signed Documents"
+      },
+      {
+        "type": "paragraph",
+        "text": "Collection of approved internal reports, authorisations and contract renewals."
+      },
+      {
+        "type": "paragraph",
+        "text": "Documents are signed and archived. Previous versions remain subject to the retention policy."
+      }
+    ]
+  },
+  "management_directory": {
+    "template": "spreadsheet",
+    "title": "Management Directory",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Internal Directory"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Name",
+          "Role",
+          "Extension"
+        ],
+        "rows": [
+          [
+            "Miguel Ruiz",
+            "Director",
+            "201"
+          ],
+          [
+            "Marta Romero",
+            "Human Resources",
+            "203"
+          ],
+          [
+            "Carlos Vega",
+            "Finance",
+            "205"
+          ],
+          [
+            "Laura López",
+            "Administration",
+            "107"
+          ],
+          [
+            "Clara Pérez",
+            "Reception",
+            "101"
+          ]
+        ]
+      }
+    ]
+  },
+  "board_minutes": {
+    "template": "meeting",
+    "title": "Board Minutes",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Meeting Summary"
+      },
+      {
+        "type": "paragraph",
+        "text": "The board reviewed company organisation, document retention and management responsibilities."
+      },
+      {
+        "type": "paragraph",
+        "text": "The board requested that historical documentation remain accessible for future review."
+      }
+    ]
+  },
+  "committee_minutes": {
+    "template": "meeting",
+    "title": "Committee Minutes",
+    "author": "Secretariat",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Committee Meeting"
+      },
+      {
+        "type": "paragraph",
+        "text": "The committee reviewed pending approvals and documentation requiring the Director's signature."
+      },
+      {
+        "type": "paragraph",
+        "text": "One item remained pending until Miguel Ruiz completed the final approval."
+      }
+    ]
+  },
+  "director_signatures": {
+    "template": "report",
+    "title": "Director Signatures",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Signature Reference"
+      },
+      {
+        "type": "paragraph",
+        "text": "Reference examples of authorised signatures used to validate internal documents."
+      },
+      {
+        "type": "paragraph",
+        "text": "Use this record only for document verification. Original signed documents remain in the archive."
+      }
+    ]
+  },
+  "archive_guidelines": {
+    "template": "report",
+    "title": "Archive Guidelines",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Archive Procedure"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Keep historical originals.",
+          "Do not create duplicate originals.",
+          "Check historical numbering before creating a new record.",
+          "Ask Management before moving restricted documents."
+        ]
+      }
+    ]
+  },
+  "historical_index": {
+    "template": "spreadsheet",
+    "title": "Historical Index",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Historical Document Index"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Category",
+          "Location",
+          "Status"
+        ],
+        "rows": [
+          [
+            "Employee records",
+            "Archive",
+            "Retained"
+          ],
+          [
+            "Contracts",
+            "Archive",
+            "Retained"
+          ],
+          [
+            "Organisation",
+            "Archive",
+            "Multiple versions"
+          ],
+          [
+            "Management records",
+            "Director's Office",
+            "Restricted"
+          ]
+        ]
+      }
+    ]
+  },
+  "executive_approvals_2024": {
+    "template": "report",
+    "title": "Executive Approvals 2024",
+    "author": "Miguel Ruiz",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Approvals"
+      },
+      {
+        "type": "paragraph",
+        "text": "Collection of executive approvals issued during 2024."
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Archive review approved.",
+          "Historical documentation retention confirmed.",
+          "Updated organisational documentation approved."
+        ]
+      }
+    ]
+  },
+  "director_notes": {
+    "template": "text",
+    "title": "Director Notes",
+    "author": "Miguel Ruiz",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Notes"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Review archive request.",
+          "Check previous organisation chart.",
+          "Ask Laura about historical records.",
+          "Keep original documentation accessible."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Some older records may contain information that is no longer reflected in current documentation."
+      }
+    ]
+  },
+  "presentation_2022": {
+    "template": "presentation",
+    "title": "Presentation 2022",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Company Overview"
+      },
+      {
+        "type": "paragraph",
+        "text": "Earlier company structure and operational priorities."
+      },
+      {
+        "type": "heading",
+        "text": "Organisation"
+      },
+      {
+        "type": "paragraph",
+        "text": "Historical presentation showing the organisation before later internal changes."
+      }
+    ]
+  },
+  "presentation_2023": {
+    "template": "presentation",
+    "title": "Presentation 2023",
+    "author": "Management Office",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Annual Review"
+      },
+      {
+        "type": "paragraph",
+        "text": "Company performance, staffing and organisational changes during the year."
+      },
+      {
+        "type": "paragraph",
+        "text": "This presentation predates the current organisation chart."
+      }
+    ]
+  },
+  "reception_manual": {
+    "template": "report",
+    "title": "Reception Manual",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Reception Procedures"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Register visitors.",
+          "Prepare meeting rooms.",
+          "Manage deliveries.",
+          "Contact the appropriate department when a historical file cannot be located."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "For unresolved historical-document requests, contact Administration or the Director."
+      }
+    ]
+  },
+  "visitor_protocol": {
+    "template": "report",
+    "title": "Visitor Protocol",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Visitor Procedure"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Record visitor details.",
+          "Prepare the visitor badge.",
+          "Confirm the host.",
+          "Notify Reception when the visitor arrives."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Visitors requesting restricted company documentation must be referred to Management."
+      }
+    ]
+  },
+  "meeting_bookings": {
+    "template": "spreadsheet",
+    "title": "Meeting Room Bookings",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Bookings"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Time",
+          "Room",
+          "Purpose",
+          "Host"
+        ],
+        "rows": [
+          [
+            "08:30",
+            "Meeting Room A",
+            "Preparation",
+            "Miguel Ruiz"
+          ],
+          [
+            "09:00",
+            "Meeting Room A",
+            "Weekly Management Meeting",
+            "Miguel Ruiz"
+          ],
+          [
+            "10:15",
+            "Meeting Room A",
+            "Internal Meeting",
+            "Marta Romero"
+          ]
+        ]
+      }
+    ]
+  },
+  "emergency_contacts": {
+    "template": "spreadsheet",
+    "title": "Emergency Contacts",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Internal Contacts"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Service",
+          "Extension"
+        ],
+        "rows": [
+          [
+            "Reception",
+            "101"
+          ],
+          [
+            "Director",
+            "201"
+          ],
+          [
+            "IT Support",
+            "301"
+          ],
+          [
+            "Security",
+            "399"
+          ]
+        ]
+      }
+    ]
+  },
+  "suppliers": {
+    "template": "spreadsheet",
+    "title": "Suppliers",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Regular Suppliers"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Supplier",
+          "Service"
+        ],
+        "rows": [
+          [
+            "Vending Solutions S.L.",
+            "Vending"
+          ],
+          [
+            "Printer Maintenance",
+            "Printers"
+          ],
+          [
+            "Cleaning Company",
+            "Cleaning"
+          ]
+        ]
+      }
+    ]
+  },
+  "office_map": {
+    "template": "image",
+    "title": "Office Map",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Building Areas"
+      },
+      {
+        "type": "paragraph",
+        "text": "Reception, Archive, Meeting Room and Director's Office are connected through the main office corridor."
+      }
+    ]
+  },
+  "office_layout_old": {
+    "template": "report",
+    "title": "Office Layout v1",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Previous Layout"
+      },
+      {
+        "type": "paragraph",
+        "text": "Historical office layout showing the previous arrangement of reception, archive and meeting spaces."
+      },
+      {
+        "type": "paragraph",
+        "text": "Retained for comparison with the current layout."
+      }
+    ]
+  },
+  "office_layout_new": {
+    "template": "report",
+    "title": "Office Layout v2",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Current Layout"
+      },
+      {
+        "type": "paragraph",
+        "text": "Current office layout showing reception, archive, meeting room and Director's Office."
+      },
+      {
+        "type": "paragraph",
+        "text": "This version supersedes the previous layout for daily operations."
+      }
+    ]
+  },
+  "organisation_chart_new": {
+    "template": "report",
+    "title": "Organisation Chart v2",
+    "author": "Administration",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Updated Organisation"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Area",
+          "Responsible"
+        ],
+        "rows": [
+          [
+            "Management",
+            "Miguel Ruiz"
+          ],
+          [
+            "Human Resources",
+            "Marta Romero"
+          ],
+          [
+            "Finance",
+            "Carlos Vega"
+          ],
+          [
+            "Administration",
+            "Laura López"
+          ],
+          [
+            "Reception",
+            "Clara Pérez"
+          ]
+        ]
+      }
+    ]
+  },
+  "reception_checklist": {
+    "template": "tasks",
+    "title": "Reception Checklist",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Morning Checklist"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Open reception.",
+          "Check deliveries.",
+          "Prepare visitor badges.",
+          "Confirm meeting room booking.",
+          "Check pending archive requests."
+        ]
+      }
+    ]
+  },
+  "morning_tasks": {
+    "template": "tasks",
+    "title": "Morning Tasks",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Tasks"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Print interview documents.",
+          "Test visitor badge printer.",
+          "Call printer maintenance.",
+          "Confirm meeting room preparation.",
+          "Review archive requests."
+        ]
+      }
+    ]
+  },
+  "employee_photos": {
+    "template": "archive",
+    "title": "Employee Photos",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Photo Archive"
+      },
+      {
+        "type": "paragraph",
+        "text": "Collection of employee photographs retained for internal identification and historical records."
+      },
+      {
+        "type": "paragraph",
+        "text": "Some photographs are older and may show previous team arrangements."
+      }
+    ]
+  },
+  "office_photos": {
+    "template": "archive",
+    "title": "Office Photos",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Office Photo Archive"
+      },
+      {
+        "type": "paragraph",
+        "text": "Photographs documenting office spaces and previous layouts."
+      },
+      {
+        "type": "paragraph",
+        "text": "Older images should be retained when comparing historical office organisation."
+      }
+    ]
+  },
+  "employee_seating": {
+    "template": "spreadsheet",
+    "title": "Employee Seating",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Meeting Seating"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Seat",
+          "Employee"
+        ],
+        "rows": [
+          [
+            "1",
+            "Miguel Ruiz"
+          ],
+          [
+            "2",
+            "Marta Romero"
+          ],
+          [
+            "3",
+            "Carlos Vega"
+          ],
+          [
+            "4",
+            "Laura López"
+          ],
+          [
+            "5",
+            "Clara Pérez"
+          ]
+        ]
+      }
+    ]
+  },
+  "evacuation_plan": {
+    "template": "report",
+    "title": "Building Evacuation Plan",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Emergency Procedure"
+      },
+      {
+        "type": "paragraph",
+        "text": "Follow marked evacuation routes and report to the designated assembly area."
+      },
+      {
+        "type": "paragraph",
+        "text": "Emergency exits are monitored and their use is recorded by the building security system."
+      }
+    ]
+  },
+  "reception_log": {
+    "template": "spreadsheet",
+    "title": "Reception Log 2024",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Daily Log"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Time",
+          "Event",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "08:15",
+            "Delivery",
+            "Routine"
+          ],
+          [
+            "08:30",
+            "Candidate interview",
+            "Meeting Room A"
+          ],
+          [
+            "08:45",
+            "Courier",
+            "Collection"
+          ],
+          [
+            "09:00",
+            "Management meeting",
+            "Meeting Room A"
+          ]
+        ]
+      }
+    ]
+  },
+  "maintenance_history": {
+    "template": "report",
+    "title": "Maintenance History",
+    "author": "Facilities",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Recent Maintenance"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Lighting replacement completed.",
+          "Air conditioning repaired.",
+          "Locks inspected.",
+          "Fire extinguishers reviewed."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "No unresolved maintenance issue is currently recorded."
+      }
+    ]
+  },
+  "reception_checklist_v2": {
+    "template": "tasks",
+    "title": "Reception Checklist v2",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Updated Checklist"
+      },
+      {
+        "type": "bullet_list",
+        "items": [
+          "Open reception.",
+          "Verify visitor forms.",
+          "Prepare badges.",
+          "Check meeting room reservations.",
+          "Review pending documentation requests."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "This version replaces the previous reception checklist."
+      }
+    ]
+  },
+  "employee_list_print": {
+    "template": "report",
+    "title": "Employee List PRINT",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Employee Directory"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Name",
+          "Department",
+          "Extension"
+        ],
+        "rows": [
+          [
+            "Clara Pérez",
+            "Reception",
+            "101"
+          ],
+          [
+            "Miguel Ruiz",
+            "Director",
+            "201"
+          ],
+          [
+            "Marta Romero",
+            "Human Resources",
+            "203"
+          ],
+          [
+            "Carlos Vega",
+            "Finance",
+            "205"
+          ],
+          [
+            "Laura López",
+            "Administration",
+            "107"
+          ]
+        ]
+      }
+    ]
+  },
+  "building_map": {
+    "template": "image",
+    "title": "Building Map",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Main Areas"
+      },
+      {
+        "type": "paragraph",
+        "text": "The building directory identifies Reception, Archive, Meeting Room, Director's Office and Storage."
+      }
+    ]
+  },
+  "meeting_room_reservations": {
+    "template": "spreadsheet",
+    "title": "Meeting Room Reservations",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Reservations"
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Time",
+          "Room",
+          "Reservation"
+        ],
+        "rows": [
+          [
+            "08:30-09:00",
+            "Meeting Room A",
+            "Preparation"
+          ],
+          [
+            "09:00-10:00",
+            "Meeting Room A",
+            "Weekly Management Meeting"
+          ],
+          [
+            "10:15-10:30",
+            "Meeting Room A",
+            "Internal meeting"
+          ]
+        ]
+      }
+    ]
+  },
+  "reception_log_old": {
+    "template": "spreadsheet",
+    "title": "Reception Log Old",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Historical Reception Log"
+      },
+      {
+        "type": "paragraph",
+        "text": "Archived reception log retained for comparison with current records."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Time",
+          "Event"
+        ],
+        "rows": [
+          [
+            "08:30",
+            "Interview"
+          ],
+          [
+            "09:00",
+            "Management meeting"
+          ],
+          [
+            "09:20",
+            "Archive inventory"
+          ]
+        ]
+      }
+    ]
+  },
+  "reception_log_current": {
+    "template": "spreadsheet",
+    "title": "Reception Log Current",
+    "author": "Reception",
+    "revision": "1.0",
+    "classification": "Internal",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Current Reception Log"
+      },
+      {
+        "type": "paragraph",
+        "text": "Current daily reception activity log."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Time",
+          "Event"
+        ],
+        "rows": [
+          [
+            "08:15",
+            "Delivery"
+          ],
+          [
+            "08:30",
+            "Candidate interview"
+          ],
+          [
+            "09:00",
+            "Management meeting"
+          ],
+          [
+            "09:20",
+            "Archive inventory"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,27 +1,27 @@
-MEETING IDEAS
-=============
+IDEAS PARA REUNIONES
+====================
 
-FUTURE MEETING TOPICS
-=====================
+TEMAS DE REUNIONES FUTURAS
+==========================
 
-This document contains informal suggestions collected before future management meetings.
+Este documento contiene sugerencias informales recopiladas antes de futuras reuniones de gestión.
 
-• Review archive improvements.
-• Discuss documentation standards.
-• Improve version control.
-• Clarify department responsibilities.
+• Revisar las mejoras del archivo.
+• Discutir los estándares de documentación.
+• Mejorar el control de versiones.
+• Aclarar las responsabilidades del departamento.
 
-DISCUSSION NOTES
-================
+NOTAS DE DISCUSIÓN
+==================
 
-A recurring suggestion was creating a single source of truth for organisational documents while still preserving historical versions.
+Una sugerencia recurrente fue crear una fuente única de verdad para los documentos organizacionales y al mismo tiempo preservar las versiones históricas.
 
-Several participants highlighted that previous decisions were difficult to understand when older documentation was unavailable.
+Varios participantes destacaron que las decisiones anteriores eran difíciles de entender cuando no se disponía de documentación más antigua.
 
-FUTURE CONSIDERATIONS
-=====================
+CONSIDERACIONES FUTURAS
+=======================
 
-• Improve archive search.
-• Document approval decisions.
-• Maintain revision history.
+• Mejorar la búsqueda de archivos.
+• Decisiones de aprobación de documentos.
+• Mantener el historial de revisiones.
 
